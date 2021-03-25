@@ -1,0 +1,1 @@
+- Elegimos incluir la distribuidora para enriquecer los datos de las peliculas con la información de ambas páginas
