@@ -1,29 +1,30 @@
 from dataclasses import dataclass
-from dataclasses_json import dataclasses_json
-from typing import list
+from dataclasses_json import dataclass_json
+from typing import List
 
 
-@dataclasses_json
+@dataclass_json
 @dataclass
 class Funcion:
     cine: str
     sala: str
     idioma: str
-    horarios: list[str]
+    horarios: List[str]
 
 
-@dataclasses_json
+@dataclass_json
 @dataclass
 class Pelicula:
     cine_fuente: str
     titulo: str
-    genero: list[str]
-    origen: list[str]
+    genero: List[str]
+    idioma: List[str]
+    origen: List[str]
     duracion: int
     director: str
     calificacion: str
-    actores: list[str]
+    actores: List[str]
     sinopsis: str
     trailer: str
-    funciones: list[Funcion]
+    funciones: List[Funcion]
     distribuidora: str
