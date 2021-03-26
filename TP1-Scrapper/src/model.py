@@ -5,26 +5,27 @@ from typing import List
 
 @dataclass_json
 @dataclass
-class Funcion:
+class Show:
     cine: str
-    sala: str
-    idioma: str
-    horarios: List[str]
+    room: str
+    language: str
+    hours: List[str]
 
 
 @dataclass_json
 @dataclass
-class Pelicula:
-    cine_fuente: str
-    titulo: str
-    genero: List[str]
-    idioma: List[str]
-    origen: List[str]
-    duracion: int
+class Movie:
+    source: str
+    title: str
+    genres: List[str]
+    languages: List[str]
+    origins: List[str]
+    duration: int
     director: str
-    calificacion: str
-    actores: List[str]
-    sinopsis: str
+    rated: str
+    actors: List[str]
+    synopsis: str
     trailer: str
-    funciones: List[Funcion]
-    distribuidora: str
+    shows: List[Show]
+    distributor: str
+    realeased: bool
