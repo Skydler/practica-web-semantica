@@ -28,4 +28,4 @@ class Movie:
     trailer: str
     shows: List[Show]
     distributor: str
-    realeased: bool
+    released: bool

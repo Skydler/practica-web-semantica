@@ -6,9 +6,9 @@ import requests
 import json
 
 
-FUTURE_RELEASES_URL = "http://www.cinemalaplata.com/Cartelera.aspx?seccion=FUTURO"
-BILLBOARD_URL = "http://www.cinemalaplata.com/Cartelera.aspx"
 DOMAIN = "http://www.cinemalaplata.com/"
+BILLBOARD_URL = f"{DOMAIN}Cartelera.aspx"
+FUTURE_RELEASES_URL = f"{BILLBOARD_URL}?seccion=FUTURO"
 
 
 class MovieParser(Thread):
@@ -67,7 +67,7 @@ class MovieParser(Thread):
         trailer = movie.select_one(".embed-responsive-item").attrs.get("src")
         shows = self.get_shows(movie)
         distributor = None
-        realeased = len(shows) != 0
+        released = len(shows) != 0
 
         movie = Movie(
             source=source,
@@ -83,7 +83,7 @@ class MovieParser(Thread):
             trailer=trailer,
             shows=shows,
             distributor=distributor,
-            realeased=realeased
+            released=released
         )
 
         self.parsed_movies.append(movie)
@@ -124,11 +124,12 @@ def get_movies(link):
 def main():
     future_releases = get_movies(FUTURE_RELEASES_URL)
     billboard = get_movies(BILLBOARD_URL)
-
-    movies = future_releases + billboard
+    movies = billboard + future_releases
 
     movies_json = Movie.schema().dump(movies, many=True)
-    print(json.dumps(movies_json, indent=4, ensure_ascii=False))
+
+    with open("../data/cinemalaplata.json", "w") as file:
+        file.write(json.dumps(movies_json, indent=4, ensure_ascii=False))
 
 
 if __name__ == "__main__":
