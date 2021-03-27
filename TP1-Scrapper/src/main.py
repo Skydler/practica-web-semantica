@@ -23,7 +23,7 @@ class MovieParser(Thread):
     def get_shows(self, movie):
         shows = []
 
-        shows_soup = movie.select("#ctl00_cph_pnShowes > .col-2")
+        shows_soup = movie.select("#ctl00_cph_pnFunciones > .col-2")
         for show_soup in shows_soup:
             cine_and_room = list(map(
                 str.strip,
