@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from model import Show, Movie
 from threading import Thread
 from urllib.parse import urljoin
+from datetime import datetime
 import requests
 import json
 
@@ -42,7 +43,8 @@ class MovieParser(Thread):
                         cine=cine,
                         room=room,
                         language=language,
-                        hours=map(str.strip, hours.split("-"))
+                        hours=map(str.strip, hours.split("-")),
+                        day=datetime.now()
                     )
 
                     shows.append(show)
@@ -92,8 +94,7 @@ class MovieParser(Thread):
         response = requests.get(self.link)
         html = response.text
         movie = BeautifulSoup(html, 'html.parser')
-
-        return self.parse_movie(movie)
+        self.parse_movie(movie)
 
 
 def parse_movies(links):
