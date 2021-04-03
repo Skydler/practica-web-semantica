@@ -26,7 +26,7 @@ class Movie:
     source: str
     title: str
     genres: List[str]
-    languages: Optional[List[str]]
+    languages: List[str]
     origins: List[str]
     duration: Optional[int]
     director: str

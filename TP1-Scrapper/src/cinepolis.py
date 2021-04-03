@@ -128,7 +128,7 @@ class MovieParser:
         duration_text = fields.get("duracion").split(" ")[0]
         duration = int(duration_text) if duration_text.isdigit() else None
         genres = fields.get('genero').split(", ")
-        languages = None  # Cinepolis doesn't specify languages
+        languages = []  # Cinepolis doesn't specify languages
         origins = fields.get('origen').split(", ")
         actors = fields.get('actores').split(", ")
 
