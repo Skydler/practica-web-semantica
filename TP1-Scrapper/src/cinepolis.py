@@ -7,8 +7,6 @@ import json
 
 DOMAIN = "https://www.cinepolis.com.ar"
 FUTURE_RELEASES_URL = f"{DOMAIN}/proximos-estrenos"
-browser = webdriver.Chrome(executable_path="./chromedriver")
-browser.implicitly_wait(2)
 
 
 def normalize(s):
@@ -27,12 +25,13 @@ def normalize(s):
 
 
 class MovieParser:
-    def __init__(self, link, parsed_movies):
+    def __init__(self, link, parsed_movies, browser):
         self.link = link
         self.parsed_movies = parsed_movies
+        self.browser = browser
 
     def run(self):
-        browser.get(self.link)
+        self.browser.get(self.link)
         self.parse_movie()
 
     def parse_movie(self):
@@ -64,17 +63,29 @@ class MovieParser:
         self.parsed_movies.append(movie)
 
     def get_title(self):
-        title = browser.find_element_by_css_selector(
+        title = self.browser.find_element_by_css_selector(
             ".title > * > .title-text").text
         return {"title": title}
 
-    def get_technical_fields(self):
+    def _get_tech_fields_html(self):
         pass
+
+    def get_technical_fields(self):
+        html = self._get_tech_fields_html()
+
+        fields_content = Selector(text=html).xpath("//p/text()").getall()
+        fields_content = [field.strip(': \n')
+                          for field in fields_content if field.strip()]
+
+        fields_name = Selector(text=html).xpath("//p/strong/text()").getall()
+        fields_name = map(normalize, fields_name)
+
+        return dict(zip(fields_name, fields_content))
 
     def get_trailer(self):
         trailer = None
         try:
-            trailer = browser.find_element_by_css_selector(
+            trailer = self.browser.find_element_by_css_selector(
                 ".embed-responsive-item")
             trailer = trailer.get_attribute("src")
         except NoSuchElementException:
@@ -89,20 +100,20 @@ class MovieParser:
         pass
 
     def clean_fields(self, fields):
-        if duration := fields.get("duracion") is not None:
+        if (duration := fields.get("duracion")) is not None:
             duration_text = duration.split(" ")[0]
             duration = int(duration_text) if duration_text.isdigit() else None
             fields.update(duracion=duration)
 
-        if genres := fields.get('genero') is not None:
+        if (genres := fields.get('genero')) is not None:
             genres = genres.split(", ")
             fields.update(genero=genres)
 
-        if origins := fields.get('origen') is not None:
+        if (origins := fields.get('origen')) is not None:
             origins = origins.split(", ")
             fields.update(origen=origins)
 
-        if actors := fields.get('actores') is not None:
+        if (actors := fields.get('actores')) is not None:
             actors = actors.split(", ")
             fields.update(actores=actors)
 
@@ -111,21 +122,8 @@ class MovieParser:
 
 
 class BillboardParser(MovieParser):
-    def __init__(self, link, parsed_movies):
-        super().__init__(link, parse_movies)
-
-    def get_technical_fields(self):
-        html = browser.find_element_by_xpath(
-            "//*[@id='tecnicos']").get_attribute("innerHTML")
-
-        fields_content = Selector(text=html).xpath("//p/text()").getall()
-        fields_content = [field.strip(': \n')
-                          for field in fields_content if field.strip()]
-
-        fields_name = Selector(text=html).xpath("//p/strong/text()").getall()
-        fields_name = map(normalize, fields_name)
-
-        return dict(zip(fields_name, fields_content))
+    def __init__(self, link, parsed_movies, browser):
+        super().__init__(link, parsed_movies, browser)
 
     def get_room_shows(self, room, cine, date):
         room_description = room.find_element_by_css_selector(
@@ -170,7 +168,7 @@ class BillboardParser(MovieParser):
         return room_shows
 
     def get_shows(self):
-        days = browser.find_elements_by_css_selector(
+        days = self.browser.find_elements_by_css_selector(
             ".showtimes-filter-component-dates > ul > li > button")
 
         shows = []
@@ -179,7 +177,7 @@ class BillboardParser(MovieParser):
             date_attr = day.get_attribute("value")
             date = datetime.strptime(date_attr, "%Y-%m-%d")
 
-            locations = browser.find_elements_by_css_selector(
+            locations = self.browser.find_elements_by_css_selector(
                 ".accordion > .card")
 
             day_shows = []
@@ -188,25 +186,28 @@ class BillboardParser(MovieParser):
 
             shows += day_shows
 
-        return shows
+        return {"shows": shows}
+
+    def get_synopsis(self):
+        synopsis = self.browser.find_element_by_css_selector("#sinopsis").text
+        return {"sinopsis": synopsis}
+
+    def _get_tech_fields_html(self):
+        node = self.browser.find_element_by_xpath("//*[@id='tecnicos']")
+        return node.get_attribute("innerHTML")
 
 
 class FutureReleaseParser(MovieParser):
-    def __init__(self, link, parsed_movies):
-        super().__init__(link, parse_movies)
+    def __init__(self, link, parsed_movies, browser):
+        super().__init__(link, parsed_movies, browser)
 
-    def get_technical_fields(self):
-        data = browser.find_element_by_css_selector("p").text
-        fields = {}
-        for field in data.split("\n"):
-            key, value = field.split(": ")
-            key = normalize(key)
-            fields.update({key: value})
-
-        return fields
+    def _get_tech_fields_html(self):
+        node = self.browser.find_element_by_xpath("//div[h4 and hr][2]")
+        return node.get_attribute("innerHTML")
 
     def get_synopsis(self):
-        synopsis = browser.find_element_by_xpath("//div[h4 and hr][1]").text
+        synopsis = self.browser.find_element_by_xpath(
+            "//div[h4 and hr][1]").text
         synopsis = synopsis[9:]  # 9 chars to eliminate "Sinopsis\n"
         return {"sinopsis": synopsis}
 
@@ -214,25 +215,24 @@ class FutureReleaseParser(MovieParser):
         return {"shows": None}
 
 
-def parse_movies(links, future=False):
-    parsed_movies = []
+def parse_movies(links, browser, future=False):
     Parser = FutureReleaseParser if future else BillboardParser
-
+    parsed_movies = []
     for link in links:
-        Parser(link, parsed_movies).run()
+        Parser(link, parsed_movies, browser).run()
 
     return parsed_movies
 
 
-def get_current_movies():
+def get_current_movies(browser):
     browser.get(DOMAIN)
     movies = browser.find_elements_by_xpath(
         "//div[contains(@class, 'movie-grid')]/div/a")
     movies_links = [m.get_attribute('href') for m in movies]
-    return parse_movies(movies_links)
+    return parse_movies(movies_links, browser)
 
 
-def get_future_releases():
+def get_future_releases(browser):
     browser.get(FUTURE_RELEASES_URL)
     # Select all future releases
     # TODO: This works but we might want to select the specific option for all
@@ -242,13 +242,16 @@ def get_future_releases():
         [not(div[contains(@class, 'movie-thumb-ribbon')])]"
     movies = browser.find_elements_by_xpath(xpath_selector)
     movies_links = [m.get_attribute('href') for m in movies]
-    return parse_movies(movies_links, future=True)
+    return parse_movies(movies_links, browser, future=True)
 
 
 def main():
-    # billboard = get_current_movies()
-    billboard = []
-    future_releases = get_future_releases()
+    browser = webdriver.Chrome(executable_path="./chromedriver")
+    browser.implicitly_wait(2)
+
+    billboard = get_current_movies(browser)
+    # billboard = []
+    future_releases = get_future_releases(browser)
     movies = billboard + future_releases
     movies_json = Movie.schema().dump(movies, many=True)
 
