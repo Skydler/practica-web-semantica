@@ -34,7 +34,7 @@ class MovieParser:
 
     def get_technical_fields(self):
         html = browser.find_element_by_xpath(
-            "//*[@id='tecnicos']").get_attribute("innerHTML")
+            self.THECNIC_XPATH).get_attribute("innerHTML")
 
         fields_content = Selector(text=html).xpath("//p/text()").getall()
         fields_content = [field.strip(': \n')
@@ -125,12 +125,17 @@ class MovieParser:
 
         # TODO: all this data fetching should be in a
         # try/except in case of None values
-        duration_text = fields.get("duracion").split(" ")[0]
+        duration_text = fields["duracion"].split(
+            " ")[0] if "duracion" in fields else ""
         duration = int(duration_text) if duration_text.isdigit() else None
-        genres = fields.get('genero').split(", ")
+        genres = fields.get('genero').split(", ") if 'genero' in fields else []
         languages = []  # Cinepolis doesn't specify languages
-        origins = fields.get('origen').split(", ")
-        actors = fields.get('actores').split(", ")
+        origins = fields.get('origen').split(
+            ", ") if 'origen' in fields else []
+        actors = fields.get('actores').split(
+            ", ") if 'actores' in fields else []
+
+        synopsis = self.get_synopsis()
 
         movie = Movie(
             source="cinépolis",
@@ -143,7 +148,7 @@ class MovieParser:
             director=fields.get('director'),
             rated=fields.get('calificacion'),
             actors=actors,
-            synopsis=browser.find_element_by_css_selector("#sinopsis").text,
+            synopsis=synopsis,
             trailer=trailer,
             shows=shows,
             distributor=fields.get('distribuidora'),
@@ -156,29 +161,62 @@ class MovieParser:
         self.parse_movie()
 
 
-def parse_movies(links):
+class FutureReleaseParser(MovieParser):
+    THECNIC_XPATH = "//div[h4 and hr][2]"
+
+    def get_synopsis(self):
+        selector = browser.find_element_by_xpath("//div[h4 and hr][1]")
+        lines = selector.text.split("\n")
+        synopsis = "".join(lines[1:]) if len(lines) > 1 else ""
+
+        return synopsis
+
+
+class BillboardParser(MovieParser):
+    THECNIC_XPATH = "//*[@id='tecnicos']"
+
+    def get_synopsis(self):
+        selector = browser.find_element_by_css_selector("#sinopsis")
+
+        return selector.text
+
+
+def parse_movies(parsers):
     parsed_movies = []
-    for link in links:
-        MovieParser(link, parsed_movies).run()
+
+    for parser, links in parsers.items():
+        for link in links:
+            parser(link, parsed_movies).run()
 
     return parsed_movies
 
 
 def get_movies(link, browser):
     browser.get(DOMAIN)
-    movies = browser.find_elements_by_xpath(
-        "//div[contains(@class, 'movie-grid')]/div/a")
-    movies_links = [m.get_attribute('href') for m in movies]
-    return parse_movies(movies_links)
+
+    parsers = {
+        BillboardParser: browser.find_elements_by_xpath(
+            "//div[contains(@class, 'movie-grid')]/div/a"),
+
+        FutureReleaseParser: browser.find_elements_by_xpath(
+            "//*[@id='upcoming-releases']//*[contains(@class, 'slick-list')]//\
+            *[contains(@class, 'slick-slide') and not(contains(@class, \
+            'slick-cloned'))]//a[not(div[(contains(@class, 'ribbon'))])]")
+    }
+
+    for parser, movies in parsers.items():
+        parsers[parser] = [movie.get_attribute('href') for movie in movies]
+
+    return parse_movies(parsers)
 
 
 def main():
-    billboard = get_movies(DOMAIN, browser)
-    # future_releases = get_movies(FUTURE_RELEASES_URL, browser)
-    movies = billboard  # + future_releases
-    movies_json = Movie.schema().dump(movies, many=True)
+    try:
+        movies = get_movies(DOMAIN, browser)
+    finally:
+        browser.close()
 
-    browser.close()
+    movies_json = Movie.schema().dump(movies, many=True)
 
     with open("../data/cinepolis.json", "w") as file:
         file.write(json.dumps(movies_json, indent=4, ensure_ascii=False))
