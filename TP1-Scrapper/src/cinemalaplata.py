@@ -22,9 +22,8 @@ class MovieParser(Thread):
         return soup.select_one(selector).text.strip()
 
     def get_shows(self, movie):
-        shows = []
-
         shows_soup = movie.select("#ctl00_cph_pnFunciones > .col-2")
+
         for show_soup in shows_soup:
             cine_and_room = list(map(
                 str.strip,
@@ -39,17 +38,19 @@ class MovieParser(Thread):
                 for schedule in schedules:
                     language, hours = schedule.split(": ")
 
-                    show = Show(
-                        cine=cine,
-                        room=room,
-                        language=language,
-                        hours=map(str.strip, hours.split("-")),
-                        day=datetime.now()
-                    )
+                    for hour in map(str.strip, hours.split("-")):
+                        yield Show(
+                            cine=cine,
+                            room=room,
+                            language=language,
+                            time=self.get_time(hour),
+                        )
 
-                    shows.append(show)
+    def get_time(self, hour_time):
+        year, month, day, *_ = datetime.now().timetuple()
+        hour, minute = map(int, hour_time.split(':'))
 
-        return shows
+        return datetime(year, month, day, hour, minute)
 
     def get_duration(self, movie, selector):
         duration_text = self.get_text(movie, selector).split(" ")[0]
@@ -67,7 +68,7 @@ class MovieParser(Thread):
         rated = self.get_text(movie, "#ctl00_cph_lblCalificacion")
         synopsis = self.get_text(movie, "#ctl00_cph_lblSinopsis")
         trailer = movie.select_one(".embed-responsive-item").attrs.get("src")
-        shows = self.get_shows(movie)
+        shows = list(self.get_shows(movie))
         distributor = None
         released = len(shows) != 0
 

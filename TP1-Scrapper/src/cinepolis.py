@@ -45,7 +45,7 @@ class MovieParser:
 
         return dict(zip(fields_name, fields_content))
 
-    def get_room_shows(self, room):
+    def get_room_shows(self, room, cine, date):
         room_description = room.find_element_by_css_selector(
             "small").get_attribute("textContent")
         room_description = [element.strip()
@@ -59,28 +59,32 @@ class MovieParser:
         movie_hours = [hour.get_attribute(
             "textContent").strip() for hour in movie_hours]
 
-        show = Show(
-            room=title,
-            language=language,
-            hours=movie_hours,
-            cine=None,
-            day=None
-        )
+        for hour in movie_hours:
+            yield Show(
+                room=title,
+                language=language,
+                cine=cine,
+                time=self.get_time(date, hour)
+            )
 
-        print(show)
-        return show
+    def get_time(self, date, time):
+        year, month, day, *_ = date.timetuple()
+        hour, minute = map(int, time.split(':'))
 
-    def get_location_shows(self, location):
+        return datetime(year, month, day, hour, minute)
+
+    def get_location_shows(self, location, date):
         cine = location.find_element_by_css_selector(
             ".panel-title > button").text
+
         rooms = location.find_elements_by_css_selector(
             ".movie-showtimes-component-combination")
 
         room_shows = []
         for room in rooms:
-            show = self.get_room_shows(room)
-            show.cine = cine
-            room_shows.append(show)
+            for show in self.get_room_shows(room, cine, date):
+                show.cine = cine
+                room_shows.append(show)
 
         return room_shows
 
@@ -101,11 +105,7 @@ class MovieParser:
 
             day_shows = []
             for location in locations:
-                day_shows += self.get_location_shows(location)
-
-            # TODO: it could be implemented more efficiently
-            for show in day_shows:
-                show.day = date
+                day_shows += self.get_location_shows(location, date)
 
             shows += day_shows
 
