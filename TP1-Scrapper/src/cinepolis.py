@@ -1,3 +1,5 @@
+import logging
+
 from datetime import datetime
 from model import Show, Movie
 from selenium import webdriver
@@ -89,7 +91,7 @@ class MovieParser:
                 ".embed-responsive-item")
             trailer = trailer.get_attribute("src")
         except NoSuchElementException:
-            print("Trailer not found for this movie")
+            logging.warning("Trailer not found for this movie")
 
         return {"trailer": trailer}
 
