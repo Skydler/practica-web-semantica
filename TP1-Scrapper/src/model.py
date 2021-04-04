@@ -30,7 +30,7 @@ class Movie:
     origins: List[str]
     duration: Optional[int]
     director: Optional[str]
-    rated: str
+    rated: Optional[str]
     actors: List[str]
     synopsis: str
     trailer: Optional[str]

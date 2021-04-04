@@ -60,7 +60,7 @@ class MovieParser:
             distributor=fields.get("distribuidora"),
             languages=[],
             shows=fields.get("shows"),
-            released=fields.get("shows") is not None
+            released=bool(fields.get("shows"))
         )
         self.parsed_movies.append(movie)
 
@@ -242,9 +242,6 @@ def get_current_movies(browser):
 
 def get_future_releases(browser):
     browser.get(FUTURE_RELEASES_URL)
-    # Select all future releases
-    # TODO: This works but we might want to select the specific option for all
-    #       movies and not the first one
     browser.find_element_by_css_selector("select > option").click()
     xpath_selector = "//a[contains(@class, 'movie-thumb')] \
         [not(div[contains(@class, 'movie-thumb-ribbon')])]"
