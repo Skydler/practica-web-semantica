@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 from model import Show, Movie
 from threading import Thread
+from typing import List
 from urllib.parse import urljoin
 from datetime import datetime
 import requests
-import json
 
 
 DOMAIN = "http://www.cinemalaplata.com/"
@@ -123,16 +123,10 @@ def get_movies(link):
     return parse_movies(links)
 
 
-def main():
+def scrap() -> List[Movie]:
     future_releases = get_movies(FUTURE_RELEASES_URL)
     billboard = get_movies(BILLBOARD_URL)
+
     movies = billboard + future_releases
 
-    movies_json = Movie.schema().dump(movies, many=True)
-
-    with open("../data/cinemalaplata.json", "w") as file:
-        file.write(json.dumps(movies_json, indent=4, ensure_ascii=False))
-
-
-if __name__ == "__main__":
-    main()
+    return movies

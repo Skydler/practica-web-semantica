@@ -1,9 +1,9 @@
+from datetime import datetime
+from model import Show, Movie
 from selenium import webdriver
 from scrapy.selector import Selector
 from selenium.common.exceptions import NoSuchElementException
-from model import Show, Movie
-from datetime import datetime
-import json
+from typing import List
 
 DOMAIN = "https://www.cinepolis.com.ar"
 FUTURE_RELEASES_URL = f"{DOMAIN}/proximos-estrenos"
@@ -56,7 +56,7 @@ class MovieParser:
             synopsis=fields.get("sinopsis"),
             trailer=fields.get("trailer"),
             distributor=fields.get("distribuidora"),
-            languages=fields.get("lenguages"),
+            languages=[],
             shows=fields.get("shows"),
             released=fields.get("shows") is not None
         )
@@ -108,14 +108,20 @@ class MovieParser:
         if (genres := fields.get('genero')) is not None:
             genres = genres.split(", ")
             fields.update(genero=genres)
+        else:
+            fields.update(genero=[])
 
         if (origins := fields.get('origen')) is not None:
             origins = origins.split(", ")
             fields.update(origen=origins)
+        else:
+            fields.update(origen=[])
 
         if (actors := fields.get('actores')) is not None:
             actors = actors.split(", ")
             fields.update(actores=actors)
+        else:
+            fields.update(actores=[])
 
     def make_movie(self, fields):
         pass
@@ -212,7 +218,7 @@ class FutureReleaseParser(MovieParser):
         return {"sinopsis": synopsis}
 
     def get_shows(self):
-        return {"shows": None}
+        return {"shows": []}
 
 
 def parse_movies(links, browser, future=False):
@@ -245,21 +251,16 @@ def get_future_releases(browser):
     return parse_movies(movies_links, browser, future=True)
 
 
-def main():
+def scrap() -> List[Movie]:
+    movies = []
+
     browser = webdriver.Chrome(executable_path="./chromedriver")
     browser.implicitly_wait(2)
 
-    billboard = get_current_movies(browser)
-    # billboard = []
-    future_releases = get_future_releases(browser)
-    movies = billboard + future_releases
-    movies_json = Movie.schema().dump(movies, many=True)
-
-    browser.close()
-
-    with open("../data/cinepolis.json", "w") as file:
-        file.write(json.dumps(movies_json, indent=4, ensure_ascii=False))
-
-
-if __name__ == "__main__":
-    main()
+    try:
+        billboard = get_current_movies(browser)
+        future_releases = get_future_releases(browser)
+        movies = billboard + future_releases
+    finally:
+        browser.close()
+        return movies
