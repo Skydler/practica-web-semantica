@@ -3,7 +3,7 @@ import cinemalaplata
 import cinepolis
 import json
 import logging
-import merger
+from merger import MergeStrategy
 
 from model import Movie
 from pathlib import Path
@@ -15,6 +15,13 @@ ROOT = Path.cwd().parent / "data"
 CINEPOLIS_FILE = ROOT / "cinepolis.json"
 CINEMA_LA_PLATA_FILE = ROOT / "cinemalaplata.json"
 MERGE_FILE = ROOT / "movies.json"
+
+
+def read(filename):
+    with open(filename, "r") as file:
+        json_string = file.read()
+    movie_objects = Movie.schema().loads(json_string, many=True)
+    return movie_objects
 
 
 def save(filename, movies):
@@ -59,13 +66,16 @@ def scrap_cinema_la_plata_movies():
 
 @log
 def merge_movies(movies):
-    return merger.merge(movies)
+    merger = MergeStrategy()
+    merger.merge(movies)
+    return merger.to_list()
 
 
 def main():
     # Init parser
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("-o", "--offline", action="store_true")
 
     args = parser.parse_args()
 
@@ -76,8 +86,12 @@ def main():
     )
 
     # Run scrapers
-    cinepolis_movies = scrap_cinepolis_movies()
-    cinema_la_plata_movies = scrap_cinema_la_plata_movies()
+    if args.offline:
+        cinepolis_movies = read(CINEPOLIS_FILE)
+        cinema_la_plata_movies = read(CINEMA_LA_PLATA_FILE)
+    else:
+        cinepolis_movies = scrap_cinepolis_movies()
+        cinema_la_plata_movies = scrap_cinema_la_plata_movies()
 
     movies = cinepolis_movies + cinema_la_plata_movies
     merged_movies = merge_movies(movies)
