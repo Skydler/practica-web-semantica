@@ -7,6 +7,15 @@ class MergeStrategy:
         self.merged_movies = []
         self.titles_cache = {}
         self.translator = GoogleTranslator(source='auto', target='es')
+        # TODO: Change rate matching to regex
+        self.rate_rules = [
+            ("N/A", ["-", "No determinado", "N/A"]),
+            ("P-13", ["P-13", "Apta mayores de 13 años", "P13R"]),
+            ("ATP", ["ATP", "Apta todo público",
+                     "Apta todo público con reservas", "ATPR",
+                     "Apta todo público C/L"]),
+            ("P-16", ["P-16", "Apta mayores de 16 años", "P16R"]),
+        ]
 
     def merge(self, movies):
         for movie in movies:
@@ -59,7 +68,7 @@ class MergeStrategy:
         else:
             sm.duration = sm.duration or tm.duration
         sm.director = sm.director or tm.director
-        sm.rated = None
+        sm.rated = self._merge_rates(sm.rated, tm.rated)
         sm.actors = self._merge_string_lists(sm.actors, tm.actors)
         sm.synopsis = sm.synopsis if len(
             sm.synopsis) > len(tm.synopsis) else tm.synopsis
@@ -75,3 +84,25 @@ class MergeStrategy:
             if normal_string not in normalized_source:
                 source.append(string)
         return source
+
+    def _merge_rates(self, A_rate, B_rate):
+        if A_rate and B_rate:
+            A_category = self._classify_rate(A_rate)
+            B_category = self._classify_rate(B_rate)
+
+            if A_category == B_category:
+                return A_category
+            elif A_category == "N/A":
+                return B_category
+            elif B_category == "N/A":
+                return A_category
+            else:
+                return "N/A"
+
+        return A_rate or B_rate
+
+    def _classify_rate(self, rate):
+        for category, matches in self.rate_rules:
+            if any(rate == match for match in matches):
+                return category
+        return "N/A"
