@@ -2,9 +2,9 @@ from deep_translator import GoogleTranslator
 from fuzzywuzzy import fuzz
 
 
-class MergeStrategy:
-    def __init__(self):
-        self.merged_movies = []
+class FullMerge:
+    def __init__(self, repository_movies):
+        self.merged_movies = repository_movies
         self.titles_cache = {}
         self.translator = GoogleTranslator(source='auto', target='es')
         # TODO: Change rate matching to regex
@@ -23,6 +23,8 @@ class MergeStrategy:
                 self.combine(found_movie, movie)
             else:
                 self.add(movie)
+
+        return self.merged_movies
 
     def find_merged(self, movie):
         for merged_movie in self.merged_movies:
@@ -54,9 +56,6 @@ class MergeStrategy:
 
     def add(self, movie):
         self.merged_movies.append(movie)
-
-    def to_list(self):
-        return self.merged_movies
 
     def combine(self, source_movie, target_movie):
         sm, tm = source_movie, target_movie
