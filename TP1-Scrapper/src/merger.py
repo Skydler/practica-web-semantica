@@ -67,7 +67,7 @@ class MergeStrategy:
             sm.duration = max(sm.duration, tm.duration)
         else:
             sm.duration = sm.duration or tm.duration
-        sm.director = sm.director or tm.director
+        sm.directors = self._merge_string_lists(sm.directors, tm.directors)
         sm.rated = self._merge_rates(sm.rated, tm.rated)
         sm.actors = self._merge_string_lists(sm.actors, tm.actors)
         sm.synopsis = sm.synopsis if len(

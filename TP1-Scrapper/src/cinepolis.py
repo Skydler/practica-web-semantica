@@ -44,7 +44,7 @@ class MovieParser:
         fields.update(self.get_synopsis())
         fields.update(self.get_shows())
 
-        self.clean_fields(fields)
+        fields = self.clean_fields(fields)
 
         movie = Movie(
             source="cinépolis",
@@ -52,7 +52,7 @@ class MovieParser:
             genres=fields.get("genero"),
             origins=fields.get("origen"),
             duration=fields.get("duracion"),
-            director=fields.get('director'),
+            directors=fields.get('director'),
             rated=fields.get('calificacion'),
             actors=fields.get("actores"),
             synopsis=fields.get("sinopsis"),
@@ -108,7 +108,7 @@ class MovieParser:
             fields.update(duracion=duration)
 
         if (genres := fields.get('genero')) is not None:
-            genres = genres.split(", ")
+            genres = [genre for genre in genres.split(", ") if genre != ""]
             fields.update(genero=genres)
         else:
             fields.update(genero=[])
@@ -120,10 +120,18 @@ class MovieParser:
             fields.update(origen=[])
 
         if (actors := fields.get('actores')) is not None:
-            actors = actors.split(", ")
+            actors = actors.strip('.').split(", ")
             fields.update(actores=actors)
         else:
             fields.update(actores=[])
+
+        if (directors := fields.get('director')) is not None:
+            directors = directors.strip('.').split(", ")
+            fields.update(director=directors)
+        else:
+            fields.update(director=[])
+
+        return fields
 
     def make_movie(self, fields):
         pass
@@ -260,6 +268,8 @@ def scrap() -> List[Movie]:
         billboard = get_current_movies(browser)
         future_releases = get_future_releases(browser)
         movies = billboard + future_releases
+    except Exception as e:
+        raise e
     finally:
         browser.close()
         return movies

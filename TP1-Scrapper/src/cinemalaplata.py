@@ -56,6 +56,25 @@ class MovieParser(Thread):
         duration_text = self.get_text(movie, selector).split(" ")[0]
         return int(duration_text) if duration_text.isdigit() else None
 
+    def get_actors(self, movie, selector):
+        actors = self.get_text(movie, selector)
+
+        # Remove end point
+        actors = actors.strip('.')
+
+        # The actors are separated by commas
+        actors = actors.split(", ")
+
+        # Filter actors with capitalized names
+        actors = [actor for actor in actors if actor and actor[0].isupper()]
+
+        return actors
+
+    def get_directors(self, movie, selector):
+        directors = self.get_text(movie, selector)
+
+        return directors.strip('.').split(", ")
+
     def parse_movie(self, movie):
         source = "Cinema La Plata"
         title = self.get_text(movie, ".page-title")
@@ -63,8 +82,8 @@ class MovieParser(Thread):
         languages = self.get_text(movie, "#ctl00_cph_lblIdioma").split(", ")
         origins = self.get_text(movie, "#ctl00_cph_lblPaisOrigen").split(", ")
         duration = self.get_duration(movie, "#ctl00_cph_lblDuracion")
-        director = self.get_text(movie, "#ctl00_cph_lblDirector")
-        actors = self.get_text(movie, "#ctl00_cph_lblActores").split(", ")
+        directors = self.get_directors(movie, "#ctl00_cph_lblDirector")
+        actors = self.get_actors(movie, "#ctl00_cph_lblActores")
         rated = self.get_text(movie, "#ctl00_cph_lblCalificacion")
         synopsis = self.get_text(movie, "#ctl00_cph_lblSinopsis")
         trailer = movie.select_one(".embed-responsive-item").attrs.get("src")
@@ -79,7 +98,7 @@ class MovieParser(Thread):
             languages=languages,
             origins=origins,
             duration=duration,
-            director=director,
+            directors=directors,
             rated=rated,
             actors=actors,
             synopsis=synopsis,

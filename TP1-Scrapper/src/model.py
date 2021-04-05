@@ -29,7 +29,7 @@ class Movie:
     languages: List[str]
     origins: List[str]
     duration: Optional[int]
-    director: Optional[str]
+    directors: List[str]
     rated: Optional[str]
     actors: List[str]
     synopsis: str
