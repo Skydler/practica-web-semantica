@@ -32,7 +32,7 @@ class MergeStrategy:
     def match_movies(self, movie_1, movie_2):
         movie_id_1, movie_id_2 = self.get_id(movie_1), self.get_id(movie_2)
 
-        ratio = fuzz.ratio(movie_id_1, movie_id_2)
+        ratio = fuzz.partial_ratio(movie_id_1, movie_id_2)
 
         return ratio > 90
 
