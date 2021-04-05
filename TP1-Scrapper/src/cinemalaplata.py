@@ -76,7 +76,6 @@ class MovieParser(Thread):
         return directors.strip('.').split(", ")
 
     def parse_movie(self, movie):
-        source = "Cinema La Plata"
         title = self.get_text(movie, ".page-title")
         genres = self.get_text(movie, "#ctl00_cph_lblGenero").split(", ")
         languages = self.get_text(movie, "#ctl00_cph_lblIdioma").split(", ")
@@ -92,7 +91,6 @@ class MovieParser(Thread):
         released = len(shows) != 0
 
         movie = Movie(
-            source=source,
             title=title,
             genres=genres,
             languages=languages,

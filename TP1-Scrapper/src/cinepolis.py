@@ -47,7 +47,6 @@ class MovieParser:
         fields = self.clean_fields(fields)
 
         movie = Movie(
-            source="cinépolis",
             title=fields.get("title"),
             genres=fields.get("genero"),
             origins=fields.get("origen"),

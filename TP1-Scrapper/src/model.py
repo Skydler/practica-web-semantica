@@ -23,7 +23,6 @@ class Show:
 @dataclass_json
 @dataclass
 class Movie:
-    source: str
     title: str
     genres: List[str]
     languages: List[str]
