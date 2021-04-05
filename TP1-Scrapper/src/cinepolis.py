@@ -60,7 +60,7 @@ class MovieParser:
             distributor=fields.get("distribuidora"),
             languages=[],
             shows=fields.get("shows"),
-            released=bool(fields.get("shows"))
+            released=fields.get("shows") != []
         )
         self.parsed_movies.append(movie)
 
