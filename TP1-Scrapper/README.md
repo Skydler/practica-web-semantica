@@ -19,7 +19,7 @@
 
 ## Ejecución
 
-1. Copiar el binario de *Chromedriver*en el directorio **bin**
+1. Copiar el binario de *Chromedriver* en el directorio **bin**
 
 2. Crear y activar el entorno virtual:
 
