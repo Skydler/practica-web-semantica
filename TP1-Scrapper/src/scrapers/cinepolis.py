@@ -2,6 +2,7 @@ from datetime import datetime
 import logging
 
 from models.movie import Show, Movie
+from pathlib import Path
 from scrapy.selector import Selector
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -10,6 +11,9 @@ from typing import List
 
 DOMAIN = "https://www.cinepolis.com.ar"
 FUTURE_RELEASES_URL = f"{DOMAIN}/proximos-estrenos"
+
+WEBDRIVER_ROOT_PATH = Path.cwd().parent / "bin"
+WEBDRIVER_EXECUTOR_PATH = WEBDRIVER_ROOT_PATH / "./chromedriver"
 
 
 def normalize(s):
@@ -261,7 +265,9 @@ def get_future_releases(browser):
 def scrap() -> List[Movie]:
     movies = []
 
-    browser = webdriver.Chrome(executable_path="./chromedriver")
+    browser = webdriver.Chrome(
+        executable_path=WEBDRIVER_EXECUTOR_PATH
+    )
     browser.implicitly_wait(2)
 
     try:
