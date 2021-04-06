@@ -145,7 +145,7 @@ class BillboardParser(MovieParser):
     def __init__(self, link, parsed_movies, browser):
         super().__init__(link, parsed_movies, browser)
 
-    def get_room_shows(self, room, cine, date):
+    def get_room_shows(self, room, cinema, date):
         room_description = room.find_element_by_css_selector(
             "small").get_attribute("textContent")
         room_description = [element.strip()
@@ -163,7 +163,7 @@ class BillboardParser(MovieParser):
             yield Show(
                 room=title,
                 language=language,
-                cine=cine,
+                cinema=cinema,
                 time=self.get_time(date, hour)
             )
 
@@ -173,7 +173,7 @@ class BillboardParser(MovieParser):
         return datetime(year, month, day, hour, minute)
 
     def get_location_shows(self, location, date):
-        cine = location.find_element_by_css_selector(
+        cinema = location.find_element_by_css_selector(
             ".panel-title > button").text
 
         rooms = location.find_elements_by_css_selector(
@@ -181,8 +181,8 @@ class BillboardParser(MovieParser):
 
         room_shows = []
         for room in rooms:
-            for show in self.get_room_shows(room, cine, date):
-                show.cine = cine
+            for show in self.get_room_shows(room, cinema, date):
+                show.cinema = cinema
                 room_shows.append(show)
 
         return room_shows

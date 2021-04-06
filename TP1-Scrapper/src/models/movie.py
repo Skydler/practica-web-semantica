@@ -6,19 +6,22 @@ from marshmallow import fields
 from typing import List, Optional
 
 
+iso_datetime = field(
+    metadata=config(
+        encoder=datetime.isoformat,
+        decoder=datetime.fromisoformat,
+        mm_field=fields.DateTime(format='iso')
+    )
+)
+
+
 @dataclass_json
 @dataclass
 class Show:
-    cine: str   # TODO: Should be changed to theater or something like that
+    cinema: str   # TODO: Should be changed to theater or something like that
     room: str
     language: str
-    time: datetime = field(
-        metadata=config(
-            encoder=datetime.isoformat,
-            decoder=datetime.fromisoformat,
-            mm_field=fields.DateTime(format='iso')
-        )
-    )
+    time: datetime = iso_datetime
 
 
 @dataclass_json

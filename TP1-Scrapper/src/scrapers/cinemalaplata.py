@@ -32,7 +32,7 @@ class MovieParser(Thread):
             ))
 
             if len(cine_and_room) == 2:
-                cine, room = cine_and_room
+                cinema, room = cine_and_room
 
                 schedules = show_soup.p.stripped_strings
 
@@ -41,7 +41,7 @@ class MovieParser(Thread):
 
                     for hour in map(str.strip, hours.split("-")):
                         yield Show(
-                            cine=cine,
+                            cinema=cinema,
                             room=room,
                             language=language,
                             time=self.get_time(hour),
