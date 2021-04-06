@@ -133,3 +133,9 @@ A continuación se describe en forma breve las estrategias tomadas para mezclar 
 - **Trailer**: Se optó por tomar el primero que se procese.
 - **Sinopsis**: Se optó por la sinópsis con mayor número de caracteres.
 - **Calificación**: En este caso, al presentar multiples variaciones en ambas páginas se decidió armar una tabla para normalizar las diferentes nomenclaturas de una misma calificación. En caso de que las páginas difieran en la calificación de una pelicula se lo tratará como indeterminado.
+
+* Nota: Especialmente con el campo orígenes tuvimos un inconveniente para el cual no encontramos una forma simple de resolver. Notamos en los resultados del merge que se podían dar casos en los que las dos páginas les den un nombre distinto al mismo país (ej: EEUU y Estados Unidos).
+
+#### Estrategia de mergeo
+
+Para la implementación de la clase *MovieRepository* decidimos aplicar el patrón Strategy a la hora de realizar el mergeo de la información. Esto nos brinda la posibilidad de optar por diferentes mecanismos de merge incluyendo todos los beneficios que el patrón Strategy nos brinda. Para esta entrega desarrollamos una única estrategia que intenta mezclar la información de ambas páginas, tratando de maximizar y completar la información obtenida. Otras posibles implementaciónes podrían haber sido darle preferencia a algúna de las dos páginas en especifico o la busqueda de información en páginas de terceros como IMBD.
