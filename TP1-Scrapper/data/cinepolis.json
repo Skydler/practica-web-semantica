@@ -1,0 +1,5616 @@
+[
+    {
+        "directors": [
+            "Haruo Sotozaki"
+        ],
+        "trailer": null,
+        "title": "DEMON SLAYER MUGEN TRAIN",
+        "actors": [
+            "Natsuki Hanae",
+            "Akari Kito",
+            "Hiro Shimono",
+            "Yoshitsugu Matsuoka",
+            "Satoshi Hino",
+            "Takahiro Sakurai",
+            "Katsuyuki Konishi",
+            "Saori Hayami",
+            "Kenichi Suzumura",
+            "Tomokazu Seki"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-22T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-23T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-24T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-25T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-26T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-27T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-28T20:00:00",
+                "language": "Subtitulado"
+            }
+        ],
+        "languages": [],
+        "duration": 120,
+        "released": true,
+        "rated": "N/A",
+        "origins": [
+            "Japón"
+        ],
+        "genres": [
+            "Animación",
+            "Acción",
+            "Aventura",
+            "Fantasía",
+            "Drama"
+        ],
+        "synopsis": "Demon Slayer: Mugen Train cuenta la historia de Tanjiro Kamado, Kyoujurou Rengoku y sus amigos de la Compañía de Cazadores de Demonios (Demon Slayer Corps). Juntos, se unen con uno de los mejores espadachines de la compañía, Kyojuro Rengoku, para investigar una misteriosa serie de desapariciones que han ocurrido dentro del “Tren Infinito”. Poco saben que Enmu, uno de los miembros de las Doce Lunas Demoníacas, también está a bordo y les ha preparado una trampa."
+    },
+    {
+        "directors": [
+            "Doug Liman"
+        ],
+        "trailer": "https://www.youtube.com/embed/2IulhhR6Dss?rel=0&controls=0&showinfo=0",
+        "title": "CAOS: EL INICIO",
+        "actors": [
+            "Daisy Ridley",
+            "Tom Holland",
+            "Mads Mikkelsen",
+            "Demián Bichir",
+            "Cynthia Erivo",
+            "Nick Jonas",
+            "Ray McKinnon",
+            "Kurt Sutter",
+            "David Oyelowo",
+            "Óscar Jaenada"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T21:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T22:30:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 110,
+        "released": true,
+        "rated": "P-13",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Ciencia Ficción",
+            "Acción",
+            "Aventura",
+            "Thriller"
+        ],
+        "synopsis": "En un futuro no muy lejano, en un mundo donde las mujeres han desaparecido y los hombres han sido afectados por “el ruido” – una fuerza que exhibe todos sus pensamientos – Todd Hewitt (Tom Holland) se encuentra con Viola (Daisy Ridley), una joven misteriosa que ha aterrizado en su planeta. Con Viola bajo riesgo, Todd jura protegerla y ponerla fuera de peligro. Para salvarla Todd tendrá que controlar su “ruido”, descubrir su propia fuerza y desbloquear todos los obscuros secretos que guarda su planeta y su comunidad. Del director de Identidad Desconocida (The Bourne Identity) y Al Filo del Mañana (Edge of Tomorrow), basada en la novela bestseller, El Cuchillo en la Mano del escritor Patrick Ness. Tom Holland y Daisy Ridely protagonizan junto con David Oyelowo, Nick Jonas, Mads Mikkelsen y Demián Bichir. Caos: El Inicio (Chaos Walking) llegará a los cines en 2021."
+    },
+    {
+        "directors": [
+            "Martín Desalvo"
+        ],
+        "trailer": "https://www.youtube.com/embed/ZrxuvUtoVBs?rel=0&controls=0&showinfo=0",
+        "title": "EL SILENCIO DEL CAZADOR",
+        "actors": [
+            "Pablo Echarri",
+            "Alberto Ammann",
+            "Mora Recalde",
+            "César Bordón",
+            "Mercedes Burgos"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:20:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 103,
+        "released": true,
+        "rated": "P13R",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Drama",
+            "Thriller"
+        ],
+        "synopsis": "Guzmán trabaja en un parque nacional con un grupo pequeño pero comprometido de guardas en alerta, ante la aparición de un animal salvaje que acecha desde la selva. Sara, esposa de Guzmán, es una médica dedicada a la comunidad local. Entre ellos se encuentra un amigo de la infancia de ambos y expareja de Sara. Los celos, las cuestiones no saldadas y las relaciones de poder enfrentarán a los tres hasta llegar a un desenlace sin tregua."
+    },
+    {
+        "directors": [
+            "Josh Boone"
+        ],
+        "trailer": "https://www.youtube.com/embed/j6LHN8UA1BY?rel=0&controls=0&showinfo=0",
+        "title": "LOS NUEVOS MUTANTES",
+        "actors": [
+            "Anya Taylor-Joy",
+            "Maisie Williams",
+            "Charlie Heaton",
+            "Blu Hunt",
+            "Henry Zaga",
+            "Alice Braga",
+            "Happy Anderson",
+            "Thomas Kee",
+            "Mickey Gilmore",
+            "Jeffrey Corazzini"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:45:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:45:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T21:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T23:00:00",
+                "language": "Subtitulado"
+            }
+        ],
+        "languages": [],
+        "duration": 98,
+        "released": true,
+        "rated": "P-13",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Ciencia Ficción",
+            "Terror"
+        ],
+        "synopsis": "La historia de los Nuevos Mutantes, un equipo de héroes mutantes formado por los primeros graduados de la escuela de Charles Xavier."
+    },
+    {
+        "directors": [
+            "Christophe Honoré"
+        ],
+        "trailer": "https://www.youtube.com/embed/vlp-TEj3J4I?rel=0&controls=0&showinfo=0",
+        "title": "HABITACIÓN 212",
+        "actors": [
+            "Chiara Mastroianni",
+            "Vincent Lacoste",
+            "Camille Cottin",
+            "Benjamin Biolay",
+            "Carole Bouquet",
+            "Marie-Christine Adam",
+            "Harrison Arevalo",
+            "Stéphane Roger"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:50:00",
+                "language": "Subtitulado"
+            }
+        ],
+        "languages": [],
+        "duration": 86,
+        "released": true,
+        "rated": "P-13",
+        "origins": [
+            "Francia"
+        ],
+        "genres": [
+            "Comedia"
+        ],
+        "synopsis": "Tras 20 años de matrimonio, Maria decide dejar todo atrás y empezar una nueva vida. El primer paso es hospedarse en la habitación 212 de un hotel frente a la casa en la que vivía junto a su pareja. Pero, con el paso del tiempo, comenzará a preguntarse si tomó la decisión correcta…"
+    },
+    {
+        "directors": [
+            "Emerald Fennell"
+        ],
+        "trailer": "https://www.youtube.com/embed/NObqpIAgROM?rel=0&controls=0&showinfo=0",
+        "title": "HERMOSA VENGANZA",
+        "actors": [
+            "Carey Mulligan",
+            "Bo Burnham",
+            "Alison Brie",
+            "Adam Brody",
+            "Connie Britton",
+            "Jennifer Coolidge",
+            "Laverne Cox",
+            "Max Greenfield",
+            "Christopher Mintz-Plasse",
+            "Sam Richardson"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:25:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:45:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:25:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:45:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:40:00",
+                "language": "Subtitulado"
+            }
+        ],
+        "languages": [],
+        "duration": 113,
+        "released": true,
+        "rated": "ATP",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Thriller",
+            "Crimen",
+            "Drama"
+        ],
+        "synopsis": "De la innovadora directora Emerald Fennell (Killing Eve) llega una deliciosa nueva visión sobre la venganza. Todos dicen que Cassie (Carey Mulligan) era una prometedora mujer joven...hasta que un misterioso suceso abruptamente descarrilló su futuro. Pero nada en la vida de Cassie es lo que aparenta ser: ella es pícaramente inteligente, atormentadoramente astuta y vive una secreta doble vida por la noche. Ahora, un encuentro inesperado está a punto de darle a Cassie la posibilidad de reparar los errores del pasado en esta fascinante y totalmente divertida historia."
+    },
+    {
+        "directors": [
+            "Tomonori Sudô"
+        ],
+        "trailer": "https://www.youtube.com/embed/OQO2hRqpS4c?rel=0&controls=0&showinfo=0",
+        "title": "FATE STAY NIGHT HEAVEN’S FEEL: PARTE 3",
+        "actors": [
+            "Noriaki Sugiyama",
+            "Noriko Shitaya",
+            "Ayako Kawasumi",
+            "Kana Ueda",
+            "Mai Kadowaki",
+            "Miki Itō",
+            "Jouji Nakata",
+            "Masane Tsukayama",
+            "Yū Asakawa",
+            "Tetsu Inada"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:45:00",
+                "language": "Subtitulado"
+            }
+        ],
+        "languages": [],
+        "duration": 123,
+        "released": true,
+        "rated": "ATP",
+        "origins": [
+            "Japón"
+        ],
+        "genres": [
+            "Animación",
+            "Romance",
+            "Fantasía",
+            "Acción",
+            "Drama"
+        ],
+        "synopsis": "¡La historia de Fate Stay Night Heaven’s Feel llega a su fin!El capítulo final de la trilogía más ambiciosa y oscura de esta franquicia está aquí. Sakura Matou con los pecados que ha cometido se hunde en la oscuridad, Shirou Emiya ha jurado protegerla y detener la Guerra por el Santo Grial, una guerra dónde poderosos Magos y Espíritus Heroicos trabajan juntos para derrotar a los demás, el vencedor obtendrá el Santo Grial, un contenedor que puede hacer realidad cualquier deseo… Pero esta guerra ha corrompido al Grial. ¿Podrá Shirou salvar a Sakura? ¿Cuál será el precio de esto?"
+    },
+    {
+        "directors": [
+            "Adam Wingard"
+        ],
+        "trailer": "https://www.youtube.com/embed/vGenggY9UJU?rel=0&controls=0&showinfo=0",
+        "title": "GODZILLA VS. KONG",
+        "actors": [
+            "Alexander Skarsgård",
+            "Millie Bobby Brown",
+            "Kyle Chandler",
+            "Rebecca Hall",
+            "Brian Tyree Henry",
+            "Shun Oguri",
+            "Eiza González",
+            "Jessica Henwick",
+            "Julian Dennison",
+            "Demián Bichir"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "4D - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "4D - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "MS - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "MS - 2D",
+                "time": "2021-04-06T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "4D - 2D",
+                "time": "2021-04-06T18:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "4D - 2D",
+                "time": "2021-04-06T21:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "4D - 2D",
+                "time": "2021-04-06T18:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "4D - 2D",
+                "time": "2021-04-06T21:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "4D - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "4D - 2D",
+                "time": "2021-04-06T22:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T21:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-06T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-06T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-06T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-06T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-06T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "4D - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "4D - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "4D - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "MS - 2D",
+                "time": "2021-04-07T16:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "MS - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "MS - 2D",
+                "time": "2021-04-07T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "4D - 2D",
+                "time": "2021-04-07T18:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "4D - 2D",
+                "time": "2021-04-07T21:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "4D - 2D",
+                "time": "2021-04-07T15:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "4D - 2D",
+                "time": "2021-04-07T18:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "4D - 2D",
+                "time": "2021-04-07T21:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "4D - 2D",
+                "time": "2021-04-07T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "4D - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "4D - 2D",
+                "time": "2021-04-07T22:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T21:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-07T19:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-07T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-07T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-07T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-07T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-07T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-07T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T20:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:30:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-08T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-08T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T21:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-08T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-08T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-08T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-08T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-08T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-08T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-09T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-09T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T21:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-09T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-09T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-09T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-09T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-09T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-09T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-10T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-10T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T21:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-10T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-10T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-10T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-10T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-10T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-10T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-11T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-11T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T21:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-11T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-11T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-11T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-11T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-11T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-11T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-12T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-12T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T21:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-12T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-12T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-12T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-12T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-12T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-12T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-13T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-13T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-13T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-13T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-13T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-13T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-13T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-13T22:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T20:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T21:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-14T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-14T21:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T21:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T21:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T22:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-14T16:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-14T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "4D - 2D",
+                "time": "2021-04-14T19:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-14T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-14T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "MS - 2D",
+                "time": "2021-04-14T22:45:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 113,
+        "released": true,
+        "rated": "P-13",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Aventura",
+            "Ciencia Ficción",
+            "Thriller"
+        ],
+        "synopsis": "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch (Kyle Chandler) se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra."
+    },
+    {
+        "directors": [
+            "Patty Jenkins"
+        ],
+        "trailer": "https://www.youtube.com/embed/dxNwZ2lCeUo?rel=0&controls=0&showinfo=0",
+        "title": "MUJER MARAVILLA 1984",
+        "actors": [
+            "Gal Gadot",
+            "Chris Pine",
+            "Kristen Wiig",
+            "Pedro Pascal",
+            "Connie Nielsen",
+            "Robin Wright",
+            "Gabriella Wilde",
+            "Natasha Rothwell",
+            "Ravi Patel",
+            "Oakley Bull"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:50:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-08T15:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-09T15:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-10T15:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-11T15:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-12T15:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-13T15:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "4D - 2D",
+                "time": "2021-04-14T15:15:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 150,
+        "released": true,
+        "rated": "P-13",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Ciencia Ficción"
+        ],
+        "synopsis": "En 1984, en plena Guerra Fría, Diana Prince, conocida como Wonder Woman, se enfrenta al empresario Maxwell Lord y a su antigua amiga Barbara Minerva / Cheetah, una villana que posee fuerza y agilidad sobrehumanas."
+    },
+    {
+        "directors": [
+            "Gastón Portal"
+        ],
+        "trailer": "https://www.youtube.com/embed/W6WvRKTmYhU?rel=0&controls=0&showinfo=0",
+        "title": "LA NOCHE MÁGICA",
+        "actors": [
+            "Natalia Oreiro",
+            "Diego Peretti",
+            "Pablo Rago",
+            "Esteban Bigliardi",
+            "Hernán Jiménez",
+            "Laura López Moyano",
+            "Isabela Palópoli"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:40:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 98,
+        "released": true,
+        "rated": "P-16",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "La Noche Mágica, la película protagonizada por Natalia Oreiro y Diego Peretti, llega a los cines argentinos el 11 de marzo. El film, una innovadora comedia dramática con ritmo y suspenso de thriller, dirigida por Gastón Portal, cuenta también con las actuaciones de Pablo Rago y Esteban Bigliardi. Está producida por Aeroplano. La Noche Mágica transcurre durante Nochebuena en una casa en San Isidro. Kira (Natalia Oreiro) y su amante Cachete (Pablo Rago), se encuentran en el dormitorio cuando oyen llegar a Juan (Esteban Bigliardi), el marido de Kira. Pero cuando Cachete se esconde en el balcón, se encuentra con algo peor; NICOLA (Diego Peretti), un excéntrico ladrón que, como Papa Noel lleva una barba blanca y un gorro rojo, ha venido a robar el domicilio. Nicola procede a esposar a todos los presentes pero el atraco se complica cuando se encuentra con Alicia, la pequeña hija del matrimonio, quien apenas lo ve le extiende una lista de deseos… Una producción de Aeroplano, en coproducción con World Media (Uruguay), DirecTV, Diego Kolankowsky y Silvia Rodriguez; en asociación con Welavit, RBS, Film Suez, Ketama, TeDigoQue y Dk Entertainment."
+    },
+    {
+        "directors": [
+            "Tim Story"
+        ],
+        "trailer": "https://www.youtube.com/embed/9G5QXTUIIBs?rel=0&controls=0&showinfo=0",
+        "title": "TOM Y JERRY",
+        "actors": [
+            "William Hanna",
+            "Mel Blanc",
+            "June Foray",
+            "Frank Welker",
+            "T-Pain",
+            "Nicky Jam",
+            "Bobby Cannavale",
+            "Lil Rel Howery",
+            "Chloë Grace Moretz",
+            "Michael Peña"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T15:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:50:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "GC - 2D",
+                "time": "2021-04-07T18:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "GC - 2D",
+                "time": "2021-04-07T20:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T15:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T18:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T18:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T18:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T18:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T18:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T17:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T15:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Maipú",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T18:45:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T17:45:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 101,
+        "released": true,
+        "rated": "ATP",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Comedia",
+            "Familia",
+            "Animación",
+            "Aventura"
+        ],
+        "synopsis": "Tom el gato y Jerry el ratón son expulsados de su casa y se trasladan a un elegante hotel de Nueva York, donde una empleada descuidada llamada Kayla perderá su trabajo si no puede desalojar a Jerry antes de una boda de clase alta en el hotel. ¿Su solución? Contratar a Tom para deshacerse del molesto ratón."
+    },
+    {
+        "directors": [
+            "Christopher Nolan"
+        ],
+        "trailer": "https://www.youtube.com/embed/Q3YsDF8rZ9w?rel=0&controls=0&showinfo=0",
+        "title": "TENET",
+        "actors": [
+            "John David Washington",
+            "Robert Pattinson",
+            "Elizabeth Debicki",
+            "Kenneth Branagh",
+            "Dimple Kapadia",
+            "Himesh Patel",
+            "Aaron Taylor-Johnson",
+            "Michael Caine",
+            "Clémence Poésy",
+            "Martin Donovan"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T19:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T23:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T22:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T18:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:15:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T19:40:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T23:10:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T22:20:00",
+                "language": "Subtitulado"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T18:30:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 155,
+        "released": true,
+        "rated": "P-13",
+        "origins": [
+            "Reino Unido",
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Thriller",
+            "Ciencia Ficción"
+        ],
+        "synopsis": "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."
+    },
+    {
+        "directors": [
+            "Walt Dohrn"
+        ],
+        "trailer": "https://www.youtube.com/embed/8Di9oc3EFhs?rel=0&controls=0&showinfo=0",
+        "title": "TROLLS 2: GIRA MUNDIAL",
+        "actors": [
+            "Justin Timberlake",
+            "Anna Kendrick",
+            "Sam Rockwell",
+            "Chance the Rapper",
+            "Anthony Ramos",
+            "Karan Soni",
+            "Flula Borg",
+            "Jamie Dornan",
+            "James Corden",
+            "Kunal Nayyar"
+        ],
+        "shows": [
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-06T17:25:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Recoleta",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:15:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Pilar",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:20:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Merlo",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Avellaneda",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:30:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Rosario",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T17:25:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Luján",
+                "room": "Classic - 2D",
+                "time": "2021-04-07T16:10:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-08T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-09T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-10T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-11T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-12T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-13T15:00:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Mendoza",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T17:40:00",
+                "language": "Español"
+            },
+            {
+                "cinema": "Cinépolis Neuquén",
+                "room": "Classic - 2D",
+                "time": "2021-04-14T15:00:00",
+                "language": "Español"
+            }
+        ],
+        "languages": [],
+        "duration": 90,
+        "released": true,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Animación",
+            "Familia",
+            "Comedia",
+            "Fantasía",
+            "Aventura",
+            "Música"
+        ],
+        "synopsis": "En una aventura que les llevará más allá de todo lo que habían conocido, Poppy y Branch descubren que su tribu de Trolls es solo una de las seis que existen, que el resto están repartidas en seis reinos y consagradas a seis tipos distintos de música: funk, country, tecno, clásica, pop y rock. La reina Bárbara, miembro de la realeza del hard rock, y su padre, el Rey Metal, quieren acabar con el resto de géneros musicales e imponer el reinado del rock. Con el destino del mundo en juego, Poppy y Branch, junto con el resto de la pandilla — Grandullón, Chanelle, Satén, Cooper y Guy Diamante—, visitarán los demás reinos para unir a los Trolls contra los planes de Barb de eclipsarlos a todos."
+    },
+    {
+        "directors": [
+            "Matteo Garrone"
+        ],
+        "trailer": "https://www.youtube.com/embed/8sR52v4hNBI?rel=0&controls=0&showinfo=0",
+        "title": "PINOCHO",
+        "actors": [
+            "Roberto Benigni",
+            "Federico Ielapi",
+            "Rocco Papaleo"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 125,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Reino Unido",
+            "Italia",
+            "Francia"
+        ],
+        "genres": [
+            "Fantasía",
+            "Familia",
+            "Aventura",
+            "Drama"
+        ],
+        "synopsis": "Adaptación live-action de la clásica historia de Pinocho, una marioneta de madera que cobra vida gracias al ingenio de Geppeto, interpretado en esta ocación por el ganador del Premio de la Academia, Roberto Benigni."
+    },
+    {
+        "directors": [
+            "Christopher Landon"
+        ],
+        "trailer": "https://www.youtube.com/embed/YLQuRVjRDU8?rel=0&controls=0&showinfo=0",
+        "title": "FREAKY: ESTE CUERPO ESTÁ PARA MATAR",
+        "actors": [
+            "Vince Vaughn",
+            "Kathryn Newton",
+            "Celeste O'Connor",
+            "Misha Osherovich",
+            "Uriah Shelton",
+            "Dana Drori",
+            "Katie Finneran",
+            "Melissa Collazo",
+            "Alan Ruck",
+            "Brooke Jaye Taylor"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 101,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Terror",
+            "Thriller",
+            "Comedia",
+            "Fantasía"
+        ],
+        "synopsis": "Tras intercambiar su cuerpo con un asesino en serie (Vince Vaughn), una joven estudiante (Kathryn Newton) descubre que tiene menos de 24 horas antes de que el cambio sea permanente."
+    },
+    {
+        "directors": [
+            "Florian Zeller"
+        ],
+        "trailer": "https://www.youtube.com/embed/UGkBAU6N-hs?rel=0&controls=0&showinfo=0",
+        "title": "EL PADRE",
+        "actors": [
+            "Anthony Hopkins",
+            "Olivia Colman",
+            "Mark Gatiss",
+            "Olivia Williams",
+            "Imogen Poots",
+            "Rufus Sewell",
+            "Ayesha Dharker"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 97,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Francia",
+            "Reino Unido"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Anthony es un ingeniero anciano de gran carácer que se niega a aceptar la ayuda de ninguna enfermera o asistenta que su hija le busca."
+    },
+    {
+        "directors": [
+            "Francisco Márquez"
+        ],
+        "trailer": "https://www.youtube.com/embed/7AWfv05ilAw?rel=0&controls=0&showinfo=0",
+        "title": "UN CRIMEN COMÚN",
+        "actors": [
+            "Elisa Carricajo",
+            "Mecha Martínez",
+            "Cecilia Rainero",
+            "Ciro Coien Pardo",
+            "Eliot Otazo"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 96,
+        "released": false,
+        "rated": "P-13",
+        "origins": [
+            "Argentina",
+            "Brasil",
+            "Suiza"
+        ],
+        "genres": [
+            "Thriller",
+            "Terror"
+        ],
+        "synopsis": "Cecilia es profesora de sociología en la Universidad. Una madrugada de tormenta Kevin, el hijo de la empleada doméstica que trabaja en su casa y que ella apenas conoce, toca la puerta de entrada con desesperación. Ella, asustada, no le abre. Al día siguiente el cuerpo de Kevin aparece en el río, asesinado por la policía. Cecilia comienza a ser acechada por el fantasma del joven."
+    },
+    {
+        "directors": [
+            "Mayra Bottero"
+        ],
+        "trailer": "https://www.youtube.com/embed/td5mdFmGUSg?rel=0&controls=0&showinfo=0",
+        "title": "UNA CASA LEJOS",
+        "actors": [
+            "Stella Galazzi",
+            "Carlos Rivkin",
+            "Valeria Correa",
+            "Alicia Muxo"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 77,
+        "released": false,
+        "rated": "P-13",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Graciela quiere jubilarse e irse a vivir al interior, pero descubre que su padre, un anciano muy solitario, mantiene un extraño vínculo con una chica de la calle que está embarazada. Graciela teme lo peor e intenta separarlos por todos los medios posibles, pero la fuerza de esa amistad termina transformándola hasta lo mas profundo."
+    },
+    {
+        "directors": [
+            "Javier Van de Couter"
+        ],
+        "trailer": null,
+        "title": "IMPLOSIÓN",
+        "actors": [
+            "Pablo Saldías Kloster",
+            "Rodrigo Torres",
+            "Nina Vera Suárez Bléfari",
+            "Julieta Zapiola"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 84,
+        "released": false,
+        "rated": "P-16",
+        "origins": [
+            "Argentina",
+            "Chile"
+        ],
+        "genres": [],
+        "synopsis": "Pablo y Rodrigo son sobrevivientes reales de la primera masacre escolar ocurrida en Argentina, en 2004, en la ciudad de Carmen de Patagones. Cuando en la actualidad viajen en busca de su victimario, por aquel entonces un adolescente como ellos, deberán lidiar con su pasado."
+    },
+    {
+        "directors": [
+            "John Lee Hancock"
+        ],
+        "trailer": "https://www.youtube.com/embed/y3Nm9NdMevA?rel=0&controls=0&showinfo=0",
+        "title": "PEQUEÑOS SECRETOS",
+        "actors": [
+            "Denzel Washington",
+            "Rami Malek",
+            "Jared Leto",
+            "Chris Bauer",
+            "Michael Hyatt",
+            "Terry Kinney",
+            "Natalie Morales",
+            "Isabel Arraiza",
+            "Joris Jarsky",
+            "Glenn Morshower"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 128,
+        "released": false,
+        "rated": "P13R",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Thriller",
+            "Crimen"
+        ],
+        "synopsis": "Deke, un ayudante del sheriff del condado de Kern quemado, CA se une a Baxter, un detective experto en LASD, para atrapar a un asesino en serie. El olfato de Deke para las \"pequeñas cosas\" resulta inquietantemente preciso, pero su voluntad de eludir las reglas envuelve a Baxter en un dilema desgarrador. Mientras tanto, Deke debe luchar con un oscuro secreto de su pasado."
+    },
+    {
+        "directors": [
+            "Tim Hill"
+        ],
+        "trailer": "https://www.youtube.com/embed/8TPaelfcBbQ?rel=0&controls=0&showinfo=0",
+        "title": "EN GUERRA CON MI ABUELO",
+        "actors": [
+            "Robert De Niro",
+            "Uma Thurman",
+            "Christopher Walken",
+            "Jane Seymour",
+            "Oakes Fegley",
+            "Laura Marano",
+            "Rob Riggle",
+            "Cheech Marin",
+            "T.J. McGibbon",
+            "Isaac Kragten"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 98,
+        "released": false,
+        "rated": "ATPR",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Comedia",
+            "Familia"
+        ],
+        "synopsis": "Peter está muy molesto porque tiene que cederle la habitación a su abuelo (Robert De Niro) por lo que decide declararle la guerra en un intento por recuperarla. Esto desatará una divertida y alocada batalla entre él, su abuelo y sus amigos."
+    },
+    {
+        "directors": [
+            "Miroslav Terzić"
+        ],
+        "trailer": "https://www.youtube.com/embed/aBte_CloluM?rel=0&controls=0&showinfo=0",
+        "title": "CICATRICES",
+        "actors": [
+            "Snežana Bogdanović",
+            "Jovana Stojiljković",
+            "Marko Baćović",
+            "Vesna Trivalić",
+            "Dragana Varagić",
+            "Pavle Čemerikić",
+            "Ksenija Marinković",
+            "Igor Benčina",
+            "Jelena Stupljanin",
+            "Radoslav Milenković"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 105,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Serbia"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Ana está convencida de que a ella y a otras mujeres serbias les robaron sus bebés recién nacidos, para entregarlos en adopción ilegal por dinero."
+    },
+    {
+        "directors": [
+            "Denis Villeneuve",
+            "Chloé Zhao"
+        ],
+        "trailer": "https://www.youtube.com/embed/u9VfkCaeTfM?rel=0&controls=0&showinfo=0",
+        "title": "NOMADLAND",
+        "actors": [
+            "Frances McDormand",
+            "David Strathairn",
+            "Linda May",
+            "Swankie",
+            "Gay DeForest",
+            "Patricia Grier",
+            "Angela Reyes",
+            "Carl R. Hughes",
+            "Douglas G. Soul",
+            "Ryan Aquino"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 108,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Drama",
+            "Western"
+        ],
+        "synopsis": "Una mujer de unos sesenta años se embarca en un viaje por el oeste de los Estados Unidos después de perderlo todo en la Gran Recesión, viviendo como una nómada moderna que vive en una furgoneta."
+    },
+    {
+        "directors": [
+            "Simon McQuoid"
+        ],
+        "trailer": "https://www.youtube.com/embed/VKROb3deXzU?rel=0&controls=0&showinfo=0",
+        "title": "MORTAL KOMBAT",
+        "actors": [
+            "Lewis Tan",
+            "Jessica McNamee",
+            "Josh Lawson",
+            "Tadanobu Asano",
+            "Mehcad Brooks",
+            "Ludi Lin",
+            "Ng Chin Han",
+            "Joe Taslim",
+            "Hiroyuki Sanada",
+            "Max Huang"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 110,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos",
+            "Australia"
+        ],
+        "genres": [
+            "Fantasía",
+            "Acción",
+            "Aventura"
+        ],
+        "synopsis": "Un boxeador fracasado descubre un secreto familiar que lo lleva a un torneo místico llamado Mortal Kombat donde se encuentra con un grupo de guerreros que luchan hasta la muerte para salvar los reinos del malvado hechicero Shang Tsung."
+    },
+    {
+        "directors": [
+            "Manuel Ferrari"
+        ],
+        "trailer": "https://www.youtube.com/embed/GeJA3H9RNTs?rel=0&controls=0&showinfo=0",
+        "title": "DE LA NOCHE A LA MAÑANA",
+        "actors": [
+            "Esteban Menis",
+            "Manuela Martelli",
+            "Alejandro Goic"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 89,
+        "released": false,
+        "rated": "P-13",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Luego de enterarse de su inminente paternidad, Ignacio se embarcará en un viaje a Valparaíso. Allí comienza a gestar una nueva vida con mayor éxito del esperado, viéndose obligado a plantear la posibilidad de abandonar todo y empezar de nuevo."
+    },
+    {
+        "directors": [
+            "Amanda Iswan"
+        ],
+        "trailer": "https://www.youtube.com/embed/KDlLtzHJBZE?rel=0&controls=0&showinfo=0",
+        "title": "Z",
+        "actors": [
+            "Keegan Connor Tracy",
+            "Jett Klyne",
+            "Sean Rogerson",
+            "Sara Canning",
+            "Stephen McHattie",
+            "Chandra West",
+            "Ali Webb",
+            "Deborah Ferguson",
+            "Kevin Doree",
+            "Fox Rose"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 94,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Canada"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "Una familia se encuentra aterrorizada por el amigo imaginario de su hijo de ocho años."
+    },
+    {
+        "directors": [
+            "Mark Williams"
+        ],
+        "trailer": "https://www.youtube.com/embed/p5esXgwi1h4?rel=0&controls=0&showinfo=0",
+        "title": "VENGANZA IMPLACABLE",
+        "actors": [
+            "Liam Neeson",
+            "Kate Walsh",
+            "Jai Courtney",
+            "Jeffrey Donovan",
+            "Anthony Ramos",
+            "Robert Patrick",
+            "Jasmine Cephas Jones",
+            "Birol Tarkan Yildiz",
+            "Adam Teper",
+            "Jose Guns Alves"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 99,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Thriller",
+            "Acción",
+            "Crimen",
+            "Drama"
+        ],
+        "synopsis": "Un atracador de bancos se entrega a la policía porque se ha enamorado y decide llevar una vida honrada. Cuando descubre que los federales son aún más corruptos que él, se verá obligado a utilizar todas sus artimañas de ex marine para limpiar su nombre."
+    },
+    {
+        "directors": [
+            "Alexs Stadermann"
+        ],
+        "trailer": "https://www.youtube.com/embed/dAPc09RqEGo?rel=0&controls=0&showinfo=0",
+        "title": "100% LOBO",
+        "actors": [
+            "Ilai Swindells",
+            "Jai Courtney",
+            "Samara Weaving",
+            "Rhys Darby",
+            "Jane Lynch",
+            "Rupert Degas"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 85,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Australia",
+            "Belgica"
+        ],
+        "genres": [
+            "Familia",
+            "Animación",
+            "Fantasía"
+        ],
+        "synopsis": "Freddy Lupin pertenece a una orgullosa familia de hombres lobo. Confiado de que pronto se convertirá en un hombre lobo de los más temidos, Freddy se queda sorprendido cuando descubre que no es todo lo feroz que esperaba."
+    },
+    {
+        "directors": [
+            "Nacho Álvarez"
+        ],
+        "trailer": "https://www.youtube.com/embed/_K20Fyv2HwE?rel=0&controls=0&showinfo=0",
+        "title": "EXPLOTA EXPLOTA",
+        "actors": [
+            "Ingrid García-Jonsson",
+            "Verónica Echegui",
+            "Fernando Guallar",
+            "Natalia Millán",
+            "Pedro Casablanc",
+            "Fernando Tejero",
+            "Giuseppe Maggio",
+            "Fran Morcillo",
+            "Carlos Hipólito",
+            "Sol Cardozo"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 116,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "España",
+            "Italia"
+        ],
+        "genres": [
+            "Música",
+            "Comedia"
+        ],
+        "synopsis": "Cuenta la historia de María, una bailarina joven, sensual y con ansias de libertad a principios de los años 70, una época que en España estuvo marcada por la rigidez y la censura, especialmente en televisión."
+    },
+    {
+        "directors": [
+            "Hirokazu Koreeda"
+        ],
+        "trailer": "https://www.youtube.com/embed/LQNpvAlEdJs?rel=0&controls=0&showinfo=0",
+        "title": "LA VERDAD",
+        "actors": [
+            "Catherine Deneuve",
+            "Juliette Binoche",
+            "Ethan Hawke"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 106,
+        "released": false,
+        "rated": "N/A",
+        "origins": [],
+        "genres": [
+            "Comedia",
+            "Drama"
+        ],
+        "synopsis": "Fabienne (Catherine Deneuve) es una estrella de cine que reina entre hombres que la aman y admiran. Cuando publica sus memorias, su hija Lumir (Juliette Binoche) regresa de Nueva York a París con su marido (Ethan Hawke) y su pequeña hija. Pero el reencuentro entre madre e hija se transformará rápidamente en confrontación: se contarán verdades, se saldarán cuentas pendientes y se confesarán amores y resentimientos. Tras ganar la Palma de Oro y ser nominado al Oscar por Somos una familia, Kore-eda Hirokazu filmó por primera vez con un elenco estelar esta película que viene siendo aclamada por la crítica internacional desde su estreno mundial como apertura del Festival de Venecia: “Un cálido y emocionante retrato familiar con la sensibilidad e inteligencia que solo un maestro puede alcanzar” (Indiewire), “Una película de gran ingenio, confianza y entusiasmo” (Variety), “Catherine Deneuve en lo más alto de su carrera” (The Times)."
+    },
+    {
+        "directors": [
+            "Brenda Chapman"
+        ],
+        "trailer": "https://www.youtube.com/embed/aPG0XFy1BXA?rel=0&controls=0&showinfo=0",
+        "title": "ERASE UNA VEZ",
+        "actors": [
+            "Angelina Jolie",
+            "David Oyelowo",
+            "Jordan A. Nash",
+            "Keira Chansa",
+            "Michael Caine",
+            "Gugu Mbatha-Raw",
+            "Derek Jacobi",
+            "Anna Chancellor",
+            "Clarke Peters",
+            "Johanna Thea"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 94,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Reino Unido",
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Fantasía",
+            "Aventura",
+            "Drama"
+        ],
+        "synopsis": "Antes de que Alicia se adentrase en el País de las Maravillas y de que Peter se convirtiese en Pan, ambos eran hermanos. Después de que su hermano mayor fallezca en un trágico accidente, intentan salvar a sus padres de la espiral de desesperación, hasta que finalmente se ven obligados a elegir entre su hogar y su imaginación, creando así la antesala de sus icónicos viajes al País de las Maravillas y al de Nunca Jamás."
+    },
+    {
+        "directors": [
+            "Tamae Garateguy"
+        ],
+        "trailer": "https://www.youtube.com/embed/M5dSUrFIAJI?rel=0&controls=0&showinfo=0",
+        "title": "10 PALOMAS",
+        "actors": [
+            "Guillermo Pfening",
+            "Nancy Dupláa",
+            "Alberto Ajaka",
+            "César Bordón",
+            "Martina Garello",
+            "Willy Lemos",
+            "Alexia Moyano",
+            "Daniel Valenzuela"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 83,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Crimen",
+            "Acción",
+            "Drama"
+        ],
+        "synopsis": "Un asesino serial, con aire teatral, hace que Félix, un prestigioso investigador policial, perseguido por las sombras de su pasado, enfrente el caso más importante de su vida."
+    },
+    {
+        "directors": [
+            "Robert Lorenz"
+        ],
+        "trailer": "https://www.youtube.com/embed/-LaCyXUqSY4?rel=0&controls=0&showinfo=0",
+        "title": "EL PROTECTOR",
+        "actors": [
+            "Liam Neeson",
+            "Katheryn Winnick",
+            "Teresa Ruiz",
+            "Juan Pablo Raba",
+            "Dylan Kenin",
+            "Luce Rains",
+            "Chase Mullins",
+            "Christopher Mele",
+            "Grayson Berry",
+            "David DeLao"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 108,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "United States of America"
+        ],
+        "genres": [
+            "Acción",
+            "Thriller",
+            "Crimen"
+        ],
+        "synopsis": "Un ranchero en la frontera de Arizona se convierte en el improbable defensor de un joven mexicano que huye desesperadamente de los asesinos del cartel que lo han perseguido hasta Estados Unidos."
+    },
+    {
+        "directors": [
+            "Ilya Naishuller"
+        ],
+        "trailer": "https://www.youtube.com/embed/ycv9WZct31w?rel=0&controls=0&showinfo=0",
+        "title": "NADIE",
+        "actors": [
+            "Bob Odenkirk",
+            "Christopher Lloyd",
+            "Connie Nielsen",
+            "J.P. Manoux",
+            "Humberly Gonzalez",
+            "Gage Munroe",
+            "Stephanie Sy",
+            "Kristen Harris",
+            "Paul Essiembre",
+            "Araya Mengesha"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 92,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Thriller",
+            "Crimen"
+        ],
+        "synopsis": "Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse los golpes de la vida. Un don nadie. Una noche, cuando dos ladrones entran en su casa, Hutch decide no actuar y no trata de defenderse ni al él mismo ni a su familia, convencido de que solo así evitará una escalada de violencia. Tras el ataque, su hija adolescente Blake no oculta su decepción, y su esposa Becca se aleja todavía más."
+    },
+    {
+        "directors": [
+            "Shawn Levy"
+        ],
+        "trailer": null,
+        "title": "FREE GUY: TOMANDO EL CONTROL",
+        "actors": [
+            "Ryan Reynolds",
+            "Jodie Comer",
+            "Taika Waititi",
+            "Joe Keery",
+            "Utkarsh Ambudkar",
+            "Channing Tatum",
+            "Owen Burke",
+            "Kayla Caulfield",
+            "Camille Kostek",
+            "Michael Malvesti"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Comedia",
+            "Aventura"
+        ],
+        "synopsis": "Un trabajador de un banco descubre que en realidad es un jugador dentro de un videojuego."
+    },
+    {
+        "directors": [],
+        "trailer": "https://www.youtube.com/embed/1BOSHrhJ_MM?rel=0&controls=0&showinfo=0",
+        "title": "ESPIRAL: EL JUEGO DEL MIEDO CONTINÚA",
+        "actors": [],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [],
+        "genres": [],
+        "synopsis": "Un cruel y sádico genio desata una retorcida forma de justicia en ESPIRAL, el nuevo y aterrador capítulo en el Universo de El Juego del Miedo. A la sombra de un respetado veterano de la policía (Samuel L. Jackson), el atrevido detective Ezequiel “Zeke” Banks (Chris Rock) y su compañero novato (Max Minghella) se encargan de la rebuscada investigación sobre unos asesinatos que despiertan un recuerdo inquietante del terrible pasado vivido en la ciudad: ¿Habrá regresado? ¿Será posible? Con cada movida, Zeke se acerca más al centro de un misterio y a los macabros juegos de un asesino. ESPIRAL está protagonizada por Chris Rock, Max Minghella, Marisol Nichols y Samuel L. Jackson, y está producida por el equipo original de SAW de Mark Burg y Oren Koules. La película está dirigida por Darren Lynn Bousman y escrita por Josh Stolberg y Pete Goldfinger."
+    },
+    {
+        "directors": [
+            "Quentin Dupieux"
+        ],
+        "trailer": null,
+        "title": "UNA EXTRAÑA OBSESIÓN",
+        "actors": [
+            "Jean Dujardin",
+            "Adèle Haenel",
+            "Albert Delpy",
+            "Coralie Russier",
+            "Pierre Gommé",
+            "Laurent Nicolas",
+            "Caroline Piette",
+            "Stéphane Jobert",
+            "Marie Bunel",
+            "Panayotis Pascot"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 77,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Francia"
+        ],
+        "genres": [
+            "Comedia",
+            "Crimen",
+            "Drama"
+        ],
+        "synopsis": ""
+    },
+    {
+        "directors": [
+            "Evan Spiliotopoulos"
+        ],
+        "trailer": "https://www.youtube.com/embed/n4SJaeP04vM?rel=0&controls=0&showinfo=0",
+        "title": "RUEGA POR NOSOTROS",
+        "actors": [
+            "Jeffrey Dean Morgan",
+            "Cary Elwes",
+            "William Sadler",
+            "Katie Aselton",
+            "Christine Adams",
+            "Diogo Morgado",
+            "Celeste Oliva",
+            "Marina Mazepa",
+            "Bates Wilder",
+            "Kiara Pichardo"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 99,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "Se centra en un periodista caído en desgracia que descubre una serie de aparentes milagros acaecidos en un pequeño pueblo de Nueva Inglaterra, aplicándolos para devolver su carrera al estrellato. Lo que desconoce es que estos milagros esconden una cara mucho más oscura de lo que él cree."
+    },
+    {
+        "directors": [
+            "Roman Polanski"
+        ],
+        "trailer": null,
+        "title": "EL OFICIAL Y EL ESPÍA",
+        "actors": [
+            "Louis Garrel",
+            "Jean Dujardin",
+            "Emmanuelle Seigner",
+            "Grégory Gadebois",
+            "Vincent Pérez",
+            "Melvil Poupaud",
+            "André Marcon",
+            "Mathieu Amalric",
+            "Vincent Grass",
+            "Didier Sandre"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 126,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Francia",
+            "Italia"
+        ],
+        "genres": [
+            "Drama",
+            "Historia"
+        ],
+        "synopsis": "En 1894, el capitán francés Alfred Dreyfus, un joven oficial judío, es acusado de traición por espiar para Alemania y condenado a cadena perpetua en la Isla del Diablo, en la Guayana Francesa. Entre los testigos que hicieron posible esta humillación se encuentra el coronel Georges Picquart, encargado de liderar la unidad de contrainteligencia que descubrió al espía. Pero cuando Picquart se entera de que se siguen pasando secretos militares a los alemanes, se adentrará en un peligroso laberinto de mentiras y corrupción, poniendo en peligro su honor y su vida."
+    },
+    {
+        "directors": [
+            "Craig Gillespie"
+        ],
+        "trailer": "https://www.youtube.com/embed/ni84bGemIVU?rel=0&controls=0&showinfo=0",
+        "title": "CRUELLA",
+        "actors": [
+            "Emma Stone",
+            "Emma Thompson",
+            "Joel Fry",
+            "Paul Walter Hauser",
+            "Emily Beecham",
+            "Kirby Howell-Baptiste",
+            "Mark Strong",
+            "Jamie Demetriou"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Comedia",
+            "Drama",
+            "Acción"
+        ],
+        "synopsis": "La ganadora del Oscar® Emma Stone (La La Land) protagoniza CRUELLA de Disney, un nuevo largometraje de acción real que retrata los primeros días rebeldes de una de las villanas más notorias del cine y de la moda, la legendaria Cruella de Vil. Ambientada en los años 70 en Londres y en medio de la revolución del punk rock, CRUELLA sigue a una joven estafadora llamada Estella, una chica inteligente y creativa decidida a hacerse un lugar en la moda con sus diseños de ropa. Cuando se hace amiga de un par de jóvenes ladrones que aprecian su apetito por las travesuras, juntos logran construir una vida en las calles de Londres. Un día, el talento de Estella llama la atención de la Baronesa von Hellman, la aterradoramente elegante y sofisticada leyenda de la moda interpretada por la dos veces ganadora del Oscar® Emma Thompson (La mansión Howard, Sensatez y Sentimiento). Pero su relación pone en marcha un curso de eventos y revelaciones que harán que Estella abrace su lado perverso y se convierta en la disonante, vanguardista y ávida de venganza Cruella."
+    },
+    {
+        "directors": [
+            "Elaine Bogan"
+        ],
+        "trailer": "https://www.youtube.com/embed/qVrzHqLvQZ0?rel=0&controls=0&showinfo=0",
+        "title": "SPIRIT: EL INDOMABLE",
+        "actors": [
+            "Isabela Merced",
+            "Jake Gyllenhaal",
+            "Julianne Moore",
+            "Marsai Martin",
+            "Mckenna Grace",
+            "Eiza González",
+            "Walton Goggins",
+            "Andre Braugher"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Animación",
+            "Aventura",
+            "Familia",
+            "Western"
+        ],
+        "synopsis": "La vida de Lucky Prescott cambia para siempre cuando se muda de su casa en la gran ciudad a un pequeño pueblo fronterizo en el que entabla amistad con un caballo salvaje llamado Spirit."
+    },
+    {
+        "directors": [
+            "Alexey Nuzhny"
+        ],
+        "trailer": "https://www.youtube.com/embed/pog0W0bsZSE?rel=0&controls=0&showinfo=0",
+        "title": "CONTRA EL FUEGO",
+        "actors": [
+            "Ivan Yankovskiy",
+            "Konstantin Khabenskiy",
+            "Stasya Miloslavskaya"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 131,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Rusia"
+        ],
+        "genres": [
+            "Acción",
+            "Drama"
+        ],
+        "synopsis": ""
+    },
+    {
+        "directors": [
+            "Luc Dardenne",
+            "Jean-Pierre Dardenne"
+        ],
+        "trailer": null,
+        "title": "EL JOVEN AHMED",
+        "actors": [
+            "Idir Ben Addi",
+            "Olivier Bonnaud",
+            "Myriem Akeddiou",
+            "Victoria Bluck",
+            "Claire Bodson",
+            "Othmane Moumen",
+            "Amine Hamidou"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 84,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Belgica",
+            "Francia"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "En la Bélgica actual, el destino del joven Ahmed, de apenas 13 años, se ha quedado atrapado entre los ideales de pureza del que le habla su imán y las pasiones de la vida."
+    },
+    {
+        "directors": [
+            "Enrico Casarosa"
+        ],
+        "trailer": "https://www.youtube.com/embed/_veu9vt5ETE?rel=0&controls=0&showinfo=0",
+        "title": "LUCA",
+        "actors": [
+            "Jacob Tremblay",
+            "Jack Dylan Grazer",
+            "Emma Berman",
+            "Maya Rudolph",
+            "Jim Gaffigan",
+            "Marco Barricelli",
+            "Saverio Raimondo"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Animación",
+            "Comedia",
+            "Familia",
+            "Fantasía"
+        ],
+        "synopsis": "Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter. Luca comparte estas aventuras con su nuevo mejor amigo, pero toda la diversión se ve amenazada por un secreto muy profundo: él es un monstruo marino de un mundo que yace bajo la superficie del agua."
+    },
+    {
+        "directors": [
+            "Jon M. Chu"
+        ],
+        "trailer": "https://www.youtube.com/embed/_eTm-Di0hNU?rel=0&controls=0&showinfo=0",
+        "title": "EN EL BARRIO",
+        "actors": [
+            "Anthony Ramos",
+            "Melissa Barrera",
+            "Corey Hawkins",
+            "Leslie Grace",
+            "Olga Merediz",
+            "Jimmy Smits",
+            "Lin-Manuel Miranda",
+            "Daphne Rubin-Vega",
+            "Stephanie Beatriz",
+            "Gregory Diaz IV"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 120,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Drama",
+            "Música",
+            "Romance"
+        ],
+        "synopsis": "Adaptación del musical de Broadway de Lin-Manuel Miranda en el que el propietario de una bodega duda sobre si cerrar su negocio y retirarse a la República Dominicana tras heredar la fortuna de su abuela."
+    },
+    {
+        "directors": [
+            "Tigran Sahakyan"
+        ],
+        "trailer": "https://www.youtube.com/embed/EpWE7PoBUe4?rel=0&controls=0&showinfo=0",
+        "title": "PÁNICO EN LAS ALTURAS",
+        "actors": [
+            "Irina Antonenko",
+            "Denis Kosyakov",
+            "Ingrid Olerinskaya",
+            "Andrey Nazimov",
+            "Anastasiya Grachyova",
+            "Vladimir Gusev",
+            "Aleksandr Nikitchenko",
+            "Angelina Pikovskaya",
+            "Victoriya Pyatakina",
+            "Kseniya Shumeyko"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 90,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Rusia"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "Cinco jóvenes, deciden celebrar la víspera de Año Nuevo en la cima de una montaña, pero en su intento quedan atrapados en un teleférico. Lo que comenzó como una fiesta de aventura, pronto se convertirá en su peor pesadilla. El frío, la altura y el miedo a una muerte lenta hacen que revelen su verdadera esencia."
+    },
+    {
+        "directors": [
+            "John Krasinski"
+        ],
+        "trailer": "https://www.youtube.com/embed/9fcDdfN9_tg?rel=0&controls=0&showinfo=0",
+        "title": "UN LUGAR EN SILENCIO 2",
+        "actors": [
+            "Emily Blunt",
+            "Cillian Murphy",
+            "Millicent Simmonds",
+            "Noah Jupe",
+            "Djimon Hounsou"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "Tras los fatales acontecimientos sucedidos en la primera parte, la familia Abbot (Emily Blunt, Millicent Simmonds y Noah Jupe) debe enfrentarse a los peligros del mundo exterior mientras luchan en silencio por sobrevivir. Forzados a aventurarse en lo desconocido, pronto se dan cuenta de que las criaturas que cazan orientadas por el sonido no son la única amenaza que acecha más allá del camino de arena. Secuela de la exitosa producción \"Un lugar tranquilo\""
+    },
+    {
+        "directors": [
+            "Will Gluck"
+        ],
+        "trailer": "https://www.youtube.com/embed/QNgxHvVCk3k?rel=0&controls=0&showinfo=0",
+        "title": "PETER RABBIT: CONEJO EN FUGA",
+        "actors": [
+            "James Corden",
+            "Rose Byrne",
+            "Margot Robbie",
+            "Sam Neill",
+            "Domhnall Gleeson",
+            "Daisy Ridley",
+            "Elizabeth Debicki",
+            "Sia",
+            "Felix Williamson",
+            "Fayssal Bazzi"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 93,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Animación",
+            "Aventura",
+            "Familia"
+        ],
+        "synopsis": "Peter Rabbit no es un conejo cualquiera. Es un rebelde travieso y aventurero que viste camisa azul y no lleva pantalones. Peter vive junto a su familia y amigos, un grupo variopinto de animales que incluye incluso a un zorro. Todos ellos harán de las suyas en la granja de los McGregor, lugar en cuyo jardín disponen de deliciosos vegetales. Pero la disputa de Peter con el Sr. McGregor se intensificará más que nunca ya que ambos compiten por el afecto de Bea, una amante de los animales de buen corazón. La fiesta animal ha empezado, y esto es solo el principio."
+    },
+    {
+        "directors": [
+            "Evgeny Ruman"
+        ],
+        "trailer": null,
+        "title": "GOLDEN VOICES",
+        "actors": [
+            "Maria Belkin",
+            "Vladimir Fridman",
+            "Evelin Hagoel"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 88,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Israel"
+        ],
+        "genres": [],
+        "synopsis": ""
+    },
+    {
+        "directors": [
+            "Joseph Kosinski"
+        ],
+        "trailer": "https://www.youtube.com/embed/69GWoZ5fxlc?rel=0&controls=0&showinfo=0",
+        "title": "TOP GUN: MAVERICK",
+        "actors": [
+            "Tom Cruise",
+            "Val Kilmer",
+            "Miles Teller",
+            "Ed Harris",
+            "Jennifer Connelly",
+            "Glen Powell",
+            "Manny Jacinto",
+            "Charles Parnell",
+            "Jay Ellis",
+            "Bashir Salahuddin"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Drama"
+        ],
+        "synopsis": "Secuela de Top Gun. De acuerdo con la revista Variety, el propio Tom Cruise confirmó el 24 de mayo a una televisión australiana que el film se rodaría \"el año 2018\"."
+    },
+    {
+        "directors": [
+            "Joel Crawford"
+        ],
+        "trailer": "https://www.youtube.com/embed/bVGlZR05Izc?rel=0&controls=0&showinfo=0",
+        "title": "LOS CROODS 2: UNA NUEVA ERA",
+        "actors": [
+            "Nicolas Cage",
+            "Emma Stone",
+            "Ryan Reynolds",
+            "Peter Dinklage",
+            "Leslie Mann",
+            "Kelly Marie Tran",
+            "Catherine Keener",
+            "Clark Duke",
+            "Randy Thom",
+            "Cloris Leachman"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 90,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Familia",
+            "Fantasía",
+            "Animación",
+            "Comedia"
+        ],
+        "synopsis": "Después de salir de su cueva, los Croods se encuentran con su mayor amenaza desde que se fueron: otra familia llamada Betterman, quienes afirman y demuestran ser mejores y evolucionados. Grug empieza a sospechar de los padres de Betterman, Phil y Hope, ya que planean en secreto separar a su hija Eep con su amado novio Guy para asegurarse de que su hija Dawn tenga un compañero amoroso e inteligente que la proteja."
+    },
+    {
+        "directors": [
+            "Cate Shortland"
+        ],
+        "trailer": "https://www.youtube.com/embed/COUQ4GDKXJ0?rel=0&controls=0&showinfo=0",
+        "title": "BLACK WIDOW",
+        "actors": [
+            "Scarlett Johansson",
+            "Florence Pugh",
+            "David Harbour",
+            "O.T. Fagbenle",
+            "Rachel Weisz",
+            "Robert Downey Jr.",
+            "William Hurt",
+            "Ray Winstone",
+            "Simona Zivkovska",
+            "Yolanda Lynes"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos",
+            "Inglaterra"
+        ],
+        "genres": [
+            "Acción",
+            "Thriller"
+        ],
+        "synopsis": "Al nacer, Natasha Romanoff se entrega a la KGB, que la prepara para convertirse en su principal agente. Cuando los Estados Unidos se separan, el gobierno trata de matarla mientras la acción actúa."
+    },
+    {
+        "directors": [
+            "Justin Lin"
+        ],
+        "trailer": "https://www.youtube.com/embed/Vo1MitA1JmI?rel=0&controls=0&showinfo=0",
+        "title": "FAST & FURIOUS 9",
+        "actors": [
+            "Vin Diesel",
+            "Michelle Rodriguez",
+            "Jordana Brewster",
+            "Tyrese Gibson",
+            "Ludacris",
+            "Nathalie Emmanuel",
+            "John Cena",
+            "Charlize Theron",
+            "Sung Kang",
+            "Lucas Black"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Thriller"
+        ],
+        "synopsis": "Novena secuela de Fast & Furious"
+    },
+    {
+        "directors": [
+            "Malcolm D. Lee"
+        ],
+        "trailer": "https://www.youtube.com/embed/cyK_zpv69uI?rel=0&controls=0&showinfo=0",
+        "title": "SPACE JAM: UNA NUEVA ERA",
+        "actors": [
+            "LeBron James",
+            "Don Cheadle",
+            "Khris Davis",
+            "Sonequa Martin-Green",
+            "Cedric Joe",
+            "Eric Bauza",
+            "Ceyair J. Wright",
+            "Bob Bergen",
+            "Jeff Bergman",
+            "Zendaya"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 120,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Comedia",
+            "Familia",
+            "Aventura",
+            "Fantasía",
+            "Ciencia Ficción"
+        ],
+        "synopsis": "¡Bienvenido al partido del siglo! El campeón de la NBA e ícono mundial LeBron James se embarca en una aventura épica junto al Tune Bugs Bunny en el evento animado / de acción en vivo \"Space Jam: Una Nueva Era\", del director Malcolm D. Lee y un equipo de cine innovador que incluye a Ryan Coogler y Maverick Carter. Este viaje de transformación es el resultado de una mezcla maníaca entre dos mundos que, al final, revela hasta dónde están dispuestos a llegar algunos padres para conectar con sus hijos. Cuando LeBron y su pequeño hijo Dom quedan atrapados en un espacio digital por una IA (inteligencia artificial) deshonesta, LeBron debe regresarlos a casa sanos y salvos guiado por Bugs, Lola Bunny y a toda la banda de indisciplinados Looney Tunes hacia la victoria sobre los campeones digitalizados de la IA en la cancha: una lista mejorada de estrellas profesionales del basquetbol como nunca antes lo habías visto. Son Tunes versus Goons en el desafío más importante de su vida, que redefinirá el vínculo de LeBron con su hijo y arrojará luz sobre el poder de ser uno mismo. Todos listos para la acción destruyen las convenciones, potencian sus talentos únicos y sorprenden incluso al \"Rey\" James jugando basquetbol a su manera."
+    },
+    {
+        "directors": [
+            "Jaume Collet-Serra"
+        ],
+        "trailer": "https://www.youtube.com/embed/mGvvhm-uRsc?rel=0&controls=0&showinfo=0",
+        "title": "JUNGLE CRUISE",
+        "actors": [
+            "Dwayne Johnson",
+            "Emily Blunt",
+            "Jack Whitehall",
+            "Edgar Ramírez",
+            "Jesse Plemons",
+            "Paul Giamatti",
+            "Dani Rovira"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Acción",
+            "Aventura"
+        ],
+        "synopsis": "La adaptación de acción en vivo de Disney de su icónico paseo en un parque temático."
+    },
+    {
+        "directors": [
+            "Romain Cogitore"
+        ],
+        "trailer": null,
+        "title": "EL TERRITORIO DEL AMOR",
+        "actors": [
+            "Déborah François",
+            "Paul Hamy",
+            "Vincent Pérez",
+            "Aviis Zhong",
+            "Nanou Garcia",
+            "Daniel Martin",
+            "Christiane Millet"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 97,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Francia"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "María tiene 30 años, es impaciente, rebelde y experta en holandés. Olivier tiene la misma edad, es lento, tímido y habla catorce idiomas. Se encuentran en Taiwan. Y de repente, la impactante novedad. Es su historia. La de la increíble fuerza de un amor. Y la de sus confines, en donde todo empieza a fallar. Excepto María."
+    },
+    {
+        "directors": [
+            "Nia DaCosta"
+        ],
+        "trailer": null,
+        "title": "CANDYMAN",
+        "actors": [
+            "Yahya Abdul-Mateen II",
+            "Teyonah Parris",
+            "Tony Todd",
+            "Cassie Kramer",
+            "Nathan Stewart-Jarrett",
+            "Colman Domingo",
+            "Rebecca Spence",
+            "Kyle Kaminsky",
+            "Carl Clemons-Hopkins",
+            "Cedric Mays"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Terror",
+            "Thriller"
+        ],
+        "synopsis": "Desde tiempos inmemoriales, los proyectos residenciales del barrio de Cabrini Green en Chicago se han visto amenazados por la historia de un supuesto asesino en serie con un gancho por mano al que se invoca fácilmente repitiendo su nombre cinco veces frente a un espejo. Hoy, una década después de que la última torre de Cabrini fuese derruída, el artista visual Anthony McCoy (Yahya Abdul-Mateen) y su novia Brianna Cartwright (Teyonah Parris), se mudan a un apartamento de lujo de un barrio ahora irreconocible, repleto de millennials y de personas que, por lo general, desconocen su oscuro pasado."
+    },
+    {
+        "directors": [
+            "Cary Joji Fukunaga"
+        ],
+        "trailer": "https://www.youtube.com/embed/S7cT9uheVuY?rel=0&controls=0&showinfo=0",
+        "title": "007: SIN TIEMPO PARA MORIR",
+        "actors": [
+            "Daniel Craig",
+            "Rami Malek",
+            "Léa Seydoux",
+            "Lashana Lynch",
+            "Ana de Armas",
+            "Ben Whishaw",
+            "Ralph Fiennes",
+            "Naomie Harris",
+            "Jeffrey Wright",
+            "Christoph Waltz"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": 167,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos",
+            "Inglaterra"
+        ],
+        "genres": [
+            "Acción",
+            "Thriller",
+            "Aventura",
+            "Crimen"
+        ],
+        "synopsis": "En SIN TIEMPO PARA MORIR, Bond se ha retirado del servicio como agente en activo y disfruta de una tranquila vida en Jamaica. Pero sus días de paz acaban cuando su viejo amigo Felix Leiter de la CIA aparece pidiéndole ayuda. La misión en cuestión, que consiste en rescatar a un científico secuestrado, resulta mucho más compleja de lo esperado y pone a Bond sobre la pista de un misterioso villano armado con peligrosa tecnología de vanguardia."
+    },
+    {
+        "directors": [
+            "Scott Cooper"
+        ],
+        "trailer": null,
+        "title": "ESPÍRITUS OSCUROS",
+        "actors": [
+            "Keri Russell",
+            "Jesse Plemons",
+            "Jeremy Thomas",
+            "Graham Greene",
+            "Scott Haze",
+            "Rory Cochrane",
+            "Amy Madigan",
+            "Cody Davis",
+            "Sawyer Jones",
+            "Arlo Hajdu"
+        ],
+        "shows": [],
+        "languages": [],
+        "duration": null,
+        "released": false,
+        "rated": "N/A",
+        "origins": [
+            "Estados Unidos"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "En Antlers, una pequeña ciudad de Oregón, una profesora (Keri Russel) y su hermano (Jesse Plemons), el sheriff de la localidad, se empiezan a interesar por un estudiante misterioso y distante. A medida que se van conociendo, descubre que el joven esconde un peligroso secreto que podría tener consecuencias fatales."
+    }
+]

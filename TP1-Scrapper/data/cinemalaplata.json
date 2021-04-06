@@ -1,0 +1,1741 @@
+[
+    {
+        "directors": [
+            "Julius Berg"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/Cxy0lHXaB8I?controls=1&fs=0&autoplay=1",
+        "title": "Los Intrusos",
+        "actors": [
+            "Maisie Williams",
+            "Rita Tushingham",
+            "Sylvester McCoy",
+            "Jake Curran",
+            "Ian Kenny",
+            "Andrew Ellis",
+            "Stacha Hicks"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:30:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 92,
+        "released": true,
+        "rated": "Apta mayores de 16 años",
+        "origins": [
+            "Reino Unido - Francia"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "Inglaterra rural, principios de los noventa: los amigos de la infancia Nathan y Terry son inducidos por el sociópata local para robar a los Huggins, un médico anciano y su esposa. La novia de Nathan, Mary, está totalmente en contra del plan, pero al cabo de unas horas se encuentra en el caserón, al lado de la caja fuerte del sótano y de una panda de individuos, a cual más sospechoso."
+    },
+    {
+        "directors": [
+            "Gastón Portal"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/_DzhtrJg3j8?controls=1&fs=0&autoplay=1",
+        "title": "La Noche Magica",
+        "actors": [
+            "Diego Peretti",
+            "Natalia Oreiro",
+            "Esteban Bigliardi",
+            "Pablo Rago"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:10:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": 98,
+        "released": true,
+        "rated": "Apta mayores de 16 años",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Comedia"
+        ],
+        "synopsis": "Es 24 de diciembre, víspera de Navidad. En una casa tranquila en San Isidro donde vive un matrimonio con su pequeña hija, un ladrón  espera su momento para entrar a robar. Para su sorpresa, se encontrará primero con el amante de la señora de la casa al cual obligará a participar en el robo.\r\nLo que no sabe, es que la pequeña de la casa al verlo lo confundirá con Papá Noel y le pedirá cumplir su lista de deseos navideños"
+    },
+    {
+        "directors": [
+            "Josh Boone"
+        ],
+        "trailer": " https://www.youtube-nocookie.com/embed/uFitC_Gy4zs?controls=1&fs=0&autoplay=1",
+        "title": "Los Nuevos Mutantes",
+        "actors": [
+            "Anya Taylor-Joy",
+            "Maisie Williams",
+            "Rosario Dawson",
+            "Charlie Heaton",
+            "Henry Zaga",
+            "Antonio Banderas",
+            "Blu Hunt",
+            "Happy Anderson"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:15:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:40:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:20:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:50:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:05:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:10:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:30:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:00:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 98,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Comedia / Terror"
+        ],
+        "synopsis": "Encerrados contra su voluntad en una institución secreta, 5 jóvenes mutantes descubren sus poderosas habilidades. Están bajo el estudio y análisis de la Doctora Cecilia Reyes quién tiene como objetivo curarlos.\r\nWolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, poderes y peligros que los rodean para intentar escapar a su pasado y salvarse a si mismos."
+    },
+    {
+        "directors": [
+            "Tony Cervone"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/SiBTJxeWtc4?controls=1&fs=0&autoplay=1",
+        "title": "Scooby!",
+        "actors": [],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:00:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": 94,
+        "released": true,
+        "rated": "Apta todo público",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción",
+            "Aventuras"
+        ],
+        "synopsis": "Película animada sobre el dibujito Scooby-Doo que sigue a un perro Gran Danés y sus 4 amigos: Fred, Daphne, Vilma y Shaggy quienes juntos viajan por el mundo resolviendo misterios relacionados con fantasmas y otras fuerzas sobrenaturales.-\r\nScooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y cómo se unieron con los jóvenes detectives Fred, Velma y Daphne para formar Mystery Inc. Ahora, con cientos de casos resueltos y aventuras compartidas, Scooby y la pandilla se enfrentan al misterio más desafiante de todos los tiempos: una trama para liberar Cerberus, el perro fantasma, sobre el mundo. Mientras compiten para detener este \"perrocalipsis\" global, la pandilla descubre que Scooby tiene un legado secreto y un gran y épico destino que nadie imaginaba."
+    },
+    {
+        "directors": [
+            "Adam Wingard"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gdoUv48mHAU?controls=1&fs=0&autoplay=1",
+        "title": "Godzilla Vs. Kong",
+        "actors": [
+            "Alexander Skarsgård",
+            "Millie Bobby Brown",
+            "Rebecca Hall",
+            "Kyle Chandler",
+            "Eiza González",
+            "Shun Oguri",
+            "Demian Bichir"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA 4D",
+                "time": "2021-04-06T13:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA 4D",
+                "time": "2021-04-06T15:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA 4D",
+                "time": "2021-04-06T18:05:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA 4D",
+                "time": "2021-04-06T20:40:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA 4D",
+                "time": "2021-04-06T23:10:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T19:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:45:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:45:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T17:40:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:20:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T14:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T17:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T19:50:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:40:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 117,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Ciencia Ficción"
+        ],
+        "synopsis": "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra."
+    },
+    {
+        "directors": [
+            "Doug Liman"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/HMxNBJuVgIY?controls=1&fs=0&autoplay=1",
+        "title": "Caos: El Inicio",
+        "actors": [
+            "Daisy Ridley",
+            "Tom Holland",
+            "Mads Mikkelsen",
+            "Nick Jonas",
+            "David Oyelowo",
+            "Demián Bichir"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:45:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 109,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Ciencia Ficción"
+        ],
+        "synopsis": "En Prentisstown, Todd ha crecido creyendo que la \"Masilla\" fue la responsable de liberar un germen que asesinó a todas las mujeres y contagió con el \"ruido\" al resto de los hombres. Tras descubrir un remanso de silencio en un pantano, sus padres adoptivos le obligan a huir lo más rápido que pueda, dejando todo atrás salvo un mapa del Nuevo Mundo y un mensaje, así como un sinfín de preguntas sin responder. Pronto descubre la fuente del silencio: una chica llamada Viola. Los dos deben avisar lo antes posible sobre la inminente llegada de una nave para que el intendente Prentiss pueda preparar un ejército para la guerra."
+    },
+    {
+        "directors": [
+            "Martin Schreier"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/bAiaVZ84bW8?controls=1&fs=0&autoplay=1",
+        "title": "La Fabrica De Sueños",
+        "actors": [
+            "Dennis Mojen",
+            "Emilia Schüle",
+            "Heiner Lauterbach",
+            "Ken Duken",
+            "Nikolai Kinski",
+            "Michael Gwisdek",
+            "Wilfried Hochholdinger"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T19:45:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Aleman subtitulada"
+        ],
+        "duration": 127,
+        "released": true,
+        "rated": "Apta todo público",
+        "origins": [
+            "Alemania"
+        ],
+        "genres": [
+            "Drama romantico"
+        ],
+        "synopsis": "Durante el verano de 1961, Emil comienza a trabajar como extra en los famosos estudios de cine Babelsberg. Durante el rodaje de una superproducción, se enamora de la bailarina francesa llamada Milou. Cuando por fin conquista a Milou, el rodaje se cancela repentinamente y son obligados a separarse ya que El Muro de Berlín es levantado en agosto de ese año. Años más tarde, Emil trazará un atrevido y arriesgado plan para lograr que el rodaje continúe y reencontrarse con Milou."
+    },
+    {
+        "directors": [
+            "Walt Dohrn",
+            "David P. Smith"
+        ],
+        "trailer": "https://www.youtube.com/embed/FLv2PxVzFAU?controls=1&fs=0&autoplay=1",
+        "title": "Trolls 2: World Tour",
+        "actors": [],
+        "shows": [
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:10:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": 91,
+        "released": true,
+        "rated": "Apta todo público",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Animación"
+        ],
+        "synopsis": "En una aventura que les llevará más allá de todo lo que habían conocido, Poppy y Branch descubren que su tribu de Trolls es solo una de las seis que existen, que el resto están repartidas en seis reinos y consagradas a seis tipos distintos de música: funk, country, tecno, clásica, pop y rock. La reina Bárbara, miembro de la realeza del hard rock, y su padre, el Rey Metal, quieren acabar con el resto de géneros musicales e imponer el reinado del rock. Con el destino del mundo en juego, Poppy y Branch, junto con el resto de la pandilla - Grandullón, Chanelle, Satén, Cooper y Guy Diamante-, visitarán los demás reinos para unir a los Trolls contra los planes de Barb de eclipsarlos a todos."
+    },
+    {
+        "directors": [
+            "Don Hall",
+            "Carlos Lopez Estrada",
+            "Paul Briggs"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/l4QQS2gNmPc?controls=1&fs=0&autoplay=1",
+        "title": "Raya Y El Ultimo Dragon",
+        "actors": [
+            "Kelly Marie Tran",
+            "Awkwafina",
+            "Daniel Dae Kim"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:10:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:25:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T17:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:20:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T17:50:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T17:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T19:45:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": 114,
+        "released": true,
+        "rated": "Apta todo público C/L",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Animación"
+        ],
+        "synopsis": "Ambientada en el sudeste asiático, la cinta sigue la historia de Raya, una niña de un gran espíritu aventurero que vive en un reino llamado Kumandra. Este lejano y recóndito territorio está habitado por una civilización milenaria. Cinco son los clanes que forman esta tierra conocida como la del dragón y Raya, con el objetivo de devolver el equilibrio a su tierra, será la encargada de encontrar al último de los dragones en la mayor aventura de su vida."
+    },
+    {
+        "directors": [
+            "Christophe Honoré"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/RkDUkdVpfWk?controls=1&fs=0&autoplay=1",
+        "title": "Habitacion 212",
+        "actors": [
+            "Chiara Mastroianni",
+            "Vincent Lacoste",
+            "Camille Cottin",
+            "Benjamin Biolay",
+            "Marie-Christine Adam",
+            "Carole Bouquet"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T14:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:00:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Francés subtitulado"
+        ],
+        "duration": 87,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "Francia"
+        ],
+        "genres": [
+            "Comedia dramática"
+        ],
+        "synopsis": "Tras 20 años de matrimonio, Maria decide dejarlo todo atrás y empezar una nueva vida. El primer paso es hospedarse en la habitación 212 de un hotel próximo a la casa en la que vivía junto a su familia. Con el paso del tiempo, comienza a preguntarse si ha tomado la decisión correcta."
+    },
+    {
+        "directors": [
+            "Emerald Fennell"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/xCbgk7lK82s?controls=1&fs=0&autoplay=1",
+        "title": "Hermosa Venganza",
+        "actors": [
+            "Carey Mulligan",
+            "Bo Burnham",
+            "Clancy Brown",
+            "Jennifer Coolidge",
+            "Christopher Mintz-Plasse",
+            "Molly Shannon",
+            "Adam Brody"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:15:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:40:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:10:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:30:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:00:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 117,
+        "released": true,
+        "rated": "Apta mayores de 16 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "Una joven mujer traumatizada por un evento trágico ocurrido en su pasado, busca venganza contra los hombres que se cruzaron por su camino."
+    },
+    {
+        "directors": [
+            "Vikram Jayakumar"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/cP39rITvjHE?controls=1&fs=0&autoplay=1",
+        "title": "El Secreto Del Bosque",
+        "actors": [
+            "Vanessa Curry",
+            "Sahil Shroff",
+            "Subrat Dutta"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:45:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:10:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 87,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "Mientras disfrutan de una escapada romántica en la India salvaje, una pareja de Los Angeles accidentalmente es testigo del exorcismo de una niña de 11 años a la cual intentarán rescatar."
+    },
+    {
+        "directors": [
+            "Tim Story"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/V-HkfR177SA?controls=1&fs=0&autoplay=1",
+        "title": "Tom Y Jerry",
+        "actors": [],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:20:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:40:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T14:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T14:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:25:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 101,
+        "released": true,
+        "rated": "Apta todo público",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Animación"
+        ],
+        "synopsis": "Película del clásico dibujo animado de Tom y Jerry que mezcla live-action con animación. \r\nJerry se muda al hotel más lujoso de Nueva York justo antes del \"casamiento del siglo\"; la coordinadora de la ceremonia, desesperada, no tiene más opción que contratar a Tom para eliminar a Jerry. Esto desata una batalla entre gato y ratón que amenaza con destruir la carrera de la coordinadora, la ceremonia e incluso quizás el hotel mismo.\r\nPero pronto surge un problema más grave: un empleado ambicioso y diabólico que conspira contra los tres."
+    },
+    {
+        "directors": [
+            "Christopher Nolan"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/f0y7XS-Btfk?controls=1&fs=0&autoplay=1",
+        "title": "Tenet",
+        "actors": [
+            "Robert Pattinson",
+            "Elizabeth Debicki",
+            "John David Washington",
+            "Kenneth Branagh",
+            "Clemence Poésy",
+            "Michael Caine",
+            "Aaron Taylor-Johnson"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:45:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 150,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Ciencia Ficción"
+        ],
+        "synopsis": "Armado con tan solo una palabra -Tenet- el protagonista de esta historia deberá pelear por la supervivencia del mundo entero en una misión que le lleva a viajar a través del oscuro mundo del espionaje internacional, y cuya experiencia se desdoblará más allá del tiempo lineal."
+    },
+    {
+        "directors": [
+            "Patty Jenkins"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/8seQTuMASk4?controls=1&fs=0&autoplay=1",
+        "title": "Mujer Maravilla 1984",
+        "actors": [
+            "Gal Gadot",
+            "Chris Pine",
+            "Kristen Wiig",
+            "Pedro Pascal",
+            "Robin Wright",
+            "Connie Nielsen",
+            "Gabriella Wilde",
+            "Natasha Rothwell",
+            "Ravi Patel"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA ROCHA",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:10:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 151,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción"
+        ],
+        "synopsis": "Ambientada en los años 80s. El mayor deseo de Diana Prince parece ser tener devuelta a Steve Trevor. Esto inexplicablemente parece haberse convertido en realidad, pero la enfrentará a dos nuevos villanos: Max Lord y Cheetah"
+    },
+    {
+        "directors": [
+            "Francisco Marquez"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Un Crimen Comun",
+        "actors": [
+            "Elisa Carricajo",
+            "Mecha Martinez",
+            "Eliot Otazo"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T14:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T21:05:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": 96,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Cecilia es profesora de sociología en la Universidad. Una madrugada de tormenta Kevin, el hijo de su empleada doméstica, toca la puerta de su casa con desesperación. Ella, asustada, no le abre. Al día siguiente el cuerpo de Franco aparece en el río, asesinado por la policía. Cecilia comienza a ser acechada por el fantasma del joven. Perturbada por la culpa logra liberarse de él pero ahora, el fantasma, parece ser ella."
+    },
+    {
+        "directors": [
+            "Chloé Zhao"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/KpYg50wN1Aw?controls=1&fs=0&autoplay=1",
+        "title": "Nomadland",
+        "actors": [
+            "Frances McDormand",
+            "David Strathairn",
+            "Linda May",
+            "Charlene Swankie",
+            "Bob Wells",
+            "Gay DeForest",
+            "Patricia Grier"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 108,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Una mujer, después de perderlo todo durante la recesión, se embarca en un viaje hacia el Oeste americano viviendo como una nómada en una caravana. Tras el colapso económico que afectó también a su ciudad en la zona rural de Nevada, Fern toma su camioneta y se pone en camino para explorar una vida fuera de la sociedad convencional como nómada moderna."
+    },
+    {
+        "directors": [
+            "Haruo Sotozaki"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Demon Slayer: El Tren Infinito",
+        "actors": [],
+        "shows": [],
+        "languages": [
+            "Japonés Subtitulado"
+        ],
+        "duration": 117,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Japón"
+        ],
+        "genres": [
+            "Animación"
+        ],
+        "synopsis": "Tanjiro Kamado y sus amigos del Demon Slayer Corps acompañan a Kyōjurō Rengoku, el Flame Hashira, para investigar una misteriosa serie de desapariciones que ocurren dentro de un tren aparentemente infinitamente largo. Poco saben que Enmu, la última de las Lunas Inferiores de los Doce Kizuki, también está a bordo y les ha preparado una trampa.\r\nSecuela del anime \"Kimetsu no Yaiba\", fue un enorme éxito en Japón, alcanzando más de 290 millones de dólares de recaudación en plena pandemia del COVID y convirtiéndose en el largometraje más taquillero de la historia del país, por encima de \"Frozen\" y \"El viaje de Chihiro\" de Hayao Miyazaki."
+    },
+    {
+        "directors": [
+            "Matteo Garrone"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/FtTdJ7vD_l0?controls=1&fs=0&autoplay=1",
+        "title": "Pinocho",
+        "actors": [
+            "Roberto Benigni",
+            "Federico Ielapi"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:15:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:45:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Italiano subtitulada"
+        ],
+        "duration": 125,
+        "released": true,
+        "rated": "Apta todo público",
+        "origins": [
+            "Italia"
+        ],
+        "genres": [
+            "Fantasía"
+        ],
+        "synopsis": "Adaptación live-action de la clásica historia de Pinocho, una marioneta de madera que cobra vida y tiene como padre a Geppetto, un pobre y solitario tallador de madera. Como cualquier niño, Pinocho siente curiosidad por el mundo y aprende por prueba y error. Pinocho inicia un viaje que lo enfrentará cara a cara con la naturaleza, el reino animal y el mundo de la imaginación."
+    },
+    {
+        "directors": [
+            "Brandon Christensen"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/M0N77XMtTN0?controls=1&fs=0&autoplay=1",
+        "title": "Zeta",
+        "actors": [
+            "Keegan Connor Tracy",
+            "Jett Klyne",
+            "Sean Rogerson",
+            "Sara Canning",
+            "Stephen McHattie",
+            "Chandra West",
+            "Ali Webb",
+            "Deborah Ferguson",
+            "Kevin Doree",
+            "Fox Rose"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 83,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Canada"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "Muchos niños tienen amigos imaginarios...pero el pequeño Joshua Parsons de 8 años tiene un amigo imaginario muy particular, llamado Z. Pronto el siniestro Z demuestra ser una preocupación para la familia, que comenzará a vivir una verdadera pesadilla en su hogar."
+    },
+    {
+        "directors": [
+            "John Lee Hancock"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/WMJv81cSqyY?controls=1&fs=0&autoplay=1",
+        "title": "Pequeños Secretos",
+        "actors": [
+            "Denzel Washington",
+            "Jared Leto",
+            "Rami Malek"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T14:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T17:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA CITY",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:00:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:30:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T16:30:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T19:30:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA PARADISO",
+                "room": "SALA HD",
+                "time": "2021-04-06T22:30:00",
+                "language": "SUBTITULADA"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 128,
+        "released": true,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "El alguacil adjunto del condado de Kern, Joe \"Deke\" Deacon, es enviado a Los Ángeles para lo que debería haber sido una tarea rápida de recopilación de pruebas. En cambio, se ve envuelto en la búsqueda de un asesino en serie que aterroriza a la ciudad. A la cabeza de la búsqueda, el sargento del Departamento del Sheriff de Los Ángeles Jim Baxter, impresionado con los instintos policiales de Deke, solicita su ayuda extraoficialmente. Pero mientras siguen al asesino, Baxter no se da cuenta de que la investigación está sacando a la luz ecos del pasado de Deke, descubriendo secretos inquietantes que podrían amenazar más que su caso."
+    },
+    {
+        "directors": [
+            "Christopher Landon"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/1D8ZSlAUj0A?controls=1&fs=0&autoplay=1",
+        "title": "Freaky: Este Cuerpo Esta Para Matar",
+        "actors": [
+            "Vince Vaughn",
+            "Kathryn Newton",
+            "Alan Ruck",
+            "Uriah Shelton",
+            "Katie Finneran",
+            "Dustin Lewis",
+            "Dana Drori",
+            "Mitchell Hoog",
+            "Charles Green"
+        ],
+        "shows": [
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T13:30:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T18:10:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T20:40:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T15:40:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA OCHO",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:10:00",
+                "language": "SUBTITULADA"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T19:00:00",
+                "language": "CASTELLANO"
+            },
+            {
+                "cinema": "CINEMA SAN MARTIN",
+                "room": "SALA HD",
+                "time": "2021-04-06T23:10:00",
+                "language": "CASTELLANO"
+            }
+        ],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 102,
+        "released": true,
+        "rated": "Apta mayores de 16 años",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Comedia / Terror"
+        ],
+        "synopsis": "Una adolescente de diecisiete años, Millie Kessler se convierte en el nuevo blanco de The Butcher, el infame asesino serial de su ciudad y su último año de secundaria se convierte en la menor de sus preocupaciones.\r\nCuando la mística daga antigua de The Butcher hace que él y Millie despierten en los cuerpos del otro, tendrán sólo 24 horas para recuperar sus cuerpos antes de que el cambio se vuelva permanente y quede atrapada en la forma de un maníaco de mediana edad para siempre. -"
+    },
+    {
+        "directors": [
+            "Hirokazu Koreeda"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/GbsKwCicQoE?controls=1&fs=0&autoplay=1",
+        "title": "La Verdad",
+        "actors": [
+            "Catherine Deneuve",
+            "Juliette Binoche",
+            "Ethan Hawke"
+        ],
+        "shows": [],
+        "languages": [
+            "Francés subtitulado"
+        ],
+        "duration": 106,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Francia"
+        ],
+        "genres": [
+            "Drama"
+        ],
+        "synopsis": "Fabienne es una estrella de cine que reina entre hombres que la aman y admiran. Cuando publica sus memorias, su hija Lumir regresa de Nueva York a París con su marido y su pequeña hija. Pero el reencuentro entre madre e hija se transformará rápidamente en confrontación: se contarán verdades, se saldarán cuentas pendientes y se confesarán amores y resentimientos."
+    },
+    {
+        "directors": [
+            "Craig Gillespie"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Cruella",
+        "actors": [
+            "Emma Stone",
+            "Emma Thompson",
+            "Paul Walter Hauser",
+            "Joel Fry",
+            "Adam Basil"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Comedia"
+        ],
+        "synopsis": "Película centrada en el personaje de Cruella de Vil, de la película de animación clásica de Disney \"101 dálmatas\""
+    },
+    {
+        "directors": [
+            "Quentin Dupieux"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Una Extraña Obsesión",
+        "actors": [
+            "Jean Dujardin",
+            "Adèle Haenel",
+            "Albert Delpy",
+            "Coralie Russier",
+            "Laurent Nicolas",
+            "Pierre Gommé",
+            "Panayotis Pascot",
+            "Franck Lebreton"
+        ],
+        "shows": [],
+        "languages": [
+            "Francés subtitulado"
+        ],
+        "duration": 87,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Francia"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "En un pueblo de los Alpes franceses, la obsesión de un hombre recién divorciado con una chaqueta de ante le lleva a gastarse todos sus ahorros, además de fingir ser cineasta, e incluso hacer alguna cosa mucho peor."
+    },
+    {
+        "directors": [
+            "Simon McQuoid"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/54Gqwc8pHYQ?controls=1&fs=0&autoplay=1",
+        "title": "Mortal Kombat",
+        "actors": [
+            "Jessica McNamee",
+            "Tadanobu Asano",
+            "Hiroyuki Sanada",
+            "Josh Lawson",
+            "Joe Taslim"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción"
+        ],
+        "synopsis": "En \"Mortal Kombat\", Cole Young, el luchador de MMA (Artes Marciales Mixtas), acostumbrado a recibir palizas por dinero, desconoce su ascendencia, y tampoco sabe por qué el emperador Shang Tsung de Outworld ha enviado a su mejor guerrero, Sub-Zero, un Cryomancer sobrenatural, para dar caza a Cole. Cole teme por la seguridad de su familia y busca a Sonya Blade siguiendo las indicaciones de Jax, un comandante de las Fuerzas Especiales que tiene la misma extraña marca de dragón con la que nació Cole. No tarda en llegar al templo de Lord Raiden, un Dios Anciano y el protector de Earthrealm, que ofrece refugio a los que llevan la marca. Aquí, Cole entrena con los experimentados guerreros Liu Kang, Kung Lao y el mercenario rebelde Kano, mientras se prepara para enfrentarse a los mayores campeones de la Tierra contra los enemigos de Outworld en una batalla de enorme envergadura por el universo. Veremos si los esfuerzos de Cole se ven recompensados y consigue desbloquear su arcana -ese inmenso poder que surge del interior de su alma- a tiempo de salvar no solo a su familia, sino para detener Outworld de una vez por todas."
+    },
+    {
+        "directors": [
+            "Joseph Kosinski"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Top Gun 2",
+        "actors": [
+            "Tom Cruise",
+            "Val Kilmer",
+            "Miles Teller",
+            "Jennifer Connelly",
+            "Glen Powell",
+            "Jon Hamm",
+            "Ed Harris",
+            "Lewis Pullman",
+            "Jay Ellis",
+            "Thomasin McKenzie"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción"
+        ],
+        "synopsis": "Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete \"Mavericks\" Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw, el hijo de su difunto amigo \"Goose\"... Secuela de Top Gun."
+    },
+    {
+        "directors": [
+            "John Krasinski"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/DEyBt7Mr_SA?controls=1&fs=0&autoplay=1",
+        "title": "Un Lugar En Silencio: Parte 2",
+        "actors": [
+            "Emily Blunt",
+            "Cillian Murphy",
+            "Djimon Hounsou",
+            "Noah Jupe",
+            "Millicent Simmonds",
+            "Wayne Duvall",
+            "Lauren-Ashley Cristiano,"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 97,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "La familia Abbot continúan enfrentándose al terror que significa el mundo exterior. Evelyn (Emily Blunt) junto a sus 3 hijos se adrentarán en el bosque decididos a cruzar los límites, luego de haber descubierto como acabar con los monstruos que atacan a los humanos cuando perciben sonidos. Pronto descubrirán que esos no son los únicos peligros que los esperan en el camino."
+    },
+    {
+        "directors": [
+            "Joe Wright"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "La Mujer En La Ventana",
+        "actors": [
+            "Amy Adams",
+            "Julianne Moore",
+            "Gary Oldman",
+            "Anthony Mackie",
+            "Wyatt Russell",
+            "Brian Tyree Henry",
+            "Fred Hechinger"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Reino Unido"
+        ],
+        "genres": [
+            "Thriller"
+        ],
+        "synopsis": "La Dra. Anna Fox, que sufre de agorafobia, pasa sus días encerrada en su casa de Nueva York, bebiendo vino mientras ve viejas películas y espía a sus vecinos. Un día, mientras mira por la ventana, ve algo que sucede enfrente de su casa, en el hogar de los Russell, una familia a la que todo el barrio toma por ejemplar...\r\nNueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y escritor -ganador del premio Pulitzer- Tracy Letts."
+    },
+    {
+        "directors": [
+            "Will Gluck"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Peter Rabbit 2",
+        "actors": [],
+        "shows": [],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": 85,
+        "released": false,
+        "rated": "Apta todo público",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Animación"
+        ],
+        "synopsis": "Secuela de la película de 2018: Peter Rabbit. El aventurero y travieso Peter está de regreso junto a sus amigos. En esta nueva entrega, Bea y Thomas ya están casados. La relación entre el conejo y Thomas seguirá causando problemas, por eso decide irse a otro jardín. En el camino se encuentra con un nuevo conejo, quién fue amigo de su padre y quién lo ayudará a definir que tipo de conejo quiere ser.-"
+    },
+    {
+        "directors": [
+            "Brenda Chapman"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Érase Una Vez",
+        "actors": [
+            "Angelina Jolie",
+            "David Oyelowo",
+            "Michael Caine"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 94,
+        "released": false,
+        "rated": "Apta mayores de 13 años",
+        "origins": [
+            "Reino Unido"
+        ],
+        "genres": [
+            "Aventura"
+        ],
+        "synopsis": "Antes de que Alicia se adentrase en el País de las Maravillas y de que Peter se convirtiese en Pan, ambos eran hermanos. Después de que su hermano mayor fallezca en un trágico accidente, intentan salvar a sus padres de la espiral de desesperación, hasta que finalmente se ven obligados a elegir entre su hogar y su imaginación, creando así la antesala de sus icónicos viajes al País de las Maravillas y al de Nunca Jamás."
+    },
+    {
+        "directors": [
+            "Cate Shortland"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/Cy_znrsuXic?controls=1&fs=0&autoplay=1",
+        "title": "Black Widow",
+        "actors": [
+            "Scarlett Johansson",
+            "Florence Pugh",
+            "Rachel Weisz",
+            "David Harbour"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "-",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción",
+            "Aventuras"
+        ],
+        "synopsis": "Primera película en solitario de Natasha Romanoff aka: Black Widow. \r\nCansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanoff para resolver asunto pendientes mientras se encuentra con nuevas viudas y enemigos."
+    },
+    {
+        "directors": [
+            "Cary Joji Fukunaga"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "007 Bond: Sin Tiempo Para Morir",
+        "actors": [
+            "Daniel Craig",
+            "Rami Malek",
+            "Ralph Fiennes",
+            "Naomie Harris",
+            "Ben Whishaw",
+            "Jeffrey Wright",
+            "Léa Seydoux",
+            "Ana de Armas",
+            "Rory Kinnear"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Reino Unido"
+        ],
+        "genres": [
+            "Acción"
+        ],
+        "synopsis": "James Bond ya no se encuentra activo. Sus días de paz se ven interrumpidos cuando su viejo amigo Feliz Leiter de la CIA aparece solicitando su ayuda y llevando a Bond a perseguir el rastro de un misterioso villano armado con una peligrosa nueva tecnología. -"
+    },
+    {
+        "directors": [
+            "Pietro Marcello"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Martin Eden",
+        "actors": [
+            "Luca Marinelli",
+            "Jessica Cressy",
+            "Carlo Cecchi",
+            "Denise Sardisco",
+            "Vincenzo Nemolato",
+            "Carmen Pommella",
+            "Autilia Ranieri"
+        ],
+        "shows": [],
+        "languages": [
+            "Italiano subtitulada"
+        ],
+        "duration": 129,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Italia"
+        ],
+        "genres": [
+            "Drama romantico"
+        ],
+        "synopsis": "Martin Eden es un chico humilde de pueblo que se gana la vida trabajando como marinero. Un día, Martin defiende de una agresión a Arturo, un joven de clase alta. Como agradecimiento, éste invita a Martin a su hogar y poco a poco le va introduciendo en su estilo de vida. El joven conoce así las ventajas de la educación, y ve esto como una oportunidad para progresar y convertirse en el escritor que ha decidido que quiere ser, mientras aprovecha al máximo el tiempo entre lujos. Martin recibirá un impulso inesperado cuando conozca a Elena, la hermana de Arturo, de la que se enamora al instante."
+    },
+    {
+        "directors": [
+            "Scott Cooper"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Antlers",
+        "actors": [
+            "Keri Russell",
+            "Jesse Plemons",
+            "Graham Greene",
+            "Scott Haze",
+            "Rory Cochrane",
+            "Amy Madigan",
+            "Cody Davis",
+            "Sawyer Jones",
+            "Arlo Hajdu",
+            "J.T. Corbitt"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "En un pequeño pueblo de Oregón, una maestra  y su hermano, el sherrif de pueblo  descubren que hay un estudiante que está guardando un peligroso secreto, el cual podría traer aterradoras consecuencias.-"
+    },
+    {
+        "directors": [
+            "Ariel Winograd"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Hoy Se Arregla El Mundo",
+        "actors": [
+            "Leonardo Sbaraglia",
+            "Benjamín Otero",
+            "Martín Piroyansky",
+            "Charo López",
+            "Luis Luque",
+            "Gerardo Romano",
+            "Gabriel Corrado",
+            "Soledad Silveyra"
+        ],
+        "shows": [],
+        "languages": [
+            "Castellano"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "Argentina"
+        ],
+        "genres": [
+            "Comedia dramática"
+        ],
+        "synopsis": "David Samarás, \"el Griego\", es el productor general del popular talk show \"Hoy se arregla el mundo\", donde presunta gente común dirime conflictos de relación, de pareja, de amistad, de trabajo, de padres e hijos. El Griego es soltero, nunca ha podido entablar un vínculo duradero. El lazo más perdurable de su vida es Benito, su hijo de 9 años, fruto de una relación ocasional. Más unidos por la obligación legal que por el afecto, siempre tiene la sensación de que Benito es alguien que sobra en su vida. La historia cambia por completo cuando en medio de una fuerte discusión con Silvina, la madre del chico, se entera de que Benito no es su hijo. Poco después de esta revelación, Silvina muere. La noticia es tomada por el Griego como un tiro de gracia a la endeble relación con Benito y decide contarle la verdad: no es su padre. Benito le pide que haga una última cosa por él: \"Ayudame a encontrar a mi verdadero papá\". El Griego acepta. La búsqueda los llevará a una encrucijada mucho más grande que la que salieron a enfrentar."
+    },
+    {
+        "directors": [
+            "Darren Lynn Bousman"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Espiral: El Juego Del Miedo Continúa",
+        "actors": [
+            "Chris Rock",
+            "Samuel L. Jackson",
+            "Max Minghella",
+            "Marisol Nichols",
+            "Zoie Palmer",
+            "Nazneen Contractor",
+            "Dan Petronijevic"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Terror"
+        ],
+        "synopsis": "Trabajando a la sombra de un policía veterano, el intrépido detective Ezekiel \"Zeke\" Banks y su compañero novato toman las riendas de una investigación relacionada con una serie de asesinatos que albergan ciertos paralelismos con el sangriento pasado de la ciudad. A medida que profundiza en el misterio, Zeke descubre que él mismo se ha convertido en el epicentro del macabro juego del asesino."
+    },
+    {
+        "directors": [
+            "Justin Lin"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0",
+        "title": "Rápidos Y Furiosos 9",
+        "actors": [
+            "Vin Diesel",
+            "Charlize Theron",
+            "Jordana Brewster",
+            "Michelle Rodriguez",
+            "Helen Mirren",
+            "Lucas Black",
+            "Tyrese Gibson",
+            "Finn Cole"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": null,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción"
+        ],
+        "synopsis": "Novena entrega de la Saga Rápidos y furiosos. \r\nDom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron. Pero un peligro incierto se acerca y deberán proteger a su familia."
+    },
+    {
+        "directors": [
+            "Mark Williams"
+        ],
+        "trailer": "https://www.youtube-nocookie.com/embed/1FEnfWifIBU?controls=1&fs=0&autoplay=1",
+        "title": "Venganza Implacable",
+        "actors": [
+            "Liam Neeson",
+            "Robert Patrick",
+            "Jai Courtney",
+            "Kate Walsh",
+            "Jeffrey Donovan",
+            "Anthony Ramos",
+            "Jamie Ghazarian",
+            "Janelle Feigley"
+        ],
+        "shows": [],
+        "languages": [
+            "Inglés subtitulada"
+        ],
+        "duration": 99,
+        "released": false,
+        "rated": "No determinado",
+        "origins": [
+            "EEUU"
+        ],
+        "genres": [
+            "Acción"
+        ],
+        "synopsis": "Un atracador de bancos se entrega a la policía porque se ha enamorado y decide llevar una vida honrada. Cuando descubre que los federales son aún más corruptos que él, se verá obligado a utilizar todas sus artimañas de ex marine para limpiar su nombre."
+    }
+]
