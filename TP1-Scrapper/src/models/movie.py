@@ -1,6 +1,7 @@
+from datetime import datetime
+
 from dataclasses import dataclass, field
 from dataclasses_json import dataclass_json, config
-from datetime import datetime
 from marshmallow import fields
 from typing import List, Optional
 

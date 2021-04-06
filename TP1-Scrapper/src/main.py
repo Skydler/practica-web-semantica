@@ -1,10 +1,10 @@
-from scrapers import cinemalaplata, cinepolis
-from merger.merger import MovieRepository
-import logging
 import argparse
-
-from pathlib import Path
+import logging
 from time import time
+
+from db.repository import MovieRepository
+from pathlib import Path
+from scrapers import cinemalaplata, cinepolis
 
 
 ROOT = Path.cwd().parent / "data"

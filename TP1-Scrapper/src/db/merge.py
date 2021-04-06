@@ -2,7 +2,7 @@ from deep_translator import GoogleTranslator
 from fuzzywuzzy import fuzz
 
 
-class FullMerge:
+class MergeStrategy:
     def __init__(self, repository_movies):
         self.merged_movies = repository_movies
         self.titles_cache = {}

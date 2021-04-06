@@ -1,13 +1,14 @@
-from merger.full_merge import FullMerge
-from model import Movie
-import logging
 import json
+import logging
+
+from db.merge import MergeStrategy
+from models.movie import Movie
 
 
 class MovieRepository:
     def __init__(self, saving_path):
         self.movies = []
-        self.merge_strategy = FullMerge(self.movies)
+        self.merge_strategy = MergeStrategy(self.movies)
         self.path = saving_path
 
     @classmethod

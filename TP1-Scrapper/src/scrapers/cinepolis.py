@@ -1,11 +1,12 @@
+from datetime import datetime
 import logging
 
-from datetime import datetime
-from model import Show, Movie
-from selenium import webdriver
+from models.movie import Show, Movie
 from scrapy.selector import Selector
+from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from typing import List
+
 
 DOMAIN = "https://www.cinepolis.com.ar"
 FUTURE_RELEASES_URL = f"{DOMAIN}/proximos-estrenos"

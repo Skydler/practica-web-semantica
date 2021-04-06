@@ -1,10 +1,11 @@
-from bs4 import BeautifulSoup
-from model import Show, Movie
+from datetime import datetime
 from threading import Thread
+
+from bs4 import BeautifulSoup
+from models.movie import Show, Movie
+import requests
 from typing import List
 from urllib.parse import urljoin
-from datetime import datetime
-import requests
 
 
 DOMAIN = "http://www.cinemalaplata.com/"
@@ -69,7 +70,7 @@ class MovieParser(Thread):
                 # dot_index ensures that it's allways taking the next "." index
                 if index := actors.find(".", dot_index):
                     dot_index = index
-                    prev_char = actors[index-1]
+                    prev_char = actors[index - 1]
                     if prev_char.islower():
                         char_list[index] = ","
 
