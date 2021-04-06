@@ -18,7 +18,7 @@ iso_datetime = field(
 @dataclass_json
 @dataclass
 class Show:
-    cinema: str   # TODO: Should be changed to theater or something like that
+    cinema: str
     room: str
     language: str
     time: datetime = iso_datetime

@@ -7,7 +7,6 @@ class MergeStrategy:
         self.merged_movies = repository_movies
         self.titles_cache = {}
         self.translator = GoogleTranslator(source='auto', target='es')
-        # TODO: Change rate matching to regex
         self.rate_rules = [
             ("N/A", ["-", "No determinado", "N/A"]),
             ("P-13", ["P-13", "Apta mayores de 13 años", "P13R"]),
