@@ -57,10 +57,23 @@ class MovieParser(Thread):
         return int(duration_text) if duration_text.isdigit() else None
 
     def get_actors(self, movie, selector):
-        actors = self.get_text(movie, selector)
+        actors = self.get_text(movie, selector).strip('.')
 
-        # Remove end point
-        actors = actors.strip('.')
+        # If the string still has dots, normalize it replacing "." for ","
+        # where it's needed
+        if dot_count := actors.count("."):
+            # This will be handy for char replacement
+            char_list = list(actors)
+            dot_index = 0
+            for _ in range(dot_count):
+                # dot_index ensures that it's allways taking the next "." index
+                if index := actors.find(".", dot_index):
+                    dot_index = index
+                    prev_char = actors[index-1]
+                    if prev_char.islower():
+                        char_list[index] = ","
+
+            actors = "".join(char_list)
 
         # The actors are separated by commas
         actors = actors.split(", ")
@@ -71,9 +84,8 @@ class MovieParser(Thread):
         return actors
 
     def get_directors(self, movie, selector):
-        directors = self.get_text(movie, selector)
-
-        return directors.strip('.').split(", ")
+        directors = self.get_text(movie, selector).strip(".").split(", ")
+        return directors
 
     def parse_movie(self, movie):
         title = self.get_text(movie, ".page-title")
