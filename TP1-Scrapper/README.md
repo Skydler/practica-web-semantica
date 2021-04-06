@@ -7,9 +7,12 @@
 
 ## Notas
 
-- Este archivo representa el archivo *src.txt* mencionado en el enunciado.
-
+- Este archivo representa el archivo **src.txt** mencionado en el enunciado.
 - Las notas se encuentran en el directorio **doc**. Se recomienda leer el PDF para una mejor experiencia :)
+- En el directorio **data** se encuentran los siguientes archivos:
+  - cinemalaplata.json: Es la información recolectada de Cinema La Plata.
+  - cinepolis.json: Es la información recolectada de Cinépolis.
+  - movies.json: Es la mezcla de ambos scrapers, se utilizó una estrategia de mezcla para evitar inconsistencias y unificar la información (Para más información leer el archivo **doc/notas.pdf**)
 
 ## Requisitos
 
