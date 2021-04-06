@@ -13,7 +13,7 @@ DOMAIN = "https://www.cinepolis.com.ar"
 FUTURE_RELEASES_URL = f"{DOMAIN}/proximos-estrenos"
 
 WEBDRIVER_ROOT_PATH = Path.cwd().parent / "bin"
-WEBDRIVER_EXECUTOR_PATH = WEBDRIVER_ROOT_PATH / "./chromedriver"
+WEBDRIVER_EXECUTOR_PATH = WEBDRIVER_ROOT_PATH / "chromedriver"
 
 
 def normalize(s):
@@ -264,6 +264,10 @@ def get_future_releases(browser):
 
 def scrap() -> List[Movie]:
     movies = []
+
+    if not WEBDRIVER_EXECUTOR_PATH.exists():
+        logging.error(f"Not found chromedriver in {WEBDRIVER_EXECUTOR_PATH}")
+        return movies
 
     browser = webdriver.Chrome(
         executable_path=WEBDRIVER_EXECUTOR_PATH
