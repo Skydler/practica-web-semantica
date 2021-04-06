@@ -38,5 +38,4 @@ class Movie:
     synopsis: str
     trailer: Optional[str]
     shows: List[Show]
-    distributor: Optional[str]
     released: bool

@@ -72,7 +72,6 @@ class MergeStrategy:
             sm.synopsis) > len(tm.synopsis) else tm.synopsis
         sm.trailer = sm.trailer or tm.trailer
         sm.shows += tm.shows
-        sm.distributor = sm.distributor or tm.distributor
         sm.released = sm.released or tm.released
 
     def _merge_string_lists(self, source, target):

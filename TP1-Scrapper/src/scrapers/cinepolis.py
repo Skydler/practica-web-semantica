@@ -61,7 +61,6 @@ class MovieParser:
             actors=fields.get("actores"),
             synopsis=fields.get("sinopsis"),
             trailer=fields.get("trailer"),
-            distributor=fields.get("distribuidora"),
             languages=[],
             shows=fields.get("shows"),
             released=fields.get("shows") != []
