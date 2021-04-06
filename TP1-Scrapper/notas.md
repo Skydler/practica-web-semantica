@@ -43,7 +43,7 @@ Definir un modelo de antemano resultó muy ventajoso, ya que permitió que ambos
 
 Se realizó el scrapeo de la sección de películas en cartelera (http://www.cinemalaplata.com/Cartelera.aspx) y películas que son futuros estrenos (http://www.cinemalaplata.com/Cartelera.aspx?seccion=FUTURO).
 
-Ambos sitios contenian el sitio de links al detalle de cada película y cada uno de ellos era idéntico, así que se optó por definir una clase*MovieParser*que se encargue de procesar el listado de películas obtenidas. Esto resulta ventajoso ya que se puede reusar si se agregan diferentes listados en un futuro.
+Luego de analizar el código de las páginas nos dimos cuenta de que la estructura del HTML en ambos casos era el mismo. Por este motivo se optó por definir una única clase *MovieParser* que se encargaría de procesar el listado de peliculas obtenidas. Esto resulto ventajoso ya que se pudo reutilizar la misma clase para parsear los dos listados.
 
 #### Tiempo de procesamiento
 
@@ -132,3 +132,4 @@ A continuación se describe en forma breve las estrategias tomadas para mezclar 
 - **Duración**: Se optó por la máxima duración, ya que la diferencia entre las duraciones de las películas existentes es mínima.
 - **Trailer**: Se optó por tomar el primero que se procese.
 - **Sinopsis**: Se optó por la sinópsis con mayor número de caracteres.
+- **Calificación**: En este caso, al presentar multiples variaciones en ambas páginas se decidió armar una tabla para normalizar las diferentes nomenclaturas de una misma calificación. En caso de que las páginas difieran en la calificación de una pelicula se lo tratará como indeterminado.
