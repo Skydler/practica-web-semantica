@@ -1,12 +1,25 @@
-# Requisitos
+# Trabajo Práctico Nº1
+
+## Integrantes
+
+- Milla, Andrés - 14934/6
+- Mandarino, Leonel - 15379/5
+
+## Notas
+
+- Este archivo representa el archivo *src.txt* mencionado en el enunciado.
+
+- Las notas se encuentran en el directorio **doc**. Se recomienda leer el PDF para una mejor experiencia :)
+
+## Requisitos
 
 - *Python3.8* o versiones posteriores.
 - *Chromedriver*: https://chromedriver.chromium.org/downloads
 - Se recomienda un entorno virtual como *virtualenv* para instalar las dependencias
 
-# Ejecución
+## Ejecución
 
-1. Copiar el binario de *Chromedriver* en el directorio **bin**
+1. Copiar el binario de *Chromedriver*en el directorio **bin**
 
 2. Crear y activar el entorno virtual:
 
@@ -33,7 +46,7 @@
    python3 main.py
    ```
 
-## Opciones de ejecución
+### Opciones de ejecución
 
 `--verbose`: Permite visualizar todos los logs.
 

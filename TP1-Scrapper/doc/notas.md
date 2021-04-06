@@ -69,7 +69,7 @@ El problema de Selenium, es que es muy demandante de recursos y resulta muy engo
 
 Más allá de las desventajas, Selenium nos permitió scrapear el sitio exitosamente y pudimos utilizar otros preprocesadores para seleccionar elementos como XPATH, el cual resulta muy ventajoso para selecciones complejas, como por ejemplo: En la sección de futuros estrenos aparecen películas en preventa y no deben ser procesadas, ya que son películas que están en la cartelera.
 
-<img src="doc/presale.png" alt="presale" style="zoom:80%;" />
+<img src="img/presale.png" alt="presale" style="zoom:80%;" />
 
 Como se puede ver, se tenian que filtrar todas las películas que no tienen el logotipo de "Preventa", por lo tanto, se requerían muchas líneas de código utilizando selectores como CSS o por tags de HTML. Mientras que con XPATH se resolvió con una sola expresión: `"//a[contains(@class, 'movie-thumb')] not(div[contains(@class, 'movie-thumb-ribbon')])]"`
 
@@ -77,7 +77,7 @@ Como se puede ver, se tenian que filtrar todas las películas que no tienen el l
 
 En el detalle de la película, los datos técnicos no poseían una estructura clara, observemos:
 
-<img src="doc/thecnical-fields.png" style="zoom:80%;" />
+<img src="img/thecnical-fields.png" style="zoom:80%;" />
 
 Se optó por utilizar un diccionario, en donde la key sea el texto del tag *strong* y el contenido sea el nodo de texto que le sigue. Pero acá aparece un nuevo problema:
 
@@ -116,11 +116,11 @@ La opción 1 se descartó ya que está fuera del alcance del trabajo. Por lo tan
 3. **Lower**: Convertir a minúsculas
 4. **Translate**: Traducir a español
 5. **Ratio**: Calcular el radio parcial sintácticamente utilizando fuzzywuzzy
-6. **Comparar**: Se compara el radio contra una cota prefijada, para tener una mayor precisión elegimos 90 como cota
+6. **Match**: Se compara el radio contra una cota prefijada, para tener una mayor precisión elegimos 90 como cota
 
 A continuación se muestra un ejemplo con la película trolls 2, la cuál aparece escrita de forma diferente en ambos sitios:
 
-<img src="doc/pipeline.jpeg" style="zoom:80%;" />
+<img src="img/pipeline.jpeg" style="zoom:80%;" />
 
 Si bien no es exacto el procedimiento, quizás se podría mejorar con el uso de una Inteligencia Artificial que reconozca si ambos textos son iguales. En cuanto a la información extraída hasta el día de la fecha no hubo errores de duplicación.
 
@@ -134,7 +134,7 @@ A continuación se describe en forma breve las estrategias tomadas para mezclar 
 - **Sinopsis**: Se optó por la sinópsis con mayor número de caracteres.
 - **Calificación**: En este caso, al presentar multiples variaciones en ambas páginas se decidió armar una tabla para normalizar las diferentes nomenclaturas de una misma calificación. En caso de que las páginas difieran en la calificación de una pelicula se lo tratará como indeterminado.
 
-* Nota: Especialmente con el campo orígenes tuvimos un inconveniente para el cual no encontramos una forma simple de resolver. Notamos en los resultados del merge que se podían dar casos en los que las dos páginas les den un nombre distinto al mismo país (ej: EEUU y Estados Unidos).
+* *Nota*: Especialmente con el campo orígenes tuvimos un inconveniente para el cual no encontramos una forma simple de resolver. Notamos en los resultados del merge que se podían dar casos en los que las dos páginas les den un nombre distinto al mismo país (ej: EEUU y Estados Unidos).
 
 #### Estrategia de mergeo
 
