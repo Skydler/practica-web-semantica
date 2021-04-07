@@ -1,6 +1,10 @@
 # Webdrivers
 chromedriver
 
+# Tests
+querys.py
+test.py
+
 # Scrapped data
 data/
 
