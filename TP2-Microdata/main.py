@@ -11,30 +11,39 @@ URLS = [
 ]
 
 
+class Movie:
+    def __init__(self):
+        self.movie = {}
+
+    def merge(self, versions):
+        pass
+
+
 def scrap(url):
-    print(url)
-
-    headers = {
-        "User-Agent": ""
-    }
-
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers={"User-Agent": ""})
     html = response.text
-
     soup = BeautifulSoup(html, 'html.parser')
 
-    import pdb
-    pdb.set_trace()
+    try:
+        json_ld = soup.select_one("script[type='application/ld+json']")
+    except Exception as e:
+        print("JSON-LD NOT FOUND")
+        raise e
 
-    if (json_ld := soup.select_one("script[type='application/ld+json']")):
-        movie = json.loads(json_ld.text)
-
-        print(movie)
-    else:
-        print("Json ld not found")
+    json_text = json_ld.string.replace("\n", "")
+    movie = json.loads(json_text, strict=False)
+    return movie
 
 
 if __name__ == '__main__':
-    # for url in URLS:
-    #    scrap(url[2])
-    scrap(URLS[2])
+    movie_versions = [scrap(url) for url in URLS]
+
+    with open("./data.json", "w") as file:
+        file.write(json.dumps(movie_versions))
+
+    # with open("./data.json", "r") as file:
+    #     movie_versions = json.loads(file.read())
+
+    movie = Movie()
+    movie.merge(movie_versions)
+    print(movie.movie)
