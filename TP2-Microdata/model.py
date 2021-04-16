@@ -65,6 +65,7 @@ class Review(Schema):
     author: Person
     review_rating: Rating
     publisher: Organization
+    source: str
 
 
 @dataclass_json
