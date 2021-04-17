@@ -2,8 +2,8 @@ from datetime import datetime
 
 from dataclasses import dataclass, field
 from dataclasses_json import dataclass_json, config
-from marshmallow import List, fields
-from typing import Optional, Union
+from typing import Optional, Union, List
+from marshmallow import fields
 
 
 SCHEMA = "http://schema.org"
@@ -26,14 +26,14 @@ class Schema:
 @dataclass
 class Organization(Schema):
     name: str
-    url: Optional(str)
+    url: Optional[str]
 
 
 @dataclass_json
 @dataclass
 class Rating(Schema):
-    name: Optional(str)
-    description: Optional(str)
+    name: Optional[str]
+    description: Optional[str]
     rating_value: float
     best_rating: float
     worst_rating: float
@@ -43,15 +43,15 @@ class Rating(Schema):
 @dataclass
 class AggregateRating(Rating):
     rating_count: int
-    review_count: Optional(int)
+    review_count: Optional[int]
 
 
 @dataclass
 @dataclass_json
 class Person(Schema):
     name: str
-    url: Optional(str)
-    image: Optional(str)
+    url: Optional[str]
+    image: Optional[str]
 
 
 @dataclass_json
@@ -60,8 +60,8 @@ class Review(Schema):
     review_body: str
     url: str
     date_created: iso_datetime
-    language: Optional(str)
-    name: Optional(str)
+    language: Optional[str]
+    name: Optional[str]
     author: Person
     review_rating: Rating
     publisher: Organization
@@ -72,7 +72,7 @@ class Review(Schema):
 @dataclass
 class Video(Schema):
     name: str
-    url: Optional(str)
+    url: Optional[str]
     description: str
     thumbnail_url: str
 
@@ -89,23 +89,23 @@ class PublicationEvent(Schema):
 class Movie(Schema):
     schema_context: str
     name: str
-    description: Optional(str)
+    description: Optional[str]
     content_rating: str
-    source_urls: List(str)  # main entity in ecartelera
+    source_urls: List[str]  # main entity in ecartelera
     production_company: Organization  # publisher in metacritic
-    aggregated_ratings: List(AggregateRating)
-    reviews: List(Review)
-    images: List(str)
-    actors: List(Person)
-    characters: List(str)
-    directors: List(Person)
-    authors: List(Union[Person, Organization])
-    genres: List(str)
-    keywords: List(str)
+    aggregated_ratings: List[AggregateRating]
+    reviews: List[Review]
+    images: List[str]
+    actors: List[Person]
+    characters: List[str]
+    directors: List[Person]
+    authors: List[Union[Person, Organization]]
+    genres: List[str]
+    keywords: List[str]
     duration: int  # In minutes
-    video: Optional(Video)
-    origin: Optional(str)
-    events: List(PublicationEvent)
+    video: Optional[Video]
+    origin: Optional[str]
+    events: List[PublicationEvent]
 
     def __post_init__(self):
         self.schema_context = SCHEMA

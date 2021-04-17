@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
-from merger import Movie
+from merger.merger import Movie
 import threading
 import json
 import requests
+import logging
 
 
 URLS = [
@@ -27,7 +28,7 @@ def scrap(url, source):
     json_text = json_ld.string.replace("\n", "")
     movie = json.loads(json_text, strict=False)
 
-    print(f"Scraped {source}. Writing...")
+    logging.info(f"Scraped {source}. Writing...")
 
     with open(f"../data/{source}.json", "w") as file:
         file.write(json.dumps(movie))
@@ -41,6 +42,7 @@ def normalize_movies():
 
 
 def main():
+    logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s')
 
     threads = [threading.Thread(target=scrap, args=(url, source))
                for url, source in URLS]
