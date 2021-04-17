@@ -5,6 +5,7 @@ import threading
 
 from bs4 import BeautifulSoup
 from merger.merger import Movie
+from parsers.imdb import ImdbParser
 from parsers.tomatoes import RottenTomatoesParser
 import requests
 
@@ -40,7 +41,8 @@ def scrap(url, source):
 def normalize_movies():
     # TODO: Unify in a dictionary with its respective url
     parsers = [
-        (RottenTomatoesParser, "rotten_tomatoes")
+        (RottenTomatoesParser, "rotten_tomatoes"),
+        (ImdbParser, "imdb"),
     ]
 
     movies = []
@@ -83,6 +85,8 @@ def main():
         thread.join()
 
     normalized_versions = normalize_movies()
+
+    import pdb; pdb.set_trace()
 
     movie = Movie()
     movie.merge(normalized_versions)

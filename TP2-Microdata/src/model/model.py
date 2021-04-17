@@ -24,7 +24,7 @@ class Schema:
 @dataclass_json
 @dataclass
 class Organization(Schema):
-    name: str
+    name: Optional[str]
     url: Optional[str]
 
 
@@ -58,13 +58,13 @@ class Person(Schema):
 @dataclass
 class Review(Schema):
     review_body: str
-    url: str
+    url: Optional[str]
     date_created: iso_datetime
     language: Optional[str]
     name: Optional[str]
     author: Person
     review_rating: Rating
-    publisher: Organization
+    publisher: Optional[Organization]
     source: str
 
 
@@ -91,7 +91,7 @@ class Movie(Schema):
     description: Optional[str]
     content_rating: str
     source_urls: List[str]              # main entity in ecartelera
-    production_company: Organization    # publisher in metacritic
+    production_company: Optional[Organization]    # publisher in metacritic
     aggregated_ratings: List[AggregateRating]
     reviews: List[Review]
     images: List[str]

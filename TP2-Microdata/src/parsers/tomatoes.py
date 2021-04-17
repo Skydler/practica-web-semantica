@@ -1,11 +1,14 @@
 from datetime import datetime
 
-from model.model import AggregateRating, Rating
-from model.model import Organization, Person, Review
+from model.model import AggregateRating, Review
 from parsers.parser import Parser
 
 
 class RottenTomatoesParser(Parser):
+    @property
+    def BASE_URL(self):
+        return "https://www.rottentomatoes.com/"
+
     def name(self):
         return self.movie.get('name')
 
@@ -60,23 +63,6 @@ class RottenTomatoesParser(Parser):
 
         return reviews
 
-    def rating(self, serialized_rating):
-        return Rating(
-            schema_type=serialized_rating['@type'],
-            name=serialized_rating.get('name'),
-            description=serialized_rating.get('description'),
-            rating_value=serialized_rating['ratingValue'],
-            best_rating=serialized_rating['bestRating'],
-            worst_rating=serialized_rating['worstRating'],
-        )
-
-    def organization(self, serialized_organization):
-        return Organization(
-            schema_type=serialized_organization['@type'],
-            name=serialized_organization['name'],
-            url=serialized_organization.get('url')
-        )
-
     def date(self, serialized_date):
         return datetime.fromisoformat(serialized_date)
 
@@ -85,16 +71,6 @@ class RottenTomatoesParser(Parser):
 
     def actors(self):
         return [self.person(actor) for actor in self.movie['actors']]
-
-    def person(self, serialized_person):
-        url = serialized_person.get('sameAs') or serialized_person.get('url')
-
-        return Person(
-            schema_type=serialized_person['@type'],
-            name=serialized_person['name'],
-            url=url,
-            image=serialized_person.get('image')
-        )
 
     def characters(self):
         return list(filter(bool, self.movie['character']))
