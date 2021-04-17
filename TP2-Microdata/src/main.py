@@ -1,9 +1,12 @@
+import argparse
+import json
+import logging
+import threading
+
 from bs4 import BeautifulSoup
 from merger.merger import Movie
-import threading
-import json
+from parsers.tomatoes import RottenTomatoesParser
 import requests
-import logging
 
 
 URLS = [
@@ -35,14 +38,40 @@ def scrap(url, source):
 
 
 def normalize_movies():
-    # parsers = ["TomatoParser", "IMDBParser", "..."]  # Should be clasess
-    # normalized_versions = [parser.run() for parser in parsers]
-    normalized_versions = []
-    return normalized_versions
+    # TODO: Unify in a dictionary with its respective url
+    parsers = [
+        (RottenTomatoesParser, "rotten_tomatoes")
+    ]
+
+    movies = []
+
+    for parser, source in parsers:
+        logging.info(f"Parsing {source} movies")
+
+        with open(f"../data/{source}.json") as file:
+            serialized_movie = json.load(file)
+
+        movie = parser(serialized_movie).run()
+
+        movies.append(movie)
+
+        logging.debug(movie)
+
+    return movies
 
 
 def main():
-    logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s')
+    # Init parser
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-v", "--verbose", action="store_true")
+
+    args = parser.parse_args()
+
+    # Init logger
+    logging.basicConfig(
+        level=logging.DEBUG if args.verbose else logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
 
     threads = [threading.Thread(target=scrap, args=(url, source))
                for url, source in URLS]
@@ -54,6 +83,7 @@ def main():
         thread.join()
 
     normalized_versions = normalize_movies()
+
     movie = Movie()
     movie.merge(normalized_versions)
 
