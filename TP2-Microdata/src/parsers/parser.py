@@ -1,8 +1,8 @@
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 from model.model import Movie
 
 
-class Parser:
+class Parser(ABC):
     def __init__(self, movie):
         self.movie = movie
 
@@ -30,73 +30,73 @@ class Parser:
         )
 
     @abstractmethod
-    def name():
+    def name(self):
         pass
 
     @abstractmethod
-    def description():
+    def description(self):
         pass
 
     @abstractmethod
-    def content_rating():
+    def content_rating(self):
         pass
 
     @abstractmethod
-    def source_urls():
+    def source_urls(self):
         pass
 
     @abstractmethod
-    def production_company():
+    def production_company(self):
         pass
 
     @abstractmethod
-    def aggregated_ratings():
+    def aggregated_ratings(self):
         pass
 
     @abstractmethod
-    def reviews():
+    def reviews(self):
         pass
 
     @abstractmethod
-    def images():
+    def images(self):
         pass
 
     @abstractmethod
-    def actors():
+    def actors(self):
         pass
 
     @abstractmethod
-    def characters():
+    def characters(self):
         pass
 
     @abstractmethod
-    def directors():
+    def directors(self):
         pass
 
     @abstractmethod
-    def authors():
+    def authors(self):
         pass
 
     @abstractmethod
-    def genres():
+    def genres(self):
         pass
 
     @abstractmethod
-    def keywords():
+    def keywords(self):
         pass
 
     @abstractmethod
-    def duration():
+    def duration(self):
         pass
 
     @abstractmethod
-    def video():
+    def video(self):
         pass
 
     @abstractmethod
-    def origin():
+    def origin(self):
         pass
 
     @abstractmethod
-    def events():
+    def events(self):
         pass
