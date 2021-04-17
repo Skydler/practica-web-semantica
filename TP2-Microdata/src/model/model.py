@@ -7,7 +7,6 @@ from marshmallow import fields
 
 
 SCHEMA = "http://schema.org"
-TYPE = "Movie"
 
 iso_datetime = field(
     metadata=config(
@@ -88,7 +87,6 @@ class PublicationEvent(Schema):
 @dataclass_json
 @dataclass
 class Movie(Schema):
-    schema_context: str
     name: str
     description: Optional[str]
     content_rating: str
@@ -107,7 +105,4 @@ class Movie(Schema):
     video: Optional[Video]
     origin: Optional[str]
     events: List[PublicationEvent]
-
-    def __post_init__(self):
-        self.schema_context = SCHEMA
-        self.schema_type = TYPE
+    schema_context: str = "http://schema.org"
