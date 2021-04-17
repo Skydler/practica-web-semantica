@@ -44,6 +44,7 @@ class Rating(Schema):
 class AggregateRating(Rating):
     rating_count: int
     review_count: Optional[int]
+    source: str
 
 
 @dataclass
