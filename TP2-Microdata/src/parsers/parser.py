@@ -8,6 +8,7 @@ class Parser:
 
     def run(self):
         return Movie(
+            schema_type=self.movie['@type'],
             name=self.name(),
             description=self.description(),
             content_rating=self.content_rating(),
