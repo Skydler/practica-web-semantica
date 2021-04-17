@@ -6,8 +6,6 @@ from typing import Optional, Union, List
 from marshmallow import fields
 
 
-SCHEMA = "http://schema.org"
-
 iso_datetime = field(
     metadata=config(
         encoder=datetime.isoformat,
@@ -17,6 +15,8 @@ iso_datetime = field(
 )
 
 
+@dataclass_json
+@dataclass
 class Schema:
     schema_type: str
 
@@ -90,8 +90,8 @@ class Movie(Schema):
     name: str
     description: Optional[str]
     content_rating: str
-    source_urls: List[str]  # main entity in ecartelera
-    production_company: Organization  # publisher in metacritic
+    source_urls: List[str]              # main entity in ecartelera
+    production_company: Organization    # publisher in metacritic
     aggregated_ratings: List[AggregateRating]
     reviews: List[Review]
     images: List[str]
@@ -101,7 +101,7 @@ class Movie(Schema):
     authors: List[Union[Person, Organization]]
     genres: List[str]
     keywords: List[str]
-    duration: int  # In minutes
+    duration: int                       # In minutes
     video: Optional[Video]
     origin: Optional[str]
     events: List[PublicationEvent]
