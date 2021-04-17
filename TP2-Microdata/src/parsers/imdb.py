@@ -82,11 +82,10 @@ class ImdbParser(Parser):
     def authors(self):
         creators = self.movie['creator']
 
-        return list(map(
-            lambda c: self.person(
-                c) if c['@type'] == "Person" else self.organization(c),
-            creators
-        ))
+        return [
+            self.person(c) if c['@type'] == "Person" else self.organization(c)
+            for c in creators
+        ]
 
     def genres(self):
         return self.movie['genre']
