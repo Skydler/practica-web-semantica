@@ -46,8 +46,8 @@ class AggregateRating(Rating):
     source: str
 
 
-@dataclass
 @dataclass_json
+@dataclass
 class Person(Schema):
     name: str
     url: Optional[str]
