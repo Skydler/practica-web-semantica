@@ -2,12 +2,13 @@ import argparse
 import json
 import logging
 import threading
+import requests
 
 from bs4 import BeautifulSoup
 from merger.merger import Movie
 from parsers.imdb import ImdbParser
 from parsers.tomatoes import RottenTomatoesParser
-import requests
+from parsers.metacritic import MetacriticParser
 
 
 URLS = [
@@ -39,24 +40,20 @@ def scrap(url, source):
 
 
 def normalize_movies():
-    # TODO: Unify in a dictionary with its respective url
+    # TODO: Unify in a dictionary with its respective file name
     parsers = [
         (RottenTomatoesParser, "rotten_tomatoes"),
         (ImdbParser, "imdb"),
+        (MetacriticParser, "metacritic"),
     ]
-
     movies = []
-
     for parser, source in parsers:
         logging.info(f"Parsing {source} movies")
-
         with open(f"../data/{source}.json") as file:
             serialized_movie = json.load(file)
 
         movie = parser(serialized_movie).run()
-
         movies.append(movie)
-
         logging.debug(movie)
 
     return movies
@@ -85,9 +82,6 @@ def main():
         thread.join()
 
     normalized_versions = normalize_movies()
-
-    import pdb; pdb.set_trace()
-
     movie = Movie()
     movie.merge(normalized_versions)
 
