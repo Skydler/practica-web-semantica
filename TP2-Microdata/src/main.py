@@ -9,6 +9,7 @@ from merger.merger import Movie
 from parsers.imdb import ImdbParser
 from parsers.tomatoes import RottenTomatoesParser
 from parsers.metacritic import MetacriticParser
+from parsers.ecartelera import EcarteleraParser
 
 
 URLS = [
@@ -45,6 +46,7 @@ def normalize_movies():
         (RottenTomatoesParser, "rotten_tomatoes"),
         (ImdbParser, "imdb"),
         (MetacriticParser, "metacritic"),
+        (EcarteleraParser, "ecartelera"),
     ]
     movies = []
     for parser, source in parsers:

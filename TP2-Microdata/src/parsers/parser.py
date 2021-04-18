@@ -41,7 +41,9 @@ class Parser(ABC):
         )
 
     def person(self, serialized_person):
-        url = serialized_person.get('sameAs') or serialized_person.get('url')
+        url = serialized_person.get('sameAs') or \
+            serialized_person.get('url') or \
+            serialized_person.get('mainEntityOfPage')
 
         return Person(
             schema_type=serialized_person['@type'],

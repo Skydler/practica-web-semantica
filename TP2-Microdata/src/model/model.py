@@ -71,10 +71,10 @@ class Review(Schema):
 @dataclass_json
 @dataclass
 class Video(Schema):
-    name: str
+    name: Optional[str]
     url: Optional[str]
-    description: str
-    thumbnail_url: str
+    description: Optional[str]
+    thumbnail_url: Optional[str]
 
 
 @dataclass_json
