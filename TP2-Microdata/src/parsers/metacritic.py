@@ -1,109 +1,81 @@
 from model import model
 from durations import Duration
-import json
-
-DATA_PATH = "../data/metacritic.json"
+from parsers.parser import Parser
 
 
-class MetacriticParser:
+class MetacriticParser(Parser):
+    @property
+    def BASE_URL(self):
+        return "https://www.metacritic.com/"
 
-    def __init__(self):
-        self.data = self.read_data()
+    def name(self):
+        return self.movie.get("name")
 
-    @staticmethod
-    def read_data():
-        with open(f"{DATA_PATH}", "r") as file:
-            data = json.load(file)
-        return data
+    def description(self):
+        return self.movie.get("description")
 
-    def build_movie(self):
-        schema_type = self.data.get("@type")
-        name = self.data.get("name")
-        description = self.data.get("description")
-        content_rating = self.data.get("contentRating")
-        source_urls = [self.data.get("url")]
-        production_company = self.build_org(self.data.get("publisher"))
-        aggregated_ratings = [self.build_aggregate_rating(
-            self.data.get("aggregateRating"), name)]
-        reviews = []
-        images = [self.data.get("image")]
-        actors = [self.build_person(actor) for actor in self.data.get("actor")]
-        characters = []
-        directors = [self.build_person(director)
-                     for director in self.data.get("director")]
-        authors = []
-        genres = self.data.get("genre")
-        keywords = []
-        duration = self.parse_duration(self.data.get("duration"))
-        video = self.build_video(self.data.get("trailer"))
-        origin = None
-        events = []
+    def content_rating(self):
+        return self.movie.get("contentRating")
 
-        movie = model.Movie(
-            schema_type=schema_type,
-            name=name,
-            description=description,
-            content_rating=content_rating,
-            source_urls=source_urls,
-            production_company=production_company,
-            aggregated_ratings=aggregated_ratings,
-            reviews=reviews,
-            images=images,
-            actors=actors,
-            characters=characters,
-            directors=directors,
-            authors=authors,
-            genres=genres,
-            keywords=keywords,
-            duration=duration,
-            video=video,
-            origin=origin,
-            events=events
-        )
+    def source_urls(self):
+        return [self.movie.get("url")]
 
-        return movie
-
-    def build_org(self, publisher):
+    def production_company(self):
+        publisher = self.movie.get("publisher")
         if len(publisher) != 1:
             raise Exception("There is more than one company")
-        company = publisher[0]
-        organization = model.Organization(
-            schema_type=company.get("@type"),
-            name=company.get("name"),
-            url=company.get("url")
-        )
-        return organization
+        return self.organization(publisher[0])
 
-    def build_aggregate_rating(self, agg_rating, src):
-        aggregate_rating = model.AggregateRating(
-            schema_type=agg_rating.get("@type"),
-            best_rating=float(agg_rating.get("bestRating")),
-            worst_rating=float(agg_rating.get("worstRating")),
-            rating_value=float(agg_rating.get("ratingValue")),
-            rating_count=int(agg_rating.get("ratingCount")),
-            source=src,
-            name=None,
-            description=None,
-            review_count=None
-        )
-        return aggregate_rating
+    def aggregated_ratings(self):
+        rating = self.movie.get("aggregateRating")
 
-    def build_person(self, person):
-        person = model.Person(
-            schema_type=person.get("@type"),
-            name=person.get("name"),
-            url=person.get("url"),
-            image=None
-        )
-        return person
+        return [
+            model.AggregateRating(
+                schema_type=rating.get("@type"),
+                best_rating=float(rating.get("bestRating")),
+                worst_rating=float(rating.get("worstRating")),
+                rating_value=float(rating.get("ratingValue")),
+                rating_count=int(rating.get("ratingCount")),
+                source=self.movie.get("url"),
+                name=None,
+                description=None,
+                review_count=None
+            )
+        ]
 
-    def parse_duration(self, duration):
-        time = duration[2:]
-        time = time.lower()
-        minutes = int(Duration(time).to_minutes())
-        return minutes
+    def reviews(self):
+        return []
 
-    def build_video(self, trailer):
+    def images(self):
+        return [self.movie.get("image")]
+
+    def actors(self):
+        actors = self.movie.get("actor")
+        return [self.person(actor) for actor in actors]
+
+    def characters(self):
+        return []
+
+    def directors(self):
+        directors = self.movie.get("director")
+        return [self.person(director) for director in directors]
+
+    def authors(self):
+        return []
+
+    def genres(self):
+        return self.movie.get("genre")
+
+    def keywords(self):
+        return []
+
+    def duration(self):
+        if duration := self.movie.get('duration'):
+            duration = duration[2:].lower()
+            return Duration(duration).to_minutes()
+
+    def video(self):
+        trailer = self.movie.get("trailer")
         video = model.Video(
             schema_type=trailer.get("@type"),
             name=trailer.get("name"),
@@ -111,5 +83,10 @@ class MetacriticParser:
             thumbnail_url=trailer.get("thumbnailUrl"),
             url=None
         )
-
         return video
+
+    def origin(self):
+        return None
+
+    def events(self):
+        return []
