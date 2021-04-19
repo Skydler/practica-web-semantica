@@ -1,61 +1,75 @@
 import argparse
 import json
 import logging
-import threading
-import requests
+from threading import Thread
 
-from bs4 import BeautifulSoup
 from db.repository import MovieRepository
-from parsers.imdb import ImdbParser
-from parsers.tomatoes import RottenTomatoesParser
-from parsers.metacritic import MetacriticParser
 from parsers.ecartelera import EcarteleraParser
+from parsers.imdb import ImdbParser
+from parsers.metacritic import MetacriticParser
+from parsers.tomatoes import RottenTomatoesParser
+from pathlib import Path
+from scrapers.jsonld import scrap
 
 
-URLS = [
-    ("https://www.rottentomatoes.com/m/wonder_woman_1984", "rotten_tomatoes"),
-    ("https://www.imdb.com/title/tt7126948/", "imdb"),
-    ("https://www.metacritic.com/movie/wonder-woman-1984", "metacritic"),
-    ("https://www.ecartelera.com/peliculas/wonder-woman-1984", "ecartelera")
-]
+SITES = {
+    "rotten_tomatoes": {
+        "url": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+        "parser": RottenTomatoesParser
+    },
+    "imdb": {
+        "url": "https://www.imdb.com/title/tt7126948/",
+        "parser": ImdbParser
+    },
+    "metacritic": {
+        "url": "https://www.metacritic.com/movie/wonder-woman-1984",
+        "parser": MetacriticParser
+    },
+    "ecartelera": {
+        "url": "https://www.ecartelera.com/peliculas/wonder-woman-1984",
+        "parser": EcarteleraParser
+    }
+}
+
+DATA_ROOT = Path.cwd().parent / "data"
+
+MERGE_FILE = DATA_ROOT / "movies.json"
 
 
-def scrap(url, source):
-    response = requests.get(url, headers={"User-Agent": ""})
-    html = response.text
-    soup = BeautifulSoup(html, 'html.parser')
-
-    try:
-        json_ld = soup.select_one("script[type='application/ld+json']")
-    except Exception as e:
-        print("JSON-LD NOT FOUND")
-        raise e
-
-    json_text = json_ld.string.replace("\n", "")
-    movie = json.loads(json_text, strict=False)
-
-    logging.info(f"Scraped {source}. Writing...")
-
-    with open(f"../data/{source}.json", "w") as file:
-        file.write(json.dumps(movie))
+def filename(site_name):
+    return DATA_ROOT / f"{site_name}.json"
 
 
-def normalize_movies():
-    # TODO: Unify in a dictionary with its respective file name
-    parsers = [
-        (RottenTomatoesParser, "rotten_tomatoes"),
-        (ImdbParser, "imdb"),
-        (MetacriticParser, "metacritic"),
-        (EcarteleraParser, "ecartelera"),
+def scrap_sites():
+    logging.info("Scraping movies . . .")
+
+    threads = [
+        Thread(
+            target=scrap,
+            args=(site_data['url'], filename(site_name))
+        )
+        for site_name, site_data in SITES.items()
     ]
-    movies = []
-    for parser, source in parsers:
-        logging.info(f"Parsing {source} movies")
 
-        with open(f"../data/{source}.json") as file:
+    for thread in threads:
+        thread.start()
+
+    for thread in threads:
+        thread.join()
+
+
+def parse_movies():
+    movies = []
+    for site_name, site_data in SITES.items():
+        logging.info(f"Parsing {site_name} movies")
+
+        with open(filename(site_name)) as file:
             serialized_movie = json.load(file)
 
+        parser = site_data['parser']
+
         movie = parser(serialized_movie).run()
+
         movies.append(movie)
         logging.debug(movie)
 
@@ -77,28 +91,19 @@ def main():
     )
 
     if not args.offline:
-        logging.info("Scraping movies . . .")
-
-        threads = [threading.Thread(target=scrap, args=(url, source))
-                   for url, source in URLS]
-
-        for thread in threads:
-            thread.start()
-
-        for thread in threads:
-            thread.join()
+        scrap_sites()
 
     logging.info("Parsing movies . . .")
-    movies = normalize_movies()
+    movies = parse_movies()
 
     logging.info("Merging movies . . .")
-    repository = MovieRepository(saving_path='../data/movies.json')
+    repository = MovieRepository(saving_path=MERGE_FILE)
     repository.add(movies)
     repository.save()
 
     logging.info("Testing . . .")
     try:
-        repository.read('../data/movies.json')
+        repository.read(MERGE_FILE)
     except Exception:
         logging.error("The merged movies are corrupt", exc_info=True)
     else:

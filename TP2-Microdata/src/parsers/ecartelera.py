@@ -1,7 +1,8 @@
-from model import model
-from durations import Duration
-from parsers.parser import Parser
 from datetime import datetime
+
+from durations import Duration
+from model import model
+from parsers.parser import Parser
 
 
 class EcarteleraParser(Parser):
