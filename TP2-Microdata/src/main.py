@@ -5,7 +5,7 @@ import threading
 import requests
 
 from bs4 import BeautifulSoup
-from merger.merger import Movie
+from db.repository import MovieRepository
 from parsers.imdb import ImdbParser
 from parsers.tomatoes import RottenTomatoesParser
 from parsers.metacritic import MetacriticParser
@@ -51,6 +51,7 @@ def normalize_movies():
     movies = []
     for parser, source in parsers:
         logging.info(f"Parsing {source} movies")
+
         with open(f"../data/{source}.json") as file:
             serialized_movie = json.load(file)
 
@@ -64,6 +65,7 @@ def normalize_movies():
 def main():
     # Init parser
     parser = argparse.ArgumentParser()
+    parser.add_argument("-o", "--offline", action="store_true")
     parser.add_argument("-v", "--verbose", action="store_true")
 
     args = parser.parse_args()
@@ -74,18 +76,33 @@ def main():
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-    threads = [threading.Thread(target=scrap, args=(url, source))
-               for url, source in URLS]
+    if not args.offline:
+        logging.info("Scraping movies . . .")
 
-    for thread in threads:
-        thread.start()
+        threads = [threading.Thread(target=scrap, args=(url, source))
+                   for url, source in URLS]
 
-    for thread in threads:
-        thread.join()
+        for thread in threads:
+            thread.start()
 
-    normalized_versions = normalize_movies()
-    movie = Movie()
-    movie.merge(normalized_versions)
+        for thread in threads:
+            thread.join()
+
+    logging.info("Parsing movies . . .")
+    movies = normalize_movies()
+
+    logging.info("Merging movies . . .")
+    repository = MovieRepository(saving_path='../data/movies.json')
+    repository.add(movies)
+    repository.save()
+
+    logging.info("Testing . . .")
+    try:
+        repository.read('../data/movies.json')
+    except Exception:
+        logging.error("The merged movies are corrupt", exc_info=True)
+    else:
+        logging.info("Succesfully merged movies")
 
 
 if __name__ == '__main__':

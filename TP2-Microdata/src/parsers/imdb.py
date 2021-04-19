@@ -40,7 +40,7 @@ class ImdbParser(Parser):
                 worst_rating=float(rating['worstRating']),
                 rating_count=int(rating['ratingCount']),
                 review_count=int(review_count) if review_count else None,
-                source=self.movie['url']
+                source=self.source_urls().pop()
             )
         ]
 
@@ -55,9 +55,9 @@ class ImdbParser(Parser):
             language=serialized_review.get('inLanguage'),
             name=serialized_review.get('name'),
             author=self.person(serialized_review['author']),
-            review_rating=self.rating(serialized_review['reviewRating']),
+            review_rating=self.rating(serialized_review.get('reviewRating')),
             publisher=self.organization(serialized_review.get('publisher')),
-            source=self.movie.get('url')
+            source=self.source_urls().pop()
         )
 
         return [review]

@@ -1,18 +1,8 @@
 from datetime import datetime
 
 from dataclasses import dataclass, field
-from dataclasses_json import dataclass_json, config
+from dataclasses_json import dataclass_json
 from typing import Optional, Union, List
-from marshmallow import fields
-
-
-iso_datetime = field(
-    metadata=config(
-        encoder=datetime.isoformat,
-        decoder=datetime.fromisoformat,
-        mm_field=fields.DateTime(format='iso')
-    )
-)
 
 
 @dataclass_json
@@ -22,10 +12,16 @@ class Schema:
 
 
 @dataclass_json
-@dataclass
+@dataclass(unsafe_hash=True)
 class Organization(Schema):
     name: Optional[str]
     url: Optional[str]
+
+    def __eq__(self, other):
+        if not isinstance(other, Organization) or other.name is None:
+            return False
+
+        return self.name == other.name
 
 
 @dataclass_json
@@ -47,11 +43,11 @@ class AggregateRating(Rating):
 
 
 @dataclass_json
-@dataclass
+@dataclass(unsafe_hash=True)
 class Person(Schema):
     name: str
-    url: Optional[str]
-    image: Optional[str]
+    url: Optional[str] = field(compare=False)
+    image: Optional[str] = field(compare=False)
 
 
 @dataclass_json
@@ -59,11 +55,11 @@ class Person(Schema):
 class Review(Schema):
     review_body: str
     url: Optional[str]
-    date_created: iso_datetime
+    date_created: datetime
     language: Optional[str]
     name: Optional[str]
     author: Person
-    review_rating: Rating
+    review_rating: Optional[Rating]
     publisher: Optional[Organization]
     source: str
 
@@ -80,7 +76,7 @@ class Video(Schema):
 @dataclass_json
 @dataclass
 class PublicationEvent(Schema):
-    start_date: iso_datetime
+    start_date: datetime
     location: str
 
 

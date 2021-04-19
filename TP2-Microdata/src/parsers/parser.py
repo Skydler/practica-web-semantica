@@ -53,6 +53,9 @@ class Parser(ABC):
         )
 
     def rating(self, serialized_rating):
+        if serialized_rating is None:
+            return None
+
         return Rating(
             schema_type=serialized_rating['@type'],
             name=serialized_rating.get('name'),

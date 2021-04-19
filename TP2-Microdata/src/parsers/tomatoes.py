@@ -84,7 +84,12 @@ class RottenTomatoesParser(Parser):
         return [self.person(author) for author in authors]
 
     def genres(self):
-        return self.movie['genre']
+        genres = []
+
+        for genre in self.movie['genre']:
+            genres += genre.split(' & ')
+
+        return genres
 
     def keywords(self):
         return []

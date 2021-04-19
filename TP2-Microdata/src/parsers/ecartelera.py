@@ -40,7 +40,7 @@ class EcarteleraParser(Parser):
                 worst_rating=float(rating.get("worstRating")),
                 rating_value=float(rating_value),
                 rating_count=int(rating.get("ratingCount")),
-                source=self.movie.get("url"),
+                source=self.movie.get("mainEntityOfPage"),
                 name=None,
                 description=None,
                 review_count=None
