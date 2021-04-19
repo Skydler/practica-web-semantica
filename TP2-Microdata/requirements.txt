@@ -2,12 +2,16 @@ beautifulsoup4==4.9.3
 certifi==2020.12.5
 chardet==4.0.0
 dataclasses-json==0.5.2
+deep-translator==1.4.2
+durations==0.3.3
+fuzzywuzzy==0.18.0
 idna==2.10
 jedi==0.18.0
 marshmallow==3.11.1
 marshmallow-enum==1.5.1
 mypy-extensions==0.4.3
 parso==0.8.2
+python-Levenshtein==0.12.2
 requests==2.25.1
 soupsieve==2.2.1
 stringcase==1.2.0
