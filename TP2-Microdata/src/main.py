@@ -12,32 +12,54 @@ from pathlib import Path
 from scrapers.jsonld import scrap
 
 
-SITES = {
-    "rotten_tomatoes": {
+SITES = [
+    {
         "url": "https://www.rottentomatoes.com/m/wonder_woman_1984",
-        "parser": RottenTomatoesParser
+        "parser": RottenTomatoesParser,
+        "filename": "rotten-tomatoes"
     },
-    "imdb": {
+    {
         "url": "https://www.imdb.com/title/tt7126948/",
-        "parser": ImdbParser
+        "parser": ImdbParser,
+        "filename": "imdb"
     },
-    "metacritic": {
+    {
         "url": "https://www.metacritic.com/movie/wonder-woman-1984",
-        "parser": MetacriticParser
+        "parser": MetacriticParser,
+        "filename": "metacritic"
     },
-    "ecartelera": {
+    {
         "url": "https://www.ecartelera.com/peliculas/wonder-woman-1984",
-        "parser": EcarteleraParser
-    }
-}
+        "parser": EcarteleraParser,
+        "filename": "ecartelera"
+    },
+]
+
+EXTRA_SITES = [
+    {
+        "url": "https://www.rottentomatoes.com/m/tenet",
+        "parser": RottenTomatoesParser,
+        "filename": "tenet-rotten-tomatoes"
+    },
+    {
+        "url": "https://www.metacritic.com/movie/tenet",
+        "parser": MetacriticParser,
+        "filename": "tenet-metacritic"
+    },
+    {
+        "url": "https://www.imdb.com/title/tt1361336/",
+        "parser": ImdbParser,
+        "filename": "tom-y-jerry-imdb"
+    },
+]
 
 DATA_ROOT = Path.cwd().parent / "data"
 
 MERGE_FILE = DATA_ROOT / "movies.json"
 
 
-def filename(site_name):
-    return DATA_ROOT / f"{site_name}.json"
+def path(filename):
+    return DATA_ROOT / f"{filename}.json"
 
 
 def scrap_sites():
@@ -46,9 +68,9 @@ def scrap_sites():
     threads = [
         Thread(
             target=scrap,
-            args=(site_data['url'], filename(site_name))
+            args=(site['url'], path(site['filename']))
         )
-        for site_name, site_data in SITES.items()
+        for site in SITES
     ]
 
     for thread in threads:
@@ -60,13 +82,13 @@ def scrap_sites():
 
 def parse_movies():
     movies = []
-    for site_name, site_data in SITES.items():
-        logging.info(f"Parsing {site_name} movies")
+    for site in SITES:
+        logging.info(f"Parsing {site['url']} movies")
 
-        with open(filename(site_name)) as file:
+        with open(path(site['filename'])) as file:
             serialized_movie = json.load(file)
 
-        parser = site_data['parser']
+        parser = site['parser']
 
         movie = parser(serialized_movie).run()
 
@@ -81,6 +103,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-o", "--offline", action="store_true")
     parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("-e", "--extra", action="store_true")
 
     args = parser.parse_args()
 
@@ -89,6 +112,9 @@ def main():
         level=logging.DEBUG if args.verbose else logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
+
+    if args.extra:
+        SITES.extend(EXTRA_SITES)
 
     if not args.offline:
         scrap_sites()
@@ -105,7 +131,7 @@ def main():
     try:
         repository.read(MERGE_FILE)
     except Exception:
-        logging.error("The merged movies are corrupt", exc_info=True)
+        logging.error("Invalid types, unable to load model", exc_info=True)
     else:
         logging.info("Succesfully merged movies")
 

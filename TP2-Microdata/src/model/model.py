@@ -86,8 +86,8 @@ class Movie(Schema):
     name: str
     description: Optional[str]
     content_rating: str
-    source_urls: List[str]              # main entity in ecartelera
-    production_company: Optional[Organization]    # publisher in metacritic
+    source_urls: List[str]
+    production_company: Optional[Organization]
     aggregated_ratings: List[AggregateRating]
     reviews: List[Review]
     images: List[str]
@@ -97,7 +97,7 @@ class Movie(Schema):
     authors: List[Union[Person, Organization]]
     genres: List[str]
     keywords: List[str]
-    duration: int                       # In minutes
+    duration: Optional[int]  # In minutes
     video: Optional[Video]
     origin: Optional[str]
     events: List[PublicationEvent]
