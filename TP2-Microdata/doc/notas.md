@@ -41,10 +41,22 @@ Como se dijo a lo largo del informe, la principal dificultad a la hora de obtene
 La principal ventaja de Schema.org es brindar un estándar para definir los datos y los campos. Por otra parte, la principal desventaja es la falta de restricciones que posee. Por este motivo, en la mayoría de los casos los elementos descriptos por formatos como JSON-LD y Microdata difieren de la estructura que provee Schema.org.
 
 ### ¿Cuáles cree que son los desafíos que todavía quedan por resolver?
-
+Entre los desafíos que todavía nos generan conflictos están:
+- Las peliculas no tienen un identificador único y universal. Puede variar la forma de escribir su título en las diferentes páginas en cuanto a lenguaje e interpretación, por lo que no es un buen identificador.
+- Es necesario contemplar las diferencias que puedan presentar en cuanto a nomenclatura y estructura los diferentes campos de las distintas páginas. Por lo que es requerido tener varios "reparadores" o "parsers" de JSON-LD o, minimamente tener un solo parser que contemple todos los casos con mucho código específico.
+- El hecho de parsear la información recopilada genera que el proceso sea muy sensible a cambios en los datos. Puede dejar de funcionar con facilidad.
 
 ## Datos de color
 
 ### Cambio del User-Agent
+Para la extracción del JSON-LD de algunas páginas fue necesario modificar el header *User-Agent* ya que por defecto en las peticiones del módulo *requests* de Python tienen el siguiente formato
+```
+python-requests/{package version} {runtime}/{runtime version} {uname}/{uname -r}
+```
+Este formato era reconocido y filtrado por algunas de las páginas, deducimos que lo hacen con la intención de evitar bots que generen demasiado tráfico y sobrecarguen los servidores. Para sortear este obstaculo bastó con modificar el header a un string random o dejarlo vacío. En nuestro caso:
+```python
+response = requests.get(url, headers={"User-Agent": ""})
+```
 
-### Campos omitidos
+### Busqueda de información extra sobre algunos campos
+Durante el análisis de los datos vimos casos, por ejemplo en el de los actores, en los que el valor de uno de sus campos resultaba en un link a otra página con otro JSON-LD detallando su información particular. Consideramos que esta información era irrelevante con respecto a la pelicula y que con conocer el nombre de los actores alcanza. En caso de querer scrapear esta información se podría acceder recursivamente a las urls, aunque habria que tener en cuenta problemas de recursión ciclica, entre otras cosas.
