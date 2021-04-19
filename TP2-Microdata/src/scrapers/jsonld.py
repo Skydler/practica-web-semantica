@@ -13,7 +13,7 @@ def scrap(url, filename):
     try:
         json_ld = soup.select_one("script[type='application/ld+json']")
     except Exception as e:
-        print("JSON-LD NOT FOUND")
+        logging.error("JSON-LD NOT FOUND")
         raise e
 
     json_text = json_ld.string.replace("\n", "")
