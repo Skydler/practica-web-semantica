@@ -84,10 +84,15 @@ Antes de responder esta pregunta, nos gustaría explicar brevemente como está e
 
 - **Scraper**: Primero el script invoca a un scraper que se encarga de extraer la información de los sitios definidos, como se mencionó anteriormente, este scraper es único para todos los sitios, dado que se utiliza JSON-LD. Mientras que en el TP anterior necesitabamos definir un scraper por cada sitio.
 - **Parsers**: Luego, el script normaliza todos los campos en un formato específico (por ejemplo, las fechas en timestamp, la duración en minutos, etc.). Notemos que para esta etapa, el script necesita 1 parser para cada sitio, ya que el contenido de cada campo es diferente.
+  
   Por ejemplo, miremos **imdb** como expresa las fechas de la Review:
+  
   `"dateCreated": "2021-01-02"`
+  
   Ahora miremos como la expresa **rotten tomatoes**:
+  
   `"dateCreated": "2017-09-13T08:24:15-07:00"`
+  
   Además, es necesario aclarar, que el formato del contenido de cada campo puede variar de película en película incluso si pertenecen al mismo sitio, ya que Schema.org no nos asegura ningún formato específico.
 - **Merger**: Una vez normalizados los datos, al igual que en el TP anterior, se utiliza una estrategia de "mergeo" por cada campo. La mayoría fueron rehusadas del TP anterior, como por ejemplo, la identificación de la película, quedarse con la duración máxima, etc.
   En particular, nos gustaría destacar que el campo género está en español en **ecartelera**, mientras que en los demás sitios están en inglés. Por lo tanto, para resolverlo se tradujeron todos los géneros a inglés y se los unificó en una lista sin repetidos.
@@ -100,7 +105,7 @@ Por lo tanto, respondiendo la pregunta, entre los desafíos que todavía nos gen
 
 ## Películas extras
 
-Una vez terminada la extracción de las 4 películas que especificaba el enunciado, se decidió probar con nuevas películas, en particular Tenet y Tom & Jerry. El resultado fue éxitoso, se puede ver la unificación de las 3 películas en el archivo `data/movies.json`.
+Una vez terminada la extracción de Wonder Woman que especificaba el enunciado, se decidió probar con una nueva película, en particular Tenet. El resultado fue éxitoso, se puede ver la unificación de las 2 películas en el archivo `data/movies.json`.
 
 Para agregar nuevos sitios, se deben seguir los siguientes pasos:
 
@@ -119,9 +124,14 @@ Para agregar nuevos sitios, se deben seguir los siguientes pasos:
            "filename": "tenet-metacritic"
        },
        {
-           "url": "https://www.imdb.com/title/tt1361336/",
+           "url": "https://www.imdb.com/title/tt6723592/",
            "parser": ImdbParser,
-           "filename": "tom-y-jerry-imdb"
+           "filename": "tenet-imdb"
+       },
+       {
+           "url": "https://www.ecartelera.com/peliculas/tenet/",
+           "parser": EcarteleraParser,
+           "filename": "tenet-ecartelera"
        },
    ]
    ```

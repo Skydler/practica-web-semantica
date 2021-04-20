@@ -16,22 +16,22 @@ SITES = [
     {
         "url": "https://www.rottentomatoes.com/m/wonder_woman_1984",
         "parser": RottenTomatoesParser,
-        "filename": "rotten-tomatoes"
+        "filename": "ww-rotten-tomatoes"
     },
     {
         "url": "https://www.imdb.com/title/tt7126948/",
         "parser": ImdbParser,
-        "filename": "imdb"
+        "filename": "ww-imdb"
     },
     {
         "url": "https://www.metacritic.com/movie/wonder-woman-1984",
         "parser": MetacriticParser,
-        "filename": "metacritic"
+        "filename": "ww-metacritic"
     },
     {
         "url": "https://www.ecartelera.com/peliculas/wonder-woman-1984",
         "parser": EcarteleraParser,
-        "filename": "ecartelera"
+        "filename": "ww-ecartelera"
     },
 ]
 
@@ -47,19 +47,25 @@ EXTRA_SITES = [
         "filename": "tenet-metacritic"
     },
     {
-        "url": "https://www.imdb.com/title/tt1361336/",
+        "url": "https://www.imdb.com/title/tt6723592/",
         "parser": ImdbParser,
-        "filename": "tom-y-jerry-imdb"
+        "filename": "tenet-imdb"
+    },
+    {
+        "url": "https://www.ecartelera.com/peliculas/tenet/",
+        "parser": EcarteleraParser,
+        "filename": "tenet-ecartelera"
     },
 ]
 
 DATA_ROOT = Path.cwd().parent / "data"
+SCRAP_ROOT = DATA_ROOT / "scrap"
 
 MERGE_FILE = DATA_ROOT / "movies.json"
 
 
 def path(filename):
-    return DATA_ROOT / f"{filename}.json"
+    return SCRAP_ROOT / f"{filename}.json"
 
 
 def scrap_sites():

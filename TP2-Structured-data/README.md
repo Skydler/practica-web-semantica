@@ -10,9 +10,8 @@
 - Este archivo representa el archivo **src.txt** mencionado en el enunciado.
 - Tanto las respuestas, como la estructura del modelo se encuentran en el archivo `doc/notas.pdf`.
 - En el directorio **data** se encuentran los siguientes archivos:
-  - **ecartelera.json, imdb.json, metacritic.json, rotten-tomatoes.json**: Información recolectada de cada sitio.
+  - **data/scrap**: Información "cruda" recolectada de cada sitio, sin normalizar, ni unificar.
   - **movies.json:** Unificación de la información obtenida de los sitios, se utilizó una estrategia de mezcla para evitar inconsistencias y unificar la información (Para más información leer el archivo **doc/notas.pdf**)
-  - Los demás archivos JSON pertenecen a películas extras que no se especificaron en el enunciado.
 
 ## Requisitos
 
