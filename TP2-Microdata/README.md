@@ -8,10 +8,11 @@
 ## Notas
 
 - Este archivo representa el archivo **src.txt** mencionado en el enunciado.
-- Tanto las respuestas, como los desafíos se encuentran en el directorio **doc**.
+- Tanto las respuestas, como la estructura del modelo se encuentran en el archivo `doc/notas.pdf`.
 - En el directorio **data** se encuentran los siguientes archivos:
-  - ecartelera.json, imdb.json, metacritic.json, rotten_tomatoes.jso: Información recolectada de cada sitio.
-  - movies.json: Unificación de la información obtenida de los sitios, se utilizó una estrategia de mezcla para evitar inconsistencias y unificar la información (Para más información leer el archivo **doc/notas.pdf**)
+  - **ecartelera.json, imdb.json, metacritic.json, rotten-tomatoes.json**: Información recolectada de cada sitio.
+  - **movies.json:** Unificación de la información obtenida de los sitios, se utilizó una estrategia de mezcla para evitar inconsistencias y unificar la información (Para más información leer el archivo **doc/notas.pdf**)
+  - Los demás archivos JSON pertenecen a películas extras que no se especificaron en el enunciado.
 
 ## Requisitos
 
@@ -20,26 +21,26 @@
 
 ## Ejecución
 
-2. Crear y activar el entorno virtual:
+1. Crear y activar el entorno virtual:
 
    ```bash
    virtualenv -p python3 venv
    source venv/bin/activate
    ```
 
-3. Instalar las dependencias:
+2. Instalar las dependencias:
 
    ```bash
    pip3 install -r requirements.txt
    ```
 
-4. Ir al directorio fuente:
+3. Ir al directorio fuente:
 
    ```bash
    cd src
    ```
 
-5. Ejecutar el script:
+4. Ejecutar el script:
 
    ```bash
    python3 main.py
@@ -50,3 +51,5 @@
 `--verbose`: Permite visualizar todos los logs.
 
 `--offline`: Ejecuta solo el merge, es útil para no scrapear de nuevo.
+
+`--extra`: Ejecuta el scrapeo de películas extras.
