@@ -13,10 +13,28 @@
 #    Object Properties
 #################################################################
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#cinema
+:cinema rdf:type owl:ObjectProperty ;
+        rdfs:domain :cinema_room ;
+        rdfs:range <http://dbpedia.org/ontology/Cinema> .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#hasShow
+:hasShow rdf:type owl:ObjectProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/Film> ;
+         rdfs:range :film_show .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#hasTrailer
 :hasTrailer rdf:type owl:ObjectProperty ;
             rdfs:domain <http://dbpedia.org/ontology/Film> ;
             rdfs:range :trailer .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#room
+:room rdf:type owl:ObjectProperty ;
+      rdfs:domain :film_show ;
+      rdfs:range :cinema_room .
 
 
 #################################################################
@@ -35,6 +53,16 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#cinema_room
+:cinema_room rdf:type owl:Class ;
+             rdfs:subClassOf <http://dbpedia.org/ontology/Place> .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#film_show
+:film_show rdf:type owl:Class ;
+           rdfs:subClassOf <http://dbpedia.org/ontology/SocietalEvent> .
+
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#trailer
 :trailer rdf:type owl:Class ;
@@ -57,6 +85,12 @@
                  <http://dbpedia.org/ontology/Name> "Ciencia Ficción"@es .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#cinepolis_recoleta
+:cinepolis_recoleta rdf:type owl:NamedIndividual ,
+                             <http://dbpedia.org/ontology/Cinema> ;
+                    <http://dbpedia.org/ontology/Name> "Cinépolis Recoleta"@es .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#eeuu
 :eeuu rdf:type owl:NamedIndividual ,
                <http://dbpedia.org/ontology/Country> ;
@@ -69,6 +103,13 @@
              <http://dbpedia.org/ontology/Name> "Reino Unido"@es .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#room_classic_2d
+:room_classic_2d rdf:type owl:NamedIndividual ,
+                          :cinema_room ;
+                 :cinema :cinepolis_recoleta ;
+                 <http://dbpedia.org/ontology/Name> "Classic - 2D"@es .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet
 :tenet rdf:type owl:NamedIndividual ,
                 <http://dbpedia.org/ontology/Film> ;
@@ -77,9 +118,18 @@
                                            :thriller ;
        <http://dbpedia.org/ontology/origin> :eeuu ,
                                             :reino_unido ;
+       :hasShow :tenet_show_1 ;
        :hasTrailer :tenet_trailer ;
        <http://dbpedia.org/ontology/releaseDate> ""^^xsd:date ;
        <http://dbpedia.org/ontology/title> "Tenet"^^rdf:langString .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_show_1
+:tenet_show_1 rdf:type owl:NamedIndividual ,
+                       :film_show ;
+              :room :room_classic_2d ;
+              <http://dbpedia.org/ontology/startDateTime> "2021-04-06T19:40:00"@es ;
+              <http://dbpedia.org/ontology/subtitle> "Español"@es .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_trailer
