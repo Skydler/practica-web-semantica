@@ -1,0 +1,97 @@
+@prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
+@prefix ns1: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
+    owl:imports ns1: .
+
+:cinema a owl:ObjectProperty ;
+    rdfs:domain :cinema_room ;
+    rdfs:range ns1:Cinema .
+
+:hasShow a owl:ObjectProperty ;
+    rdfs:domain ns1:Film ;
+    rdfs:range :film_show .
+
+:hasTrailer a owl:ObjectProperty ;
+    rdfs:domain ns1:Film ;
+    rdfs:range :trailer .
+
+:room a owl:ObjectProperty ;
+    rdfs:domain :film_show ;
+    rdfs:range :cinema_room .
+
+:tenet a ns1:Film,
+        owl:NamedIndividual ;
+    ns1:genre :accion,
+        :ciencia_ficcion,
+        :thriller ;
+    ns1:origin :eeuu,
+        :reino_unido ;
+    ns1:releaseDate ""^^xsd:date ;
+    ns1:title "Tenet"^^rdf:langString ;
+    :hasShow :tenet_show_1 ;
+    :hasTrailer :tenet_trailer .
+
+:url a owl:DatatypeProperty ;
+    rdfs:range xsd:anyURI .
+
+:accion a ns1:MovieGenre,
+        owl:NamedIndividual ;
+    ns1:Name "accion"@es .
+
+:ciencia_ficcion a ns1:MovieGenre,
+        owl:NamedIndividual ;
+    ns1:Name "Ciencia Ficción"@es .
+
+:cinepolis_recoleta a ns1:Cinema,
+        owl:NamedIndividual ;
+    ns1:Name "Cinépolis Recoleta"@es .
+
+:eeuu a ns1:Country,
+        owl:NamedIndividual ;
+    ns1:Name "Estados Unidos"@es .
+
+:reino_unido a ns1:Country,
+        owl:NamedIndividual ;
+    ns1:Name "Reino Unido"@es .
+
+:room_classic_2d a owl:NamedIndividual,
+        :cinema_room ;
+    ns1:Name "Classic - 2D"@es ;
+    :cinema :cinepolis_recoleta .
+
+:tenet_show_1 a owl:NamedIndividual,
+        :film_show ;
+    ns1:startDateTime "2021-04-06T19:40:00"@es ;
+    ns1:subtitle "Español"@es ;
+    :room :room_classic_2d .
+
+:tenet_trailer a owl:NamedIndividual ;
+    ns1:Name "Tenet (Trailer 2)"@en ;
+    ns1:description "Video Clip of Tenet"^^rdf:langString ;
+    ns1:thumbnail :tenet_trailer_thumbnail ;
+    :url "https://www.youtube.com/embed/Q3YsDF8rZ9w?rel=0&controls=0&showinfo=0"^^rdf:langString .
+
+:tenet_trailer_thumbnail a ns1:Image,
+        owl:NamedIndividual ;
+    :url "https://content.internetvideoarchive.com/content/hdphotos/12882/012882/012882_1173x660_637257053180251151.jpg"^^xsd:anyURI .
+
+:thriller a ns1:MovieGenre,
+        owl:NamedIndividual ;
+    ns1:Name "Thriller"@es .
+
+:trailer a owl:Class ;
+    rdfs:subClassOf ns1:Media .
+
+:cinema_room a owl:Class ;
+    rdfs:subClassOf ns1:Place .
+
+:film_show a owl:Class ;
+    rdfs:subClassOf ns1:SocietalEvent .
+

@@ -1,0 +1,11 @@
+dataclasses-json==0.5.3
+isodate==0.6.0
+marshmallow==3.11.1
+marshmallow-enum==1.5.1
+mypy-extensions==0.4.3
+pyparsing==2.4.7
+rdflib==5.0.0
+six==1.16.0
+stringcase==1.2.0
+typing-extensions==3.10.0.0
+typing-inspect==0.6.0
