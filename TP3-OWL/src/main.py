@@ -16,6 +16,6 @@ for movie in movie_objects:
     parser.parse(movie)
 
 
-with open("../data/generated_movies.ttl", "w") as file:
+with open("../data/movie_individuals.ttl", "w") as file:
     serialized_graph = parser.serialize_graph()
     file.write(serialized_graph)

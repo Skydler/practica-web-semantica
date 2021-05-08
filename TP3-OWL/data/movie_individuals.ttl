@@ -5,14 +5,443 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+ns1:author rdfs:range ns1:Company .
+
 ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1: .
 
+:007:_SIN_TIEMPO_PARA_MORIR a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventura,
+        :Crimen,
+        :Thriller ;
+    ns1:origin :Estados_Unidos,
+        :Inglaterra .
+
+:007_Bond:_Sin_Tiempo_Para_Morir a ns1:Film ;
+    ns1:genre :Acción ;
+    ns1:origin :Reino_Unido .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#100%_LOBO> a ns1:Film ;
+    ns1:genre :Animación,
+        :Familia,
+        :Fantasía ;
+    ns1:origin :Australia,
+        :Belgica .
+
+:10_PALOMAS a ns1:Film ;
+    ns1:genre :Acción,
+        :Crimen,
+        :Drama ;
+    ns1:origin :Argentina .
+
+:Antlers a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :EEUU .
+
+:BLACK_WIDOW a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventuras,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos,
+        :Inglaterra .
+
+:CANDYMAN a ns1:Film ;
+    ns1:genre :Terror,
+        :Thriller ;
+    ns1:origin :Estados_Unidos .
+
+:CAOS:_EL_INICIO a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventura,
+        :Ciencia_Ficción,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:CICATRICES a ns1:Film ;
+    ns1:genre :Drama ;
+    ns1:origin :Serbia .
+
+:CONTRA_EL_FUEGO a ns1:Film ;
+    ns1:genre :Acción,
+        :Drama ;
+    ns1:origin :Rusia .
+
+:CRUELLA a ns1:Film ;
+    ns1:genre :Acción,
+        :Comedia,
+        :Drama ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:DEMON_SLAYER_MUGEN_TRAIN a ns1:Film ;
+    ns1:genre :Acción,
+        :Animación,
+        :Aventura,
+        :Drama,
+        :Fantasía ;
+    ns1:origin :Japón .
+
+:DE_LA_NOCHE_A_LA_MAÑANA a ns1:Film ;
+    ns1:genre :Drama ;
+    ns1:origin :Argentina .
+
+:Demon_Slayer:_El_Tren_Infinito a ns1:Film ;
+    ns1:genre :Animación ;
+    ns1:origin :Japón .
+
+:EL_JOVEN_AHMED a ns1:Film ;
+    ns1:genre :Drama ;
+    ns1:origin :Belgica,
+        :Francia .
+
+:EL_OFICIAL_Y_EL_ESPÍA a ns1:Film ;
+    ns1:genre :Drama,
+        :Historia ;
+    ns1:origin :Francia,
+        :Italia .
+
+:EL_PADRE a ns1:Film ;
+    ns1:genre :Drama ;
+    ns1:origin :Francia,
+        :Reino_Unido .
+
+:EL_PROTECTOR a ns1:Film ;
+    ns1:genre :Acción,
+        :Crimen,
+        :Thriller ;
+    ns1:origin :United_States_of_America .
+
+:EL_SILENCIO_DEL_CAZADOR a ns1:Film ;
+    ns1:genre :Drama,
+        :Terror,
+        :Thriller ;
+    ns1:origin :Argentina,
+        :Canada .
+
+:EL_TERRITORIO_DEL_AMOR a ns1:Film ;
+    ns1:genre :Drama ;
+    ns1:origin :Francia .
+
+:EN_EL_BARRIO a ns1:Film ;
+    ns1:genre :Drama,
+        :Música,
+        :Romance ;
+    ns1:origin :Estados_Unidos .
+
+:EN_GUERRA_CON_MI_ABUELO a ns1:Film ;
+    ns1:genre :Comedia,
+        :Familia ;
+    ns1:origin :Estados_Unidos .
+
+:ERASE_UNA_VEZ a ns1:Film ;
+    ns1:genre :Aventura,
+        :Drama,
+        :Fantasía ;
+    ns1:origin :Estados_Unidos,
+        :Reino_Unido .
+
+:ESPIRAL:_EL_JUEGO_DEL_MIEDO_CONTINÚA a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :EEUU .
+
+:ESPÍRITUS_OSCUROS a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :Estados_Unidos .
+
+:EXPLOTA_EXPLOTA a ns1:Film ;
+    ns1:genre :Comedia,
+        :Música ;
+    ns1:origin :España,
+        :Italia .
+
+:El_Secreto_Del_Bosque a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :EEUU .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FAST_&_FURIOUS_9> a ns1:Film ;
+    ns1:genre :Acción,
+        :Thriller ;
+    ns1:origin :Estados_Unidos .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FATE_STAY_NIGHT_HEAVEN’S_FEEL:_PARTE_3> a ns1:Film ;
+    ns1:genre :Acción,
+        :Animación,
+        :Drama,
+        :Fantasía,
+        :Romance ;
+    ns1:origin :Japón .
+
+:FREAKY:_ESTE_CUERPO_ESTÁ_PARA_MATAR a ns1:Film ;
+    ns1:genre :Comedia,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Comedia_/_Terror>,
+        :Fantasía,
+        :Terror,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:FREE_GUY:_TOMANDO_EL_CONTROL a ns1:Film ;
+    ns1:genre :Aventura,
+        :Comedia ;
+    ns1:origin :Estados_Unidos .
+
+:GODZILLA_VS._KONG a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventura,
+        :Ciencia_Ficción,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:GOLDEN_VOICES a ns1:Film ;
+    ns1:origin :Israel .
+
+:HABITACIÓN_212 a ns1:Film ;
+    ns1:genre :Comedia,
+        :Comedia_dramática ;
+    ns1:origin :Francia .
+
+:HERMOSA_VENGANZA a ns1:Film ;
+    ns1:genre :Crimen,
+        :Drama,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:Hoy_Se_Arregla_El_Mundo a ns1:Film ;
+    ns1:genre :Comedia_dramática ;
+    ns1:origin :Argentina .
+
+:IMPLOSIÓN a ns1:Film ;
+    ns1:origin :Argentina,
+        :Chile .
+
+:JUNGLE_CRUISE a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventura ;
+    ns1:origin :Estados_Unidos .
+
+:LA_NOCHE_MÁGICA a ns1:Film ;
+    ns1:genre :Comedia,
+        :Thriller ;
+    ns1:origin :Argentina .
+
+:LA_VERDAD a ns1:Film ;
+    ns1:genre :Comedia,
+        :Drama ;
+    ns1:origin :Francia .
+
+:LOS_CROODS_2:_UNA_NUEVA_ERA a ns1:Film ;
+    ns1:genre :Animación,
+        :Comedia,
+        :Familia,
+        :Fantasía ;
+    ns1:origin :Estados_Unidos .
+
+:LOS_NUEVOS_MUTANTES a ns1:Film ;
+    ns1:genre :Acción,
+        :Ciencia_Ficción,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Comedia_/_Terror>,
+        :Terror ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:LUCA a ns1:Film ;
+    ns1:genre :Animación,
+        :Comedia,
+        :Familia,
+        :Fantasía ;
+    ns1:origin :Estados_Unidos .
+
+:La_Fabrica_De_Sueños a ns1:Film ;
+    ns1:genre :Drama_romantico ;
+    ns1:origin :Alemania .
+
+:La_Mujer_En_La_Ventana a ns1:Film ;
+    ns1:genre :Thriller ;
+    ns1:origin :Reino_Unido .
+
+:Los_Intrusos a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :Reino_Unido_-_Francia .
+
+:MORTAL_KOMBAT a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventura,
+        :Fantasía ;
+    ns1:origin :Australia,
+        :EEUU,
+        :Estados_Unidos .
+
+:MUJER_MARAVILLA_1984 a ns1:Film ;
+    ns1:genre :Acción,
+        :Ciencia_Ficción ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:Martin_Eden a ns1:Film ;
+    ns1:genre :Drama_romantico ;
+    ns1:origin :Italia .
+
+:NADIE a ns1:Film ;
+    ns1:genre :Acción,
+        :Crimen,
+        :Thriller ;
+    ns1:origin :Estados_Unidos .
+
+:NOMADLAND a ns1:Film ;
+    ns1:genre :Drama,
+        :Western ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:PEQUEÑOS_SECRETOS a ns1:Film ;
+    ns1:genre :Crimen,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:PETER_RABBIT:_CONEJO_EN_FUGA a ns1:Film ;
+    ns1:genre :Animación,
+        :Aventura,
+        :Familia ;
+    ns1:origin :Estados_Unidos .
+
+:PINOCHO a ns1:Film ;
+    ns1:genre :Aventura,
+        :Drama,
+        :Familia,
+        :Fantasía ;
+    ns1:origin :Francia,
+        :Italia,
+        :Reino_Unido .
+
+:Peter_Rabbit_2 a ns1:Film ;
+    ns1:genre :Animación ;
+    ns1:origin :EEUU .
+
+:PÁNICO_EN_LAS_ALTURAS a ns1:Film ;
+    ns1:genre :Thriller ;
+    ns1:origin :Rusia .
+
+:RUEGA_POR_NOSOTROS a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :Estados_Unidos .
+
+:Raya_Y_El_Ultimo_Dragon a ns1:Film ;
+    ns1:genre :Animación ;
+    ns1:origin :EEUU .
+
+:Rápidos_Y_Furiosos_9 a ns1:Film ;
+    ns1:genre :Acción ;
+    ns1:origin :EEUU .
+
+:SPACE_JAM:_UNA_NUEVA_ERA a ns1:Film ;
+    ns1:genre :Aventura,
+        :Ciencia_Ficción,
+        :Comedia,
+        :Familia,
+        :Fantasía ;
+    ns1:origin :Estados_Unidos .
+
+:SPIRIT:_EL_INDOMABLE a ns1:Film ;
+    ns1:genre :Animación,
+        :Aventura,
+        :Familia,
+        :Western ;
+    ns1:origin :Estados_Unidos .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Scooby!> a ns1:Film ;
+    ns1:genre :Acción,
+        :Aventuras ;
+    ns1:origin :EEUU .
+
+:TENET a ns1:Film ;
+    ns1:genre :Acción,
+        :Ciencia_Ficción,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos,
+        :Reino_Unido .
+
+:TOM_Y_JERRY a ns1:Film ;
+    ns1:genre :Acción,
+        :Animación,
+        :Aventura,
+        :Comedia,
+        :Familia ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:TOP_GUN:_MAVERICK a ns1:Film ;
+    ns1:genre :Acción,
+        :Drama ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:TROLLS_2:_GIRA_MUNDIAL a ns1:Film ;
+    ns1:genre :Animación,
+        :Aventura,
+        :Comedia,
+        :Familia,
+        :Fantasía,
+        :Música ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:UNA_CASA_LEJOS a ns1:Film ;
+    ns1:genre :Drama ;
+    ns1:origin :Argentina .
+
+:UNA_EXTRAÑA_OBSESIÓN a ns1:Film ;
+    ns1:genre :Comedia,
+        :Crimen,
+        :Drama,
+        :Thriller ;
+    ns1:origin :Francia .
+
+:UN_CRIMEN_COMÚN a ns1:Film ;
+    ns1:genre :Drama,
+        :Terror,
+        :Thriller ;
+    ns1:origin :Argentina,
+        :Brasil,
+        :Suiza .
+
+:UN_LUGAR_EN_SILENCIO_2 a ns1:Film ;
+    ns1:genre :Terror,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:VENGANZA_IMPLACABLE a ns1:Film ;
+    ns1:genre :Acción,
+        :Crimen,
+        :Drama,
+        :Thriller ;
+    ns1:origin :EEUU,
+        :Estados_Unidos .
+
+:Zeta a ns1:Film ;
+    ns1:genre :Terror ;
+    ns1:origin :Canada .
+
 :cinema a owl:ObjectProperty ;
     rdfs:domain :cinema_room ;
     rdfs:range ns1:Cinema .
+
+:content_rating a owl:DatatypeProperty ;
+    rdfs:domain ns1:Film ;
+    rdfs:range xsd:string .
+
+:hasCharacter a owl:ObjectProperty ;
+    rdfs:domain ns1:Film ;
+    rdfs:range ns1:FictionalCharacter .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -22,28 +451,87 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     rdfs:domain ns1:Film ;
     rdfs:range :trailer .
 
+:keyword a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
 :room a owl:ObjectProperty ;
     rdfs:domain :film_show ;
     rdfs:range :cinema_room .
 
+:sourceUrl a owl:DatatypeProperty ;
+    rdfs:range xsd:anyURI ;
+    rdfs:subPropertyOf :url .
+
+:synopsis a owl:DatatypeProperty ;
+    rdfs:domain ns1:Film ;
+    rdfs:range xsd:string .
+
 :tenet a ns1:Film,
         owl:NamedIndividual ;
+    ns1:author :author_tenet_company_1,
+        :christopher_nolan ;
+    ns1:director :christopher_nolan ;
     ns1:genre :accion,
         :ciencia_ficcion,
         :thriller ;
+    ns1:language :inglés ;
     ns1:origin :eeuu,
         :reino_unido ;
+    ns1:productionCompany :warner_bross ;
     ns1:releaseDate ""^^xsd:date ;
+    ns1:starring :john_david_washington,
+        :michael_caine ;
+    ns1:thumbnail :tenet_cover_image_1,
+        :tenet_cover_image_2 ;
     ns1:title "Tenet"^^rdf:langString ;
+    :content_rating "P-13"^^xsd:string ;
+    :hasCharacter :neil ;
     :hasShow :tenet_show_1 ;
-    :hasTrailer :tenet_trailer .
+    :hasTrailer :tenet_trailer ;
+    :keyword "symphony hall"^^xsd:string,
+        "time paradox"^^xsd:string ;
+    :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
+        "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
+    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string .
 
-:url a owl:DatatypeProperty ;
-    rdfs:range xsd:anyURI .
+:Alemania a ns1:Country ;
+    ns1:Name "Alemania" .
+
+:Brasil a ns1:Country ;
+    ns1:Name "Brasil" .
+
+:Chile a ns1:Country ;
+    ns1:Name "Chile" .
+
+:España a ns1:Country ;
+    ns1:Name "España" .
+
+:Historia a ns1:MovieGenre ;
+    ns1:Name "Historia" .
+
+:Israel a ns1:Country ;
+    ns1:Name "Israel" .
+
+:Reino_Unido_-_Francia a ns1:Country ;
+    ns1:Name "Reino Unido - Francia" .
+
+:Serbia a ns1:Country ;
+    ns1:Name "Serbia" .
+
+:Suiza a ns1:Country ;
+    ns1:Name "Suiza" .
+
+:United_States_of_America a ns1:Country ;
+    ns1:Name "United States of America" .
 
 :accion a ns1:MovieGenre,
         owl:NamedIndividual ;
-    ns1:Name "accion"@es .
+    ns1:Name "accion"@es ;
+    ns1:duration 1.55e+02 .
+
+:author_tenet_company_1 a ns1:Company,
+        owl:NamedIndividual ;
+    :url "https://www.imdb.com/company/co0147954/"^^xsd:anyURI .
 
 :ciencia_ficcion a ns1:MovieGenre,
         owl:NamedIndividual ;
@@ -57,6 +545,28 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         owl:NamedIndividual ;
     ns1:Name "Estados Unidos"@es .
 
+:inglés a ns1:Language,
+        owl:NamedIndividual ;
+    ns1:languageCode "en"^^xsd:string .
+
+:john_david_washington a ns1:Actor,
+        owl:NamedIndividual ;
+    ns1:Name "John David Washington"^^xsd:string .
+
+:michael_caine a ns1:Actor,
+        owl:NamedIndividual ;
+    ns1:Name "Michael Caine"^^xsd:string ;
+    ns1:thumbnail :michael_caine_img ;
+    :url "https://www.rottentomatoes.com/celebrity/michael_caine"^^xsd:anyURI .
+
+:michael_caine_img a ns1:Image,
+        owl:NamedIndividual ;
+    :url "https://resizing.flixster.com/2Fc1WlnRfZrVFrojtN2JpemeBqg=/220x196/v1.cjs0NDk1OTtqOzE4NzY1OzEyMDA7MjIwOzE5Ng"^^xsd:anyURI .
+
+:neil a ns1:FictionalCharacter,
+        owl:NamedIndividual ;
+    ns1:Name "Neil"^^xsd:string .
+
 :reino_unido a ns1:Country,
         owl:NamedIndividual ;
     ns1:Name "Reino Unido"@es .
@@ -65,6 +575,14 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :cinema_room ;
     ns1:Name "Classic - 2D"@es ;
     :cinema :cinepolis_recoleta .
+
+:tenet_cover_image_1 a ns1:Image,
+        owl:NamedIndividual ;
+    :url "https://resizing.flixster.com/nchHALzH07gWM88bzcDM7zZKm-g=/740x380/v1.bjsyNTEwOTE4O2o7MTg4Mzk7MTIwMDs2MDAwOzQwMDA"^^xsd:anyURI .
+
+:tenet_cover_image_2 a ns1:Image,
+        owl:NamedIndividual ;
+    :url "https://static.metacritic.com/images/products/movies/7/a60818c40f69031bf30ca846444011e4.jpg"^^xsd:anyURI .
 
 :tenet_show_1 a owl:NamedIndividual,
         :film_show ;
@@ -89,9 +607,111 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :trailer a owl:Class ;
     rdfs:subClassOf ns1:Media .
 
+:url a owl:DatatypeProperty ;
+    rdfs:range xsd:anyURI .
+
+:warner_bross a ns1:Company,
+        owl:NamedIndividual ;
+    ns1:Name "Warner Bros. Pictures"^^xsd:string ;
+    :url "https://www.rottentomatoes.com/"^^xsd:string .
+
+:Australia a ns1:Country ;
+    ns1:Name "Australia" .
+
+:Aventuras a ns1:MovieGenre ;
+    ns1:Name "Aventuras" .
+
+:Belgica a ns1:Country ;
+    ns1:Name "Belgica" .
+
+:Canada a ns1:Country ;
+    ns1:Name "Canada" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Comedia_/_Terror> a ns1:MovieGenre ;
+    ns1:Name "Comedia / Terror" .
+
+:Comedia_dramática a ns1:MovieGenre ;
+    ns1:Name "Comedia dramática" .
+
+:Drama_romantico a ns1:MovieGenre ;
+    ns1:Name "Drama romantico" .
+
+:Inglaterra a ns1:Country ;
+    ns1:Name "Inglaterra" .
+
+:Romance a ns1:MovieGenre ;
+    ns1:Name "Romance" .
+
+:Rusia a ns1:Country ;
+    ns1:Name "Rusia" .
+
+:Western a ns1:MovieGenre ;
+    ns1:Name "Western" .
+
+:christopher_nolan a ns1:MovieDirector,
+        owl:NamedIndividual ;
+    ns1:Name "Christopher Nolan" .
+
+:Japón a ns1:Country ;
+    ns1:Name "Japón" .
+
+:Música a ns1:MovieGenre ;
+    ns1:Name "Música" .
+
 :cinema_room a owl:Class ;
     rdfs:subClassOf ns1:Place .
 
 :film_show a owl:Class ;
     rdfs:subClassOf ns1:SocietalEvent .
+
+:Italia a ns1:Country ;
+    ns1:Name "Italia" .
+
+:Ciencia_Ficción a ns1:MovieGenre ;
+    ns1:Name "Ciencia Ficción" .
+
+:Reino_Unido a ns1:Country ;
+    ns1:Name "Reino Unido" .
+
+:Argentina a ns1:Country ;
+    ns1:Name "Argentina" .
+
+:Crimen a ns1:MovieGenre ;
+    ns1:Name "Crimen" .
+
+:Francia a ns1:Country ;
+    ns1:Name "Francia" .
+
+:Familia a ns1:MovieGenre ;
+    ns1:Name "Familia" .
+
+:Fantasía a ns1:MovieGenre ;
+    ns1:Name "Fantasía" .
+
+:Animación a ns1:MovieGenre ;
+    ns1:Name "Animación" .
+
+:Terror a ns1:MovieGenre ;
+    ns1:Name "Terror" .
+
+:Aventura a ns1:MovieGenre ;
+    ns1:Name "Aventura" .
+
+:Comedia a ns1:MovieGenre ;
+    ns1:Name "Comedia" .
+
+:Thriller a ns1:MovieGenre ;
+    ns1:Name "Thriller" .
+
+:Acción a ns1:MovieGenre ;
+    ns1:Name "Acción" .
+
+:Drama a ns1:MovieGenre ;
+    ns1:Name "Drama" .
+
+:EEUU a ns1:Country ;
+    ns1:Name "EEUU" .
+
+:Estados_Unidos a ns1:Country ;
+    ns1:Name "Estados Unidos" .
 
