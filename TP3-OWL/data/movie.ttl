@@ -6,6 +6,100 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> .
 
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> rdf:type owl:Ontology .
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> rdf:type owl:Ontology ;
+                                                                                                owl:imports <http://dbpedia.org/ontology/> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#hasTrailer
+:hasTrailer rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://dbpedia.org/ontology/Film> ;
+            rdfs:range :trailer .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dbpedia.org/ontology/nameInTraditionalChinese
+<http://dbpedia.org/ontology/nameInTraditionalChinese> rdfs:subPropertyOf <http://dbpedia.org/ontology/nation> .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#url
+:url rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:anyURI .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#trailer
+:trailer rdf:type owl:Class ;
+         rdfs:subClassOf <http://dbpedia.org/ontology/Media> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#accion
+:accion rdf:type owl:NamedIndividual ,
+                 <http://dbpedia.org/ontology/MovieGenre> ;
+        <http://dbpedia.org/ontology/Name> "accion"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ciencia_ficcion
+:ciencia_ficcion rdf:type owl:NamedIndividual ,
+                          <http://dbpedia.org/ontology/MovieGenre> ;
+                 <http://dbpedia.org/ontology/Name> "Ciencia Ficción"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#eeuu
+:eeuu rdf:type owl:NamedIndividual ,
+               <http://dbpedia.org/ontology/Country> ;
+      <http://dbpedia.org/ontology/Name> "Estados Unidos"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#reino_unido
+:reino_unido rdf:type owl:NamedIndividual ,
+                      <http://dbpedia.org/ontology/Country> ;
+             <http://dbpedia.org/ontology/Name> "Reino Unido"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet
+:tenet rdf:type owl:NamedIndividual ,
+                <http://dbpedia.org/ontology/Film> ;
+       <http://dbpedia.org/ontology/genre> :accion ,
+                                           :ciencia_ficcion ,
+                                           :thriller ;
+       <http://dbpedia.org/ontology/origin> :eeuu ,
+                                            :reino_unido ;
+       :hasTrailer :tenet_trailer ;
+       <http://dbpedia.org/ontology/releaseDate> ""^^xsd:date ;
+       <http://dbpedia.org/ontology/title> "Tenet"^^rdf:langString .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_trailer
+:tenet_trailer rdf:type owl:NamedIndividual ;
+               <http://dbpedia.org/ontology/thumbnail> :tenet_trailer_thumbnail ;
+               <http://dbpedia.org/ontology/Name> "Tenet (Trailer 2)"@en ;
+               <http://dbpedia.org/ontology/description> "Video Clip of Tenet"^^rdf:langString ;
+               :url "https://www.youtube.com/embed/Q3YsDF8rZ9w?rel=0&controls=0&showinfo=0"^^rdf:langString .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_trailer_thumbnail
+:tenet_trailer_thumbnail rdf:type owl:NamedIndividual ,
+                                  <http://dbpedia.org/ontology/Image> ;
+                         :url "https://content.internetvideoarchive.com/content/hdphotos/12882/012882/012882_1173x660_637257053180251151.jpg"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#thriller
+:thriller rdf:type owl:NamedIndividual ,
+                   <http://dbpedia.org/ontology/MovieGenre> ;
+          <http://dbpedia.org/ontology/Name> "Thriller"@es .
+
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
