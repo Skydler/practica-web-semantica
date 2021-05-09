@@ -7,7 +7,8 @@
 @base <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> rdf:type owl:Ontology ;
-                                                                                                owl:imports <http://dbpedia.org/ontology/> .
+                                                                                                owl:imports <http://dbpedia.org/ontology/> ,
+                                                                                                            <http://purl.org/spar/fabio/2019-02-19> .
 
 #################################################################
 #    Object Properties
@@ -61,6 +62,12 @@
                 rdfs:range xsd:string .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#has_body
+:has_body rdf:type owl:DatatypeProperty ;
+          rdfs:domain :movie_review ;
+          rdfs:range xsd:string .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#keyword
 :keyword rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:string .
@@ -87,6 +94,14 @@
 #    Classes
 #################################################################
 
+###  http://dbpedia.org/ontology/Film
+<http://dbpedia.org/ontology/Film> rdfs:subClassOf <http://purl.org/spar/fabio/Movie> .
+
+
+###  http://dbpedia.org/ontology/Person
+<http://dbpedia.org/ontology/Person> rdfs:subClassOf <http://purl.org/vocab/frbr/core#ResponsibleEntity> .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#cinema_room
 :cinema_room rdf:type owl:Class ;
              rdfs:subClassOf <http://dbpedia.org/ontology/Place> .
@@ -95,6 +110,11 @@
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#film_show
 :film_show rdf:type owl:Class ;
            rdfs:subClassOf <http://dbpedia.org/ontology/SocietalEvent> .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#movie_review
+:movie_review rdf:type owl:Class ;
+              rdfs:subClassOf <http://purl.org/spar/fabio/Review> .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#trailer
@@ -169,6 +189,13 @@
                    :url "https://resizing.flixster.com/2Fc1WlnRfZrVFrojtN2JpemeBqg=/220x196/v1.cjs0NDk1OTtqOzE4NzY1OzEyMDA7MjIwOzE5Ng"^^xsd:anyURI .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#monocle
+:monocle rdf:type owl:NamedIndividual ,
+                  <http://dbpedia.org/ontology/Organisation> ;
+         <http://dbpedia.org/ontology/Name> "Monocle" ;
+         :url "https://www.rottentomatoes.com/source-1969"^^xsd:anyURI .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#neil
 :neil rdf:type owl:NamedIndividual ,
                <http://dbpedia.org/ontology/FictionalCharacter> ;
@@ -230,11 +257,44 @@
                      :url "https://static.metacritic.com/images/products/movies/7/a60818c40f69031bf30ca846444011e4.jpg"^^xsd:anyURI .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1
+:tenet_review_1 rdf:type owl:NamedIndividual ,
+                         :movie_review ;
+                <http://purl.org/dc/terms/creator> :tenet_review_1_author ;
+                <http://purl.org/dc/terms/language> :inglés ;
+                <http://purl.org/dc/terms/publisher> :monocle ;
+                <http://purl.org/spar/fabio/hasManifestation> :tenet_review_1_site ;
+                <http://purl.org/vocab/frbr/core#realization> :tenet ;
+                <http://dbpedia.org/ontology/Name> "review example name" ;
+                <http://purl.org/dc/terms/created> "2021-04-06T19:40:00"^^xsd:dateTime ;
+                :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string ;
+                <http://purl.org/dc/terms/source> "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_author
+:tenet_review_1_author rdf:type owl:NamedIndividual ,
+                                <http://dbpedia.org/ontology/Person> ;
+                       <http://dbpedia.org/ontology/Name> "Tim Robey"^^xsd:anyURI ;
+                       :url "https://www.rottentomatoes.com/critic/tim-robey"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_author_img
+:tenet_review_1_author_img rdf:type owl:NamedIndividual ,
+                                    <http://dbpedia.org/ontology/Image> ;
+                           :url "https://example.com/img.jpg"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_site
+:tenet_review_1_site rdf:type owl:NamedIndividual ,
+                              <http://purl.org/spar/fabio/WebPage> ;
+                     <http://purl.org/spar/fabio/hasURL> "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_show_1
 :tenet_show_1 rdf:type owl:NamedIndividual ,
                        :film_show ;
               :room :room_classic_2d ;
-              <http://dbpedia.org/ontology/startDateTime> "2021-04-06T19:40:00"@es ;
+              <http://dbpedia.org/ontology/startDateTime> "2021-04-06T19:40:00"^^xsd:dateTime ;
               <http://dbpedia.org/ontology/subtitle> "Español"@es .
 
 
