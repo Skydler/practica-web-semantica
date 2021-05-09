@@ -115,6 +115,16 @@
              rdfs:range xsd:double .
 
 
+###  https://schema.org/ratingCount
+<https://schema.org/ratingCount> rdfs:domain <https://schema.org/AggregateRating> ;
+                                 rdfs:range xsd:integer .
+
+
+###  https://schema.org/reviewCount
+<https://schema.org/reviewCount> rdfs:domain <https://schema.org/AggregateRating> ;
+                                 rdfs:range xsd:integer .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -267,6 +277,7 @@
        :hasCharacter :neil ;
        :hasShow :tenet_show_1 ;
        :hasTrailer :tenet_trailer ;
+       <https://schema.org/aggregateRating> :tenet_aggregated_rating_1 ;
        <http://dbpedia.org/ontology/duration> "155.0"^^xsd:double ;
        <http://dbpedia.org/ontology/releaseDate> ""^^xsd:date ;
        <http://dbpedia.org/ontology/title> "Tenet"^^rdf:langString ;
@@ -276,6 +287,19 @@
        :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI ,
                   "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
        :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_aggregated_rating_1
+:tenet_aggregated_rating_1 rdf:type owl:NamedIndividual ,
+                                    <https://schema.org/AggregateRating> ;
+                           <http://dbpedia.org/ontology/Name> "Tomatometer" ;
+                           <http://dbpedia.org/ontology/description> "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
+                           :bestRating "100.0"^^xsd:double ;
+                           :ratingValue "70.0"^^xsd:double ;
+                           :worstRating "0.0"^^xsd:double ;
+                           <https://schema.org/ratingCount> 349 ;
+                           <https://schema.org/reviewCount> 349 ;
+                           <http://purl.org/dc/terms/source> "https://www.rottentomatoes.com/m/tenet" .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_cover_image_1
