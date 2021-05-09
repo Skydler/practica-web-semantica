@@ -141,7 +141,15 @@
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#christopher_nolan
 :christopher_nolan rdf:type owl:NamedIndividual ,
                             <http://dbpedia.org/ontology/MovieDirector> ;
-                   <http://dbpedia.org/ontology/Name> "Christopher Nolan" .
+                   <http://dbpedia.org/ontology/thumbnail> :christopher_nolan_img ;
+                   <http://dbpedia.org/ontology/Name> "Christopher Nolan" ;
+                   :url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#christopher_nolan_img
+:christopher_nolan_img rdf:type owl:NamedIndividual ,
+                                <http://dbpedia.org/ontology/Image> ;
+                       :url "https://resizing.flixster.com/H0_441OvEsJ-OMlAn-njnqv5uFc=/275x230/v1.cjs0MDgwNztqOzE4NzY1OzEyMDA7Mjc1OzIzMA"^^xsd:anyURI .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ciencia_ficcion
