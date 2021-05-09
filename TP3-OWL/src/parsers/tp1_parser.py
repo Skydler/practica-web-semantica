@@ -1,7 +1,7 @@
 from rdflib import Namespace, Literal
 from rdflib.namespace import RDF
 from constants import BASE_URL
-from utils import to_turtle_fmt
+from utils.utils import to_turtle_fmt
 import langcodes
 
 
@@ -11,21 +11,13 @@ class OWLParser:
 
     def __init__(self, graph):
         self.g = graph
-        self.serialize_fmt = "turtle"
 
     def parse(self, movie_obj):
         self.build_movie(movie_obj)
 
-    def serialize_graph(self):
-        serialized_graph = self.g.serialize(
-            format=self.serialize_fmt).decode("utf-8")
-        return serialized_graph
-
     def build_movie(self, movie_obj):
-        m = self.baseURI
-        dbp = self.dbpedia
-        movie_title = m[to_turtle_fmt(movie_obj.title)]
-        self.g.add((movie_title, RDF.type, dbp.Film))
+        movie_title = self.baseURI[to_turtle_fmt(movie_obj.title)]
+        self.g.add((movie_title, RDF.type, self.dbpedia.Film))
 
         self.add_genres(movie_title, movie_obj)
         self.add_languages(movie_title, movie_obj)
@@ -35,7 +27,7 @@ class OWLParser:
         self.add_rating(movie_title, movie_obj)
         self.add_actors(movie_title, movie_obj)
         self.add_synopsis(movie_title, movie_obj)
-        # self.add_trailer(movie_title, movie_obj)
+        self.add_trailer(movie_title, movie_obj)
         self.add_shows(movie_title, movie_obj)
 
     def add_genres(self, movie_title, movie):
@@ -116,20 +108,19 @@ class OWLParser:
 
     def add_synopsis(self, movie_title, movie):
         if synopsis := movie.synopsis:
-            self.g.add((movie_title, self.baseURI.synopsis,
-                        Literal(synopsis)))
+            self.g.add((movie_title, self.baseURI.synopsis, Literal(synopsis)))
 
-    # def add_trailer(self, movie_title, movie):
-    #     In standby until the type of trailer is ddbpedia.Trailer on github
-    #     if trailer := movie.trailer:
-    #         self.g.add((self.baseURI[encoded_actor], RDF.type,
-    #                     self.dbpedia.Actor))
+    def add_trailer(self, movie_title, movie):
+        if trailer := movie.trailer:
+            encoded_trailer_name = f"{to_turtle_fmt(movie.title)}_trailer"
+            self.g.add((self.baseURI[encoded_trailer_name], RDF.type,
+                        self.baseURI.trailer))
 
-    #         self.g.add((self.baseURI[encoded_actor], self.dbpedia.Name,
-    #                     Literal(trailer)))
+            self.g.add((self.baseURI[encoded_trailer_name], self.baseURI.url,
+                        Literal(trailer)))
 
-    #         self.g.add((movie_title, self.dbpedia.starring,
-    #                     self.baseURI[encoded_actor]))
+            self.g.add((movie_title, self.baseURI.hasTrailer,
+                        self.baseURI[encoded_trailer_name]))
 
     def add_shows(self, movie_title, movie):
         for index, show in enumerate(movie.shows, 1):

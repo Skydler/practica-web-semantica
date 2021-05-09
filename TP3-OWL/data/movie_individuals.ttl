@@ -3,6 +3,7 @@
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/spar/fabio/> .
 @prefix ns4: <http://purl.org/vocab/frbr/core#> .
+@prefix ns5: <https://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -14,7 +15,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
-        ns3:2019-02-19 .
+        ns3:2019-02-19,
+        ns5: .
 
 :007Bond_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -31,6 +33,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RamiMalek,
         :RoryKinnear ;
     :content_rating "No determinado" ;
+    :hasTrailer :007Bond_SinTiempoParaMorir_trailer ;
     :synopsis "James Bond ya no se encuentra activo. Sus días de paz se ven interrumpidos cuando su viejo amigo Feliz Leiter de la CIA aparece solicitando su ayuda y llevando a Bond a perseguir el rastro de un misterioso villano armado con una peligrosa nueva tecnología. -" .
 
 :007_SinTiempoParaMorir a ns1:Film ;
@@ -53,6 +56,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RalphFiennes,
         :RamiMalek ;
     :content_rating "N/A" ;
+    :hasTrailer :007_SinTiempoParaMorir_trailer ;
     :synopsis "En SIN TIEMPO PARA MORIR, Bond se ha retirado del servicio como agente en activo y disfruta de una tranquila vida en Jamaica. Pero sus días de paz acaban cuando su viejo amigo Felix Leiter de la CIA aparece pidiéndole ayuda. La misión en cuestión, que consiste en rescatar a un científico secuestrado, resulta mucho más compleja de lo esperado y pone a Bond sobre la pista de un misterioso villano armado con peligrosa tecnología de vanguardia." .
 
 :100Lobo a ns1:Film ;
@@ -70,6 +74,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RupertDegas,
         :SamaraWeaving ;
     :content_rating "N/A" ;
+    :hasTrailer :100Lobo_trailer ;
     :synopsis "Freddy Lupin pertenece a una orgullosa familia de hombres lobo. Confiado de que pronto se convertirá en un hombre lobo de los más temidos, Freddy se queda sorprendido cuando descubre que no es todo lo feroz que esperaba." .
 
 :10Palomas a ns1:Film ;
@@ -88,6 +93,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NancyDuplaa,
         :WillyLemos ;
     :content_rating "N/A" ;
+    :hasTrailer :10Palomas_trailer ;
     :synopsis "Un asesino serial, con aire teatral, hace que Félix, un prestigioso investigador policial, perseguido por las sombras de su pasado, enfrente el caso más importante de su vida." .
 
 :Antlers a ns1:Film ;
@@ -106,6 +112,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :SawyerJones,
         :ScottHaze ;
     :content_rating "No determinado" ;
+    :hasTrailer :Antlers_trailer ;
     :synopsis "En un pequeño pueblo de Oregón, una maestra  y su hermano, el sherrif de pueblo  descubren que hay un estudiante que está guardando un peligroso secreto, el cual podría traer aterradoras consecuencias.-" .
 
 :BlackWidow a ns1:Film ;
@@ -128,6 +135,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :WilliamHurt,
         :YolandaLynes ;
     :content_rating "N/A" ;
+    :hasTrailer :BlackWidow_trailer ;
     :synopsis """Primera película en solitario de Natasha Romanoff aka: Black Widow. \r
 Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanoff para resolver asunto pendientes mientras se encuentra con nuevas viudas y enemigos.""" .
 
@@ -225,6 +233,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :Caos_ElInicio_show_7,
         :Caos_ElInicio_show_8,
         :Caos_ElInicio_show_9 ;
+    :hasTrailer :Caos_ElInicio_trailer ;
     :synopsis "En un futuro no muy lejano, en un mundo donde las mujeres han desaparecido y los hombres han sido afectados por “el ruido” – una fuerza que exhibe todos sus pensamientos – Todd Hewitt (Tom Holland) se encuentra con Viola (Daisy Ridley), una joven misteriosa que ha aterrizado en su planeta. Con Viola bajo riesgo, Todd jura protegerla y ponerla fuera de peligro. Para salvarla Todd tendrá que controlar su “ruido”, descubrir su propia fuerza y desbloquear todos los obscuros secretos que guarda su planeta y su comunidad. Del director de Identidad Desconocida (The Bourne Identity) y Al Filo del Mañana (Edge of Tomorrow), basada en la novela bestseller, El Cuchillo en la Mano del escritor Patrick Ness. Tom Holland y Daisy Ridely protagonizan junto con David Oyelowo, Nick Jonas, Mads Mikkelsen y Demián Bichir. Caos: El Inicio (Chaos Walking) llegará a los cines en 2021." .
 
 :Cicatrices a ns1:Film ;
@@ -243,6 +252,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :SnezanaBogdanovic,
         :VesnaTrivalic ;
     :content_rating "N/A" ;
+    :hasTrailer :Cicatrices_trailer ;
     :synopsis "Ana está convencida de que a ella y a otras mujeres serbias les robaron sus bebés recién nacidos, para entregarlos en adopción ilegal por dinero." .
 
 :ContraElFuego a ns1:Film ;
@@ -254,7 +264,8 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
     ns1:starring :IvanYankovskiy,
         :KonstantinKhabenskiy,
         :StasyaMiloslavskaya ;
-    :content_rating "N/A" .
+    :content_rating "N/A" ;
+    :hasTrailer :ContraElFuego_trailer .
 
 :Cruella a ns1:Film ;
     ns1:director :CraigGillespie ;
@@ -274,6 +285,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :MarkStrong,
         :PaulWalterHauser ;
     :content_rating "N/A" ;
+    :hasTrailer :Cruella_trailer ;
     :synopsis "La ganadora del Oscar® Emma Stone (La La Land) protagoniza CRUELLA de Disney, un nuevo largometraje de acción real que retrata los primeros días rebeldes de una de las villanas más notorias del cine y de la moda, la legendaria Cruella de Vil. Ambientada en los años 70 en Londres y en medio de la revolución del punk rock, CRUELLA sigue a una joven estafadora llamada Estella, una chica inteligente y creativa decidida a hacerse un lugar en la moda con sus diseños de ropa. Cuando se hace amiga de un par de jóvenes ladrones que aprecian su apetito por las travesuras, juntos logran construir una vida en las calles de Londres. Un día, el talento de Estella llama la atención de la Baronesa von Hellman, la aterradoramente elegante y sofisticada leyenda de la moda interpretada por la dos veces ganadora del Oscar® Emma Thompson (La mansión Howard, Sensatez y Sentimiento). Pero su relación pone en marcha un curso de eventos y revelaciones que harán que Estella abrace su lado perverso y se convierta en la disonante, vanguardista y ávida de venganza Cruella." .
 
 :DeLaNocheALaManana a ns1:Film ;
@@ -285,6 +297,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :EstebanMenis,
         :ManuelaMartelli ;
     :content_rating "P-13" ;
+    :hasTrailer :DeLaNocheALaManana_trailer ;
     :synopsis "Luego de enterarse de su inminente paternidad, Ignacio se embarcará en un viaje a Valparaíso. Allí comienza a gestar una nueva vida con mayor éxito del esperado, viéndose obligado a plantear la posibilidad de abandonar todo y empezar de nuevo." .
 
 :DemonSlayerMugenTrain a ns1:Film ;
@@ -372,6 +385,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
     ns1:language :JaponesSubtitulado ;
     ns1:origin :Japon ;
     :content_rating "No determinado" ;
+    :hasTrailer :DemonSlayer_ElTrenInfinito_trailer ;
     :synopsis """Tanjiro Kamado y sus amigos del Demon Slayer Corps acompañan a Kyōjurō Rengoku, el Flame Hashira, para investigar una misteriosa serie de desapariciones que ocurren dentro de un tren aparentemente infinitamente largo. Poco saben que Enmu, la última de las Lunas Inferiores de los Doce Kizuki, también está a bordo y les ha preparado una trampa.\r
 Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando más de 290 millones de dólares de recaudación en plena pandemia del COVID y convirtiéndose en el largometraje más taquillero de la historia del país, por encima de "Frozen" y "El viaje de Chihiro" de Hayao Miyazaki.""" .
 
@@ -426,6 +440,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :OliviaWilliams,
         :RufusSewell ;
     :content_rating "N/A" ;
+    :hasTrailer :ElPadre_trailer ;
     :synopsis "Anthony es un ingeniero anciano de gran carácer que se niega a aceptar la ayuda de ninguna enfermera o asistenta que su hija le busca." .
 
 :ElProtector a ns1:Film ;
@@ -446,6 +461,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :LuceRains,
         :TeresaRuiz ;
     :content_rating "N/A" ;
+    :hasTrailer :ElProtector_trailer ;
     :synopsis "Un ranchero en la frontera de Arizona se convierte en el improbable defensor de un joven mexicano que huye desesperadamente de los asesinos del cartel que lo han perseguido hasta Estados Unidos." .
 
 :ElSecretoDelBosque a ns1:Film ;
@@ -460,6 +476,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     :content_rating "Apta mayores de 13 años" ;
     :hasShow :ElSecretoDelBosque_show_1,
         :ElSecretoDelBosque_show_2 ;
+    :hasTrailer :ElSecretoDelBosque_trailer ;
     :synopsis "Mientras disfrutan de una escapada romántica en la India salvaje, una pareja de Los Angeles accidentalmente es testigo del exorcismo de una niña de 11 años a la cual intentarán rescatar." .
 
 :ElSilencioDelCazador a ns1:Film ;
@@ -489,6 +506,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     :content_rating "P-13" ;
     :hasShow :ElSilencioDelCazador_show_1,
         :ElSilencioDelCazador_show_2 ;
+    :hasTrailer :ElSilencioDelCazador_trailer ;
     :synopsis "Guzmán trabaja en un parque nacional con un grupo pequeño pero comprometido de guardas en alerta, ante la aparición de un animal salvaje que acecha desde la selva. Sara, esposa de Guzmán, es una médica dedicada a la comunidad local. Entre ellos se encuentra un amigo de la infancia de ambos y expareja de Sara. Los celos, las cuestiones no saldadas y las relaciones de poder enfrentarán a los tres hasta llegar a un desenlace sin tregua." .
 
 :ElTerritorioDelAmor a ns1:Film ;
@@ -524,6 +542,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :OlgaMerediz,
         :StephanieBeatriz ;
     :content_rating "N/A" ;
+    :hasTrailer :EnElBarrio_trailer ;
     :synopsis "Adaptación del musical de Broadway de Lin-Manuel Miranda en el que el propietario de una bodega duda sobre si cerrar su negocio y retirarse a la República Dominicana tras heredar la fortuna de su abuela." .
 
 :EnGuerraConMiAbuelo a ns1:Film ;
@@ -543,6 +562,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :TJMcgibbon,
         :UmaThurman ;
     :content_rating "ATPR" ;
+    :hasTrailer :EnGuerraConMiAbuelo_trailer ;
     :synopsis "Peter está muy molesto porque tiene que cederle la habitación a su abuelo (Robert De Niro) por lo que decide declararle la guerra en un intento por recuperarla. Esto desatará una divertida y alocada batalla entre él, su abuelo y sus amigos." .
 
 :EraseUnaVez a ns1:Film ;
@@ -565,6 +585,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :KeiraChansa,
         :MichaelCaine ;
     :content_rating "P-13" ;
+    :hasTrailer :EraseUnaVez_trailer ;
     :synopsis "Antes de que Alicia se adentrase en el País de las Maravillas y de que Peter se convirtiese en Pan, ambos eran hermanos. Después de que su hermano mayor fallezca en un trágico accidente, intentan salvar a sus padres de la espiral de desesperación, hasta que finalmente se ven obligados a elegir entre su hogar y su imaginación, creando así la antesala de sus icónicos viajes al País de las Maravillas y al de Nunca Jamás." .
 
 :Espiral_ElJuegoDelMiedoContinua a ns1:Film ;
@@ -580,6 +601,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :SamuelLJackson,
         :ZoiePalmer ;
     :content_rating "N/A" ;
+    :hasTrailer :Espiral_ElJuegoDelMiedoContinua_trailer ;
     :synopsis "Un cruel y sádico genio desata una retorcida forma de justicia en ESPIRAL, el nuevo y aterrador capítulo en el Universo de El Juego del Miedo. A la sombra de un respetado veterano de la policía (Samuel L. Jackson), el atrevido detective Ezequiel “Zeke” Banks (Chris Rock) y su compañero novato (Max Minghella) se encargan de la rebuscada investigación sobre unos asesinatos que despiertan un recuerdo inquietante del terrible pasado vivido en la ciudad: ¿Habrá regresado? ¿Será posible? Con cada movida, Zeke se acerca más al centro de un misterio y a los macabros juegos de un asesino. ESPIRAL está protagonizada por Chris Rock, Max Minghella, Marisol Nichols y Samuel L. Jackson, y está producida por el equipo original de SAW de Mark Burg y Oren Koules. La película está dirigida por Darren Lynn Bousman y escrita por Josh Stolberg y Pete Goldfinger." .
 
 :EspiritusOscuros a ns1:Film ;
@@ -617,6 +639,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :SolCardozo,
         :VeronicaEchegui ;
     :content_rating "N/A" ;
+    :hasTrailer :ExplotaExplota_trailer ;
     :synopsis "Cuenta la historia de María, una bailarina joven, sensual y con ansias de libertad a principios de los años 70, una época que en España estuvo marcada por la rigidez y la censura, especialmente en televisión." .
 
 :FastAndFurious9 a ns1:Film ;
@@ -635,6 +658,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :TyreseGibson,
         :VinDiesel ;
     :content_rating "N/A" ;
+    :hasTrailer :FastAndFurious9_trailer ;
     :synopsis "Novena secuela de Fast & Furious" .
 
 :FateStayNightHeavenSFeel_Parte3 a ns1:Film ;
@@ -658,6 +682,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :YuAsakawa ;
     :content_rating "ATP" ;
     :hasShow :FateStayNightHeavenSFeel_Parte3_show_1 ;
+    :hasTrailer :FateStayNightHeavenSFeel_Parte3_trailer ;
     :synopsis "¡La historia de Fate Stay Night Heaven’s Feel llega a su fin!El capítulo final de la trilogía más ambiciosa y oscura de esta franquicia está aquí. Sakura Matou con los pecados que ha cometido se hunde en la oscuridad, Shirou Emiya ha jurado protegerla y detener la Guerra por el Santo Grial, una guerra dónde poderosos Magos y Espíritus Heroicos trabajan juntos para derrotar a los demás, el vencedor obtendrá el Santo Grial, un contenedor que puede hacer realidad cualquier deseo… Pero esta guerra ha corrompido al Grial. ¿Podrá Shirou salvar a Sakura? ¿Cuál será el precio de esto?" .
 
 :Freaky_EsteCuerpoEstaParaMatar a ns1:Film ;
@@ -692,6 +717,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Freaky_EsteCuerpoEstaParaMatar_show_5,
         :Freaky_EsteCuerpoEstaParaMatar_show_6,
         :Freaky_EsteCuerpoEstaParaMatar_show_7 ;
+    :hasTrailer :Freaky_EsteCuerpoEstaParaMatar_trailer ;
     :synopsis """Una adolescente de diecisiete años, Millie Kessler se convierte en el nuevo blanco de The Butcher, el infame asesino serial de su ciudad y su último año de secundaria se convierte en la menor de sus preocupaciones.\r
 Cuando la mística daga antigua de The Butcher hace que él y Millie despierten en los cuerpos del otro, tendrán sólo 24 horas para recuperar sus cuerpos antes de que el cambio se vuelva permanente y quede atrapada en la forma de un maníaco de mediana edad para siempre. -""" .
 
@@ -1044,6 +1070,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :GodzillaVsKong_show_97,
         :GodzillaVsKong_show_98,
         :GodzillaVsKong_show_99 ;
+    :hasTrailer :GodzillaVsKong_trailer ;
     :synopsis "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch (Kyle Chandler) se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra." .
 
 :GoldenVoices a ns1:Film ;
@@ -1077,6 +1104,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :Habitacion212_show_4,
         :Habitacion212_show_5,
         :Habitacion212_show_6 ;
+    :hasTrailer :Habitacion212_trailer ;
     :synopsis "Tras 20 años de matrimonio, Maria decide dejarlo todo atrás y empezar una nueva vida. El primer paso es hospedarse en la habitación 212 de un hotel próximo a la casa en la que vivía junto a su familia. Con el paso del tiempo, comienza a preguntarse si ha tomado la decisión correcta." .
 
 :HermosaVenganza a ns1:Film ;
@@ -1141,6 +1169,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :HermosaVenganza_show_7,
         :HermosaVenganza_show_8,
         :HermosaVenganza_show_9 ;
+    :hasTrailer :HermosaVenganza_trailer ;
     :synopsis "De la innovadora directora Emerald Fennell (Killing Eve) llega una deliciosa nueva visión sobre la venganza. Todos dicen que Cassie (Carey Mulligan) era una prometedora mujer joven...hasta que un misterioso suceso abruptamente descarrilló su futuro. Pero nada en la vida de Cassie es lo que aparenta ser: ella es pícaramente inteligente, atormentadoramente astuta y vive una secreta doble vida por la noche. Ahora, un encuentro inesperado está a punto de darle a Cassie la posibilidad de reparar los errores del pasado en esta fascinante y totalmente divertida historia." .
 
 :HoySeArreglaElMundo a ns1:Film ;
@@ -1157,6 +1186,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :MartinPiroyansky,
         :SoledadSilveyra ;
     :content_rating "No determinado" ;
+    :hasTrailer :HoySeArreglaElMundo_trailer ;
     :synopsis "David Samarás, \"el Griego\", es el productor general del popular talk show \"Hoy se arregla el mundo\", donde presunta gente común dirime conflictos de relación, de pareja, de amistad, de trabajo, de padres e hijos. El Griego es soltero, nunca ha podido entablar un vínculo duradero. El lazo más perdurable de su vida es Benito, su hijo de 9 años, fruto de una relación ocasional. Más unidos por la obligación legal que por el afecto, siempre tiene la sensación de que Benito es alguien que sobra en su vida. La historia cambia por completo cuando en medio de una fuerte discusión con Silvina, la madre del chico, se entera de que Benito no es su hijo. Poco después de esta revelación, Silvina muere. La noticia es tomada por el Griego como un tiro de gracia a la endeble relación con Benito y decide contarle la verdad: no es su padre. Benito le pide que haga una última cosa por él: \"Ayudame a encontrar a mi verdadero papá\". El Griego acepta. La búsqueda los llevará a una encrucijada mucho más grande que la que salieron a enfrentar." .
 
 :Implosion a ns1:Film ;
@@ -1184,6 +1214,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :JessePlemons,
         :PaulGiamatti ;
     :content_rating "N/A" ;
+    :hasTrailer :JungleCruise_trailer ;
     :synopsis "La adaptación de acción en vivo de Disney de su icónico paseo en un parque temático." .
 
 :LaFabricaDeSuenos a ns1:Film ;
@@ -1201,6 +1232,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :WilfriedHochholdinger ;
     :content_rating "Apta todo público" ;
     :hasShow :LaFabricaDeSuenos_show_1 ;
+    :hasTrailer :LaFabricaDeSuenos_trailer ;
     :synopsis "Durante el verano de 1961, Emil comienza a trabajar como extra en los famosos estudios de cine Babelsberg. Durante el rodaje de una superproducción, se enamora de la bailarina francesa llamada Milou. Cuando por fin conquista a Milou, el rodaje se cancela repentinamente y son obligados a separarse ya que El Muro de Berlín es levantado en agosto de ese año. Años más tarde, Emil trazará un atrevido y arriesgado plan para lograr que el rodaje continúe y reencontrarse con Milou." .
 
 :LaMujerEnLaVentana a ns1:Film ;
@@ -1216,6 +1248,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :JulianneMoore,
         :WyattRussell ;
     :content_rating "No determinado" ;
+    :hasTrailer :LaMujerEnLaVentana_trailer ;
     :synopsis """La Dra. Anna Fox, que sufre de agorafobia, pasa sus días encerrada en su casa de Nueva York, bebiendo vino mientras ve viejas películas y espía a sus vecinos. Un día, mientras mira por la ventana, ve algo que sucede enfrente de su casa, en el hogar de los Russell, una familia a la que todo el barrio toma por ejemplar...\r
 Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y escritor -ganador del premio Pulitzer- Tracy Letts.""" .
 
@@ -1240,6 +1273,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :LaNocheMagica_show_4,
         :LaNocheMagica_show_5,
         :LaNocheMagica_show_6 ;
+    :hasTrailer :LaNocheMagica_trailer ;
     :synopsis "La Noche Mágica, la película protagonizada por Natalia Oreiro y Diego Peretti, llega a los cines argentinos el 11 de marzo. El film, una innovadora comedia dramática con ritmo y suspenso de thriller, dirigida por Gastón Portal, cuenta también con las actuaciones de Pablo Rago y Esteban Bigliardi. Está producida por Aeroplano. La Noche Mágica transcurre durante Nochebuena en una casa en San Isidro. Kira (Natalia Oreiro) y su amante Cachete (Pablo Rago), se encuentran en el dormitorio cuando oyen llegar a Juan (Esteban Bigliardi), el marido de Kira. Pero cuando Cachete se esconde en el balcón, se encuentra con algo peor; NICOLA (Diego Peretti), un excéntrico ladrón que, como Papa Noel lleva una barba blanca y un gorro rojo, ha venido a robar el domicilio. Nicola procede a esposar a todos los presentes pero el atraco se complica cuando se encuentra con Alicia, la pequeña hija del matrimonio, quien apenas lo ve le extiende una lista de deseos… Una producción de Aeroplano, en coproducción con World Media (Uruguay), DirecTV, Diego Kolankowsky y Silvia Rodriguez; en asociación con Welavit, RBS, Film Suez, Ketama, TeDigoQue y Dk Entertainment." .
 
 :LaVerdad a ns1:Film ;
@@ -1253,6 +1287,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :EthanHawke,
         :JulietteBinoche ;
     :content_rating "N/A" ;
+    :hasTrailer :LaVerdad_trailer ;
     :synopsis "Fabienne (Catherine Deneuve) es una estrella de cine que reina entre hombres que la aman y admiran. Cuando publica sus memorias, su hija Lumir (Juliette Binoche) regresa de Nueva York a París con su marido (Ethan Hawke) y su pequeña hija. Pero el reencuentro entre madre e hija se transformará rápidamente en confrontación: se contarán verdades, se saldarán cuentas pendientes y se confesarán amores y resentimientos. Tras ganar la Palma de Oro y ser nominado al Oscar por Somos una familia, Kore-eda Hirokazu filmó por primera vez con un elenco estelar esta película que viene siendo aclamada por la crítica internacional desde su estreno mundial como apertura del Festival de Venecia: “Un cálido y emocionante retrato familiar con la sensibilidad e inteligencia que solo un maestro puede alcanzar” (Indiewire), “Una película de gran ingenio, confianza y entusiasmo” (Variety), “Catherine Deneuve en lo más alto de su carrera” (The Times)." .
 
 :LosCroods2_UnaNuevaEra a ns1:Film ;
@@ -1274,6 +1309,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :RandyThom,
         :RyanReynolds ;
     :content_rating "N/A" ;
+    :hasTrailer :LosCroods2_UnaNuevaEra_trailer ;
     :synopsis "Después de salir de su cueva, los Croods se encuentran con su mayor amenaza desde que se fueron: otra familia llamada Betterman, quienes afirman y demuestran ser mejores y evolucionados. Grug empieza a sospechar de los padres de Betterman, Phil y Hope, ya que planean en secreto separar a su hija Eep con su amado novio Guy para asegurarse de que su hija Dawn tenga un compañero amoroso e inteligente que la proteja." .
 
 :LosIntrusos a ns1:Film ;
@@ -1292,6 +1328,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     :content_rating "Apta mayores de 16 años" ;
     :hasShow :LosIntrusos_show_1,
         :LosIntrusos_show_2 ;
+    :hasTrailer :LosIntrusos_trailer ;
     :synopsis "Inglaterra rural, principios de los noventa: los amigos de la infancia Nathan y Terry son inducidos por el sociópata local para robar a los Huggins, un médico anciano y su esposa. La novia de Nathan, Mary, está totalmente en contra del plan, pero al cabo de unas horas se encuentra en el caserón, al lado de la caja fuerte del sótano y de una panda de individuos, a cual más sospechoso." .
 
 :LosNuevosMutantes a ns1:Film ;
@@ -1405,6 +1442,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :LosNuevosMutantes_show_87,
         :LosNuevosMutantes_show_88,
         :LosNuevosMutantes_show_9 ;
+    :hasTrailer :LosNuevosMutantes_trailer ;
     :synopsis """Encerrados contra su voluntad en una institución secreta, 5 jóvenes mutantes descubren sus poderosas habilidades. Están bajo el estudio y análisis de la Doctora Cecilia Reyes quién tiene como objetivo curarlos.\r
 Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, poderes y peligros que los rodean para intentar escapar a su pasado y salvarse a si mismos.""" .
 
@@ -1423,6 +1461,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :MayaRudolph,
         :SaverioRaimondo ;
     :content_rating "N/A" ;
+    :hasTrailer :Luca_trailer ;
     :synopsis "Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter. Luca comparte estas aventuras con su nuevo mejor amigo, pero toda la diversión se ve amenazada por un secreto muy profundo: él es un monstruo marino de un mundo que yace bajo la superficie del agua." .
 
 :MartinEden a ns1:Film ;
@@ -1439,6 +1478,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :LucaMarinelli,
         :VincenzoNemolato ;
     :content_rating "No determinado" ;
+    :hasTrailer :MartinEden_trailer ;
     :synopsis "Martin Eden es un chico humilde de pueblo que se gana la vida trabajando como marinero. Un día, Martin defiende de una agresión a Arturo, un joven de clase alta. Como agradecimiento, éste invita a Martin a su hogar y poco a poco le va introduciendo en su estilo de vida. El joven conoce así las ventajas de la educación, y ve esto como una oportunidad para progresar y convertirse en el escritor que ha decidido que quiere ser, mientras aprovecha al máximo el tiempo entre lujos. Martin recibirá un impulso inesperado cuando conozca a Elena, la hermana de Arturo, de la que se enamora al instante." .
 
 :MortalKombat a ns1:Film ;
@@ -1462,6 +1502,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :NgChinHan,
         :TadanobuAsano ;
     :content_rating "N/A" ;
+    :hasTrailer :MortalKombat_trailer ;
     :synopsis "En \"Mortal Kombat\", Cole Young, el luchador de MMA (Artes Marciales Mixtas), acostumbrado a recibir palizas por dinero, desconoce su ascendencia, y tampoco sabe por qué el emperador Shang Tsung de Outworld ha enviado a su mejor guerrero, Sub-Zero, un Cryomancer sobrenatural, para dar caza a Cole. Cole teme por la seguridad de su familia y busca a Sonya Blade siguiendo las indicaciones de Jax, un comandante de las Fuerzas Especiales que tiene la misma extraña marca de dragón con la que nació Cole. No tarda en llegar al templo de Lord Raiden, un Dios Anciano y el protector de Earthrealm, que ofrece refugio a los que llevan la marca. Aquí, Cole entrena con los experimentados guerreros Liu Kang, Kung Lao y el mercenario rebelde Kano, mientras se prepara para enfrentarse a los mayores campeones de la Tierra contra los enemigos de Outworld en una batalla de enorme envergadura por el universo. Veremos si los esfuerzos de Cole se ven recompensados y consigue desbloquear su arcana -ese inmenso poder que surge del interior de su alma- a tiempo de salvar no solo a su familia, sino para detener Outworld de una vez por todas." .
 
 :MujerMaravilla1984 a ns1:Film ;
@@ -1509,6 +1550,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :MujerMaravilla1984_show_7,
         :MujerMaravilla1984_show_8,
         :MujerMaravilla1984_show_9 ;
+    :hasTrailer :MujerMaravilla1984_trailer ;
     :synopsis "Ambientada en los años 80s. El mayor deseo de Diana Prince parece ser tener devuelta a Steve Trevor. Esto inexplicablemente parece haberse convertido en realidad, pero la enfrentará a dos nuevos villanos: Max Lord y Cheetah" .
 
 :Nadie a ns1:Film ;
@@ -1529,6 +1571,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :PaulEssiembre,
         :StephanieSy ;
     :content_rating "N/A" ;
+    :hasTrailer :Nadie_trailer ;
     :synopsis "Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse los golpes de la vida. Un don nadie. Una noche, cuando dos ladrones entran en su casa, Hutch decide no actuar y no trata de defenderse ni al él mismo ni a su familia, convencido de que solo así evitará una escalada de violencia. Tras el ataque, su hija adolescente Blake no oculta su decepción, y su esposa Becca se aleja todavía más." .
 
 :Nomadland a ns1:Film ;
@@ -1553,6 +1596,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :RyanAquino,
         :Swankie ;
     :content_rating "N/A" ;
+    :hasTrailer :Nomadland_trailer ;
     :synopsis "Una mujer, después de perderlo todo durante la recesión, se embarca en un viaje hacia el Oeste americano viviendo como una nómada en una caravana. Tras el colapso económico que afectó también a su ciudad en la zona rural de Nevada, Fern toma su camioneta y se pone en camino para explorar una vida fuera de la sociedad convencional como nómada moderna." .
 
 :PanicoEnLasAlturas a ns1:Film ;
@@ -1571,6 +1615,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :VictoriyaPyatakina,
         :VladimirGusev ;
     :content_rating "N/A" ;
+    :hasTrailer :PanicoEnLasAlturas_trailer ;
     :synopsis "Cinco jóvenes, deciden celebrar la víspera de Año Nuevo en la cima de una montaña, pero en su intento quedan atrapados en un teleférico. Lo que comenzó como una fiesta de aventura, pronto se convertirá en su peor pesadilla. El frío, la altura y el miedo a una muerte lenta hacen que revelen su verdadera esencia." .
 
 :PequenosSecretos a ns1:Film ;
@@ -1600,6 +1645,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :PequenosSecretos_show_6,
         :PequenosSecretos_show_7,
         :PequenosSecretos_show_8 ;
+    :hasTrailer :PequenosSecretos_trailer ;
     :synopsis "El alguacil adjunto del condado de Kern, Joe \"Deke\" Deacon, es enviado a Los Ángeles para lo que debería haber sido una tarea rápida de recopilación de pruebas. En cambio, se ve envuelto en la búsqueda de un asesino en serie que aterroriza a la ciudad. A la cabeza de la búsqueda, el sargento del Departamento del Sheriff de Los Ángeles Jim Baxter, impresionado con los instintos policiales de Deke, solicita su ayuda extraoficialmente. Pero mientras siguen al asesino, Baxter no se da cuenta de que la investigación está sacando a la luz ecos del pasado de Deke, descubriendo secretos inquietantes que podrían amenazar más que su caso." .
 
 :PeterRabbit2 a ns1:Film ;
@@ -1609,6 +1655,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
     :content_rating "Apta todo público" ;
+    :hasTrailer :PeterRabbit2_trailer ;
     :synopsis "Secuela de la película de 2018: Peter Rabbit. El aventurero y travieso Peter está de regreso junto a sus amigos. En esta nueva entrega, Bea y Thomas ya están casados. La relación entre el conejo y Thomas seguirá causando problemas, por eso decide irse a otro jardín. En el camino se encuentra con un nuevo conejo, quién fue amigo de su padre y quién lo ayudará a definir que tipo de conejo quiere ser.-" .
 
 :PeterRabbit_ConejoEnFuga a ns1:Film ;
@@ -1629,6 +1676,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :SamNeill,
         :Sia ;
     :content_rating "N/A" ;
+    :hasTrailer :PeterRabbit_ConejoEnFuga_trailer ;
     :synopsis "Peter Rabbit no es un conejo cualquiera. Es un rebelde travieso y aventurero que viste camisa azul y no lleva pantalones. Peter vive junto a su familia y amigos, un grupo variopinto de animales que incluye incluso a un zorro. Todos ellos harán de las suyas en la granja de los McGregor, lugar en cuyo jardín disponen de deliciosos vegetales. Pero la disputa de Peter con el Sr. McGregor se intensificará más que nunca ya que ambos compiten por el afecto de Bea, una amante de los animales de buen corazón. La fiesta animal ha empezado, y esto es solo el principio." .
 
 :Pinocho a ns1:Film ;
@@ -1649,6 +1697,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     :hasShow :Pinocho_show_1,
         :Pinocho_show_2,
         :Pinocho_show_3 ;
+    :hasTrailer :Pinocho_trailer ;
     :synopsis "Adaptación live-action de la clásica historia de Pinocho, una marioneta de madera que cobra vida y tiene como padre a Geppetto, un pobre y solitario tallador de madera. Como cualquier niño, Pinocho siente curiosidad por el mundo y aprende por prueba y error. Pinocho inicia un viaje que lo enfrentará cara a cara con la naturaleza, el reino animal y el mundo de la imaginación." .
 
 :RapidosYFuriosos9 a ns1:Film ;
@@ -1665,6 +1714,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
         :TyreseGibson,
         :VinDiesel ;
     :content_rating "No determinado" ;
+    :hasTrailer :RapidosYFuriosos9_trailer ;
     :synopsis """Novena entrega de la Saga Rápidos y furiosos. \r
 Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron. Pero un peligro incierto se acerca y deberán proteger a su familia.""" .
 
@@ -1695,6 +1745,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
         :RayaYElUltimoDragon_show_7,
         :RayaYElUltimoDragon_show_8,
         :RayaYElUltimoDragon_show_9 ;
+    :hasTrailer :RayaYElUltimoDragon_trailer ;
     :synopsis "Ambientada en el sudeste asiático, la cinta sigue la historia de Raya, una niña de un gran espíritu aventurero que vive en un reino llamado Kumandra. Este lejano y recóndito territorio está habitado por una civilización milenaria. Cinco son los clanes que forman esta tierra conocida como la del dragón y Raya, con el objetivo de devolver el equilibrio a su tierra, será la encargada de encontrar al último de los dragones en la mayor aventura de su vida." .
 
 :RuegaPorNosotros a ns1:Film ;
@@ -1713,6 +1764,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
         :MarinaMazepa,
         :WilliamSadler ;
     :content_rating "N/A" ;
+    :hasTrailer :RuegaPorNosotros_trailer ;
     :synopsis "Se centra en un periodista caído en desgracia que descubre una serie de aparentes milagros acaecidos en un pequeño pueblo de Nueva Inglaterra, aplicándolos para devolver su carrera al estrellato. Lo que desconoce es que estos milagros esconden una cara mucho más oscura de lo que él cree." .
 
 :Scooby a ns1:Film ;
@@ -1724,6 +1776,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
     ns1:origin :Eeuu ;
     :content_rating "Apta todo público" ;
     :hasShow :Scooby_show_1 ;
+    :hasTrailer :Scooby_trailer ;
     :synopsis """Película animada sobre el dibujito Scooby-Doo que sigue a un perro Gran Danés y sus 4 amigos: Fred, Daphne, Vilma y Shaggy quienes juntos viajan por el mundo resolviendo misterios relacionados con fantasmas y otras fuerzas sobrenaturales.-\r
 Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y cómo se unieron con los jóvenes detectives Fred, Velma y Daphne para formar Mystery Inc. Ahora, con cientos de casos resueltos y aventuras compartidas, Scooby y la pandilla se enfrentan al misterio más desafiante de todos los tiempos: una trama para liberar Cerberus, el perro fantasma, sobre el mundo. Mientras compiten para detener este "perrocalipsis" global, la pandilla descubre que Scooby tiene un legado secreto y un gran y épico destino que nadie imaginaba.""" .
 
@@ -1747,6 +1800,7 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
         :SonequaMartin_Green,
         :Zendaya ;
     :content_rating "N/A" ;
+    :hasTrailer :SpaceJam_UnaNuevaEra_trailer ;
     :synopsis "¡Bienvenido al partido del siglo! El campeón de la NBA e ícono mundial LeBron James se embarca en una aventura épica junto al Tune Bugs Bunny en el evento animado / de acción en vivo \"Space Jam: Una Nueva Era\", del director Malcolm D. Lee y un equipo de cine innovador que incluye a Ryan Coogler y Maverick Carter. Este viaje de transformación es el resultado de una mezcla maníaca entre dos mundos que, al final, revela hasta dónde están dispuestos a llegar algunos padres para conectar con sus hijos. Cuando LeBron y su pequeño hijo Dom quedan atrapados en un espacio digital por una IA (inteligencia artificial) deshonesta, LeBron debe regresarlos a casa sanos y salvos guiado por Bugs, Lola Bunny y a toda la banda de indisciplinados Looney Tunes hacia la victoria sobre los campeones digitalizados de la IA en la cancha: una lista mejorada de estrellas profesionales del basquetbol como nunca antes lo habías visto. Son Tunes versus Goons en el desafío más importante de su vida, que redefinirá el vínculo de LeBron con su hijo y arrojará luz sobre el poder de ser uno mismo. Todos listos para la acción destruyen las convenciones, potencian sus talentos únicos y sorprenden incluso al \"Rey\" James jugando basquetbol a su manera." .
 
 :Spirit_ElIndomable a ns1:Film ;
@@ -1765,9 +1819,13 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
         :MckennaGrace,
         :WaltonGoggins ;
     :content_rating "N/A" ;
+    :hasTrailer :Spirit_ElIndomable_trailer ;
     :synopsis "La vida de Lucky Prescott cambia para siempre cuando se muda de su casa en la gran ciudad a un pequeño pueblo fronterizo en el que entabla amistad con un caballo salvaje llamado Spirit." .
 
 :Tenet a ns1:Film ;
+    ns1:author :ChristopherNolan,
+        :Tenet_company_1,
+        :Tenet_company_2 ;
     ns1:director :ChristopherNolan ;
     ns1:duration 155 ;
     ns1:genre :Accion,
@@ -1777,17 +1835,52 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns1:origin :Eeuu,
         :EstadosUnidos,
         :ReinoUnido ;
+    ns1:productionCompany :WarnerBrosPictures ;
     ns1:starring :AaronTaylor_Johnson,
+        :AndrewHoward,
+        :CarinaVelva,
         :ClemencePoesy,
+        :DenzilSmith,
         :DimpleKapadia,
         :ElizabethDebicki,
+        :FionaDourif,
         :HimeshPatel,
+        :IvoUukkivi,
+        :JeffersonHall,
         :JohnDavidWashington,
+        :JonathanCamp,
+        :JuhanUlfsak,
         :KennethBranagh,
+        :LaurieShepherd,
+        :MarcelSabat,
+        :MarkKrenik,
         :MartinDonovan,
         :MichaelCaine,
-        :RobertPattinson ;
+        :RichCeraulo,
+        :RichCerauloKo,
+        :RobertPattinson,
+        :WesChatham,
+        :YuriKolokolnikov ;
+    ns1:thumbnail :Tenet_cover_image_1,
+        :Tenet_cover_image_2,
+        :Tenet_cover_image_3,
+        :Tenet_cover_image_4 ;
     :content_rating "P-13" ;
+    :hasCharacter :Barbara,
+        :Crosby,
+        :Driver,
+        :Fay,
+        :GauntRussian,
+        :Ives,
+        :Kat,
+        :Mahir,
+        :Neil,
+        :Priya,
+        :Protagonist,
+        :Sanjay,
+        :Sator,
+        :Swat2,
+        :Swat_Target ;
     :hasShow :Tenet_show_1,
         :Tenet_show_10,
         :Tenet_show_2,
@@ -1798,7 +1891,13 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
         :Tenet_show_7,
         :Tenet_show_8,
         :Tenet_show_9 ;
-    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión." .
+    :hasTrailer :Tenet_trailer ;
+    :sourceUrl "https://www.ecartelera.com/peliculas/tenet/",
+        "https://www.imdb.com/title/tt6723592/",
+        "https://www.metacritic.com/movie/tenet",
+        "https://www.rottentomatoes.com/m/tenet" ;
+    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión.",
+        "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist (John David Washington) journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. Not time travel. Inversion." .
 
 :TomYJerry a ns1:Film ;
     ns1:director :TimStory ;
@@ -1884,6 +1983,7 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
         :TomYJerry_show_7,
         :TomYJerry_show_8,
         :TomYJerry_show_9 ;
+    :hasTrailer :TomYJerry_trailer ;
     :synopsis """Película del clásico dibujo animado de Tom y Jerry que mezcla live-action con animación. \r
 Jerry se muda al hotel más lujoso de Nueva York justo antes del "casamiento del siglo"; la coordinadora de la ceremonia, desesperada, no tiene más opción que contratar a Tom para eliminar a Jerry. Esto desata una batalla entre gato y ratón que amenaza con destruir la carrera de la coordinadora, la ceremonia e incluso quizás el hotel mismo.\r
 Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que conspira contra los tres.""" .
@@ -1909,6 +2009,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :TomCruise,
         :ValKilmer ;
     :content_rating "N/A" ;
+    :hasTrailer :TopGun_Maverick_trailer ;
     :synopsis "Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete \"Mavericks\" Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw, el hijo de su difunto amigo \"Goose\"... Secuela de Top Gun." .
 
 :Trolls2_GiraMundial a ns1:Film ;
@@ -1963,6 +2064,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :Trolls2_GiraMundial_show_7,
         :Trolls2_GiraMundial_show_8,
         :Trolls2_GiraMundial_show_9 ;
+    :hasTrailer :Trolls2_GiraMundial_trailer ;
     :synopsis "En una aventura que les llevará más allá de todo lo que habían conocido, Poppy y Branch descubren que su tribu de Trolls es solo una de las seis que existen, que el resto están repartidas en seis reinos y consagradas a seis tipos distintos de música: funk, country, tecno, clásica, pop y rock. La reina Bárbara, miembro de la realeza del hard rock, y su padre, el Rey Metal, quieren acabar con el resto de géneros musicales e imponer el reinado del rock. Con el destino del mundo en juego, Poppy y Branch, junto con el resto de la pandilla - Grandullón, Chanelle, Satén, Cooper y Guy Diamante-, visitarán los demás reinos para unir a los Trolls contra los planes de Barb de eclipsarlos a todos." .
 
 :UnCrimenComun a ns1:Film ;
@@ -1983,6 +2085,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     :content_rating "P-13" ;
     :hasShow :UnCrimenComun_show_1,
         :UnCrimenComun_show_2 ;
+    :hasTrailer :UnCrimenComun_trailer ;
     :synopsis "Cecilia es profesora de sociología en la Universidad. Una madrugada de tormenta Kevin, el hijo de su empleada doméstica, toca la puerta de su casa con desesperación. Ella, asustada, no le abre. Al día siguiente el cuerpo de Franco aparece en el río, asesinado por la policía. Cecilia comienza a ser acechada por el fantasma del joven. Perturbada por la culpa logra liberarse de él pero ahora, el fantasma, parece ser ella." .
 
 :UnLugarEnSilencio2 a ns1:Film ;
@@ -2001,6 +2104,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :NoahJupe,
         :WayneDuvall ;
     :content_rating "N/A" ;
+    :hasTrailer :UnLugarEnSilencio2_trailer ;
     :synopsis "Tras los fatales acontecimientos sucedidos en la primera parte, la familia Abbot (Emily Blunt, Millicent Simmonds y Noah Jupe) debe enfrentarse a los peligros del mundo exterior mientras luchan en silencio por sobrevivir. Forzados a aventurarse en lo desconocido, pronto se dan cuenta de que las criaturas que cazan orientadas por el sonido no son la única amenaza que acecha más allá del camino de arena. Secuela de la exitosa producción \"Un lugar tranquilo\"" .
 
 :UnaCasaLejos a ns1:Film ;
@@ -2013,6 +2117,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :StellaGalazzi,
         :ValeriaCorrea ;
     :content_rating "P-13" ;
+    :hasTrailer :UnaCasaLejos_trailer ;
     :synopsis "Graciela quiere jubilarse e irse a vivir al interior, pero descubre que su padre, un anciano muy solitario, mantiene un extraño vínculo con una chica de la calle que está embarazada. Graciela teme lo peor e intenta separarlos por todos los medios posibles, pero la fuerza de esa amistad termina transformándola hasta lo mas profundo." .
 
 :UnaExtranaObsesion a ns1:Film ;
@@ -2036,6 +2141,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :PierreGomme,
         :StephaneJobert ;
     :content_rating "N/A" ;
+    :hasTrailer :UnaExtranaObsesion_trailer ;
     :synopsis "En un pueblo de los Alpes franceses, la obsesión de un hombre recién divorciado con una chaqueta de ante le lleva a gastarse todos sus ahorros, además de fingir ser cineasta, e incluso hacer alguna cosa mucho peor." .
 
 :VenganzaImplacable a ns1:Film ;
@@ -2061,7 +2167,79 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :LiamNeeson,
         :RobertPatrick ;
     :content_rating "N/A" ;
+    :hasTrailer :VenganzaImplacable_trailer ;
     :synopsis "Un atracador de bancos se entrega a la policía porque se ha enamorado y decide llevar una vida honrada. Cuando descubre que los federales son aún más corruptos que él, se verá obligado a utilizar todas sus artimañas de ex marine para limpiar su nombre." .
+
+:WonderWoman1984 a ns1:Film ;
+    ns1:author :DaveCallaham,
+        :GeoffJohns,
+        :PattyJenkins,
+        :WilliamMoultonMarston,
+        :WonderWoman1984_company_1,
+        :WonderWoman1984_company_3,
+        :WonderWoman1984_company_6,
+        :WonderWoman1984_company_7,
+        :WonderWoman1984_company_9 ;
+    ns1:director :PattyJenkins ;
+    ns1:productionCompany :WarnerBrosPictures ;
+    ns1:starring :AlexDelescu,
+        :AmrWaked,
+        :AmreenNYaqoob,
+        :BernCollaco,
+        :BrittneyAleah,
+        :ChrisPine,
+        :ChrisSilcox,
+        :ConnieNielsen,
+        :EllaWalker,
+        :GabriellaWilde,
+        :GalGadot,
+        :JamaalBurcher,
+        :JamalAlkhaldi,
+        :JeffMoore,
+        :JoelMorris,
+        :JohnGettier,
+        :JonathanAjayi,
+        :JulianFerro,
+        :JustinSisk,
+        :KailaIngram,
+        :KristenWiig,
+        :KristofferPolaha,
+        :LillyAspell,
+        :LolitaMarie,
+        :LyndaCarter,
+        :LyonBeckwith,
+        :ManojAnand,
+        :MarisolCorrea,
+        :MarlaAaronWapner,
+        :MonicaHaynes,
+        :NatashaRothwell,
+        :OakleyBull,
+        :PaulRonCruz,
+        :PedroPascal,
+        :PenelopeKapudija,
+        :RaviPatel,
+        :RickKelvinBranch,
+        :RobinWright,
+        :SiaAlipour,
+        :SoniaGoswami,
+        :SpencerTrinwith,
+        :TessaBonhamJones,
+        :ThomasClayStrickland ;
+    ns1:thumbnail :WonderWoman1984_cover_image_1,
+        :WonderWoman1984_cover_image_2,
+        :WonderWoman1984_cover_image_3,
+        :WonderWoman1984_cover_image_4 ;
+    :content_rating "P-13" ;
+    :hasCharacter :Antiope,
+        :BarbaraMinerva_Cheetah,
+        :DianaPrince_WonderWoman,
+        :Hippolyta,
+        :SteveTrevor ;
+    :sourceUrl "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
+        "https://www.imdb.com/title/tt7126948/",
+        "https://www.metacritic.com/movie/wonder-woman-1984",
+        "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." .
 
 :Zeta a ns1:Film ;
     ns1:director :BrandonChristensen ;
@@ -2080,7 +2258,12 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
         :SeanRogerson,
         :StephenMchattie ;
     :content_rating "No determinado" ;
+    :hasTrailer :Zeta_trailer ;
     :synopsis "Muchos niños tienen amigos imaginarios...pero el pequeño Joshua Parsons de 8 años tiene un amigo imaginario muy particular, llamado Z. Pronto el siniestro Z demuestra ser una preocupación para la familia, que comenzará a vivir una verdadera pesadilla en su hogar." .
+
+:bestRating a owl:DatatypeProperty ;
+    rdfs:domain ns5:Rating ;
+    rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
     rdfs:domain :cinema_room ;
@@ -2093,6 +2276,10 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 :hasCharacter a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
     rdfs:range ns1:FictionalCharacter .
+
+:hasRating a owl:ObjectProperty ;
+    rdfs:domain :movie_review ;
+    rdfs:range ns5:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -2108,6 +2295,10 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 
 :keyword a owl:DatatypeProperty ;
     rdfs:range xsd:string .
+
+:ratingValue a owl:DatatypeProperty ;
+    rdfs:domain ns5:Rating ;
+    rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
     rdfs:domain :film_show ;
@@ -2131,16 +2322,38 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     ns3:hasManifestation :tenet_review_1_site ;
     ns4:realization :tenet ;
+    :hasRating :tenet_review_1_rating_1 ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
-:tenet_review_1_author_img a ns1:Image,
-        owl:NamedIndividual ;
-    :url "https://example.com/img.jpg"^^xsd:anyURI .
+:worstRating a owl:DatatypeProperty ;
+    rdfs:domain ns5:Rating ;
+    rdfs:range xsd:double .
 
-ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
+ns5:ratingCount rdfs:domain ns5:AggregateRating ;
+    rdfs:range xsd:integer .
+
+ns5:reviewCount rdfs:domain ns5:AggregateRating ;
+    rdfs:range xsd:integer .
+
+:007Bond_SinTiempoParaMorir_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
+
+:007_SinTiempoParaMorir_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/S7cT9uheVuY?rel=0&controls=0&showinfo=0" .
+
+:100Lobo_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/dAPc09RqEGo?rel=0&controls=0&showinfo=0" .
+
+:10Palomas_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/M5dSUrFIAJI?rel=0&controls=0&showinfo=0" .
 
 :AaronTaylor_Johnson a ns1:Actor ;
-    ns1:Name "Aaron Taylor-Johnson" .
+    ns1:Name "Aaron Taylor-Johnson" ;
+    ns1:thumbnail :AaronTaylor_Johnson_img ;
+    :url "https://www.rottentomatoes.com/celebrity/aaron_johnson" .
+
+:AaronTaylor_Johnson_img a ns1:Image ;
+    :url "https://resizing.flixster.com/uRflgfpecsD9gIHxJkiKs-3sVt8=/699x675/v1.cjs0ODk2ODtqOzE4NzY1OzEyMDA7Njk5OzY3NQ" .
 
 :AdamBasil a ns1:Actor ;
     ns1:Name "Adam Basil" .
@@ -2184,6 +2397,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :Alemania a ns1:Country ;
     ns1:Name "Alemania" .
 
+:AlexDelescu a ns1:Actor ;
+    ns1:Name "Alex Delescu" ;
+    :url "https://www.metacritic.com/person/alex-delescu" .
+
 :AlexanderSkarsgard a ns1:Actor ;
     ns1:Name "Alexander Skarsgård" .
 
@@ -2211,6 +2428,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :AmineHamidou a ns1:Actor ;
     ns1:Name "Amine Hamidou" .
 
+:AmrWaked a ns1:Actor ;
+    ns1:Name "Amr Waked" ;
+    :url "https://www.metacritic.com/person/amr-waked" .
+
+:AmreenNYaqoob a ns1:Actor ;
+    ns1:Name "Amreen N. Yaqoob" ;
+    :url "https://www.metacritic.com/person/amreen-n-yaqoob" .
+
 :AmyAdams a ns1:Actor ;
     ns1:Name "Amy Adams" .
 
@@ -2225,6 +2450,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :AndrewEllis a ns1:Actor ;
     ns1:Name "Andrew Ellis" .
+
+:AndrewHoward a ns1:Actor ;
+    ns1:Name "Andrew Howard" ;
+    ns1:thumbnail :AndrewHoward_img ;
+    :url "https://www.rottentomatoes.com/celebrity/andrew_howard" .
+
+:AndrewHoward_img a ns1:Image ;
+    :url "https://resizing.flixster.com/d4v5MaDG52-P4lBcSjdSOhCRcIo=/442x394/v1.cjs0NTExOTtqOzE4NzY1OzEyMDA7NDQyOzM5NA" .
 
 :AndreyNazimov a ns1:Actor ;
     ns1:Name "Andrey Nazimov" .
@@ -2249,6 +2482,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :AnthonyMackie a ns1:Actor ;
     ns1:Name "Anthony Mackie" .
+
+:Antiope a ns1:FictionalCharacter ;
+    ns1:Name "Antiope" .
+
+:Antlers_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
 :AntonioBanderas a ns1:Actor ;
     ns1:Name "Antonio Banderas" .
@@ -2277,6 +2516,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :AyeshaDharker a ns1:Actor ;
     ns1:Name "Ayesha Dharker" .
 
+:Barbara a ns1:FictionalCharacter ;
+    ns1:Name "Barbara" .
+
+:BarbaraMinerva_Cheetah a ns1:FictionalCharacter ;
+    ns1:Name "Barbara Minerva / Cheetah" .
+
 :BashirSalahuddin a ns1:Actor ;
     ns1:Name "Bashir Salahuddin" .
 
@@ -2289,8 +2534,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :BenjaminOtero a ns1:Actor ;
     ns1:Name "Benjamín Otero" .
 
+:BernCollaco a ns1:Actor ;
+    ns1:Name "Bern Collaco" ;
+    :url "https://www.metacritic.com/person/bern-collaco" .
+
 :BirolTarkanYildiz a ns1:Actor ;
     ns1:Name "Birol Tarkan Yildiz" .
+
+:BlackWidow_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/COUQ4GDKXJ0?rel=0&controls=0&showinfo=0" .
 
 :BluHunt a ns1:Actor ;
     ns1:Name "Blu Hunt" .
@@ -2318,6 +2570,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :BrendaChapman a ns1:MovieDirector ;
     ns1:Name "Brenda Chapman" .
+
+:BrittneyAleah a ns1:Actor ;
+    ns1:Name "Brittney Aleah" ;
+    :url "https://www.metacritic.com/person/brittney-aleah" .
 
 :BrookeJayeTaylor a ns1:Actor ;
     ns1:Name "Brooke Jaye Taylor" .
@@ -2603,8 +2859,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:Caos_ElInicio_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/2IulhhR6Dss?rel=0&controls=0&showinfo=0" .
+
 :CareyMulligan a ns1:Actor ;
     ns1:Name "Carey Mulligan" .
+
+:CarinaVelva a ns1:Actor ;
+    ns1:Name "Carina Velva" ;
+    :url "https://www.metacritic.com/person/carina-velva" .
 
 :CarlClemons_Hopkins a ns1:Actor ;
     ns1:Name "Carl Clemons-Hopkins" .
@@ -2708,11 +2971,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :ChrisBauer a ns1:Actor ;
     ns1:Name "Chris Bauer" .
 
-:ChrisPine a ns1:Actor ;
-    ns1:Name "Chris Pine" .
+:ChrisPine_img a ns1:Image ;
+    :url "https://resizing.flixster.com/lUzaa-oO0RKNt3ekbqvlU5RPqR8=/660x990/v1.bjs3NTYxMDQ7ajsxODc3MzsxMjAwOzY2MDs5OTA" .
 
 :ChrisRock a ns1:Actor ;
     ns1:Name "Chris Rock" .
+
+:ChrisSilcox a ns1:Actor ;
+    ns1:Name "Chris Silcox" ;
+    :url "https://www.metacritic.com/person/chris-silcox" .
 
 :ChristianeMillet a ns1:Actor ;
     ns1:Name "Christiane Millet" .
@@ -2738,11 +3005,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :ChristopherMintz_Plasse a ns1:Actor ;
     ns1:Name "Christopher Mintz-Plasse" .
 
-:ChristopherNolan a ns1:MovieDirector ;
-    ns1:Name "Christopher Nolan" .
+:ChristopherNolan_img a ns1:Image ;
+    :url "https://resizing.flixster.com/H0_441OvEsJ-OMlAn-njnqv5uFc=/275x230/v1.cjs0MDgwNztqOzE4NzY1OzEyMDA7Mjc1OzIzMA" .
 
 :ChristopherWalken a ns1:Actor ;
     ns1:Name "Christopher Walken" .
+
+:Cicatrices_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/aBte_CloluM?rel=0&controls=0&showinfo=0" .
 
 :CillianMurphy a ns1:Actor ;
     ns1:Name "Cillian Murphy" .
@@ -2778,7 +3048,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Clarke Peters" .
 
 :ClemencePoesy a ns1:Actor ;
-    ns1:Name "Clémence Poésy" .
+    ns1:Name "Clémence Poésy" ;
+    ns1:thumbnail :ClemencePoesy_img ;
+    :url "https://www.rottentomatoes.com/celebrity/clemence-poesy" .
+
+:ClemencePoesy_img a ns1:Image ;
+    :url "https://resizing.flixster.com/PdT_Pvc6s1thrV8PTrvItxxgJAw=/932x1400/v1.bjs3NTgwMTc7ajsxODc3MzsxMjAwOzkzMjsxNDAw" .
 
 :ClorisLeachman a ns1:Actor ;
     ns1:Name "Cloris Leachman" .
@@ -2789,6 +3064,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :ConnieBritton a ns1:Actor ;
     ns1:Name "Connie Britton" .
 
+:ConnieNielsen_img a ns1:Image ;
+    :url "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw" .
+
+:ContraElFuego_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/pog0W0bsZSE?rel=0&controls=0&showinfo=0" .
+
 :CoralieRussier a ns1:Actor ;
     ns1:Name "Coralie Russier" .
 
@@ -2797,6 +3078,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :CraigGillespie a ns1:MovieDirector ;
     ns1:Name "Craig Gillespie" .
+
+:Crosby a ns1:FictionalCharacter ;
+    ns1:Name "Crosby" .
+
+:Cruella_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/ni84bGemIVU?rel=0&controls=0&showinfo=0" .
 
 :CynthiaErivo a ns1:Actor ;
     ns1:Name "Cynthia Erivo" .
@@ -2825,6 +3112,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :DarrenLynnBousman a ns1:MovieDirector ;
     ns1:Name "Darren Lynn Bousman" .
 
+:DaveCallaham a ns1:Person ;
+    ns1:Name "Dave Callaham" ;
+    :url "https://www.imdb.com/name/nm1709264/" .
+
 :DavidDelao a ns1:Actor ;
     ns1:Name "David DeLao" .
 
@@ -2836,6 +3127,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :DavidStrathairn a ns1:Actor ;
     ns1:Name "David Strathairn" .
+
+:DeLaNocheALaManana_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/GeJA3H9RNTs?rel=0&controls=0&showinfo=0" .
 
 :DeborahFrancois a ns1:Actor ;
     ns1:Name "Déborah François" .
@@ -3120,6 +3414,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Subtitulado" ;
     :room :room_Classic_2D .
 
+:DemonSlayer_ElTrenInfinito_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
+
 :DenisKosyakov a ns1:Actor ;
     ns1:Name "Denis Kosyakov" .
 
@@ -3135,8 +3432,19 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :DenzelWashington a ns1:Actor ;
     ns1:Name "Denzel Washington" .
 
+:DenzilSmith a ns1:Actor ;
+    ns1:Name "Denzil Smith" ;
+    ns1:thumbnail :DenzilSmith_img ;
+    :url "https://www.rottentomatoes.com/celebrity/denzil_smith" .
+
+:DenzilSmith_img a ns1:Image ;
+    :url "https://resizing.flixster.com/4E8Cc4RH8x6iswRFZSDiPaXDbFg=/805x960/v1.bjsyNTM3NjUyO2o7MTg4Mzk7MTIwMDs4MDU7OTYw" .
+
 :DerekJacobi a ns1:Actor ;
     ns1:Name "Derek Jacobi" .
+
+:DianaPrince_WonderWoman a ns1:FictionalCharacter ;
+    ns1:Name "Diana Prince / Wonder Woman" .
 
 :DidierSandre a ns1:Actor ;
     ns1:Name "Didier Sandre" .
@@ -3145,7 +3453,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Diego Peretti" .
 
 :DimpleKapadia a ns1:Actor ;
-    ns1:Name "Dimple Kapadia" .
+    ns1:Name "Dimple Kapadia" ;
+    ns1:thumbnail :DimpleKapadia_img ;
+    :url "https://www.rottentomatoes.com/celebrity/dimple_kapadia" .
+
+:DimpleKapadia_img a ns1:Image ;
+    :url "https://resizing.flixster.com/fPI-zmRhzsaycBHASSB_W_gkCv4=/355x450/v1.bjs3NzM3NDk7ajsxODc3MzsxMjAwOzM1NTs0NTA" .
 
 :DiogoMorgado a ns1:Actor ;
     ns1:Name "Diogo Morgado" .
@@ -3171,6 +3484,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :DraganaVaragic a ns1:Actor ;
     ns1:Name "Dragana Varagić" .
 
+:Driver a ns1:FictionalCharacter ;
+    ns1:Name "Driver" .
+
 :DustinLewis a ns1:Actor ;
     ns1:Name "Dustin Lewis" .
 
@@ -3186,6 +3502,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :EdgarRamirez a ns1:Actor ;
     ns1:Name "Edgar Ramírez" .
 
+:ElPadre_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/UGkBAU6N-hs?rel=0&controls=0&showinfo=0" .
+
+:ElProtector_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/-LaCyXUqSY4?rel=0&controls=0&showinfo=0" .
+
 :ElSecretoDelBosque_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T20:45:00"^^xsd:dateTime ;
     ns1:subtitle "CASTELLANO" ;
@@ -3195,6 +3517,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:startDateTime "2021-04-06T23:10:00"^^xsd:dateTime ;
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
+
+:ElSecretoDelBosque_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/cP39rITvjHE?controls=1&fs=0&autoplay=1" .
 
 :ElSilencioDelCazador_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T22:20:00"^^xsd:dateTime ;
@@ -3206,6 +3531,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:ElSilencioDelCazador_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/ZrxuvUtoVBs?rel=0&controls=0&showinfo=0" .
+
 :ElaineBogan a ns1:MovieDirector ;
     ns1:Name "Elaine Bogan" .
 
@@ -3214,6 +3542,13 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :ElisaCarricajo a ns1:Actor ;
     ns1:Name "Elisa Carricajo" .
+
+:ElizabethDebicki_img a ns1:Image ;
+    :url "https://resizing.flixster.com/BzRiog7SyR4uJyjcnEvQKb8fMIo=/1435x1494/v1.cjs0ODkwOTtqOzE4NzY1OzEyMDA7MTQzNTsxNDk0" .
+
+:EllaWalker a ns1:Actor ;
+    ns1:Name "Ella Walker" ;
+    :url "https://www.metacritic.com/person/ella-walker" .
 
 :EmeraldFennell a ns1:MovieDirector ;
     ns1:Name "Emerald Fennell" .
@@ -3233,14 +3568,26 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :EmmanuelleSeigner a ns1:Actor ;
     ns1:Name "Emmanuelle Seigner" .
 
+:EnElBarrio_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/_eTm-Di0hNU?rel=0&controls=0&showinfo=0" .
+
+:EnGuerraConMiAbuelo_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/8TPaelfcBbQ?rel=0&controls=0&showinfo=0" .
+
 :EnricoCasarosa a ns1:MovieDirector ;
     ns1:Name "Enrico Casarosa" .
+
+:EraseUnaVez_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/aPG0XFy1BXA?rel=0&controls=0&showinfo=0" .
 
 :EricBauza a ns1:Actor ;
     ns1:Name "Eric Bauza" .
 
 :Espana a ns1:Country ;
     ns1:Name "España" .
+
+:Espiral_ElJuegoDelMiedoContinua_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/1BOSHrhJ_MM?rel=0&controls=0&showinfo=0" .
 
 :EstebanBigliardi a ns1:Actor ;
     ns1:Name "Esteban Bigliardi" .
@@ -3260,10 +3607,22 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :EvgenyRuman a ns1:MovieDirector ;
     ns1:Name "Evgeny Ruman" .
 
+:ExplotaExplota_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/_K20Fyv2HwE?rel=0&controls=0&showinfo=0" .
+
+:FastAndFurious9_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/Vo1MitA1JmI?rel=0&controls=0&showinfo=0" .
+
 :FateStayNightHeavenSFeel_Parte3_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T19:45:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado" ;
     :room :room_Classic_2D .
+
+:FateStayNightHeavenSFeel_Parte3_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/OQO2hRqpS4c?rel=0&controls=0&showinfo=0" .
+
+:Fay a ns1:FictionalCharacter ;
+    ns1:Name "Fay" .
 
 :FayssalBazzi a ns1:Actor ;
     ns1:Name "Fayssal Bazzi" .
@@ -3282,6 +3641,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :FinnCole a ns1:Actor ;
     ns1:Name "Finn Cole" .
+
+:FionaDourif a ns1:Actor ;
+    ns1:Name "Fiona Dourif" ;
+    :url "https://www.metacritic.com/person/fiona-dourif" .
 
 :FlorencePugh a ns1:Actor ;
     ns1:Name "Florence Pugh" .
@@ -3342,20 +3705,20 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
 
+:Freaky_EsteCuerpoEstaParaMatar_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/YLQuRVjRDU8?rel=0&controls=0&showinfo=0" .
+
 :FredHechinger a ns1:Actor ;
     ns1:Name "Fred Hechinger" .
 
 :GabrielCorrado a ns1:Actor ;
     ns1:Name "Gabriel Corrado" .
 
-:GabriellaWilde a ns1:Actor ;
-    ns1:Name "Gabriella Wilde" .
-
 :GageMunroe a ns1:Actor ;
     ns1:Name "Gage Munroe" .
 
-:GalGadot a ns1:Actor ;
-    ns1:Name "Gal Gadot" .
+:GalGadot_img a ns1:Image ;
+    :url "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA" .
 
 :GaryOldman a ns1:Actor ;
     ns1:Name "Gary Oldman" .
@@ -3363,8 +3726,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :GastonPortal a ns1:MovieDirector ;
     ns1:Name "Gastón Portal" .
 
+:GauntRussian a ns1:FictionalCharacter ;
+    ns1:Name "Gaunt Russian" .
+
 :GayDeforest a ns1:Actor ;
     ns1:Name "Gay DeForest" .
+
+:GeoffJohns a ns1:Person ;
+    ns1:Name "Geoff Johns" ;
+    :url "https://www.imdb.com/name/nm0424315/" .
 
 :GerardoRomano a ns1:Actor ;
     ns1:Name "Gerardo Romano" .
@@ -4928,6 +5298,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:GodzillaVsKong_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/vGenggY9UJU?rel=0&controls=0&showinfo=0" .
+
 :GraysonBerry a ns1:Actor ;
     ns1:Name "Grayson Berry" .
 
@@ -4972,6 +5345,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:startDateTime "2021-04-06T22:00:00"^^xsd:dateTime ;
     ns1:subtitle "SUBTITULADA" ;
     :room :room_SalaHd .
+
+:Habitacion212_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/vlp-TEj3J4I?rel=0&controls=0&showinfo=0" .
 
 :HappyAnderson a ns1:Actor ;
     ns1:Name "Happy Anderson" .
@@ -5188,11 +5564,22 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:HermosaVenganza_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/NObqpIAgROM?rel=0&controls=0&showinfo=0" .
+
 :HernanJimenez a ns1:Actor ;
     ns1:Name "Hernán Jiménez" .
 
 :HimeshPatel a ns1:Actor ;
-    ns1:Name "Himesh Patel" .
+    ns1:Name "Himesh Patel" ;
+    ns1:thumbnail :HimeshPatel_img ;
+    :url "https://www.rottentomatoes.com/celebrity/himesh_patel" .
+
+:HimeshPatel_img a ns1:Image ;
+    :url "https://resizing.flixster.com/fVCzlDI8AM37i1ZZvDOTpLsGQFg=/2941x4411/v1.cjs1MDE5NTtqOzE4NzY1OzEyMDA7Mjk0MTs0NDEx" .
+
+:Hippolyta a ns1:FictionalCharacter ;
+    ns1:Name "Hippolyta" .
 
 :HiroShimono a ns1:Actor ;
     ns1:Name "Hiro Shimono" .
@@ -5205,6 +5592,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :Historia a ns1:MovieGenre ;
     ns1:Name "Historia" .
+
+:HoySeArreglaElMundo_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
 :HumberlyGonzalez a ns1:Actor ;
     ns1:Name "Humberly Gonzalez" .
@@ -5254,6 +5644,13 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :IvanYankovskiy a ns1:Actor ;
     ns1:Name "Ivan Yankovskiy" .
 
+:Ives a ns1:FictionalCharacter ;
+    ns1:Name "Ives" .
+
+:IvoUukkivi a ns1:Actor ;
+    ns1:Name "Ivo Uukkivi" ;
+    :url "https://www.metacritic.com/person/ivo-uukkivi" .
+
 :JPManoux a ns1:Actor ;
     ns1:Name "J.P. Manoux" .
 
@@ -5274,6 +5671,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :JakeGyllenhaal a ns1:Actor ;
     ns1:Name "Jake Gyllenhaal" .
+
+:JamaalBurcher a ns1:Actor ;
+    ns1:Name "Jamaal Burcher" ;
+    :url "https://www.metacritic.com/person/jamaal-burcher" .
+
+:JamalAlkhaldi a ns1:Actor ;
+    ns1:Name "Jamal Alkhaldi" ;
+    :url "https://www.metacritic.com/person/jamal-alkhaldi" .
 
 :JamieDemetriou a ns1:Actor ;
     ns1:Name "Jamie Demetriou" .
@@ -5316,6 +5721,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :JeffBergman a ns1:Actor ;
     ns1:Name "Jeff Bergman" .
+
+:JeffMoore a ns1:Actor ;
+    ns1:Name "Jeff Moore" ;
+    :url "https://www.metacritic.com/person/jeff-moore" .
+
+:JeffersonHall a ns1:Actor ;
+    ns1:Name "Jefferson Hall" ;
+    :url "https://www.metacritic.com/person/jefferson-hall" .
 
 :JeffreyCorazzini a ns1:Actor ;
     ns1:Name "Jeffrey Corazzini" .
@@ -5371,6 +5784,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :JoelFry a ns1:Actor ;
     ns1:Name "Joel Fry" .
 
+:JoelMorris a ns1:Actor ;
+    ns1:Name "Joel Morris" ;
+    :url "https://www.metacritic.com/person/joel-morris" .
+
 :JohannaThea a ns1:Actor ;
     ns1:Name "Johanna Thea" .
 
@@ -5378,7 +5795,16 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "John Cena" .
 
 :JohnDavidWashington a ns1:Actor ;
-    ns1:Name "John David Washington" .
+    ns1:Name "John David Washington" ;
+    ns1:thumbnail :JohnDavidWashington_img ;
+    :url "https://www.rottentomatoes.com/celebrity/john_david_washington" .
+
+:JohnDavidWashington_img a ns1:Image ;
+    :url "https://resizing.flixster.com/3_HdThM2vG_WW0sUoQmHJOVV-UE=/2216x2276/v1.bjsxNzg3MjY2O2o7MTg3ODU7MTIwMDsyMjE2OzIyNzY" .
+
+:JohnGettier a ns1:Actor ;
+    ns1:Name "John Gettier" ;
+    :url "https://www.metacritic.com/person/john-gettier" .
 
 :JohnKrasinski a ns1:MovieDirector ;
     ns1:Name "John Krasinski" .
@@ -5391,6 +5817,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :JonMChu a ns1:MovieDirector ;
     ns1:Name "Jon M. Chu" .
+
+:JonathanAjayi a ns1:Actor ;
+    ns1:Name "Jonathan Ajayi" ;
+    :url "https://www.metacritic.com/person/jonathan-ajayi" .
+
+:JonathanCamp a ns1:Actor ;
+    ns1:Name "Jonathan Camp" ;
+    :url "https://www.rottentomatoes.com/celebrity/jonathan_camp" .
 
 :JordanANash a ns1:Actor ;
     ns1:Name "Jordan A. Nash" .
@@ -5419,8 +5853,16 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :JuanPabloRaba a ns1:Actor ;
     ns1:Name "Juan Pablo Raba" .
 
+:JuhanUlfsak a ns1:Actor ;
+    ns1:Name "Juhan Ulfsak" ;
+    :url "https://www.metacritic.com/person/juhan-ulfsak" .
+
 :JulianDennison a ns1:Actor ;
     ns1:Name "Julian Dennison" .
+
+:JulianFerro a ns1:Actor ;
+    ns1:Name "Julian Ferro" ;
+    :url "https://www.metacritic.com/person/julian-ferro" .
 
 :JulietaZapiola a ns1:Actor ;
     ns1:Name "Julieta Zapiola" .
@@ -5434,14 +5876,28 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :JuneForay a ns1:Actor ;
     ns1:Name "June Foray" .
 
+:JungleCruise_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/mGvvhm-uRsc?rel=0&controls=0&showinfo=0" .
+
+:JustinSisk a ns1:Actor ;
+    ns1:Name "Justin Sisk" ;
+    :url "https://www.metacritic.com/person/justin-sisk" .
+
 :JustinTimberlake a ns1:Actor ;
     ns1:Name "Justin Timberlake" .
+
+:KailaIngram a ns1:Actor ;
+    ns1:Name "Kaila Ingram" ;
+    :url "https://www.metacritic.com/person/kaila-ingram" .
 
 :KanaUeda a ns1:Actor ;
     ns1:Name "Kana Ueda" .
 
 :KaranSoni a ns1:Actor ;
     ns1:Name "Karan Soni" .
+
+:Kat a ns1:FictionalCharacter ;
+    ns1:Name "Kat" .
 
 :KateWalsh a ns1:Actor ;
     ns1:Name "Kate Walsh" .
@@ -5474,7 +5930,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Kenichi Suzumura" .
 
 :KennethBranagh a ns1:Actor ;
-    ns1:Name "Kenneth Branagh" .
+    ns1:Name "Kenneth Branagh" ;
+    ns1:thumbnail :KennethBranagh_img ;
+    :url "https://www.rottentomatoes.com/celebrity/kenneth_branagh" .
+
+:KennethBranagh_img a ns1:Image ;
+    :url "https://resizing.flixster.com/uUoOQMrfxIqajl6TBD-uDiXzIZk=/300x450/v1.bjs3ODQ0MzA7ajsxODc3NDsxMjAwOzMwMDs0NTA" .
 
 :KhrisDavis a ns1:Actor ;
     ns1:Name "Khris Davis" .
@@ -5491,8 +5952,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :KristenHarris a ns1:Actor ;
     ns1:Name "Kristen Harris" .
 
-:KristenWiig a ns1:Actor ;
-    ns1:Name "Kristen Wiig" .
+:KristenWiig_img a ns1:Image ;
+    :url "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz" .
+
+:KristofferPolaha a ns1:Actor ;
+    ns1:Name "Kristoffer Polaha" ;
+    :url "https://www.metacritic.com/person/kristoffer-polaha" .
 
 :KsenijaMarinkovic a ns1:Actor ;
     ns1:Name "Ksenija Marinković" .
@@ -5516,6 +5981,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:startDateTime "2021-04-06T19:45:00"^^xsd:dateTime ;
     ns1:subtitle "SUBTITULADA" ;
     :room :room_SalaHd .
+
+:LaFabricaDeSuenos_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/bAiaVZ84bW8?controls=1&fs=0&autoplay=1" .
+
+:LaMujerEnLaVentana_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
 :LaNocheMagica_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T17:40:00"^^xsd:dateTime ;
@@ -5547,6 +6018,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
 
+:LaNocheMagica_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/W6WvRKTmYhU?rel=0&controls=0&showinfo=0" .
+
+:LaVerdad_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/LQNpvAlEdJs?rel=0&controls=0&showinfo=0" .
+
 :LashanaLynch a ns1:Actor ;
     ns1:Name "Lashana Lynch" .
 
@@ -5561,6 +6038,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :LaurentNicolas a ns1:Actor ;
     ns1:Name "Laurent Nicolas" .
+
+:LaurieShepherd a ns1:Actor ;
+    ns1:Name "Laurie Shepherd" ;
+    :url "https://www.metacritic.com/person/laurie-shepherd" .
 
 :LaverneCox a ns1:Actor ;
     ns1:Name "Laverne Cox" .
@@ -5586,11 +6067,22 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :LilRelHowery a ns1:Actor ;
     ns1:Name "Lil Rel Howery" .
 
+:LillyAspell a ns1:Actor ;
+    ns1:Name "Lilly Aspell" ;
+    :url "https://www.metacritic.com/person/lilly-aspell" .
+
 :Lin_ManuelMiranda a ns1:Actor ;
     ns1:Name "Lin-Manuel Miranda" .
 
 :LindaMay a ns1:Actor ;
     ns1:Name "Linda May" .
+
+:LolitaMarie a ns1:Actor ;
+    ns1:Name "Lolita Marie" ;
+    :url "https://www.metacritic.com/person/lolita-marie" .
+
+:LosCroods2_UnaNuevaEra_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/bVGlZR05Izc?rel=0&controls=0&showinfo=0" .
 
 :LosIntrusos_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T16:00:00"^^xsd:dateTime ;
@@ -5601,6 +6093,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:startDateTime "2021-04-06T20:30:00"^^xsd:dateTime ;
     ns1:subtitle "SUBTITULADA" ;
     :room :room_SalaHd .
+
+:LosIntrusos_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/Cxy0lHXaB8I?controls=1&fs=0&autoplay=1" .
 
 :LosNuevosMutantes_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T20:10:00"^^xsd:dateTime ;
@@ -6042,6 +6537,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:LosNuevosMutantes_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/j6LHN8UA1BY?rel=0&controls=0&showinfo=0" .
+
 :LouisGarrel a ns1:Actor ;
     ns1:Name "Louis Garrel" .
 
@@ -6050,6 +6548,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :LucaMarinelli a ns1:Actor ;
     ns1:Name "Luca Marinelli" .
+
+:Luca_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/_veu9vt5ETE?rel=0&controls=0&showinfo=0" .
 
 :LuceRains a ns1:Actor ;
     ns1:Name "Luce Rains" .
@@ -6063,8 +6564,19 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :LuisLuque a ns1:Actor ;
     ns1:Name "Luis Luque" .
 
+:LyndaCarter a ns1:Actor ;
+    ns1:Name "Lynda Carter" ;
+    :url "https://www.metacritic.com/person/lynda-carter" .
+
+:LyonBeckwith a ns1:Actor ;
+    ns1:Name "Lyon Beckwith" ;
+    :url "https://www.metacritic.com/person/lyon-beckwith" .
+
 :MadsMikkelsen a ns1:Actor ;
     ns1:Name "Mads Mikkelsen" .
+
+:Mahir a ns1:FictionalCharacter ;
+    ns1:Name "Mahir" .
 
 :MaiKadowaki a ns1:Actor ;
     ns1:Name "Mai Kadowaki" .
@@ -6075,11 +6587,23 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :MannyJacinto a ns1:Actor ;
     ns1:Name "Manny Jacinto" .
 
+:ManojAnand a ns1:Actor ;
+    ns1:Name "Manoj Anand" ;
+    :url "https://www.metacritic.com/person/manoj-anand" .
+
 :ManuelFerrari a ns1:MovieDirector ;
     ns1:Name "Manuel Ferrari" .
 
 :ManuelaMartelli a ns1:Actor ;
     ns1:Name "Manuela Martelli" .
+
+:MarcelSabat a ns1:Actor ;
+    ns1:Name "Marcel Sabat" ;
+    ns1:thumbnail :MarcelSabat_img ;
+    :url "https://www.rottentomatoes.com/celebrity/marcel_sabat" .
+
+:MarcelSabat_img a ns1:Image ;
+    :url "https://resizing.flixster.com/BOMj4WcL1h7AKqilFY2J5GKeM0Q=/3840x2160/v1.bjsyNDA0MjQzO2o7MTg4Mzc7MTIwMDszODQwOzIxNjA" .
 
 :MarcoBarricelli a ns1:Actor ;
     ns1:Name "Marco Barricelli" .
@@ -6099,11 +6623,19 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :MarinaMazepa a ns1:Actor ;
     ns1:Name "Marina Mazepa" .
 
+:MarisolCorrea a ns1:Actor ;
+    ns1:Name "Marisol Correa" ;
+    :url "https://www.metacritic.com/person/marisol-correa" .
+
 :MarisolNichols a ns1:Actor ;
     ns1:Name "Marisol Nichols" .
 
 :MarkGatiss a ns1:Actor ;
     ns1:Name "Mark Gatiss" .
+
+:MarkKrenik a ns1:Actor ;
+    ns1:Name "Mark Krenik" ;
+    :url "https://www.metacritic.com/person/mark-krenik" .
 
 :MarkStrong a ns1:Actor ;
     ns1:Name "Mark Strong" .
@@ -6114,6 +6646,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :MarkoBacovic a ns1:Actor ;
     ns1:Name "Marko Baćović" .
 
+:MarlaAaronWapner a ns1:Actor ;
+    ns1:Name "Marla Aaron Wapner" ;
+    :url "https://www.metacritic.com/person/marla-aaron-wapner" .
+
 :MarsaiMartin a ns1:Actor ;
     ns1:Name "Marsai Martin" .
 
@@ -6121,7 +6657,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Martín Desalvo" .
 
 :MartinDonovan a ns1:Actor ;
-    ns1:Name "Martin Donovan" .
+    ns1:Name "Martin Donovan" ;
+    ns1:thumbnail :MartinDonovan_img ;
+    :url "https://www.rottentomatoes.com/celebrity/1022418_martin_donovan" .
+
+:MartinDonovan_img a ns1:Image ;
+    :url "https://resizing.flixster.com/bPesQwVs-DAy1rXQ2GOpY8WXUtA=/810x1080/v1.bjsxNjA3NzI4O2o7MTg3ODM7MTIwMDs4MTA7MTA4MA" .
+
+:MartinEden_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
 :MartinPiroyansky a ns1:Actor ;
     ns1:Name "Martín Piroyansky" .
@@ -6180,6 +6724,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :MercedesBurgos a ns1:Actor ;
     ns1:Name "Mercedes Burgos" .
 
+:MichaelCaine_img a ns1:Image ;
+    :url "https://resizing.flixster.com/2Fc1WlnRfZrVFrojtN2JpemeBqg=/220x196/v1.cjs0NDk1OTtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" .
+
 :MichaelGwisdek a ns1:Actor ;
     ns1:Name "Michael Gwisdek" .
 
@@ -6219,8 +6766,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :MollyShannon a ns1:Actor ;
     ns1:Name "Molly Shannon" .
 
+:MonicaHaynes a ns1:Actor ;
+    ns1:Name "Monica Haynes" ;
+    :url "https://www.metacritic.com/person/monica-haynes" .
+
 :MoraRecalde a ns1:Actor ;
     ns1:Name "Mora Recalde" .
+
+:MortalKombat_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/VKROb3deXzU?rel=0&controls=0&showinfo=0" .
 
 :MujerMaravilla1984_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T22:50:00"^^xsd:dateTime ;
@@ -6352,11 +6906,17 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Subtitulado" ;
     :room :room_Classic_2D .
 
+:MujerMaravilla1984_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/dxNwZ2lCeUo?rel=0&controls=0&showinfo=0" .
+
 :MyriemAkeddiou a ns1:Actor ;
     ns1:Name "Myriem Akeddiou" .
 
 :NachoAlvarez a ns1:MovieDirector ;
     ns1:Name "Nacho Álvarez" .
+
+:Nadie_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/ycv9WZct31w?rel=0&controls=0&showinfo=0" .
 
 :NancyDuplaa a ns1:Actor ;
     ns1:Name "Nancy Dupláa" .
@@ -6373,9 +6933,6 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :NatalieMorales a ns1:Actor ;
     ns1:Name "Natalie Morales" .
 
-:NatashaRothwell a ns1:Actor ;
-    ns1:Name "Natasha Rothwell" .
-
 :NathalieEmmanuel a ns1:Actor ;
     ns1:Name "Nathalie Emmanuel" .
 
@@ -6387,6 +6944,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :NazneenContractor a ns1:Actor ;
     ns1:Name "Nazneen Contractor" .
+
+:Neil a ns1:FictionalCharacter ;
+    ns1:Name "Neil" .
 
 :NgChinHan a ns1:Actor ;
     ns1:Name "Ng Chin Han" .
@@ -6412,6 +6972,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :NoahJupe a ns1:Actor ;
     ns1:Name "Noah Jupe" .
 
+:Nomadland_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/u9VfkCaeTfM?rel=0&controls=0&showinfo=0" .
+
 :NoriakiSugiyama a ns1:Actor ;
     ns1:Name "Noriaki Sugiyama" .
 
@@ -6423,9 +6986,6 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :OakesFegley a ns1:Actor ;
     ns1:Name "Oakes Fegley" .
-
-:OakleyBull a ns1:Actor ;
-    ns1:Name "Oakley Bull" .
 
 :OlgaMerediz a ns1:Actor ;
     ns1:Name "Olga Merediz" .
@@ -6460,11 +7020,11 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :PanayotisPascot a ns1:Actor ;
     ns1:Name "Panayotis Pascot" .
 
+:PanicoEnLasAlturas_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/EpWE7PoBUe4?rel=0&controls=0&showinfo=0" .
+
 :PatriciaGrier a ns1:Actor ;
     ns1:Name "Patricia Grier" .
-
-:PattyJenkins a ns1:MovieDirector ;
-    ns1:Name "Patty Jenkins" .
 
 :PaulBriggs a ns1:MovieDirector ;
     ns1:Name "Paul Briggs" .
@@ -6478,6 +7038,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :PaulHamy a ns1:Actor ;
     ns1:Name "Paul Hamy" .
 
+:PaulRonCruz a ns1:Actor ;
+    ns1:Name "Paul Ron Cruz" ;
+    :url "https://www.metacritic.com/person/paul-ron-cruz" .
+
 :PaulWalterHauser a ns1:Actor ;
     ns1:Name "Paul Walter Hauser" .
 
@@ -6487,8 +7051,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :PedroCasablanc a ns1:Actor ;
     ns1:Name "Pedro Casablanc" .
 
-:PedroPascal a ns1:Actor ;
-    ns1:Name "Pedro Pascal" .
+:PedroPascal_img a ns1:Image ;
+    :url "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" .
+
+:PenelopeKapudija a ns1:Actor ;
+    ns1:Name "Penelope Kapudija" ;
+    :url "https://www.metacritic.com/person/penelope-kapudija" .
 
 :PequenosSecretos_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T14:00:00"^^xsd:dateTime ;
@@ -6530,8 +7098,17 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "SUBTITULADA" ;
     :room :room_SalaHd .
 
+:PequenosSecretos_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/y3Nm9NdMevA?rel=0&controls=0&showinfo=0" .
+
 :PeterDinklage a ns1:Actor ;
     ns1:Name "Peter Dinklage" .
+
+:PeterRabbit2_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
+
+:PeterRabbit_ConejoEnFuga_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/QNgxHvVCk3k?rel=0&controls=0&showinfo=0" .
 
 :PierreGomme a ns1:Actor ;
     ns1:Name "Pierre Gommé" .
@@ -6554,6 +7131,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
 
+:Pinocho_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/8sR52v4hNBI?rel=0&controls=0&showinfo=0" .
+
+:Priya a ns1:FictionalCharacter ;
+    ns1:Name "Priya" .
+
+:Protagonist a ns1:FictionalCharacter ;
+    ns1:Name "Protagonist" .
+
 :QuentinDupieux a ns1:MovieDirector ;
     ns1:Name "Quentin Dupieux" .
 
@@ -6566,8 +7152,8 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :RandyThom a ns1:Actor ;
     ns1:Name "Randy Thom" .
 
-:RaviPatel a ns1:Actor ;
-    ns1:Name "Ravi Patel" .
+:RapidosYFuriosos9_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
 :RayMckinnon a ns1:Actor ;
     ns1:Name "Ray McKinnon" .
@@ -6650,6 +7236,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
 
+:RayaYElUltimoDragon_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/l4QQS2gNmPc?controls=1&fs=0&autoplay=1" .
+
 :RebeccaHall a ns1:Actor ;
     ns1:Name "Rebecca Hall" .
 
@@ -6661,6 +7250,18 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :RhysDarby a ns1:Actor ;
     ns1:Name "Rhys Darby" .
+
+:RichCeraulo a ns1:Actor ;
+    ns1:Name "Rich Ceraulo" ;
+    :url "https://www.metacritic.com/person/rich-ceraulo" .
+
+:RichCerauloKo a ns1:Actor ;
+    ns1:Name "Rich Ceraulo Ko" ;
+    :url "https://www.rottentomatoes.com/celebrity/rich_ceraulo_ko" .
+
+:RickKelvinBranch a ns1:Actor ;
+    ns1:Name "Rick Kelvin Branch" ;
+    :url "https://www.metacritic.com/person/rick-kelvin-branch" .
 
 :RitaTushingham a ns1:Actor ;
     ns1:Name "Rita Tushingham" .
@@ -6681,13 +7282,18 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Robert Patrick" .
 
 :RobertPattinson a ns1:Actor ;
-    ns1:Name "Robert Pattinson" .
+    ns1:Name "Robert Pattinson" ;
+    ns1:thumbnail :RobertPattinson_img ;
+    :url "https://www.rottentomatoes.com/celebrity/robert_pattinson" .
+
+:RobertPattinson_img a ns1:Image ;
+    :url "https://resizing.flixster.com/bQ6c-PJddTGxk1eSu0lPvneZ6m4=/540x720/v1.bjs3NTcwNDE7ajsxODc3MzsxMjAwOzU0MDs3MjA" .
 
 :RobertoBenigni a ns1:Actor ;
     ns1:Name "Roberto Benigni" .
 
-:RobinWright a ns1:Actor ;
-    ns1:Name "Robin Wright" .
+:RobinWright_img a ns1:Image ;
+    :url "https://resizing.flixster.com/eIqrys_mhs7F3ohyamRpXh1yxJ8=/1000x1500/v1.bjs3NDQ4MjY7ajsxODc3MzsxMjAwOzEwMDA7MTUwMA" .
 
 :RoccoPapaleo a ns1:Actor ;
     ns1:Name "Rocco Papaleo" .
@@ -6709,6 +7315,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :RoseByrne a ns1:Actor ;
     ns1:Name "Rose Byrne" .
+
+:RuegaPorNosotros_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/n4SJaeP04vM?rel=0&controls=0&showinfo=0" .
 
 :RufusSewell a ns1:Actor ;
     ns1:Name "Rufus Sewell" .
@@ -6737,8 +7346,14 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :SamuelLJackson a ns1:Actor ;
     ns1:Name "Samuel L. Jackson" .
 
+:Sanjay a ns1:FictionalCharacter ;
+    ns1:Name "Sanjay" .
+
 :SaoriHayami a ns1:Actor ;
     ns1:Name "Saori Hayami" .
+
+:Sator a ns1:FictionalCharacter ;
+    ns1:Name "Sator" .
 
 :SatoshiHino a ns1:Actor ;
     ns1:Name "Satoshi Hino" .
@@ -6754,6 +7369,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
 
+:Scooby_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/SiBTJxeWtc4?controls=1&fs=0&autoplay=1" .
+
 :Serbia a ns1:Country ;
     ns1:Name "Serbia" .
 
@@ -6765,6 +7383,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :Sia a ns1:Actor ;
     ns1:Name "Sia" .
+
+:SiaAlipour a ns1:Actor ;
+    ns1:Name "Sia Alipour" ;
+    :url "https://www.metacritic.com/person/sia-alipour" .
 
 :SimonMcquoid a ns1:MovieDirector ;
     ns1:Name "Simon McQuoid" .
@@ -6783,6 +7405,20 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :SonequaMartin_Green a ns1:Actor ;
     ns1:Name "Sonequa Martin-Green" .
+
+:SoniaGoswami a ns1:Actor ;
+    ns1:Name "Sonia Goswami" ;
+    :url "https://www.metacritic.com/person/sonia-goswami" .
+
+:SpaceJam_UnaNuevaEra_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/cyK_zpv69uI?rel=0&controls=0&showinfo=0" .
+
+:SpencerTrinwith a ns1:Actor ;
+    ns1:Name "Spencer Trinwith" ;
+    :url "https://www.metacritic.com/person/spencer-trinwith" .
+
+:Spirit_ElIndomable_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/qVrzHqLvQZ0?rel=0&controls=0&showinfo=0" .
 
 :StachaHicks a ns1:Actor ;
     ns1:Name "Stacha Hicks" .
@@ -6805,6 +7441,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :StephanieSy a ns1:Actor ;
     ns1:Name "Stephanie Sy" .
 
+:SteveTrevor a ns1:FictionalCharacter ;
+    ns1:Name "Steve Trevor" .
+
 :SubratDutta a ns1:Actor ;
     ns1:Name "Subrat Dutta" .
 
@@ -6816,6 +7455,12 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :Swankie a ns1:Actor ;
     ns1:Name "Swankie" .
+
+:Swat2 a ns1:FictionalCharacter ;
+    ns1:Name "SWAT 2" .
+
+:Swat_Target a ns1:FictionalCharacter ;
+    ns1:Name "SWAT / Target" .
 
 :SylvesterMccoy a ns1:Actor ;
     ns1:Name "Sylvester McCoy" .
@@ -6837,6 +7482,24 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :TamaeGarateguy a ns1:MovieDirector ;
     ns1:Name "Tamae Garateguy" .
+
+:Tenet_company_1 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0002663/" .
+
+:Tenet_company_2 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0147954/" .
+
+:Tenet_cover_image_1 a ns1:Image ;
+    :url "https://resizing.flixster.com/nchHALzH07gWM88bzcDM7zZKm-g=/740x380/v1.bjsyNTEwOTE4O2o7MTg4Mzk7MTIwMDs2MDAwOzQwMDA" .
+
+:Tenet_cover_image_2 a ns1:Image ;
+    :url "https://static.metacritic.com/images/products/movies/7/a60818c40f69031bf30ca846444011e4.jpg" .
+
+:Tenet_cover_image_3 a ns1:Image ;
+    :url "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" .
+
+:Tenet_cover_image_4 a ns1:Image ;
+    :url "https://img.ecartelera.com/carteles/15100/15194/002_p.jpg" .
 
 :Tenet_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T19:40:00"^^xsd:dateTime ;
@@ -6888,17 +7551,28 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:Tenet_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/Q3YsDF8rZ9w?rel=0&controls=0&showinfo=0" .
+
 :TeresaRuiz a ns1:Actor ;
     ns1:Name "Teresa Ruiz" .
 
 :TerryKinney a ns1:Actor ;
     ns1:Name "Terry Kinney" .
 
+:TessaBonhamJones a ns1:Actor ;
+    ns1:Name "Tessa Bonham Jones" ;
+    :url "https://www.metacritic.com/person/tessa-bonham-jones" .
+
 :TetsuInada a ns1:Actor ;
     ns1:Name "Tetsu Inada" .
 
 :TeyonahParris a ns1:Actor ;
     ns1:Name "Teyonah Parris" .
+
+:ThomasClayStrickland a ns1:Actor ;
+    ns1:Name "Thomas Clay Strickland" ;
+    :url "https://www.metacritic.com/person/thomas-clay-strickland" .
 
 :ThomasKee a ns1:Actor ;
     ns1:Name "Thomas Kee" .
@@ -7231,6 +7905,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:TomYJerry_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/9G5QXTUIIBs?rel=0&controls=0&showinfo=0" .
+
 :TomokazuSeki a ns1:Actor ;
     ns1:Name "Tomokazu Seki" .
 
@@ -7242,6 +7919,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :TonyTodd a ns1:Actor ;
     ns1:Name "Tony Todd" .
+
+:TopGun_Maverick_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/69GWoZ5fxlc?rel=0&controls=0&showinfo=0" .
 
 :Trolls2_GiraMundial_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T17:15:00"^^xsd:dateTime ;
@@ -7383,6 +8063,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español" ;
     :room :room_Classic_2D .
 
+:Trolls2_GiraMundial_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/8Di9oc3EFhs?rel=0&controls=0&showinfo=0" .
+
 :UmaThurman a ns1:Actor ;
     ns1:Name "Uma Thurman" .
 
@@ -7395,6 +8078,18 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:startDateTime "2021-04-06T21:05:00"^^xsd:dateTime ;
     ns1:subtitle "CASTELLANO" ;
     :room :room_SalaHd .
+
+:UnCrimenComun_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/7AWfv05ilAw?rel=0&controls=0&showinfo=0" .
+
+:UnLugarEnSilencio2_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/9fcDdfN9_tg?rel=0&controls=0&showinfo=0" .
+
+:UnaCasaLejos_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/td5mdFmGUSg?rel=0&controls=0&showinfo=0" .
+
+:UnaExtranaObsesion_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
 :UnitedStatesOfAmerica a ns1:Country ;
     ns1:Name "United States of America" .
@@ -7413,6 +8108,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :VanessaCurry a ns1:Actor ;
     ns1:Name "Vanessa Curry" .
+
+:VenganzaImplacable_trailer a :trailer ;
+    :url "https://www.youtube.com/embed/p5esXgwi1h4?rel=0&controls=0&showinfo=0" .
 
 :VeronicaEchegui a ns1:Actor ;
     ns1:Name "Verónica Echegui" .
@@ -7456,6 +8154,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :WayneDuvall a ns1:Actor ;
     ns1:Name "Wayne Duvall" .
 
+:WesChatham a ns1:Actor ;
+    ns1:Name "Wes Chatham" ;
+    :url "https://www.metacritic.com/person/wes-chatham" .
+
 :WilfriedHochholdinger a ns1:Actor ;
     ns1:Name "Wilfried Hochholdinger" .
 
@@ -7465,11 +8167,42 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :WilliamHurt a ns1:Actor ;
     ns1:Name "William Hurt" .
 
+:WilliamMoultonMarston a ns1:Person ;
+    ns1:Name "William Moulton Marston" ;
+    :url "https://www.imdb.com/name/nm0551376/" .
+
 :WilliamSadler a ns1:Actor ;
     ns1:Name "William Sadler" .
 
 :WillyLemos a ns1:Actor ;
     ns1:Name "Willy Lemos" .
+
+:WonderWoman1984_company_1 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0728674/" .
+
+:WonderWoman1984_company_3 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0283444/" .
+
+:WonderWoman1984_company_6 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0002663/" .
+
+:WonderWoman1984_company_7 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0038332/" .
+
+:WonderWoman1984_company_9 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0028338/" .
+
+:WonderWoman1984_cover_image_1 a ns1:Image ;
+    :url "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI" .
+
+:WonderWoman1984_cover_image_2 a ns1:Image ;
+    :url "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg" .
+
+:WonderWoman1984_cover_image_3 a ns1:Image ;
+    :url "https://static.metacritic.com/images/products/movies/4/9d1a4650bb42f43a0a781bfa70a7772d.jpg" .
+
+:WonderWoman1984_cover_image_4 a ns1:Image ;
+    :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
 
 :WyattRussell a ns1:Actor ;
     ns1:Name "Wyatt Russell" .
@@ -7486,20 +8219,30 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :YuAsakawa a ns1:Actor ;
     ns1:Name "Yū Asakawa" .
 
+:YuriKolokolnikov a ns1:Actor ;
+    ns1:Name "Yuri Kolokolnikov" ;
+    :url "https://www.metacritic.com/person/yuri-kolokolnikov" .
+
 :Zendaya a ns1:Actor ;
     ns1:Name "Zendaya" .
+
+:Zeta_trailer a :trailer ;
+    :url "https://www.youtube-nocookie.com/embed/M0N77XMtTN0?controls=1&fs=0&autoplay=1" .
 
 :ZoiePalmer a ns1:Actor ;
     ns1:Name "Zoie Palmer" .
 
 :accion a ns1:MovieGenre,
         owl:NamedIndividual ;
-    ns1:Name "accion"@es ;
-    ns1:duration 1.55e+02 .
+    ns1:Name "accion"@es .
 
 :author_tenet_company_1 a ns1:Company,
         owl:NamedIndividual ;
     :url "https://www.imdb.com/company/co0147954/"^^xsd:anyURI .
+
+:christopher_nolan_img a ns1:Image,
+        owl:NamedIndividual ;
+    :url "https://resizing.flixster.com/H0_441OvEsJ-OMlAn-njnqv5uFc=/275x230/v1.cjs0MDgwNztqOzE4NzY1OzEyMDA7Mjc1OzIzMA"^^xsd:anyURI .
 
 :ciencia_ficcion a ns1:MovieGenre,
         owl:NamedIndividual ;
@@ -7550,6 +8293,7 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:author :author_tenet_company_1,
         :christopher_nolan ;
     ns1:director :christopher_nolan ;
+    ns1:duration 1.55e+02 ;
     ns1:genre :accion,
         :ciencia_ficcion,
         :thriller ;
@@ -7571,7 +8315,19 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
         "time paradox"^^xsd:string ;
     :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string .
+    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
+    ns5:aggregateRating :tenet_aggregated_rating_1 .
+
+:tenet_aggregated_rating_1 a owl:NamedIndividual,
+        ns5:AggregateRating ;
+    ns1:Name "Tomatometer" ;
+    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    :bestRating 1e+02 ;
+    :ratingValue 7e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 349 ;
+    ns5:reviewCount 349 .
 
 :tenet_cover_image_1 a ns1:Image,
         owl:NamedIndividual ;
@@ -7584,7 +8340,20 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :tenet_review_1_author a ns1:Person,
         owl:NamedIndividual ;
     ns1:Name "Tim Robey"^^xsd:anyURI ;
+    ns1:thumbnail :tenet_review_1_author_img ;
     :url "https://www.rottentomatoes.com/critic/tim-robey"^^xsd:anyURI .
+
+:tenet_review_1_author_img a ns1:Image,
+        owl:NamedIndividual ;
+    :url "https://example.com/img.jpg"^^xsd:anyURI .
+
+:tenet_review_1_rating_1 a owl:NamedIndividual,
+        ns5:Rating ;
+    ns1:Name "example name" ;
+    ns1:description "example description" ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
 
 :tenet_review_1_site a ns3:WebPage,
         owl:NamedIndividual ;
@@ -7596,7 +8365,8 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:subtitle "Español"@es ;
     :room :room_classic_2d .
 
-:tenet_trailer a owl:NamedIndividual ;
+:tenet_trailer a owl:NamedIndividual,
+        :trailer ;
     ns1:Name "Tenet (Trailer 2)"@en ;
     ns1:description "Video Clip of Tenet"^^rdf:langString ;
     ns1:thumbnail :tenet_trailer_thumbnail ;
@@ -7609,9 +8379,6 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :thriller a ns1:MovieGenre,
         owl:NamedIndividual ;
     ns1:Name "Thriller"@es .
-
-:trailer a owl:Class ;
-    rdfs:subClassOf ns1:Media .
 
 :url a owl:DatatypeProperty ;
     rdfs:range xsd:anyURI .
@@ -7663,6 +8430,17 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :CharlizeTheron a ns1:Actor ;
     ns1:Name "Charlize Theron" .
 
+:ChrisPine a ns1:Actor ;
+    ns1:Name "Chris Pine" ;
+    ns1:thumbnail :ChrisPine_img ;
+    :url "https://www.rottentomatoes.com/celebrity/christopher_pine" .
+
+:ChristopherNolan a ns1:MovieDirector,
+        ns1:Person ;
+    ns1:Name "Christopher Nolan" ;
+    ns1:thumbnail :ChristopherNolan_img ;
+    :url "https://www.rottentomatoes.com/celebrity/christopher_nolan" .
+
 :CinemaCity a ns1:Cinema ;
     ns1:Name "CINEMA CITY" .
 
@@ -7696,9 +8474,6 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :Comedia_Terror a ns1:MovieGenre ;
     ns1:Name "Comedia / Terror" .
 
-:ConnieNielsen a ns1:Actor ;
-    ns1:Name "Connie Nielsen" .
-
 :DaisyRidley a ns1:Actor ;
     ns1:Name "Daisy Ridley" .
 
@@ -7721,7 +8496,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Eiza González" .
 
 :ElizabethDebicki a ns1:Actor ;
-    ns1:Name "Elizabeth Debicki" .
+    ns1:Name "Elizabeth Debicki" ;
+    ns1:thumbnail :ElizabethDebicki_img ;
+    :url "https://www.rottentomatoes.com/celebrity/elizabeth_debicki" .
 
 :EmilyBlunt a ns1:Actor ;
     ns1:Name "Emily Blunt" .
@@ -7731,6 +8508,15 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :FoxRose a ns1:Actor ;
     ns1:Name "Fox Rose" .
+
+:GabriellaWilde a ns1:Actor ;
+    ns1:Name "Gabriella Wilde" ;
+    :url "https://www.metacritic.com/person/gabriella-wilde" .
+
+:GalGadot a ns1:Actor ;
+    ns1:Name "Gal Gadot" ;
+    ns1:thumbnail :GalGadot_img ;
+    :url "https://www.rottentomatoes.com/celebrity/gal-gadot" .
 
 :GrahamGreene a ns1:Actor ;
     ns1:Name "Graham Greene" .
@@ -7780,6 +8566,11 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :KevinDoree a ns1:Actor ;
     ns1:Name "Kevin Doree" .
 
+:KristenWiig a ns1:Actor ;
+    ns1:Name "Kristen Wiig" ;
+    ns1:thumbnail :KristenWiig_img ;
+    :url "https://www.rottentomatoes.com/celebrity/kristen_wiig" .
+
 :LeaSeydoux a ns1:Actor ;
     ns1:Name "Léa Seydoux" .
 
@@ -7793,7 +8584,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
     ns1:Name "Maisie Williams" .
 
 :MichaelCaine a ns1:Actor ;
-    ns1:Name "Michael Caine" .
+    ns1:Name "Michael Caine" ;
+    ns1:thumbnail :MichaelCaine_img ;
+    :url "https://www.rottentomatoes.com/celebrity/michael_caine" .
 
 :MichelleRodriguez a ns1:Actor ;
     ns1:Name "Michelle Rodriguez" .
@@ -7801,8 +8594,30 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :NaomieHarris a ns1:Actor ;
     ns1:Name "Naomie Harris" .
 
+:NatashaRothwell a ns1:Actor ;
+    ns1:Name "Natasha Rothwell" ;
+    :url "https://www.metacritic.com/person/natasha-rothwell" .
+
+:OakleyBull a ns1:Actor ;
+    ns1:Name "Oakley Bull" ;
+    :url "https://www.metacritic.com/person/oakley-bull" .
+
+:PedroPascal a ns1:Actor ;
+    ns1:Name "Pedro Pascal" ;
+    ns1:thumbnail :PedroPascal_img ;
+    :url "https://www.rottentomatoes.com/celebrity/pedro_pascal" .
+
 :RalphFiennes a ns1:Actor ;
     ns1:Name "Ralph Fiennes" .
+
+:RaviPatel a ns1:Actor ;
+    ns1:Name "Ravi Patel" ;
+    :url "https://www.metacritic.com/person/ravi-patel" .
+
+:RobinWright a ns1:Actor ;
+    ns1:Name "Robin Wright" ;
+    ns1:thumbnail :RobinWright_img ;
+    :url "https://www.rottentomatoes.com/celebrity/robin_wright" .
 
 :Romance a ns1:MovieGenre ;
     ns1:Name "Romance" .
@@ -7843,6 +8658,10 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :VincentPerez a ns1:Actor ;
     ns1:Name "Vincent Pérez" .
 
+:WarnerBrosPictures a ns1:Company ;
+    ns1:Name "Warner Bros. Pictures" ;
+    :url "https://www.rottentomatoes.com/" .
+
 :Western a ns1:MovieGenre ;
     ns1:Name "Western" .
 
@@ -7851,14 +8670,13 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :christopher_nolan a ns1:MovieDirector,
         owl:NamedIndividual ;
-    ns1:Name "Christopher Nolan" .
+    ns1:Name "Christopher Nolan" ;
+    ns1:thumbnail :christopher_nolan_img ;
+    :url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyURI .
 
 :inglés a ns1:Language,
         owl:NamedIndividual ;
     ns1:languageCode "en"^^xsd:string .
-
-:movie_review a owl:Class ;
-    rdfs:subClassOf ns3:Review .
 
 :room_Gc_2D a :cinema_room ;
     ns1:Name "GC - 2D" ;
@@ -7869,6 +8687,11 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :CinepolisNeuquen a ns1:Cinema ;
     ns1:Name "Cinépolis Neuquén" .
+
+:ConnieNielsen a ns1:Actor ;
+    ns1:Name "Connie Nielsen" ;
+    ns1:thumbnail :ConnieNielsen_img ;
+    :url "https://www.rottentomatoes.com/celebrity/connie_nielsen" .
 
 :FrancesSubtitulado a ns1:Language ;
     ns1:languageCode "fr" .
@@ -7882,8 +8705,16 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :Musica a ns1:MovieGenre ;
     ns1:Name "Música" .
 
+:PattyJenkins a ns1:MovieDirector,
+        ns1:Person ;
+    ns1:Name "Patty Jenkins" ;
+    :url "https://www.rottentomatoes.com/celebrity/patty_jenkins" .
+
 :RamiMalek a ns1:Actor ;
     ns1:Name "Rami Malek" .
+
+:movie_review a owl:Class ;
+    rdfs:subClassOf ns3:Review .
 
 :Italia a ns1:Country ;
     ns1:Name "Italia" .
@@ -7891,6 +8722,8 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 :room_Sala4D a :cinema_room ;
     ns1:Name "SALA 4D" ;
     :cinema :CinemaCity .
+
+ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :CienciaFiccion a ns1:MovieGenre ;
     ns1:Name "Ciencia Ficción" .
@@ -7953,6 +8786,9 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :EstadosUnidos a ns1:Country ;
     ns1:Name "Estados Unidos" .
+
+:trailer a owl:Class ;
+    rdfs:subClassOf ns1:Media .
 
 :room_4D_2D a :cinema_room ;
     ns1:Name "4D - 2D" ;
