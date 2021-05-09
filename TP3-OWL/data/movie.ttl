@@ -129,8 +129,7 @@
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#accion
 :accion rdf:type owl:NamedIndividual ,
                  <http://dbpedia.org/ontology/MovieGenre> ;
-        <http://dbpedia.org/ontology/Name> "accion"@es ;
-        <http://dbpedia.org/ontology/duration> "155.0"^^xsd:double .
+        <http://dbpedia.org/ontology/Name> "accion"@es .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#author_tenet_company_1
@@ -235,6 +234,7 @@
        :hasCharacter :neil ;
        :hasShow :tenet_show_1 ;
        :hasTrailer :tenet_trailer ;
+       <http://dbpedia.org/ontology/duration> "155.0"^^xsd:double ;
        <http://dbpedia.org/ontology/releaseDate> ""^^xsd:date ;
        <http://dbpedia.org/ontology/title> "Tenet"^^rdf:langString ;
        :content_rating "P-13"^^xsd:string ;
@@ -274,6 +274,7 @@
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_author
 :tenet_review_1_author rdf:type owl:NamedIndividual ,
                                 <http://dbpedia.org/ontology/Person> ;
+                       <http://dbpedia.org/ontology/thumbnail> :tenet_review_1_author_img ;
                        <http://dbpedia.org/ontology/Name> "Tim Robey"^^xsd:anyURI ;
                        :url "https://www.rottentomatoes.com/critic/tim-robey"^^xsd:anyURI .
 
@@ -299,7 +300,8 @@
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_trailer
-:tenet_trailer rdf:type owl:NamedIndividual ;
+:tenet_trailer rdf:type owl:NamedIndividual ,
+                        :trailer ;
                <http://dbpedia.org/ontology/thumbnail> :tenet_trailer_thumbnail ;
                <http://dbpedia.org/ontology/Name> "Tenet (Trailer 2)"@en ;
                <http://dbpedia.org/ontology/description> "Video Clip of Tenet"^^rdf:langString ;
