@@ -8,7 +8,8 @@
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> rdf:type owl:Ontology ;
                                                                                                 owl:imports <http://dbpedia.org/ontology/> ,
-                                                                                                            <http://purl.org/spar/fabio/2019-02-19> .
+                                                                                                            <http://purl.org/spar/fabio/2019-02-19> ,
+                                                                                                            <https://schema.org/> .
 
 #################################################################
 #    Object Properties
@@ -28,6 +29,12 @@
 :hasCharacter rdf:type owl:ObjectProperty ;
               rdfs:domain <http://dbpedia.org/ontology/Film> ;
               rdfs:range <http://dbpedia.org/ontology/FictionalCharacter> .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#hasRating
+:hasRating rdf:type owl:ObjectProperty ;
+           rdfs:domain :movie_review ;
+           rdfs:range <https://schema.org/Rating> .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#hasShow
@@ -56,6 +63,12 @@
 <http://dbpedia.org/ontology/nameInTraditionalChinese> rdfs:subPropertyOf <http://dbpedia.org/ontology/nation> .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#bestRating
+:bestRating rdf:type owl:DatatypeProperty ;
+            rdfs:domain <https://schema.org/Rating> ;
+            rdfs:range xsd:double .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#content_rating
 :content_rating rdf:type owl:DatatypeProperty ;
                 rdfs:domain <http://dbpedia.org/ontology/Film> ;
@@ -73,6 +86,12 @@
          rdfs:range xsd:string .
 
 
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ratingValue
+:ratingValue rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/Rating> ;
+             rdfs:range xsd:double .
+
+
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#sourceUrl
 :sourceUrl rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf :url ;
@@ -88,6 +107,12 @@
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#url
 :url rdf:type owl:DatatypeProperty ;
      rdfs:range xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#worstRating
+:worstRating rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/Rating> ;
+             rdfs:range xsd:double .
 
 
 #################################################################
@@ -273,6 +298,7 @@
                 <http://purl.org/dc/terms/publisher> :monocle ;
                 <http://purl.org/spar/fabio/hasManifestation> :tenet_review_1_site ;
                 <http://purl.org/vocab/frbr/core#realization> :tenet ;
+                :hasRating :tenet_review_1_rating_1 ;
                 <http://dbpedia.org/ontology/Name> "review example name" ;
                 <http://purl.org/dc/terms/created> "2021-04-06T19:40:00"^^xsd:dateTime ;
                 :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string ;
@@ -291,6 +317,16 @@
 :tenet_review_1_author_img rdf:type owl:NamedIndividual ,
                                     <http://dbpedia.org/ontology/Image> ;
                            :url "https://example.com/img.jpg"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_rating_1
+:tenet_review_1_rating_1 rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Rating> ;
+                         <http://dbpedia.org/ontology/Name> "example name" ;
+                         <http://dbpedia.org/ontology/description> "example description" ;
+                         :bestRating "1.0"^^xsd:double ;
+                         :ratingValue "-1.0"^^xsd:double ;
+                         :worstRating "-1.0"^^xsd:double .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_site
