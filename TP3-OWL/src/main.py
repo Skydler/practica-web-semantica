@@ -6,7 +6,7 @@ from rdflib import Graph
 graph = Graph()
 graph.parse(BASE_URL, format="turtle")
 
-with open("../data/tp2_movies.json", "r") as file:
+with open("../data/tp1_movies.json", "r") as file:
     json_string = file.read()
 movie_objects = Movie.schema().loads(json_string, many=True)
 
