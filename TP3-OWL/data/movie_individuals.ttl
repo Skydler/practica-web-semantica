@@ -1,9 +1,9 @@
 @prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 @prefix ns1: <http://dbpedia.org/ontology/> .
-@prefix ns2: <http://purl.org/spar/fabio/> .
-@prefix ns3: <http://purl.org/vocab/frbr/core#> .
-@prefix ns4: <https://schema.org/> .
-@prefix ns5: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://purl.org/spar/fabio/> .
+@prefix ns4: <http://purl.org/vocab/frbr/core#> .
+@prefix ns5: <https://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,8 +15,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
-        ns2:2019-02-19,
-        ns4: .
+        ns3:2019-02-19,
+        ns5: .
 
 :007Bond_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -167,7 +167,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :CynthiaErivo,
         :DaisyRidley,
         :DavidOyelowo,
@@ -310,7 +310,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :Drama,
         :Fantasia ;
     ns1:origin :Japon ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AkariKito,
         :HiroShimono,
         :KatsuyukiKonishi,
@@ -472,7 +472,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     ns1:genre :Terror ;
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :SahilShroff,
         :SubratDutta,
         :VanessaCurry ;
@@ -491,7 +491,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Thriller ;
     ns1:origin :Argentina,
         :Canada ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AlbertoAmmann,
         :AliWebb,
         :CesarBordon,
@@ -674,7 +674,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Fantasia,
         :Romance ;
     ns1:origin :Japon ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AyakoKawasumi,
         :JoujiNakata,
         :KanaUeda,
@@ -701,7 +701,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AlanRuck,
         :BrookeJayeTaylor,
         :CelesteOConnor,
@@ -755,7 +755,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AlexanderSkarsgard,
         :BrianTyreeHenry,
         :DemianBichir,
@@ -1096,7 +1096,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :ComediaDramatica ;
     ns1:language :FrancesSubtitulado ;
     ns1:origin :Francia ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :BenjaminBiolay,
         :CamilleCottin,
         :CaroleBouquet,
@@ -1124,7 +1124,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AdamBrody,
         :AlisonBrie,
         :BoBurnham,
@@ -1232,7 +1232,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:genre :DramaRomantico ;
     ns1:language :AlemanSubtitulada ;
     ns1:origin :Alemania ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :DennisMojen,
         :EmiliaSchule,
         :HeinerLauterbach,
@@ -1269,7 +1269,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :Thriller ;
     ns1:language :Castellano ;
     ns1:origin :Argentina ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :DiegoPeretti,
         :EstebanBigliardi,
         :HernanJimenez,
@@ -1329,7 +1329,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     ns1:genre :Terror ;
     ns1:language :InglesSubtitulada ;
     ns1:origin :ReinoUnido_Francia ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AndrewEllis,
         :IanKenny,
         :JakeCurran,
@@ -1353,7 +1353,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AliceBraga,
         :AntonioBanderas,
         :AnyaTaylor_Joy,
@@ -1526,7 +1526,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :ChrisPine,
         :ConnieNielsen,
         :GabriellaWilde,
@@ -1640,7 +1640,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :ChrisBauer,
         :DenzelWashington,
         :GlennMorshower,
@@ -1705,7 +1705,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:origin :Francia,
         :Italia,
         :ReinoUnido ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :FedericoIelapi,
         :RobertoBenigni,
         :RoccoPapaleo ;
@@ -1742,7 +1742,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
     ns1:genre :Animacion ;
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :Awkwafina,
         :DanielDaeKim,
         :KellyMarieTran ;
@@ -1791,7 +1791,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
         :Aventuras ;
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     :content_rating "Apta todo público" ;
     :hasShow :Scooby_show_1 ;
     :hasTrailer :Scooby_trailer ;
@@ -1840,83 +1840,255 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     :hasTrailer :Spirit_ElIndomable_trailer ;
     :synopsis "La vida de Lucky Prescott cambia para siempre cuando se muda de su casa en la gran ciudad a un pequeño pueblo fronterizo en el que entabla amistad con un caballo salvaje llamado Spirit." .
 
-:Tenet a ns1:Film ;
-    ns1:author :ChristopherNolan,
-        :Tenet_company_1,
-        :Tenet_company_2 ;
-    ns1:director :ChristopherNolan ;
-    ns1:duration 155 ;
-    ns1:genre :Accion,
-        :CienciaFiccion,
-        :Thriller ;
-    ns1:language :InglesSubtitulada ;
-    ns1:origin :Eeuu,
-        :EstadosUnidos,
-        :ReinoUnido ;
-    ns1:productionCompany :WarnerBrosPictures ;
-    ns1:releaseDate _:b ;
-    ns1:starring :AaronTaylor_Johnson,
-        :AndrewHoward,
-        :CarinaVelva,
-        :ClemencePoesy,
-        :DenzilSmith,
-        :DimpleKapadia,
-        :ElizabethDebicki,
-        :FionaDourif,
-        :HimeshPatel,
-        :IvoUukkivi,
-        :JeffersonHall,
-        :JohnDavidWashington,
-        :JonathanCamp,
-        :JuhanUlfsak,
-        :KennethBranagh,
-        :LaurieShepherd,
-        :MarcelSabat,
-        :MarkKrenik,
-        :MartinDonovan,
-        :MichaelCaine,
-        :RichCeraulo,
-        :RichCerauloKo,
-        :RobertPattinson,
-        :WesChatham,
-        :YuriKolokolnikov ;
-    ns1:thumbnail :Tenet_cover_image_1,
-        :Tenet_cover_image_2,
-        :Tenet_cover_image_3,
-        :Tenet_cover_image_4 ;
-    :content_rating "P-13" ;
-    :hasCharacter :Barbara,
-        :Crosby,
-        :Driver,
-        :Fay,
-        :GauntRussian,
-        :Ives,
-        :Kat,
-        :Mahir,
-        :Neil,
-        :Priya,
-        :Protagonist,
-        :Sanjay,
-        :Sator,
-        :Swat2,
-        :Swat_Target ;
-    :hasShow :Tenet_show_1,
-        :Tenet_show_10,
-        :Tenet_show_2,
-        :Tenet_show_3,
-        :Tenet_show_4,
-        :Tenet_show_5,
-        :Tenet_show_6,
-        :Tenet_show_7,
-        :Tenet_show_8,
-        :Tenet_show_9 ;
-    :hasTrailer :Tenet_trailer ;
-    :sourceUrl "https://www.ecartelera.com/peliculas/tenet/",
-        "https://www.imdb.com/title/tt6723592/",
-        "https://www.metacritic.com/movie/tenet",
-        "https://www.rottentomatoes.com/m/tenet" ;
-    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión.",
-        "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist (John David Washington) journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. Not time travel. Inversion." .
+:Tenet_review_1 a :movie_review ;
+    ns2:created "2021-03-12T14:03:06-03:00"^^xsd:dateTime ;
+    ns2:creator :TimRobey ;
+    ns2:publisher :Monocle ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://monocle.com/radio/shows/the-monocle-culture-show/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_1_rating> ;
+    :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot." .
+
+:Tenet_review_10 a :movie_review ;
+    ns2:created "2021-03-24T06:56:12-03:00"^^xsd:dateTime ;
+    ns2:creator :DavidWalsh ;
+    ns2:publisher :WorldSocialistWebSite ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.wsws.org/en/articles/2021/03/22/tene-m22.html> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_10_rating> ;
+    :has_body "It is not so much a matter of criticizing Nolan's filmmaking, which is not very difficult to do. The important issue is to understand and criticize the conditions that produced his filmmaking ..." .
+
+:Tenet_review_11 a :movie_review ;
+    ns2:created "2021-03-19T11:06:29-03:00"^^xsd:dateTime ;
+    ns2:creator :VincentSchilling ;
+    ns2:publisher :IndianCountryToday ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_11_rating> ;
+    :has_body "Led beautifully by protagonist John David Washington, 'Tenet', an exceptional action-packed film, dives into a concept of twisting time in a way never explored before. I'm adding this to my permanent library." .
+
+:Tenet_review_12 a :movie_review ;
+    ns2:created "2021-03-04T06:48:55-03:00"^^xsd:dateTime ;
+    ns2:creator :PabloOScholz ;
+    ns2:publisher :Clarin ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_12_rating> ;
+    :has_body "[Has] perfectly orchestrated battle scenes. [Full review in Spanish]" .
+
+:Tenet_review_13 a :movie_review ;
+    ns2:created "2021-02-25T09:47:05-03:00"^^xsd:dateTime ;
+    ns2:creator :RobGonsalves ;
+    ns2:publisher :EfilmcriticCom ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.efilmcritic.com/review.php?movie=33026&reviewer=416> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_13_rating> ;
+    :has_body "It means what you want it to mean, and I don't want it to mean anything. It's just a ride." .
+
+:Tenet_review_14 a :movie_review ;
+    ns2:created "2021-02-21T07:08:15-03:00"^^xsd:dateTime ;
+    ns2:creator :MarkMeszoros ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_14_rating> ;
+    :has_body "By the end of its two-and-a-half-hours, with all its bi-directional action, revelations and world-ending ramifications, it's a bit numbing, And you're pretty sure you can't wait to watch it again." .
+
+:Tenet_review_15 a :movie_review ;
+    ns2:created "2021-02-17T04:56:01-03:00"^^xsd:dateTime ;
+    ns2:creator :EddieHarrison ;
+    ns2:publisher :Film_AuthorityCom ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2020/08/25/tenet/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_15_rating> ;
+    :has_body "...a high-faluting, high energy, uber-glam espionage thriller..." .
+
+:Tenet_review_16 a :movie_review ;
+    ns2:created "2021-02-14T10:38:59-03:00"^^xsd:dateTime ;
+    ns2:creator :TonyBlack ;
+    ns2:publisher :CulturalConversation ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_16_rating> ;
+    :has_body "Just go with it. Allow the inversion to pull you along because it does, for the most part, make sense by the end." .
+
+:Tenet_review_17 a :movie_review ;
+    ns2:created "2021-02-13T02:17:39-03:00"^^xsd:dateTime ;
+    ns2:creator :AlixTurner ;
+    ns2:publisher :ReadySteadyCut ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://readysteadycut.com/2020/08/27/tenet-review/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_17_rating> ;
+    :has_body "Huge scale, gripping and ambitious sci-fi spy thriller from Christopher Nolan, which simply has to be seen to be believed, and possibly seen more than once to be fully appreciated." .
+
+:Tenet_review_18 a :movie_review ;
+    ns2:created "2021-02-10T10:47:24-03:00"^^xsd:dateTime ;
+    ns2:creator :BrianGill ;
+    ns2:publisher :MadAboutMoviesPodcast ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_18_rating> ;
+    :has_body "It's the most Nolan movie ever and I'm not sure it makes since but I was enthralled nonetheless. " .
+
+:Tenet_review_19 a :movie_review ;
+    ns2:created "2021-02-09T17:31:32-03:00"^^xsd:dateTime ;
+    ns2:creator :KathiaWoods ;
+    ns2:publisher :CupOfSoul ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.cupofsoulshow.com/tenet> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_19_rating> ;
+    :has_body "The future is now or in the past " .
+
+:Tenet_review_2 a :movie_review ;
+    ns2:created "2021-02-02T13:22:08-03:00"^^xsd:dateTime ;
+    ns2:creator :NickSchager ;
+    ns2:publisher :TheDailyBeast ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_2_rating> ;
+    :has_body "Something like the epitome of [Nolan's] temporally twisty canon, distilling his many cinematic signatures and preoccupations down to their entrancing abstract essence." .
+
+:Tenet_review_20 a :movie_review ;
+    ns2:created "2021-02-05T09:53:07-03:00"^^xsd:dateTime ;
+    ns2:creator :AlexBentley ;
+    ns2:publisher :Culturemap ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/slide=0> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_20_rating> ;
+    :has_body "Nolan's obsession with making his films as complex as humanly possible is frustrating for those of us who would like at least a scintilla of clarity in our storytelling." .
+
+:Tenet_review_21 a :movie_review ;
+    ns2:created "2021-02-05T05:54:47-03:00"^^xsd:dateTime ;
+    ns2:creator :MaryannJohanson ;
+    ns2:publisher :FlickFilosopher ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_21_rating> ;
+    :has_body "Washington and Pattinson have palpable charisma, but this cold puzzle offers no incentive to solve it. Throw in damsel-in-distress crap, and both my geek sensibilities and my feminism are offended." .
+
+:Tenet_review_22 a :movie_review ;
+    ns2:created "2021-01-30T13:23:38-03:00"^^xsd:dateTime ;
+    ns2:creator :PjNabarro ;
+    ns2:publisher :PatrickNabarro ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://pnabarro.wordpress.com/2021/01/31/tenet/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_22_rating> ;
+    :has_body "Nolan's reverence for tech and the cleverness of pulling off a metaphysical narrative puzzle finally swamps his awareness of whether the thing in question is even any good." .
+
+:Tenet_review_23 a :movie_review ;
+    ns2:created "2021-01-29T08:40:00-03:00"^^xsd:dateTime ;
+    ns2:creator :RichardCrouse ;
+    ns2:publisher :RichardCrouse ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_23_rating> ;
+    :has_body "The trippy last hour is jam packed with artfully arranged action scenes that manipulate time in increasingly psychedelic ways. " .
+
+:Tenet_review_24 a :movie_review ;
+    ns2:created "2021-01-28T02:01:05-03:00"^^xsd:dateTime ;
+    ns2:creator :MarkCassidy ;
+    ns2:publisher :ComicbookmovieCom ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743gs.rehe3y> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_24_rating> ;
+    :has_body "Tenet has its moments, but is easily Nolan's worst film. Mostly incomprehensible; this muddled sci-fi thriller is a long way from being the \"savior of cinema.\" Honestly, it'd be difficult to recommend even if we weren't in the middle of a pandemic. " .
+
+:Tenet_review_25 a :movie_review ;
+    ns1:Name "Be patient" ;
+    ns2:created "2020-09-12T00:00:00-03:00"^^xsd:dateTime ;
+    ns2:creator :Brandoncjenkins ;
+    ns2:language :English ;
+    ns2:source "https://www.imdb.com/title/tt6723592/" ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_25_rating> ;
+    :has_body "If you are expecting the adrenaline you got with Inception, look no further. If you are looking to be able to follow this film on the first viewing like you did with Inception, maybe not so much. I would put this film one level higher in complexity than Inception, as Inception was complex but pretty intuitive. This film CAN be intuitive, but unless you want to wait for the Blu Ray, you're going to have to shell out to see it multiple times to actually get a better understanding of the plot's finer points. A more logistical thing to comment on: it seems the audio mix is lacking. I originally thought it was my theater (voices seem to carry too much bass, making them hard to understand; however, Studio Movie Grill plays this film very, very loud, which I love because it makes the gunfire far more realistic), but others have complained about this as well. I am hoping that the blu ray will be remastered so that this is not an issue. With all this being said, be patient. This film is great and I have a strong feeling you will not be disappointed. It is classic Nolan doing what he does best. It is intricate, spares no expense, and it is by no means lazy. Once the BR comes out, it may actually turn into one his his best so far." .
+
+:Tenet_review_3 a :movie_review ;
+    ns2:created "2020-12-22T00:12:32-03:00"^^xsd:dateTime ;
+    ns2:creator :TimCogshell ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_3_rating> ;
+    :has_body "[Christopher Nolan] is very clever, but mostly irritating is what I find. [His movies] are not cerebral - they're fake cerebral... He doesn't even do the time travel right. " .
+
+:Tenet_review_4 a :movie_review ;
+    ns2:created "2020-12-22T00:11:26-03:00"^^xsd:dateTime ;
+    ns2:creator :ChristyLemire ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_4_rating> ;
+    :has_body "I am a big fan of [Christopher Nolan's] films -- I usually enjoy the time puzzle of it -- but this seems even more intentionally inaccessible and challenging than everything else... Confusing, distancing, and chilly." .
+
+:Tenet_review_5 a :movie_review ;
+    ns2:created "2020-12-17T05:38:07-03:00"^^xsd:dateTime ;
+    ns2:creator :GAllenJohnson ;
+    ns2:publisher :SanFranciscoChronicle ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_5_rating> ;
+    :has_body "\"Tenet\" is indeed impressive, although I gave up trying to follow the plot." .
+
+:Tenet_review_6 a :movie_review ;
+    ns2:created "2020-12-17T05:35:39-03:00"^^xsd:dateTime ;
+    ns2:creator :MickLasalle ;
+    ns2:publisher :SanFranciscoChronicle ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_6_rating> ;
+    :has_body "\"Tenet\" is difficult to understand, but even worse, it inspires little desire to understand it." .
+
+:Tenet_review_7 a :movie_review ;
+    ns2:created "2021-04-16T22:44:49-03:00"^^xsd:dateTime ;
+    ns2:creator :RhysBowenJones ;
+    ns2:publisher :JumpcutOnline ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_7_rating> ;
+    :has_body "Tenet is one of the most enthralling cinematic experiences I have had for years." .
+
+:Tenet_review_8 a :movie_review ;
+    ns2:created "2021-04-04T10:45:41-03:00"^^xsd:dateTime ;
+    ns2:creator :JeffreyOverstreet ;
+    ns2:publisher :LookingCloser ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_8_rating> ;
+    :has_body "Exhausted and disoriented by Nolan's curlicue-rollercoasters, we end up fooled into thinking we've been stirred when, in fact, we've mostly been shaken. " .
+
+:Tenet_review_9 a :movie_review ;
+    ns2:created "2021-04-02T03:27:01-03:00"^^xsd:dateTime ;
+    ns2:creator :NiallBrowne ;
+    ns2:publisher :MoviesInFocus ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/> ;
+    ns4:realization :Tenet ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_9_rating> ;
+    :has_body "Christopher Nolan's Tenet is a film which can be enjoyed, but it's highly likely that you won't really understand it. It takes a lot of big ideas - and a lot of big moviemaking techniques to deliver a film which is mesmerising but very flawed." .
 
 :TomYJerry a ns1:Film ;
     ns1:director :TimStory ;
@@ -1929,7 +2101,7 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :BobbyCannavale,
         :ChloeGraceMoretz,
         :FrankWelker,
@@ -2045,7 +2217,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns1:language :Castellano ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :AnnaKendrick,
         :AnthonyRamos,
         :ChanceTheRapper,
@@ -2098,7 +2270,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns1:origin :Argentina,
         :Brasil,
         :Suiza ;
-    ns1:releaseDate _:b ;
+    ns1:releaseDate [ ] ;
     ns1:starring :CeciliaRainero,
         :CiroCoienPardo,
         :EliotOtazo,
@@ -2192,76 +2364,255 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     :hasTrailer :VenganzaImplacable_trailer ;
     :synopsis "Un atracador de bancos se entrega a la policía porque se ha enamorado y decide llevar una vida honrada. Cuando descubre que los federales son aún más corruptos que él, se verá obligado a utilizar todas sus artimañas de ex marine para limpiar su nombre." .
 
-:WonderWoman1984 a ns1:Film ;
-    ns1:author :DaveCallaham,
-        :GeoffJohns,
-        :PattyJenkins,
-        :WilliamMoultonMarston,
-        :WonderWoman1984_company_1,
-        :WonderWoman1984_company_3,
-        :WonderWoman1984_company_6,
-        :WonderWoman1984_company_7,
-        :WonderWoman1984_company_9 ;
-    ns1:director :PattyJenkins ;
-    ns1:productionCompany :WarnerBrosPictures ;
-    ns1:starring :AlexDelescu,
-        :AmrWaked,
-        :AmreenNYaqoob,
-        :BernCollaco,
-        :BrittneyAleah,
-        :ChrisPine,
-        :ChrisSilcox,
-        :ConnieNielsen,
-        :EllaWalker,
-        :GabriellaWilde,
-        :GalGadot,
-        :JamaalBurcher,
-        :JamalAlkhaldi,
-        :JeffMoore,
-        :JoelMorris,
-        :JohnGettier,
-        :JonathanAjayi,
-        :JulianFerro,
-        :JustinSisk,
-        :KailaIngram,
-        :KristenWiig,
-        :KristofferPolaha,
-        :LillyAspell,
-        :LolitaMarie,
-        :LyndaCarter,
-        :LyonBeckwith,
-        :ManojAnand,
-        :MarisolCorrea,
-        :MarlaAaronWapner,
-        :MonicaHaynes,
-        :NatashaRothwell,
-        :OakleyBull,
-        :PaulRonCruz,
-        :PedroPascal,
-        :PenelopeKapudija,
-        :RaviPatel,
-        :RickKelvinBranch,
-        :RobinWright,
-        :SiaAlipour,
-        :SoniaGoswami,
-        :SpencerTrinwith,
-        :TessaBonhamJones,
-        :ThomasClayStrickland ;
-    ns1:thumbnail :WonderWoman1984_cover_image_1,
-        :WonderWoman1984_cover_image_2,
-        :WonderWoman1984_cover_image_3,
-        :WonderWoman1984_cover_image_4 ;
-    :content_rating "P-13" ;
-    :hasCharacter :Antiope,
-        :BarbaraMinerva_Cheetah,
-        :DianaPrince_WonderWoman,
-        :Hippolyta,
-        :SteveTrevor ;
-    :sourceUrl "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
-        "https://www.imdb.com/title/tt7126948/",
-        "https://www.metacritic.com/movie/wonder-woman-1984",
-        "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." .
+:WonderWoman1984_review_1 a :movie_review ;
+    ns2:created "2021-02-01T09:29:30-03:00"^^xsd:dateTime ;
+    ns2:creator :SheriFlanders ;
+    ns2:publisher :ChicagoReader ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_1_rating> ;
+    :has_body "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads." .
+
+:WonderWoman1984_review_10 a :movie_review ;
+    ns2:created "2021-03-11T11:02:25-03:00"^^xsd:dateTime ;
+    ns2:creator :AndrewGaldi ;
+    ns2:publisher :MovieBitches ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_10_rating> ;
+    :has_body "There were just such gross failures of filmmaking..." .
+
+:WonderWoman1984_review_11 a :movie_review ;
+    ns2:created "2021-03-11T10:51:39-03:00"^^xsd:dateTime ;
+    ns2:creator :AvarylHalley ;
+    ns2:publisher :MovieBitches ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_11_rating> ;
+    :has_body "At least \"Justice League\" had at the decency to be short" .
+
+:WonderWoman1984_review_12 a :movie_review ;
+    ns2:created "2021-03-01T13:14:02-03:00"^^xsd:dateTime ;
+    ns2:creator :NinaGarin ;
+    ns2:publisher :SanDiegoUnion_Tribune ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_12_rating> ;
+    :has_body "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. " .
+
+:WonderWoman1984_review_13 a :movie_review ;
+    ns2:created "2021-02-22T11:02:11-03:00"^^xsd:dateTime ;
+    ns2:creator :TonyMedley ;
+    ns2:publisher :TheLarchmontChronicle ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_13_rating> ;
+    :has_body "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean." .
+
+:WonderWoman1984_review_14 a :movie_review ;
+    ns2:created "2021-02-21T13:36:54-03:00"^^xsd:dateTime ;
+    ns2:creator :SarahWard ;
+    ns2:publisher :ConcretePlayground ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://concreteplayground.com/sydney/event/wonder-woman-1984> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_14_rating> ;
+    :has_body "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down." .
+
+:WonderWoman1984_review_15 a :movie_review ;
+    ns2:created "2021-02-17T07:36:51-03:00"^^xsd:dateTime ;
+    ns2:creator :EricMarchen ;
+    ns2:publisher :UntitledMoviePodcast ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_15_rating> ;
+    :has_body "Feels like this would be better suited for an episode of TV than a 2.5 hour film." .
+
+:WonderWoman1984_review_16 a :movie_review ;
+    ns2:created "2021-02-14T04:57:56-03:00"^^xsd:dateTime ;
+    ns2:creator :MarkMeszoros ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_16_rating> ;
+    :has_body "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale." .
+
+:WonderWoman1984_review_17 a :movie_review ;
+    ns2:created "2021-02-11T07:38:41-03:00"^^xsd:dateTime ;
+    ns2:creator :JenniferOuellette ;
+    ns2:publisher :ArsTechnica ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_17_rating> ;
+    :has_body "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing." .
+
+:WonderWoman1984_review_18 a :movie_review ;
+    ns2:created "2021-02-10T11:48:34-03:00"^^xsd:dateTime ;
+    ns2:creator :BrianGill ;
+    ns2:publisher :MadAboutMoviesPodcast ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_18_rating> ;
+    :has_body "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. " .
+
+:WonderWoman1984_review_19 a :movie_review ;
+    ns2:created "2021-02-08T00:57:42-03:00"^^xsd:dateTime ;
+    ns2:creator :EddieHarrison ;
+    ns2:publisher :Film_AuthorityCom ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2021/01/11/wonder-woman-1984/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_19_rating> ;
+    :has_body "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..." .
+
+:WonderWoman1984_review_2 a :movie_review ;
+    ns2:created "2021-01-04T09:59:29-03:00"^^xsd:dateTime ;
+    ns2:creator :RaferGuzman ;
+    ns2:publisher :Newsday ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_2_rating> ;
+    :has_body " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain." .
+
+:WonderWoman1984_review_20 a :movie_review ;
+    ns2:created "2021-02-06T00:46:31-03:00"^^xsd:dateTime ;
+    ns2:creator :IanSimmons ;
+    ns2:publisher :KickingTheSeat ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_20_rating> ;
+    :has_body "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here." .
+
+:WonderWoman1984_review_21 a :movie_review ;
+    ns2:created "2021-02-05T06:55:00-03:00"^^xsd:dateTime ;
+    ns2:creator :DanTabor ;
+    ns2:publisher :Phawker ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_21_rating> ;
+    :has_body "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. " .
+
+:WonderWoman1984_review_22 a :movie_review ;
+    ns2:created "2021-02-02T15:00:09-03:00"^^xsd:dateTime ;
+    ns2:creator :MarkJackson ;
+    ns2:publisher :EpochTimes ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_22_rating> ;
+    :has_body "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown." .
+
+:WonderWoman1984_review_23 a :movie_review ;
+    ns2:created "2021-01-31T23:14:33-03:00"^^xsd:dateTime ;
+    ns2:creator :JohnMcdonald ;
+    ns2:publisher :AustralianFinancialReview ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_23_rating> ;
+    :has_body "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?" .
+
+:WonderWoman1984_review_24 a :movie_review ;
+    ns2:created "2021-01-31T22:01:54-03:00"^^xsd:dateTime ;
+    ns2:creator :MattNeal ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_24_rating> ;
+    :has_body " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful." .
+
+:WonderWoman1984_review_25 a :movie_review ;
+    ns1:Name "For Gal's body" ;
+    ns2:created "2021-04-08T00:00:00-03:00"^^xsd:dateTime ;
+    ns2:creator :Thibault_Lagoutte ;
+    ns2:language :English ;
+    ns2:source "https://www.imdb.com/title/tt7126948/" ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_25_rating> ;
+    :has_body "3 stars for Gal's body. Rest is total garbage.no story, poor cgi, actor play is meh." .
+
+:WonderWoman1984_review_3 a :movie_review ;
+    ns2:created "2021-01-04T08:37:14-03:00"^^xsd:dateTime ;
+    ns2:creator :AmyNicholson ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_3_rating> ;
+    :has_body "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this." .
+
+:WonderWoman1984_review_4 a :movie_review ;
+    ns2:created "2020-12-29T17:09:48-03:00"^^xsd:dateTime ;
+    ns2:creator :StephenRomei ;
+    ns2:publisher :TheAustralian ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_4_rating> ;
+    :has_body "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. " .
+
+:WonderWoman1984_review_5 a :movie_review ;
+    ns2:created "2020-12-28T12:49:06-03:00"^^xsd:dateTime ;
+    ns2:creator :JakeWilson ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_5_rating> ;
+    :has_body "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel." .
+
+:WonderWoman1984_review_6 a :movie_review ;
+    ns2:created "2020-12-28T12:45:33-03:00"^^xsd:dateTime ;
+    ns2:creator :DavidSims ;
+    ns2:publisher :TheAtlantic ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_6_rating> ;
+    :has_body "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema." .
+
+:WonderWoman1984_review_7 a :movie_review ;
+    ns2:created "2021-04-03T18:11:59-03:00"^^xsd:dateTime ;
+    ns2:creator :KevinCarr ;
+    ns2:publisher :FatGuysAtTheMovies ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_7_rating> ;
+    :has_body "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works." .
+
+:WonderWoman1984_review_8 a :movie_review ;
+    ns2:created "2021-03-23T14:02:10-03:00"^^xsd:dateTime ;
+    ns2:creator :DavidBax ;
+    ns2:publisher :BattleshipPretension ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_8_rating> ;
+    :has_body "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks." .
+
+:WonderWoman1984_review_9 a :movie_review ;
+    ns2:created "2021-03-20T12:54:50-03:00"^^xsd:dateTime ;
+    ns2:creator :ValerieKalfrin ;
+    ns2:publisher :TheirOwnLeague ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_9_rating> ;
+    :has_body "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey." .
 
 :Zeta a ns1:Film ;
     ns1:director :BrandonChristensen ;
@@ -2284,7 +2635,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     :synopsis "Muchos niños tienen amigos imaginarios...pero el pequeño Joshua Parsons de 8 años tiene un amigo imaginario muy particular, llamado Z. Pronto el siniestro Z demuestra ser una preocupación para la familia, que comenzará a vivir una verdadera pesadilla en su hogar." .
 
 :bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns4:Rating ;
+    rdfs:domain ns5:Rating ;
     rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
@@ -2301,7 +2652,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 
 :hasRating a owl:ObjectProperty ;
     rdfs:domain :movie_review ;
-    rdfs:range ns4:Rating .
+    rdfs:range ns5:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -2319,7 +2670,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     rdfs:range xsd:string .
 
 :ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns4:Rating ;
+    rdfs:domain ns5:Rating ;
     rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
@@ -2337,24 +2688,24 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 :tenet_review_1 a owl:NamedIndividual,
         :movie_review ;
     ns1:Name "review example name" ;
-    ns5:created "2021-04-06T19:40:00"^^xsd:dateTime ;
-    ns5:creator :tenet_review_1_author ;
-    ns5:language :inglés ;
-    ns5:publisher :monocle ;
-    ns5:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-    ns2:hasManifestation :tenet_review_1_site ;
-    ns3:realization :tenet ;
+    ns2:created "2021-04-06T19:40:00"^^xsd:dateTime ;
+    ns2:creator :tenet_review_1_author ;
+    ns2:language :inglés ;
+    ns2:publisher :monocle ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
+    ns3:hasManifestation :tenet_review_1_site ;
+    ns4:realization :tenet ;
     :hasRating :tenet_review_1_rating_1 ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
 :worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns4:Rating ;
+    rdfs:domain ns5:Rating ;
     rdfs:range xsd:double .
 
-ns4:ratingCount rdfs:domain ns4:AggregateRating ;
+ns5:ratingCount rdfs:domain ns5:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns4:reviewCount rdfs:domain ns4:AggregateRating ;
+ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     rdfs:range xsd:integer .
 
 :007Bond_SinTiempoParaMorir_trailer a :trailer ;
@@ -2371,11 +2722,12 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :AaronTaylor_Johnson a ns1:Actor ;
     ns1:Name "Aaron Taylor-Johnson" ;
-    ns1:thumbnail :AaronTaylor_Johnson_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Aarontaylor_Johnson_img> ;
     :url "https://www.rottentomatoes.com/celebrity/aaron_johnson" .
 
-:AaronTaylor_Johnson_img a ns1:Image ;
-    :url "https://resizing.flixster.com/uRflgfpecsD9gIHxJkiKs-3sVt8=/699x675/v1.cjs0ODk2ODtqOzE4NzY1OzEyMDA7Njk5OzY3NQ" .
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> a ns1:Company ;
+    ns1:Name "ABC Radio (Australia)" ;
+    :url "https://www.rottentomatoes.com/source-2397" .
 
 :AdamBasil a ns1:Actor ;
     ns1:Name "Adam Basil" .
@@ -2419,6 +2771,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :Alemania a ns1:Country ;
     ns1:Name "Alemania" .
 
+:AlexBentley a ns1:Person ;
+    ns1:Name "Alex Bentley" ;
+    :url "https://www.rottentomatoes.com/critic/alex-bentley" .
+
 :AlexDelescu a ns1:Actor ;
     ns1:Name "Alex Delescu" ;
     :url "https://www.metacritic.com/person/alex-delescu" .
@@ -2444,6 +2800,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :AlisonBrie a ns1:Actor ;
     ns1:Name "Alison Brie" .
 
+:AlixTurner a ns1:Person ;
+    ns1:Name "Alix Turner" ;
+    :url "https://www.rottentomatoes.com/critic/alix-turner" .
+
 :AmandaIswan a ns1:MovieDirector ;
     ns1:Name "Amanda Iswan" .
 
@@ -2461,6 +2821,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :AmyAdams a ns1:Actor ;
     ns1:Name "Amy Adams" .
 
+:AmyNicholson a ns1:Person ;
+    ns1:Name "Amy Nicholson" ;
+    :url "https://www.rottentomatoes.com/critic/amy-nicholson" .
+
 :AnastasiyaGrachyova a ns1:Actor ;
     ns1:Name "Anastasiya Grachyova" .
 
@@ -2473,13 +2837,14 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :AndrewEllis a ns1:Actor ;
     ns1:Name "Andrew Ellis" .
 
+:AndrewGaldi a ns1:Person ;
+    ns1:Name "Andrew Galdi" ;
+    :url "https://www.rottentomatoes.com/critic/andrew-galdi" .
+
 :AndrewHoward a ns1:Actor ;
     ns1:Name "Andrew Howard" ;
-    ns1:thumbnail :AndrewHoward_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Andrewhoward_img> ;
     :url "https://www.rottentomatoes.com/celebrity/andrew_howard" .
-
-:AndrewHoward_img a ns1:Image ;
-    :url "https://resizing.flixster.com/d4v5MaDG52-P4lBcSjdSOhCRcIo=/442x394/v1.cjs0NTExOTtqOzE4NzY1OzEyMDA7NDQyOzM5NA" .
 
 :AndreyNazimov a ns1:Actor ;
     ns1:Name "Andrey Nazimov" .
@@ -2523,8 +2888,20 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ArielWinograd a ns1:MovieDirector ;
     ns1:Name "Ariel Winograd" .
 
+:ArsTechnica a ns1:Company ;
+    ns1:Name "Ars Technica" ;
+    :url "https://www.rottentomatoes.com/source-2985" .
+
+:AustralianFinancialReview a ns1:Company ;
+    ns1:Name "Australian Financial Review" ;
+    :url "https://www.rottentomatoes.com/source-3199" .
+
 :AutiliaRanieri a ns1:Actor ;
     ns1:Name "Autilia Ranieri" .
+
+:AvarylHalley a ns1:Person ;
+    ns1:Name "Avaryl Halley" ;
+    :url "https://www.rottentomatoes.com/critic/avaryl-halley" .
 
 :AviisZhong a ns1:Actor ;
     ns1:Name "Aviis Zhong" .
@@ -2549,6 +2926,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :BatesWilder a ns1:Actor ;
     ns1:Name "Bates Wilder" .
+
+:BattleshipPretension a ns1:Company ;
+    ns1:Name "Battleship Pretension" ;
+    :url "https://www.rottentomatoes.com/source-3090" .
 
 :BenjaminBiolay a ns1:Actor ;
     ns1:Name "Benjamin Biolay" .
@@ -2586,6 +2967,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :BrandonChristensen a ns1:MovieDirector ;
     ns1:Name "Brandon Christensen" .
+
+:Brandoncjenkins a ns1:Person ;
+    ns1:Name "brandoncjenkins" ;
+    :url "https://www.imdb.com/" .
 
 :Brasil a ns1:Country ;
     ns1:Name "Brasil" .
@@ -2981,6 +3366,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ChiaraMastroianni a ns1:Actor ;
     ns1:Name "Chiara Mastroianni" .
 
+:ChicagoReader a ns1:Company ;
+    ns1:Name "Chicago Reader" ;
+    :url "https://www.rottentomatoes.com/source-66" .
+
 :Chile a ns1:Country ;
     ns1:Name "Chile" .
 
@@ -2992,9 +3381,6 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ChrisBauer a ns1:Actor ;
     ns1:Name "Chris Bauer" .
-
-:ChrisPine_img a ns1:Image ;
-    :url "https://resizing.flixster.com/lUzaa-oO0RKNt3ekbqvlU5RPqR8=/660x990/v1.bjs3NTYxMDQ7ajsxODc3MzsxMjAwOzY2MDs5OTA" .
 
 :ChrisRock a ns1:Actor ;
     ns1:Name "Chris Rock" .
@@ -3027,11 +3413,12 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ChristopherMintz_Plasse a ns1:Actor ;
     ns1:Name "Christopher Mintz-Plasse" .
 
-:ChristopherNolan_img a ns1:Image ;
-    :url "https://resizing.flixster.com/H0_441OvEsJ-OMlAn-njnqv5uFc=/275x230/v1.cjs0MDgwNztqOzE4NzY1OzEyMDA7Mjc1OzIzMA" .
-
 :ChristopherWalken a ns1:Actor ;
     ns1:Name "Christopher Walken" .
+
+:ChristyLemire a ns1:Person ;
+    ns1:Name "Christy Lemire" ;
+    :url "https://www.rottentomatoes.com/critic/christy-lemire" .
 
 :Cicatrices_trailer a :trailer ;
     :url "https://www.youtube.com/embed/aBte_CloluM?rel=0&controls=0&showinfo=0" .
@@ -3063,6 +3450,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ClancyBrown a ns1:Actor ;
     ns1:Name "Clancy Brown" .
 
+:Clarin a ns1:Company ;
+    ns1:Name "Clarín" ;
+    :url "https://www.rottentomatoes.com/source-2677" .
+
 :ClarkDuke a ns1:Actor ;
     ns1:Name "Clark Duke" .
 
@@ -3071,11 +3462,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ClemencePoesy a ns1:Actor ;
     ns1:Name "Clémence Poésy" ;
-    ns1:thumbnail :ClemencePoesy_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Clemencepoesy_img> ;
     :url "https://www.rottentomatoes.com/celebrity/clemence-poesy" .
-
-:ClemencePoesy_img a ns1:Image ;
-    :url "https://resizing.flixster.com/PdT_Pvc6s1thrV8PTrvItxxgJAw=/932x1400/v1.bjs3NTgwMTc7ajsxODc3MzsxMjAwOzkzMjsxNDAw" .
 
 :ClorisLeachman a ns1:Actor ;
     ns1:Name "Cloris Leachman" .
@@ -3083,11 +3471,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ColmanDomingo a ns1:Actor ;
     ns1:Name "Colman Domingo" .
 
+:ComicbookmovieCom a ns1:Company ;
+    ns1:Name "ComicBookMovie.com" ;
+    :url "https://www.rottentomatoes.com/source-1778" .
+
+:ConcretePlayground a ns1:Company ;
+    ns1:Name "Concrete Playground" ;
+    :url "https://www.rottentomatoes.com/source-2298" .
+
 :ConnieBritton a ns1:Actor ;
     ns1:Name "Connie Britton" .
-
-:ConnieNielsen_img a ns1:Image ;
-    :url "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw" .
 
 :ContraElFuego_trailer a :trailer ;
     :url "https://www.youtube.com/embed/pog0W0bsZSE?rel=0&controls=0&showinfo=0" .
@@ -3107,11 +3500,27 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :Cruella_trailer a :trailer ;
     :url "https://www.youtube.com/embed/ni84bGemIVU?rel=0&controls=0&showinfo=0" .
 
+:CulturalConversation a ns1:Company ;
+    ns1:Name "Cultural Conversation" ;
+    :url "https://www.rottentomatoes.com/source-3905" .
+
+:Culturemap a ns1:Company ;
+    ns1:Name "CultureMap" ;
+    :url "https://www.rottentomatoes.com/source-3686" .
+
+:CupOfSoul a ns1:Company ;
+    ns1:Name "Cup of Soul" ;
+    :url "https://www.rottentomatoes.com/source-3694" .
+
 :CynthiaErivo a ns1:Actor ;
     ns1:Name "Cynthia Erivo" .
 
 :DanPetronijevic a ns1:Actor ;
     ns1:Name "Dan Petronijevic" .
+
+:DanTabor a ns1:Person ;
+    ns1:Name "Dan Tabor" ;
+    :url "https://www.rottentomatoes.com/critic/dan-tabor" .
 
 :DanaDrori a ns1:Actor ;
     ns1:Name "Dana Drori" .
@@ -3138,6 +3547,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     ns1:Name "Dave Callaham" ;
     :url "https://www.imdb.com/name/nm1709264/" .
 
+:DavidBax a ns1:Person ;
+    ns1:Name "David Bax" ;
+    :url "https://www.rottentomatoes.com/critic/david-bax" .
+
 :DavidDelao a ns1:Actor ;
     ns1:Name "David DeLao" .
 
@@ -3147,8 +3560,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :DavidPSmith a ns1:MovieDirector ;
     ns1:Name "David P. Smith" .
 
+:DavidSims a ns1:Person ;
+    ns1:Name "David Sims" ;
+    :url "https://www.rottentomatoes.com/critic/david-sims" .
+
 :DavidStrathairn a ns1:Actor ;
     ns1:Name "David Strathairn" .
+
+:DavidWalsh a ns1:Person ;
+    ns1:Name "David Walsh" ;
+    :url "https://www.rottentomatoes.com/critic/david-walsh" .
 
 :DeLaNocheALaManana_trailer a :trailer ;
     :url "https://www.youtube.com/embed/GeJA3H9RNTs?rel=0&controls=0&showinfo=0" .
@@ -3456,11 +3877,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :DenzilSmith a ns1:Actor ;
     ns1:Name "Denzil Smith" ;
-    ns1:thumbnail :DenzilSmith_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Denzilsmith_img> ;
     :url "https://www.rottentomatoes.com/celebrity/denzil_smith" .
-
-:DenzilSmith_img a ns1:Image ;
-    :url "https://resizing.flixster.com/4E8Cc4RH8x6iswRFZSDiPaXDbFg=/805x960/v1.bjsyNTM3NjUyO2o7MTg4Mzk7MTIwMDs4MDU7OTYw" .
 
 :DerekJacobi a ns1:Actor ;
     ns1:Name "Derek Jacobi" .
@@ -3476,11 +3894,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :DimpleKapadia a ns1:Actor ;
     ns1:Name "Dimple Kapadia" ;
-    ns1:thumbnail :DimpleKapadia_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Dimplekapadia_img> ;
     :url "https://www.rottentomatoes.com/celebrity/dimple_kapadia" .
-
-:DimpleKapadia_img a ns1:Image ;
-    :url "https://resizing.flixster.com/fPI-zmRhzsaycBHASSB_W_gkCv4=/355x450/v1.bjs3NzM3NDk7ajsxODc3MzsxMjAwOzM1NTs0NTA" .
 
 :DiogoMorgado a ns1:Actor ;
     ns1:Name "Diogo Morgado" .
@@ -3524,6 +3939,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :EdgarRamirez a ns1:Actor ;
     ns1:Name "Edgar Ramírez" .
 
+:EfilmcriticCom a ns1:Company ;
+    ns1:Name "eFilmCritic.com" ;
+    :url "https://www.rottentomatoes.com/source-141" .
+
 :ElPadre_trailer a :trailer ;
     :url "https://www.youtube.com/embed/UGkBAU6N-hs?rel=0&controls=0&showinfo=0" .
 
@@ -3565,9 +3984,6 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ElisaCarricajo a ns1:Actor ;
     ns1:Name "Elisa Carricajo" .
 
-:ElizabethDebicki_img a ns1:Image ;
-    :url "https://resizing.flixster.com/BzRiog7SyR4uJyjcnEvQKb8fMIo=/1435x1494/v1.cjs0ODkwOTtqOzE4NzY1OzEyMDA7MTQzNTsxNDk0" .
-
 :EllaWalker a ns1:Actor ;
     ns1:Name "Ella Walker" ;
     :url "https://www.metacritic.com/person/ella-walker" .
@@ -3599,11 +4015,19 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :EnricoCasarosa a ns1:MovieDirector ;
     ns1:Name "Enrico Casarosa" .
 
+:EpochTimes a ns1:Company ;
+    ns1:Name "Epoch Times" ;
+    :url "https://www.rottentomatoes.com/source-2771" .
+
 :EraseUnaVez_trailer a :trailer ;
     :url "https://www.youtube.com/embed/aPG0XFy1BXA?rel=0&controls=0&showinfo=0" .
 
 :EricBauza a ns1:Actor ;
     ns1:Name "Eric Bauza" .
+
+:EricMarchen a ns1:Person ;
+    ns1:Name "Eric Marchen" ;
+    :url "https://www.rottentomatoes.com/critic/eric-marchen" .
 
 :Espana a ns1:Country ;
     ns1:Name "España" .
@@ -3634,6 +4058,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :FastAndFurious9_trailer a :trailer ;
     :url "https://www.youtube.com/embed/Vo1MitA1JmI?rel=0&controls=0&showinfo=0" .
+
+:FatGuysAtTheMovies a ns1:Company ;
+    ns1:Name "Fat Guys at the Movies" ;
+    :url "https://www.rottentomatoes.com/source-2722" .
 
 :FateStayNightHeavenSFeel_Parte3_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T19:45:00"^^xsd:dateTime ;
@@ -3667,6 +4095,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :FionaDourif a ns1:Actor ;
     ns1:Name "Fiona Dourif" ;
     :url "https://www.metacritic.com/person/fiona-dourif" .
+
+:FlickFilosopher a ns1:Company ;
+    ns1:Name "Flick Filosopher" ;
+    :url "https://www.rottentomatoes.com/source-188" .
 
 :FlorencePugh a ns1:Actor ;
     ns1:Name "Florence Pugh" .
@@ -3733,14 +4165,15 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :FredHechinger a ns1:Actor ;
     ns1:Name "Fred Hechinger" .
 
+:GAllenJohnson a ns1:Person ;
+    ns1:Name "G. Allen Johnson" ;
+    :url "https://www.rottentomatoes.com/critic/g-allen-johnson" .
+
 :GabrielCorrado a ns1:Actor ;
     ns1:Name "Gabriel Corrado" .
 
 :GageMunroe a ns1:Actor ;
     ns1:Name "Gage Munroe" .
-
-:GalGadot_img a ns1:Image ;
-    :url "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA" .
 
 :GaryOldman a ns1:Actor ;
     ns1:Name "Gary Oldman" .
@@ -5594,11 +6027,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :HimeshPatel a ns1:Actor ;
     ns1:Name "Himesh Patel" ;
-    ns1:thumbnail :HimeshPatel_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Himeshpatel_img> ;
     :url "https://www.rottentomatoes.com/celebrity/himesh_patel" .
-
-:HimeshPatel_img a ns1:Image ;
-    :url "https://resizing.flixster.com/fVCzlDI8AM37i1ZZvDOTpLsGQFg=/2941x4411/v1.cjs1MDE5NTtqOzE4NzY1OzEyMDA7Mjk0MTs0NDEx" .
 
 :Hippolyta a ns1:FictionalCharacter ;
     ns1:Name "Hippolyta" .
@@ -5618,11 +6048,81 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :HoySeArreglaElMundo_trailer a :trailer ;
     :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
 
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Aarontaylor_Johnson_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/uRflgfpecsD9gIHxJkiKs-3sVt8=/699x675/v1.cjs0ODk2ODtqOzE4NzY1OzEyMDA7Njk5OzY3NQ" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Andrewhoward_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/d4v5MaDG52-P4lBcSjdSOhCRcIo=/442x394/v1.cjs0NTExOTtqOzE4NzY1OzEyMDA7NDQyOzM5NA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Chrispine_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/lUzaa-oO0RKNt3ekbqvlU5RPqR8=/660x990/v1.bjs3NTYxMDQ7ajsxODc3MzsxMjAwOzY2MDs5OTA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Christophernolan_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/H0_441OvEsJ-OMlAn-njnqv5uFc=/275x230/v1.cjs0MDgwNztqOzE4NzY1OzEyMDA7Mjc1OzIzMA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Clemencepoesy_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/PdT_Pvc6s1thrV8PTrvItxxgJAw=/932x1400/v1.bjs3NTgwMTc7ajsxODc3MzsxMjAwOzkzMjsxNDAw" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Connienielsen_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Denzilsmith_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/4E8Cc4RH8x6iswRFZSDiPaXDbFg=/805x960/v1.bjsyNTM3NjUyO2o7MTg4Mzk7MTIwMDs4MDU7OTYw" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Dimplekapadia_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/fPI-zmRhzsaycBHASSB_W_gkCv4=/355x450/v1.bjs3NzM3NDk7ajsxODc3MzsxMjAwOzM1NTs0NTA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Elizabethdebicki_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/BzRiog7SyR4uJyjcnEvQKb8fMIo=/1435x1494/v1.cjs0ODkwOTtqOzE4NzY1OzEyMDA7MTQzNTsxNDk0" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Galgadot_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Himeshpatel_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/fVCzlDI8AM37i1ZZvDOTpLsGQFg=/2941x4411/v1.cjs1MDE5NTtqOzE4NzY1OzEyMDA7Mjk0MTs0NDEx" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Johndavidwashington_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/3_HdThM2vG_WW0sUoQmHJOVV-UE=/2216x2276/v1.bjsxNzg3MjY2O2o7MTg3ODU7MTIwMDsyMjE2OzIyNzY" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Kennethbranagh_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/uUoOQMrfxIqajl6TBD-uDiXzIZk=/300x450/v1.bjs3ODQ0MzA7ajsxODc3NDsxMjAwOzMwMDs0NTA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Kristenwiig_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Marcelsabat_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/BOMj4WcL1h7AKqilFY2J5GKeM0Q=/3840x2160/v1.bjsyNDA0MjQzO2o7MTg4Mzc7MTIwMDszODQwOzIxNjA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Martindonovan_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/bPesQwVs-DAy1rXQ2GOpY8WXUtA=/810x1080/v1.bjsxNjA3NzI4O2o7MTg3ODM7MTIwMDs4MTA7MTA4MA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Michaelcaine_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/2Fc1WlnRfZrVFrojtN2JpemeBqg=/220x196/v1.cjs0NDk1OTtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Pedropascal_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Robertpattinson_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/bQ6c-PJddTGxk1eSu0lPvneZ6m4=/540x720/v1.bjs3NTcwNDE7ajsxODc3MzsxMjAwOzU0MDs3MjA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Robinwright_img> a ns1:Image ;
+    :url "https://resizing.flixster.com/eIqrys_mhs7F3ohyamRpXh1yxJ8=/1000x1500/v1.bjs3NDQ4MjY7ajsxODc3MzsxMjAwOzEwMDA7MTUwMA" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Tenet_Trailer_img> a ns1:Image ;
+    :url "https://content.internetvideoarchive.com/content/hdphotos/12882/012882/012882_1173x660_637257053180251151.jpg" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Wonderwoman1984_Trailer_img> a ns1:Image ;
+    :url "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
+
 :HumberlyGonzalez a ns1:Actor ;
     ns1:Name "Humberly Gonzalez" .
 
 :IanKenny a ns1:Actor ;
     ns1:Name "Ian Kenny" .
+
+:IanSimmons a ns1:Person ;
+    ns1:Name "Ian Simmons" ;
+    :url "https://www.rottentomatoes.com/critic/ian-simmons" .
 
 :IdirBenAddi a ns1:Actor ;
     ns1:Name "Idir Ben Addi" .
@@ -5638,6 +6138,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ImogenPoots a ns1:Actor ;
     ns1:Name "Imogen Poots" .
+
+:IndianCountryToday a ns1:Company ;
+    ns1:Name "Indian Country Today" ;
+    :url "https://www.rottentomatoes.com/source-3560" .
 
 :IngridGarcia_Jonsson a ns1:Actor ;
     ns1:Name "Ingrid García-Jonsson" .
@@ -5693,6 +6197,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :JakeGyllenhaal a ns1:Actor ;
     ns1:Name "Jake Gyllenhaal" .
+
+:JakeWilson a ns1:Person ;
+    ns1:Name "Jake Wilson" ;
+    :url "https://www.rottentomatoes.com/critic/jake-wilson" .
 
 :JamaalBurcher a ns1:Actor ;
     ns1:Name "Jamaal Burcher" ;
@@ -5761,6 +6269,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :JeffreyDonovan a ns1:Actor ;
     ns1:Name "Jeffrey Donovan" .
 
+:JeffreyOverstreet a ns1:Person ;
+    ns1:Name "Jeffrey Overstreet" ;
+    :url "https://www.rottentomatoes.com/critic/jeffrey-overstreet" .
+
 :JelenaStupljanin a ns1:Actor ;
     ns1:Name "Jelena Stupljanin" .
 
@@ -5769,6 +6281,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :JenniferCoolidge a ns1:Actor ;
     ns1:Name "Jennifer Coolidge" .
+
+:JenniferOuellette a ns1:Person ;
+    ns1:Name "Jennifer Ouellette" ;
+    :url "https://www.rottentomatoes.com/critic/jennifer-ouellette" .
 
 :JeremyThomas a ns1:Actor ;
     ns1:Name "Jeremy Thomas" .
@@ -5818,11 +6334,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :JohnDavidWashington a ns1:Actor ;
     ns1:Name "John David Washington" ;
-    ns1:thumbnail :JohnDavidWashington_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Johndavidwashington_img> ;
     :url "https://www.rottentomatoes.com/celebrity/john_david_washington" .
-
-:JohnDavidWashington_img a ns1:Image ;
-    :url "https://resizing.flixster.com/3_HdThM2vG_WW0sUoQmHJOVV-UE=/2216x2276/v1.bjsxNzg3MjY2O2o7MTg3ODU7MTIwMDsyMjE2OzIyNzY" .
 
 :JohnGettier a ns1:Actor ;
     ns1:Name "John Gettier" ;
@@ -5833,6 +6346,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :JohnLeeHancock a ns1:MovieDirector ;
     ns1:Name "John Lee Hancock" .
+
+:JohnMcdonald a ns1:Person ;
+    ns1:Name "John McDonald" ;
+    :url "https://www.rottentomatoes.com/critic/john-mcdonald" .
 
 :JonHamm a ns1:Actor ;
     ns1:Name "Jon Hamm" .
@@ -5895,6 +6412,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :JuliusBerg a ns1:MovieDirector ;
     ns1:Name "Julius Berg" .
 
+:JumpcutOnline a ns1:Company ;
+    ns1:Name "JumpCut Online" ;
+    :url "https://www.rottentomatoes.com/source-3252" .
+
 :JuneForay a ns1:Actor ;
     ns1:Name "June Foray" .
 
@@ -5927,6 +6448,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :KatherynWinnick a ns1:Actor ;
     ns1:Name "Katheryn Winnick" .
 
+:KathiaWoods a ns1:Person ;
+    ns1:Name "Kathia Woods" ;
+    :url "https://www.rottentomatoes.com/critic/kathia-woods" .
+
 :KathrynNewton a ns1:Actor ;
     ns1:Name "Kathryn Newton" .
 
@@ -5953,17 +6478,22 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :KennethBranagh a ns1:Actor ;
     ns1:Name "Kenneth Branagh" ;
-    ns1:thumbnail :KennethBranagh_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Kennethbranagh_img> ;
     :url "https://www.rottentomatoes.com/celebrity/kenneth_branagh" .
 
-:KennethBranagh_img a ns1:Image ;
-    :url "https://resizing.flixster.com/uUoOQMrfxIqajl6TBD-uDiXzIZk=/300x450/v1.bjs3ODQ0MzA7ajsxODc3NDsxMjAwOzMwMDs0NTA" .
+:KevinCarr a ns1:Person ;
+    ns1:Name "Kevin Carr" ;
+    :url "https://www.rottentomatoes.com/critic/kevin-carr" .
 
 :KhrisDavis a ns1:Actor ;
     ns1:Name "Khris Davis" .
 
 :KiaraPichardo a ns1:Actor ;
     ns1:Name "Kiara Pichardo" .
+
+:KickingTheSeat a ns1:Company ;
+    ns1:Name "Kicking the Seat" ;
+    :url "https://www.rottentomatoes.com/source-3892" .
 
 :KirbyHowell_Baptiste a ns1:Actor ;
     ns1:Name "Kirby Howell-Baptiste" .
@@ -5973,9 +6503,6 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :KristenHarris a ns1:Actor ;
     ns1:Name "Kristen Harris" .
-
-:KristenWiig_img a ns1:Image ;
-    :url "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz" .
 
 :KristofferPolaha a ns1:Actor ;
     ns1:Name "Kristoffer Polaha" ;
@@ -6102,6 +6629,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :LolitaMarie a ns1:Actor ;
     ns1:Name "Lolita Marie" ;
     :url "https://www.metacritic.com/person/lolita-marie" .
+
+:LookingCloser a ns1:Company ;
+    ns1:Name "Looking Closer" ;
+    :url "https://www.rottentomatoes.com/source-1138" .
 
 :LosCroods2_UnaNuevaEra_trailer a :trailer ;
     :url "https://www.youtube.com/embed/bVGlZR05Izc?rel=0&controls=0&showinfo=0" .
@@ -6621,11 +7152,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :MarcelSabat a ns1:Actor ;
     ns1:Name "Marcel Sabat" ;
-    ns1:thumbnail :MarcelSabat_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Marcelsabat_img> ;
     :url "https://www.rottentomatoes.com/celebrity/marcel_sabat" .
-
-:MarcelSabat_img a ns1:Image ;
-    :url "https://resizing.flixster.com/BOMj4WcL1h7AKqilFY2J5GKeM0Q=/3840x2160/v1.bjsyNDA0MjQzO2o7MTg4Mzc7MTIwMDszODQwOzIxNjA" .
 
 :MarcoBarricelli a ns1:Actor ;
     ns1:Name "Marco Barricelli" .
@@ -6652,8 +7180,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :MarisolNichols a ns1:Actor ;
     ns1:Name "Marisol Nichols" .
 
+:MarkCassidy a ns1:Person ;
+    ns1:Name "Mark Cassidy" ;
+    :url "https://www.rottentomatoes.com/critic/mark-cassidy" .
+
 :MarkGatiss a ns1:Actor ;
     ns1:Name "Mark Gatiss" .
+
+:MarkJackson a ns1:Person ;
+    ns1:Name "Mark Jackson" ;
+    :url "https://www.rottentomatoes.com/critic/mark-jackson" .
 
 :MarkKrenik a ns1:Actor ;
     ns1:Name "Mark Krenik" ;
@@ -6680,11 +7216,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :MartinDonovan a ns1:Actor ;
     ns1:Name "Martin Donovan" ;
-    ns1:thumbnail :MartinDonovan_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Martindonovan_img> ;
     :url "https://www.rottentomatoes.com/celebrity/1022418_martin_donovan" .
-
-:MartinDonovan_img a ns1:Image ;
-    :url "https://resizing.flixster.com/bPesQwVs-DAy1rXQ2GOpY8WXUtA=/810x1080/v1.bjsxNjA3NzI4O2o7MTg3ODM7MTIwMDs4MTA7MTA4MA" .
 
 :MartinEden_trailer a :trailer ;
     :url "https://www.youtube-nocookie.com/embed/gcWmd2pvaAk?controls=1&fs=0&autoplay=0" .
@@ -6698,11 +7231,19 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :MartinaGarello a ns1:Actor ;
     ns1:Name "Martina Garello" .
 
+:MaryannJohanson a ns1:Person ;
+    ns1:Name "MaryAnn Johanson" ;
+    :url "https://www.rottentomatoes.com/critic/maryann-johanson" .
+
 :MasaneTsukayama a ns1:Actor ;
     ns1:Name "Masane Tsukayama" .
 
 :MathieuAmalric a ns1:Actor ;
     ns1:Name "Mathieu Amalric" .
+
+:MattNeal a ns1:Person ;
+    ns1:Name "Matt Neal" ;
+    :url "https://www.rottentomatoes.com/critic/matt-neal" .
 
 :MatteoGarrone a ns1:MovieDirector ;
     ns1:Name "Matteo Garrone" .
@@ -6746,9 +7287,6 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :MercedesBurgos a ns1:Actor ;
     ns1:Name "Mercedes Burgos" .
 
-:MichaelCaine_img a ns1:Image ;
-    :url "https://resizing.flixster.com/2Fc1WlnRfZrVFrojtN2JpemeBqg=/220x196/v1.cjs0NDk1OTtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" .
-
 :MichaelGwisdek a ns1:Actor ;
     ns1:Name "Michael Gwisdek" .
 
@@ -6760,6 +7298,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :MichaelPena a ns1:Actor ;
     ns1:Name "Michael Peña" .
+
+:MickLasalle a ns1:Person ;
+    ns1:Name "Mick LaSalle" ;
+    :url "https://www.rottentomatoes.com/critic/mick-lasalle" .
 
 :MickeyGilmore a ns1:Actor ;
     ns1:Name "Mickey Gilmore" .
@@ -6792,11 +7334,19 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     ns1:Name "Monica Haynes" ;
     :url "https://www.metacritic.com/person/monica-haynes" .
 
+:Monocle a ns1:Company ;
+    ns1:Name "Monocle" ;
+    :url "https://www.rottentomatoes.com/source-1969" .
+
 :MoraRecalde a ns1:Actor ;
     ns1:Name "Mora Recalde" .
 
 :MortalKombat_trailer a :trailer ;
     :url "https://www.youtube.com/embed/VKROb3deXzU?rel=0&controls=0&showinfo=0" .
+
+:MoviesInFocus a ns1:Company ;
+    ns1:Name "Movies in Focus" ;
+    :url "https://www.rottentomatoes.com/source-3189" .
 
 :MujerMaravilla1984_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T22:50:00"^^xsd:dateTime ;
@@ -6934,6 +7484,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :MyriemAkeddiou a ns1:Actor ;
     ns1:Name "Myriem Akeddiou" .
 
+:Mystery a ns1:MovieGenre ;
+    ns1:Name "Mystery" .
+
 :NachoAlvarez a ns1:MovieDirector ;
     ns1:Name "Nacho Álvarez" .
 
@@ -6970,14 +7523,26 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :Neil a ns1:FictionalCharacter ;
     ns1:Name "Neil" .
 
+:Newsday a ns1:Company ;
+    ns1:Name "Newsday" ;
+    :url "https://www.rottentomatoes.com/source-338" .
+
 :NgChinHan a ns1:Actor ;
     ns1:Name "Ng Chin Han" .
 
 :NiaDacosta a ns1:MovieDirector ;
     ns1:Name "Nia DaCosta" .
 
+:NiallBrowne a ns1:Person ;
+    ns1:Name "Niall Browne" ;
+    :url "https://www.rottentomatoes.com/critic/niall-browne" .
+
 :NickJonas a ns1:Actor ;
     ns1:Name "Nick Jonas" .
+
+:NickSchager a ns1:Person ;
+    ns1:Name "Nick Schager" ;
+    :url "https://www.rottentomatoes.com/critic/nick-schager" .
 
 :NickyJam a ns1:Actor ;
     ns1:Name "Nicky Jam" .
@@ -6987,6 +7552,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :NikolaiKinski a ns1:Actor ;
     ns1:Name "Nikolai Kinski" .
+
+:NinaGarin a ns1:Person ;
+    ns1:Name "Nina Garin" ;
+    :url "https://www.rottentomatoes.com/critic/nina-garin" .
 
 :NinaVeraSuarezBlefari a ns1:Actor ;
     ns1:Name "Nina Vera Suárez Bléfari" .
@@ -7033,6 +7602,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :PabloEcharri a ns1:Actor ;
     ns1:Name "Pablo Echarri" .
 
+:PabloOScholz a ns1:Person ;
+    ns1:Name "Pablo O. Scholz" ;
+    :url "https://www.rottentomatoes.com/critic/pablo-o-scholz" .
+
 :PabloRago a ns1:Actor ;
     ns1:Name "Pablo Rago" .
 
@@ -7047,6 +7620,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :PatriciaGrier a ns1:Actor ;
     ns1:Name "Patricia Grier" .
+
+:PatrickNabarro a ns1:Company ;
+    ns1:Name "Patrick Nabarro" ;
+    :url "https://www.rottentomatoes.com/source-3237" .
 
 :PaulBriggs a ns1:MovieDirector ;
     ns1:Name "Paul Briggs" .
@@ -7072,9 +7649,6 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :PedroCasablanc a ns1:Actor ;
     ns1:Name "Pedro Casablanc" .
-
-:PedroPascal_img a ns1:Image ;
-    :url "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" .
 
 :PenelopeKapudija a ns1:Actor ;
     ns1:Name "Penelope Kapudija" ;
@@ -7132,6 +7706,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :PeterRabbit_ConejoEnFuga_trailer a :trailer ;
     :url "https://www.youtube.com/embed/QNgxHvVCk3k?rel=0&controls=0&showinfo=0" .
 
+:Phawker a ns1:Company ;
+    ns1:Name "Phawker" ;
+    :url "https://www.rottentomatoes.com/source-3631" .
+
 :PierreGomme a ns1:Actor ;
     ns1:Name "Pierre Gommé" .
 
@@ -7156,6 +7734,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :Pinocho_trailer a :trailer ;
     :url "https://www.youtube.com/embed/8sR52v4hNBI?rel=0&controls=0&showinfo=0" .
 
+:PjNabarro a ns1:Person ;
+    ns1:Name "PJ Nabarro" ;
+    :url "https://www.rottentomatoes.com/critic/pj-nabarro" .
+
 :Priya a ns1:FictionalCharacter ;
     ns1:Name "Priya" .
 
@@ -7170,6 +7752,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :RadoslavMilenkovic a ns1:Actor ;
     ns1:Name "Radoslav Milenković" .
+
+:RaferGuzman a ns1:Person ;
+    ns1:Name "Rafer Guzman" ;
+    :url "https://www.rottentomatoes.com/critic/rafer-guzman" .
 
 :RandyThom a ns1:Actor ;
     ns1:Name "Randy Thom" .
@@ -7261,6 +7847,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :RayaYElUltimoDragon_trailer a :trailer ;
     :url "https://www.youtube-nocookie.com/embed/l4QQS2gNmPc?controls=1&fs=0&autoplay=1" .
 
+:ReadySteadyCut a ns1:Company ;
+    ns1:Name "Ready Steady Cut" ;
+    :url "https://www.rottentomatoes.com/source-3725" .
+
 :RebeccaHall a ns1:Actor ;
     ns1:Name "Rebecca Hall" .
 
@@ -7269,6 +7859,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ReinoUnido_Francia a ns1:Country ;
     ns1:Name "Reino Unido - Francia" .
+
+:RhysBowenJones a ns1:Person ;
+    ns1:Name "Rhys Bowen Jones" ;
+    :url "https://www.rottentomatoes.com/critic/rhys-bowen-jones" .
 
 :RhysDarby a ns1:Actor ;
     ns1:Name "Rhys Darby" .
@@ -7288,6 +7882,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :RitaTushingham a ns1:Actor ;
     ns1:Name "Rita Tushingham" .
 
+:RobGonsalves a ns1:Person ;
+    ns1:Name "Rob Gonsalves" ;
+    :url "https://www.rottentomatoes.com/critic/rob-gonsalves" .
+
 :RobRiggle a ns1:Actor ;
     ns1:Name "Rob Riggle" .
 
@@ -7305,17 +7903,11 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :RobertPattinson a ns1:Actor ;
     ns1:Name "Robert Pattinson" ;
-    ns1:thumbnail :RobertPattinson_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Robertpattinson_img> ;
     :url "https://www.rottentomatoes.com/celebrity/robert_pattinson" .
-
-:RobertPattinson_img a ns1:Image ;
-    :url "https://resizing.flixster.com/bQ6c-PJddTGxk1eSu0lPvneZ6m4=/540x720/v1.bjs3NTcwNDE7ajsxODc3MzsxMjAwOzU0MDs3MjA" .
 
 :RobertoBenigni a ns1:Actor ;
     ns1:Name "Roberto Benigni" .
-
-:RobinWright_img a ns1:Image ;
-    :url "https://resizing.flixster.com/eIqrys_mhs7F3ohyamRpXh1yxJ8=/1000x1500/v1.bjs3NDQ4MjY7ajsxODc3MzsxMjAwOzEwMDA7MTUwMA" .
 
 :RoccoPapaleo a ns1:Actor ;
     ns1:Name "Rocco Papaleo" .
@@ -7368,11 +7960,19 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :SamuelLJackson a ns1:Actor ;
     ns1:Name "Samuel L. Jackson" .
 
+:SanDiegoUnion_Tribune a ns1:Company ;
+    ns1:Name "San Diego Union-Tribune" ;
+    :url "https://www.rottentomatoes.com/source-503" .
+
 :Sanjay a ns1:FictionalCharacter ;
     ns1:Name "Sanjay" .
 
 :SaoriHayami a ns1:Actor ;
     ns1:Name "Saori Hayami" .
+
+:SarahWard a ns1:Person ;
+    ns1:Name "Sarah Ward" ;
+    :url "https://www.rottentomatoes.com/critic/sarah-ward" .
 
 :Sator a ns1:FictionalCharacter ;
     ns1:Name "Sator" .
@@ -7385,6 +7985,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ScarlettJohansson a ns1:Actor ;
     ns1:Name "Scarlett Johansson" .
+
+:Sci_Fi a ns1:MovieGenre ;
+    ns1:Name "Sci-Fi" .
 
 :Scooby_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T16:00:00"^^xsd:dateTime ;
@@ -7399,6 +8002,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ShawnLevy a ns1:MovieDirector ;
     ns1:Name "Shawn Levy" .
+
+:SheriFlanders a ns1:Person ;
+    ns1:Name "Sheri Flanders" ;
+    :url "https://www.rottentomatoes.com/critic/sheri-flanders" .
 
 :ShunOguri a ns1:Actor ;
     ns1:Name "Shun Oguri" .
@@ -7463,6 +8070,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :StephanieSy a ns1:Actor ;
     ns1:Name "Stephanie Sy" .
 
+:StephenRomei a ns1:Person ;
+    ns1:Name "Stephen Romei" ;
+    :url "https://www.rottentomatoes.com/critic/stephen-romei" .
+
 :SteveTrevor a ns1:FictionalCharacter ;
     ns1:Name "Steve Trevor" .
 
@@ -7474,6 +8085,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :SungKang a ns1:Actor ;
     ns1:Name "Sung Kang" .
+
+:Suspense a ns1:MovieGenre ;
+    ns1:Name "Suspense" .
 
 :Swankie a ns1:Actor ;
     ns1:Name "Swankie" .
@@ -7574,6 +8188,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     :room :room_Classic_2D .
 
 :Tenet_trailer a :trailer ;
+    ns1:Name "Tenet (Trailer 2)" ;
+    ns1:description "Video Clip of Tenet" ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Tenet_Trailer_img> ;
     :url "https://www.youtube.com/embed/Q3YsDF8rZ9w?rel=0&controls=0&showinfo=0" .
 
 :TeresaRuiz a ns1:Actor ;
@@ -7592,6 +8209,34 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :TeyonahParris a ns1:Actor ;
     ns1:Name "Teyonah Parris" .
 
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> a ns1:Company ;
+    ns1:Name "The Age (Australia)" ;
+    :url "https://www.rottentomatoes.com/source-2041" .
+
+:TheAtlantic a ns1:Company ;
+    ns1:Name "The Atlantic" ;
+    :url "https://www.rottentomatoes.com/source-24" .
+
+:TheAustralian a ns1:Company ;
+    ns1:Name "The Australian" ;
+    :url "https://www.rottentomatoes.com/source-1964" .
+
+:TheDailyBeast a ns1:Company ;
+    ns1:Name "The Daily Beast" ;
+    :url "https://www.rottentomatoes.com/source-2345" .
+
+:TheLarchmontChronicle a ns1:Company ;
+    ns1:Name "The Larchmont Chronicle" ;
+    :url "https://www.rottentomatoes.com/source-2992" .
+
+:TheirOwnLeague a ns1:Company ;
+    ns1:Name "Their Own League" ;
+    :url "https://www.rottentomatoes.com/source-3607" .
+
+:Thibault_Lagoutte a ns1:Person ;
+    ns1:Name "thibault-lagoutte" ;
+    :url "https://www.imdb.com/" .
+
 :ThomasClayStrickland a ns1:Actor ;
     ns1:Name "Thomas Clay Strickland" ;
     :url "https://www.metacritic.com/person/thomas-clay-strickland" .
@@ -7605,8 +8250,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :TigranSahakyan a ns1:MovieDirector ;
     ns1:Name "Tigran Sahakyan" .
 
+:TimCogshell a ns1:Person ;
+    ns1:Name "Tim Cogshell" ;
+    :url "https://www.rottentomatoes.com/critic/tim-cogshell" .
+
 :TimHill a ns1:MovieDirector ;
     ns1:Name "Tim Hill" .
+
+:TimRobey a ns1:Person ;
+    ns1:Name "Tim Robey" ;
+    :url "https://www.rottentomatoes.com/critic/tim-robey" .
 
 :TimStory a ns1:MovieDirector ;
     ns1:Name "Tim Story" .
@@ -7936,8 +8589,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :TomonoriSudo a ns1:MovieDirector ;
     ns1:Name "Tomonori Sudô" .
 
+:TonyBlack a ns1:Person ;
+    ns1:Name "Tony Black" ;
+    :url "https://www.rottentomatoes.com/critic/tony-black" .
+
 :TonyCervone a ns1:MovieDirector ;
     ns1:Name "Tony Cervone" .
+
+:TonyMedley a ns1:Person ;
+    ns1:Name "Tony Medley" ;
+    :url "https://www.rottentomatoes.com/critic/tony-medley" .
 
 :TonyTodd a ns1:Actor ;
     ns1:Name "Tony Todd" .
@@ -8116,6 +8777,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :UnitedStatesOfAmerica a ns1:Country ;
     ns1:Name "United States of America" .
 
+:UntitledMoviePodcast a ns1:Company ;
+    ns1:Name "Untitled Movie Podcast" ;
+    :url "https://www.rottentomatoes.com/source-3831" .
+
 :UriahShelton a ns1:Actor ;
     ns1:Name "Uriah Shelton" .
 
@@ -8127,6 +8792,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ValeriaCorrea a ns1:Actor ;
     ns1:Name "Valeria Correa" .
+
+:ValerieKalfrin a ns1:Person ;
+    ns1:Name "Valerie Kalfrin" ;
+    :url "https://www.rottentomatoes.com/critic/valerie-kalfrin" .
 
 :VanessaCurry a ns1:Actor ;
     ns1:Name "Vanessa Curry" .
@@ -8157,6 +8826,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :VincentLacoste a ns1:Actor ;
     ns1:Name "Vincent Lacoste" .
+
+:VincentSchilling a ns1:Person ;
+    ns1:Name "Vincent Schilling" ;
+    :url "https://www.rottentomatoes.com/critic/vincent-schilling" .
 
 :VincenzoNemolato a ns1:Actor ;
     ns1:Name "Vincenzo Nemolato" .
@@ -8226,6 +8899,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :WonderWoman1984_cover_image_4 a ns1:Image ;
     :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
 
+:WonderWoman1984_trailer a :trailer ;
+    ns1:Name "Stream on HBO Max for a Limited Time" ;
+    ns1:description "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah." ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Wonderwoman1984_Trailer_img> ;
+    :url "https://www.imdb.com/video/imdb/vi3240214809" .
+
+:WorldSocialistWebSite a ns1:Company ;
+    ns1:Name "World Socialist Web Site" ;
+    :url "https://www.rottentomatoes.com/source-484" .
+
 :WyattRussell a ns1:Actor ;
     ns1:Name "Wyatt Russell" .
 
@@ -8277,6 +8960,444 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :eeuu a ns1:Country,
         owl:NamedIndividual ;
     ns1:Name "Estados Unidos"@es .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> a ns3:WebPage ;
+    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet> a ns3:WebPage ;
+    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> a ns3:WebPage ;
+    ns3:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> a ns3:WebPage ;
+    ns3:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> a ns3:WebPage ;
+    ns3:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> a ns3:WebPage ;
+    ns3:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> a ns3:WebPage ;
+    ns3:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://concreteplayground.com/sydney/event/wonder-woman-1984> a ns3:WebPage ;
+    ns3:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/> a ns3:WebPage ;
+    ns3:hasURL "https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/slide=0> a ns3:WebPage ;
+    ns3:hasURL "https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/#slide=0" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2020/08/25/tenet/> a ns3:WebPage ;
+    ns3:hasURL "https://film-authority.com/2020/08/25/tenet/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2021/01/11/wonder-woman-1984/> a ns3:WebPage ;
+    ns3:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews> a ns3:WebPage ;
+    ns3:hasURL "https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> a ns3:WebPage ;
+    ns3:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/> a ns3:WebPage ;
+    ns3:hasURL "https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> a ns3:WebPage ;
+    ns3:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit> a ns3:WebPage ;
+    ns3:hasURL "https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://monocle.com/radio/shows/the-monocle-culture-show/> a ns3:WebPage ;
+    ns3:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> a ns3:WebPage ;
+    ns3:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://pnabarro.wordpress.com/2021/01/31/tenet/> a ns3:WebPage ;
+    ns3:hasURL "https://pnabarro.wordpress.com/2021/01/31/tenet/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_1> a ns5:AggregateRating ;
+    ns1:Name "Tomatometer" ;
+    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    :bestRating 1e+02 ;
+    :ratingValue 7e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 349 ;
+    ns5:reviewCount 349 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_2> a ns5:AggregateRating ;
+    ns2:source "https://www.metacritic.com/movie/tenet" ;
+    :bestRating 1e+02 ;
+    :ratingValue 6.9e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 50 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_3> a ns5:AggregateRating ;
+    ns2:source "https://www.imdb.com/title/tt6723592/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 7.5e+00 ;
+    :worstRating 1e+00 ;
+    ns5:ratingCount 331296 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_4> a ns5:AggregateRating ;
+    ns2:source "https://www.ecartelera.com/peliculas/tenet/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 8.4e+00 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 27 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_10_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_11_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_12_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_13_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_14_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_15_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_16_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_17_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_18_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_19_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_1_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_20_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_21_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_22_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_23_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_24_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_25_rating> a ns5:Rating ;
+    :bestRating 1e+01 ;
+    :ratingValue 7e+00 ;
+    :worstRating 1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_2_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_3_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_4_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_5_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_6_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_7_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_8_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_9_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_1> a ns5:AggregateRating ;
+    ns1:Name "Tomatometer" ;
+    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    :bestRating 1e+02 ;
+    :ratingValue 5.9e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 426 ;
+    ns5:reviewCount 426 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_2> a ns5:AggregateRating ;
+    ns2:source "https://www.imdb.com/title/tt7126948/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 5.4e+00 ;
+    :worstRating 1e+00 ;
+    ns5:ratingCount 192548 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_3> a ns5:AggregateRating ;
+    ns2:source "https://www.metacritic.com/movie/wonder-woman-1984" ;
+    :bestRating 1e+02 ;
+    :ratingValue 6e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 57 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_4> a ns5:AggregateRating ;
+    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 7.6e+00 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 20 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_10_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_11_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_12_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_13_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_14_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_15_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_16_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_17_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_18_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_19_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_1_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_20_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_21_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_22_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_23_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_24_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_25_rating> a ns5:Rating ;
+    :bestRating 1e+01 ;
+    :ratingValue 3e+00 ;
+    :worstRating 1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_2_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_3_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_4_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_5_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_6_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_7_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_8_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_9_rating> a ns5:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://readysteadycut.com/2020/08/27/tenet-review/> a ns3:WebPage ;
+    ns3:hasURL "https://readysteadycut.com/2020/08/27/tenet-review/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> a ns3:WebPage ;
+    ns3:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> a ns3:WebPage ;
+    ns3:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743gs.rehe3y> a ns3:WebPage ;
+    ns3:hasURL "https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743#gs.rehe3y" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610> a ns3:WebPage ;
+    ns3:hasURL "https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.cupofsoulshow.com/tenet> a ns3:WebPage ;
+    ns3:hasURL "https://www.cupofsoulshow.com/tenet" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.efilmcritic.com/review.php?movie=33026&reviewer=416> a ns3:WebPage ;
+    ns3:hasURL "https://www.efilmcritic.com/review.php?movie=33026&reviewer=416" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> a ns3:WebPage ;
+    ns3:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/> a ns3:WebPage ;
+    ns3:hasURL "https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> a ns3:WebPage ;
+    ns3:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> a ns3:WebPage ;
+    ns3:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> a ns3:WebPage ;
+    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> a ns3:WebPage ;
+    ns3:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> a ns3:WebPage ;
+    ns3:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author> a ns3:WebPage ;
+    ns3:hasURL "https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.wsws.org/en/articles/2021/03/22/tene-m22.html> a ns3:WebPage ;
+    ns3:hasURL "https://www.wsws.org/en/articles/2021/03/22/tene-m22.html" .
 
 :john_david_washington a ns1:Actor,
         owl:NamedIndividual ;
@@ -8338,18 +9459,18 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
-    ns4:aggregateRating :tenet_aggregated_rating_1 .
+    ns5:aggregateRating :tenet_aggregated_rating_1 .
 
 :tenet_aggregated_rating_1 a owl:NamedIndividual,
-        ns4:AggregateRating ;
+        ns5:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns5:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
     :bestRating 1e+02 ;
     :ratingValue 7e+01 ;
     :worstRating 0e+00 ;
-    ns4:ratingCount 349 ;
-    ns4:reviewCount 349 .
+    ns5:ratingCount 349 ;
+    ns5:reviewCount 349 .
 
 :tenet_cover_image_1 a ns1:Image,
         owl:NamedIndividual ;
@@ -8370,16 +9491,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     :url "https://example.com/img.jpg"^^xsd:anyURI .
 
 :tenet_review_1_rating_1 a owl:NamedIndividual,
-        ns4:Rating ;
+        ns5:Rating ;
     ns1:Name "example name" ;
     ns1:description "example description" ;
     :bestRating 1e+00 ;
     :ratingValue -1e+00 ;
     :worstRating -1e+00 .
 
-:tenet_review_1_site a ns2:WebPage,
+:tenet_review_1_site a ns3:WebPage,
         owl:NamedIndividual ;
-    ns2:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+    ns3:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
 
 :tenet_show_1 a owl:NamedIndividual,
         :film_show ;
@@ -8410,6 +9531,12 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     ns1:Name "Warner Bros. Pictures"^^xsd:string ;
     :url "https://www.rottentomatoes.com/"^^xsd:string .
 
+:Action a ns1:MovieGenre ;
+    ns1:Name "Action" .
+
+:Adventure a ns1:MovieGenre ;
+    ns1:Name "Adventure" .
+
 :AliWebb a ns1:Actor ;
     ns1:Name "Ali Webb" .
 
@@ -8434,6 +9561,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :BenWhishaw a ns1:Actor ;
     ns1:Name "Ben Whishaw" .
 
+:BrianGill a ns1:Person ;
+    ns1:Name "Brian Gill" ;
+    :url "https://www.rottentomatoes.com/critic/brian-gill" .
+
 :BrianTyreeHenry a ns1:Actor ;
     ns1:Name "Brian Tyree Henry" .
 
@@ -8454,13 +9585,13 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ChrisPine a ns1:Actor ;
     ns1:Name "Chris Pine" ;
-    ns1:thumbnail :ChrisPine_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Chrispine_img> ;
     :url "https://www.rottentomatoes.com/celebrity/christopher_pine" .
 
 :ChristopherNolan a ns1:MovieDirector,
         ns1:Person ;
     ns1:Name "Christopher Nolan" ;
-    ns1:thumbnail :ChristopherNolan_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Christophernolan_img> ;
     :url "https://www.rottentomatoes.com/celebrity/christopher_nolan" .
 
 :CinemaCity a ns1:Cinema ;
@@ -8514,12 +9645,19 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :DramaRomantico a ns1:MovieGenre ;
     ns1:Name "Drama romantico" .
 
+:EddieHarrison a ns1:Person ;
+    ns1:Name "Eddie Harrison" ;
+    :url "https://www.rottentomatoes.com/critic/eddie-harrison" .
+
+:EeUu a ns1:Country ;
+    ns1:Name "EE.UU." .
+
 :EizaGonzalez a ns1:Actor ;
     ns1:Name "Eiza González" .
 
 :ElizabethDebicki a ns1:Actor ;
     ns1:Name "Elizabeth Debicki" ;
-    ns1:thumbnail :ElizabethDebicki_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Elizabethdebicki_img> ;
     :url "https://www.rottentomatoes.com/celebrity/elizabeth_debicki" .
 
 :EmilyBlunt a ns1:Actor ;
@@ -8527,6 +9665,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :EmmaStone a ns1:Actor ;
     ns1:Name "Emma Stone" .
+
+:English a ns1:Language ;
+    ns1:languageCode "en" .
+
+:Fantasy a ns1:MovieGenre ;
+    ns1:Name "Fantasy" .
+
+:Film_AuthorityCom a ns1:Company ;
+    ns1:Name "film-authority.com" ;
+    :url "https://www.rottentomatoes.com/source-3904" .
 
 :FoxRose a ns1:Actor ;
     ns1:Name "Fox Rose" .
@@ -8537,7 +9685,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :GalGadot a ns1:Actor ;
     ns1:Name "Gal Gadot" ;
-    ns1:thumbnail :GalGadot_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Galgadot_img> ;
     :url "https://www.rottentomatoes.com/celebrity/gal-gadot" .
 
 :GrahamGreene a ns1:Actor ;
@@ -8590,7 +9738,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :KristenWiig a ns1:Actor ;
     ns1:Name "Kristen Wiig" ;
-    ns1:thumbnail :KristenWiig_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Kristenwiig_img> ;
     :url "https://www.rottentomatoes.com/celebrity/kristen_wiig" .
 
 :LeaSeydoux a ns1:Actor ;
@@ -8602,16 +9750,28 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :LucasBlack a ns1:Actor ;
     ns1:Name "Lucas Black" .
 
+:MadAboutMoviesPodcast a ns1:Company ;
+    ns1:Name "Mad About Movies Podcast" ;
+    :url "https://www.rottentomatoes.com/source-3256" .
+
 :MaisieWilliams a ns1:Actor ;
     ns1:Name "Maisie Williams" .
 
+:MarkMeszoros a ns1:Person ;
+    ns1:Name "Mark Meszoros" ;
+    :url "https://www.rottentomatoes.com/critic/mark-meszoros" .
+
 :MichaelCaine a ns1:Actor ;
     ns1:Name "Michael Caine" ;
-    ns1:thumbnail :MichaelCaine_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Michaelcaine_img> ;
     :url "https://www.rottentomatoes.com/celebrity/michael_caine" .
 
 :MichelleRodriguez a ns1:Actor ;
     ns1:Name "Michelle Rodriguez" .
+
+:MovieBitches a ns1:Company ;
+    ns1:Name "Movie Bitches" ;
+    :url "https://www.rottentomatoes.com/source-3639" .
 
 :NaomieHarris a ns1:Actor ;
     ns1:Name "Naomie Harris" .
@@ -8626,7 +9786,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :PedroPascal a ns1:Actor ;
     ns1:Name "Pedro Pascal" ;
-    ns1:thumbnail :PedroPascal_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Pedropascal_img> ;
     :url "https://www.rottentomatoes.com/celebrity/pedro_pascal" .
 
 :RalphFiennes a ns1:Actor ;
@@ -8636,9 +9796,15 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     ns1:Name "Ravi Patel" ;
     :url "https://www.metacritic.com/person/ravi-patel" .
 
+:RichardCrouse a ns1:Company,
+        ns1:Person ;
+    ns1:Name "Richard Crouse" ;
+    :url "https://www.rottentomatoes.com/critic/richard-crouse",
+        "https://www.rottentomatoes.com/source-3900" .
+
 :RobinWright a ns1:Actor ;
     ns1:Name "Robin Wright" ;
-    ns1:thumbnail :RobinWright_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Robinwright_img> ;
     :url "https://www.rottentomatoes.com/celebrity/robin_wright" .
 
 :Romance a ns1:MovieGenre ;
@@ -8653,11 +9819,18 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :RyanReynolds a ns1:Actor ;
     ns1:Name "Ryan Reynolds" .
 
+:SanFranciscoChronicle a ns1:Company ;
+    ns1:Name "San Francisco Chronicle" ;
+    :url "https://www.rottentomatoes.com/source-402" .
+
 :SaraCanning a ns1:Actor ;
     ns1:Name "Sara Canning" .
 
 :SawyerJones a ns1:Actor ;
     ns1:Name "Sawyer Jones" .
+
+:ScienceFiction a ns1:MovieGenre ;
+    ns1:Name "Science Fiction" .
 
 :ScottCooper a ns1:MovieDirector ;
     ns1:Name "Scott Cooper" .
@@ -8670,6 +9843,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :StephenMchattie a ns1:Actor ;
     ns1:Name "Stephen McHattie" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> a ns1:Company ;
+    ns1:Name "The News-Herald (Willoughby, OH)" ;
+    :url "https://www.rottentomatoes.com/source-3916" .
 
 :TyreseGibson a ns1:Actor ;
     ns1:Name "Tyrese Gibson" .
@@ -8696,6 +9873,15 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     ns1:thumbnail :christopher_nolan_img ;
     :url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyURI .
 
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater> a ns3:WebPage ;
+    ns3:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/> a ns3:WebPage ;
+    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> a ns3:WebPage ;
+    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
+
 :inglés a ns1:Language,
         owl:NamedIndividual ;
     ns1:languageCode "en"^^xsd:string .
@@ -8712,8 +9898,12 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ConnieNielsen a ns1:Actor ;
     ns1:Name "Connie Nielsen" ;
-    ns1:thumbnail :ConnieNielsen_img ;
+    ns1:thumbnail <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Connienielsen_img> ;
     :url "https://www.rottentomatoes.com/celebrity/connie_nielsen" .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> a ns1:Company ;
+    ns1:Name "FilmWeek (KPCC - NPR Los Angeles)" ;
+    :url "https://www.rottentomatoes.com/source-3509" .
 
 :FrancesSubtitulado a ns1:Language ;
     ns1:languageCode "fr" .
@@ -8735,17 +9925,12 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :RamiMalek a ns1:Actor ;
     ns1:Name "Rami Malek" .
 
-:movie_review a owl:Class ;
-    rdfs:subClassOf ns2:Review .
-
 :Italia a ns1:Country ;
     ns1:Name "Italia" .
 
 :room_Sala4D a :cinema_room ;
     ns1:Name "SALA 4D" ;
     :cinema :CinemaCity .
-
-ns1:Person rdfs:subClassOf ns3:ResponsibleEntity .
 
 :CienciaFiccion a ns1:MovieGenre ;
     ns1:Name "Ciencia Ficción" .
@@ -8801,6 +9986,191 @@ ns1:Person rdfs:subClassOf ns3:ResponsibleEntity .
 :InglesSubtitulada a ns1:Language ;
     ns1:languageCode "en" .
 
+:Tenet a ns1:Film ;
+    ns1:author :ChristopherNolan,
+        :Tenet_company_1,
+        :Tenet_company_2 ;
+    ns1:director :ChristopherNolan ;
+    ns1:duration 150,
+        155 ;
+    ns1:genre :Accion,
+        :Action,
+        :Adventure,
+        :CienciaFiccion,
+        :Drama,
+        :Fantasy,
+        :Mystery,
+        :Sci_Fi,
+        :ScienceFiction,
+        :Suspense,
+        :Thriller ;
+    ns1:language :InglesSubtitulada ;
+    ns1:origin :EeUu,
+        :Eeuu,
+        :EstadosUnidos,
+        :ReinoUnido ;
+    ns1:productionCompany :WarnerBrosPictures ;
+    ns1:releaseDate [ ns1:releaseDate "2020-08-26T00:00:00-03:00"^^xsd:dateTime ] ;
+    ns1:starring :AaronTaylor_Johnson,
+        :AndrewHoward,
+        :CarinaVelva,
+        :ClemencePoesy,
+        :DenzilSmith,
+        :DimpleKapadia,
+        :ElizabethDebicki,
+        :FionaDourif,
+        :HimeshPatel,
+        :IvoUukkivi,
+        :JeffersonHall,
+        :JohnDavidWashington,
+        :JonathanCamp,
+        :JuhanUlfsak,
+        :KennethBranagh,
+        :LaurieShepherd,
+        :MarcelSabat,
+        :MarkKrenik,
+        :MartinDonovan,
+        :MichaelCaine,
+        :RichCeraulo,
+        :RichCerauloKo,
+        :RobertPattinson,
+        :WesChatham,
+        :YuriKolokolnikov ;
+    ns1:thumbnail :Tenet_cover_image_1,
+        :Tenet_cover_image_2,
+        :Tenet_cover_image_3,
+        :Tenet_cover_image_4 ;
+    :content_rating "P-13" ;
+    :hasCharacter :Barbara,
+        :Crosby,
+        :Driver,
+        :Fay,
+        :GauntRussian,
+        :Ives,
+        :Kat,
+        :Mahir,
+        :Neil,
+        :Priya,
+        :Protagonist,
+        :Sanjay,
+        :Sator,
+        :Swat2,
+        :Swat_Target ;
+    :hasShow :Tenet_show_1,
+        :Tenet_show_10,
+        :Tenet_show_2,
+        :Tenet_show_3,
+        :Tenet_show_4,
+        :Tenet_show_5,
+        :Tenet_show_6,
+        :Tenet_show_7,
+        :Tenet_show_8,
+        :Tenet_show_9 ;
+    :hasTrailer :Tenet_trailer ;
+    :keyword "car chase",
+        "produced by director",
+        "symphony hall",
+        "time paradox",
+        "written by director" ;
+    :sourceUrl "https://www.ecartelera.com/peliculas/tenet/",
+        "https://www.imdb.com/title/tt6723592/",
+        "https://www.metacritic.com/movie/tenet",
+        "https://www.rottentomatoes.com/m/tenet" ;
+    :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión.",
+        "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist (John David Washington) journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. Not time travel. Inversion." ;
+    ns5:aggregateRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_1>,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_2>,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_3>,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_4> .
+
+:WonderWoman1984 a ns1:Film ;
+    ns1:author :DaveCallaham,
+        :GeoffJohns,
+        :PattyJenkins,
+        :WilliamMoultonMarston,
+        :WonderWoman1984_company_1,
+        :WonderWoman1984_company_3,
+        :WonderWoman1984_company_6,
+        :WonderWoman1984_company_7,
+        :WonderWoman1984_company_9 ;
+    ns1:director :PattyJenkins ;
+    ns1:duration 151 ;
+    ns1:genre :Action,
+        :Adventure,
+        :Fantasy,
+        :ScienceFiction ;
+    ns1:origin :EeUu ;
+    ns1:productionCompany :WarnerBrosPictures ;
+    ns1:releaseDate [ ns1:releaseDate "2020-12-18T00:00:00-03:00"^^xsd:dateTime ] ;
+    ns1:starring :AlexDelescu,
+        :AmrWaked,
+        :AmreenNYaqoob,
+        :BernCollaco,
+        :BrittneyAleah,
+        :ChrisPine,
+        :ChrisSilcox,
+        :ConnieNielsen,
+        :EllaWalker,
+        :GabriellaWilde,
+        :GalGadot,
+        :JamaalBurcher,
+        :JamalAlkhaldi,
+        :JeffMoore,
+        :JoelMorris,
+        :JohnGettier,
+        :JonathanAjayi,
+        :JulianFerro,
+        :JustinSisk,
+        :KailaIngram,
+        :KristenWiig,
+        :KristofferPolaha,
+        :LillyAspell,
+        :LolitaMarie,
+        :LyndaCarter,
+        :LyonBeckwith,
+        :ManojAnand,
+        :MarisolCorrea,
+        :MarlaAaronWapner,
+        :MonicaHaynes,
+        :NatashaRothwell,
+        :OakleyBull,
+        :PaulRonCruz,
+        :PedroPascal,
+        :PenelopeKapudija,
+        :RaviPatel,
+        :RickKelvinBranch,
+        :RobinWright,
+        :SiaAlipour,
+        :SoniaGoswami,
+        :SpencerTrinwith,
+        :TessaBonhamJones,
+        :ThomasClayStrickland ;
+    ns1:thumbnail :WonderWoman1984_cover_image_1,
+        :WonderWoman1984_cover_image_2,
+        :WonderWoman1984_cover_image_3,
+        :WonderWoman1984_cover_image_4 ;
+    :content_rating "P-13" ;
+    :hasCharacter :Antiope,
+        :BarbaraMinerva_Cheetah,
+        :DianaPrince_WonderWoman,
+        :Hippolyta,
+        :SteveTrevor ;
+    :hasTrailer :WonderWoman1984_trailer ;
+    :keyword "action heroine",
+        "dc comics",
+        "dc extended universe",
+        "sequel",
+        "superhero" ;
+    :sourceUrl "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
+        "https://www.imdb.com/title/tt7126948/",
+        "https://www.metacritic.com/movie/wonder-woman-1984",
+        "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." ;
+    ns5:aggregateRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_1>,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_2>,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_3>,
+        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_4> .
+
 :room_Ms_2D a :cinema_room ;
     ns1:Name "MS - 2D" ;
     :cinema :CinepolisNeuquen,
@@ -8808,6 +10178,11 @@ ns1:Person rdfs:subClassOf ns3:ResponsibleEntity .
 
 :EstadosUnidos a ns1:Country ;
     ns1:Name "Estados Unidos" .
+
+ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
+
+:movie_review a owl:Class ;
+    rdfs:subClassOf ns3:Review .
 
 :trailer a owl:Class ;
     rdfs:subClassOf ns1:Media .
@@ -8821,7 +10196,7 @@ ns1:Person rdfs:subClassOf ns3:ResponsibleEntity .
         :CinepolisRecoleta,
         :CinepolisRosario .
 
-ns1:Film rdfs:subClassOf ns2:Movie .
+ns1:Film rdfs:subClassOf ns3:Movie .
 
 :room_SalaHd a :cinema_room ;
     ns1:Name "SALA HD" ;

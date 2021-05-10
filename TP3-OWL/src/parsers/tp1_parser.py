@@ -29,7 +29,7 @@ class OWLParser:
         self.add_synopsis(movie_title, movie_obj)
         self.add_trailer(movie_title, movie_obj)
         self.add_shows(movie_title, movie_obj)
-        self.add_realeased_date(movie_title, movie_obj)
+        self.add_released_date(movie_title, movie_obj)
 
     def add_genres(self, movie_title, movie):
         for genre in movie.genres:
@@ -166,6 +166,9 @@ class OWLParser:
 
         return self.baseURI[encoded_cinema_name]
 
-    def add_realeased_date(self, movie_title, movie):
+    def add_released_date(self, movie_title, movie):
         if movie.released:
-            self.g.add((movie_title, self.dbpedia.releaseDate, BNode('b')))
+            date_uri = f"{to_turtle_fmt(movie.title)}_released_date"
+
+            self.g.add(
+                (movie_title, self.dbpedia.releaseDate, BNode(date_uri)))
