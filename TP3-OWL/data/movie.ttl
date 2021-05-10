@@ -55,6 +55,14 @@
       rdfs:range :cinema_room .
 
 
+###  https://schema.org/ratingCount
+<https://schema.org/ratingCount> rdfs:domain <https://schema.org/AggregateRating> .
+
+
+###  https://schema.org/reviewCount
+<https://schema.org/reviewCount> rdfs:domain <https://schema.org/AggregateRating> .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -92,12 +100,6 @@
              rdfs:range xsd:double .
 
 
-###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#sourceUrl
-:sourceUrl rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :url ;
-           rdfs:range xsd:anyURI .
-
-
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#synopsis
 :synopsis rdf:type owl:DatatypeProperty ;
           rdfs:domain <http://dbpedia.org/ontology/Film> ;
@@ -116,13 +118,11 @@
 
 
 ###  https://schema.org/ratingCount
-<https://schema.org/ratingCount> rdfs:domain <https://schema.org/AggregateRating> ;
-                                 rdfs:range xsd:integer .
+<https://schema.org/ratingCount> rdfs:range xsd:integer .
 
 
 ###  https://schema.org/reviewCount
-<https://schema.org/reviewCount> rdfs:domain <https://schema.org/AggregateRating> ;
-                                 rdfs:range xsd:integer .
+<https://schema.org/reviewCount> rdfs:range xsd:integer .
 
 
 #################################################################
@@ -284,9 +284,8 @@
        :content_rating "P-13"^^xsd:string ;
        :keyword "symphony hall"^^xsd:string ,
                 "time paradox"^^xsd:string ;
-       :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI ,
-                  "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-       :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string .
+       :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
+       <http://purl.org/dc/terms/source> "https://example.com/"^^xsd:anyURI .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_aggregated_rating_1
