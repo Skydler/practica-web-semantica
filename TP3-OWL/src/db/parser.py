@@ -53,7 +53,7 @@ class OWLParser:
 
     def add_source_urls(self, movie_title, movie):
         for url in movie.source_urls:
-            self.g.add((movie_title, self.baseURI.sourceUrl, Literal(url)))
+            self.g.add((movie_title, self.dcterms.source, Literal(url)))
 
     def add_production_company(self, movie_title, movie):
         if prod_c := movie.production_company:

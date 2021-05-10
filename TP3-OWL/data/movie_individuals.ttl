@@ -1,9 +1,9 @@
 @prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 @prefix ns1: <http://dbpedia.org/ontology/> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/spar/fabio/> .
-@prefix ns4: <http://purl.org/vocab/frbr/core#> .
-@prefix ns5: <https://schema.org/> .
+@prefix ns3: <http://purl.org/vocab/frbr/core#> .
+@prefix ns4: <https://schema.org/> .
+@prefix ns5: <http://purl.org/spar/fabio/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,8 +15,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
-        ns3:2019-02-19,
-        ns5: .
+        ns5:2019-02-19,
+        ns4: .
 
 :007_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -37,9 +37,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NaomieHarris,
         :RalphFiennes,
         :RamiMalek ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/007-sin-tiempo-para-morir" ;
     :content_rating "N/A" ;
     :hasTrailer :007_SinTiempoParaMorir_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/007-sin-tiempo-para-morir" ;
     :synopsis "En SIN TIEMPO PARA MORIR, Bond se ha retirado del servicio como agente en activo y disfruta de una tranquila vida en Jamaica. Pero sus días de paz acaban cuando su viejo amigo Felix Leiter de la CIA aparece pidiéndole ayuda. La misión en cuestión, que consiste en rescatar a un científico secuestrado, resulta mucho más compleja de lo esperado y pone a Bond sobre la pista de un misterioso villano armado con peligrosa tecnología de vanguardia." .
 
 :100Lobo a ns1:Film ;
@@ -56,9 +56,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RhysDarby,
         :RupertDegas,
         :SamaraWeaving ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/100-lobo" ;
     :content_rating "N/A" ;
     :hasTrailer :100Lobo_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/100-lobo" ;
     :synopsis "Freddy Lupin pertenece a una orgullosa familia de hombres lobo. Confiado de que pronto se convertirá en un hombre lobo de los más temidos, Freddy se queda sorprendido cuando descubre que no es todo lo feroz que esperaba." .
 
 :AmorSinBarreras a ns1:Film ;
@@ -76,9 +76,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MikeFaist,
         :RachelZegler,
         :RitaMoreno ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/amor-sin-barreras" ;
     :content_rating "N/A" ;
     :hasTrailer :AmorSinBarreras_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/amor-sin-barreras" ;
     :synopsis "Dirigida por el ganador de un Oscar® Steven Spielberg, a partir de un guion del galardonado con un premio Pulitzer y un Tony® Tony Kushner, AMOR SIN BARRERAS cuenta la clásica historia de rivalidades y amor juvenil en la ciudad de Nueva York de 1957." .
 
 :AquellosQueDeseanMiMuerte a ns1:Film ;
@@ -98,9 +98,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MedinaSenghore,
         :NicholasHoult,
         :TylerPerry ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/aquellos-que-desean-mi-muerte" ;
     :content_rating "N/A" ;
     :hasTrailer :AquellosQueDeseanMiMuerte_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/aquellos-que-desean-mi-muerte" ;
     :synopsis "Un adolescente testigo de un asesinato es perseguido por dos asesinos gemelos a través de las tierras salvajes de Montana. Aunque cuenta con un experto de la supervivencia para evitar que los secuaces le den caza, un incendio cercano pronto amenaza con robar la vida de todos los implicados." .
 
 :Atakan_ReliquiaDiabolica a ns1:Film ;
@@ -113,9 +113,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KseniyaPlyusnina,
         :PolinaStrogaya,
         :VladimirKuznetsov ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/atakan-reliquia-diabolica" ;
     :content_rating "P-13" ;
     :hasTrailer :Atakan_ReliquiaDiabolica_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/atakan-reliquia-diabolica" ;
     :synopsis "Atakan es una roca sangrienta, un enorme bloque de granito en el que los paganos han sacrificado humanos durante siglos. Un día, un grupo de estudiantes de Historia liderados por un profesor descienden a las catacumbas de San Petersburgo para hallar este monolito. Sin embargo, con cada paso que dan hacia las profundidades, la situación se descontrola un poco más. La muerte les aguarda. ¿Podrán sobrevivir?" .
 
 :BahiaBlanca a ns1:Film ;
@@ -130,9 +130,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :JuliaMartinezRubio,
         :MarceloSubiotto,
         :VioletaPalukas ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/bahia-blanca" ;
     :content_rating "N/A" ;
     :hasTrailer :BahiaBlanca_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/bahia-blanca" ;
     :synopsis "Mario, docente universitario, utiliza una investigación sobre el escritor Ezequiel Martínez Estrada para huir de su pasado. Establecido en Bahía Blanca, la nueva ciudad parece ser el lugar ideal para el olvido, hasta que un encuentro fortuito con un viejo amigo desencadena el peor de los peligros." .
 
 :Bigli a ns1:Film ;
@@ -146,8 +146,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LauraGrandineti,
         :LuisLuque,
         :RoccoPosca ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/bigli" ;
     :content_rating "P13R" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/bigli" ;
     :synopsis "Los años dejaron sin amor y sin sentido al viejo Bigli, tratando de que el alcohol lo hunda a él o a su barco. En medio de ese largo adiós del mundo, su amada sobrina, sin encontrar contención en su familia, le pedirá ayuda." .
 
 :BlackWidow a ns1:Film ;
@@ -166,9 +166,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :SimonaZivkovska,
         :WilliamHurt,
         :YolandaLynes ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/black-widow" ;
     :content_rating "N/A" ;
     :hasTrailer :BlackWidow_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/black-widow" ;
     :synopsis "Al nacer, Natasha Romanoff se entrega a la KGB, que la prepara para convertirse en su principal agente. Cuando los Estados Unidos se separan, el gobierno trata de matarla mientras la acción actúa." .
 
 :Candyman a ns1:Film ;
@@ -186,8 +186,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :TeyonahParris,
         :TonyTodd,
         :YahyaAbdul_MateenIi ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/candyman" ;
     :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/candyman" ;
     :synopsis "Desde tiempos inmemoriales, los proyectos residenciales del barrio de Cabrini Green en Chicago se han visto amenazados por la historia de un supuesto asesino en serie con un gancho por mano al que se invoca fácilmente repitiendo su nombre cinco veces frente a un espejo. Hoy, una década después de que la última torre de Cabrini fuese derruída, el artista visual Anthony McCoy (Yahya Abdul-Mateen) y su novia Brianna Cartwright (Teyonah Parris), se mudan a un apartamento de lujo de un barrio ahora irreconocible, repleto de millennials y de personas que, por lo general, desconocen su oscuro pasado." .
 
 :ContraElFuego a ns1:Film ;
@@ -199,9 +199,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:starring :IvanYankovskiy,
         :KonstantinKhabenskiy,
         :StasyaMiloslavskaya ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/contra-el-fuego" ;
     :content_rating "N/A" ;
-    :hasTrailer :ContraElFuego_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/contra-el-fuego" .
+    :hasTrailer :ContraElFuego_trailer .
 
 :Cruella a ns1:Film ;
     ns1:director :CraigGillespie ;
@@ -217,9 +217,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KirbyHowell_Baptiste,
         :MarkStrong,
         :PaulWalterHauser ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/cruella" ;
     :content_rating "N/A" ;
     :hasTrailer :Cruella_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/cruella" ;
     :synopsis "La ganadora del Oscar® Emma Stone (La La Land) protagoniza CRUELLA de Disney, un nuevo largometraje de acción real que retrata los primeros días rebeldes de una de las villanas más notorias del cine y de la moda, la legendaria Cruella de Vil. Ambientada en los años 70 en Londres y en medio de la revolución del punk rock, CRUELLA sigue a una joven estafadora llamada Estella, una chica inteligente y creativa decidida a hacerse un lugar en la moda con sus diseños de ropa. Cuando se hace amiga de un par de jóvenes ladrones que aprecian su apetito por las travesuras, juntos logran construir una vida en las calles de Londres. Un día, el talento de Estella llama la atención de la Baronesa von Hellman, la aterradoramente elegante y sofisticada leyenda de la moda interpretada por la dos veces ganadora del Oscar® Emma Thompson (La mansión Howard, Sensatez y Sentimiento). Pero su relación pone en marcha un curso de eventos y revelaciones que harán que Estella abrace su lado perverso y se convierta en la disonante, vanguardista y ávida de venganza Cruella." .
 
 :DemonSlayerMugenTrain a ns1:Film ;
@@ -241,8 +241,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :TakahiroSakurai,
         :TomokazuSeki,
         :YoshitsuguMatsuoka ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/demon-slayer-mugen-train" ;
     :content_rating "P-13" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/demon-slayer-mugen-train" ;
     :synopsis "Demon Slayer: Mugen Train cuenta la historia de Tanjiro Kamado, Kyoujurou Rengoku y sus amigos de la Compañía de Cazadores de Demonios (Demon Slayer Corps). Juntos, se unen con uno de los mejores espadachines de la compañía, Kyojuro Rengoku, para investigar una misteriosa serie de desapariciones que han ocurrido dentro del “Tren Infinito”. Poco saben que Enmu, uno de los miembros de las Doce Lunas Demoníacas, también está a bordo y les ha preparado una trampa." .
 
 :ElConjuro3_ElDiabloMeObligoAHacerlo a ns1:Film ;
@@ -261,9 +261,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :ShannonKook,
         :SterlingJerins,
         :VeraFarmiga ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-conjuro-3-el-diablo-me-obligo-a-hacerlo" ;
     :content_rating "N/A" ;
     :hasTrailer :ElConjuro3_ElDiabloMeObligoAHacerlo_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-conjuro-3-el-diablo-me-obligo-a-hacerlo" ;
     :synopsis "“El Conjuro 3: El diablo me obligó a hacerlo” revela una escalofriante historia de terror, asesinato y un mal desconocido que impresionó incluso a los verdaderos expertos en investigación paranormal Ed y Lorraine Warren. Es uno de los casos más sensacionales de sus archivos; empieza con la lucha por el alma de un niño, los lleva más allá de lo que jamás habían visto y marca la primera vez en la historia de EE. UU. en que un sospechoso de asesinato alega posesión demoníaca como defensa." .
 
 :ElJovenAhmed a ns1:Film ;
@@ -280,8 +280,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :OlivierBonnaud,
         :OthmaneMoumen,
         :VictoriaBluck ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-joven-ahmed" ;
     :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-joven-ahmed" ;
     :synopsis "En la Bélgica actual, el destino del joven Ahmed, de apenas 13 años, se ha quedado atrapado entre los ideales de pureza del que le habla su imán y las pasiones de la vida." .
 
 :ElOficialYElEspia a ns1:Film ;
@@ -301,8 +301,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MelvilPoupaud,
         :VincentGrass,
         :VincentPerez ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-oficial-y-el-espia" ;
     :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-oficial-y-el-espia" ;
     :synopsis "En 1894, el capitán francés Alfred Dreyfus, un joven oficial judío, es acusado de traición por espiar para Alemania y condenado a cadena perpetua en la Isla del Diablo, en la Guayana Francesa. Entre los testigos que hicieron posible esta humillación se encuentra el coronel Georges Picquart, encargado de liderar la unidad de contrainteligencia que descubrió al espía. Pero cuando Picquart se entera de que se siguen pasando secretos militares a los alemanes, se adentrará en un peligroso laberinto de mentiras y corrupción, poniendo en peligro su honor y su vida." .
 
 :ElProtector a ns1:Film ;
@@ -322,9 +322,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LiamNeeson,
         :LuceRains,
         :TeresaRuiz ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-protector" ;
     :content_rating "N/A" ;
     :hasTrailer :ElProtector_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-protector" ;
     :synopsis "Un ranchero en la frontera de Arizona se convierte en el improbable defensor de un joven mexicano que huye desesperadamente de los asesinos del cartel que lo han perseguido hasta Estados Unidos." .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey a ns1:Film ;
@@ -345,9 +345,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LivTyler,
         :SeanAstin,
         :ViggoMortensen ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey" ;
     :content_rating "P-13" ;
     :hasTrailer :ElSenorDeLosAnillos_ElRetornoDelRey_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey" ;
     :synopsis "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino." .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo a ns1:Film ;
@@ -368,9 +368,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :OrlandoBloom,
         :SeanAstin,
         :ViggoMortensen ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-la-comunidad-del-anillo" ;
     :content_rating "ATPR" ;
     :hasTrailer :ElSenorDeLosAnillos_LaComunidadDelAnillo_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-la-comunidad-del-anillo" ;
     :synopsis "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media." .
 
 :ElSenorDeLosAnillos_LasDosTorres a ns1:Film ;
@@ -391,9 +391,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LivTyler,
         :SeanAstin,
         :ViggoMortensen ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-las-dos-torres" ;
     :content_rating "P-13" ;
     :hasTrailer :ElSenorDeLosAnillos_LasDosTorres_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-las-dos-torres" ;
     :synopsis "La Compañía del Anillo se ha disuelto. El portador del anillo Frodo y su fiel amigo Sam se dirigen hacia Mordor para destruir el Anillo Único y acabar con el poder de Sauron. Mientras, y tras la dura batalla contra los orcos donde cayó Boromir, el hombre Aragorn, el elfo Legolas y el enano Gimli intentan rescatar a los medianos Merry y Pipin, secuestrados por los ogros de Mordor. Por su parte, Saurón y el traidor Sarumán continúan con sus planes en Mordor, en espera de la guerra contra las razas libres de la Tierra Media." .
 
 :ElTerritorioDelAmor a ns1:Film ;
@@ -408,8 +408,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NanouGarcia,
         :PaulHamy,
         :VincentPerez ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/el-territorio-del-amor" ;
     :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/el-territorio-del-amor" ;
     :synopsis "María tiene 30 años, es impaciente, rebelde y experta en holandés. Olivier tiene la misma edad, es lento, tímido y habla catorce idiomas. Se encuentran en Taiwan. Y de repente, la impactante novedad. Es su historia. La de la increíble fuerza de un amor. Y la de sus confines, en donde todo empieza a fallar. Excepto María." .
 
 :EnElBarrio a ns1:Film ;
@@ -429,9 +429,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MelissaBarrera,
         :OlgaMerediz,
         :StephanieBeatriz ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/en-el-barrio" ;
     :content_rating "N/A" ;
     :hasTrailer :EnElBarrio_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/en-el-barrio" ;
     :synopsis "Adaptación del musical de Broadway de Lin-Manuel Miranda en el que el propietario de una bodega duda sobre si cerrar su negocio y retirarse a la República Dominicana tras heredar la fortuna de su abuela." .
 
 :EnGuerraConMiAbuelo a ns1:Film ;
@@ -450,15 +450,15 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RobertDeNiro,
         :TJMcgibbon,
         :UmaThurman ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/en-guerra-con-mi-abuelo" ;
     :content_rating "ATPR" ;
     :hasTrailer :EnGuerraConMiAbuelo_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/en-guerra-con-mi-abuelo" ;
     :synopsis "Peter está muy molesto porque tiene que cederle la habitación a su abuelo (Robert De Niro) por lo que decide declararle la guerra en un intento por recuperarla. Esto desatará una divertida y alocada batalla entre él, su abuelo y sus amigos." .
 
 :Espiral_ElJuegoDelMiedoContinua a ns1:Film ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/espiral-el-juego-del-miedo-continua" ;
     :content_rating "N/A" ;
     :hasTrailer :Espiral_ElJuegoDelMiedoContinua_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/espiral-el-juego-del-miedo-continua" ;
     :synopsis "Un cruel y sádico genio desata una retorcida forma de justicia en ESPIRAL, el nuevo y aterrador capítulo en el Universo de El Juego del Miedo. A la sombra de un respetado veterano de la policía (Samuel L. Jackson), el atrevido detective Ezequiel “Zeke” Banks (Chris Rock) y su compañero novato (Max Minghella) se encargan de la rebuscada investigación sobre unos asesinatos que despiertan un recuerdo inquietante del terrible pasado vivido en la ciudad: ¿Habrá regresado? ¿Será posible? Con cada movida, Zeke se acerca más al centro de un misterio y a los macabros juegos de un asesino. ESPIRAL está protagonizada por Chris Rock, Max Minghella, Marisol Nichols y Samuel L. Jackson, y está producida por el equipo original de SAW de Mark Burg y Oren Koules. La película está dirigida por Darren Lynn Bousman y escrita por Josh Stolberg y Pete Goldfinger." .
 
 :EspiritusOscuros a ns1:Film ;
@@ -475,8 +475,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RoryCochrane,
         :SawyerJones,
         :ScottHaze ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/espiritus-oscuros" ;
     :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/espiritus-oscuros" ;
     :synopsis "En Antlers, una pequeña ciudad de Oregón, una profesora (Keri Russel) y su hermano (Jesse Plemons), el sheriff de la localidad, se empiezan a interesar por un estudiante misterioso y distante. A medida que se van conociendo, descubre que el joven esconde un peligroso secreto que podría tener consecuencias fatales." .
 
 :EternosCompaneros a ns1:Film ;
@@ -486,9 +486,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:starring :GigiLeung,
         :HimLaw,
         :SimonYam ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/eternos-companeros" ;
     :content_rating "N/A" ;
     :hasTrailer :EternosCompaneros_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/eternos-companeros" ;
     :synopsis "Adaptación cinematográfica de la famosa novela japonesa \"Goodbye, Khoru\" que sigue a un perro guía y a su conflictuado amo" .
 
 :FreeGuy_TomandoElControl a ns1:Film ;
@@ -506,8 +506,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RyanReynolds,
         :TaikaWaititi,
         :UtkarshAmbudkar ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/free-guy-tomando-el-control" ;
     :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/free-guy-tomando-el-control" ;
     :synopsis "Un trabajador de un banco descubre que en realidad es un jugador dentro de un videojuego." .
 
 :GodzillaVsKong a ns1:Film ;
@@ -528,9 +528,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MillieBobbyBrown,
         :RebeccaHall,
         :ShunOguri ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/godzilla-vs-kong" ;
     :content_rating "P-13" ;
     :hasTrailer :GodzillaVsKong_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/godzilla-vs-kong" ;
     :synopsis "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch (Kyle Chandler) se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra." .
 
 :GoldenVoices a ns1:Film ;
@@ -540,8 +540,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:starring :EvelinHagoel,
         :MariaBelkin,
         :VladimirFridman ;
-    :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/golden-voices" .
+    ns2:source "https://www.cinepolis.com.ar/peliculas/golden-voices" ;
+    :content_rating "N/A" .
 
 :JungleCruise a ns1:Film ;
     ns1:director :JaumeCollet_Serra ;
@@ -555,9 +555,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :JackWhitehall,
         :JessePlemons,
         :PaulGiamatti ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/jungle-cruise" ;
     :content_rating "N/A" ;
     :hasTrailer :JungleCruise_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/jungle-cruise" ;
     :synopsis "La adaptación de acción en vivo de Disney de su icónico paseo en un parque temático." .
 
 :LaFuneraria a ns1:Film ;
@@ -567,9 +567,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :CelesteGerez,
         :HugoArana,
         :LuisMachin ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/la-funeraria" ;
     :content_rating "N/A" ;
     :hasTrailer :LaFuneraria_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/la-funeraria" ;
     :synopsis "Bernardo es el director de una funeraria, que está ubicada en la misma casa donde vive. En la parte delantera recibe a sus clientes, mientras que en el fondo vive su familia entre ataúdes, coronas funerarias y algun que otro fantasma. Intentar descubrir el origen de estas curiosas entidades, tendrá un resultado aterrador." .
 
 :LosCroods2_UnaNuevaEra a ns1:Film ;
@@ -590,9 +590,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :PeterDinklage,
         :RandyThom,
         :RyanReynolds ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/los-croods-2-una-nueva-era" ;
     :content_rating "N/A" ;
     :hasTrailer :LosCroods2_UnaNuevaEra_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/los-croods-2-una-nueva-era" ;
     :synopsis "Después de salir de su cueva, los Croods se encuentran con su mayor amenaza desde que se fueron: otra familia llamada Betterman, quienes afirman y demuestran ser mejores y evolucionados. Grug empieza a sospechar de los padres de Betterman, Phil y Hope, ya que planean en secreto separar a su hija Eep con su amado novio Guy para asegurarse de que su hija Dawn tenga un compañero amoroso e inteligente que la proteja." .
 
 :LosNuevosMutantes a ns1:Film ;
@@ -612,9 +612,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MaisieWilliams,
         :MickeyGilmore,
         :ThomasKee ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/los-nuevos-mutantes" ;
     :content_rating "P-13" ;
     :hasTrailer :LosNuevosMutantes_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/los-nuevos-mutantes" ;
     :synopsis "La historia de los Nuevos Mutantes, un equipo de héroes mutantes formado por los primeros graduados de la escuela de Charles Xavier." .
 
 :MortalKombat a ns1:Film ;
@@ -635,9 +635,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MehcadBrooks,
         :NgChinHan,
         :TadanobuAsano ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/mortal-kombat" ;
     :content_rating "N/A" ;
     :hasTrailer :MortalKombat_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/mortal-kombat" ;
     :synopsis "Un boxeador fracasado descubre un secreto familiar que lo lleva a un torneo místico llamado Mortal Kombat donde se encuentra con un grupo de guerreros que luchan hasta la muerte para salvar los reinos del malvado hechicero Shang Tsung." .
 
 :Nadie a ns1:Film ;
@@ -657,9 +657,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KristenHarris,
         :PaulEssiembre,
         :StephanieSy ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/nadie" ;
     :content_rating "N/A" ;
     :hasTrailer :Nadie_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/nadie" ;
     :synopsis "Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse los golpes de la vida. Un don nadie. Una noche, cuando dos ladrones entran en su casa, Hutch decide no actuar y no trata de defenderse ni al él mismo ni a su familia, convencido de que solo así evitará una escalada de violencia. Tras el ataque, su hija adolescente Blake no oculta su decepción, y su esposa Becca se aleja todavía más." .
 
 :Nomadland a ns1:Film ;
@@ -679,9 +679,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :PatriciaGrier,
         :RyanAquino,
         :Swankie ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/nomadland" ;
     :content_rating "N/A" ;
     :hasTrailer :Nomadland_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/nomadland" ;
     :synopsis "Una mujer de unos sesenta años se embarca en un viaje por el oeste de los Estados Unidos después de perderlo todo en la Gran Recesión, viviendo como una nómada moderna que vive en una furgoneta." .
 
 :PanicoEnLasAlturas a ns1:Film ;
@@ -699,9 +699,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KseniyaShumeyko,
         :VictoriyaPyatakina,
         :VladimirGusev ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/panico-en-las-alturas" ;
     :content_rating "N/A" ;
     :hasTrailer :PanicoEnLasAlturas_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/panico-en-las-alturas" ;
     :synopsis "Cinco jóvenes, deciden celebrar la víspera de Año Nuevo en la cima de una montaña, pero en su intento quedan atrapados en un teleférico. Lo que comenzó como una fiesta de aventura, pronto se convertirá en su peor pesadilla. El frío, la altura y el miedo a una muerte lenta hacen que revelen su verdadera esencia." .
 
 :PequenosSecretos a ns1:Film ;
@@ -720,9 +720,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NatalieMorales,
         :RamiMalek,
         :TerryKinney ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/pequenos-secretos" ;
     :content_rating "P13R" ;
     :hasTrailer :PequenosSecretos_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/pequenos-secretos" ;
     :synopsis "Deke, un ayudante del sheriff del condado de Kern quemado, CA se une a Baxter, un detective experto en LASD, para atrapar a un asesino en serie. El olfato de Deke para las \"pequeñas cosas\" resulta inquietantemente preciso, pero su voluntad de eludir las reglas envuelve a Baxter en un dilema desgarrador. Mientras tanto, Deke debe luchar con un oscuro secreto de su pasado." .
 
 :PeterRabbit_ConejoEnFuga a ns1:Film ;
@@ -742,9 +742,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RoseByrne,
         :SamNeill,
         :Sia ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/peter-rabbit-conejo-en-fuga" ;
     :content_rating "N/A" ;
     :hasTrailer :PeterRabbit_ConejoEnFuga_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/peter-rabbit-conejo-en-fuga" ;
     :synopsis "Peter Rabbit no es un conejo cualquiera. Es un rebelde travieso y aventurero que viste camisa azul y no lleva pantalones. Peter vive junto a su familia y amigos, un grupo variopinto de animales que incluye incluso a un zorro. Todos ellos harán de las suyas en la granja de los McGregor, lugar en cuyo jardín disponen de deliciosos vegetales. Pero la disputa de Peter con el Sr. McGregor se intensificará más que nunca ya que ambos compiten por el afecto de Bea, una amante de los animales de buen corazón. La fiesta animal ha empezado, y esto es solo el principio." .
 
 :RapidosYFuriosos9 a ns1:Film ;
@@ -762,9 +762,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :SungKang,
         :TyreseGibson,
         :VinDiesel ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/rapidos-y-furiosos-9" ;
     :content_rating "N/A" ;
     :hasTrailer :RapidosYFuriosos9_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/rapidos-y-furiosos-9" ;
     :synopsis "No importa lo rápido que seas, nadie supera su pasado. RyF9 es el noveno capítulo de la Saga Rápidos & Furiosos, que comenzó hace casi 20 años y que ha recaudado más de cinco mil millones de dólares en todo el mundo. Dom Toretto, Vin Diesel, lleva una vida tranquila fuera de la red con Letty y su hijo, el pequeño Brian, pero saben que el peligro siempre acecha esa tranquilidad. Esta vez, esa amenaza obligará a Dom a enfrentar los pecados de su pasado si quiere salvar a los que más ama. El Equipo se vuelve a reunir para impedir un complot a escala mundial, liderado por uno de los asesinos más peligrosos y mejor conductor a los que jamás se han enfrentado; un hombre que además es el hermano desaparecido de Dom, Jakob (John Cena, El Escuadrón Suicida del próximo año)." .
 
 :RuegaPorNosotros a ns1:Film ;
@@ -782,9 +782,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KiaraPichardo,
         :MarinaMazepa,
         :WilliamSadler ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/ruega-por-nosotros" ;
     :content_rating "N/A" ;
     :hasTrailer :RuegaPorNosotros_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/ruega-por-nosotros" ;
     :synopsis "Se centra en un periodista caído en desgracia que descubre una serie de aparentes milagros acaecidos en un pequeño pueblo de Nueva Inglaterra, aplicándolos para devolver su carrera al estrellato. Lo que desconoce es que estos milagros esconden una cara mucho más oscura de lo que él cree." .
 
 :SpaceJam_UnaNuevaEra a ns1:Film ;
@@ -806,9 +806,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LebronJames,
         :SonequaMartin_Green,
         :Zendaya ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/space-jam-una-nueva-era" ;
     :content_rating "N/A" ;
     :hasTrailer :SpaceJam_UnaNuevaEra_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/space-jam-una-nueva-era" ;
     :synopsis "¡Bienvenido al partido del siglo! El campeón de la NBA e ícono mundial LeBron James se embarca en una aventura épica junto al Tune Bugs Bunny en el evento animado / de acción en vivo \"Space Jam: Una Nueva Era\", del director Malcolm D. Lee y un equipo de cine innovador que incluye a Ryan Coogler y Maverick Carter. Este viaje de transformación es el resultado de una mezcla maníaca entre dos mundos que, al final, revela hasta dónde están dispuestos a llegar algunos padres para conectar con sus hijos. Cuando LeBron y su pequeño hijo Dom quedan atrapados en un espacio digital por una IA (inteligencia artificial) deshonesta, LeBron debe regresarlos a casa sanos y salvos guiado por Bugs, Lola Bunny y a toda la banda de indisciplinados Looney Tunes hacia la victoria sobre los campeones digitalizados de la IA en la cancha: una lista mejorada de estrellas profesionales del basquetbol como nunca antes lo habías visto. Son Tunes versus Goons en el desafío más importante de su vida, que redefinirá el vínculo de LeBron con su hijo y arrojará luz sobre el poder de ser uno mismo. Todos listos para la acción destruyen las convenciones, potencian sus talentos únicos y sorprenden incluso al \"Rey\" James jugando basquetbol a su manera." .
 
 :Spirit_ElIndomable a ns1:Film ;
@@ -826,9 +826,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MarsaiMartin,
         :MckennaGrace,
         :WaltonGoggins ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/spirit-el-indomable" ;
     :content_rating "N/A" ;
     :hasTrailer :Spirit_ElIndomable_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/spirit-el-indomable" ;
     :synopsis "La vida de Lucky Prescott cambia para siempre cuando se muda de su casa en la gran ciudad a un pequeño pueblo fronterizo en el que entabla amistad con un caballo salvaje llamado Spirit." .
 
 :TomYJerry a ns1:Film ;
@@ -850,9 +850,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NickyJam,
         :T_Pain,
         :WilliamHanna ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/tom-y-jerry" ;
     :content_rating "ATP" ;
     :hasTrailer :TomYJerry_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/tom-y-jerry" ;
     :synopsis "Tom el gato y Jerry el ratón son expulsados de su casa y se trasladan a un elegante hotel de Nueva York, donde una empleada descuidada llamada Kayla perderá su trabajo si no puede desalojar a Jerry antes de una boda de clase alta en el hotel. ¿Su solución? Contratar a Tom para deshacerse del molesto ratón." .
 
 :TopGun_Maverick a ns1:Film ;
@@ -870,9 +870,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MilesTeller,
         :TomCruise,
         :ValKilmer ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/top-gun-maverick" ;
     :content_rating "N/A" ;
     :hasTrailer :TopGun_Maverick_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/top-gun-maverick" ;
     :synopsis "Secuela de Top Gun. De acuerdo con la revista Variety, el propio Tom Cruise confirmó el 24 de mayo a una televisión australiana que el film se rodaría \"el año 2018\"." .
 
 :UnaExtranaObsesion a ns1:Film ;
@@ -892,8 +892,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :PanayotisPascot,
         :PierreGomme,
         :StephaneJobert ;
-    :content_rating "N/A" ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/una-extrana-obsesion" .
+    ns2:source "https://www.cinepolis.com.ar/peliculas/una-extrana-obsesion" ;
+    :content_rating "N/A" .
 
 :VioletEvergarden a ns1:Film ;
     ns1:director :TaichiIshidate ;
@@ -913,9 +913,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RinaSato,
         :TakehitoKoyasu,
         :YuiIshikawa ;
+    ns2:source "https://www.cinepolis.com.ar/peliculas/violet-evergarden" ;
     :content_rating "P-13" ;
     :hasTrailer :VioletEvergarden_trailer ;
-    :sourceUrl "https://www.cinepolis.com.ar/peliculas/violet-evergarden" ;
     :synopsis "La película se sitúa varios años después del final de la guerra, ya que el mundo se está volviendo cada vez más pacífico. Un día, Violet Evergarden encuentra cierta carta." .
 
 :WonderWoman1984_review_1 a :movie_review ;
@@ -923,8 +923,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :SheriFlanders ;
     ns2:publisher :ChicagoReader ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_1_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_1_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_1_rating ;
     :has_body "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads." .
 
@@ -933,8 +933,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :AndrewGaldi ;
     ns2:publisher :MovieBitches ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_10_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_10_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_10_rating ;
     :has_body "There were just such gross failures of filmmaking..." .
 
@@ -943,8 +943,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :AvarylHalley ;
     ns2:publisher :MovieBitches ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_11_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_11_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_11_rating ;
     :has_body "At least \"Justice League\" had at the decency to be short" .
 
@@ -953,8 +953,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :NinaGarin ;
     ns2:publisher :SanDiegoUnion_Tribune ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_12_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_12_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_12_rating ;
     :has_body "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. " .
 
@@ -963,8 +963,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :TonyMedley ;
     ns2:publisher :TheLarchmontChronicle ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_13_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_13_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_13_rating ;
     :has_body "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean." .
 
@@ -973,8 +973,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :SarahWard ;
     ns2:publisher :ConcretePlayground ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_14_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_14_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_14_rating ;
     :has_body "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down." .
 
@@ -983,8 +983,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :EricMarchen ;
     ns2:publisher :UntitledMoviePodcast ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_15_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_15_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_15_rating ;
     :has_body "Feels like this would be better suited for an episode of TV than a 2.5 hour film." .
 
@@ -993,8 +993,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :MarkMeszoros ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_16_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_16_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_16_rating ;
     :has_body "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale." .
 
@@ -1003,8 +1003,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :JenniferOuellette ;
     ns2:publisher :ArsTechnica ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_17_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_17_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_17_rating ;
     :has_body "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing." .
 
@@ -1013,8 +1013,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :BrianGill ;
     ns2:publisher :MadAboutMoviesPodcast ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_18_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_18_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_18_rating ;
     :has_body "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. " .
 
@@ -1023,8 +1023,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :EddieHarrison ;
     ns2:publisher :Film_AuthorityCom ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_19_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_19_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_19_rating ;
     :has_body "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..." .
 
@@ -1033,8 +1033,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :RaferGuzman ;
     ns2:publisher :Newsday ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_2_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_2_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_2_rating ;
     :has_body " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain." .
 
@@ -1043,8 +1043,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :IanSimmons ;
     ns2:publisher :KickingTheSeat ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_20_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_20_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_20_rating ;
     :has_body "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here." .
 
@@ -1053,8 +1053,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :DanTabor ;
     ns2:publisher :Phawker ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_21_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_21_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_21_rating ;
     :has_body "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. " .
 
@@ -1063,8 +1063,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :MarkJackson ;
     ns2:publisher :EpochTimes ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_22_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_22_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_22_rating ;
     :has_body "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown." .
 
@@ -1073,8 +1073,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :JohnMcdonald ;
     ns2:publisher :AustralianFinancialReview ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_23_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_23_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_23_rating ;
     :has_body "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?" .
 
@@ -1083,8 +1083,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :MattNeal ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_24_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_24_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_24_rating ;
     :has_body " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful." .
 
@@ -1094,7 +1094,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns2:creator :Hoarei_56760 ;
     ns2:language :English ;
     ns2:source "https://www.imdb.com/title/tt7126948/" ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_25_rating ;
     :has_body """Should:
 
@@ -1119,8 +1119,8 @@ Everybody else""" .
     ns2:creator :AmyNicholson ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_3_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_3_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_3_rating ;
     :has_body "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this." .
 
@@ -1129,8 +1129,8 @@ Everybody else""" .
     ns2:creator :StephenRomei ;
     ns2:publisher :TheAustralian ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_4_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_4_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_4_rating ;
     :has_body "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. " .
 
@@ -1139,8 +1139,8 @@ Everybody else""" .
     ns2:creator :JakeWilson ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_5_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_5_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_5_rating ;
     :has_body "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel." .
 
@@ -1149,8 +1149,8 @@ Everybody else""" .
     ns2:creator :DavidSims ;
     ns2:publisher :TheAtlantic ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_6_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_6_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_6_rating ;
     :has_body "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema." .
 
@@ -1159,8 +1159,8 @@ Everybody else""" .
     ns2:creator :KevinCarr ;
     ns2:publisher :FatGuysAtTheMovies ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_7_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_7_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_7_rating ;
     :has_body "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works." .
 
@@ -1169,8 +1169,8 @@ Everybody else""" .
     ns2:creator :DavidBax ;
     ns2:publisher :BattleshipPretension ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_8_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_8_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_8_rating ;
     :has_body "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks." .
 
@@ -1179,13 +1179,13 @@ Everybody else""" .
     ns2:creator :ValerieKalfrin ;
     ns2:publisher :TheirOwnLeague ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation :WonderWoman1984_review_9_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns5:hasManifestation :WonderWoman1984_review_9_site ;
+    ns3:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_9_rating ;
     :has_body "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey." .
 
 :bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
@@ -1202,7 +1202,7 @@ Everybody else""" .
 
 :hasRating a owl:ObjectProperty ;
     rdfs:domain :movie_review ;
-    rdfs:range ns5:Rating .
+    rdfs:range ns4:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -1220,7 +1220,7 @@ Everybody else""" .
     rdfs:range xsd:string .
 
 :ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
@@ -1243,19 +1243,19 @@ Everybody else""" .
     ns2:language :inglés ;
     ns2:publisher :monocle ;
     ns2:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-    ns3:hasManifestation :tenet_review_1_site ;
-    ns4:realization :tenet ;
+    ns5:hasManifestation :tenet_review_1_site ;
+    ns3:realization :tenet ;
     :hasRating :tenet_review_1_rating_1 ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
 :worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
-ns5:ratingCount rdfs:domain ns5:AggregateRating ;
+ns4:ratingCount rdfs:domain ns4:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns5:reviewCount rdfs:domain ns5:AggregateRating ;
+ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     rdfs:range xsd:integer .
 
 :007_SinTiempoParaMorir_trailer a :trailer ;
@@ -2977,19 +2977,19 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     ns1:Name "Wing-Cheong Law" .
 
 :WonderWoman1984_company_1 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0038332/" .
-
-:WonderWoman1984_company_3 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0002663/" .
-
-:WonderWoman1984_company_4 a ns1:Company ;
     :url "https://www.imdb.com/company/co0283444/" .
 
-:WonderWoman1984_company_8 a ns1:Company ;
+:WonderWoman1984_company_2 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0002663/" .
+
+:WonderWoman1984_company_7 a ns1:Company ;
     :url "https://www.imdb.com/company/co0728674/" .
 
-:WonderWoman1984_company_9 a ns1:Company ;
+:WonderWoman1984_company_8 a ns1:Company ;
     :url "https://www.imdb.com/company/co0028338/" .
+
+:WonderWoman1984_company_9 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0038332/" .
 
 :WonderWoman1984_cover_image_1 a ns1:Image ;
     :url "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI" .
@@ -3003,233 +3003,233 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :WonderWoman1984_cover_image_4 a ns1:Image ;
     :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
 
-:WonderWoman1984_rating_1 a ns5:AggregateRating ;
+:WonderWoman1984_rating_1 a ns4:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
     :bestRating 1e+02 ;
     :ratingValue 5.9e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 426 ;
-    ns5:reviewCount 426 .
+    ns4:ratingCount 426 ;
+    ns4:reviewCount 426 .
 
-:WonderWoman1984_rating_2 a ns5:AggregateRating ;
+:WonderWoman1984_rating_2 a ns4:AggregateRating ;
     ns2:source "https://www.imdb.com/title/tt7126948/" ;
     :bestRating 1e+01 ;
     :ratingValue 5.4e+00 ;
     :worstRating 1e+00 ;
-    ns5:ratingCount 198833 .
+    ns4:ratingCount 198833 .
 
-:WonderWoman1984_rating_3 a ns5:AggregateRating ;
+:WonderWoman1984_rating_3 a ns4:AggregateRating ;
     ns2:source "https://www.metacritic.com/movie/wonder-woman-1984" ;
     :bestRating 1e+02 ;
     :ratingValue 6e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 57 .
+    ns4:ratingCount 57 .
 
-:WonderWoman1984_rating_4 a ns5:AggregateRating ;
+:WonderWoman1984_rating_4 a ns4:AggregateRating ;
     ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
     :bestRating 1e+01 ;
     :ratingValue 7.6e+00 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 20 .
+    ns4:ratingCount 20 .
 
-:WonderWoman1984_review_10_rating a ns5:Rating ;
+:WonderWoman1984_review_10_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_10_site a ns3:WebPage ;
-    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
+:WonderWoman1984_review_10_site a ns5:WebPage ;
+    ns5:hasURL "https://youtu.be/75nDMuZMfLs" .
 
-:WonderWoman1984_review_11_rating a ns5:Rating ;
+:WonderWoman1984_review_11_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_11_site a ns3:WebPage ;
-    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
+:WonderWoman1984_review_11_site a ns5:WebPage ;
+    ns5:hasURL "https://youtu.be/75nDMuZMfLs" .
 
-:WonderWoman1984_review_12_rating a ns5:Rating ;
+:WonderWoman1984_review_12_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_12_site a ns3:WebPage ;
-    ns3:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
+:WonderWoman1984_review_12_site a ns5:WebPage ;
+    ns5:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
 
-:WonderWoman1984_review_13_rating a ns5:Rating ;
+:WonderWoman1984_review_13_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_13_site a ns3:WebPage ;
-    ns3:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
+:WonderWoman1984_review_13_site a ns5:WebPage ;
+    ns5:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
 
-:WonderWoman1984_review_14_rating a ns5:Rating ;
+:WonderWoman1984_review_14_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_14_site a ns3:WebPage ;
-    ns3:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
+:WonderWoman1984_review_14_site a ns5:WebPage ;
+    ns5:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
 
-:WonderWoman1984_review_15_rating a ns5:Rating ;
+:WonderWoman1984_review_15_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_15_site a ns3:WebPage ;
-    ns3:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
+:WonderWoman1984_review_15_site a ns5:WebPage ;
+    ns5:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
 
-:WonderWoman1984_review_16_rating a ns5:Rating ;
+:WonderWoman1984_review_16_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_16_site a ns3:WebPage ;
-    ns3:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
+:WonderWoman1984_review_16_site a ns5:WebPage ;
+    ns5:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
 
-:WonderWoman1984_review_17_rating a ns5:Rating ;
+:WonderWoman1984_review_17_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_17_site a ns3:WebPage ;
-    ns3:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
+:WonderWoman1984_review_17_site a ns5:WebPage ;
+    ns5:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
 
-:WonderWoman1984_review_18_rating a ns5:Rating ;
+:WonderWoman1984_review_18_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_18_site a ns3:WebPage ;
-    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
+:WonderWoman1984_review_18_site a ns5:WebPage ;
+    ns5:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
 
-:WonderWoman1984_review_19_rating a ns5:Rating ;
+:WonderWoman1984_review_19_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_19_site a ns3:WebPage ;
-    ns3:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
+:WonderWoman1984_review_19_site a ns5:WebPage ;
+    ns5:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
 
-:WonderWoman1984_review_1_rating a ns5:Rating ;
+:WonderWoman1984_review_1_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_1_site a ns3:WebPage ;
-    ns3:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
+:WonderWoman1984_review_1_site a ns5:WebPage ;
+    ns5:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
 
-:WonderWoman1984_review_20_rating a ns5:Rating ;
+:WonderWoman1984_review_20_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_20_site a ns3:WebPage ;
-    ns3:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
+:WonderWoman1984_review_20_site a ns5:WebPage ;
+    ns5:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
 
-:WonderWoman1984_review_21_rating a ns5:Rating ;
+:WonderWoman1984_review_21_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_21_site a ns3:WebPage ;
-    ns3:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
+:WonderWoman1984_review_21_site a ns5:WebPage ;
+    ns5:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
 
-:WonderWoman1984_review_22_rating a ns5:Rating ;
+:WonderWoman1984_review_22_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_22_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
+:WonderWoman1984_review_22_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
 
-:WonderWoman1984_review_23_rating a ns5:Rating ;
+:WonderWoman1984_review_23_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_23_site a ns3:WebPage ;
-    ns3:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
+:WonderWoman1984_review_23_site a ns5:WebPage ;
+    ns5:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
 
-:WonderWoman1984_review_24_rating a ns5:Rating ;
+:WonderWoman1984_review_24_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_24_site a ns3:WebPage ;
-    ns3:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
+:WonderWoman1984_review_24_site a ns5:WebPage ;
+    ns5:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
 
-:WonderWoman1984_review_25_rating a ns5:Rating ;
+:WonderWoman1984_review_25_rating a ns4:Rating ;
     :bestRating "10" ;
     :ratingValue "3" ;
     :worstRating "1" .
 
-:WonderWoman1984_review_2_rating a ns5:Rating ;
+:WonderWoman1984_review_2_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_2_site a ns3:WebPage ;
-    ns3:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
+:WonderWoman1984_review_2_site a ns5:WebPage ;
+    ns5:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
 
-:WonderWoman1984_review_3_rating a ns5:Rating ;
+:WonderWoman1984_review_3_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_3_site a ns3:WebPage ;
-    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
+:WonderWoman1984_review_3_site a ns5:WebPage ;
+    ns5:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
 
-:WonderWoman1984_review_4_rating a ns5:Rating ;
+:WonderWoman1984_review_4_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_4_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
+:WonderWoman1984_review_4_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
 
-:WonderWoman1984_review_5_rating a ns5:Rating ;
+:WonderWoman1984_review_5_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_5_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
+:WonderWoman1984_review_5_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
 
-:WonderWoman1984_review_6_rating a ns5:Rating ;
+:WonderWoman1984_review_6_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_6_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
+:WonderWoman1984_review_6_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
 
-:WonderWoman1984_review_7_rating a ns5:Rating ;
+:WonderWoman1984_review_7_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_7_site a ns3:WebPage ;
-    ns3:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
+:WonderWoman1984_review_7_site a ns5:WebPage ;
+    ns5:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
 
-:WonderWoman1984_review_8_rating a ns5:Rating ;
+:WonderWoman1984_review_8_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_8_site a ns3:WebPage ;
-    ns3:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
+:WonderWoman1984_review_8_site a ns5:WebPage ;
+    ns5:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
 
-:WonderWoman1984_review_9_rating a ns5:Rating ;
+:WonderWoman1984_review_9_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_9_site a ns3:WebPage ;
-    ns3:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
+:WonderWoman1984_review_9_site a ns5:WebPage ;
+    ns5:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
 
 :WonderWoman1984_trailer a :trailer ;
     ns1:Name "Stream on HBO Max for a Limited Time" ;
@@ -3336,18 +3336,18 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
-    ns5:aggregateRating :tenet_aggregated_rating_1 .
+    ns4:aggregateRating :tenet_aggregated_rating_1 .
 
 :tenet_aggregated_rating_1 a owl:NamedIndividual,
-        ns5:AggregateRating ;
+        ns4:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
     :bestRating 1e+02 ;
     :ratingValue 7e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 349 ;
-    ns5:reviewCount 349 .
+    ns4:ratingCount 349 ;
+    ns4:reviewCount 349 .
 
 :tenet_cover_image_1 a ns1:Image,
         owl:NamedIndividual ;
@@ -3368,16 +3368,16 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     :url "https://example.com/img.jpg"^^xsd:anyURI .
 
 :tenet_review_1_rating_1 a owl:NamedIndividual,
-        ns5:Rating ;
+        ns4:Rating ;
     ns1:Name "example name" ;
     ns1:description "example description" ;
     :bestRating 1e+00 ;
     :ratingValue -1e+00 ;
     :worstRating -1e+00 .
 
-:tenet_review_1_site a ns3:WebPage,
+:tenet_review_1_site a ns5:WebPage,
         owl:NamedIndividual ;
-    ns3:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+    ns5:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
 
 :tenet_show_1 a owl:NamedIndividual,
         :film_show ;
@@ -3568,8 +3568,8 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :PattyJenkins,
         :WilliamMoultonMarston,
         :WonderWoman1984_company_1,
-        :WonderWoman1984_company_3,
-        :WonderWoman1984_company_4,
+        :WonderWoman1984_company_2,
+        :WonderWoman1984_company_7,
         :WonderWoman1984_company_8,
         :WonderWoman1984_company_9 ;
     ns1:director :PattyJenkins ;
@@ -3628,6 +3628,10 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :WonderWoman1984_cover_image_2,
         :WonderWoman1984_cover_image_3,
         :WonderWoman1984_cover_image_4 ;
+    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
+        "https://www.imdb.com/title/tt7126948/",
+        "https://www.metacritic.com/movie/wonder-woman-1984",
+        "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
     :content_rating "P-13" ;
     :hasCharacter :Antiope,
         :BarbaraMinerva_Cheetah,
@@ -3640,26 +3644,22 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         "one woman army",
         "sequel",
         "superhero" ;
-    :sourceUrl "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
-        "https://www.imdb.com/title/tt7126948/",
-        "https://www.metacritic.com/movie/wonder-woman-1984",
-        "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
     :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." ;
-    ns5:aggregateRating :WonderWoman1984_rating_1,
+    ns4:aggregateRating :WonderWoman1984_rating_1,
         :WonderWoman1984_rating_2,
         :WonderWoman1984_rating_3,
         :WonderWoman1984_rating_4 .
 
 :movie_review a owl:Class ;
-    rdfs:subClassOf ns3:Review .
+    rdfs:subClassOf ns5:Review .
 
 :EstadosUnidos a ns1:Country ;
     ns1:Name "Estados Unidos" .
 
-ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
+ns1:Person rdfs:subClassOf ns3:ResponsibleEntity .
 
 :trailer a owl:Class ;
     rdfs:subClassOf ns1:Media .
 
-ns1:Film rdfs:subClassOf ns3:Movie .
+ns1:Film rdfs:subClassOf ns5:Movie .
 
