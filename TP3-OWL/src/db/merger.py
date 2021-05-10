@@ -17,6 +17,8 @@ class MergeStrategy:
         ]
 
     def merge(self, movies):
+        self.normalize(movies)
+
         for movie in movies:
             if found_movie := self.find_merged(movie):
                 self.combine(found_movie, movie)
@@ -24,6 +26,13 @@ class MergeStrategy:
                 self.add(movie)
 
         return self.merged_movies
+
+    def normalize(self, movies):
+        for movie in movies:
+            movie.genres = self.translate_fields(movie.genres)
+
+    def translate_fields(self, fields):
+        return self.translator.translate_batch(fields) if fields else []
 
     def find_merged(self, movie):
         for merged_movie in self.merged_movies:
@@ -93,10 +102,7 @@ class MergeStrategy:
 
         sm.authors = list(set(sm.authors + tm.authors))
 
-        sm.genres = self._merge_string_lists(
-            self.translator.translate_batch(sm.genres),
-            self.translator.translate_batch(tm.genres)
-        )
+        sm.genres = self._merge_string_lists(sm.genres, tm.genres)
 
         sm.keywords = self._merge_string_lists(
             sm.keywords,

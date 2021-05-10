@@ -21,9 +21,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :007_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
     ns1:duration 167 ;
-    ns1:genre :Accion,
-        :Aventura,
-        :Crimen,
+    ns1:genre :Action,
+        :Adventure,
+        :Crime,
         :Thriller ;
     ns1:origin :EstadosUnidos,
         :Inglaterra ;
@@ -45,9 +45,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :100Lobo a ns1:Film ;
     ns1:director :AlexsStadermann ;
     ns1:duration 85 ;
-    ns1:genre :Animacion,
-        :Familia,
-        :Fantasia ;
+    ns1:genre :Animation,
+        :Family,
+        :Fantasy ;
     ns1:origin :Australia,
         :Belgica ;
     ns1:starring :IlaiSwindells,
@@ -63,8 +63,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :AmorSinBarreras a ns1:Film ;
     ns1:director :StevenSpielberg ;
-    ns1:genre :Musica,
-        :Romance ;
+    ns1:genre :Romance,
+        :Song ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :AnaIsabelle,
         :AnselElgort,
@@ -152,7 +152,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :BlackWidow a ns1:Film ;
     ns1:director :CateShortland ;
-    ns1:genre :Accion,
+    ns1:genre :Action,
         :Thriller ;
     ns1:origin :EstadosUnidos,
         :Inglaterra ;
@@ -193,7 +193,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :ContraElFuego a ns1:Film ;
     ns1:director :AlexeyNuzhny ;
     ns1:duration 131 ;
-    ns1:genre :Accion,
+    ns1:genre :Action,
         :Drama ;
     ns1:origin :Rusia ;
     ns1:starring :IvanYankovskiy,
@@ -205,8 +205,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :Cruella a ns1:Film ;
     ns1:director :CraigGillespie ;
-    ns1:genre :Accion,
-        :Comedia,
+    ns1:genre :Action,
+        :Comedy,
         :Drama ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :EmilyBeecham,
@@ -225,11 +225,11 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :DemonSlayerMugenTrain a ns1:Film ;
     ns1:director :HaruoSotozaki ;
     ns1:duration 120 ;
-    ns1:genre :Accion,
-        :Animacion,
-        :Aventura,
+    ns1:genre :Action,
+        :Adventure,
+        :Animation,
         :Drama,
-        :Fantasia ;
+        :Fantasy ;
     ns1:origin :Japon ;
     ns1:starring :AkariKito,
         :HiroShimono,
@@ -247,7 +247,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :ElConjuro3_ElDiabloMeObligoAHacerlo a ns1:Film ;
     ns1:director :MichaelChaves ;
-    ns1:genre :Misterio,
+    ns1:genre :Mystery,
         :Terror,
         :Thriller ;
     ns1:origin :EstadosUnidos ;
@@ -288,7 +288,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:director :RomanPolanski ;
     ns1:duration 126 ;
     ns1:genre :Drama,
-        :Historia ;
+        :Story ;
     ns1:origin :Francia,
         :Italia ;
     ns1:starring :AndreMarcon,
@@ -308,8 +308,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :ElProtector a ns1:Film ;
     ns1:director :RobertLorenz ;
     ns1:duration 108 ;
-    ns1:genre :Accion,
-        :Crimen,
+    ns1:genre :Action,
+        :Crime,
         :Thriller ;
     ns1:origin :UnitedStatesOfAmerica ;
     ns1:starring :ChaseMullins,
@@ -330,9 +330,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :ElSenorDeLosAnillos_ElRetornoDelRey a ns1:Film ;
     ns1:director :PeterJackson ;
     ns1:duration 199 ;
-    ns1:genre :Accion,
-        :Aventura,
-        :Fantasia ;
+    ns1:genre :Action,
+        :Adventure,
+        :Fantasy ;
     ns1:origin :EstadosUnidos,
         :NuevaZelanda ;
     ns1:starring :BernardHill,
@@ -353,9 +353,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :ElSenorDeLosAnillos_LaComunidadDelAnillo a ns1:Film ;
     ns1:director :PeterJackson ;
     ns1:duration 180 ;
-    ns1:genre :Accion,
-        :Aventura,
-        :Fantasia ;
+    ns1:genre :Action,
+        :Adventure,
+        :Fantasy ;
     ns1:origin :EstadosUnidos,
         :NuevaZelanda ;
     ns1:starring :BillyBoyd,
@@ -376,9 +376,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :ElSenorDeLosAnillos_LasDosTorres a ns1:Film ;
     ns1:director :PeterJackson ;
     ns1:duration 176 ;
-    ns1:genre :Accion,
-        :Aventura,
-        :Fantasia ;
+    ns1:genre :Action,
+        :Adventure,
+        :Fantasy ;
     ns1:origin :EstadosUnidos,
         :NuevaZelanda ;
     ns1:starring :BernardHill,
@@ -416,8 +416,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:director :JonMChu ;
     ns1:duration 120 ;
     ns1:genre :Drama,
-        :Musica,
-        :Romance ;
+        :Romance,
+        :Song ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :AnthonyRamos,
         :CoreyHawkins,
@@ -437,8 +437,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :EnGuerraConMiAbuelo a ns1:Film ;
     ns1:director :TimHill ;
     ns1:duration 98 ;
-    ns1:genre :Comedia,
-        :Familia ;
+    ns1:genre :Comedy,
+        :Family ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :CheechMarin,
         :ChristopherWalken,
@@ -493,8 +493,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :FreeGuy_TomandoElControl a ns1:Film ;
     ns1:director :ShawnLevy ;
-    ns1:genre :Aventura,
-        :Comedia ;
+    ns1:genre :Adventure,
+        :Comedy ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :CamilleKostek,
         :ChanningTatum,
@@ -513,9 +513,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :GodzillaVsKong a ns1:Film ;
     ns1:director :AdamWingard ;
     ns1:duration 113 ;
-    ns1:genre :Accion,
-        :Aventura,
-        :CienciaFiccion,
+    ns1:genre :Action,
+        :Adventure,
+        :ScienceFiction,
         :Thriller ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :AlexanderSkarsgard,
@@ -545,8 +545,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :JungleCruise a ns1:Film ;
     ns1:director :JaumeCollet_Serra ;
-    ns1:genre :Accion,
-        :Aventura ;
+    ns1:genre :Action,
+        :Adventure ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :DaniRovira,
         :DwayneJohnson,
@@ -575,10 +575,10 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :LosCroods2_UnaNuevaEra a ns1:Film ;
     ns1:director :JoelCrawford ;
     ns1:duration 90 ;
-    ns1:genre :Animacion,
-        :Comedia,
-        :Familia,
-        :Fantasia ;
+    ns1:genre :Animation,
+        :Comedy,
+        :Family,
+        :Fantasy ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :CatherineKeener,
         :ClarkDuke,
@@ -598,8 +598,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :LosNuevosMutantes a ns1:Film ;
     ns1:director :JoshBoone ;
     ns1:duration 98 ;
-    ns1:genre :Accion,
-        :CienciaFiccion,
+    ns1:genre :Action,
+        :ScienceFiction,
         :Terror ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :AliceBraga,
@@ -620,9 +620,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :MortalKombat a ns1:Film ;
     ns1:director :SimonMcquoid ;
     ns1:duration 110 ;
-    ns1:genre :Accion,
-        :Aventura,
-        :Fantasia ;
+    ns1:genre :Action,
+        :Adventure,
+        :Fantasy ;
     ns1:origin :Australia,
         :EstadosUnidos ;
     ns1:starring :HiroyukiSanada,
@@ -643,8 +643,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :Nadie a ns1:Film ;
     ns1:director :IlyaNaishuller ;
     ns1:duration 92 ;
-    ns1:genre :Accion,
-        :Crimen,
+    ns1:genre :Action,
+        :Crime,
         :Thriller ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :ArayaMengesha,
@@ -707,7 +707,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :PequenosSecretos a ns1:Film ;
     ns1:director :JohnLeeHancock ;
     ns1:duration 128 ;
-    ns1:genre :Crimen,
+    ns1:genre :Crime,
         :Thriller ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :ChrisBauer,
@@ -728,9 +728,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :PeterRabbit_ConejoEnFuga a ns1:Film ;
     ns1:director :WillGluck ;
     ns1:duration 93 ;
-    ns1:genre :Animacion,
-        :Aventura,
-        :Familia ;
+    ns1:genre :Adventure,
+        :Animation,
+        :Family ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :DaisyRidley,
         :DomhnallGleeson,
@@ -749,8 +749,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :RapidosYFuriosos9 a ns1:Film ;
     ns1:director :JustinLin ;
-    ns1:genre :Accion,
-        :Suspenso ;
+    ns1:genre :Action,
+        :Suspended ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :CharlizeTheron,
         :JohnCena,
@@ -790,11 +790,11 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :SpaceJam_UnaNuevaEra a ns1:Film ;
     ns1:director :MalcolmDLee ;
     ns1:duration 120 ;
-    ns1:genre :Aventura,
-        :CienciaFiccion,
-        :Comedia,
-        :Familia,
-        :Fantasia ;
+    ns1:genre :Adventure,
+        :Comedy,
+        :Family,
+        :Fantasy,
+        :ScienceFiction ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :BobBergen,
         :CedricJoe,
@@ -813,9 +813,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :Spirit_ElIndomable a ns1:Film ;
     ns1:director :ElaineBogan ;
-    ns1:genre :Animacion,
-        :Aventura,
-        :Familia,
+    ns1:genre :Adventure,
+        :Animation,
+        :Family,
         :Western ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :AndreBraugher,
@@ -834,11 +834,11 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :TomYJerry a ns1:Film ;
     ns1:director :TimStory ;
     ns1:duration 101 ;
-    ns1:genre :Accion,
-        :Animacion,
-        :Aventura,
-        :Comedia,
-        :Familia ;
+    ns1:genre :Action,
+        :Adventure,
+        :Animation,
+        :Comedy,
+        :Family ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :BobbyCannavale,
         :ChloeGraceMoretz,
@@ -857,7 +857,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :TopGun_Maverick a ns1:Film ;
     ns1:director :JosephKosinski ;
-    ns1:genre :Accion,
+    ns1:genre :Action,
         :Drama ;
     ns1:origin :EstadosUnidos ;
     ns1:starring :BashirSalahuddin,
@@ -878,8 +878,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :UnaExtranaObsesion a ns1:Film ;
     ns1:director :QuentinDupieux ;
     ns1:duration 77 ;
-    ns1:genre :Comedia,
-        :Crimen,
+    ns1:genre :Comedy,
+        :Crime,
         :Drama ;
     ns1:origin :Francia ;
     ns1:starring :AdeleHaenel,
@@ -898,9 +898,9 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :VioletEvergarden a ns1:Film ;
     ns1:director :TaichiIshidate ;
     ns1:duration 140 ;
-    ns1:genre :Animacion,
+    ns1:genre :Animation,
         :Drama,
-        :Fantasia,
+        :Fantasy,
         :Romance ;
     ns1:origin :Japon ;
     ns1:starring :AyaEndo,
@@ -1268,17 +1268,11 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     ns1:Name "ABC Radio (Australia)" ;
     :url "https://www.rottentomatoes.com/source-2397" .
 
-:Action a ns1:MovieGenre ;
-    ns1:Name "Action" .
-
 :AdamWingard a ns1:MovieDirector ;
     ns1:Name "Adam Wingard" .
 
 :AdeleHaenel a ns1:Actor ;
     ns1:Name "Adèle Haenel" .
-
-:Adventure a ns1:MovieGenre ;
-    ns1:Name "Adventure" .
 
 :AidanGillen a ns1:Actor ;
     ns1:Name "Aidan Gillen" .
@@ -1806,9 +1800,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :FabianArenillas a ns1:Actor ;
     ns1:Name "Fabián Arenillas" .
 
-:Fantasy a ns1:MovieGenre ;
-    ns1:Name "Fantasy" .
-
 :FatGuysAtTheMovies a ns1:Company ;
     ns1:Name "Fat Guys at the Movies" ;
     :url "https://www.rottentomatoes.com/source-2722" .
@@ -1908,9 +1899,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 
 :HiroyukiSanada a ns1:Actor ;
     ns1:Name "Hiroyuki Sanada" .
-
-:Historia a ns1:MovieGenre ;
-    ns1:Name "Historia" .
 
 :Hoarei_56760 a ns1:Person ;
     ns1:Name "hoarei-56760" ;
@@ -2449,9 +2437,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :MinoriChihara a ns1:Actor ;
     ns1:Name "Minori Chihara" .
 
-:Misterio a ns1:MovieGenre ;
-    ns1:Name "Misterio" .
-
 :MonicaHaynes a ns1:Actor ;
     ns1:Name "Monica Haynes" ;
     :url "https://www.metacritic.com/person/monica-haynes" .
@@ -2461,6 +2446,9 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 
 :MyriemAkeddiou a ns1:Actor ;
     ns1:Name "Myriem Akeddiou" .
+
+:Mystery a ns1:MovieGenre ;
+    ns1:Name "Mystery" .
 
 :Nadie_trailer a :trailer ;
     :url "https://www.youtube.com/embed/ycv9WZct31w?rel=0&controls=0&showinfo=0" .
@@ -2721,9 +2709,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :ScarlettJohansson a ns1:Actor ;
     ns1:Name "Scarlett Johansson" .
 
-:ScienceFiction a ns1:MovieGenre ;
-    ns1:Name "Science Fiction" .
-
 :ScottCooper a ns1:MovieDirector ;
     ns1:Name "Scott Cooper" .
 
@@ -2801,11 +2786,14 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :StevenSpielberg a ns1:MovieDirector ;
     ns1:Name "Steven Spielberg" .
 
+:Story a ns1:MovieGenre ;
+    ns1:Name "Story" .
+
 :SungKang a ns1:Actor ;
     ns1:Name "Sung Kang" .
 
-:Suspenso a ns1:MovieGenre ;
-    ns1:Name "Suspenso" .
+:Suspended a ns1:MovieGenre ;
+    ns1:Name "Suspended" .
 
 :Swankie a ns1:Actor ;
     ns1:Name "Swankie" .
@@ -2988,20 +2976,20 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Wing_CheongLaw a ns1:MovieDirector ;
     ns1:Name "Wing-Cheong Law" .
 
-:WonderWoman1984_company_2 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0002663/" .
-
-:WonderWoman1984_company_3 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0728674/" .
-
-:WonderWoman1984_company_4 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0028338/" .
-
-:WonderWoman1984_company_7 a ns1:Company ;
+:WonderWoman1984_company_1 a ns1:Company ;
     :url "https://www.imdb.com/company/co0038332/" .
 
-:WonderWoman1984_company_9 a ns1:Company ;
+:WonderWoman1984_company_3 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0002663/" .
+
+:WonderWoman1984_company_4 a ns1:Company ;
     :url "https://www.imdb.com/company/co0283444/" .
+
+:WonderWoman1984_company_8 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0728674/" .
+
+:WonderWoman1984_company_9 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0028338/" .
 
 :WonderWoman1984_cover_image_1 a ns1:Image ;
     :url "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI" .
@@ -3465,9 +3453,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     ns1:Name "Movie Bitches" ;
     :url "https://www.rottentomatoes.com/source-3639" .
 
-:Musica a ns1:MovieGenre ;
-    ns1:Name "Música" .
-
 :PattyJenkins a ns1:MovieDirector,
         ns1:Person ;
     ns1:Name "Patty Jenkins" ;
@@ -3478,6 +3463,9 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 
 :RyanReynolds a ns1:Actor ;
     ns1:Name "Ryan Reynolds" .
+
+:Song a ns1:MovieGenre ;
+    ns1:Name "Song" .
 
 :VincentPerez a ns1:Actor ;
     ns1:Name "Vincent Pérez" .
@@ -3497,9 +3485,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 
 :CateBlanchett a ns1:Actor ;
     ns1:Name "Cate Blanchett" .
-
-:CienciaFiccion a ns1:MovieGenre ;
-    ns1:Name "Ciencia Ficción" .
 
 :ElijahWood a ns1:Actor ;
     ns1:Name "Elijah Wood" .
@@ -3543,45 +3528,49 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Francia a ns1:Country ;
     ns1:Name "Francia" .
 
-:Crimen a ns1:MovieGenre ;
-    ns1:Name "Crimen" .
+:ScienceFiction a ns1:MovieGenre ;
+    ns1:Name "Science Fiction",
+        "Science fiction" .
+
+:Crime a ns1:MovieGenre ;
+    ns1:Name "Crime" .
 
 :Terror a ns1:MovieGenre ;
     ns1:Name "Terror" .
 
-:Animacion a ns1:MovieGenre ;
-    ns1:Name "Animación" .
+:Animation a ns1:MovieGenre ;
+    ns1:Name "Animation" .
 
-:Comedia a ns1:MovieGenre ;
-    ns1:Name "Comedia" .
+:Comedy a ns1:MovieGenre ;
+    ns1:Name "Comedy" .
 
-:Familia a ns1:MovieGenre ;
-    ns1:Name "Familia" .
+:Family a ns1:MovieGenre ;
+    ns1:Name "Family" .
 
-:Fantasia a ns1:MovieGenre ;
-    ns1:Name "Fantasía" .
+:Fantasy a ns1:MovieGenre ;
+    ns1:Name "Fantasy" .
 
 :Thriller a ns1:MovieGenre ;
     ns1:Name "Thriller" .
 
-:Aventura a ns1:MovieGenre ;
-    ns1:Name "Aventura" .
-
 :Drama a ns1:MovieGenre ;
     ns1:Name "Drama" .
 
-:Accion a ns1:MovieGenre ;
-    ns1:Name "Acción" .
+:Adventure a ns1:MovieGenre ;
+    ns1:Name "Adventure" .
+
+:Action a ns1:MovieGenre ;
+    ns1:Name "Action" .
 
 :WonderWoman1984 a ns1:Film ;
     ns1:author :DaveCallaham,
         :GeoffJohns,
         :PattyJenkins,
         :WilliamMoultonMarston,
-        :WonderWoman1984_company_2,
+        :WonderWoman1984_company_1,
         :WonderWoman1984_company_3,
         :WonderWoman1984_company_4,
-        :WonderWoman1984_company_7,
+        :WonderWoman1984_company_8,
         :WonderWoman1984_company_9 ;
     ns1:director :PattyJenkins ;
     ns1:duration 1.51e+02 ;
