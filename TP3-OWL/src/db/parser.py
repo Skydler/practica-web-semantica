@@ -1,6 +1,7 @@
 from constants import BASE_URL
 import langcodes
-from rdflib import Namespace, Literal
+import langdetect
+from rdflib import Namespace, Literal, XSD
 from rdflib.namespace import RDF
 from utils.utils import to_turtle_fmt
 
@@ -40,11 +41,13 @@ class OWLParser:
         self.add_video(movie_title, movie_obj)
         self.add_origins(movie_title, movie_obj)
         self.add_released_date(movie_title, movie_obj)
+        self.add_shows(movie_title, movie_obj)
         self.add_languages(movie_title, movie_obj)
 
     def add_synopsis(self, movie_title, movie):
         if synopsis := movie.description:
-            self.g.add((movie_title, self.baseURI.synopsis, Literal(synopsis)))
+            self.g.add((movie_title, self.baseURI.synopsis,
+                        self.langstring_literal(synopsis)))
 
     def add_content_rating(self, movie_title, movie):
         if rating := movie.content_rating:
@@ -53,7 +56,8 @@ class OWLParser:
 
     def add_source_urls(self, movie_title, movie):
         for url in movie.source_urls:
-            self.g.add((movie_title, self.dcterms.source, Literal(url)))
+            self.g.add((movie_title, self.dcterms.source,
+                        self.url_literal(url)))
 
     def add_production_company(self, movie_title, movie):
         if prod_c := movie.production_company:
@@ -73,7 +77,7 @@ class OWLParser:
                             Literal(review_count)))
 
             self.g.add((rating_uri, self.dcterms.source,
-                        Literal(rating.source)))
+                        self.url_literal(rating.source)))
 
             self.g.add((movie_title, self.schema.aggregateRating, rating_uri))
 
@@ -85,14 +89,14 @@ class OWLParser:
             self.g.add((review_uri, RDF.type, self.baseURI.movie_review))
 
             self.g.add((review_uri, self.baseURI.has_body,
-                        Literal(review.review_body)))
+                        self.langstring_literal(review.review_body)))
 
             if site := review.url:
                 site_uri = self._create_site(site, encoded_review_name)
                 self.g.add((review_uri, self.fabio.hasManifestation, site_uri))
 
             self.g.add((review_uri, self.dcterms.source,
-                        Literal(review.source)))
+                        self.url_literal(review.source)))
 
             self.g.add((review_uri, self.dcterms.created,
                         Literal(review.date_created)))
@@ -125,7 +129,7 @@ class OWLParser:
                         self.dbpedia.Image))
 
             self.g.add((self.baseURI[encoded_image_name], self.baseURI.url,
-                        Literal(image)))
+                        self.url_literal(image)))
 
             self.g.add((movie_title, self.dbpedia.thumbnail,
                         self.baseURI[encoded_image_name]))
@@ -171,18 +175,20 @@ class OWLParser:
                         self.dbpedia.MovieGenre))
 
             self.g.add((self.baseURI[encoded_genre], self.dbpedia.Name,
-                        Literal(genre)))
+                        self.langstring_literal(genre)))
 
             self.g.add((movie_title, self.dbpedia.genre,
                         self.baseURI[encoded_genre]))
 
     def add_keywords(self, movie_title, movie):
         for keyword in movie.keywords:
-            self.g.add((movie_title, self.baseURI.keyword, Literal(keyword)))
+            self.g.add((movie_title, self.baseURI.keyword,
+                        self.langstring_literal(keyword)))
 
     def add_duration(self, movie_title, movie):
         if duration := movie.duration:
-            self.g.add((movie_title, self.dbpedia.duration, Literal(duration)))
+            self.g.add((movie_title, self.dbpedia.duration,
+                        Literal(duration, datatype=XSD.double)))
 
     def add_video(self, movie_title, movie):
         if trailer := movie.video:
@@ -192,16 +198,16 @@ class OWLParser:
             self.g.add((trailer_uri, RDF.type, self.baseURI.trailer))
 
             if trailer.name:
-                self.g.add(
-                    (trailer_uri, self.dbpedia.Name, Literal(trailer.name)))
+                self.g.add((trailer_uri, self.dbpedia.Name,
+                            Literal(trailer.name)))
 
             if trailer.url:
-                self.g.add(
-                    (trailer_uri, self.baseURI.url, Literal(trailer.url)))
+                self.g.add((trailer_uri, self.baseURI.url,
+                            self.url_literal(trailer.url)))
 
             if trailer.description:
                 self.g.add((trailer_uri, self.dbpedia.description,
-                            Literal(trailer.description)))
+                            self.langstring_literal(trailer.description)))
 
             if thumbnail_url := trailer.thumbnail_url:
                 image_uri = self._create_image(trailer_uri, thumbnail_url)
@@ -242,7 +248,7 @@ class OWLParser:
 
             self.g.add((self.baseURI[encoded_show_name],
                         self.dbpedia.subtitle,
-                        Literal(show.language)))
+                        self.langstring_literal(show.language)))
 
             self.g.add((movie_title, self.baseURI.hasShow,
                         self.baseURI[encoded_show_name]))
@@ -291,7 +297,7 @@ class OWLParser:
 
         if company.url:
             self.g.add((self.baseURI[encoded_company_name], self.baseURI.url,
-                        Literal(company.url)))
+                        self.url_literal(company.url)))
 
         return self.baseURI[encoded_company_name]
 
@@ -302,7 +308,8 @@ class OWLParser:
         self.g.add((person_URI, self.dbpedia.Name, Literal(person.name)))
 
         if person.url:
-            self.g.add((person_URI, self.baseURI.url, Literal(person.url)))
+            self.g.add((person_URI, self.baseURI.url,
+                        self.url_literal(person.url)))
 
         if person.image:
             image_uri = self._create_image(person_URI, image_url=person.image)
@@ -315,7 +322,8 @@ class OWLParser:
         image_uri = self.baseURI[encoded_person_img]
 
         self.g.add((image_uri, RDF.type, self.dbpedia.Image))
-        self.g.add((image_uri, self.baseURI.url, Literal(image_url)))
+        self.g.add((image_uri, self.baseURI.url,
+                    self.url_literal(image_url)))
 
         return image_uri
 
@@ -342,7 +350,8 @@ class OWLParser:
         site_uri = self.baseURI[encoded_site_name]
 
         self.g.add((site_uri, RDF.type, self.fabio.WebPage))
-        self.g.add((site_uri, self.fabio.hasURL, Literal(site)))
+        self.g.add((site_uri, self.fabio.hasURL,
+                    self.url_literal(site)))
 
         return site_uri
 
@@ -363,7 +372,7 @@ class OWLParser:
 
         if description := rating.description:
             self.g.add((rating_URI, self.dbpedia.description,
-                        Literal(description)))
+                        self.langstring_literal(description)))
 
         self.g.add((rating_URI, self.baseURI.ratingValue,
                     Literal(rating.rating_value)))
@@ -375,3 +384,10 @@ class OWLParser:
                     Literal(rating.worst_rating)))
 
         return rating_URI
+
+    def langstring_literal(self, text):
+        lang_code = langdetect.detect(text)
+        return Literal(text, lang=lang_code)
+
+    def url_literal(self, url):
+        return Literal(url, datatype=XSD.anyUri)

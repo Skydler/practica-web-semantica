@@ -92,7 +92,6 @@ class Show:
 @dataclass_json
 @dataclass
 class Movie(Schema):
-    """Commented -> Attributes of TP1 model"""
     name: str
 
     description: Optional[str]

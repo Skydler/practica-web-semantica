@@ -51,8 +51,10 @@ class JsonMovieRepository(MovieRepository):
 class OwlMovieRepository(MovieRepository):
     @classmethod
     def read(cls, path_file):
-        # TO-DO
-        print("to-do")
+        graph = Graph()
+        graph.parse(path_file, format="turtle")
+
+        return graph
 
     @classmethod
     def write(self, path_file, movies):
