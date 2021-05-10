@@ -157,4 +157,241 @@
          rdfs:subClassOf <http://dbpedia.org/ontology/Media> .
 
 
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#accion
+:accion rdf:type owl:NamedIndividual ,
+                 <http://dbpedia.org/ontology/MovieGenre> ;
+        <http://dbpedia.org/ontology/Name> "accion"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#author_tenet_company_1
+:author_tenet_company_1 rdf:type owl:NamedIndividual ,
+                                 <http://dbpedia.org/ontology/Company> ;
+                        :url "https://www.imdb.com/company/co0147954/"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#christopher_nolan
+:christopher_nolan rdf:type owl:NamedIndividual ,
+                            <http://dbpedia.org/ontology/MovieDirector> ;
+                   <http://dbpedia.org/ontology/thumbnail> :christopher_nolan_img ;
+                   <http://dbpedia.org/ontology/Name> "Christopher Nolan" ;
+                   :url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#christopher_nolan_img
+:christopher_nolan_img rdf:type owl:NamedIndividual ,
+                                <http://dbpedia.org/ontology/Image> ;
+                       :url "https://resizing.flixster.com/H0_441OvEsJ-OMlAn-njnqv5uFc=/275x230/v1.cjs0MDgwNztqOzE4NzY1OzEyMDA7Mjc1OzIzMA"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ciencia_ficcion
+:ciencia_ficcion rdf:type owl:NamedIndividual ,
+                          <http://dbpedia.org/ontology/MovieGenre> ;
+                 <http://dbpedia.org/ontology/Name> "Ciencia Ficción"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#cinepolis_recoleta
+:cinepolis_recoleta rdf:type owl:NamedIndividual ,
+                             <http://dbpedia.org/ontology/Cinema> ;
+                    <http://dbpedia.org/ontology/Name> "Cinépolis Recoleta"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#eeuu
+:eeuu rdf:type owl:NamedIndividual ,
+               <http://dbpedia.org/ontology/Country> ;
+      <http://dbpedia.org/ontology/Name> "Estados Unidos"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#inglés
+:inglés rdf:type owl:NamedIndividual ,
+                 <http://dbpedia.org/ontology/Language> ;
+        <http://dbpedia.org/ontology/languageCode> "en"^^xsd:string .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#john_david_washington
+:john_david_washington rdf:type owl:NamedIndividual ,
+                                <http://dbpedia.org/ontology/Actor> ;
+                       <http://dbpedia.org/ontology/Name> "John David Washington"^^xsd:string .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#michael_caine
+:michael_caine rdf:type owl:NamedIndividual ,
+                        <http://dbpedia.org/ontology/Actor> ;
+               <http://dbpedia.org/ontology/thumbnail> :michael_caine_img ;
+               <http://dbpedia.org/ontology/Name> "Michael Caine"^^xsd:string ;
+               :url "https://www.rottentomatoes.com/celebrity/michael_caine"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#michael_caine_img
+:michael_caine_img rdf:type owl:NamedIndividual ,
+                            <http://dbpedia.org/ontology/Image> ;
+                   :url "https://resizing.flixster.com/2Fc1WlnRfZrVFrojtN2JpemeBqg=/220x196/v1.cjs0NDk1OTtqOzE4NzY1OzEyMDA7MjIwOzE5Ng"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#monocle
+:monocle rdf:type owl:NamedIndividual ,
+                  <http://dbpedia.org/ontology/Organisation> ;
+         <http://dbpedia.org/ontology/Name> "Monocle" ;
+         :url "https://www.rottentomatoes.com/source-1969"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#neil
+:neil rdf:type owl:NamedIndividual ,
+               <http://dbpedia.org/ontology/FictionalCharacter> ;
+      <http://dbpedia.org/ontology/Name> "Neil"^^xsd:string .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#reino_unido
+:reino_unido rdf:type owl:NamedIndividual ,
+                      <http://dbpedia.org/ontology/Country> ;
+             <http://dbpedia.org/ontology/Name> "Reino Unido"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#room_classic_2d
+:room_classic_2d rdf:type owl:NamedIndividual ,
+                          :cinema_room ;
+                 :cinema :cinepolis_recoleta ;
+                 <http://dbpedia.org/ontology/Name> "Classic - 2D"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet
+:tenet rdf:type owl:NamedIndividual ,
+                <http://dbpedia.org/ontology/Film> ;
+       <http://dbpedia.org/ontology/author> :author_tenet_company_1 ,
+                                            :christopher_nolan ;
+       <http://dbpedia.org/ontology/director> :christopher_nolan ;
+       <http://dbpedia.org/ontology/genre> :accion ,
+                                           :ciencia_ficcion ,
+                                           :thriller ;
+       <http://dbpedia.org/ontology/language> :inglés ;
+       <http://dbpedia.org/ontology/origin> :eeuu ,
+                                            :reino_unido ;
+       <http://dbpedia.org/ontology/productionCompany> :warner_bross ;
+       <http://dbpedia.org/ontology/starring> :john_david_washington ,
+                                              :michael_caine ;
+       <http://dbpedia.org/ontology/thumbnail> :tenet_cover_image_1 ,
+                                               :tenet_cover_image_2 ;
+       :hasCharacter :neil ;
+       :hasShow :tenet_show_1 ;
+       :hasTrailer :tenet_trailer ;
+       <https://schema.org/aggregateRating> :tenet_aggregated_rating_1 ;
+       <http://dbpedia.org/ontology/duration> "155.0"^^xsd:double ;
+       <http://dbpedia.org/ontology/releaseDate> ""^^xsd:date ;
+       <http://dbpedia.org/ontology/title> "Tenet"^^rdf:langString ;
+       :content_rating "P-13"^^xsd:string ;
+       :keyword "symphony hall"^^xsd:string ,
+                "time paradox"^^xsd:string ;
+       :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
+       <http://purl.org/dc/terms/source> "https://example.com/"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_aggregated_rating_1
+:tenet_aggregated_rating_1 rdf:type owl:NamedIndividual ,
+                                    <https://schema.org/AggregateRating> ;
+                           <http://dbpedia.org/ontology/Name> "Tomatometer" ;
+                           <http://dbpedia.org/ontology/description> "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
+                           :bestRating "100.0"^^xsd:double ;
+                           :ratingValue "70.0"^^xsd:double ;
+                           :worstRating "0.0"^^xsd:double ;
+                           <https://schema.org/ratingCount> 349 ;
+                           <https://schema.org/reviewCount> 349 ;
+                           <http://purl.org/dc/terms/source> "https://www.rottentomatoes.com/m/tenet" .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_cover_image_1
+:tenet_cover_image_1 rdf:type owl:NamedIndividual ,
+                              <http://dbpedia.org/ontology/Image> ;
+                     :url "https://resizing.flixster.com/nchHALzH07gWM88bzcDM7zZKm-g=/740x380/v1.bjsyNTEwOTE4O2o7MTg4Mzk7MTIwMDs2MDAwOzQwMDA"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_cover_image_2
+:tenet_cover_image_2 rdf:type owl:NamedIndividual ,
+                              <http://dbpedia.org/ontology/Image> ;
+                     :url "https://static.metacritic.com/images/products/movies/7/a60818c40f69031bf30ca846444011e4.jpg"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1
+:tenet_review_1 rdf:type owl:NamedIndividual ,
+                         :movie_review ;
+                <http://purl.org/dc/terms/creator> :tenet_review_1_author ;
+                <http://purl.org/dc/terms/language> :inglés ;
+                <http://purl.org/dc/terms/publisher> :monocle ;
+                <http://purl.org/spar/fabio/hasManifestation> :tenet_review_1_site ;
+                <http://purl.org/vocab/frbr/core#realization> :tenet ;
+                :hasRating :tenet_review_1_rating_1 ;
+                <http://dbpedia.org/ontology/Name> "review example name" ;
+                <http://purl.org/dc/terms/created> "2021-04-06T19:40:00"^^xsd:dateTime ;
+                :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string ;
+                <http://purl.org/dc/terms/source> "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_author
+:tenet_review_1_author rdf:type owl:NamedIndividual ,
+                                <http://dbpedia.org/ontology/Person> ;
+                       <http://dbpedia.org/ontology/thumbnail> :tenet_review_1_author_img ;
+                       <http://dbpedia.org/ontology/Name> "Tim Robey"^^xsd:anyURI ;
+                       :url "https://www.rottentomatoes.com/critic/tim-robey"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_author_img
+:tenet_review_1_author_img rdf:type owl:NamedIndividual ,
+                                    <http://dbpedia.org/ontology/Image> ;
+                           :url "https://example.com/img.jpg"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_rating_1
+:tenet_review_1_rating_1 rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Rating> ;
+                         <http://dbpedia.org/ontology/Name> "example name" ;
+                         <http://dbpedia.org/ontology/description> "example description" ;
+                         :bestRating "1.0"^^xsd:double ;
+                         :ratingValue "-1.0"^^xsd:double ;
+                         :worstRating "-1.0"^^xsd:double .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_review_1_site
+:tenet_review_1_site rdf:type owl:NamedIndividual ,
+                              <http://purl.org/spar/fabio/WebPage> ;
+                     <http://purl.org/spar/fabio/hasURL> "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_show_1
+:tenet_show_1 rdf:type owl:NamedIndividual ,
+                       :film_show ;
+              :room :room_classic_2d ;
+              <http://dbpedia.org/ontology/startDateTime> "2021-04-06T19:40:00"^^xsd:dateTime ;
+              <http://dbpedia.org/ontology/subtitle> "Español"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_trailer
+:tenet_trailer rdf:type owl:NamedIndividual ,
+                        :trailer ;
+               <http://dbpedia.org/ontology/thumbnail> :tenet_trailer_thumbnail ;
+               <http://dbpedia.org/ontology/Name> "Tenet (Trailer 2)"@en ;
+               <http://dbpedia.org/ontology/description> "Video Clip of Tenet"^^rdf:langString ;
+               :url "https://www.youtube.com/embed/Q3YsDF8rZ9w?rel=0&controls=0&showinfo=0"^^rdf:langString .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#tenet_trailer_thumbnail
+:tenet_trailer_thumbnail rdf:type owl:NamedIndividual ,
+                                  <http://dbpedia.org/ontology/Image> ;
+                         :url "https://content.internetvideoarchive.com/content/hdphotos/12882/012882/012882_1173x660_637257053180251151.jpg"^^xsd:anyURI .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#thriller
+:thriller rdf:type owl:NamedIndividual ,
+                   <http://dbpedia.org/ontology/MovieGenre> ;
+          <http://dbpedia.org/ontology/Name> "Thriller"@es .
+
+
+###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#warner_bross
+:warner_bross rdf:type owl:NamedIndividual ,
+                       <http://dbpedia.org/ontology/Company> ;
+              <http://dbpedia.org/ontology/Name> "Warner Bros. Pictures"^^xsd:string ;
+              :url "https://www.rottentomatoes.com/"^^xsd:string .
+
+
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
