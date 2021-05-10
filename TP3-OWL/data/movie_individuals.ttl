@@ -1,9 +1,9 @@
 @prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 @prefix ns1: <http://dbpedia.org/ontology/> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/spar/fabio/> .
-@prefix ns4: <http://purl.org/vocab/frbr/core#> .
-@prefix ns5: <https://schema.org/> .
+@prefix ns2: <http://purl.org/spar/fabio/> .
+@prefix ns3: <http://purl.org/vocab/frbr/core#> .
+@prefix ns4: <https://schema.org/> .
+@prefix ns5: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,8 +15,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
-        ns3:2019-02-19,
-        ns5: .
+        ns2:2019-02-19,
+        ns4: .
 
 :007Bond_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -167,6 +167,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :CynthiaErivo,
         :DaisyRidley,
         :DavidOyelowo,
@@ -309,6 +310,7 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :Drama,
         :Fantasia ;
     ns1:origin :Japon ;
+    ns1:releaseDate _:b ;
     ns1:starring :AkariKito,
         :HiroShimono,
         :KatsuyukiKonishi,
@@ -470,6 +472,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     ns1:genre :Terror ;
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu ;
+    ns1:releaseDate _:b ;
     ns1:starring :SahilShroff,
         :SubratDutta,
         :VanessaCurry ;
@@ -488,6 +491,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Thriller ;
     ns1:origin :Argentina,
         :Canada ;
+    ns1:releaseDate _:b ;
     ns1:starring :AlbertoAmmann,
         :AliWebb,
         :CesarBordon,
@@ -670,6 +674,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Fantasia,
         :Romance ;
     ns1:origin :Japon ;
+    ns1:releaseDate _:b ;
     ns1:starring :AyakoKawasumi,
         :JoujiNakata,
         :KanaUeda,
@@ -696,6 +701,7 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :AlanRuck,
         :BrookeJayeTaylor,
         :CelesteOConnor,
@@ -749,6 +755,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :AlexanderSkarsgard,
         :BrianTyreeHenry,
         :DemianBichir,
@@ -1089,6 +1096,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :ComediaDramatica ;
     ns1:language :FrancesSubtitulado ;
     ns1:origin :Francia ;
+    ns1:releaseDate _:b ;
     ns1:starring :BenjaminBiolay,
         :CamilleCottin,
         :CaroleBouquet,
@@ -1116,6 +1124,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :AdamBrody,
         :AlisonBrie,
         :BoBurnham,
@@ -1223,6 +1232,7 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:genre :DramaRomantico ;
     ns1:language :AlemanSubtitulada ;
     ns1:origin :Alemania ;
+    ns1:releaseDate _:b ;
     ns1:starring :DennisMojen,
         :EmiliaSchule,
         :HeinerLauterbach,
@@ -1259,6 +1269,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :Thriller ;
     ns1:language :Castellano ;
     ns1:origin :Argentina ;
+    ns1:releaseDate _:b ;
     ns1:starring :DiegoPeretti,
         :EstebanBigliardi,
         :HernanJimenez,
@@ -1318,6 +1329,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     ns1:genre :Terror ;
     ns1:language :InglesSubtitulada ;
     ns1:origin :ReinoUnido_Francia ;
+    ns1:releaseDate _:b ;
     ns1:starring :AndrewEllis,
         :IanKenny,
         :JakeCurran,
@@ -1341,6 +1353,7 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :AliceBraga,
         :AntonioBanderas,
         :AnyaTaylor_Joy,
@@ -1513,6 +1526,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :ChrisPine,
         :ConnieNielsen,
         :GabriellaWilde,
@@ -1626,6 +1640,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :ChrisBauer,
         :DenzelWashington,
         :GlennMorshower,
@@ -1690,6 +1705,7 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:origin :Francia,
         :Italia,
         :ReinoUnido ;
+    ns1:releaseDate _:b ;
     ns1:starring :FedericoIelapi,
         :RobertoBenigni,
         :RoccoPapaleo ;
@@ -1726,6 +1742,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
     ns1:genre :Animacion ;
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
+    ns1:releaseDate _:b ;
     ns1:starring :Awkwafina,
         :DanielDaeKim,
         :KellyMarieTran ;
@@ -1774,6 +1791,7 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
         :Aventuras ;
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
+    ns1:releaseDate _:b ;
     :content_rating "Apta todo público" ;
     :hasShow :Scooby_show_1 ;
     :hasTrailer :Scooby_trailer ;
@@ -1836,6 +1854,7 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
         :EstadosUnidos,
         :ReinoUnido ;
     ns1:productionCompany :WarnerBrosPictures ;
+    ns1:releaseDate _:b ;
     ns1:starring :AaronTaylor_Johnson,
         :AndrewHoward,
         :CarinaVelva,
@@ -1910,6 +1929,7 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :BobbyCannavale,
         :ChloeGraceMoretz,
         :FrankWelker,
@@ -2025,6 +2045,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns1:language :Castellano ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
+    ns1:releaseDate _:b ;
     ns1:starring :AnnaKendrick,
         :AnthonyRamos,
         :ChanceTheRapper,
@@ -2077,6 +2098,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns1:origin :Argentina,
         :Brasil,
         :Suiza ;
+    ns1:releaseDate _:b ;
     ns1:starring :CeciliaRainero,
         :CiroCoienPardo,
         :EliotOtazo,
@@ -2262,7 +2284,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     :synopsis "Muchos niños tienen amigos imaginarios...pero el pequeño Joshua Parsons de 8 años tiene un amigo imaginario muy particular, llamado Z. Pronto el siniestro Z demuestra ser una preocupación para la familia, que comenzará a vivir una verdadera pesadilla en su hogar." .
 
 :bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
@@ -2279,7 +2301,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 
 :hasRating a owl:ObjectProperty ;
     rdfs:domain :movie_review ;
-    rdfs:range ns5:Rating .
+    rdfs:range ns4:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -2297,7 +2319,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     rdfs:range xsd:string .
 
 :ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
@@ -2315,24 +2337,24 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 :tenet_review_1 a owl:NamedIndividual,
         :movie_review ;
     ns1:Name "review example name" ;
-    ns2:created "2021-04-06T19:40:00"^^xsd:dateTime ;
-    ns2:creator :tenet_review_1_author ;
-    ns2:language :inglés ;
-    ns2:publisher :monocle ;
-    ns2:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-    ns3:hasManifestation :tenet_review_1_site ;
-    ns4:realization :tenet ;
+    ns5:created "2021-04-06T19:40:00"^^xsd:dateTime ;
+    ns5:creator :tenet_review_1_author ;
+    ns5:language :inglés ;
+    ns5:publisher :monocle ;
+    ns5:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
+    ns2:hasManifestation :tenet_review_1_site ;
+    ns3:realization :tenet ;
     :hasRating :tenet_review_1_rating_1 ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
 :worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
-ns5:ratingCount rdfs:domain ns5:AggregateRating ;
+ns4:ratingCount rdfs:domain ns4:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns5:reviewCount rdfs:domain ns5:AggregateRating ;
+ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     rdfs:range xsd:integer .
 
 :007Bond_SinTiempoParaMorir_trailer a :trailer ;
@@ -8316,18 +8338,18 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
-    ns5:aggregateRating :tenet_aggregated_rating_1 .
+    ns4:aggregateRating :tenet_aggregated_rating_1 .
 
 :tenet_aggregated_rating_1 a owl:NamedIndividual,
-        ns5:AggregateRating ;
+        ns4:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns5:source "https://www.rottentomatoes.com/m/tenet" ;
     :bestRating 1e+02 ;
     :ratingValue 7e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 349 ;
-    ns5:reviewCount 349 .
+    ns4:ratingCount 349 ;
+    ns4:reviewCount 349 .
 
 :tenet_cover_image_1 a ns1:Image,
         owl:NamedIndividual ;
@@ -8348,16 +8370,16 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     :url "https://example.com/img.jpg"^^xsd:anyURI .
 
 :tenet_review_1_rating_1 a owl:NamedIndividual,
-        ns5:Rating ;
+        ns4:Rating ;
     ns1:Name "example name" ;
     ns1:description "example description" ;
     :bestRating 1e+00 ;
     :ratingValue -1e+00 ;
     :worstRating -1e+00 .
 
-:tenet_review_1_site a ns3:WebPage,
+:tenet_review_1_site a ns2:WebPage,
         owl:NamedIndividual ;
-    ns3:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+    ns2:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
 
 :tenet_show_1 a owl:NamedIndividual,
         :film_show ;
@@ -8714,7 +8736,7 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     ns1:Name "Rami Malek" .
 
 :movie_review a owl:Class ;
-    rdfs:subClassOf ns3:Review .
+    rdfs:subClassOf ns2:Review .
 
 :Italia a ns1:Country ;
     ns1:Name "Italia" .
@@ -8723,7 +8745,7 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     ns1:Name "SALA 4D" ;
     :cinema :CinemaCity .
 
-ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
+ns1:Person rdfs:subClassOf ns3:ResponsibleEntity .
 
 :CienciaFiccion a ns1:MovieGenre ;
     ns1:Name "Ciencia Ficción" .
@@ -8799,7 +8821,7 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
         :CinepolisRecoleta,
         :CinepolisRosario .
 
-ns1:Film rdfs:subClassOf ns3:Movie .
+ns1:Film rdfs:subClassOf ns2:Movie .
 
 :room_SalaHd a :cinema_room ;
     ns1:Name "SALA HD" ;

@@ -1,8 +1,8 @@
-from rdflib import Namespace, Literal
-from rdflib.namespace import RDF
 from constants import BASE_URL
-from utils.utils import to_turtle_fmt
 import langcodes
+from rdflib import BNode, Namespace, Literal
+from rdflib.namespace import RDF
+from utils.utils import to_turtle_fmt
 
 
 class OWLParser:
@@ -29,6 +29,7 @@ class OWLParser:
         self.add_synopsis(movie_title, movie_obj)
         self.add_trailer(movie_title, movie_obj)
         self.add_shows(movie_title, movie_obj)
+        self.add_realeased_date(movie_title, movie_obj)
 
     def add_genres(self, movie_title, movie):
         for genre in movie.genres:
@@ -164,3 +165,7 @@ class OWLParser:
                     Literal(cinema)))
 
         return self.baseURI[encoded_cinema_name]
+
+    def add_realeased_date(self, movie_title, movie):
+        if movie.released:
+            self.g.add((movie_title, self.dbpedia.releaseDate, BNode('b')))
