@@ -24,7 +24,7 @@ class OWLParser:
         self.g.add((movie_title, RDF.type, self.dbpedia.Film))
 
         self.add_synopsis(movie_title, movie_obj)
-        self.add_rating(movie_title, movie_obj)
+        self.add_content_rating(movie_title, movie_obj)
         self.add_source_urls(movie_title, movie_obj)
         self.add_production_company(movie_title, movie_obj)
         self.add_aggregated_ratings(movie_title, movie_obj)
@@ -38,14 +38,15 @@ class OWLParser:
         self.add_keywords(movie_title, movie_obj)
         self.add_duration(movie_title, movie_obj)
         self.add_video(movie_title, movie_obj)
-        self.add_origin(movie_title, movie_obj)
+        self.add_origins(movie_title, movie_obj)
         self.add_released_date(movie_title, movie_obj)
+        self.add_languages(movie_title, movie_obj)
 
     def add_synopsis(self, movie_title, movie):
         if synopsis := movie.description:
             self.g.add((movie_title, self.baseURI.synopsis, Literal(synopsis)))
 
-    def add_rating(self, movie_title, movie):
+    def add_content_rating(self, movie_title, movie):
         if rating := movie.content_rating:
             self.g.add((movie_title, self.baseURI.content_rating,
                         Literal(rating)))
@@ -207,8 +208,8 @@ class OWLParser:
 
             self.g.add((movie_title, self.baseURI.hasTrailer, trailer_uri))
 
-    def add_origin(self, movie_title, movie):
-        if origin := movie.origin:
+    def add_origins(self, movie_title, movie):
+        for origin in movie.origins:
             encoded_origin = to_turtle_fmt(origin)
             origin_uri = self.baseURI[encoded_origin]
 
@@ -218,16 +219,67 @@ class OWLParser:
             self.g.add((movie_title, self.dbpedia.origin, origin_uri))
 
     def add_released_date(self, movie_title, movie):
-        if movie.events:
-            publication_event, *_ = movie.events
-            release_date = publication_event.start_date
+        date_uri = f"{to_turtle_fmt(movie.name)}_released_date"
 
-            date_uri = f"{to_turtle_fmt(movie.name)}_released_date"
-
-            self.g.add((BNode(date_uri), self.dbpedia.releaseDate,
-                        Literal(release_date)))
+        if movie.released:
             self.g.add(
                 (movie_title, self.dbpedia.releaseDate, BNode(date_uri)))
+
+            if movie.events:
+                publication_event, *_ = movie.events
+                release_date = publication_event.start_date
+
+                self.g.add((BNode(date_uri), self.dbpedia.releaseDate,
+                            Literal(release_date)))
+
+    def add_shows(self, movie_title, movie):
+        for index, show in enumerate(movie.shows, 1):
+            encoded_show_name = f"{to_turtle_fmt(movie.name)}_show_{index}"
+            self.g.add((self.baseURI[encoded_show_name], RDF.type,
+                        self.baseURI.film_show))
+
+            self.g.add((self.baseURI[encoded_show_name], self.baseURI.room,
+                        self._create_room(show.room, show.cinema)))
+
+            self.g.add((self.baseURI[encoded_show_name],
+                        self.dbpedia.startDateTime,
+                        Literal(show.time)))
+
+            self.g.add((self.baseURI[encoded_show_name],
+                        self.dbpedia.subtitle,
+                        Literal(show.language)))
+
+            self.g.add((movie_title, self.baseURI.hasShow,
+                        self.baseURI[encoded_show_name]))
+
+    def add_languages(self, movie_title, movie):
+        for lang in movie.languages:
+
+            language_uri = self._create_language(movie_title, lang)
+            self.g.add((movie_title, self.dbpedia.language, language_uri))
+
+    def _create_room(self, room, cinema):
+        encoded_room_name = f"room_{to_turtle_fmt(room)}"
+        self.g.add((self.baseURI[encoded_room_name], RDF.type,
+                    self.baseURI.cinema_room))
+
+        self.g.add((self.baseURI[encoded_room_name], self.baseURI.cinema,
+                    self._create_cinema(cinema)))
+
+        self.g.add((self.baseURI[encoded_room_name], self.dbpedia.Name,
+                    Literal(room)))
+
+        return self.baseURI[encoded_room_name]
+
+    def _create_cinema(self, cinema):
+        encoded_cinema_name = to_turtle_fmt(cinema)
+        self.g.add((self.baseURI[encoded_cinema_name], RDF.type,
+                    self.dbpedia.Cinema))
+
+        self.g.add((self.baseURI[encoded_cinema_name], self.dbpedia.Name,
+                    Literal(cinema)))
+
+        return self.baseURI[encoded_cinema_name]
 
     def _create_company(self, company, movie, i=1):
         if company.name:

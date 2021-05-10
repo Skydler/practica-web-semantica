@@ -52,13 +52,13 @@ class MovieParser:
 
         fields = self.clean_fields(fields)
 
-        origin = fields.get("origen")
+        origins = fields.get("origen")
         trailer_url = fields.get("trailer")
 
         movie = Movie(
             name=fields.get("title"),
             genres=fields.get("genero"),
-            origins=[origin] if origin else [],
+            origins=origins if origins else [],
             duration=fields.get("duracion"),
             directors=mapers.to_person(fields.get('director')),
             content_rating=fields.get('calificacion'),
