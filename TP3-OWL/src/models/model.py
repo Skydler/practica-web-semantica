@@ -82,23 +82,64 @@ class PublicationEvent(Schema):
 
 @dataclass_json
 @dataclass
+class Show:
+    cinema: str
+    room: str
+    language: str
+    time: datetime
+
+
+@dataclass_json
+@dataclass
 class Movie(Schema):
+    """Commented -> Attributes of TP1 model"""
+    # title: str
     name: str
+
+    # synopsis: str
     description: Optional[str]
-    content_rating: str
+
+    # rated: Optional[str]
+    content_rating: Optional[str]
+
     source_urls: List[str]
+
     production_company: Optional[Organization]
+
     aggregated_ratings: List[AggregateRating]
+
     reviews: List[Review]
+
     images: List[str]
+
+    # actors: List[str]
     actors: List[Person]
+
     characters: List[str]
+
+    # directors: List[str]
     directors: List[Person]
+
     authors: List[Union[Person, Organization]]
+
     genres: List[str]
+
     keywords: List[str]
+
     duration: Optional[int]  # In minutes
+
+    # trailer: Optional[str]
     video: Optional[Video]
-    origin: Optional[str]
+
+    # origins: Optional[str]
+    origins: List[str]
+
+    released: bool
     events: List[PublicationEvent]
+
+    # shows: List[Show]
+    shows: List[Show]
+
+    languages: List[str]
+
     schema_context: str = "http://schema.org"

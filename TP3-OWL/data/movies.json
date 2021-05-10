@@ -1,0 +1,1594 @@
+[
+    {
+        "images": [],
+        "actors": [
+            {
+                "name": "Elijah Wood",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Ian McKellen",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Liv Tyler",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Viggo Mortensen",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Sean Astin",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Cate Blanchett",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "John Rhys-Davies",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Bernard Hill",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Christopher Lee",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Billy Boyd",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            }
+        ],
+        "source_urls": [
+            "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey"
+        ],
+        "directors": [
+            {
+                "name": "Peter Jackson",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            }
+        ],
+        "characters": [],
+        "shows": [
+            {
+                "time": 1622138400.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622153400.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622142000.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622155500.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622150100.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622160000.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            },
+            {
+                "time": 1622224800.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622239800.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622228400.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622241900.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622236500.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622246400.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            },
+            {
+                "time": 1622311200.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622326200.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622314800.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622328300.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622322900.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622332800.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            },
+            {
+                "time": 1622397600.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622412600.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622401200.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622414700.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622409300.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622419200.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            },
+            {
+                "time": 1622484000.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622499000.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622487600.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622501100.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622495700.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622505600.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            },
+            {
+                "time": 1622570400.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622585400.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622582100.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622592000.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            },
+            {
+                "time": 1622656800.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622671800.0,
+                "cinema": "Cinépolis Mendoza",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622660400.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622673900.0,
+                "cinema": "Cinépolis Maipú",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622668500.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "Classic - 2D"
+            },
+            {
+                "time": 1622678400.0,
+                "cinema": "Cinépolis Neuquén",
+                "language": "Subtitulado",
+                "room": "MS - 2D"
+            }
+        ],
+        "reviews": [],
+        "description": "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino.",
+        "production_company": null,
+        "authors": [],
+        "keywords": [],
+        "schema_type": "Movie",
+        "schema_context": "http://schema.org",
+        "origins": [
+            "['Estados Unidos', 'Nueva Zelanda']"
+        ],
+        "video": {
+            "thumbnail_url": null,
+            "description": null,
+            "name": null,
+            "url": "https://www.youtube.com/embed/e2fpLyc1840?rel=0&controls=0&showinfo=0",
+            "schema_type": "Video"
+        },
+        "languages": [],
+        "duration": 199,
+        "released": true,
+        "content_rating": "P-13",
+        "name": "EL SEÑOR DE LOS ANILLOS: EL RETORNO DEL REY",
+        "genres": [
+            "Aventura",
+            "Fantasía",
+            "Acción"
+        ],
+        "aggregated_ratings": [],
+        "events": []
+    },
+    {
+        "images": [],
+        "actors": [
+            {
+                "name": "Liam Neeson",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Katheryn Winnick",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Teresa Ruiz",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Juan Pablo Raba",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Dylan Kenin",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Luce Rains",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Chase Mullins",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Christopher Mele",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Grayson Berry",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "David DeLao",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            }
+        ],
+        "source_urls": [
+            "https://www.cinepolis.com.ar/peliculas/el-protector"
+        ],
+        "directors": [
+            {
+                "name": "Robert Lorenz",
+                "url": null,
+                "schema_type": "Person",
+                "image": null
+            }
+        ],
+        "characters": [],
+        "shows": [],
+        "reviews": [],
+        "description": "Un ranchero en la frontera de Arizona se convierte en el improbable defensor de un joven mexicano que huye desesperadamente de los asesinos del cartel que lo han perseguido hasta Estados Unidos.",
+        "production_company": null,
+        "authors": [],
+        "keywords": [],
+        "schema_type": "Movie",
+        "schema_context": "http://schema.org",
+        "origins": [
+            "['United States of America']"
+        ],
+        "video": {
+            "thumbnail_url": null,
+            "description": null,
+            "name": null,
+            "url": "https://www.youtube.com/embed/-LaCyXUqSY4?rel=0&controls=0&showinfo=0",
+            "schema_type": "Video"
+        },
+        "languages": [],
+        "duration": 108,
+        "released": false,
+        "content_rating": "N/A",
+        "name": "EL PROTECTOR",
+        "genres": [
+            "Acción",
+            "Thriller",
+            "Crimen"
+        ],
+        "aggregated_ratings": [],
+        "events": []
+    },
+    {
+        "images": [
+            "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI",
+            "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+            "https://static.metacritic.com/images/products/movies/4/9d1a4650bb42f43a0a781bfa70a7772d.jpg",
+            "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg"
+        ],
+        "actors": [
+            {
+                "name": "Manoj Anand",
+                "url": "https://www.metacritic.com/person/manoj-anand",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Marla Aaron Wapner",
+                "url": "https://www.metacritic.com/person/marla-aaron-wapner",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Kristoffer Polaha",
+                "url": "https://www.metacritic.com/person/kristoffer-polaha",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Lyon Beckwith",
+                "url": "https://www.metacritic.com/person/lyon-beckwith",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Pedro Pascal",
+                "url": "https://www.rottentomatoes.com/celebrity/pedro_pascal",
+                "schema_type": "Person",
+                "image": "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng"
+            },
+            {
+                "name": "Monica Haynes",
+                "url": "https://www.metacritic.com/person/monica-haynes",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Joel Morris",
+                "url": "https://www.metacritic.com/person/joel-morris",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Jonathan Ajayi",
+                "url": "https://www.metacritic.com/person/jonathan-ajayi",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Justin Sisk",
+                "url": "https://www.metacritic.com/person/justin-sisk",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Lilly Aspell",
+                "url": "https://www.metacritic.com/person/lilly-aspell",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Marisol Correa",
+                "url": "https://www.metacritic.com/person/marisol-correa",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Natasha Rothwell",
+                "url": "https://www.metacritic.com/person/natasha-rothwell",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Rick Kelvin Branch",
+                "url": "https://www.metacritic.com/person/rick-kelvin-branch",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Oakley Bull",
+                "url": "https://www.metacritic.com/person/oakley-bull",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Kaila Ingram",
+                "url": "https://www.metacritic.com/person/kaila-ingram",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "John Gettier",
+                "url": "https://www.metacritic.com/person/john-gettier",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Gal Gadot",
+                "url": "https://www.rottentomatoes.com/celebrity/gal-gadot",
+                "schema_type": "Person",
+                "image": "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA"
+            },
+            {
+                "name": "Amr Waked",
+                "url": "https://www.metacritic.com/person/amr-waked",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Lolita Marie",
+                "url": "https://www.metacritic.com/person/lolita-marie",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Jeff Moore",
+                "url": "https://www.metacritic.com/person/jeff-moore",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Alex Delescu",
+                "url": "https://www.metacritic.com/person/alex-delescu",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Amreen N. Yaqoob",
+                "url": "https://www.metacritic.com/person/amreen-n-yaqoob",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Chris Pine",
+                "url": "https://www.rottentomatoes.com/celebrity/christopher_pine",
+                "schema_type": "Person",
+                "image": "https://resizing.flixster.com/kXDRe1jUWEU8UFkdf8JhRPMUG8s=/660x990/v1.bjs3NTYxMDQ7ajsxODgxODsxMjAwOzY2MDs5OTA"
+            },
+            {
+                "name": "Paul Ron Cruz",
+                "url": "https://www.metacritic.com/person/paul-ron-cruz",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Ella Walker",
+                "url": "https://www.metacritic.com/person/ella-walker",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Spencer Trinwith",
+                "url": "https://www.metacritic.com/person/spencer-trinwith",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Lynda Carter",
+                "url": "https://www.metacritic.com/person/lynda-carter",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Chris Silcox",
+                "url": "https://www.metacritic.com/person/chris-silcox",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Sonia Goswami",
+                "url": "https://www.metacritic.com/person/sonia-goswami",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Jamaal Burcher",
+                "url": "https://www.metacritic.com/person/jamaal-burcher",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Brittney Aleah",
+                "url": "https://www.metacritic.com/person/brittney-aleah",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Jamal Alkhaldi",
+                "url": "https://www.metacritic.com/person/jamal-alkhaldi",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Ravi Patel",
+                "url": "https://www.metacritic.com/person/ravi-patel",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Sia Alipour",
+                "url": "https://www.metacritic.com/person/sia-alipour",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Connie Nielsen",
+                "url": "https://www.rottentomatoes.com/celebrity/connie_nielsen",
+                "schema_type": "Person",
+                "image": "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw"
+            },
+            {
+                "name": "Thomas Clay Strickland",
+                "url": "https://www.metacritic.com/person/thomas-clay-strickland",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Kristen Wiig",
+                "url": "https://www.rottentomatoes.com/celebrity/kristen_wiig",
+                "schema_type": "Person",
+                "image": "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz"
+            },
+            {
+                "name": "Tessa Bonham Jones",
+                "url": "https://www.metacritic.com/person/tessa-bonham-jones",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Bern Collaco",
+                "url": "https://www.metacritic.com/person/bern-collaco",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Robin Wright",
+                "url": "https://www.rottentomatoes.com/celebrity/robin_wright",
+                "schema_type": "Person",
+                "image": "https://resizing.flixster.com/s5rTePWBzCqGE8uYUIYqS52D6JU=/1000x1500/v1.bjs3NDQ4MjY7ajsxODgxODsxMjAwOzEwMDA7MTUwMA"
+            },
+            {
+                "name": "Penelope Kapudija",
+                "url": "https://www.metacritic.com/person/penelope-kapudija",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Gabriella Wilde",
+                "url": "https://www.metacritic.com/person/gabriella-wilde",
+                "schema_type": "Person",
+                "image": null
+            },
+            {
+                "name": "Julian Ferro",
+                "url": "https://www.metacritic.com/person/julian-ferro",
+                "schema_type": "Person",
+                "image": null
+            }
+        ],
+        "source_urls": [
+            "https://www.rottentomatoes.com/m/wonder_woman_1984",
+            "https://www.imdb.com/title/tt7126948/",
+            "https://www.metacritic.com/movie/wonder-woman-1984",
+            "https://www.ecartelera.com/peliculas/wonder-woman-1984/"
+        ],
+        "directors": [
+            {
+                "name": "Patty Jenkins",
+                "url": "https://www.rottentomatoes.com/celebrity/patty_jenkins",
+                "schema_type": "Person",
+                "image": null
+            }
+        ],
+        "characters": [
+            "Diana Prince / Wonder Woman",
+            "Barbara Minerva / Cheetah",
+            "Steve Trevor",
+            "Antiope",
+            "Hippolyta"
+        ],
+        "shows": [],
+        "reviews": [
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612182570.0,
+                "name": null,
+                "author": {
+                    "name": "Sheri Flanders",
+                    "url": "https://www.rottentomatoes.com/critic/sheri-flanders",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads.",
+                "publisher": {
+                    "name": "Chicago Reader",
+                    "url": "https://www.rottentomatoes.com/source-66",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1609765169.0,
+                "name": null,
+                "author": {
+                    "name": "Rafer Guzman",
+                    "url": "https://www.rottentomatoes.com/critic/rafer-guzman",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain.",
+                "publisher": {
+                    "name": "Newsday",
+                    "url": "https://www.rottentomatoes.com/source-338",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1609760234.0,
+                "name": null,
+                "author": {
+                    "name": "Amy Nicholson",
+                    "url": "https://www.rottentomatoes.com/critic/amy-nicholson",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this.",
+                "publisher": {
+                    "name": "FilmWeek (KPCC - NPR Los Angeles)",
+                    "url": "https://www.rottentomatoes.com/source-3509",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1609272588.0,
+                "name": null,
+                "author": {
+                    "name": "Stephen Romei",
+                    "url": "https://www.rottentomatoes.com/critic/stephen-romei",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. ",
+                "publisher": {
+                    "name": "The Australian",
+                    "url": "https://www.rottentomatoes.com/source-1964",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1609170546.0,
+                "name": null,
+                "author": {
+                    "name": "Jake Wilson",
+                    "url": "https://www.rottentomatoes.com/critic/jake-wilson",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel.",
+                "publisher": {
+                    "name": "The Age (Australia)",
+                    "url": "https://www.rottentomatoes.com/source-2041",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1609170333.0,
+                "name": null,
+                "author": {
+                    "name": "David Sims",
+                    "url": "https://www.rottentomatoes.com/critic/david-sims",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema.",
+                "publisher": {
+                    "name": "The Atlantic",
+                    "url": "https://www.rottentomatoes.com/source-24",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1617484319.0,
+                "name": null,
+                "author": {
+                    "name": "Kevin Carr",
+                    "url": "https://www.rottentomatoes.com/critic/kevin-carr",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works.",
+                "publisher": {
+                    "name": "Fat Guys at the Movies",
+                    "url": "https://www.rottentomatoes.com/source-2722",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1616518930.0,
+                "name": null,
+                "author": {
+                    "name": "David Bax",
+                    "url": "https://www.rottentomatoes.com/critic/david-bax",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks.",
+                "publisher": {
+                    "name": "Battleship Pretension",
+                    "url": "https://www.rottentomatoes.com/source-3090",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1616255690.0,
+                "name": null,
+                "author": {
+                    "name": "Valerie Kalfrin",
+                    "url": "https://www.rottentomatoes.com/critic/valerie-kalfrin",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey.",
+                "publisher": {
+                    "name": "Their Own League",
+                    "url": "https://www.rottentomatoes.com/source-3607",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1615471345.0,
+                "name": null,
+                "author": {
+                    "name": "Andrew Galdi",
+                    "url": "https://www.rottentomatoes.com/critic/andrew-galdi",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "There were just such gross failures of filmmaking...",
+                "publisher": {
+                    "name": "Movie Bitches",
+                    "url": "https://www.rottentomatoes.com/source-3639",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://youtu.be/75nDMuZMfLs",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1615470699.0,
+                "name": null,
+                "author": {
+                    "name": "Avaryl Halley",
+                    "url": "https://www.rottentomatoes.com/critic/avaryl-halley",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "At least \"Justice League\" had at the decency to be short",
+                "publisher": {
+                    "name": "Movie Bitches",
+                    "url": "https://www.rottentomatoes.com/source-3639",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://youtu.be/75nDMuZMfLs",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1614615242.0,
+                "name": null,
+                "author": {
+                    "name": "Nina Garin",
+                    "url": "https://www.rottentomatoes.com/critic/nina-garin",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. ",
+                "publisher": {
+                    "name": "San Diego Union-Tribune",
+                    "url": "https://www.rottentomatoes.com/source-503",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1614002531.0,
+                "name": null,
+                "author": {
+                    "name": "Tony Medley",
+                    "url": "https://www.rottentomatoes.com/critic/tony-medley",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean.",
+                "publisher": {
+                    "name": "The Larchmont Chronicle",
+                    "url": "https://www.rottentomatoes.com/source-2992",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1613925414.0,
+                "name": null,
+                "author": {
+                    "name": "Sarah Ward",
+                    "url": "https://www.rottentomatoes.com/critic/sarah-ward",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down.",
+                "publisher": {
+                    "name": "Concrete Playground",
+                    "url": "https://www.rottentomatoes.com/source-2298",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://concreteplayground.com/sydney/event/wonder-woman-1984",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1613558211.0,
+                "name": null,
+                "author": {
+                    "name": "Eric Marchen",
+                    "url": "https://www.rottentomatoes.com/critic/eric-marchen",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Feels like this would be better suited for an episode of TV than a 2.5 hour film.",
+                "publisher": {
+                    "name": "Untitled Movie Podcast",
+                    "url": "https://www.rottentomatoes.com/source-3831",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1613289476.0,
+                "name": null,
+                "author": {
+                    "name": "Mark Meszoros",
+                    "url": "https://www.rottentomatoes.com/critic/mark-meszoros",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale.",
+                "publisher": {
+                    "name": "The News-Herald (Willoughby, OH)",
+                    "url": "https://www.rottentomatoes.com/source-3916",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1613039921.0,
+                "name": null,
+                "author": {
+                    "name": "Jennifer Ouellette",
+                    "url": "https://www.rottentomatoes.com/critic/jennifer-ouellette",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing.",
+                "publisher": {
+                    "name": "Ars Technica",
+                    "url": "https://www.rottentomatoes.com/source-2985",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612968514.0,
+                "name": null,
+                "author": {
+                    "name": "Brian Gill",
+                    "url": "https://www.rottentomatoes.com/critic/brian-gill",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. ",
+                "publisher": {
+                    "name": "Mad About Movies Podcast",
+                    "url": "https://www.rottentomatoes.com/source-3256",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612756662.0,
+                "name": null,
+                "author": {
+                    "name": "Eddie Harrison",
+                    "url": "https://www.rottentomatoes.com/critic/eddie-harrison",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "...a joyless dud, a bucket of sludge when we're crying out for a glass of water...",
+                "publisher": {
+                    "name": "film-authority.com",
+                    "url": "https://www.rottentomatoes.com/source-3904",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://film-authority.com/2021/01/11/wonder-woman-1984/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612583191.0,
+                "name": null,
+                "author": {
+                    "name": "Ian Simmons",
+                    "url": "https://www.rottentomatoes.com/critic/ian-simmons",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here.",
+                "publisher": {
+                    "name": "Kicking the Seat",
+                    "url": "https://www.rottentomatoes.com/source-3892",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612518900.0,
+                "name": null,
+                "author": {
+                    "name": "Dan Tabor",
+                    "url": "https://www.rottentomatoes.com/critic/dan-tabor",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": 1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. ",
+                "publisher": {
+                    "name": "Phawker",
+                    "url": "https://www.rottentomatoes.com/source-3631",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612288809.0,
+                "name": null,
+                "author": {
+                    "name": "Mark Jackson",
+                    "url": "https://www.rottentomatoes.com/critic/mark-jackson",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown.",
+                "publisher": {
+                    "name": "Epoch Times",
+                    "url": "https://www.rottentomatoes.com/source-2771",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612145673.0,
+                "name": null,
+                "author": {
+                    "name": "John McDonald",
+                    "url": "https://www.rottentomatoes.com/critic/john-mcdonald",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?",
+                "publisher": {
+                    "name": "Australian Financial Review",
+                    "url": "https://www.rottentomatoes.com/source-3199",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "date_created": 1612141314.0,
+                "name": null,
+                "author": {
+                    "name": "Matt Neal",
+                    "url": "https://www.rottentomatoes.com/critic/matt-neal",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": -1.0,
+                    "best_rating": 1.0,
+                    "rating_value": -1.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful.",
+                "publisher": {
+                    "name": "ABC Radio (Australia)",
+                    "url": "https://www.rottentomatoes.com/source-2397",
+                    "schema_type": "Organization"
+                },
+                "language": null,
+                "url": "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html",
+                "schema_type": "Review"
+            },
+            {
+                "source": "https://www.imdb.com/title/tt7126948/",
+                "date_created": 1609470000.0,
+                "name": "In quarantine, you'll buy anything.",
+                "author": {
+                    "name": "jayg_58",
+                    "url": "https://www.imdb.com/",
+                    "schema_type": "Person",
+                    "image": null
+                },
+                "review_rating": {
+                    "worst_rating": 1.0,
+                    "best_rating": 10.0,
+                    "rating_value": 5.0,
+                    "description": null,
+                    "name": null,
+                    "schema_type": "Rating"
+                },
+                "review_body": "Very colorful, lots of money spent. Kristin Wiig was a masterpiece of miscasting. She wasn't funny; she wasn't scary, but great costume. The whole plot was a vehicle to resurrect Chris Pine, but there was no real chemistry between them. It made the lines of endearment quite awkward and the embraces seemed forced. All the usual tropes: WW loses some of her powers, so there can be suspense; she plays Spiderman and holds two vehicles apart. Just nothing new and Gad Gadot proves again that she's a glamour model and poses well. She can't act. Still - entertainment in a vacuum of good movies, so watch it and be distracted for TWO AND A HALF hours.",
+                "publisher": null,
+                "language": "English",
+                "url": null,
+                "schema_type": "Review"
+            }
+        ],
+        "description": "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient...",
+        "production_company": {
+            "name": "Warner Bros. Pictures",
+            "url": "https://www.rottentomatoes.com/",
+            "schema_type": "Organization"
+        },
+        "authors": [
+            {
+                "name": "Dave Callaham",
+                "url": "https://www.imdb.com/name/nm1709264/",
+                "schema_type": "Person",
+                "image": null,
+                "__type": "Person"
+            },
+            {
+                "name": null,
+                "url": "https://www.imdb.com/company/co0038332/",
+                "schema_type": "Organization",
+                "__type": "Organization"
+            },
+            {
+                "name": "Patty Jenkins",
+                "url": "https://www.rottentomatoes.com/celebrity/patty_jenkins",
+                "schema_type": "Person",
+                "image": null,
+                "__type": "Person"
+            },
+            {
+                "name": null,
+                "url": "https://www.imdb.com/company/co0028338/",
+                "schema_type": "Organization",
+                "__type": "Organization"
+            },
+            {
+                "name": null,
+                "url": "https://www.imdb.com/company/co0283444/",
+                "schema_type": "Organization",
+                "__type": "Organization"
+            },
+            {
+                "name": "Geoff Johns",
+                "url": "https://www.imdb.com/name/nm0424315/",
+                "schema_type": "Person",
+                "image": null,
+                "__type": "Person"
+            },
+            {
+                "name": null,
+                "url": "https://www.imdb.com/company/co0728674/",
+                "schema_type": "Organization",
+                "__type": "Organization"
+            },
+            {
+                "name": null,
+                "url": "https://www.imdb.com/company/co0002663/",
+                "schema_type": "Organization",
+                "__type": "Organization"
+            },
+            {
+                "name": "William Moulton Marston",
+                "url": "https://www.imdb.com/name/nm0551376/",
+                "schema_type": "Person",
+                "image": null,
+                "__type": "Person"
+            }
+        ],
+        "keywords": [
+            "sequel",
+            "superhero",
+            "dc extended universe",
+            "dc comics",
+            "one woman army"
+        ],
+        "schema_type": "Movie",
+        "schema_context": "http://schema.org",
+        "origins": [
+            "EE.UU."
+        ],
+        "video": {
+            "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg",
+            "description": "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.",
+            "name": "Stream on HBO Max for a Limited Time",
+            "url": "https://www.imdb.com/video/imdb/vi3240214809",
+            "schema_type": "VideoObject"
+        },
+        "languages": [],
+        "duration": 151,
+        "released": false,
+        "content_rating": "P-13",
+        "name": "Wonder Woman 1984",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Science Fiction",
+            "Fantasy"
+        ],
+        "aggregated_ratings": [
+            {
+                "worst_rating": 0.0,
+                "rating_count": 426,
+                "source": "https://www.rottentomatoes.com/m/wonder_woman_1984",
+                "review_count": 426,
+                "best_rating": 100.0,
+                "rating_value": 59.0,
+                "description": "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show.",
+                "name": "Tomatometer",
+                "schema_type": "AggregateRating"
+            },
+            {
+                "worst_rating": 1.0,
+                "rating_count": 198748,
+                "source": "https://www.imdb.com/title/tt7126948/",
+                "review_count": null,
+                "best_rating": 10.0,
+                "rating_value": 5.4,
+                "description": null,
+                "name": null,
+                "schema_type": "AggregateRating"
+            },
+            {
+                "worst_rating": 0.0,
+                "rating_count": 57,
+                "source": "https://www.metacritic.com/movie/wonder-woman-1984",
+                "review_count": null,
+                "best_rating": 100.0,
+                "rating_value": 60.0,
+                "description": null,
+                "name": null,
+                "schema_type": "AggregateRating"
+            },
+            {
+                "worst_rating": 0.0,
+                "rating_count": 20,
+                "source": "https://www.ecartelera.com/peliculas/wonder-woman-1984/",
+                "review_count": null,
+                "best_rating": 10.0,
+                "rating_value": 7.6,
+                "description": null,
+                "name": null,
+                "schema_type": "AggregateRating"
+            }
+        ],
+        "events": [
+            {
+                "location": "ES",
+                "start_date": 1608260400.0,
+                "schema_type": "PublicationEvent"
+            }
+        ]
+    }
+]

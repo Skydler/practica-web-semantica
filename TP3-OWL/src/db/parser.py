@@ -116,8 +116,6 @@ class OWLParser:
 
             self.g.add((review_uri, self.frbr.realization, movie_title))
 
-        return language_uri
-
     def add_images(self, movie_title, movie):
         for i, image in enumerate(movie.images, 1):
             encoded_image_name = f"{to_turtle_fmt(movie.name)}_cover_image_{i}"

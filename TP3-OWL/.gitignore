@@ -1,6 +1,9 @@
 # Protégé files
 data/catalog-v001.xml
 
+# Selenium drivers
+chromedriver
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
