@@ -1,6 +1,6 @@
 from constants import BASE_URL
 import langcodes
-from rdflib import BNode, Namespace, Literal
+from rdflib import Namespace, Literal
 from rdflib.namespace import RDF
 from utils.utils import to_turtle_fmt
 
@@ -61,7 +61,8 @@ class OWLParser:
 
     def add_aggregated_ratings(self, movie_title, movie):
         for index, rating in enumerate(movie.aggregated_ratings, 1):
-            rating_uri = self._create_rating(movie_title, rating, index)
+            rating_uri = self._create_rating(
+                to_turtle_fmt(movie.name), rating, index)
 
             self.g.add((rating_uri, self.schema.ratingCount,
                         Literal(rating.rating_count)))
@@ -86,11 +87,11 @@ class OWLParser:
                         Literal(review.review_body)))
 
             if site := review.url:
-                site_uri = self._create_site(site)
+                site_uri = self._create_site(site, encoded_review_name)
                 self.g.add((review_uri, self.fabio.hasManifestation, site_uri))
 
-            if source := review.source:
-                self.g.add((review_uri, self.dcterms.source, Literal(source)))
+            self.g.add((review_uri, self.dcterms.source,
+                        Literal(review.source)))
 
             self.g.add((review_uri, self.dcterms.created,
                         Literal(review.date_created)))
@@ -107,7 +108,7 @@ class OWLParser:
             self.g.add((review_uri, self.dcterms.creator, author_uri))
 
             if rating := review.review_rating:
-                rating_uri = self._create_rating(review_uri, rating)
+                rating_uri = self._create_rating(encoded_review_name, rating)
                 self.g.add((review_uri, self.baseURI.hasRating, rating_uri))
 
             if publisher := review.publisher:
@@ -115,8 +116,7 @@ class OWLParser:
                 self.g.add((review_uri, self.dcterms.publisher, publisher_uri))
 
             self.g.add((review_uri, self.frbr.realization, movie_title))
-
-        return language_uri
+            # TODO: Add reivew to movie
 
     def add_images(self, movie_title, movie):
         for i, image in enumerate(movie.images, 1):
@@ -221,15 +221,11 @@ class OWLParser:
 
     def add_released_date(self, movie_title, movie):
         if movie.events:
-            publication_event, *_ = movie.events
+            publication_event = movie.events[0]
             release_date = publication_event.start_date
 
-            date_uri = f"{to_turtle_fmt(movie.name)}_released_date"
-
-            self.g.add((BNode(date_uri), self.dbpedia.releaseDate,
+            self.g.add((movie_title, self.dbpedia.releaseDate,
                         Literal(release_date)))
-            self.g.add(
-                (movie_title, self.dbpedia.releaseDate, BNode(date_uri)))
 
     def _create_company(self, company, movie, i=1):
         if company.name:
@@ -292,8 +288,8 @@ class OWLParser:
 
         return language_uri
 
-    def _create_site(self, site):
-        encoded_site_name = site.replace('#', '')
+    def _create_site(self, site, encoded_review_name):
+        encoded_site_name = f"{encoded_review_name}_site"
         site_uri = self.baseURI[encoded_site_name]
 
         self.g.add((site_uri, RDF.type, self.fabio.WebPage))
@@ -301,31 +297,32 @@ class OWLParser:
 
         return site_uri
 
-    def _create_rating(self, subject_uri, rating, index=None):
-        encoded_rating_name = f"{subject_uri}_rating"
+    def _create_rating(self, prefix, rating, index=None):
+        encoded_rating_name = f"{prefix}_rating"
 
         if index:
             encoded_rating_name += f'_{index}'
 
-        rating_uri = self.baseURI[encoded_rating_name]
+        rating_URI = self.baseURI[encoded_rating_name]
 
-        schema_type = getattr(self.schema, rating.schema_type)
-        self.g.add((rating_uri, RDF.type, schema_type))
+        # This could be AggregateRating or just Rating
+        schema_type = self.schema[rating.schema_type]
+        self.g.add((rating_URI, RDF.type, schema_type))
 
         if name := rating.name:
-            self.g.add((rating_uri, self.dbpedia.Name, Literal(name)))
+            self.g.add((rating_URI, self.dbpedia.Name, Literal(name)))
 
         if description := rating.description:
-            self.g.add((rating_uri, self.dbpedia.description,
+            self.g.add((rating_URI, self.dbpedia.description,
                         Literal(description)))
 
-        self.g.add((rating_uri, self.baseURI.ratingValue,
+        self.g.add((rating_URI, self.baseURI.ratingValue,
                     Literal(rating.rating_value)))
 
-        self.g.add((rating_uri, self.baseURI.bestRating,
+        self.g.add((rating_URI, self.baseURI.bestRating,
                     Literal(rating.best_rating)))
 
-        self.g.add((rating_uri, self.baseURI.worstRating,
+        self.g.add((rating_URI, self.baseURI.worstRating,
                     Literal(rating.worst_rating)))
 
-        return rating_uri
+        return rating_URI

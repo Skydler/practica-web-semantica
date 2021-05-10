@@ -1,9 +1,9 @@
 @prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 @prefix ns1: <http://dbpedia.org/ontology/> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/spar/fabio/> .
-@prefix ns4: <http://purl.org/vocab/frbr/core#> .
-@prefix ns5: <https://schema.org/> .
+@prefix ns3: <https://schema.org/> .
+@prefix ns4: <http://purl.org/spar/fabio/> .
+@prefix ns5: <http://purl.org/vocab/frbr/core#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,8 +15,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
-        ns3:2019-02-19,
-        ns5: .
+        ns4:2019-02-19,
+        ns3: .
 
 :007Bond_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -167,7 +167,6 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :CynthiaErivo,
         :DaisyRidley,
         :DavidOyelowo,
@@ -310,7 +309,6 @@ Cansada de huir de su pasado, Natasha vuelve al círculo familiar de los Romanof
         :Drama,
         :Fantasia ;
     ns1:origin :Japon ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AkariKito,
         :HiroShimono,
         :KatsuyukiKonishi,
@@ -472,7 +470,6 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     ns1:genre :Terror ;
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu ;
-    ns1:releaseDate [ ] ;
     ns1:starring :SahilShroff,
         :SubratDutta,
         :VanessaCurry ;
@@ -491,7 +488,6 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Thriller ;
     ns1:origin :Argentina,
         :Canada ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AlbertoAmmann,
         :AliWebb,
         :CesarBordon,
@@ -674,7 +670,6 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
         :Fantasia,
         :Romance ;
     ns1:origin :Japon ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AyakoKawasumi,
         :JoujiNakata,
         :KanaUeda,
@@ -701,7 +696,6 @@ Secuela del anime "Kimetsu no Yaiba", fue un enorme éxito en Japón, alcanzando
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AlanRuck,
         :BrookeJayeTaylor,
         :CelesteOConnor,
@@ -755,7 +749,6 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AlexanderSkarsgard,
         :BrianTyreeHenry,
         :DemianBichir,
@@ -1096,7 +1089,6 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
         :ComediaDramatica ;
     ns1:language :FrancesSubtitulado ;
     ns1:origin :Francia ;
-    ns1:releaseDate [ ] ;
     ns1:starring :BenjaminBiolay,
         :CamilleCottin,
         :CaroleBouquet,
@@ -1124,7 +1116,6 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AdamBrody,
         :AlisonBrie,
         :BoBurnham,
@@ -1232,7 +1223,6 @@ Cuando la mística daga antigua de The Butcher hace que él y Millie despierten 
     ns1:genre :DramaRomantico ;
     ns1:language :AlemanSubtitulada ;
     ns1:origin :Alemania ;
-    ns1:releaseDate [ ] ;
     ns1:starring :DennisMojen,
         :EmiliaSchule,
         :HeinerLauterbach,
@@ -1269,7 +1259,6 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
         :Thriller ;
     ns1:language :Castellano ;
     ns1:origin :Argentina ;
-    ns1:releaseDate [ ] ;
     ns1:starring :DiegoPeretti,
         :EstebanBigliardi,
         :HernanJimenez,
@@ -1329,7 +1318,6 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     ns1:genre :Terror ;
     ns1:language :InglesSubtitulada ;
     ns1:origin :ReinoUnido_Francia ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AndrewEllis,
         :IanKenny,
         :JakeCurran,
@@ -1353,7 +1341,6 @@ Nueva adaptación del bestseller de A.J. Finn. Guión escrito por el actor y esc
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AliceBraga,
         :AntonioBanderas,
         :AnyaTaylor_Joy,
@@ -1526,7 +1513,6 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :ChrisPine,
         :ConnieNielsen,
         :GabriellaWilde,
@@ -1640,7 +1626,6 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :ChrisBauer,
         :DenzelWashington,
         :GlennMorshower,
@@ -1705,7 +1690,6 @@ Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, po
     ns1:origin :Francia,
         :Italia,
         :ReinoUnido ;
-    ns1:releaseDate [ ] ;
     ns1:starring :FedericoIelapi,
         :RobertoBenigni,
         :RoccoPapaleo ;
@@ -1742,7 +1726,6 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
     ns1:genre :Animacion ;
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
-    ns1:releaseDate [ ] ;
     ns1:starring :Awkwafina,
         :DanielDaeKim,
         :KellyMarieTran ;
@@ -1791,7 +1774,6 @@ Dom y Letty viven una vida tranquila junto a su hijo, sus prioridades cambiaron.
         :Aventuras ;
     ns1:language :Castellano ;
     ns1:origin :Eeuu ;
-    ns1:releaseDate [ ] ;
     :content_rating "Apta todo público" ;
     :hasShow :Scooby_show_1 ;
     :hasTrailer :Scooby_trailer ;
@@ -1845,9 +1827,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :TimRobey ;
     ns2:publisher :Monocle ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://monocle.com/radio/shows/the-monocle-culture-show/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_1_rating> ;
+    ns4:hasManifestation :Tenet_review_1_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_1_rating ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot." .
 
 :Tenet_review_10 a :movie_review ;
@@ -1855,9 +1837,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :DavidWalsh ;
     ns2:publisher :WorldSocialistWebSite ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.wsws.org/en/articles/2021/03/22/tene-m22.html> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_10_rating> ;
+    ns4:hasManifestation :Tenet_review_10_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_10_rating ;
     :has_body "It is not so much a matter of criticizing Nolan's filmmaking, which is not very difficult to do. The important issue is to understand and criticize the conditions that produced his filmmaking ..." .
 
 :Tenet_review_11 a :movie_review ;
@@ -1865,9 +1847,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :VincentSchilling ;
     ns2:publisher :IndianCountryToday ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_11_rating> ;
+    ns4:hasManifestation :Tenet_review_11_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_11_rating ;
     :has_body "Led beautifully by protagonist John David Washington, 'Tenet', an exceptional action-packed film, dives into a concept of twisting time in a way never explored before. I'm adding this to my permanent library." .
 
 :Tenet_review_12 a :movie_review ;
@@ -1875,9 +1857,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :PabloOScholz ;
     ns2:publisher :Clarin ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_12_rating> ;
+    ns4:hasManifestation :Tenet_review_12_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_12_rating ;
     :has_body "[Has] perfectly orchestrated battle scenes. [Full review in Spanish]" .
 
 :Tenet_review_13 a :movie_review ;
@@ -1885,9 +1867,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :RobGonsalves ;
     ns2:publisher :EfilmcriticCom ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.efilmcritic.com/review.php?movie=33026&reviewer=416> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_13_rating> ;
+    ns4:hasManifestation :Tenet_review_13_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_13_rating ;
     :has_body "It means what you want it to mean, and I don't want it to mean anything. It's just a ride." .
 
 :Tenet_review_14 a :movie_review ;
@@ -1895,9 +1877,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :MarkMeszoros ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_14_rating> ;
+    ns4:hasManifestation :Tenet_review_14_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_14_rating ;
     :has_body "By the end of its two-and-a-half-hours, with all its bi-directional action, revelations and world-ending ramifications, it's a bit numbing, And you're pretty sure you can't wait to watch it again." .
 
 :Tenet_review_15 a :movie_review ;
@@ -1905,9 +1887,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :EddieHarrison ;
     ns2:publisher :Film_AuthorityCom ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2020/08/25/tenet/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_15_rating> ;
+    ns4:hasManifestation :Tenet_review_15_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_15_rating ;
     :has_body "...a high-faluting, high energy, uber-glam espionage thriller..." .
 
 :Tenet_review_16 a :movie_review ;
@@ -1915,9 +1897,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :TonyBlack ;
     ns2:publisher :CulturalConversation ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_16_rating> ;
+    ns4:hasManifestation :Tenet_review_16_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_16_rating ;
     :has_body "Just go with it. Allow the inversion to pull you along because it does, for the most part, make sense by the end." .
 
 :Tenet_review_17 a :movie_review ;
@@ -1925,9 +1907,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :AlixTurner ;
     ns2:publisher :ReadySteadyCut ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://readysteadycut.com/2020/08/27/tenet-review/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_17_rating> ;
+    ns4:hasManifestation :Tenet_review_17_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_17_rating ;
     :has_body "Huge scale, gripping and ambitious sci-fi spy thriller from Christopher Nolan, which simply has to be seen to be believed, and possibly seen more than once to be fully appreciated." .
 
 :Tenet_review_18 a :movie_review ;
@@ -1935,9 +1917,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :BrianGill ;
     ns2:publisher :MadAboutMoviesPodcast ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_18_rating> ;
+    ns4:hasManifestation :Tenet_review_18_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_18_rating ;
     :has_body "It's the most Nolan movie ever and I'm not sure it makes since but I was enthralled nonetheless. " .
 
 :Tenet_review_19 a :movie_review ;
@@ -1945,9 +1927,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :KathiaWoods ;
     ns2:publisher :CupOfSoul ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.cupofsoulshow.com/tenet> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_19_rating> ;
+    ns4:hasManifestation :Tenet_review_19_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_19_rating ;
     :has_body "The future is now or in the past " .
 
 :Tenet_review_2 a :movie_review ;
@@ -1955,9 +1937,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :NickSchager ;
     ns2:publisher :TheDailyBeast ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_2_rating> ;
+    ns4:hasManifestation :Tenet_review_2_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_2_rating ;
     :has_body "Something like the epitome of [Nolan's] temporally twisty canon, distilling his many cinematic signatures and preoccupations down to their entrancing abstract essence." .
 
 :Tenet_review_20 a :movie_review ;
@@ -1965,9 +1947,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :AlexBentley ;
     ns2:publisher :Culturemap ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/slide=0> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_20_rating> ;
+    ns4:hasManifestation :Tenet_review_20_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_20_rating ;
     :has_body "Nolan's obsession with making his films as complex as humanly possible is frustrating for those of us who would like at least a scintilla of clarity in our storytelling." .
 
 :Tenet_review_21 a :movie_review ;
@@ -1975,9 +1957,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :MaryannJohanson ;
     ns2:publisher :FlickFilosopher ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_21_rating> ;
+    ns4:hasManifestation :Tenet_review_21_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_21_rating ;
     :has_body "Washington and Pattinson have palpable charisma, but this cold puzzle offers no incentive to solve it. Throw in damsel-in-distress crap, and both my geek sensibilities and my feminism are offended." .
 
 :Tenet_review_22 a :movie_review ;
@@ -1985,9 +1967,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :PjNabarro ;
     ns2:publisher :PatrickNabarro ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://pnabarro.wordpress.com/2021/01/31/tenet/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_22_rating> ;
+    ns4:hasManifestation :Tenet_review_22_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_22_rating ;
     :has_body "Nolan's reverence for tech and the cleverness of pulling off a metaphysical narrative puzzle finally swamps his awareness of whether the thing in question is even any good." .
 
 :Tenet_review_23 a :movie_review ;
@@ -1995,9 +1977,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :RichardCrouse ;
     ns2:publisher :RichardCrouse ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_23_rating> ;
+    ns4:hasManifestation :Tenet_review_23_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_23_rating ;
     :has_body "The trippy last hour is jam packed with artfully arranged action scenes that manipulate time in increasingly psychedelic ways. " .
 
 :Tenet_review_24 a :movie_review ;
@@ -2005,9 +1987,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :MarkCassidy ;
     ns2:publisher :ComicbookmovieCom ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743gs.rehe3y> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_24_rating> ;
+    ns4:hasManifestation :Tenet_review_24_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_24_rating ;
     :has_body "Tenet has its moments, but is easily Nolan's worst film. Mostly incomprehensible; this muddled sci-fi thriller is a long way from being the \"savior of cinema.\" Honestly, it'd be difficult to recommend even if we weren't in the middle of a pandemic. " .
 
 :Tenet_review_25 a :movie_review ;
@@ -2016,8 +1998,8 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :Brandoncjenkins ;
     ns2:language :English ;
     ns2:source "https://www.imdb.com/title/tt6723592/" ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_25_rating> ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_25_rating ;
     :has_body "If you are expecting the adrenaline you got with Inception, look no further. If you are looking to be able to follow this film on the first viewing like you did with Inception, maybe not so much. I would put this film one level higher in complexity than Inception, as Inception was complex but pretty intuitive. This film CAN be intuitive, but unless you want to wait for the Blu Ray, you're going to have to shell out to see it multiple times to actually get a better understanding of the plot's finer points. A more logistical thing to comment on: it seems the audio mix is lacking. I originally thought it was my theater (voices seem to carry too much bass, making them hard to understand; however, Studio Movie Grill plays this film very, very loud, which I love because it makes the gunfire far more realistic), but others have complained about this as well. I am hoping that the blu ray will be remastered so that this is not an issue. With all this being said, be patient. This film is great and I have a strong feeling you will not be disappointed. It is classic Nolan doing what he does best. It is intricate, spares no expense, and it is by no means lazy. Once the BR comes out, it may actually turn into one his his best so far." .
 
 :Tenet_review_3 a :movie_review ;
@@ -2025,9 +2007,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :TimCogshell ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_3_rating> ;
+    ns4:hasManifestation :Tenet_review_3_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_3_rating ;
     :has_body "[Christopher Nolan] is very clever, but mostly irritating is what I find. [His movies] are not cerebral - they're fake cerebral... He doesn't even do the time travel right. " .
 
 :Tenet_review_4 a :movie_review ;
@@ -2035,9 +2017,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :ChristyLemire ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_4_rating> ;
+    ns4:hasManifestation :Tenet_review_4_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_4_rating ;
     :has_body "I am a big fan of [Christopher Nolan's] films -- I usually enjoy the time puzzle of it -- but this seems even more intentionally inaccessible and challenging than everything else... Confusing, distancing, and chilly." .
 
 :Tenet_review_5 a :movie_review ;
@@ -2045,9 +2027,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :GAllenJohnson ;
     ns2:publisher :SanFranciscoChronicle ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_5_rating> ;
+    ns4:hasManifestation :Tenet_review_5_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_5_rating ;
     :has_body "\"Tenet\" is indeed impressive, although I gave up trying to follow the plot." .
 
 :Tenet_review_6 a :movie_review ;
@@ -2055,9 +2037,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :MickLasalle ;
     ns2:publisher :SanFranciscoChronicle ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_6_rating> ;
+    ns4:hasManifestation :Tenet_review_6_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_6_rating ;
     :has_body "\"Tenet\" is difficult to understand, but even worse, it inspires little desire to understand it." .
 
 :Tenet_review_7 a :movie_review ;
@@ -2065,9 +2047,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :RhysBowenJones ;
     ns2:publisher :JumpcutOnline ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_7_rating> ;
+    ns4:hasManifestation :Tenet_review_7_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_7_rating ;
     :has_body "Tenet is one of the most enthralling cinematic experiences I have had for years." .
 
 :Tenet_review_8 a :movie_review ;
@@ -2075,9 +2057,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :JeffreyOverstreet ;
     ns2:publisher :LookingCloser ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_8_rating> ;
+    ns4:hasManifestation :Tenet_review_8_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_8_rating ;
     :has_body "Exhausted and disoriented by Nolan's curlicue-rollercoasters, we end up fooled into thinking we've been stirred when, in fact, we've mostly been shaken. " .
 
 :Tenet_review_9 a :movie_review ;
@@ -2085,9 +2067,9 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns2:creator :NiallBrowne ;
     ns2:publisher :MoviesInFocus ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/> ;
-    ns4:realization :Tenet ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_9_rating> ;
+    ns4:hasManifestation :Tenet_review_9_site ;
+    ns5:realization :Tenet ;
+    :hasRating :Tenet_review_9_rating ;
     :has_body "Christopher Nolan's Tenet is a film which can be enjoyed, but it's highly likely that you won't really understand it. It takes a lot of big ideas - and a lot of big moviemaking techniques to deliver a film which is mesmerising but very flawed." .
 
 :TomYJerry a ns1:Film ;
@@ -2101,7 +2083,6 @@ Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y
     ns1:language :InglesSubtitulada ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :BobbyCannavale,
         :ChloeGraceMoretz,
         :FrankWelker,
@@ -2217,7 +2198,6 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns1:language :Castellano ;
     ns1:origin :Eeuu,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AnnaKendrick,
         :AnthonyRamos,
         :ChanceTheRapper,
@@ -2270,7 +2250,6 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns1:origin :Argentina,
         :Brasil,
         :Suiza ;
-    ns1:releaseDate [ ] ;
     ns1:starring :CeciliaRainero,
         :CiroCoienPardo,
         :EliotOtazo,
@@ -2369,9 +2348,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :SheriFlanders ;
     ns2:publisher :ChicagoReader ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_1_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_1_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_1_rating ;
     :has_body "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads." .
 
 :WonderWoman1984_review_10 a :movie_review ;
@@ -2379,9 +2358,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :AndrewGaldi ;
     ns2:publisher :MovieBitches ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_10_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_10_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_10_rating ;
     :has_body "There were just such gross failures of filmmaking..." .
 
 :WonderWoman1984_review_11 a :movie_review ;
@@ -2389,9 +2368,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :AvarylHalley ;
     ns2:publisher :MovieBitches ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_11_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_11_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_11_rating ;
     :has_body "At least \"Justice League\" had at the decency to be short" .
 
 :WonderWoman1984_review_12 a :movie_review ;
@@ -2399,9 +2378,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :NinaGarin ;
     ns2:publisher :SanDiegoUnion_Tribune ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_12_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_12_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_12_rating ;
     :has_body "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. " .
 
 :WonderWoman1984_review_13 a :movie_review ;
@@ -2409,9 +2388,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :TonyMedley ;
     ns2:publisher :TheLarchmontChronicle ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_13_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_13_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_13_rating ;
     :has_body "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean." .
 
 :WonderWoman1984_review_14 a :movie_review ;
@@ -2419,9 +2398,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :SarahWard ;
     ns2:publisher :ConcretePlayground ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://concreteplayground.com/sydney/event/wonder-woman-1984> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_14_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_14_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_14_rating ;
     :has_body "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down." .
 
 :WonderWoman1984_review_15 a :movie_review ;
@@ -2429,9 +2408,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :EricMarchen ;
     ns2:publisher :UntitledMoviePodcast ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_15_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_15_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_15_rating ;
     :has_body "Feels like this would be better suited for an episode of TV than a 2.5 hour film." .
 
 :WonderWoman1984_review_16 a :movie_review ;
@@ -2439,9 +2418,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :MarkMeszoros ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_16_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_16_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_16_rating ;
     :has_body "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale." .
 
 :WonderWoman1984_review_17 a :movie_review ;
@@ -2449,9 +2428,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :JenniferOuellette ;
     ns2:publisher :ArsTechnica ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_17_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_17_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_17_rating ;
     :has_body "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing." .
 
 :WonderWoman1984_review_18 a :movie_review ;
@@ -2459,9 +2438,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :BrianGill ;
     ns2:publisher :MadAboutMoviesPodcast ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_18_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_18_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_18_rating ;
     :has_body "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. " .
 
 :WonderWoman1984_review_19 a :movie_review ;
@@ -2469,9 +2448,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :EddieHarrison ;
     ns2:publisher :Film_AuthorityCom ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2021/01/11/wonder-woman-1984/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_19_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_19_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_19_rating ;
     :has_body "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..." .
 
 :WonderWoman1984_review_2 a :movie_review ;
@@ -2479,9 +2458,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :RaferGuzman ;
     ns2:publisher :Newsday ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_2_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_2_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_2_rating ;
     :has_body " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain." .
 
 :WonderWoman1984_review_20 a :movie_review ;
@@ -2489,9 +2468,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :IanSimmons ;
     ns2:publisher :KickingTheSeat ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_20_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_20_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_20_rating ;
     :has_body "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here." .
 
 :WonderWoman1984_review_21 a :movie_review ;
@@ -2499,9 +2478,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :DanTabor ;
     ns2:publisher :Phawker ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_21_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_21_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_21_rating ;
     :has_body "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. " .
 
 :WonderWoman1984_review_22 a :movie_review ;
@@ -2509,9 +2488,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :MarkJackson ;
     ns2:publisher :EpochTimes ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_22_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_22_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_22_rating ;
     :has_body "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown." .
 
 :WonderWoman1984_review_23 a :movie_review ;
@@ -2519,9 +2498,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :JohnMcdonald ;
     ns2:publisher :AustralianFinancialReview ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_23_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_23_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_23_rating ;
     :has_body "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?" .
 
 :WonderWoman1984_review_24 a :movie_review ;
@@ -2529,9 +2508,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :MattNeal ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_24_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_24_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_24_rating ;
     :has_body " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful." .
 
 :WonderWoman1984_review_25 a :movie_review ;
@@ -2540,8 +2519,8 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :Thibault_Lagoutte ;
     ns2:language :English ;
     ns2:source "https://www.imdb.com/title/tt7126948/" ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_25_rating> ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_25_rating ;
     :has_body "3 stars for Gal's body. Rest is total garbage.no story, poor cgi, actor play is meh." .
 
 :WonderWoman1984_review_3 a :movie_review ;
@@ -2549,9 +2528,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :AmyNicholson ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_3_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_3_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_3_rating ;
     :has_body "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this." .
 
 :WonderWoman1984_review_4 a :movie_review ;
@@ -2559,9 +2538,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :StephenRomei ;
     ns2:publisher :TheAustralian ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_4_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_4_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_4_rating ;
     :has_body "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. " .
 
 :WonderWoman1984_review_5 a :movie_review ;
@@ -2569,9 +2548,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :JakeWilson ;
     ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_5_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_5_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_5_rating ;
     :has_body "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel." .
 
 :WonderWoman1984_review_6 a :movie_review ;
@@ -2579,9 +2558,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :DavidSims ;
     ns2:publisher :TheAtlantic ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_6_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_6_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_6_rating ;
     :has_body "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema." .
 
 :WonderWoman1984_review_7 a :movie_review ;
@@ -2589,9 +2568,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :KevinCarr ;
     ns2:publisher :FatGuysAtTheMovies ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_7_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_7_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_7_rating ;
     :has_body "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works." .
 
 :WonderWoman1984_review_8 a :movie_review ;
@@ -2599,9 +2578,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :DavidBax ;
     ns2:publisher :BattleshipPretension ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_8_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_8_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_8_rating ;
     :has_body "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks." .
 
 :WonderWoman1984_review_9 a :movie_review ;
@@ -2609,9 +2588,9 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:creator :ValerieKalfrin ;
     ns2:publisher :TheirOwnLeague ;
     ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> ;
-    ns4:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_9_rating> ;
+    ns4:hasManifestation :WonderWoman1984_review_9_site ;
+    ns5:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_9_rating ;
     :has_body "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey." .
 
 :Zeta a ns1:Film ;
@@ -2635,7 +2614,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     :synopsis "Muchos niños tienen amigos imaginarios...pero el pequeño Joshua Parsons de 8 años tiene un amigo imaginario muy particular, llamado Z. Pronto el siniestro Z demuestra ser una preocupación para la familia, que comenzará a vivir una verdadera pesadilla en su hogar." .
 
 :bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns3:Rating ;
     rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
@@ -2652,7 +2631,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
 
 :hasRating a owl:ObjectProperty ;
     rdfs:domain :movie_review ;
-    rdfs:range ns5:Rating .
+    rdfs:range ns3:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -2670,7 +2649,7 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     rdfs:range xsd:string .
 
 :ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns3:Rating ;
     rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
@@ -2693,19 +2672,19 @@ Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que
     ns2:language :inglés ;
     ns2:publisher :monocle ;
     ns2:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-    ns3:hasManifestation :tenet_review_1_site ;
-    ns4:realization :tenet ;
+    ns4:hasManifestation :tenet_review_1_site ;
+    ns5:realization :tenet ;
     :hasRating :tenet_review_1_rating_1 ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
 :worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns3:Rating ;
     rdfs:range xsd:double .
 
-ns5:ratingCount rdfs:domain ns5:AggregateRating ;
+ns3:ratingCount rdfs:domain ns3:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns5:reviewCount rdfs:domain ns5:AggregateRating ;
+ns3:reviewCount rdfs:domain ns3:AggregateRating ;
     rdfs:range xsd:integer .
 
 :007Bond_SinTiempoParaMorir_trailer a :trailer ;
@@ -8137,6 +8116,234 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Tenet_cover_image_4 a ns1:Image ;
     :url "https://img.ecartelera.com/carteles/15100/15194/002_p.jpg" .
 
+:Tenet_rating_1 a ns3:AggregateRating ;
+    ns1:Name "Tomatometer" ;
+    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
+    :bestRating 1e+02 ;
+    :ratingValue 7e+01 ;
+    :worstRating 0e+00 ;
+    ns3:ratingCount 349 ;
+    ns3:reviewCount 349 .
+
+:Tenet_rating_2 a ns3:AggregateRating ;
+    ns2:source "https://www.metacritic.com/movie/tenet" ;
+    :bestRating 1e+02 ;
+    :ratingValue 6.9e+01 ;
+    :worstRating 0e+00 ;
+    ns3:ratingCount 50 .
+
+:Tenet_rating_3 a ns3:AggregateRating ;
+    ns2:source "https://www.imdb.com/title/tt6723592/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 7.5e+00 ;
+    :worstRating 1e+00 ;
+    ns3:ratingCount 331296 .
+
+:Tenet_rating_4 a ns3:AggregateRating ;
+    ns2:source "https://www.ecartelera.com/peliculas/tenet/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 8.4e+00 ;
+    :worstRating 0e+00 ;
+    ns3:ratingCount 27 .
+
+:Tenet_review_10_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_10_site a ns4:WebPage ;
+    ns4:hasURL "https://www.wsws.org/en/articles/2021/03/22/tene-m22.html" .
+
+:Tenet_review_11_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_11_site a ns4:WebPage ;
+    ns4:hasURL "https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews" .
+
+:Tenet_review_12_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_12_site a ns4:WebPage ;
+    ns4:hasURL "https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html" .
+
+:Tenet_review_13_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_13_site a ns4:WebPage ;
+    ns4:hasURL "https://www.efilmcritic.com/review.php?movie=33026&reviewer=416" .
+
+:Tenet_review_14_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_14_site a ns4:WebPage ;
+    ns4:hasURL "https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html" .
+
+:Tenet_review_15_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_15_site a ns4:WebPage ;
+    ns4:hasURL "https://film-authority.com/2020/08/25/tenet/" .
+
+:Tenet_review_16_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_16_site a ns4:WebPage ;
+    ns4:hasURL "https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/" .
+
+:Tenet_review_17_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_17_site a ns4:WebPage ;
+    ns4:hasURL "https://readysteadycut.com/2020/08/27/tenet-review/" .
+
+:Tenet_review_18_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_18_site a ns4:WebPage ;
+    ns4:hasURL "http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet" .
+
+:Tenet_review_19_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_19_site a ns4:WebPage ;
+    ns4:hasURL "https://www.cupofsoulshow.com/tenet" .
+
+:Tenet_review_1_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_1_site a ns4:WebPage ;
+    ns4:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/" .
+
+:Tenet_review_20_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_20_site a ns4:WebPage ;
+    ns4:hasURL "https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/#slide=0" .
+
+:Tenet_review_21_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_21_site a ns4:WebPage ;
+    ns4:hasURL "https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html" .
+
+:Tenet_review_22_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_22_site a ns4:WebPage ;
+    ns4:hasURL "https://pnabarro.wordpress.com/2021/01/31/tenet/" .
+
+:Tenet_review_23_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_23_site a ns4:WebPage ;
+    ns4:hasURL "https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610" .
+
+:Tenet_review_24_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_24_site a ns4:WebPage ;
+    ns4:hasURL "https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743#gs.rehe3y" .
+
+:Tenet_review_25_rating a ns3:Rating ;
+    :bestRating 1e+01 ;
+    :ratingValue 7e+00 ;
+    :worstRating 1e+00 .
+
+:Tenet_review_2_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_2_site a ns4:WebPage ;
+    ns4:hasURL "https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author" .
+
+:Tenet_review_3_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_3_site a ns4:WebPage ;
+    ns4:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/" .
+
+:Tenet_review_4_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_4_site a ns4:WebPage ;
+    ns4:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/" .
+
+:Tenet_review_5_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_5_site a ns4:WebPage ;
+    ns4:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater" .
+
+:Tenet_review_6_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_6_site a ns4:WebPage ;
+    ns4:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater" .
+
+:Tenet_review_7_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_7_site a ns4:WebPage ;
+    ns4:hasURL "https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/" .
+
+:Tenet_review_8_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_8_site a ns4:WebPage ;
+    ns4:hasURL "https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit" .
+
+:Tenet_review_9_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Tenet_review_9_site a ns4:WebPage ;
+    ns4:hasURL "https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/" .
+
 :Tenet_show_1 a :film_show ;
     ns1:startDateTime "2021-04-06T19:40:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado" ;
@@ -8899,6 +9106,234 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :WonderWoman1984_cover_image_4 a ns1:Image ;
     :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
 
+:WonderWoman1984_rating_1 a ns3:AggregateRating ;
+    ns1:Name "Tomatometer" ;
+    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    :bestRating 1e+02 ;
+    :ratingValue 5.9e+01 ;
+    :worstRating 0e+00 ;
+    ns3:ratingCount 426 ;
+    ns3:reviewCount 426 .
+
+:WonderWoman1984_rating_2 a ns3:AggregateRating ;
+    ns2:source "https://www.imdb.com/title/tt7126948/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 5.4e+00 ;
+    :worstRating 1e+00 ;
+    ns3:ratingCount 192548 .
+
+:WonderWoman1984_rating_3 a ns3:AggregateRating ;
+    ns2:source "https://www.metacritic.com/movie/wonder-woman-1984" ;
+    :bestRating 1e+02 ;
+    :ratingValue 6e+01 ;
+    :worstRating 0e+00 ;
+    ns3:ratingCount 57 .
+
+:WonderWoman1984_rating_4 a ns3:AggregateRating ;
+    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 7.6e+00 ;
+    :worstRating 0e+00 ;
+    ns3:ratingCount 20 .
+
+:WonderWoman1984_review_10_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_10_site a ns4:WebPage ;
+    ns4:hasURL "https://youtu.be/75nDMuZMfLs" .
+
+:WonderWoman1984_review_11_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_11_site a ns4:WebPage ;
+    ns4:hasURL "https://youtu.be/75nDMuZMfLs" .
+
+:WonderWoman1984_review_12_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_12_site a ns4:WebPage ;
+    ns4:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
+
+:WonderWoman1984_review_13_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_13_site a ns4:WebPage ;
+    ns4:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
+
+:WonderWoman1984_review_14_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_14_site a ns4:WebPage ;
+    ns4:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
+
+:WonderWoman1984_review_15_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_15_site a ns4:WebPage ;
+    ns4:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
+
+:WonderWoman1984_review_16_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_16_site a ns4:WebPage ;
+    ns4:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
+
+:WonderWoman1984_review_17_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_17_site a ns4:WebPage ;
+    ns4:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
+
+:WonderWoman1984_review_18_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_18_site a ns4:WebPage ;
+    ns4:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
+
+:WonderWoman1984_review_19_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_19_site a ns4:WebPage ;
+    ns4:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
+
+:WonderWoman1984_review_1_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_1_site a ns4:WebPage ;
+    ns4:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
+
+:WonderWoman1984_review_20_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_20_site a ns4:WebPage ;
+    ns4:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
+
+:WonderWoman1984_review_21_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_21_site a ns4:WebPage ;
+    ns4:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
+
+:WonderWoman1984_review_22_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_22_site a ns4:WebPage ;
+    ns4:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
+
+:WonderWoman1984_review_23_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_23_site a ns4:WebPage ;
+    ns4:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
+
+:WonderWoman1984_review_24_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_24_site a ns4:WebPage ;
+    ns4:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
+
+:WonderWoman1984_review_25_rating a ns3:Rating ;
+    :bestRating 1e+01 ;
+    :ratingValue 3e+00 ;
+    :worstRating 1e+00 .
+
+:WonderWoman1984_review_2_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_2_site a ns4:WebPage ;
+    ns4:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
+
+:WonderWoman1984_review_3_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_3_site a ns4:WebPage ;
+    ns4:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
+
+:WonderWoman1984_review_4_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_4_site a ns4:WebPage ;
+    ns4:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
+
+:WonderWoman1984_review_5_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_5_site a ns4:WebPage ;
+    ns4:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
+
+:WonderWoman1984_review_6_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_6_site a ns4:WebPage ;
+    ns4:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
+
+:WonderWoman1984_review_7_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_7_site a ns4:WebPage ;
+    ns4:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
+
+:WonderWoman1984_review_8_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_8_site a ns4:WebPage ;
+    ns4:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
+
+:WonderWoman1984_review_9_rating a ns3:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:WonderWoman1984_review_9_site a ns4:WebPage ;
+    ns4:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
+
 :WonderWoman1984_trailer a :trailer ;
     ns1:Name "Stream on HBO Max for a Limited Time" ;
     ns1:description "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah." ;
@@ -8961,444 +9396,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         owl:NamedIndividual ;
     ns1:Name "Estados Unidos"@es .
 
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet> a ns3:WebPage ;
-    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> a ns3:WebPage ;
-    ns3:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> a ns3:WebPage ;
-    ns3:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> a ns3:WebPage ;
-    ns3:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> a ns3:WebPage ;
-    ns3:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> a ns3:WebPage ;
-    ns3:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://concreteplayground.com/sydney/event/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/> a ns3:WebPage ;
-    ns3:hasURL "https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/slide=0> a ns3:WebPage ;
-    ns3:hasURL "https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/#slide=0" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2020/08/25/tenet/> a ns3:WebPage ;
-    ns3:hasURL "https://film-authority.com/2020/08/25/tenet/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2021/01/11/wonder-woman-1984/> a ns3:WebPage ;
-    ns3:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews> a ns3:WebPage ;
-    ns3:hasURL "https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> a ns3:WebPage ;
-    ns3:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/> a ns3:WebPage ;
-    ns3:hasURL "https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit> a ns3:WebPage ;
-    ns3:hasURL "https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://monocle.com/radio/shows/the-monocle-culture-show/> a ns3:WebPage ;
-    ns3:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> a ns3:WebPage ;
-    ns3:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://pnabarro.wordpress.com/2021/01/31/tenet/> a ns3:WebPage ;
-    ns3:hasURL "https://pnabarro.wordpress.com/2021/01/31/tenet/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_1> a ns5:AggregateRating ;
-    ns1:Name "Tomatometer" ;
-    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
-    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
-    :bestRating 1e+02 ;
-    :ratingValue 7e+01 ;
-    :worstRating 0e+00 ;
-    ns5:ratingCount 349 ;
-    ns5:reviewCount 349 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_2> a ns5:AggregateRating ;
-    ns2:source "https://www.metacritic.com/movie/tenet" ;
-    :bestRating 1e+02 ;
-    :ratingValue 6.9e+01 ;
-    :worstRating 0e+00 ;
-    ns5:ratingCount 50 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_3> a ns5:AggregateRating ;
-    ns2:source "https://www.imdb.com/title/tt6723592/" ;
-    :bestRating 1e+01 ;
-    :ratingValue 7.5e+00 ;
-    :worstRating 1e+00 ;
-    ns5:ratingCount 331296 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_4> a ns5:AggregateRating ;
-    ns2:source "https://www.ecartelera.com/peliculas/tenet/" ;
-    :bestRating 1e+01 ;
-    :ratingValue 8.4e+00 ;
-    :worstRating 0e+00 ;
-    ns5:ratingCount 27 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_10_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_11_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_12_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_13_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_14_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_15_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_16_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_17_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_18_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_19_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_1_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_20_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_21_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_22_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_23_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_24_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_25_rating> a ns5:Rating ;
-    :bestRating 1e+01 ;
-    :ratingValue 7e+00 ;
-    :worstRating 1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_2_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_3_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_4_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_5_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_6_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_7_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_8_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_review_9_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_1> a ns5:AggregateRating ;
-    ns1:Name "Tomatometer" ;
-    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    :bestRating 1e+02 ;
-    :ratingValue 5.9e+01 ;
-    :worstRating 0e+00 ;
-    ns5:ratingCount 426 ;
-    ns5:reviewCount 426 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_2> a ns5:AggregateRating ;
-    ns2:source "https://www.imdb.com/title/tt7126948/" ;
-    :bestRating 1e+01 ;
-    :ratingValue 5.4e+00 ;
-    :worstRating 1e+00 ;
-    ns5:ratingCount 192548 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_3> a ns5:AggregateRating ;
-    ns2:source "https://www.metacritic.com/movie/wonder-woman-1984" ;
-    :bestRating 1e+02 ;
-    :ratingValue 6e+01 ;
-    :worstRating 0e+00 ;
-    ns5:ratingCount 57 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_4> a ns5:AggregateRating ;
-    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
-    :bestRating 1e+01 ;
-    :ratingValue 7.6e+00 ;
-    :worstRating 0e+00 ;
-    ns5:ratingCount 20 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_10_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_11_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_12_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_13_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_14_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_15_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_16_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_17_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_18_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_19_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_1_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_20_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_21_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_22_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_23_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_24_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue -1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_25_rating> a ns5:Rating ;
-    :bestRating 1e+01 ;
-    :ratingValue 3e+00 ;
-    :worstRating 1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_2_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_3_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_4_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_5_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_6_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_7_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_8_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_9_rating> a ns5:Rating ;
-    :bestRating 1e+00 ;
-    :ratingValue 1e+00 ;
-    :worstRating -1e+00 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://readysteadycut.com/2020/08/27/tenet-review/> a ns3:WebPage ;
-    ns3:hasURL "https://readysteadycut.com/2020/08/27/tenet-review/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> a ns3:WebPage ;
-    ns3:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743gs.rehe3y> a ns3:WebPage ;
-    ns3:hasURL "https://www.comicbookmovie.com/sci-fi/tenet-review-christopher-nolans-muddled-sci-fi-thriller-delivers-on-spectacle-but-ultimately-disappoints-a177743#gs.rehe3y" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610> a ns3:WebPage ;
-    ns3:hasURL "https://www.ctvnews.ca/entertainment/movie-reviews-tenet-a-mind-bending-experience-in-actual-cinemas-now-1.5076610" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.cupofsoulshow.com/tenet> a ns3:WebPage ;
-    ns3:hasURL "https://www.cupofsoulshow.com/tenet" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.efilmcritic.com/review.php?movie=33026&reviewer=416> a ns3:WebPage ;
-    ns3:hasURL "https://www.efilmcritic.com/review.php?movie=33026&reviewer=416" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> a ns3:WebPage ;
-    ns3:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/> a ns3:WebPage ;
-    ns3:hasURL "https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> a ns3:WebPage ;
-    ns3:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> a ns3:WebPage ;
-    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> a ns3:WebPage ;
-    ns3:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> a ns3:WebPage ;
-    ns3:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author> a ns3:WebPage ;
-    ns3:hasURL "https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.wsws.org/en/articles/2021/03/22/tene-m22.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.wsws.org/en/articles/2021/03/22/tene-m22.html" .
-
 :john_david_washington a ns1:Actor,
         owl:NamedIndividual ;
     ns1:Name "John David Washington"^^xsd:string .
@@ -9459,18 +9456,18 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
-    ns5:aggregateRating :tenet_aggregated_rating_1 .
+    ns3:aggregateRating :tenet_aggregated_rating_1 .
 
 :tenet_aggregated_rating_1 a owl:NamedIndividual,
-        ns5:AggregateRating ;
+        ns3:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
     ns2:source "https://www.rottentomatoes.com/m/tenet" ;
     :bestRating 1e+02 ;
     :ratingValue 7e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 349 ;
-    ns5:reviewCount 349 .
+    ns3:ratingCount 349 ;
+    ns3:reviewCount 349 .
 
 :tenet_cover_image_1 a ns1:Image,
         owl:NamedIndividual ;
@@ -9491,16 +9488,16 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     :url "https://example.com/img.jpg"^^xsd:anyURI .
 
 :tenet_review_1_rating_1 a owl:NamedIndividual,
-        ns5:Rating ;
+        ns3:Rating ;
     ns1:Name "example name" ;
     ns1:description "example description" ;
     :bestRating 1e+00 ;
     :ratingValue -1e+00 ;
     :worstRating -1e+00 .
 
-:tenet_review_1_site a ns3:WebPage,
+:tenet_review_1_site a ns4:WebPage,
         owl:NamedIndividual ;
-    ns3:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+    ns4:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
 
 :tenet_show_1 a owl:NamedIndividual,
         :film_show ;
@@ -9873,15 +9870,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     ns1:thumbnail :christopher_nolan_img ;
     :url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyURI .
 
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater> a ns3:WebPage ;
-    ns3:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/> a ns3:WebPage ;
-    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> a ns3:WebPage ;
-    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
-
 :inglés a ns1:Language,
         owl:NamedIndividual ;
     ns1:languageCode "en"^^xsd:string .
@@ -10010,7 +9998,7 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :EstadosUnidos,
         :ReinoUnido ;
     ns1:productionCompany :WarnerBrosPictures ;
-    ns1:releaseDate [ ns1:releaseDate "2020-08-26T00:00:00-03:00"^^xsd:dateTime ] ;
+    ns1:releaseDate "2020-08-26T00:00:00-03:00"^^xsd:dateTime ;
     ns1:starring :AaronTaylor_Johnson,
         :AndrewHoward,
         :CarinaVelva,
@@ -10078,10 +10066,10 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         "https://www.rottentomatoes.com/m/tenet" ;
     :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión.",
         "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist (John David Washington) journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. Not time travel. Inversion." ;
-    ns5:aggregateRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_1>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_2>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_3>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Tenet_rating_4> .
+    ns3:aggregateRating :Tenet_rating_1,
+        :Tenet_rating_2,
+        :Tenet_rating_3,
+        :Tenet_rating_4 .
 
 :WonderWoman1984 a ns1:Film ;
     ns1:author :DaveCallaham,
@@ -10101,7 +10089,7 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :ScienceFiction ;
     ns1:origin :EeUu ;
     ns1:productionCompany :WarnerBrosPictures ;
-    ns1:releaseDate [ ns1:releaseDate "2020-12-18T00:00:00-03:00"^^xsd:dateTime ] ;
+    ns1:releaseDate "2020-12-18T00:00:00-03:00"^^xsd:dateTime ;
     ns1:starring :AlexDelescu,
         :AmrWaked,
         :AmreenNYaqoob,
@@ -10166,10 +10154,10 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         "https://www.metacritic.com/movie/wonder-woman-1984",
         "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
     :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." ;
-    ns5:aggregateRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_1>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_2>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_3>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_4> .
+    ns3:aggregateRating :WonderWoman1984_rating_1,
+        :WonderWoman1984_rating_2,
+        :WonderWoman1984_rating_3,
+        :WonderWoman1984_rating_4 .
 
 :room_Ms_2D a :cinema_room ;
     ns1:Name "MS - 2D" ;
@@ -10179,10 +10167,10 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :EstadosUnidos a ns1:Country ;
     ns1:Name "Estados Unidos" .
 
-ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
+ns1:Person rdfs:subClassOf ns5:ResponsibleEntity .
 
 :movie_review a owl:Class ;
-    rdfs:subClassOf ns3:Review .
+    rdfs:subClassOf ns4:Review .
 
 :trailer a owl:Class ;
     rdfs:subClassOf ns1:Media .
@@ -10196,7 +10184,7 @@ ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
         :CinepolisRecoleta,
         :CinepolisRosario .
 
-ns1:Film rdfs:subClassOf ns3:Movie .
+ns1:Film rdfs:subClassOf ns4:Movie .
 
 :room_SalaHd a :cinema_room ;
     ns1:Name "SALA HD" ;
