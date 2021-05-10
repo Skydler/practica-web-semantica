@@ -1,6 +1,6 @@
 from constants import BASE_URL
 import langcodes
-from rdflib import BNode, Namespace, Literal
+from rdflib import Namespace, Literal  # , Bnode
 from rdflib.namespace import RDF
 from utils.utils import to_turtle_fmt
 
@@ -167,8 +167,10 @@ class OWLParser:
         return self.baseURI[encoded_cinema_name]
 
     def add_released_date(self, movie_title, movie):
-        if movie.released:
-            date_uri = f"{to_turtle_fmt(movie.title)}_released_date"
+        # https://trello.com/c/cDYvF6b9/30-released-del-modelo-1-y-released-del-modelo-2-son-dos-cosas-distintas-y-no-deber%C3%ADan-ser-mergeadas-en-owl
+        # if movie.released:
+        #     date_uri = f"{to_turtle_fmt(movie.title)}_released_date"
 
-            self.g.add(
-                (movie_title, self.dbpedia.releaseDate, BNode(date_uri)))
+        #     self.g.add((movie_title, self.dbpedia.releaseDate,
+        #                 BNode(date_uri)))
+        pass
