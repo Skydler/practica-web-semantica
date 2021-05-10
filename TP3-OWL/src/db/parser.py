@@ -260,7 +260,11 @@ class OWLParser:
             self.g.add((movie_title, self.dbpedia.language, language_uri))
 
     def _create_room(self, room, cinema):
-        encoded_room_name = f"room_{to_turtle_fmt(room)}"
+        turtle_room = to_turtle_fmt(room)
+        turtle_cinema = to_turtle_fmt(cinema)
+
+        encoded_room_name = f"room_{turtle_room}_{turtle_cinema}"
+
         self.g.add((self.baseURI[encoded_room_name], RDF.type,
                     self.baseURI.cinema_room))
 

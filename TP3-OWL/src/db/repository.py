@@ -52,7 +52,7 @@ class OwlMovieRepository(MovieRepository):
     @classmethod
     def read(cls, path_file):
         graph = Graph()
-        graph.parse(path_file, format="turtle")
+        graph.parse(str(path_file), format="turtle")
 
         return graph
 

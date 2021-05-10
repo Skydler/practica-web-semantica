@@ -1,9 +1,9 @@
 @prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 @prefix ns1: <http://dbpedia.org/ontology/> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/spar/fabio/> .
-@prefix ns4: <http://purl.org/vocab/frbr/core#> .
-@prefix ns5: <https://schema.org/> .
+@prefix ns2: <http://purl.org/spar/fabio/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <https://schema.org/> .
+@prefix ns5: <http://purl.org/vocab/frbr/core#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -14,8 +14,8 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
-        ns3:2019-02-19,
-        ns5: .
+        ns2:2019-02-19,
+        ns4: .
 
 :007_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -36,7 +36,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NaomieHarris,
         :RalphFiennes,
         :RamiMalek ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/007-sin-tiempo-para-morir"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/007-sin-tiempo-para-morir"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :007_SinTiempoParaMorir_trailer ;
     :synopsis "En SIN TIEMPO PARA MORIR, Bond se ha retirado del servicio como agente en activo y disfruta de una tranquila vida en Jamaica. Pero sus días de paz acaban cuando su viejo amigo Felix Leiter de la CIA aparece pidiéndole ayuda. La misión en cuestión, que consiste en rescatar a un científico secuestrado, resulta mucho más compleja de lo esperado y pone a Bond sobre la pista de un misterioso villano armado con peligrosa tecnología de vanguardia."@es .
@@ -55,7 +55,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RhysDarby,
         :RupertDegas,
         :SamaraWeaving ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/100-lobo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/100-lobo"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasShow :100Lobo_show_1,
         :100Lobo_show_2,
@@ -81,7 +81,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MikeFaist,
         :RachelZegler,
         :RitaMoreno ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/amor-sin-barreras"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/amor-sin-barreras"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :AmorSinBarreras_trailer ;
     :synopsis "Dirigida por el ganador de un Oscar® Steven Spielberg, a partir de un guion del galardonado con un premio Pulitzer y un Tony® Tony Kushner, AMOR SIN BARRERAS cuenta la clásica historia de rivalidades y amor juvenil en la ciudad de Nueva York de 1957."@es .
@@ -103,7 +103,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MedinaSenghore,
         :NicholasHoult,
         :TylerPerry ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/aquellos-que-desean-mi-muerte"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/aquellos-que-desean-mi-muerte"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :AquellosQueDeseanMiMuerte_trailer ;
     :synopsis "Un adolescente testigo de un asesinato es perseguido por dos asesinos gemelos a través de las tierras salvajes de Montana. Aunque cuenta con un experto de la supervivencia para evitar que los secuaces le den caza, un incendio cercano pronto amenaza con robar la vida de todos los implicados."@es .
@@ -118,7 +118,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KseniyaPlyusnina,
         :PolinaStrogaya,
         :VladimirKuznetsov ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/atakan-reliquia-diabolica"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/atakan-reliquia-diabolica"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :Atakan_ReliquiaDiabolica_show_1,
         :Atakan_ReliquiaDiabolica_show_2,
@@ -143,7 +143,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :JuliaMartinezRubio,
         :MarceloSubiotto,
         :VioletaPalukas ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/bahia-blanca"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/bahia-blanca"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :BahiaBlanca_trailer ;
     :synopsis "Mario, docente universitario, utiliza una investigación sobre el escritor Ezequiel Martínez Estrada para huir de su pasado. Establecido en Bahía Blanca, la nueva ciudad parece ser el lugar ideal para el olvido, hasta que un encuentro fortuito con un viejo amigo desencadena el peor de los peligros."@es .
@@ -159,7 +159,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LauraGrandineti,
         :LuisLuque,
         :RoccoPosca ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/bigli"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/bigli"^^xsd:anyUri ;
     :content_rating "P13R" ;
     :synopsis "Los años dejaron sin amor y sin sentido al viejo Bigli, tratando de que el alcohol lo hunda a él o a su barco. En medio de ese largo adiós del mundo, su amada sobrina, sin encontrar contención en su familia, le pedirá ayuda."@es .
 
@@ -179,7 +179,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :SimonaZivkovska,
         :WilliamHurt,
         :YolandaLynes ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/black-widow"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/black-widow"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :BlackWidow_trailer ;
     :synopsis "Al nacer, Natasha Romanoff se entrega a la KGB, que la prepara para convertirse en su principal agente. Cuando los Estados Unidos se separan, el gobierno trata de matarla mientras la acción actúa."@es .
@@ -199,7 +199,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :TeyonahParris,
         :TonyTodd,
         :YahyaAbdul_MateenIi ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/candyman"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/candyman"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :synopsis "Desde tiempos inmemoriales, los proyectos residenciales del barrio de Cabrini Green en Chicago se han visto amenazados por la historia de un supuesto asesino en serie con un gancho por mano al que se invoca fácilmente repitiendo su nombre cinco veces frente a un espejo. Hoy, una década después de que la última torre de Cabrini fuese derruída, el artista visual Anthony McCoy (Yahya Abdul-Mateen) y su novia Brianna Cartwright (Teyonah Parris), se mudan a un apartamento de lujo de un barrio ahora irreconocible, repleto de millennials y de personas que, por lo general, desconocen su oscuro pasado."@es .
 
@@ -212,7 +212,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:starring :IvanYankovskiy,
         :KonstantinKhabenskiy,
         :StasyaMiloslavskaya ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/contra-el-fuego"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/contra-el-fuego"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :ContraElFuego_trailer .
 
@@ -230,7 +230,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KirbyHowell_Baptiste,
         :MarkStrong,
         :PaulWalterHauser ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/cruella"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/cruella"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :Cruella_trailer ;
     :synopsis "La ganadora del Oscar® Emma Stone (La La Land) protagoniza CRUELLA de Disney, un nuevo largometraje de acción real que retrata los primeros días rebeldes de una de las villanas más notorias del cine y de la moda, la legendaria Cruella de Vil. Ambientada en los años 70 en Londres y en medio de la revolución del punk rock, CRUELLA sigue a una joven estafadora llamada Estella, una chica inteligente y creativa decidida a hacerse un lugar en la moda con sus diseños de ropa. Cuando se hace amiga de un par de jóvenes ladrones que aprecian su apetito por las travesuras, juntos logran construir una vida en las calles de Londres. Un día, el talento de Estella llama la atención de la Baronesa von Hellman, la aterradoramente elegante y sofisticada leyenda de la moda interpretada por la dos veces ganadora del Oscar® Emma Thompson (La mansión Howard, Sensatez y Sentimiento). Pero su relación pone en marcha un curso de eventos y revelaciones que harán que Estella abrace su lado perverso y se convierta en la disonante, vanguardista y ávida de venganza Cruella."@es .
@@ -254,7 +254,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :TakahiroSakurai,
         :TomokazuSeki,
         :YoshitsuguMatsuoka ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/demon-slayer-mugen-train"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/demon-slayer-mugen-train"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :DemonSlayerMugenTrain_show_1,
         :DemonSlayerMugenTrain_show_10,
@@ -289,7 +289,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :ShannonKook,
         :SterlingJerins,
         :VeraFarmiga ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-conjuro-3-el-diablo-me-obligo-a-hacerlo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-conjuro-3-el-diablo-me-obligo-a-hacerlo"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :ElConjuro3_ElDiabloMeObligoAHacerlo_trailer ;
     :synopsis "“El Conjuro 3: El diablo me obligó a hacerlo” revela una escalofriante historia de terror, asesinato y un mal desconocido que impresionó incluso a los verdaderos expertos en investigación paranormal Ed y Lorraine Warren. Es uno de los casos más sensacionales de sus archivos; empieza con la lucha por el alma de un niño, los lleva más allá de lo que jamás habían visto y marca la primera vez en la historia de EE. UU. en que un sospechoso de asesinato alega posesión demoníaca como defensa."@es .
@@ -308,7 +308,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :OlivierBonnaud,
         :OthmaneMoumen,
         :VictoriaBluck ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-joven-ahmed"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-joven-ahmed"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :synopsis "En la Bélgica actual, el destino del joven Ahmed, de apenas 13 años, se ha quedado atrapado entre los ideales de pureza del que le habla su imán y las pasiones de la vida."@es .
 
@@ -329,7 +329,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MelvilPoupaud,
         :VincentGrass,
         :VincentPerez ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-oficial-y-el-espia"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-oficial-y-el-espia"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :synopsis "En 1894, el capitán francés Alfred Dreyfus, un joven oficial judío, es acusado de traición por espiar para Alemania y condenado a cadena perpetua en la Isla del Diablo, en la Guayana Francesa. Entre los testigos que hicieron posible esta humillación se encuentra el coronel Georges Picquart, encargado de liderar la unidad de contrainteligencia que descubrió al espía. Pero cuando Picquart se entera de que se siguen pasando secretos militares a los alemanes, se adentrará en un peligroso laberinto de mentiras y corrupción, poniendo en peligro su honor y su vida."@es .
 
@@ -350,7 +350,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LiamNeeson,
         :LuceRains,
         :TeresaRuiz ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-protector"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-protector"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :ElProtector_trailer ;
     :synopsis "Un ranchero en la frontera de Arizona se convierte en el improbable defensor de un joven mexicano que huye desesperadamente de los asesinos del cartel que lo han perseguido hasta Estados Unidos."@es .
@@ -373,7 +373,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LivTyler,
         :SeanAstin,
         :ViggoMortensen ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :ElSenorDeLosAnillos_ElRetornoDelRey_show_1,
         :ElSenorDeLosAnillos_ElRetornoDelRey_show_10,
@@ -436,7 +436,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :OrlandoBloom,
         :SeanAstin,
         :ViggoMortensen ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-la-comunidad-del-anillo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-la-comunidad-del-anillo"^^xsd:anyUri ;
     :content_rating "ATPR" ;
     :hasShow :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_1,
         :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_10,
@@ -499,7 +499,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LivTyler,
         :SeanAstin,
         :ViggoMortensen ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-las-dos-torres"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-las-dos-torres"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :ElSenorDeLosAnillos_LasDosTorres_show_1,
         :ElSenorDeLosAnillos_LasDosTorres_show_10,
@@ -556,7 +556,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NanouGarcia,
         :PaulHamy,
         :VincentPerez ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/el-territorio-del-amor"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-territorio-del-amor"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :synopsis "María tiene 30 años, es impaciente, rebelde y experta en holandés. Olivier tiene la misma edad, es lento, tímido y habla catorce idiomas. Se encuentran en Taiwan. Y de repente, la impactante novedad. Es su historia. La de la increíble fuerza de un amor. Y la de sus confines, en donde todo empieza a fallar. Excepto María."@es .
 
@@ -577,7 +577,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MelissaBarrera,
         :OlgaMerediz,
         :StephanieBeatriz ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/en-el-barrio"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/en-el-barrio"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :EnElBarrio_trailer ;
     :synopsis "Adaptación del musical de Broadway de Lin-Manuel Miranda en el que el propietario de una bodega duda sobre si cerrar su negocio y retirarse a la República Dominicana tras heredar la fortuna de su abuela."@es .
@@ -598,7 +598,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RobertDeNiro,
         :TJMcgibbon,
         :UmaThurman ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/en-guerra-con-mi-abuelo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/en-guerra-con-mi-abuelo"^^xsd:anyUri ;
     :content_rating "ATPR" ;
     :hasShow :EnGuerraConMiAbuelo_show_1,
         :EnGuerraConMiAbuelo_show_2,
@@ -613,7 +613,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     :synopsis "Peter está muy molesto porque tiene que cederle la habitación a su abuelo (Robert De Niro) por lo que decide declararle la guerra en un intento por recuperarla. Esto desatará una divertida y alocada batalla entre él, su abuelo y sus amigos."@es .
 
 :Espiral_ElJuegoDelMiedoContinua a ns1:Film ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/espiral-el-juego-del-miedo-continua"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/espiral-el-juego-del-miedo-continua"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :Espiral_ElJuegoDelMiedoContinua_trailer ;
     :synopsis "Un cruel y sádico genio desata una retorcida forma de justicia en ESPIRAL, el nuevo y aterrador capítulo en el Universo de El Juego del Miedo. A la sombra de un respetado veterano de la policía (Samuel L. Jackson), el atrevido detective Ezequiel “Zeke” Banks (Chris Rock) y su compañero novato (Max Minghella) se encargan de la rebuscada investigación sobre unos asesinatos que despiertan un recuerdo inquietante del terrible pasado vivido en la ciudad: ¿Habrá regresado? ¿Será posible? Con cada movida, Zeke se acerca más al centro de un misterio y a los macabros juegos de un asesino. ESPIRAL está protagonizada por Chris Rock, Max Minghella, Marisol Nichols y Samuel L. Jackson, y está producida por el equipo original de SAW de Mark Burg y Oren Koules. La película está dirigida por Darren Lynn Bousman y escrita por Josh Stolberg y Pete Goldfinger."@es .
@@ -632,7 +632,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RoryCochrane,
         :SawyerJones,
         :ScottHaze ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/espiritus-oscuros"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/espiritus-oscuros"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :synopsis "En Antlers, una pequeña ciudad de Oregón, una profesora (Keri Russel) y su hermano (Jesse Plemons), el sheriff de la localidad, se empiezan a interesar por un estudiante misterioso y distante. A medida que se van conociendo, descubre que el joven esconde un peligroso secreto que podría tener consecuencias fatales."@es .
 
@@ -643,7 +643,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:starring :GigiLeung,
         :HimLaw,
         :SimonYam ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/eternos-companeros"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/eternos-companeros"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :EternosCompaneros_trailer ;
     :synopsis "Adaptación cinematográfica de la famosa novela japonesa \"Goodbye, Khoru\" que sigue a un perro guía y a su conflictuado amo"@es .
@@ -663,7 +663,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RyanReynolds,
         :TaikaWaititi,
         :UtkarshAmbudkar ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/free-guy-tomando-el-control"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/free-guy-tomando-el-control"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :synopsis "Un trabajador de un banco descubre que en realidad es un jugador dentro de un videojuego."@es .
 
@@ -685,7 +685,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MillieBobbyBrown,
         :RebeccaHall,
         :ShunOguri ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/godzilla-vs-kong"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/godzilla-vs-kong"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :GodzillaVsKong_show_1,
         :GodzillaVsKong_show_10,
@@ -729,7 +729,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:starring :EvelinHagoel,
         :MariaBelkin,
         :VladimirFridman ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/golden-voices"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/golden-voices"^^xsd:anyUri ;
     :content_rating "N/A" .
 
 :JungleCruise a ns1:Film ;
@@ -744,7 +744,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :JackWhitehall,
         :JessePlemons,
         :PaulGiamatti ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/jungle-cruise"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/jungle-cruise"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :JungleCruise_trailer ;
     :synopsis "La adaptación de acción en vivo de Disney de su icónico paseo en un parque temático."@es .
@@ -756,7 +756,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :CelesteGerez,
         :HugoArana,
         :LuisMachin ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/la-funeraria"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/la-funeraria"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :LaFuneraria_trailer ;
     :synopsis "Bernardo es el director de una funeraria, que está ubicada en la misma casa donde vive. En la parte delantera recibe a sus clientes, mientras que en el fondo vive su familia entre ataúdes, coronas funerarias y algun que otro fantasma. Intentar descubrir el origen de estas curiosas entidades, tendrá un resultado aterrador."@es .
@@ -779,7 +779,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :PeterDinklage,
         :RandyThom,
         :RyanReynolds ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/los-croods-2-una-nueva-era"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/los-croods-2-una-nueva-era"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :LosCroods2_UnaNuevaEra_trailer ;
     :synopsis "Después de salir de su cueva, los Croods se encuentran con su mayor amenaza desde que se fueron: otra familia llamada Betterman, quienes afirman y demuestran ser mejores y evolucionados. Grug empieza a sospechar de los padres de Betterman, Phil y Hope, ya que planean en secreto separar a su hija Eep con su amado novio Guy para asegurarse de que su hija Dawn tenga un compañero amoroso e inteligente que la proteja."@es .
@@ -801,7 +801,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MaisieWilliams,
         :MickeyGilmore,
         :ThomasKee ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/los-nuevos-mutantes"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/los-nuevos-mutantes"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :LosNuevosMutantes_show_1,
         :LosNuevosMutantes_show_2,
@@ -830,7 +830,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MehcadBrooks,
         :NgChinHan,
         :TadanobuAsano ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/mortal-kombat"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/mortal-kombat"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasShow :MortalKombat_show_1,
         :MortalKombat_show_10,
@@ -903,7 +903,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KristenHarris,
         :PaulEssiembre,
         :StephanieSy ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/nadie"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/nadie"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :Nadie_trailer ;
     :synopsis "Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse los golpes de la vida. Un don nadie. Una noche, cuando dos ladrones entran en su casa, Hutch decide no actuar y no trata de defenderse ni al él mismo ni a su familia, convencido de que solo así evitará una escalada de violencia. Tras el ataque, su hija adolescente Blake no oculta su decepción, y su esposa Becca se aleja todavía más."@es .
@@ -925,7 +925,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :PatriciaGrier,
         :RyanAquino,
         :Swankie ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/nomadland"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/nomadland"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasShow :Nomadland_show_1,
         :Nomadland_show_2,
@@ -951,7 +951,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KseniyaShumeyko,
         :VictoriyaPyatakina,
         :VladimirGusev ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/panico-en-las-alturas"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/panico-en-las-alturas"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :PanicoEnLasAlturas_trailer ;
     :synopsis "Cinco jóvenes, deciden celebrar la víspera de Año Nuevo en la cima de una montaña, pero en su intento quedan atrapados en un teleférico. Lo que comenzó como una fiesta de aventura, pronto se convertirá en su peor pesadilla. El frío, la altura y el miedo a una muerte lenta hacen que revelen su verdadera esencia."@es .
@@ -972,7 +972,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NatalieMorales,
         :RamiMalek,
         :TerryKinney ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/pequenos-secretos"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/pequenos-secretos"^^xsd:anyUri ;
     :content_rating "P13R" ;
     :hasShow :PequenosSecretos_show_1,
         :PequenosSecretos_show_2,
@@ -1003,7 +1003,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RoseByrne,
         :SamNeill,
         :Sia ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/peter-rabbit-conejo-en-fuga"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/peter-rabbit-conejo-en-fuga"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :PeterRabbit_ConejoEnFuga_trailer ;
     :synopsis "Peter Rabbit no es un conejo cualquiera. Es un rebelde travieso y aventurero que viste camisa azul y no lleva pantalones. Peter vive junto a su familia y amigos, un grupo variopinto de animales que incluye incluso a un zorro. Todos ellos harán de las suyas en la granja de los McGregor, lugar en cuyo jardín disponen de deliciosos vegetales. Pero la disputa de Peter con el Sr. McGregor se intensificará más que nunca ya que ambos compiten por el afecto de Bea, una amante de los animales de buen corazón. La fiesta animal ha empezado, y esto es solo el principio."@es .
@@ -1023,7 +1023,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :SungKang,
         :TyreseGibson,
         :VinDiesel ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/rapidos-y-furiosos-9"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/rapidos-y-furiosos-9"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :RapidosYFuriosos9_trailer ;
     :synopsis "No importa lo rápido que seas, nadie supera su pasado. RyF9 es el noveno capítulo de la Saga Rápidos & Furiosos, que comenzó hace casi 20 años y que ha recaudado más de cinco mil millones de dólares en todo el mundo. Dom Toretto, Vin Diesel, lleva una vida tranquila fuera de la red con Letty y su hijo, el pequeño Brian, pero saben que el peligro siempre acecha esa tranquilidad. Esta vez, esa amenaza obligará a Dom a enfrentar los pecados de su pasado si quiere salvar a los que más ama. El Equipo se vuelve a reunir para impedir un complot a escala mundial, liderado por uno de los asesinos más peligrosos y mejor conductor a los que jamás se han enfrentado; un hombre que además es el hermano desaparecido de Dom, Jakob (John Cena, El Escuadrón Suicida del próximo año)."@es .
@@ -1043,7 +1043,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :KiaraPichardo,
         :MarinaMazepa,
         :WilliamSadler ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/ruega-por-nosotros"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/ruega-por-nosotros"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :RuegaPorNosotros_trailer ;
     :synopsis "Se centra en un periodista caído en desgracia que descubre una serie de aparentes milagros acaecidos en un pequeño pueblo de Nueva Inglaterra, aplicándolos para devolver su carrera al estrellato. Lo que desconoce es que estos milagros esconden una cara mucho más oscura de lo que él cree."@es .
@@ -1067,7 +1067,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :LebronJames,
         :SonequaMartin_Green,
         :Zendaya ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/space-jam-una-nueva-era"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/space-jam-una-nueva-era"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :SpaceJam_UnaNuevaEra_trailer ;
     :synopsis "¡Bienvenido al partido del siglo! El campeón de la NBA e ícono mundial LeBron James se embarca en una aventura épica junto al Tune Bugs Bunny en el evento animado / de acción en vivo \"Space Jam: Una Nueva Era\", del director Malcolm D. Lee y un equipo de cine innovador que incluye a Ryan Coogler y Maverick Carter. Este viaje de transformación es el resultado de una mezcla maníaca entre dos mundos que, al final, revela hasta dónde están dispuestos a llegar algunos padres para conectar con sus hijos. Cuando LeBron y su pequeño hijo Dom quedan atrapados en un espacio digital por una IA (inteligencia artificial) deshonesta, LeBron debe regresarlos a casa sanos y salvos guiado por Bugs, Lola Bunny y a toda la banda de indisciplinados Looney Tunes hacia la victoria sobre los campeones digitalizados de la IA en la cancha: una lista mejorada de estrellas profesionales del basquetbol como nunca antes lo habías visto. Son Tunes versus Goons en el desafío más importante de su vida, que redefinirá el vínculo de LeBron con su hijo y arrojará luz sobre el poder de ser uno mismo. Todos listos para la acción destruyen las convenciones, potencian sus talentos únicos y sorprenden incluso al \"Rey\" James jugando basquetbol a su manera."@es .
@@ -1087,7 +1087,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MarsaiMartin,
         :MckennaGrace,
         :WaltonGoggins ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/spirit-el-indomable"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/spirit-el-indomable"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :Spirit_ElIndomable_trailer ;
     :synopsis "La vida de Lucky Prescott cambia para siempre cuando se muda de su casa en la gran ciudad a un pequeño pueblo fronterizo en el que entabla amistad con un caballo salvaje llamado Spirit."@es .
@@ -1111,7 +1111,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :NickyJam,
         :T_Pain,
         :WilliamHanna ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/tom-y-jerry"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/tom-y-jerry"^^xsd:anyUri ;
     :content_rating "ATP" ;
     :hasShow :TomYJerry_show_1,
         :TomYJerry_show_2,
@@ -1137,7 +1137,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :MilesTeller,
         :TomCruise,
         :ValKilmer ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/top-gun-maverick"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/top-gun-maverick"^^xsd:anyUri ;
     :content_rating "N/A" ;
     :hasTrailer :TopGun_Maverick_trailer ;
     :synopsis "Secuela de Top Gun. De acuerdo con la revista Variety, el propio Tom Cruise confirmó el 24 de mayo a una televisión australiana que el film se rodaría \"el año 2018\"."@es .
@@ -1159,7 +1159,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :PanayotisPascot,
         :PierreGomme,
         :StephaneJobert ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/una-extrana-obsesion"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/una-extrana-obsesion"^^xsd:anyUri ;
     :content_rating "N/A" .
 
 :VioletEvergarden a ns1:Film ;
@@ -1180,7 +1180,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :RinaSato,
         :TakehitoKoyasu,
         :YuiIshikawa ;
-    ns2:source "https://www.cinepolis.com.ar/peliculas/violet-evergarden"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/violet-evergarden"^^xsd:anyUri ;
     :content_rating "P-13" ;
     :hasShow :VioletEvergarden_show_1,
         :VioletEvergarden_show_10,
@@ -1201,182 +1201,182 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     :synopsis "La película se sitúa varios años después del final de la guerra, ya que el mundo se está volviendo cada vez más pacífico. Un día, Violet Evergarden encuentra cierta carta."@es .
 
 :WonderWoman1984_review_1 a :movie_review ;
-    ns2:created "2021-02-01T04:29:30-08:00"^^xsd:dateTime ;
-    ns2:creator :SheriFlanders ;
-    ns2:publisher :ChicagoReader ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_1_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-01T04:29:30-08:00"^^xsd:dateTime ;
+    ns3:creator :SheriFlanders ;
+    ns3:publisher :ChicagoReader ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_1_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_1_rating ;
     :has_body "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads."@en .
 
 :WonderWoman1984_review_10 a :movie_review ;
-    ns2:created "2021-03-11T06:02:25-08:00"^^xsd:dateTime ;
-    ns2:creator :AndrewGaldi ;
-    ns2:publisher :MovieBitches ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_10_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-03-11T06:02:25-08:00"^^xsd:dateTime ;
+    ns3:creator :AndrewGaldi ;
+    ns3:publisher :MovieBitches ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_10_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_10_rating ;
     :has_body "There were just such gross failures of filmmaking..."@en .
 
 :WonderWoman1984_review_11 a :movie_review ;
-    ns2:created "2021-03-11T05:51:39-08:00"^^xsd:dateTime ;
-    ns2:creator :AvarylHalley ;
-    ns2:publisher :MovieBitches ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_11_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-03-11T05:51:39-08:00"^^xsd:dateTime ;
+    ns3:creator :AvarylHalley ;
+    ns3:publisher :MovieBitches ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_11_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_11_rating ;
     :has_body "At least \"Justice League\" had at the decency to be short"@en .
 
 :WonderWoman1984_review_12 a :movie_review ;
-    ns2:created "2021-03-01T08:14:02-08:00"^^xsd:dateTime ;
-    ns2:creator :NinaGarin ;
-    ns2:publisher :SanDiegoUnion_Tribune ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_12_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-03-01T08:14:02-08:00"^^xsd:dateTime ;
+    ns3:creator :NinaGarin ;
+    ns3:publisher :SanDiegoUnion_Tribune ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_12_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_12_rating ;
     :has_body "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. "@en .
 
 :WonderWoman1984_review_13 a :movie_review ;
-    ns2:created "2021-02-22T06:02:11-08:00"^^xsd:dateTime ;
-    ns2:creator :TonyMedley ;
-    ns2:publisher :TheLarchmontChronicle ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_13_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-22T06:02:11-08:00"^^xsd:dateTime ;
+    ns3:creator :TonyMedley ;
+    ns3:publisher :TheLarchmontChronicle ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_13_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_13_rating ;
     :has_body "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean."@en .
 
 :WonderWoman1984_review_14 a :movie_review ;
-    ns2:created "2021-02-21T08:36:54-08:00"^^xsd:dateTime ;
-    ns2:creator :SarahWard ;
-    ns2:publisher :ConcretePlayground ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_14_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-21T08:36:54-08:00"^^xsd:dateTime ;
+    ns3:creator :SarahWard ;
+    ns3:publisher :ConcretePlayground ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_14_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_14_rating ;
     :has_body "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down."@en .
 
 :WonderWoman1984_review_15 a :movie_review ;
-    ns2:created "2021-02-17T02:36:51-08:00"^^xsd:dateTime ;
-    ns2:creator :EricMarchen ;
-    ns2:publisher :UntitledMoviePodcast ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_15_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-17T02:36:51-08:00"^^xsd:dateTime ;
+    ns3:creator :EricMarchen ;
+    ns3:publisher :UntitledMoviePodcast ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_15_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_15_rating ;
     :has_body "Feels like this would be better suited for an episode of TV than a 2.5 hour film."@en .
 
 :WonderWoman1984_review_16 a :movie_review ;
-    ns2:created "2021-02-13T23:57:56-08:00"^^xsd:dateTime ;
-    ns2:creator :MarkMeszoros ;
-    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_16_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-13T23:57:56-08:00"^^xsd:dateTime ;
+    ns3:creator :MarkMeszoros ;
+    ns3:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_16_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_16_rating ;
     :has_body "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale."@en .
 
 :WonderWoman1984_review_17 a :movie_review ;
-    ns2:created "2021-02-11T02:38:41-08:00"^^xsd:dateTime ;
-    ns2:creator :JenniferOuellette ;
-    ns2:publisher :ArsTechnica ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_17_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-11T02:38:41-08:00"^^xsd:dateTime ;
+    ns3:creator :JenniferOuellette ;
+    ns3:publisher :ArsTechnica ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_17_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_17_rating ;
     :has_body "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing."@en .
 
 :WonderWoman1984_review_18 a :movie_review ;
-    ns2:created "2021-02-10T06:48:34-08:00"^^xsd:dateTime ;
-    ns2:creator :BrianGill ;
-    ns2:publisher :MadAboutMoviesPodcast ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_18_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-10T06:48:34-08:00"^^xsd:dateTime ;
+    ns3:creator :BrianGill ;
+    ns3:publisher :MadAboutMoviesPodcast ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_18_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_18_rating ;
     :has_body "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. "@en .
 
 :WonderWoman1984_review_19 a :movie_review ;
-    ns2:created "2021-02-07T19:57:42-08:00"^^xsd:dateTime ;
-    ns2:creator :EddieHarrison ;
-    ns2:publisher :Film_AuthorityCom ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_19_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-07T19:57:42-08:00"^^xsd:dateTime ;
+    ns3:creator :EddieHarrison ;
+    ns3:publisher :Film_AuthorityCom ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_19_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_19_rating ;
     :has_body "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..."@en .
 
 :WonderWoman1984_review_2 a :movie_review ;
-    ns2:created "2021-01-04T04:59:29-08:00"^^xsd:dateTime ;
-    ns2:creator :RaferGuzman ;
-    ns2:publisher :Newsday ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_2_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-01-04T04:59:29-08:00"^^xsd:dateTime ;
+    ns3:creator :RaferGuzman ;
+    ns3:publisher :Newsday ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_2_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_2_rating ;
     :has_body " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain."@en .
 
 :WonderWoman1984_review_20 a :movie_review ;
-    ns2:created "2021-02-05T19:46:31-08:00"^^xsd:dateTime ;
-    ns2:creator :IanSimmons ;
-    ns2:publisher :KickingTheSeat ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_20_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-05T19:46:31-08:00"^^xsd:dateTime ;
+    ns3:creator :IanSimmons ;
+    ns3:publisher :KickingTheSeat ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_20_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_20_rating ;
     :has_body "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here."@en .
 
 :WonderWoman1984_review_21 a :movie_review ;
-    ns2:created "2021-02-05T01:55:00-08:00"^^xsd:dateTime ;
-    ns2:creator :DanTabor ;
-    ns2:publisher :Phawker ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_21_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-05T01:55:00-08:00"^^xsd:dateTime ;
+    ns3:creator :DanTabor ;
+    ns3:publisher :Phawker ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_21_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_21_rating ;
     :has_body "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. "@en .
 
 :WonderWoman1984_review_22 a :movie_review ;
-    ns2:created "2021-02-02T10:00:09-08:00"^^xsd:dateTime ;
-    ns2:creator :MarkJackson ;
-    ns2:publisher :EpochTimes ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_22_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-02-02T10:00:09-08:00"^^xsd:dateTime ;
+    ns3:creator :MarkJackson ;
+    ns3:publisher :EpochTimes ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_22_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_22_rating ;
     :has_body "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown."@en .
 
 :WonderWoman1984_review_23 a :movie_review ;
-    ns2:created "2021-01-31T18:14:33-08:00"^^xsd:dateTime ;
-    ns2:creator :JohnMcdonald ;
-    ns2:publisher :AustralianFinancialReview ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_23_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-01-31T18:14:33-08:00"^^xsd:dateTime ;
+    ns3:creator :JohnMcdonald ;
+    ns3:publisher :AustralianFinancialReview ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_23_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_23_rating ;
     :has_body "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?"@en .
 
 :WonderWoman1984_review_24 a :movie_review ;
-    ns2:created "2021-01-31T17:01:54-08:00"^^xsd:dateTime ;
-    ns2:creator :MattNeal ;
-    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_24_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-01-31T17:01:54-08:00"^^xsd:dateTime ;
+    ns3:creator :MattNeal ;
+    ns3:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_24_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_24_rating ;
     :has_body " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful."@en .
 
 :WonderWoman1984_review_25 a :movie_review ;
     ns1:Name "Who should watch and who should not watch this" ;
-    ns2:created "2021-03-18T00:00:00"^^xsd:dateTime ;
-    ns2:creator :Hoarei_56760 ;
-    ns2:language :English ;
-    ns2:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-03-18T00:00:00"^^xsd:dateTime ;
+    ns3:creator :Hoarei_56760 ;
+    ns3:language :English ;
+    ns3:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_25_rating ;
     :has_body """Should:
 
@@ -1397,77 +1397,77 @@ People with guns to their heads
 Everybody else"""@en .
 
 :WonderWoman1984_review_3 a :movie_review ;
-    ns2:created "2021-01-04T03:37:14-08:00"^^xsd:dateTime ;
-    ns2:creator :AmyNicholson ;
-    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_3_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-01-04T03:37:14-08:00"^^xsd:dateTime ;
+    ns3:creator :AmyNicholson ;
+    ns3:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_3_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_3_rating ;
     :has_body "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this."@en .
 
 :WonderWoman1984_review_4 a :movie_review ;
-    ns2:created "2020-12-29T12:09:48-08:00"^^xsd:dateTime ;
-    ns2:creator :StephenRomei ;
-    ns2:publisher :TheAustralian ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_4_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2020-12-29T12:09:48-08:00"^^xsd:dateTime ;
+    ns3:creator :StephenRomei ;
+    ns3:publisher :TheAustralian ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_4_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_4_rating ;
     :has_body "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. "@en .
 
 :WonderWoman1984_review_5 a :movie_review ;
-    ns2:created "2020-12-28T07:49:06-08:00"^^xsd:dateTime ;
-    ns2:creator :JakeWilson ;
-    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_5_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2020-12-28T07:49:06-08:00"^^xsd:dateTime ;
+    ns3:creator :JakeWilson ;
+    ns3:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_5_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_5_rating ;
     :has_body "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel."@en .
 
 :WonderWoman1984_review_6 a :movie_review ;
-    ns2:created "2020-12-28T07:45:33-08:00"^^xsd:dateTime ;
-    ns2:creator :DavidSims ;
-    ns2:publisher :TheAtlantic ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_6_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2020-12-28T07:45:33-08:00"^^xsd:dateTime ;
+    ns3:creator :DavidSims ;
+    ns3:publisher :TheAtlantic ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_6_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_6_rating ;
     :has_body "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema."@en .
 
 :WonderWoman1984_review_7 a :movie_review ;
-    ns2:created "2021-04-03T14:11:59-07:00"^^xsd:dateTime ;
-    ns2:creator :KevinCarr ;
-    ns2:publisher :FatGuysAtTheMovies ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_7_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-04-03T14:11:59-07:00"^^xsd:dateTime ;
+    ns3:creator :KevinCarr ;
+    ns3:publisher :FatGuysAtTheMovies ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_7_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_7_rating ;
     :has_body "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works."@en .
 
 :WonderWoman1984_review_8 a :movie_review ;
-    ns2:created "2021-03-23T10:02:10-07:00"^^xsd:dateTime ;
-    ns2:creator :DavidBax ;
-    ns2:publisher :BattleshipPretension ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_8_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-03-23T10:02:10-07:00"^^xsd:dateTime ;
+    ns3:creator :DavidBax ;
+    ns3:publisher :BattleshipPretension ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_8_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_8_rating ;
     :has_body "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks."@en .
 
 :WonderWoman1984_review_9 a :movie_review ;
-    ns2:created "2021-03-20T08:54:50-07:00"^^xsd:dateTime ;
-    ns2:creator :ValerieKalfrin ;
-    ns2:publisher :TheirOwnLeague ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns3:hasManifestation :WonderWoman1984_review_9_site ;
-    ns4:realization :WonderWoman1984 ;
+    ns3:created "2021-03-20T08:54:50-07:00"^^xsd:dateTime ;
+    ns3:creator :ValerieKalfrin ;
+    ns3:publisher :TheirOwnLeague ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns2:hasManifestation :WonderWoman1984_review_9_site ;
+    ns5:realization :WonderWoman1984 ;
     :hasRating :WonderWoman1984_review_9_rating ;
     :has_body "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey."@en .
 
 :bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
@@ -1484,7 +1484,7 @@ Everybody else"""@en .
 
 :hasRating a owl:ObjectProperty ;
     rdfs:domain :movie_review ;
-    rdfs:range ns5:Rating .
+    rdfs:range ns4:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -1502,7 +1502,7 @@ Everybody else"""@en .
     rdfs:range xsd:string .
 
 :ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
@@ -1517,13 +1517,13 @@ Everybody else"""@en .
     rdfs:range xsd:anyURI .
 
 :worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns5:Rating ;
+    rdfs:domain ns4:Rating ;
     rdfs:range xsd:double .
 
-ns5:ratingCount rdfs:domain ns5:AggregateRating ;
+ns4:ratingCount rdfs:domain ns4:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns5:reviewCount rdfs:domain ns5:AggregateRating ;
+ns4:reviewCount rdfs:domain ns4:AggregateRating ;
     rdfs:range xsd:integer .
 
 :007_SinTiempoParaMorir_trailer a :trailer ;
@@ -1532,32 +1532,32 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :100Lobo_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T16:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :100Lobo_show_2 a :film_show ;
     ns1:startDateTime "2021-05-11T15:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :100Lobo_show_3 a :film_show ;
     ns1:startDateTime "2021-05-11T16:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :100Lobo_show_4 a :film_show ;
     ns1:startDateTime "2021-05-12T15:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :100Lobo_show_5 a :film_show ;
     ns1:startDateTime "2021-05-12T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :100Lobo_show_6 a :film_show ;
     ns1:startDateTime "2021-05-12T16:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :100Lobo_trailer a :trailer ;
     :url "https://www.youtube.com/embed/dAPc09RqEGo?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -1701,42 +1701,42 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Atakan_ReliquiaDiabolica_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T20:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :Atakan_ReliquiaDiabolica_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :Atakan_ReliquiaDiabolica_show_3 a :film_show ;
     ns1:startDateTime "2021-05-10T22:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :Atakan_ReliquiaDiabolica_show_4 a :film_show ;
     ns1:startDateTime "2021-05-11T20:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :Atakan_ReliquiaDiabolica_show_5 a :film_show ;
     ns1:startDateTime "2021-05-11T22:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :Atakan_ReliquiaDiabolica_show_6 a :film_show ;
     ns1:startDateTime "2021-05-12T20:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :Atakan_ReliquiaDiabolica_show_7 a :film_show ;
     ns1:startDateTime "2021-05-12T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :Atakan_ReliquiaDiabolica_show_8 a :film_show ;
     ns1:startDateTime "2021-05-12T22:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :Atakan_ReliquiaDiabolica_trailer a :trailer ;
     :url "https://www.youtube.com/embed/SSwizPn2KmE?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -2011,77 +2011,77 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :DemonSlayerMugenTrain_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :DemonSlayerMugenTrain_show_10 a :film_show ;
     ns1:startDateTime "2021-05-12T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :DemonSlayerMugenTrain_show_11 a :film_show ;
     ns1:startDateTime "2021-05-12T20:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :DemonSlayerMugenTrain_show_12 a :film_show ;
     ns1:startDateTime "2021-05-12T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :DemonSlayerMugenTrain_show_13 a :film_show ;
     ns1:startDateTime "2021-05-12T20:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :DemonSlayerMugenTrain_show_14 a :film_show ;
     ns1:startDateTime "2021-05-12T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :DemonSlayerMugenTrain_show_15 a :film_show ;
     ns1:startDateTime "2021-05-12T19:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :DemonSlayerMugenTrain_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T20:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :DemonSlayerMugenTrain_show_3 a :film_show ;
     ns1:startDateTime "2021-05-10T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :DemonSlayerMugenTrain_show_4 a :film_show ;
     ns1:startDateTime "2021-05-10T20:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :DemonSlayerMugenTrain_show_5 a :film_show ;
     ns1:startDateTime "2021-05-10T19:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :DemonSlayerMugenTrain_show_6 a :film_show ;
     ns1:startDateTime "2021-05-11T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :DemonSlayerMugenTrain_show_7 a :film_show ;
     ns1:startDateTime "2021-05-11T20:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :DemonSlayerMugenTrain_show_8 a :film_show ;
     ns1:startDateTime "2021-05-11T16:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :DemonSlayerMugenTrain_show_9 a :film_show ;
     ns1:startDateTime "2021-05-11T19:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :DenisKosyakov a ns1:Actor ;
     ns1:Name "Denis Kosyakov" .
@@ -2141,202 +2141,202 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_1 a :film_show ;
     ns1:startDateTime "2021-05-27T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_10 a :film_show ;
     ns1:startDateTime "2021-05-28T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_11 a :film_show ;
     ns1:startDateTime "2021-05-28T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_12 a :film_show ;
     ns1:startDateTime "2021-05-28T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_13 a :film_show ;
     ns1:startDateTime "2021-05-29T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_14 a :film_show ;
     ns1:startDateTime "2021-05-29T19:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_15 a :film_show ;
     ns1:startDateTime "2021-05-29T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_16 a :film_show ;
     ns1:startDateTime "2021-05-29T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_17 a :film_show ;
     ns1:startDateTime "2021-05-29T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_18 a :film_show ;
     ns1:startDateTime "2021-05-29T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_19 a :film_show ;
     ns1:startDateTime "2021-05-30T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_2 a :film_show ;
     ns1:startDateTime "2021-05-27T19:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_20 a :film_show ;
     ns1:startDateTime "2021-05-30T19:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_21 a :film_show ;
     ns1:startDateTime "2021-05-30T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_22 a :film_show ;
     ns1:startDateTime "2021-05-30T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_23 a :film_show ;
     ns1:startDateTime "2021-05-30T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_24 a :film_show ;
     ns1:startDateTime "2021-05-30T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_25 a :film_show ;
     ns1:startDateTime "2021-05-31T15:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_26 a :film_show ;
     ns1:startDateTime "2021-05-31T19:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_27 a :film_show ;
     ns1:startDateTime "2021-05-31T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_28 a :film_show ;
     ns1:startDateTime "2021-05-31T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_29 a :film_show ;
     ns1:startDateTime "2021-05-31T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_3 a :film_show ;
     ns1:startDateTime "2021-05-27T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_30 a :film_show ;
     ns1:startDateTime "2021-05-31T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_31 a :film_show ;
     ns1:startDateTime "2021-06-01T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_32 a :film_show ;
     ns1:startDateTime "2021-06-01T19:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_33 a :film_show ;
     ns1:startDateTime "2021-06-01T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_34 a :film_show ;
     ns1:startDateTime "2021-06-01T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_35 a :film_show ;
     ns1:startDateTime "2021-06-02T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_36 a :film_show ;
     ns1:startDateTime "2021-06-02T19:10:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_37 a :film_show ;
     ns1:startDateTime "2021-06-02T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_38 a :film_show ;
     ns1:startDateTime "2021-06-02T19:45:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_39 a :film_show ;
     ns1:startDateTime "2021-06-02T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_4 a :film_show ;
     ns1:startDateTime "2021-05-27T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_40 a :film_show ;
     ns1:startDateTime "2021-06-02T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_5 a :film_show ;
     ns1:startDateTime "2021-05-27T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_6 a :film_show ;
     ns1:startDateTime "2021-05-27T21:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Ms_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_7 a :film_show ;
     ns1:startDateTime "2021-05-28T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_8 a :film_show ;
     ns1:startDateTime "2021-05-28T19:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_show_9 a :film_show ;
     ns1:startDateTime "2021-05-28T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_ElRetornoDelRey_trailer a :trailer ;
     :url "https://www.youtube.com/embed/e2fpLyc1840?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -2344,202 +2344,202 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_1 a :film_show ;
     ns1:startDateTime "2021-05-13T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_10 a :film_show ;
     ns1:startDateTime "2021-05-14T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_11 a :film_show ;
     ns1:startDateTime "2021-05-14T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_12 a :film_show ;
     ns1:startDateTime "2021-05-14T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_13 a :film_show ;
     ns1:startDateTime "2021-05-15T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_14 a :film_show ;
     ns1:startDateTime "2021-05-15T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_15 a :film_show ;
     ns1:startDateTime "2021-05-15T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_16 a :film_show ;
     ns1:startDateTime "2021-05-15T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_17 a :film_show ;
     ns1:startDateTime "2021-05-15T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_18 a :film_show ;
     ns1:startDateTime "2021-05-15T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_19 a :film_show ;
     ns1:startDateTime "2021-05-16T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_2 a :film_show ;
     ns1:startDateTime "2021-05-13T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_20 a :film_show ;
     ns1:startDateTime "2021-05-16T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_21 a :film_show ;
     ns1:startDateTime "2021-05-16T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_22 a :film_show ;
     ns1:startDateTime "2021-05-16T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_23 a :film_show ;
     ns1:startDateTime "2021-05-16T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_24 a :film_show ;
     ns1:startDateTime "2021-05-16T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_25 a :film_show ;
     ns1:startDateTime "2021-05-17T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_26 a :film_show ;
     ns1:startDateTime "2021-05-17T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_27 a :film_show ;
     ns1:startDateTime "2021-05-17T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_28 a :film_show ;
     ns1:startDateTime "2021-05-17T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_29 a :film_show ;
     ns1:startDateTime "2021-05-17T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_3 a :film_show ;
     ns1:startDateTime "2021-05-13T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_30 a :film_show ;
     ns1:startDateTime "2021-05-17T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_31 a :film_show ;
     ns1:startDateTime "2021-05-18T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_32 a :film_show ;
     ns1:startDateTime "2021-05-18T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_33 a :film_show ;
     ns1:startDateTime "2021-05-18T18:15:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_34 a :film_show ;
     ns1:startDateTime "2021-05-18T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_35 a :film_show ;
     ns1:startDateTime "2021-05-19T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_36 a :film_show ;
     ns1:startDateTime "2021-05-19T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_37 a :film_show ;
     ns1:startDateTime "2021-05-19T16:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_38 a :film_show ;
     ns1:startDateTime "2021-05-19T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_39 a :film_show ;
     ns1:startDateTime "2021-05-19T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_4 a :film_show ;
     ns1:startDateTime "2021-05-13T19:40:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_40 a :film_show ;
     ns1:startDateTime "2021-05-19T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_5 a :film_show ;
     ns1:startDateTime "2021-05-13T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_6 a :film_show ;
     ns1:startDateTime "2021-05-13T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_7 a :film_show ;
     ns1:startDateTime "2021-05-14T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_8 a :film_show ;
     ns1:startDateTime "2021-05-14T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_show_9 a :film_show ;
     ns1:startDateTime "2021-05-14T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LaComunidadDelAnillo_trailer a :trailer ;
     :url "https://www.youtube.com/embed/e2fpLyc1840?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -2547,202 +2547,202 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :ElSenorDeLosAnillos_LasDosTorres_show_1 a :film_show ;
     ns1:startDateTime "2021-05-20T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_10 a :film_show ;
     ns1:startDateTime "2021-05-21T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_11 a :film_show ;
     ns1:startDateTime "2021-05-21T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_12 a :film_show ;
     ns1:startDateTime "2021-05-21T21:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_13 a :film_show ;
     ns1:startDateTime "2021-05-22T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_14 a :film_show ;
     ns1:startDateTime "2021-05-22T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_15 a :film_show ;
     ns1:startDateTime "2021-05-22T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_16 a :film_show ;
     ns1:startDateTime "2021-05-22T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_17 a :film_show ;
     ns1:startDateTime "2021-05-22T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_18 a :film_show ;
     ns1:startDateTime "2021-05-22T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_19 a :film_show ;
     ns1:startDateTime "2021-05-23T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_2 a :film_show ;
     ns1:startDateTime "2021-05-20T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_20 a :film_show ;
     ns1:startDateTime "2021-05-23T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_21 a :film_show ;
     ns1:startDateTime "2021-05-23T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_22 a :film_show ;
     ns1:startDateTime "2021-05-23T19:45:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_23 a :film_show ;
     ns1:startDateTime "2021-05-23T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_24 a :film_show ;
     ns1:startDateTime "2021-05-23T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_25 a :film_show ;
     ns1:startDateTime "2021-05-24T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_26 a :film_show ;
     ns1:startDateTime "2021-05-24T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_27 a :film_show ;
     ns1:startDateTime "2021-05-24T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_28 a :film_show ;
     ns1:startDateTime "2021-05-24T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_29 a :film_show ;
     ns1:startDateTime "2021-05-24T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_3 a :film_show ;
     ns1:startDateTime "2021-05-20T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_30 a :film_show ;
     ns1:startDateTime "2021-05-24T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_31 a :film_show ;
     ns1:startDateTime "2021-05-25T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_32 a :film_show ;
     ns1:startDateTime "2021-05-25T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_33 a :film_show ;
     ns1:startDateTime "2021-05-25T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_34 a :film_show ;
     ns1:startDateTime "2021-05-25T21:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_35 a :film_show ;
     ns1:startDateTime "2021-05-26T15:45:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@ro ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@es ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_36 a :film_show ;
     ns1:startDateTime "2021-05-26T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_37 a :film_show ;
     ns1:startDateTime "2021-05-26T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_38 a :film_show ;
     ns1:startDateTime "2021-05-26T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_39 a :film_show ;
     ns1:startDateTime "2021-05-26T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_4 a :film_show ;
     ns1:startDateTime "2021-05-20T19:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_40 a :film_show ;
     ns1:startDateTime "2021-05-26T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_5 a :film_show ;
     ns1:startDateTime "2021-05-20T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_6 a :film_show ;
     ns1:startDateTime "2021-05-20T21:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_7 a :film_show ;
     ns1:startDateTime "2021-05-21T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_8 a :film_show ;
     ns1:startDateTime "2021-05-21T19:30:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :ElSenorDeLosAnillos_LasDosTorres_show_9 a :film_show ;
     ns1:startDateTime "2021-05-21T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :ElSenorDeLosAnillos_LasDosTorres_trailer a :trailer ;
     :url "https://www.youtube.com/embed/e2fpLyc1840?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -2778,47 +2778,47 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :EnGuerraConMiAbuelo_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T18:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :EnGuerraConMiAbuelo_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T16:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :EnGuerraConMiAbuelo_show_3 a :film_show ;
     ns1:startDateTime "2021-05-11T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :EnGuerraConMiAbuelo_show_4 a :film_show ;
     ns1:startDateTime "2021-05-11T18:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :EnGuerraConMiAbuelo_show_5 a :film_show ;
     ns1:startDateTime "2021-05-11T16:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :EnGuerraConMiAbuelo_show_6 a :film_show ;
     ns1:startDateTime "2021-05-12T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :EnGuerraConMiAbuelo_show_7 a :film_show ;
     ns1:startDateTime "2021-05-12T18:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :EnGuerraConMiAbuelo_show_8 a :film_show ;
     ns1:startDateTime "2021-05-12T15:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :EnGuerraConMiAbuelo_show_9 a :film_show ;
     ns1:startDateTime "2021-05-12T16:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :EnGuerraConMiAbuelo_trailer a :trailer ;
     :url "https://www.youtube.com/embed/8TPaelfcBbQ?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -2916,162 +2916,162 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :GodzillaVsKong_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T17:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_10 a :film_show ;
     ns1:startDateTime "2021-05-10T19:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_11 a :film_show ;
     ns1:startDateTime "2021-05-11T14:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_12 a :film_show ;
     ns1:startDateTime "2021-05-11T17:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_13 a :film_show ;
     ns1:startDateTime "2021-05-11T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_14 a :film_show ;
     ns1:startDateTime "2021-05-11T19:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_15 a :film_show ;
     ns1:startDateTime "2021-05-11T20:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_16 a :film_show ;
     ns1:startDateTime "2021-05-11T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_17 a :film_show ;
     ns1:startDateTime "2021-05-11T18:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_18 a :film_show ;
     ns1:startDateTime "2021-05-11T21:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_19 a :film_show ;
     ns1:startDateTime "2021-05-11T19:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_20 a :film_show ;
     ns1:startDateTime "2021-05-12T14:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_21 a :film_show ;
     ns1:startDateTime "2021-05-12T17:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_22 a :film_show ;
     ns1:startDateTime "2021-05-12T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_23 a :film_show ;
     ns1:startDateTime "2021-05-12T19:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_24 a :film_show ;
     ns1:startDateTime "2021-05-12T20:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_25 a :film_show ;
     ns1:startDateTime "2021-05-12T15:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_26 a :film_show ;
     ns1:startDateTime "2021-05-12T17:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_27 a :film_show ;
     ns1:startDateTime "2021-05-12T20:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_28 a :film_show ;
     ns1:startDateTime "2021-05-12T18:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_29 a :film_show ;
     ns1:startDateTime "2021-05-12T15:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_3 a :film_show ;
     ns1:startDateTime "2021-05-10T19:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_30 a :film_show ;
     ns1:startDateTime "2021-05-12T18:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_31 a :film_show ;
     ns1:startDateTime "2021-05-12T21:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_32 a :film_show ;
     ns1:startDateTime "2021-05-12T19:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_4 a :film_show ;
     ns1:startDateTime "2021-05-10T20:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :GodzillaVsKong_show_5 a :film_show ;
     ns1:startDateTime "2021-05-10T17:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_6 a :film_show ;
     ns1:startDateTime "2021-05-10T20:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_7 a :film_show ;
     ns1:startDateTime "2021-05-10T18:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Gc_2D .
+    :room :room_Gc_2D_CinepolisMaipu .
 
 :GodzillaVsKong_show_8 a :film_show ;
     ns1:startDateTime "2021-05-10T18:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_show_9 a :film_show ;
     ns1:startDateTime "2021-05-10T21:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :GodzillaVsKong_trailer a :trailer ;
     :url "https://www.youtube.com/embed/vGenggY9UJU?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -3505,32 +3505,32 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :LosNuevosMutantes_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T20:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :LosNuevosMutantes_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T22:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :LosNuevosMutantes_show_3 a :film_show ;
     ns1:startDateTime "2021-05-11T20:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :LosNuevosMutantes_show_4 a :film_show ;
     ns1:startDateTime "2021-05-11T22:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :LosNuevosMutantes_show_5 a :film_show ;
     ns1:startDateTime "2021-05-12T20:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :LosNuevosMutantes_show_6 a :film_show ;
     ns1:startDateTime "2021-05-12T22:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :LosNuevosMutantes_trailer a :trailer ;
     :url "https://www.youtube.com/embed/j6LHN8UA1BY?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -3692,257 +3692,257 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :MortalKombat_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T17:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_10 a :film_show ;
     ns1:startDateTime "2021-05-10T16:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_11 a :film_show ;
     ns1:startDateTime "2021-05-10T18:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_12 a :film_show ;
     ns1:startDateTime "2021-05-10T22:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_13 a :film_show ;
     ns1:startDateTime "2021-05-10T19:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :MortalKombat_show_14 a :film_show ;
     ns1:startDateTime "2021-05-10T22:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :MortalKombat_show_15 a :film_show ;
     ns1:startDateTime "2021-05-10T22:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :MortalKombat_show_16 a :film_show ;
     ns1:startDateTime "2021-05-11T14:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_17 a :film_show ;
     ns1:startDateTime "2021-05-11T15:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_18 a :film_show ;
     ns1:startDateTime "2021-05-11T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_19 a :film_show ;
     ns1:startDateTime "2021-05-11T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T20:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_20 a :film_show ;
     ns1:startDateTime "2021-05-11T20:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_21 a :film_show ;
     ns1:startDateTime "2021-05-11T14:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_22 a :film_show ;
     ns1:startDateTime "2021-05-11T17:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_23 a :film_show ;
     ns1:startDateTime "2021-05-11T20:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_24 a :film_show ;
     ns1:startDateTime "2021-05-11T16:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :MortalKombat_show_25 a :film_show ;
     ns1:startDateTime "2021-05-11T22:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :MortalKombat_show_26 a :film_show ;
     ns1:startDateTime "2021-05-11T16:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_27 a :film_show ;
     ns1:startDateTime "2021-05-11T18:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_28 a :film_show ;
     ns1:startDateTime "2021-05-11T22:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_29 a :film_show ;
     ns1:startDateTime "2021-05-11T19:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :MortalKombat_show_3 a :film_show ;
     ns1:startDateTime "2021-05-10T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_30 a :film_show ;
     ns1:startDateTime "2021-05-11T22:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :MortalKombat_show_31 a :film_show ;
     ns1:startDateTime "2021-05-12T14:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_32 a :film_show ;
     ns1:startDateTime "2021-05-12T15:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_33 a :film_show ;
     ns1:startDateTime "2021-05-12T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_34 a :film_show ;
     ns1:startDateTime "2021-05-12T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_35 a :film_show ;
     ns1:startDateTime "2021-05-12T20:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_36 a :film_show ;
     ns1:startDateTime "2021-05-12T14:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_37 a :film_show ;
     ns1:startDateTime "2021-05-12T17:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_38 a :film_show ;
     ns1:startDateTime "2021-05-12T20:10:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisMendoza .
 
 :MortalKombat_show_39 a :film_show ;
     ns1:startDateTime "2021-05-12T15:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_4 a :film_show ;
     ns1:startDateTime "2021-05-10T19:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_40 a :film_show ;
     ns1:startDateTime "2021-05-12T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_41 a :film_show ;
     ns1:startDateTime "2021-05-12T17:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_42 a :film_show ;
     ns1:startDateTime "2021-05-12T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_43 a :film_show ;
     ns1:startDateTime "2021-05-12T20:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_44 a :film_show ;
     ns1:startDateTime "2021-05-12T20:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_45 a :film_show ;
     ns1:startDateTime "2021-05-12T16:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :MortalKombat_show_46 a :film_show ;
     ns1:startDateTime "2021-05-12T22:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_4D_2D .
+    :room :room_4D_2D_CinepolisNeuquen .
 
 :MortalKombat_show_47 a :film_show ;
     ns1:startDateTime "2021-05-12T16:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_48 a :film_show ;
     ns1:startDateTime "2021-05-12T18:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_49 a :film_show ;
     ns1:startDateTime "2021-05-12T22:15:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :MortalKombat_show_5 a :film_show ;
     ns1:startDateTime "2021-05-10T20:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :MortalKombat_show_50 a :film_show ;
     ns1:startDateTime "2021-05-12T19:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :MortalKombat_show_51 a :film_show ;
     ns1:startDateTime "2021-05-12T22:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Ms_2D .
+    :room :room_Ms_2D_CinepolisNeuquen .
 
 :MortalKombat_show_6 a :film_show ;
     ns1:startDateTime "2021-05-10T17:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_7 a :film_show ;
     ns1:startDateTime "2021-05-10T18:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_8 a :film_show ;
     ns1:startDateTime "2021-05-10T20:15:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_show_9 a :film_show ;
     ns1:startDateTime "2021-05-10T20:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMaipu .
 
 :MortalKombat_trailer a :trailer ;
     :url "https://www.youtube.com/embed/VKROb3deXzU?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -4006,33 +4006,33 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 
 :Nomadland_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T17:40:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :Nomadland_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :Nomadland_show_3 a :film_show ;
     ns1:startDateTime "2021-05-11T17:40:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :Nomadland_show_4 a :film_show ;
     ns1:startDateTime "2021-05-11T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :Nomadland_show_5 a :film_show ;
     ns1:startDateTime "2021-05-12T17:40:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :Nomadland_show_6 a :film_show ;
     ns1:startDateTime "2021-05-12T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :Nomadland_trailer a :trailer ;
     :url "https://www.youtube.com/embed/QPw8NmuS75I?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -4102,47 +4102,47 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :PequenosSecretos_show_1 a :film_show ;
     ns1:startDateTime "2021-05-10T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :PequenosSecretos_show_2 a :film_show ;
     ns1:startDateTime "2021-05-10T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :PequenosSecretos_show_3 a :film_show ;
     ns1:startDateTime "2021-05-10T21:30:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :PequenosSecretos_show_4 a :film_show ;
     ns1:startDateTime "2021-05-11T17:50:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :PequenosSecretos_show_5 a :film_show ;
     ns1:startDateTime "2021-05-11T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :PequenosSecretos_show_6 a :film_show ;
     ns1:startDateTime "2021-05-11T21:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :PequenosSecretos_show_7 a :film_show ;
     ns1:startDateTime "2021-05-12T17:50:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :PequenosSecretos_show_8 a :film_show ;
     ns1:startDateTime "2021-05-12T19:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :PequenosSecretos_show_9 a :film_show ;
     ns1:startDateTime "2021-05-12T21:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :PequenosSecretos_trailer a :trailer ;
     :url "https://www.youtube.com/embed/y3Nm9NdMevA?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -4459,32 +4459,32 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :TomYJerry_show_1 a :film_show ;
     ns1:startDateTime "2021-05-11T14:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :TomYJerry_show_2 a :film_show ;
     ns1:startDateTime "2021-05-11T15:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :TomYJerry_show_3 a :film_show ;
     ns1:startDateTime "2021-05-11T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :TomYJerry_show_4 a :film_show ;
     ns1:startDateTime "2021-05-12T14:45:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :TomYJerry_show_5 a :film_show ;
     ns1:startDateTime "2021-05-12T15:20:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :TomYJerry_show_6 a :film_show ;
     ns1:startDateTime "2021-05-12T16:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Español"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :TomYJerry_trailer a :trailer ;
     :url "https://www.youtube.com/embed/9G5QXTUIIBs?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -4546,77 +4546,77 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :VioletEvergarden_show_1 a :film_show ;
     ns1:startDateTime "2021-05-13T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_10 a :film_show ;
     ns1:startDateTime "2021-05-17T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_11 a :film_show ;
     ns1:startDateTime "2021-05-17T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_12 a :film_show ;
     ns1:startDateTime "2021-05-18T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_13 a :film_show ;
     ns1:startDateTime "2021-05-18T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_14 a :film_show ;
     ns1:startDateTime "2021-05-19T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_15 a :film_show ;
     ns1:startDateTime "2021-05-19T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_2 a :film_show ;
     ns1:startDateTime "2021-05-13T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_3 a :film_show ;
     ns1:startDateTime "2021-05-13T21:30:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_4 a :film_show ;
     ns1:startDateTime "2021-05-14T17:00:00-03:00"^^xsd:dateTime ;
-    ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    ns1:subtitle "Subtitulado"@ro ;
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_5 a :film_show ;
     ns1:startDateTime "2021-05-14T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_6 a :film_show ;
     ns1:startDateTime "2021-05-15T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_7 a :film_show ;
     ns1:startDateTime "2021-05-15T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_show_8 a :film_show ;
     ns1:startDateTime "2021-05-16T17:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisMendoza .
 
 :VioletEvergarden_show_9 a :film_show ;
     ns1:startDateTime "2021-05-16T18:00:00-03:00"^^xsd:dateTime ;
     ns1:subtitle "Subtitulado"@es ;
-    :room :room_Classic_2D .
+    :room :room_Classic_2D_CinepolisNeuquen .
 
 :VioletEvergarden_trailer a :trailer ;
     :url "https://www.youtube.com/embed/iVIlp0pbjeY?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -4659,17 +4659,17 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Wing_CheongLaw a ns1:MovieDirector ;
     ns1:Name "Wing-Cheong Law" .
 
+:WonderWoman1984_company_1 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0028338/"^^xsd:anyUri .
+
 :WonderWoman1984_company_2 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0002663/"^^xsd:anyUri .
+
+:WonderWoman1984_company_3 a ns1:Company ;
     :url "https://www.imdb.com/company/co0728674/"^^xsd:anyUri .
 
 :WonderWoman1984_company_4 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0002663/"^^xsd:anyUri .
-
-:WonderWoman1984_company_6 a ns1:Company ;
     :url "https://www.imdb.com/company/co0283444/"^^xsd:anyUri .
-
-:WonderWoman1984_company_7 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0028338/"^^xsd:anyUri .
 
 :WonderWoman1984_company_9 a ns1:Company ;
     :url "https://www.imdb.com/company/co0038332/"^^xsd:anyUri .
@@ -4686,233 +4686,233 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :WonderWoman1984_cover_image_4 a ns1:Image ;
     :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg"^^xsd:anyUri .
 
-:WonderWoman1984_rating_1 a ns5:AggregateRating ;
+:WonderWoman1984_rating_1 a ns4:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
     :bestRating 1e+02 ;
     :ratingValue 5.9e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 426 ;
-    ns5:reviewCount 426 .
+    ns4:ratingCount 426 ;
+    ns4:reviewCount 426 .
 
-:WonderWoman1984_rating_2 a ns5:AggregateRating ;
-    ns2:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
+:WonderWoman1984_rating_2 a ns4:AggregateRating ;
+    ns3:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
     :bestRating 1e+01 ;
     :ratingValue 5.4e+00 ;
     :worstRating 1e+00 ;
-    ns5:ratingCount 198833 .
+    ns4:ratingCount 198833 .
 
-:WonderWoman1984_rating_3 a ns5:AggregateRating ;
-    ns2:source "https://www.metacritic.com/movie/wonder-woman-1984"^^xsd:anyUri ;
+:WonderWoman1984_rating_3 a ns4:AggregateRating ;
+    ns3:source "https://www.metacritic.com/movie/wonder-woman-1984"^^xsd:anyUri ;
     :bestRating 1e+02 ;
     :ratingValue 6e+01 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 57 .
+    ns4:ratingCount 57 .
 
-:WonderWoman1984_rating_4 a ns5:AggregateRating ;
-    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri ;
+:WonderWoman1984_rating_4 a ns4:AggregateRating ;
+    ns3:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri ;
     :bestRating 1e+01 ;
     :ratingValue 7.6e+00 ;
     :worstRating 0e+00 ;
-    ns5:ratingCount 20 .
+    ns4:ratingCount 20 .
 
-:WonderWoman1984_review_10_rating a ns5:Rating ;
+:WonderWoman1984_review_10_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_10_site a ns3:WebPage ;
-    ns3:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
+:WonderWoman1984_review_10_site a ns2:WebPage ;
+    ns2:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
 
-:WonderWoman1984_review_11_rating a ns5:Rating ;
+:WonderWoman1984_review_11_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_11_site a ns3:WebPage ;
-    ns3:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
+:WonderWoman1984_review_11_site a ns2:WebPage ;
+    ns2:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
 
-:WonderWoman1984_review_12_rating a ns5:Rating ;
+:WonderWoman1984_review_12_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_12_site a ns3:WebPage ;
-    ns3:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984"^^xsd:anyUri .
+:WonderWoman1984_review_12_site a ns2:WebPage ;
+    ns2:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984"^^xsd:anyUri .
 
-:WonderWoman1984_review_13_rating a ns5:Rating ;
+:WonderWoman1984_review_13_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_13_site a ns3:WebPage ;
-    ns3:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm"^^xsd:anyUri .
+:WonderWoman1984_review_13_site a ns2:WebPage ;
+    ns2:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm"^^xsd:anyUri .
 
-:WonderWoman1984_review_14_rating a ns5:Rating ;
+:WonderWoman1984_review_14_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_14_site a ns3:WebPage ;
-    ns3:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984"^^xsd:anyUri .
+:WonderWoman1984_review_14_site a ns2:WebPage ;
+    ns2:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984"^^xsd:anyUri .
 
-:WonderWoman1984_review_15_rating a ns5:Rating ;
+:WonderWoman1984_review_15_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_15_site a ns3:WebPage ;
-    ns3:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984"^^xsd:anyUri .
+:WonderWoman1984_review_15_site a ns2:WebPage ;
+    ns2:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984"^^xsd:anyUri .
 
-:WonderWoman1984_review_16_rating a ns5:Rating ;
+:WonderWoman1984_review_16_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_16_site a ns3:WebPage ;
-    ns3:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html"^^xsd:anyUri .
+:WonderWoman1984_review_16_site a ns2:WebPage ;
+    ns2:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html"^^xsd:anyUri .
 
-:WonderWoman1984_review_17_rating a ns5:Rating ;
+:WonderWoman1984_review_17_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_17_site a ns3:WebPage ;
-    ns3:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/"^^xsd:anyUri .
+:WonderWoman1984_review_17_site a ns2:WebPage ;
+    ns2:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/"^^xsd:anyUri .
 
-:WonderWoman1984_review_18_rating a ns5:Rating ;
+:WonderWoman1984_review_18_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_18_site a ns3:WebPage ;
-    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984"^^xsd:anyUri .
+:WonderWoman1984_review_18_site a ns2:WebPage ;
+    ns2:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984"^^xsd:anyUri .
 
-:WonderWoman1984_review_19_rating a ns5:Rating ;
+:WonderWoman1984_review_19_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_19_site a ns3:WebPage ;
-    ns3:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/"^^xsd:anyUri .
+:WonderWoman1984_review_19_site a ns2:WebPage ;
+    ns2:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/"^^xsd:anyUri .
 
-:WonderWoman1984_review_1_rating a ns5:Rating ;
+:WonderWoman1984_review_1_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_1_site a ns3:WebPage ;
-    ns3:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160"^^xsd:anyUri .
+:WonderWoman1984_review_1_site a ns2:WebPage ;
+    ns2:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160"^^xsd:anyUri .
 
-:WonderWoman1984_review_20_rating a ns5:Rating ;
+:WonderWoman1984_review_20_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_20_site a ns3:WebPage ;
-    ns3:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984"^^xsd:anyUri .
+:WonderWoman1984_review_20_site a ns2:WebPage ;
+    ns2:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984"^^xsd:anyUri .
 
-:WonderWoman1984_review_21_rating a ns5:Rating ;
+:WonderWoman1984_review_21_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_21_site a ns3:WebPage ;
-    ns3:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/"^^xsd:anyUri .
+:WonderWoman1984_review_21_site a ns2:WebPage ;
+    ns2:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/"^^xsd:anyUri .
 
-:WonderWoman1984_review_22_rating a ns5:Rating ;
+:WonderWoman1984_review_22_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_22_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html"^^xsd:anyUri .
+:WonderWoman1984_review_22_site a ns2:WebPage ;
+    ns2:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html"^^xsd:anyUri .
 
-:WonderWoman1984_review_23_rating a ns5:Rating ;
+:WonderWoman1984_review_23_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_23_site a ns3:WebPage ;
-    ns3:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/"^^xsd:anyUri .
+:WonderWoman1984_review_23_site a ns2:WebPage ;
+    ns2:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/"^^xsd:anyUri .
 
-:WonderWoman1984_review_24_rating a ns5:Rating ;
+:WonderWoman1984_review_24_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue -1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_24_site a ns3:WebPage ;
-    ns3:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html"^^xsd:anyUri .
+:WonderWoman1984_review_24_site a ns2:WebPage ;
+    ns2:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html"^^xsd:anyUri .
 
-:WonderWoman1984_review_25_rating a ns5:Rating ;
+:WonderWoman1984_review_25_rating a ns4:Rating ;
     :bestRating "10" ;
     :ratingValue "3" ;
     :worstRating "1" .
 
-:WonderWoman1984_review_2_rating a ns5:Rating ;
+:WonderWoman1984_review_2_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_2_site a ns3:WebPage ;
-    ns3:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436"^^xsd:anyUri .
+:WonderWoman1984_review_2_site a ns2:WebPage ;
+    ns2:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436"^^xsd:anyUri .
 
-:WonderWoman1984_review_3_rating a ns5:Rating ;
+:WonderWoman1984_review_3_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_3_site a ns3:WebPage ;
-    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/"^^xsd:anyUri .
+:WonderWoman1984_review_3_site a ns2:WebPage ;
+    ns2:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/"^^xsd:anyUri .
 
-:WonderWoman1984_review_4_rating a ns5:Rating ;
+:WonderWoman1984_review_4_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_4_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8"^^xsd:anyUri .
+:WonderWoman1984_review_4_site a ns2:WebPage ;
+    ns2:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8"^^xsd:anyUri .
 
-:WonderWoman1984_review_5_rating a ns5:Rating ;
+:WonderWoman1984_review_5_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_5_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html"^^xsd:anyUri .
+:WonderWoman1984_review_5_site a ns2:WebPage ;
+    ns2:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html"^^xsd:anyUri .
 
-:WonderWoman1984_review_6_rating a ns5:Rating ;
+:WonderWoman1984_review_6_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_6_site a ns3:WebPage ;
-    ns3:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/"^^xsd:anyUri .
+:WonderWoman1984_review_6_site a ns2:WebPage ;
+    ns2:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/"^^xsd:anyUri .
 
-:WonderWoman1984_review_7_rating a ns5:Rating ;
+:WonderWoman1984_review_7_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_7_site a ns3:WebPage ;
-    ns3:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/"^^xsd:anyUri .
+:WonderWoman1984_review_7_site a ns2:WebPage ;
+    ns2:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/"^^xsd:anyUri .
 
-:WonderWoman1984_review_8_rating a ns5:Rating ;
+:WonderWoman1984_review_8_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_8_site a ns3:WebPage ;
-    ns3:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/"^^xsd:anyUri .
+:WonderWoman1984_review_8_site a ns2:WebPage ;
+    ns2:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/"^^xsd:anyUri .
 
-:WonderWoman1984_review_9_rating a ns5:Rating ;
+:WonderWoman1984_review_9_rating a ns4:Rating ;
     :bestRating "1" ;
     :ratingValue 1 ;
     :worstRating "-1" .
 
-:WonderWoman1984_review_9_site a ns3:WebPage ;
-    ns3:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/"^^xsd:anyUri .
+:WonderWoman1984_review_9_site a ns2:WebPage ;
+    ns2:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/"^^xsd:anyUri .
 
 :WonderWoman1984_trailer a :trailer ;
     ns1:Name "Stream on HBO Max for a Limited Time" ;
@@ -5059,9 +5059,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Terror a ns1:MovieGenre ;
     ns1:Name "Terror"@pt .
 
-:cinema_room a owl:Class ;
-    rdfs:subClassOf ns1:Place .
-
 :Animation a ns1:MovieGenre ;
     ns1:Name "Animation"@tl .
 
@@ -5071,14 +5068,24 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Family a ns1:MovieGenre ;
     ns1:Name "Family"@en .
 
+:room_4D_2D_CinepolisMendoza a :cinema_room ;
+    ns1:Name "4D - 2D" ;
+    :cinema :CinepolisMendoza .
+
+:room_4D_2D_CinepolisNeuquen a :cinema_room ;
+    ns1:Name "4D - 2D" ;
+    :cinema :CinepolisNeuquen .
+
+:cinema_room a owl:Class ;
+    rdfs:subClassOf ns1:Place .
+
 :Fantasy a ns1:MovieGenre ;
     ns1:Name "Fantasy"@id .
 
 :Thriller a ns1:MovieGenre ;
-    ns1:Name "Thriller"@en,
-        "Thriller"@tr .
+    ns1:Name "Thriller"@en .
 
-:room_Gc_2D a :cinema_room ;
+:room_Gc_2D_CinepolisMaipu a :cinema_room ;
     ns1:Name "GC - 2D" ;
     :cinema :CinepolisMaipu .
 
@@ -5088,11 +5095,6 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
 :Adventure a ns1:MovieGenre ;
     ns1:Name "Adventure"@ro .
 
-:room_4D_2D a :cinema_room ;
-    ns1:Name "4D - 2D" ;
-    :cinema :CinepolisMendoza,
-        :CinepolisNeuquen .
-
 :Action a ns1:MovieGenre ;
     ns1:Name "Action"@en .
 
@@ -5101,10 +5103,10 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :GeoffJohns,
         :PattyJenkins,
         :WilliamMoultonMarston,
+        :WonderWoman1984_company_1,
         :WonderWoman1984_company_2,
+        :WonderWoman1984_company_3,
         :WonderWoman1984_company_4,
-        :WonderWoman1984_company_6,
-        :WonderWoman1984_company_7,
         :WonderWoman1984_company_9 ;
     ns1:director :PattyJenkins ;
     ns1:duration 1.51e+02 ;
@@ -5162,7 +5164,7 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :WonderWoman1984_cover_image_2,
         :WonderWoman1984_cover_image_3,
         :WonderWoman1984_cover_image_4 ;
-    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri,
+    ns3:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri,
         "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri,
         "https://www.metacritic.com/movie/wonder-woman-1984"^^xsd:anyUri,
         "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
@@ -5174,38 +5176,44 @@ ns5:reviewCount rdfs:domain ns5:AggregateRating ;
         :SteveTrevor ;
     :hasTrailer :WonderWoman1984_trailer ;
     :keyword "dc comics"@ca,
+        "dc extended universe"@en,
         "one woman army"@en,
         "superhero"@en,
-        "sequel"@es,
-        "dc extended universe"@sv ;
+        "sequel"@es ;
     :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..."@en ;
-    ns5:aggregateRating :WonderWoman1984_rating_1,
+    ns4:aggregateRating :WonderWoman1984_rating_1,
         :WonderWoman1984_rating_2,
         :WonderWoman1984_rating_3,
         :WonderWoman1984_rating_4 .
 
 :movie_review a owl:Class ;
-    rdfs:subClassOf ns3:Review .
+    rdfs:subClassOf ns2:Review .
 
-ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
+ns1:Person rdfs:subClassOf ns5:ResponsibleEntity .
 
 :EstadosUnidos a ns1:Country ;
     ns1:Name "Estados Unidos" .
 
-:room_Ms_2D a :cinema_room ;
+:room_Ms_2D_CinepolisNeuquen a :cinema_room ;
     ns1:Name "MS - 2D" ;
     :cinema :CinepolisNeuquen .
 
 :trailer a owl:Class ;
     rdfs:subClassOf ns1:Media .
 
-ns1:Film rdfs:subClassOf ns3:Movie .
-
-:room_Classic_2D a :cinema_room ;
+:room_Classic_2D_CinepolisMaipu a :cinema_room ;
     ns1:Name "Classic - 2D" ;
-    :cinema :CinepolisMaipu,
-        :CinepolisMendoza,
-        :CinepolisNeuquen .
+    :cinema :CinepolisMaipu .
+
+ns1:Film rdfs:subClassOf ns2:Movie .
+
+:room_Classic_2D_CinepolisNeuquen a :cinema_room ;
+    ns1:Name "Classic - 2D" ;
+    :cinema :CinepolisNeuquen .
+
+:room_Classic_2D_CinepolisMendoza a :cinema_room ;
+    ns1:Name "Classic - 2D" ;
+    :cinema :CinepolisMendoza .
 
 :film_show a owl:Class ;
     rdfs:subClassOf ns1:SocietalEvent .
