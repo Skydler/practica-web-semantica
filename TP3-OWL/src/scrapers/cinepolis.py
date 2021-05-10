@@ -67,7 +67,6 @@ class MovieParser:
             video=mapers.to_video(trailer_url),
             languages=[],
             shows=fields.get("shows"),
-            released=fields.get("shows") != [],
             schema_type='Movie',
             source_urls=[self.link],
             production_company=None,

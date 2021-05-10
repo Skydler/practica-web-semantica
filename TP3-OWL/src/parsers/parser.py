@@ -28,7 +28,6 @@ class Parser(ABC):
             video=self.video(),
             origins=[origin] if (origin := self.origin()) else [],
             events=self.events(),
-            released=len(self.events()) > 0,
             shows=[],
             languages=[]
         )

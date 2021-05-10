@@ -93,13 +93,10 @@ class Show:
 @dataclass
 class Movie(Schema):
     """Commented -> Attributes of TP1 model"""
-    # title: str
     name: str
 
-    # synopsis: str
     description: Optional[str]
 
-    # rated: Optional[str]
     content_rating: Optional[str]
 
     source_urls: List[str]
@@ -112,12 +109,10 @@ class Movie(Schema):
 
     images: List[str]
 
-    # actors: List[str]
     actors: List[Person]
 
     characters: List[str]
 
-    # directors: List[str]
     directors: List[Person]
 
     authors: List[Union[Person, Organization]]
@@ -128,16 +123,12 @@ class Movie(Schema):
 
     duration: Optional[int]  # In minutes
 
-    # trailer: Optional[str]
     video: Optional[Video]
 
-    # origins: Optional[str]
     origins: List[str]
 
-    released: bool
     events: List[PublicationEvent]
 
-    # shows: List[Show]
     shows: List[Show]
 
     languages: List[str]

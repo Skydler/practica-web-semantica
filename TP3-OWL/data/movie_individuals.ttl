@@ -1,9 +1,9 @@
 @prefix : <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 @prefix ns1: <http://dbpedia.org/ontology/> .
-@prefix ns2: <https://schema.org/> .
+@prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <http://purl.org/spar/fabio/> .
-@prefix ns4: <http://purl.org/dc/terms/> .
-@prefix ns5: <http://purl.org/vocab/frbr/core#> .
+@prefix ns4: <http://purl.org/vocab/frbr/core#> .
+@prefix ns5: <https://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -16,7 +16,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports ns1:,
         ns3:2019-02-19,
-        ns2: .
+        ns5: .
 
 :007_SinTiempoParaMorir a ns1:Film ;
     ns1:director :CaryJojiFukunaga ;
@@ -50,7 +50,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Fantasia ;
     ns1:origin :Australia,
         :Belgica ;
-    ns1:releaseDate [ ] ;
     ns1:starring :IlaiSwindells,
         :JaiCourtney,
         :JaneLynch,
@@ -109,7 +108,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:duration 80 ;
     ns1:genre :Terror ;
     ns1:origin :Rusia ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AnnaSerpeneva,
         :DenisLukichev,
         :KseniyaPlyusnina,
@@ -233,7 +231,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Drama,
         :Fantasia ;
     ns1:origin :Japon ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AkariKito,
         :HiroShimono,
         :KatsuyukiKonishi,
@@ -338,7 +335,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Fantasia ;
     ns1:origin :EstadosUnidos,
         :NuevaZelanda ;
-    ns1:releaseDate [ ] ;
     ns1:starring :BernardHill,
         :BillyBoyd,
         :CateBlanchett,
@@ -362,7 +358,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Fantasia ;
     ns1:origin :EstadosUnidos,
         :NuevaZelanda ;
-    ns1:releaseDate [ ] ;
     ns1:starring :BillyBoyd,
         :CateBlanchett,
         :DominicMonaghan,
@@ -386,7 +381,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Fantasia ;
     ns1:origin :EstadosUnidos,
         :NuevaZelanda ;
-    ns1:releaseDate [ ] ;
     ns1:starring :BernardHill,
         :BillyBoyd,
         :CateBlanchett,
@@ -446,7 +440,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:genre :Comedia,
         :Familia ;
     ns1:origin :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :CheechMarin,
         :ChristopherWalken,
         :IsaacKragten,
@@ -525,7 +518,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :CienciaFiccion,
         :Thriller ;
     ns1:origin :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AlexanderSkarsgard,
         :BrianTyreeHenry,
         :DemianBichir,
@@ -610,7 +602,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :CienciaFiccion,
         :Terror ;
     ns1:origin :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AliceBraga,
         :AnyaTaylor_Joy,
         :BluHunt,
@@ -634,7 +625,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Fantasia ;
     ns1:origin :Australia,
         :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :HiroyukiSanada,
         :JessicaMcnamee,
         :JoeTaslim,
@@ -679,7 +669,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:genre :Drama,
         :Western ;
     ns1:origin :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AngelaReyes,
         :CarlRHughes,
         :DavidStrathairn,
@@ -721,7 +710,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     ns1:genre :Crimen,
         :Thriller ;
     ns1:origin :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :ChrisBauer,
         :DenzelWashington,
         :GlennMorshower,
@@ -852,7 +840,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Comedia,
         :Familia ;
     ns1:origin :EstadosUnidos ;
-    ns1:releaseDate [ ] ;
     ns1:starring :BobbyCannavale,
         :ChloeGraceMoretz,
         :FrankWelker,
@@ -916,7 +903,6 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
         :Fantasia,
         :Romance ;
     ns1:origin :Japon ;
-    ns1:releaseDate [ ] ;
     ns1:starring :AyaEndo,
         :DaisukeNamikawa,
         :HarukaTomatsu,
@@ -933,257 +919,273 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     :synopsis "La película se sitúa varios años después del final de la guerra, ya que el mundo se está volviendo cada vez más pacífico. Un día, Violet Evergarden encuentra cierta carta." .
 
 :WonderWoman1984_review_1 a :movie_review ;
-    ns4:created "2021-02-01T04:29:30-08:00"^^xsd:dateTime ;
-    ns4:creator :SheriFlanders ;
-    ns4:publisher :ChicagoReader ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_1_rating> ;
+    ns2:created "2021-02-01T04:29:30-08:00"^^xsd:dateTime ;
+    ns2:creator :SheriFlanders ;
+    ns2:publisher :ChicagoReader ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_1_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_1_rating ;
     :has_body "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads." .
 
 :WonderWoman1984_review_10 a :movie_review ;
-    ns4:created "2021-03-11T06:02:25-08:00"^^xsd:dateTime ;
-    ns4:creator :AndrewGaldi ;
-    ns4:publisher :MovieBitches ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_10_rating> ;
+    ns2:created "2021-03-11T06:02:25-08:00"^^xsd:dateTime ;
+    ns2:creator :AndrewGaldi ;
+    ns2:publisher :MovieBitches ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_10_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_10_rating ;
     :has_body "There were just such gross failures of filmmaking..." .
 
 :WonderWoman1984_review_11 a :movie_review ;
-    ns4:created "2021-03-11T05:51:39-08:00"^^xsd:dateTime ;
-    ns4:creator :AvarylHalley ;
-    ns4:publisher :MovieBitches ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_11_rating> ;
+    ns2:created "2021-03-11T05:51:39-08:00"^^xsd:dateTime ;
+    ns2:creator :AvarylHalley ;
+    ns2:publisher :MovieBitches ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_11_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_11_rating ;
     :has_body "At least \"Justice League\" had at the decency to be short" .
 
 :WonderWoman1984_review_12 a :movie_review ;
-    ns4:created "2021-03-01T08:14:02-08:00"^^xsd:dateTime ;
-    ns4:creator :NinaGarin ;
-    ns4:publisher :SanDiegoUnion_Tribune ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_12_rating> ;
+    ns2:created "2021-03-01T08:14:02-08:00"^^xsd:dateTime ;
+    ns2:creator :NinaGarin ;
+    ns2:publisher :SanDiegoUnion_Tribune ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_12_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_12_rating ;
     :has_body "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. " .
 
 :WonderWoman1984_review_13 a :movie_review ;
-    ns4:created "2021-02-22T06:02:11-08:00"^^xsd:dateTime ;
-    ns4:creator :TonyMedley ;
-    ns4:publisher :TheLarchmontChronicle ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_13_rating> ;
+    ns2:created "2021-02-22T06:02:11-08:00"^^xsd:dateTime ;
+    ns2:creator :TonyMedley ;
+    ns2:publisher :TheLarchmontChronicle ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_13_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_13_rating ;
     :has_body "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean." .
 
 :WonderWoman1984_review_14 a :movie_review ;
-    ns4:created "2021-02-21T08:36:54-08:00"^^xsd:dateTime ;
-    ns4:creator :SarahWard ;
-    ns4:publisher :ConcretePlayground ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://concreteplayground.com/sydney/event/wonder-woman-1984> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_14_rating> ;
+    ns2:created "2021-02-21T08:36:54-08:00"^^xsd:dateTime ;
+    ns2:creator :SarahWard ;
+    ns2:publisher :ConcretePlayground ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_14_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_14_rating ;
     :has_body "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down." .
 
 :WonderWoman1984_review_15 a :movie_review ;
-    ns4:created "2021-02-17T02:36:51-08:00"^^xsd:dateTime ;
-    ns4:creator :EricMarchen ;
-    ns4:publisher :UntitledMoviePodcast ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_15_rating> ;
+    ns2:created "2021-02-17T02:36:51-08:00"^^xsd:dateTime ;
+    ns2:creator :EricMarchen ;
+    ns2:publisher :UntitledMoviePodcast ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_15_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_15_rating ;
     :has_body "Feels like this would be better suited for an episode of TV than a 2.5 hour film." .
 
 :WonderWoman1984_review_16 a :movie_review ;
-    ns4:created "2021-02-13T23:57:56-08:00"^^xsd:dateTime ;
-    ns4:creator :MarkMeszoros ;
-    ns4:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_16_rating> ;
+    ns2:created "2021-02-13T23:57:56-08:00"^^xsd:dateTime ;
+    ns2:creator :MarkMeszoros ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheNews_Herald(WilloughbyOh)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_16_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_16_rating ;
     :has_body "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale." .
 
 :WonderWoman1984_review_17 a :movie_review ;
-    ns4:created "2021-02-11T02:38:41-08:00"^^xsd:dateTime ;
-    ns4:creator :JenniferOuellette ;
-    ns4:publisher :ArsTechnica ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_17_rating> ;
+    ns2:created "2021-02-11T02:38:41-08:00"^^xsd:dateTime ;
+    ns2:creator :JenniferOuellette ;
+    ns2:publisher :ArsTechnica ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_17_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_17_rating ;
     :has_body "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing." .
 
 :WonderWoman1984_review_18 a :movie_review ;
-    ns4:created "2021-02-10T06:48:34-08:00"^^xsd:dateTime ;
-    ns4:creator :BrianGill ;
-    ns4:publisher :MadAboutMoviesPodcast ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_18_rating> ;
+    ns2:created "2021-02-10T06:48:34-08:00"^^xsd:dateTime ;
+    ns2:creator :BrianGill ;
+    ns2:publisher :MadAboutMoviesPodcast ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_18_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_18_rating ;
     :has_body "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. " .
 
 :WonderWoman1984_review_19 a :movie_review ;
-    ns4:created "2021-02-07T19:57:42-08:00"^^xsd:dateTime ;
-    ns4:creator :EddieHarrison ;
-    ns4:publisher :Film_AuthorityCom ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2021/01/11/wonder-woman-1984/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_19_rating> ;
+    ns2:created "2021-02-07T19:57:42-08:00"^^xsd:dateTime ;
+    ns2:creator :EddieHarrison ;
+    ns2:publisher :Film_AuthorityCom ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_19_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_19_rating ;
     :has_body "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..." .
 
 :WonderWoman1984_review_2 a :movie_review ;
-    ns4:created "2021-01-04T04:59:29-08:00"^^xsd:dateTime ;
-    ns4:creator :RaferGuzman ;
-    ns4:publisher :Newsday ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_2_rating> ;
+    ns2:created "2021-01-04T04:59:29-08:00"^^xsd:dateTime ;
+    ns2:creator :RaferGuzman ;
+    ns2:publisher :Newsday ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_2_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_2_rating ;
     :has_body " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain." .
 
 :WonderWoman1984_review_20 a :movie_review ;
-    ns4:created "2021-02-05T19:46:31-08:00"^^xsd:dateTime ;
-    ns4:creator :IanSimmons ;
-    ns4:publisher :KickingTheSeat ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_20_rating> ;
+    ns2:created "2021-02-05T19:46:31-08:00"^^xsd:dateTime ;
+    ns2:creator :IanSimmons ;
+    ns2:publisher :KickingTheSeat ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_20_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_20_rating ;
     :has_body "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here." .
 
 :WonderWoman1984_review_21 a :movie_review ;
-    ns4:created "2021-02-05T01:55:00-08:00"^^xsd:dateTime ;
-    ns4:creator :DanTabor ;
-    ns4:publisher :Phawker ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_21_rating> ;
+    ns2:created "2021-02-05T01:55:00-08:00"^^xsd:dateTime ;
+    ns2:creator :DanTabor ;
+    ns2:publisher :Phawker ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_21_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_21_rating ;
     :has_body "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. " .
 
 :WonderWoman1984_review_22 a :movie_review ;
-    ns4:created "2021-02-02T10:00:09-08:00"^^xsd:dateTime ;
-    ns4:creator :MarkJackson ;
-    ns4:publisher :EpochTimes ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_22_rating> ;
+    ns2:created "2021-02-02T10:00:09-08:00"^^xsd:dateTime ;
+    ns2:creator :MarkJackson ;
+    ns2:publisher :EpochTimes ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_22_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_22_rating ;
     :has_body "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown." .
 
 :WonderWoman1984_review_23 a :movie_review ;
-    ns4:created "2021-01-31T18:14:33-08:00"^^xsd:dateTime ;
-    ns4:creator :JohnMcdonald ;
-    ns4:publisher :AustralianFinancialReview ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_23_rating> ;
+    ns2:created "2021-01-31T18:14:33-08:00"^^xsd:dateTime ;
+    ns2:creator :JohnMcdonald ;
+    ns2:publisher :AustralianFinancialReview ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_23_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_23_rating ;
     :has_body "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?" .
 
 :WonderWoman1984_review_24 a :movie_review ;
-    ns4:created "2021-01-31T17:01:54-08:00"^^xsd:dateTime ;
-    ns4:creator :MattNeal ;
-    ns4:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_24_rating> ;
+    ns2:created "2021-01-31T17:01:54-08:00"^^xsd:dateTime ;
+    ns2:creator :MattNeal ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AbcRadio(Australia)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_24_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_24_rating ;
     :has_body " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful." .
 
 :WonderWoman1984_review_25 a :movie_review ;
-    ns1:Name "Actionhero movie with almost no action" ;
-    ns4:created "2021-01-01T00:00:00"^^xsd:dateTime ;
-    ns4:creator :The_Real_Smile ;
-    ns4:language :English ;
-    ns4:source "https://www.imdb.com/title/tt7126948/" ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_25_rating> ;
-    :has_body "Writer, producer and director Patty Jenkins really did a give this movie a feminine/soap opera touch and by doing so destroyed everything that this movie could have been. The first WW movie was not that great, but Patty did not write that one, this sequel she did and it is worthless. I was wondering if I was watching a drama or a action hero franchise. First the movie is far to long, the dialogue's are pointless and boring, you can skip with ease them because the story is not that complicated. For the action, the effects are good, not worth the time to watch, but still well made, but there are not very much action scenes. If you look at the demographic of the votes you can see girls <18 years are the only ones who love this movie, and that should have been the warning that should have been given with this movie: only see this movie if you are a teenage girl." .
+    ns1:Name "Who should watch and who should not watch this" ;
+    ns2:created "2021-03-18T00:00:00"^^xsd:dateTime ;
+    ns2:creator :Hoarei_56760 ;
+    ns2:language :English ;
+    ns2:source "https://www.imdb.com/title/tt7126948/" ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_25_rating ;
+    :has_body """Should:
+
+Men who hate their wives and want to sit on the couch for 3 hours pretending they are doing something (watching this) and therefore cannot talk right now
+
+Fans of Mexican and Brazilian daytime soap operas
+
+Fans of Italian daytime soap
+
+Fans of Gal Gadot's legs (i.e. were never here for the movie or the 'story')
+
+Adult movie scouts
+
+People with guns to their heads
+
+ Should Not:
+
+Everybody else""" .
 
 :WonderWoman1984_review_3 a :movie_review ;
-    ns4:created "2021-01-04T03:37:14-08:00"^^xsd:dateTime ;
-    ns4:creator :AmyNicholson ;
-    ns4:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_3_rating> ;
+    ns2:created "2021-01-04T03:37:14-08:00"^^xsd:dateTime ;
+    ns2:creator :AmyNicholson ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Filmweek(Kpcc_NprLosAngeles)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_3_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_3_rating ;
     :has_body "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this." .
 
 :WonderWoman1984_review_4 a :movie_review ;
-    ns4:created "2020-12-29T12:09:48-08:00"^^xsd:dateTime ;
-    ns4:creator :StephenRomei ;
-    ns4:publisher :TheAustralian ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_4_rating> ;
+    ns2:created "2020-12-29T12:09:48-08:00"^^xsd:dateTime ;
+    ns2:creator :StephenRomei ;
+    ns2:publisher :TheAustralian ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_4_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_4_rating ;
     :has_body "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. " .
 
 :WonderWoman1984_review_5 a :movie_review ;
-    ns4:created "2020-12-28T07:49:06-08:00"^^xsd:dateTime ;
-    ns4:creator :JakeWilson ;
-    ns4:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_5_rating> ;
+    ns2:created "2020-12-28T07:49:06-08:00"^^xsd:dateTime ;
+    ns2:creator :JakeWilson ;
+    ns2:publisher <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TheAge(Australia)> ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_5_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_5_rating ;
     :has_body "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel." .
 
 :WonderWoman1984_review_6 a :movie_review ;
-    ns4:created "2020-12-28T07:45:33-08:00"^^xsd:dateTime ;
-    ns4:creator :DavidSims ;
-    ns4:publisher :TheAtlantic ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_6_rating> ;
+    ns2:created "2020-12-28T07:45:33-08:00"^^xsd:dateTime ;
+    ns2:creator :DavidSims ;
+    ns2:publisher :TheAtlantic ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_6_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_6_rating ;
     :has_body "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema." .
 
 :WonderWoman1984_review_7 a :movie_review ;
-    ns4:created "2021-04-03T14:11:59-07:00"^^xsd:dateTime ;
-    ns4:creator :KevinCarr ;
-    ns4:publisher :FatGuysAtTheMovies ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_7_rating> ;
+    ns2:created "2021-04-03T14:11:59-07:00"^^xsd:dateTime ;
+    ns2:creator :KevinCarr ;
+    ns2:publisher :FatGuysAtTheMovies ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_7_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_7_rating ;
     :has_body "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works." .
 
 :WonderWoman1984_review_8 a :movie_review ;
-    ns4:created "2021-03-23T10:02:10-07:00"^^xsd:dateTime ;
-    ns4:creator :DavidBax ;
-    ns4:publisher :BattleshipPretension ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_8_rating> ;
+    ns2:created "2021-03-23T10:02:10-07:00"^^xsd:dateTime ;
+    ns2:creator :DavidBax ;
+    ns2:publisher :BattleshipPretension ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_8_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_8_rating ;
     :has_body "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks." .
 
 :WonderWoman1984_review_9 a :movie_review ;
-    ns4:created "2021-03-20T08:54:50-07:00"^^xsd:dateTime ;
-    ns4:creator :ValerieKalfrin ;
-    ns4:publisher :TheirOwnLeague ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    ns3:hasManifestation <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> ;
-    ns5:realization :WonderWoman1984 ;
-    :hasRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_9_rating> ;
+    ns2:created "2021-03-20T08:54:50-07:00"^^xsd:dateTime ;
+    ns2:creator :ValerieKalfrin ;
+    ns2:publisher :TheirOwnLeague ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    ns3:hasManifestation :WonderWoman1984_review_9_site ;
+    ns4:realization :WonderWoman1984 ;
+    :hasRating :WonderWoman1984_review_9_rating ;
     :has_body "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey." .
 
 :bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns2:Rating ;
+    rdfs:domain ns5:Rating ;
     rdfs:range xsd:double .
 
 :cinema a owl:ObjectProperty ;
@@ -1200,7 +1202,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 
 :hasRating a owl:ObjectProperty ;
     rdfs:domain :movie_review ;
-    rdfs:range ns2:Rating .
+    rdfs:range ns5:Rating .
 
 :hasShow a owl:ObjectProperty ;
     rdfs:domain ns1:Film ;
@@ -1218,7 +1220,7 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
     rdfs:range xsd:string .
 
 :ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns2:Rating ;
+    rdfs:domain ns5:Rating ;
     rdfs:range xsd:double .
 
 :room a owl:ObjectProperty ;
@@ -1236,24 +1238,24 @@ ns1:nameInTraditionalChinese rdfs:subPropertyOf ns1:nation .
 :tenet_review_1 a owl:NamedIndividual,
         :movie_review ;
     ns1:Name "review example name" ;
-    ns4:created "2021-04-06T19:40:00"^^xsd:dateTime ;
-    ns4:creator :tenet_review_1_author ;
-    ns4:language :inglés ;
-    ns4:publisher :monocle ;
-    ns4:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
+    ns2:created "2021-04-06T19:40:00"^^xsd:dateTime ;
+    ns2:creator :tenet_review_1_author ;
+    ns2:language :inglés ;
+    ns2:publisher :monocle ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     ns3:hasManifestation :tenet_review_1_site ;
-    ns5:realization :tenet ;
+    ns4:realization :tenet ;
     :hasRating :tenet_review_1_rating_1 ;
     :has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
 :worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns2:Rating ;
+    rdfs:domain ns5:Rating ;
     rdfs:range xsd:double .
 
-ns2:ratingCount rdfs:domain ns2:AggregateRating ;
+ns5:ratingCount rdfs:domain ns5:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns2:reviewCount rdfs:domain ns2:AggregateRating ;
+ns5:reviewCount rdfs:domain ns5:AggregateRating ;
     rdfs:range xsd:integer .
 
 :007_SinTiempoParaMorir_trailer a :trailer ;
@@ -1909,6 +1911,10 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
 
 :Historia a ns1:MovieGenre ;
     ns1:Name "Historia" .
+
+:Hoarei_56760 a ns1:Person ;
+    ns1:Name "hoarei-56760" ;
+    :url "https://www.imdb.com/" .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Https___RawGithubusercontentCom_Skydler_Practica_Web_Semantica_Main_Tp3_Owl_Data_MovieTtl#Chrispine_img> a ns1:Image ;
     :url "https://resizing.flixster.com/kXDRe1jUWEU8UFkdf8JhRPMUG8s=/660x990/v1.bjs3NTYxMDQ7ajsxODgxODsxMjAwOzY2MDs5OTA" .
@@ -2861,10 +2867,6 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
     ns1:Name "The News-Herald (Willoughby, OH)" ;
     :url "https://www.rottentomatoes.com/source-3916" .
 
-:The_Real_Smile a ns1:Person ;
-    ns1:Name "the_real_smile" ;
-    :url "https://www.imdb.com/" .
-
 :TheirOwnLeague a ns1:Company ;
     ns1:Name "Their Own League" ;
     :url "https://www.rottentomatoes.com/source-3607" .
@@ -2986,17 +2988,17 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
 :Wing_CheongLaw a ns1:MovieDirector ;
     ns1:Name "Wing-Cheong Law" .
 
-:WonderWoman1984_company_1 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0028338/" .
+:WonderWoman1984_company_2 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0002663/" .
 
 :WonderWoman1984_company_3 a ns1:Company ;
     :url "https://www.imdb.com/company/co0728674/" .
 
 :WonderWoman1984_company_4 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0038332/" .
+    :url "https://www.imdb.com/company/co0028338/" .
 
-:WonderWoman1984_company_6 a ns1:Company ;
-    :url "https://www.imdb.com/company/co0002663/" .
+:WonderWoman1984_company_7 a ns1:Company ;
+    :url "https://www.imdb.com/company/co0038332/" .
 
 :WonderWoman1984_company_9 a ns1:Company ;
     :url "https://www.imdb.com/company/co0283444/" .
@@ -3012,6 +3014,234 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
 
 :WonderWoman1984_cover_image_4 a ns1:Image ;
     :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
+
+:WonderWoman1984_rating_1 a ns5:AggregateRating ;
+    ns1:Name "Tomatometer" ;
+    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    ns2:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
+    :bestRating 1e+02 ;
+    :ratingValue 5.9e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 426 ;
+    ns5:reviewCount 426 .
+
+:WonderWoman1984_rating_2 a ns5:AggregateRating ;
+    ns2:source "https://www.imdb.com/title/tt7126948/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 5.4e+00 ;
+    :worstRating 1e+00 ;
+    ns5:ratingCount 198833 .
+
+:WonderWoman1984_rating_3 a ns5:AggregateRating ;
+    ns2:source "https://www.metacritic.com/movie/wonder-woman-1984" ;
+    :bestRating 1e+02 ;
+    :ratingValue 6e+01 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 57 .
+
+:WonderWoman1984_rating_4 a ns5:AggregateRating ;
+    ns2:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
+    :bestRating 1e+01 ;
+    :ratingValue 7.6e+00 ;
+    :worstRating 0e+00 ;
+    ns5:ratingCount 20 .
+
+:WonderWoman1984_review_10_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_10_site a ns3:WebPage ;
+    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
+
+:WonderWoman1984_review_11_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_11_site a ns3:WebPage ;
+    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
+
+:WonderWoman1984_review_12_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_12_site a ns3:WebPage ;
+    ns3:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
+
+:WonderWoman1984_review_13_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_13_site a ns3:WebPage ;
+    ns3:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
+
+:WonderWoman1984_review_14_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_14_site a ns3:WebPage ;
+    ns3:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
+
+:WonderWoman1984_review_15_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_15_site a ns3:WebPage ;
+    ns3:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
+
+:WonderWoman1984_review_16_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_16_site a ns3:WebPage ;
+    ns3:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
+
+:WonderWoman1984_review_17_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_17_site a ns3:WebPage ;
+    ns3:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
+
+:WonderWoman1984_review_18_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_18_site a ns3:WebPage ;
+    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
+
+:WonderWoman1984_review_19_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_19_site a ns3:WebPage ;
+    ns3:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
+
+:WonderWoman1984_review_1_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_1_site a ns3:WebPage ;
+    ns3:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
+
+:WonderWoman1984_review_20_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_20_site a ns3:WebPage ;
+    ns3:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
+
+:WonderWoman1984_review_21_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_21_site a ns3:WebPage ;
+    ns3:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
+
+:WonderWoman1984_review_22_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_22_site a ns3:WebPage ;
+    ns3:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
+
+:WonderWoman1984_review_23_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_23_site a ns3:WebPage ;
+    ns3:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
+
+:WonderWoman1984_review_24_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue -1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_24_site a ns3:WebPage ;
+    ns3:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
+
+:WonderWoman1984_review_25_rating a ns5:Rating ;
+    :bestRating "10" ;
+    :ratingValue "3" ;
+    :worstRating "1" .
+
+:WonderWoman1984_review_2_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_2_site a ns3:WebPage ;
+    ns3:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
+
+:WonderWoman1984_review_3_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_3_site a ns3:WebPage ;
+    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
+
+:WonderWoman1984_review_4_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_4_site a ns3:WebPage ;
+    ns3:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
+
+:WonderWoman1984_review_5_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_5_site a ns3:WebPage ;
+    ns3:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
+
+:WonderWoman1984_review_6_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_6_site a ns3:WebPage ;
+    ns3:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
+
+:WonderWoman1984_review_7_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_7_site a ns3:WebPage ;
+    ns3:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
+
+:WonderWoman1984_review_8_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_8_site a ns3:WebPage ;
+    ns3:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
+
+:WonderWoman1984_review_9_rating a ns5:Rating ;
+    :bestRating "1" ;
+    :ratingValue 1 ;
+    :worstRating "-1" .
+
+:WonderWoman1984_review_9_site a ns3:WebPage ;
+    ns3:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
 
 :WonderWoman1984_trailer a :trailer ;
     ns1:Name "Stream on HBO Max for a Limited Time" ;
@@ -3057,228 +3287,6 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
 :eeuu a ns1:Country,
         owl:NamedIndividual ;
     ns1:Name "Estados Unidos"@es .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> a ns3:WebPage ;
-    ns3:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> a ns3:WebPage ;
-    ns3:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> a ns3:WebPage ;
-    ns3:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> a ns3:WebPage ;
-    ns3:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> a ns3:WebPage ;
-    ns3:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://concreteplayground.com/sydney/event/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://film-authority.com/2021/01/11/wonder-woman-1984/> a ns3:WebPage ;
-    ns3:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> a ns3:WebPage ;
-    ns3:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> a ns3:WebPage ;
-    ns3:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_1> a ns2:AggregateRating ;
-    ns1:Name "Tomatometer" ;
-    ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
-    ns4:source "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
-    :bestRating 1e+02 ;
-    :ratingValue 5.9e+01 ;
-    :worstRating 0e+00 ;
-    ns2:ratingCount 426 ;
-    ns2:reviewCount 426 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_2> a ns2:AggregateRating ;
-    ns4:source "https://www.imdb.com/title/tt7126948/" ;
-    :bestRating 1e+01 ;
-    :ratingValue 5.4e+00 ;
-    :worstRating 1e+00 ;
-    ns2:ratingCount 198822 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_3> a ns2:AggregateRating ;
-    ns4:source "https://www.metacritic.com/movie/wonder-woman-1984" ;
-    :bestRating 1e+02 ;
-    :ratingValue 6e+01 ;
-    :worstRating 0e+00 ;
-    ns2:ratingCount 57 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_4> a ns2:AggregateRating ;
-    ns4:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
-    :bestRating 1e+01 ;
-    :ratingValue 7.6e+00 ;
-    :worstRating 0e+00 ;
-    ns2:ratingCount 20 .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_10_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_11_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_12_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_13_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_14_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_15_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_16_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_17_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_18_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_19_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_1_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_20_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_21_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_22_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_23_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_24_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue -1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_25_rating> a ns2:Rating ;
-    :bestRating "10" ;
-    :ratingValue "4" ;
-    :worstRating "1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_2_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_3_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_4_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_5_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_6_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_7_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_8_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_review_9_rating> a ns2:Rating ;
-    :bestRating "1" ;
-    :ratingValue 1 ;
-    :worstRating "-1" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> a ns3:WebPage ;
-    ns3:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> a ns3:WebPage ;
-    ns3:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> a ns3:WebPage ;
-    ns3:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> a ns3:WebPage ;
-    ns3:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> a ns3:WebPage ;
-    ns3:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> a ns3:WebPage ;
-    ns3:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> a ns3:WebPage ;
-    ns3:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
-
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> a ns3:WebPage ;
-    ns3:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
 
 :john_david_washington a ns1:Actor,
         owl:NamedIndividual ;
@@ -3340,18 +3348,18 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
     :sourceUrl "https://www.metacritic.com/movie/tenet"^^xsd:anyURI,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
     :synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
-    ns2:aggregateRating :tenet_aggregated_rating_1 .
+    ns5:aggregateRating :tenet_aggregated_rating_1 .
 
 :tenet_aggregated_rating_1 a owl:NamedIndividual,
-        ns2:AggregateRating ;
+        ns5:AggregateRating ;
     ns1:Name "Tomatometer" ;
     ns1:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns4:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns2:source "https://www.rottentomatoes.com/m/tenet" ;
     :bestRating 1e+02 ;
     :ratingValue 7e+01 ;
     :worstRating 0e+00 ;
-    ns2:ratingCount 349 ;
-    ns2:reviewCount 349 .
+    ns5:ratingCount 349 ;
+    ns5:reviewCount 349 .
 
 :tenet_cover_image_1 a ns1:Image,
         owl:NamedIndividual ;
@@ -3372,7 +3380,7 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
     :url "https://example.com/img.jpg"^^xsd:anyURI .
 
 :tenet_review_1_rating_1 a owl:NamedIndividual,
-        ns2:Rating ;
+        ns5:Rating ;
     ns1:Name "example name" ;
     ns1:description "example description" ;
     :bestRating 1e+00 ;
@@ -3480,9 +3488,6 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
     ns1:thumbnail :christopher_nolan_img ;
     :url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyURI .
 
-<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://youtu.be/75nDMuZMfLs> a ns3:WebPage ;
-    ns3:hasURL "https://youtu.be/75nDMuZMfLs" .
-
 :inglés a ns1:Language,
         owl:NamedIndividual ;
     ns1:languageCode "en"^^xsd:string .
@@ -3573,10 +3578,10 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
         :GeoffJohns,
         :PattyJenkins,
         :WilliamMoultonMarston,
-        :WonderWoman1984_company_1,
+        :WonderWoman1984_company_2,
         :WonderWoman1984_company_3,
         :WonderWoman1984_company_4,
-        :WonderWoman1984_company_6,
+        :WonderWoman1984_company_7,
         :WonderWoman1984_company_9 ;
     ns1:director :PattyJenkins ;
     ns1:duration 1.51e+02 ;
@@ -3586,6 +3591,7 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
         :ScienceFiction ;
     ns1:origin :EeUu ;
     ns1:productionCompany :WarnerBrosPictures ;
+    ns1:releaseDate "2020-12-18T00:00:00"^^xsd:dateTime ;
     ns1:starring :AlexDelescu,
         :AmrWaked,
         :AmreenNYaqoob,
@@ -3650,10 +3656,10 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
         "https://www.metacritic.com/movie/wonder-woman-1984",
         "https://www.rottentomatoes.com/m/wonder_woman_1984" ;
     :synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." ;
-    ns2:aggregateRating <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_1>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_2>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_3>,
-        <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WonderWoman1984_rating_4> .
+    ns5:aggregateRating :WonderWoman1984_rating_1,
+        :WonderWoman1984_rating_2,
+        :WonderWoman1984_rating_3,
+        :WonderWoman1984_rating_4 .
 
 :movie_review a owl:Class ;
     rdfs:subClassOf ns3:Review .
@@ -3661,7 +3667,7 @@ ns2:reviewCount rdfs:domain ns2:AggregateRating ;
 :EstadosUnidos a ns1:Country ;
     ns1:Name "Estados Unidos" .
 
-ns1:Person rdfs:subClassOf ns5:ResponsibleEntity .
+ns1:Person rdfs:subClassOf ns4:ResponsibleEntity .
 
 :trailer a owl:Class ;
     rdfs:subClassOf ns1:Media .

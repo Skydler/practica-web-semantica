@@ -101,7 +101,6 @@ class MovieParser(Thread):
         synopsis = self.get_text(movie, "#ctl00_cph_lblSinopsis")
         trailer = movie.select_one(".embed-responsive-item").attrs.get("src")
         shows = list(self.get_shows(movie))
-        released = len(shows) != 0
 
         movie = Movie(
             name=title,
@@ -115,7 +114,6 @@ class MovieParser(Thread):
             description=synopsis,
             video=mapers.to_video(trailer),
             shows=shows,
-            released=released,
             source_urls=[self.link],
             production_company=None,
             aggregated_ratings=[],
