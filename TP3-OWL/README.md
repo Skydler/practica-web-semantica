@@ -21,7 +21,7 @@
 
 ## Ejecución
 
-1. Copiar el binario de *Chromedriver* en el directorio **bin**
+1. Copiar el binario de *Chromedriver* en el directorio **bin** con el nombre `chromedriver`
 
 2. Crear y activar el entorno virtual:
 
@@ -52,6 +52,6 @@
 
 `--verbose`: Permite visualizar todos los logs.
 
-`--offline`: Ejecuta solo la conversion a OWL, es útil para no scrapear de nuevo.
+`--offline`: Ejecuta solo el merge y guardar la información en OWL.
 
 `--extra`: Ejecuta el scrapeo de películas extras.
