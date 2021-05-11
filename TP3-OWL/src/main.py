@@ -139,7 +139,7 @@ def main():
             cinepolis_movies = cinepolis.scrap()
             JsonMovieRepository.write(CINEPOLIS_MOVIES, cinepolis_movies)
         except Exception:
-            logging.error("An error ocurred", exc_info=True)
+            logging.error("An error ocurred")
 
         logging.info("Scraping cinemalaplata movies ")
 
@@ -147,7 +147,7 @@ def main():
             cinema_movies = cinemalaplata.scrap()
             JsonMovieRepository.write(CINEMA_MOVIES, cinema_movies)
         except Exception:
-            logging.error("An error ocurred", exc_info=True)
+            logging.error("An error ocurred")
 
         logging.info("Scraping jsonld movies")
 
