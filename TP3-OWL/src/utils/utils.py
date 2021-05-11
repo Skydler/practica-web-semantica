@@ -20,6 +20,8 @@ def normalize_special_symbols(s):
         ("!", ""),
         ("'", ""),
         (",", ""),
+        ("(", ""),
+        (")", ""),
     )
 
     for a, b in replacements:

@@ -210,7 +210,8 @@ class OWLParser:
                             self.langstring_literal(trailer.description)))
 
             if thumbnail_url := trailer.thumbnail_url:
-                image_uri = self._create_image(trailer_uri, thumbnail_url)
+                image_uri = self._create_image(
+                    encoded_trailer_name, thumbnail_url)
                 self.g.add((trailer_uri, self.dbpedia.thumbnail, image_uri))
 
             self.g.add((movie_title, self.baseURI.hasTrailer, trailer_uri))
@@ -316,13 +317,13 @@ class OWLParser:
                         self.url_literal(person.url)))
 
         if person.image:
-            image_uri = self._create_image(person_URI, image_url=person.image)
+            image_uri = self._create_image(person.name, image_url=person.image)
             self.g.add((person_URI, self.dbpedia.thumbnail, image_uri))
 
         return person_URI
 
-    def _create_image(self, subject_uri, image_url):
-        encoded_person_img = f"{to_turtle_fmt(subject_uri)}_img"
+    def _create_image(self, subject_name, image_url):
+        encoded_person_img = f"{to_turtle_fmt(subject_name)}_img"
         image_uri = self.baseURI[encoded_person_img]
 
         self.g.add((image_uri, RDF.type, self.dbpedia.Image))
