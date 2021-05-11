@@ -52,7 +52,7 @@ class OWLParser:
     def add_content_rating(self, movie_title, movie):
         if rating := movie.content_rating:
             self.g.add((movie_title, self.baseURI.content_rating,
-                        Literal(rating)))
+                        Literal(rating, datatype=XSD.string)))
 
     def add_source_urls(self, movie_title, movie):
         for url in movie.source_urls:
@@ -70,11 +70,11 @@ class OWLParser:
                 to_turtle_fmt(movie.name), rating, index)
 
             self.g.add((rating_uri, self.schema.ratingCount,
-                        Literal(rating.rating_count)))
+                        Literal(rating.rating_count, datatype=XSD.integer)))
 
             if review_count := rating.review_count:
                 self.g.add((rating_uri, self.schema.reviewCount,
-                            Literal(review_count)))
+                            Literal(review_count, datatype=XSD.integer)))
 
             self.g.add((rating_uri, self.dcterms.source,
                         self.url_literal(rating.source)))
@@ -183,7 +183,7 @@ class OWLParser:
     def add_keywords(self, movie_title, movie):
         for keyword in movie.keywords:
             self.g.add((movie_title, self.baseURI.keyword,
-                        Literal(keyword)))
+                        Literal(keyword, datatype=XSD.string)))
 
     def add_duration(self, movie_title, movie):
         if duration := movie.duration:
@@ -249,7 +249,7 @@ class OWLParser:
 
             self.g.add((self.baseURI[encoded_show_name],
                         self.dbpedia.subtitle,
-                        self.langstring_literal(show.language)))
+                        Literal(show.language)))
 
             self.g.add((movie_title, self.baseURI.hasShow,
                         self.baseURI[encoded_show_name]))
@@ -380,13 +380,13 @@ class OWLParser:
                         self.langstring_literal(description)))
 
         self.g.add((rating_URI, self.baseURI.ratingValue,
-                    Literal(rating.rating_value)))
+                    Literal(rating.rating_value, datatype=XSD.double)))
 
         self.g.add((rating_URI, self.baseURI.bestRating,
-                    Literal(rating.best_rating)))
+                    Literal(rating.best_rating, datatype=XSD.double)))
 
         self.g.add((rating_URI, self.baseURI.worstRating,
-                    Literal(rating.worst_rating)))
+                    Literal(rating.worst_rating, datatype=XSD.double)))
 
         return rating_URI
 
