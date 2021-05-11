@@ -1,7 +1,9 @@
 # Notas
 En este informe se tratan algunos de los temas más interesantes que nos surgieron durante la producción del trabajo.
 
-[TOC]
+## Comentarios del Trabajo
+
+- En el archivo **movie_individuals.ttl** se pueden algunas inconsistencias producto de la importación de los individuals generados con Protégé durante el desarrollo (presentes en el archivo **movie.ttl**). Decidimos dejar estos individuals ya que acompaña el modelo a modo de documentación adicional. Un ejemplo de estas inconsistencias es que los atributos y clases definidas en **movie.ttl** están en minuscula, mientras que las generadas por nuestro programa utiliza una nomenclatura CamelCase.
 
 # Respondiendo las preguntas del enunciado
 
