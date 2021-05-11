@@ -5,6 +5,8 @@ En este informe se tratan algunos de los temas más interesantes que nos surgier
 
 - En el archivo **movie_individuals.ttl** se pueden algunas inconsistencias producto de la importación de los individuals generados con Protégé durante el desarrollo (presentes en el archivo **movie.ttl**). Decidimos dejar estos individuals ya que acompaña el modelo a modo de documentación adicional. Un ejemplo de estas inconsistencias es que los atributos y clases definidas en **movie.ttl** están en minuscula, mientras que las generadas por nuestro programa utiliza una nomenclatura CamelCase.
 
+- Debido a la imposibilidad de apertura de Cinemalaplata por la pandemia, no están cargando con peliculas la cartelera de su página, por este motivo el scrapeo falla. Igualmente pudimos trabajar con los datos de Cinepolis, Ecartelera, Metacritic, Rotten Tomatoes e IMDB correctamente.
+
 # Respondiendo las preguntas del enunciado
 
 *Esta sección representa al archivo **respuestas.txt** que se especifica en el enunciado.*
