@@ -1,3 +1,4 @@
+import langdetect
 from deep_translator import GoogleTranslator
 from fuzzywuzzy import fuzz
 
@@ -29,10 +30,10 @@ class MergeStrategy:
 
     def normalize(self, movies):
         for movie in movies:
-            movie.genres = self.translate_fields(movie.genres)
-
-    def translate_fields(self, fields):
-        return self.translator.translate_batch(fields) if fields else []
+            for index, genre in enumerate(movie.genres):
+                genre_lang = langdetect.detect(genre)
+                if genre_lang != 'en':
+                    movie.genres[index] = self.translator.translate(genre)
 
     def find_merged(self, movie):
         for merged_movie in self.merged_movies:

@@ -175,7 +175,7 @@ class OWLParser:
                         self.dbpedia.MovieGenre))
 
             self.g.add((self.baseURI[encoded_genre], self.dbpedia.Name,
-                        self.langstring_literal(genre)))
+                        Literal(genre)))
 
             self.g.add((movie_title, self.dbpedia.genre,
                         self.baseURI[encoded_genre]))
@@ -183,7 +183,7 @@ class OWLParser:
     def add_keywords(self, movie_title, movie):
         for keyword in movie.keywords:
             self.g.add((movie_title, self.baseURI.keyword,
-                        self.langstring_literal(keyword)))
+                        Literal(keyword)))
 
     def add_duration(self, movie_title, movie):
         if duration := movie.duration:
