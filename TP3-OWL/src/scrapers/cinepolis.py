@@ -251,27 +251,37 @@ def parse_movies(links, browser, future=False):
     Parser = FutureReleaseParser if future else BillboardParser
     parsed_movies = []
     for link in links:
-        Parser(link, parsed_movies, browser).run()
+        try:
+            Parser(link, parsed_movies, browser).run()
+        except Exception:
+            logging.error(f"Error when scraping {link}", exc_info=True)
+            continue
 
     return parsed_movies
 
 
-def get_current_movies(browser):
+def get_links(movies):
+    return [movie.get_attribute('href') for movie in movies]
+
+
+def get_billboard(browser):
     browser.get(DOMAIN)
     movies = browser.find_elements_by_xpath(
         "//div[contains(@class, 'movie-grid')]/div/a")
-    movies_links = [m.get_attribute('href') for m in movies]
-    return parse_movies(movies_links, browser)
+
+    return get_links(movies)
 
 
-def get_future_releases(browser):
+def get_future_releases(browser, billboard_links):
     browser.get(FUTURE_RELEASES_URL)
     browser.find_element_by_css_selector("select > option").click()
+
     xpath_selector = "//a[contains(@class, 'movie-thumb')] \
         [not(div[contains(@class, 'movie-thumb-ribbon')])]"
+
     movies = browser.find_elements_by_xpath(xpath_selector)
-    movies_links = [m.get_attribute('href') for m in movies]
-    return parse_movies(movies_links, browser, future=True)
+
+    return [link for link in get_links(movies) if link not in billboard_links]
 
 
 def scrap() -> List[Movie]:
@@ -287,11 +297,15 @@ def scrap() -> List[Movie]:
     browser.implicitly_wait(2)
 
     try:
-        billboard = get_current_movies(browser)
-        future_releases = get_future_releases(browser)
+        billboard_links = get_billboard(browser)
+        future_releases_links = get_future_releases(browser, billboard_links)
+
+        billboard = parse_movies(billboard_links, browser)
+        future_releases = parse_movies(
+            future_releases_links, browser, future=True)
+
         movies = billboard + future_releases
-    except Exception as e:
-        raise e
+
     finally:
         browser.close()
         return movies
