@@ -85,8 +85,7 @@
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#has_body
 :has_body rdf:type owl:DatatypeProperty ;
-          rdfs:domain :movie_review ;
-          rdfs:range xsd:string .
+          rdfs:domain :movie_review .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#keyword
@@ -102,8 +101,7 @@
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#synopsis
 :synopsis rdf:type owl:DatatypeProperty ;
-          rdfs:domain <http://dbpedia.org/ontology/Film> ;
-          rdfs:range xsd:string .
+          rdfs:domain <http://dbpedia.org/ontology/Film> .
 
 
 ###  https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#url
