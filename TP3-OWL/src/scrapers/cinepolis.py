@@ -291,9 +291,7 @@ def scrap() -> List[Movie]:
         future_releases = get_future_releases(browser)
         movies = billboard + future_releases
     except Exception as e:
-        import traceback
-        traceback.print_exc()
-        breakpoint()
+        raise e
     finally:
         browser.close()
         return movies
