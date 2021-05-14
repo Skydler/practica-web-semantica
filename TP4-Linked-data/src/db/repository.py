@@ -1,11 +1,13 @@
 from rdflib import Graph
+from constant import NAMESPACES
 
 
 class OwlMovieRepository():
     @classmethod
-    def read(cls, path_file):
+    def read(cls, graph_location, namespaces=NAMESPACES):
         graph = Graph()
-        graph.parse(str(path_file), format="turtle")
+
+        graph.parse(str(graph_location), format="turtle")
 
         return graph
 

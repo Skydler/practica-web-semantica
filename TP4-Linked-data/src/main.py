@@ -3,22 +3,15 @@ import logging
 import re
 
 from concurrent.futures import ThreadPoolExecutor
-from constant import ORIGINAL_DATASET_FILE, LINKS_FILE
+from constant import DBPEDIA_DATA_URI, LINKS_FILE
+from constant import NAMESPACES, MAX_REQUESTS, ORIGINAL_DATASET_FILE
 from db.repository import OwlMovieRepository
-from rdflib import Namespace, Graph
-from rdflib.namespace import OWL
-
-
-DBPEDIA_ONTOLOGY = Namespace('http://dbpedia.org/ontology/')
-DBPEDIA_RESOURCES = Namespace('http://dbpedia.org/resource/')
-
-MAX_REQUESTS = 80
+from rdflib import Graph, RDF
+from urllib.parse import urljoin
 
 
 def actors(graph):
-    return [
-        triplet for triplet in graph if triplet[2] == DBPEDIA_ONTOLOGY.Actor
-    ]
+    return graph.triples((None, RDF.type, NAMESPACES['dbo'].Actor))
 
 
 def get_actors_uris(graph):
@@ -28,11 +21,10 @@ def get_actors_uris(graph):
 def get_actor_graph(actor_uri):
     actor_name = dbpedia_actor_name(actor_uri)
 
-    dbpedia_data_uri = f"https://dbpedia.org/data/{actor_name}.ttl"
+    actor_data_uri = urljoin(DBPEDIA_DATA_URI, f"{actor_name}.ttl")
+    logging.debug(f"Request to {actor_data_uri}")
 
-    logging.debug(f"Request to {dbpedia_data_uri}")
-
-    return OwlMovieRepository.read(dbpedia_data_uri)
+    return OwlMovieRepository.read(actor_data_uri)
 
 
 def dbpedia_actor_name(actor_uri):
@@ -57,7 +49,10 @@ def get_actors_graphs(actors_uris):
 
 def add_same_as_triplet(actor_uri, graph):
     actor_name = dbpedia_actor_name(actor_uri)
-    same_as = actor_uri, OWL.sameAs, DBPEDIA_RESOURCES[actor_name]
+
+    same_as = (actor_uri,
+               NAMESPACES['owl'].sameAs,
+               NAMESPACES['dbr'][actor_name])
 
     graph.add(same_as)
 
@@ -69,6 +64,9 @@ def write_links():
     actors_graphs = get_actors_graphs(actors_uris)
 
     links_graph = Graph()
+
+    for prefix, uri in NAMESPACES.items():
+        links_graph.bind(prefix, uri)
 
     for actor_graph, actor_uri in zip(actors_graphs, actors_uris):
         actor_name = dbpedia_actor_name(actor_uri)

@@ -1,11 +1,31 @@
 from pathlib import Path
+from rdflib import Namespace
+from rdflib.namespace import OWL
+from urllib.parse import urljoin
 
-# Ontology
-OWN_ONTOLOGY_URI = "https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl"
 
-# Files
+# URIs
+BASE_TWSS_URI = "https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/"
+
+BASE_DBPEDIA_URI = "http://dbpedia.org/"
+DBPEDIA_DATA_URI = urljoin(BASE_DBPEDIA_URI, "data/")
+
+
+# Namespaces defined with the PREFIX as key and its URI as value
+NAMESPACES = {
+    'twss': Namespace(urljoin(BASE_TWSS_URI, "movie.ttl#", allow_fragments=False)),
+    'dbo': Namespace(urljoin(BASE_DBPEDIA_URI, "ontology/")),
+    'dbr': Namespace(urljoin(BASE_DBPEDIA_URI, "resource/")),
+    'owl': OWL
+}
+
+
+# File paths
 DATA_DIR = Path.cwd().parent / 'data'
 
 ORIGINAL_DATASET_FILE = DATA_DIR / 'dataset-original.ttl'
-
 LINKS_FILE = DATA_DIR / 'links.ttl'
+
+
+# Requests config
+MAX_REQUESTS = 40
