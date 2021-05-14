@@ -18,67 +18,63 @@ def get_actors_uris(graph):
     return [triplet[0] for triplet in actors(graph)]
 
 
-def get_actor_graph(actor_uri):
-    actor_name = dbpedia_actor_name(actor_uri)
+def get_dbpedia_actor(twss_actor_uri):
+    dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
 
-    actor_data_uri = urljoin(DBPEDIA_DATA_URI, f"{actor_name}.ttl")
-    logging.debug(f"Request to {actor_data_uri}")
+    dbpedia_actor_data_uri = urljoin(
+        DBPEDIA_DATA_URI, f"{dbpedia_actor_name}.ttl")
 
-    return OwlMovieRepository.read(actor_data_uri)
+    logging.debug(f"Request to {dbpedia_actor_data_uri}")
+    return OwlMovieRepository.read(dbpedia_actor_data_uri)
 
 
-def dbpedia_actor_name(actor_uri):
-    resource, name = str(actor_uri).split("#")
+def to_dbpedia_actor_name(twss_actor_uri):
+    resource, actor_name = str(twss_actor_uri).split("#")
 
-    return '_'.join(camel_case_split(name))
+    return '_'.join(camel_case_split(actor_name))
 
 
 def camel_case_split(text):
     return re.sub('([a-z])([A-Z])', r'\1 \2', text).split()
 
 
-def get_actors_graphs(actors_uris):
+def get_dbpedia_actors(twss_actors_uris):
     with ThreadPoolExecutor(max_workers=MAX_REQUESTS) as executor:
         actors_graphs = list(executor.map(
-            get_actor_graph,
-            actors_uris
+            get_dbpedia_actor,
+            twss_actors_uris
         ))
 
     return actors_graphs
 
 
-def add_same_as_triplet(actor_uri, graph):
-    actor_name = dbpedia_actor_name(actor_uri)
+def add_same_as_triplet(twss_actor_uri, graph):
+    dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
 
-    same_as = (actor_uri,
+    same_as = (twss_actor_uri,
                NAMESPACES['owl'].sameAs,
-               NAMESPACES['dbr'][actor_name])
+               NAMESPACES['dbr'][dbpedia_actor_name])
 
     graph.add(same_as)
 
 
 def write_links():
-    graph = OwlMovieRepository.read(ORIGINAL_DATASET_FILE)
-
-    actors_uris = get_actors_uris(graph)
-    actors_graphs = get_actors_graphs(actors_uris)
-
+    twss_graph = OwlMovieRepository.read(ORIGINAL_DATASET_FILE)
     links_graph = Graph()
 
-    for prefix, uri in NAMESPACES.items():
-        links_graph.bind(prefix, uri)
+    twss_actors_uris = get_actors_uris(twss_graph)
+    dbpedia_actors = get_dbpedia_actors(twss_actors_uris)
 
-    for actor_graph, actor_uri in zip(actors_graphs, actors_uris):
-        actor_name = dbpedia_actor_name(actor_uri)
+    for dbpedia_actor, twss_actor_uri in zip(dbpedia_actors, twss_actors_uris):
+        dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
 
-        if len(actor_graph) == 0:
-            logging.error(f"Not found owl:sameAs for {actor_name}")
+        if len(dbpedia_actor) == 0:
+            logging.error(f"Not found owl:sameAs for {dbpedia_actor_name}")
         else:
-            logging.debug(f"Found owl:sameAs for {actor_name}")
+            logging.debug(f"Found owl:sameAs for dbpedia_{dbpedia_actor_name}")
+            add_same_as_triplet(twss_actor_uri, links_graph)
 
-            add_same_as_triplet(actor_uri, links_graph)
-
-    OwlMovieRepository.write(LINKS_FILE, links_graph)
+    OwlMovieRepository.write(LINKS_FILE, links_graph, namespaces=NAMESPACES)
 
 
 def main():
