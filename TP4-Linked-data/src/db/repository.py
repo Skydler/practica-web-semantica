@@ -1,5 +1,4 @@
 from rdflib import Graph
-from constant import NAMESPACES
 
 
 class OwlMovieRepository():
@@ -27,5 +26,5 @@ class OwlMovieRepository():
 
     @classmethod
     def __bind_namespaces(cls, graph, namespaces):
-        for prefix, uri in NAMESPACES.items():
+        for prefix, uri in namespaces.items():
             graph.bind(prefix, uri)
