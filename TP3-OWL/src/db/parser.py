@@ -23,6 +23,7 @@ class OWLParser:
     def build_movie(self, movie_obj):
         movie_title = self.baseURI[to_turtle_fmt(movie_obj.name)]
         self.g.add((movie_title, RDF.type, self.dbpedia.Film))
+        self.g.add((movie_title, self.dbpedia.title, Literal(movie_obj.name)))
 
         self.add_synopsis(movie_title, movie_obj)
         self.add_content_rating(movie_title, movie_obj)
