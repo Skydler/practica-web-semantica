@@ -1,0 +1,696 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AaronTaylor_Johnson> ns1:sameAs <http://dbpedia.org/resource/Aaron_Taylor_Johnson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AdeleHaenel> ns1:sameAs <http://dbpedia.org/resource/Adele_Haenel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AidanGillen> ns1:sameAs <http://dbpedia.org/resource/Aidan_Gillen> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AilinSalas> ns1:sameAs <http://dbpedia.org/resource/Ailin_Salas> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AlbertDelpy> ns1:sameAs <http://dbpedia.org/resource/Albert_Delpy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AlexFerns> ns1:sameAs <http://dbpedia.org/resource/Alex_Ferns> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AlexanderSkarsgard> ns1:sameAs <http://dbpedia.org/resource/Alexander_Skarsgard> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AliceBraga> ns1:sameAs <http://dbpedia.org/resource/Alice_Braga> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AmrWaked> ns1:sameAs <http://dbpedia.org/resource/Amr_Waked> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AmyMadigan> ns1:sameAs <http://dbpedia.org/resource/Amy_Madigan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AnaCelentano> ns1:sameAs <http://dbpedia.org/resource/Ana_Celentano> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AnaIsabelle> ns1:sameAs <http://dbpedia.org/resource/Ana_Isabelle> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AnaKatz> ns1:sameAs <http://dbpedia.org/resource/Ana_Katz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AndreBraugher> ns1:sameAs <http://dbpedia.org/resource/Andre_Braugher> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AndreMarcon> ns1:sameAs <http://dbpedia.org/resource/Andre_Marcon> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AndrewHoward> ns1:sameAs <http://dbpedia.org/resource/Andrew_Howard> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AngelinaJolie> ns1:sameAs <http://dbpedia.org/resource/Angelina_Jolie> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AnselElgort> ns1:sameAs <http://dbpedia.org/resource/Ansel_Elgort> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AnthonyRamos> ns1:sameAs <http://dbpedia.org/resource/Anthony_Ramos> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AnyaTaylor_Joy> ns1:sameAs <http://dbpedia.org/resource/Anya_Taylor_Joy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ArayaMengesha> ns1:sameAs <http://dbpedia.org/resource/Araya_Mengesha> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ArianaDebose> ns1:sameAs <http://dbpedia.org/resource/Ariana_Debose> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AviisZhong> ns1:sameAs <http://dbpedia.org/resource/Aviis_Zhong> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#AyaEndo> ns1:sameAs <http://dbpedia.org/resource/Aya_Endo> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BashirSalahuddin> ns1:sameAs <http://dbpedia.org/resource/Bashir_Salahuddin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BenWhishaw> ns1:sameAs <http://dbpedia.org/resource/Ben_Whishaw> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BernCollaco> ns1:sameAs <http://dbpedia.org/resource/Bern_Collaco> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BernardHill> ns1:sameAs <http://dbpedia.org/resource/Bernard_Hill> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BillyBoyd> ns1:sameAs <http://dbpedia.org/resource/Billy_Boyd> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BluHunt> ns1:sameAs <http://dbpedia.org/resource/Blu_Hunt> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BobBergen> ns1:sameAs <http://dbpedia.org/resource/Bob_Bergen> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BobOdenkirk> ns1:sameAs <http://dbpedia.org/resource/Bob_Odenkirk> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BobbyCannavale> ns1:sameAs <http://dbpedia.org/resource/Bobby_Cannavale> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#BrianTyreeHenry> ns1:sameAs <http://dbpedia.org/resource/Brian_Tyree_Henry> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CamilleKostek> ns1:sameAs <http://dbpedia.org/resource/Camille_Kostek> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CaryElwes> ns1:sameAs <http://dbpedia.org/resource/Cary_Elwes> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CassieKramer> ns1:sameAs <http://dbpedia.org/resource/Cassie_Kramer> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CateBlanchett> ns1:sameAs <http://dbpedia.org/resource/Cate_Blanchett> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CatherineDeneuve> ns1:sameAs <http://dbpedia.org/resource/Catherine_Deneuve> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CatherineKeener> ns1:sameAs <http://dbpedia.org/resource/Catherine_Keener> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChanningTatum> ns1:sameAs <http://dbpedia.org/resource/Channing_Tatum> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CharleneAmoia> ns1:sameAs <http://dbpedia.org/resource/Charlene_Amoia> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CharlesParnell> ns1:sameAs <http://dbpedia.org/resource/Charles_Parnell> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CharlieHeaton> ns1:sameAs <http://dbpedia.org/resource/Charlie_Heaton> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CharlizeTheron> ns1:sameAs <http://dbpedia.org/resource/Charlize_Theron> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CheechMarin> ns1:sameAs <http://dbpedia.org/resource/Cheech_Marin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChloeGraceMoretz> ns1:sameAs <http://dbpedia.org/resource/Chloe_Grace_Moretz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChrisBauer> ns1:sameAs <http://dbpedia.org/resource/Chris_Bauer> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChrisPine> ns1:sameAs <http://dbpedia.org/resource/Chris_Pine> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristianeMillet> ns1:sameAs <http://dbpedia.org/resource/Christiane_Millet> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristineAdams> ns1:sameAs <http://dbpedia.org/resource/Christine_Adams> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristophWaltz> ns1:sameAs <http://dbpedia.org/resource/Christoph_Waltz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristopherLee> ns1:sameAs <http://dbpedia.org/resource/Christopher_Lee> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristopherLloyd> ns1:sameAs <http://dbpedia.org/resource/Christopher_Lloyd> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristopherMele> ns1:sameAs <http://dbpedia.org/resource/Christopher_Mele> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ChristopherWalken> ns1:sameAs <http://dbpedia.org/resource/Christopher_Walken> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ClaireBodson> ns1:sameAs <http://dbpedia.org/resource/Claire_Bodson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ClarkDuke> ns1:sameAs <http://dbpedia.org/resource/Clark_Duke> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ClemencePoesy> ns1:sameAs <http://dbpedia.org/resource/Clemence_Poesy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ClorisLeachman> ns1:sameAs <http://dbpedia.org/resource/Cloris_Leachman> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CodyDavis> ns1:sameAs <http://dbpedia.org/resource/Cody_Davis> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ColmanDomingo> ns1:sameAs <http://dbpedia.org/resource/Colman_Domingo> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ConnieNielsen> ns1:sameAs <http://dbpedia.org/resource/Connie_Nielsen> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CoreyHawkins> ns1:sameAs <http://dbpedia.org/resource/Corey_Hawkins> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#CoreyStoll> ns1:sameAs <http://dbpedia.org/resource/Corey_Stoll> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DaisukeNamikawa> ns1:sameAs <http://dbpedia.org/resource/Daisuke_Namikawa> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DaisyRidley> ns1:sameAs <http://dbpedia.org/resource/Daisy_Ridley> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DaniRovira> ns1:sameAs <http://dbpedia.org/resource/Dani_Rovira> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DanielCraig> ns1:sameAs <http://dbpedia.org/resource/Daniel_Craig> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DanielMartin> ns1:sameAs <http://dbpedia.org/resource/Daniel_Martin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DaphneRubin_Vega> ns1:sameAs <http://dbpedia.org/resource/Daphne_Rubin_Vega> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DarioGrandinetti> ns1:sameAs <http://dbpedia.org/resource/Dario_Grandinetti> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DavidAlvarez> ns1:sameAs <http://dbpedia.org/resource/David_Alvarez> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DavidHarbour> ns1:sameAs <http://dbpedia.org/resource/David_Harbour> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DavidStrathairn> ns1:sameAs <http://dbpedia.org/resource/David_Strathairn> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DeborahFrancois> ns1:sameAs <http://dbpedia.org/resource/Deborah_Francois> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DemianBichir> ns1:sameAs <http://dbpedia.org/resource/Demian_Bichir> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DenzelWashington> ns1:sameAs <http://dbpedia.org/resource/Denzel_Washington> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DenzilSmith> ns1:sameAs <http://dbpedia.org/resource/Denzil_Smith> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DidierSandre> ns1:sameAs <http://dbpedia.org/resource/Didier_Sandre> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DimpleKapadia> ns1:sameAs <http://dbpedia.org/resource/Dimple_Kapadia> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DiogoMorgado> ns1:sameAs <http://dbpedia.org/resource/Diogo_Morgado> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DomhnallGleeson> ns1:sameAs <http://dbpedia.org/resource/Domhnall_Gleeson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DominicMonaghan> ns1:sameAs <http://dbpedia.org/resource/Dominic_Monaghan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DonCheadle> ns1:sameAs <http://dbpedia.org/resource/Don_Cheadle> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DwayneJohnson> ns1:sameAs <http://dbpedia.org/resource/Dwayne_Johnson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#DylanKenin> ns1:sameAs <http://dbpedia.org/resource/Dylan_Kenin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EdHarris> ns1:sameAs <http://dbpedia.org/resource/Ed_Harris> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EdgarRamirez> ns1:sameAs <http://dbpedia.org/resource/Edgar_Ramirez> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EizaGonzalez> ns1:sameAs <http://dbpedia.org/resource/Eiza_Gonzalez> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ElijahWood> ns1:sameAs <http://dbpedia.org/resource/Elijah_Wood> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ElisaCarricajo> ns1:sameAs <http://dbpedia.org/resource/Elisa_Carricajo> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ElizabethDebicki> ns1:sameAs <http://dbpedia.org/resource/Elizabeth_Debicki> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EllaWalker> ns1:sameAs <http://dbpedia.org/resource/Ella_Walker> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EmilyBeecham> ns1:sameAs <http://dbpedia.org/resource/Emily_Beecham> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EmilyBlunt> ns1:sameAs <http://dbpedia.org/resource/Emily_Blunt> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EmmaStone> ns1:sameAs <http://dbpedia.org/resource/Emma_Stone> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EmmaThompson> ns1:sameAs <http://dbpedia.org/resource/Emma_Thompson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EmmanuelleSeigner> ns1:sameAs <http://dbpedia.org/resource/Emmanuelle_Seigner> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EricBauza> ns1:sameAs <http://dbpedia.org/resource/Eric_Bauza> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EstebanBigliardi> ns1:sameAs <http://dbpedia.org/resource/Esteban_Bigliardi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EthanHawke> ns1:sameAs <http://dbpedia.org/resource/Ethan_Hawke> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#EvelinHagoel> ns1:sameAs <http://dbpedia.org/resource/Evelin_Hagoel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FayssalBazzi> ns1:sameAs <http://dbpedia.org/resource/Fayssal_Bazzi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FelixWilliamson> ns1:sameAs <http://dbpedia.org/resource/Felix_Williamson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FionaDourif> ns1:sameAs <http://dbpedia.org/resource/Fiona_Dourif> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FlorencePugh> ns1:sameAs <http://dbpedia.org/resource/Florence_Pugh> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FrancesMcdormand> ns1:sameAs <http://dbpedia.org/resource/Frances_Mcdormand> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#FrankWelker> ns1:sameAs <http://dbpedia.org/resource/Frank_Welker> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GabriellaWilde> ns1:sameAs <http://dbpedia.org/resource/Gabriella_Wilde> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GageMunroe> ns1:sameAs <http://dbpedia.org/resource/Gage_Munroe> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GalGadot> ns1:sameAs <http://dbpedia.org/resource/Gal_Gadot> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GigiLeung> ns1:sameAs <http://dbpedia.org/resource/Gigi_Leung> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GlenPowell> ns1:sameAs <http://dbpedia.org/resource/Glen_Powell> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GlennMorshower> ns1:sameAs <http://dbpedia.org/resource/Glenn_Morshower> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GrahamGreene> ns1:sameAs <http://dbpedia.org/resource/Graham_Greene> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GregoryGadebois> ns1:sameAs <http://dbpedia.org/resource/Gregory_Gadebois> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#GuillermoPfening> ns1:sameAs <http://dbpedia.org/resource/Guillermo_Pfening> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HappyAnderson> ns1:sameAs <http://dbpedia.org/resource/Happy_Anderson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HarukaTomatsu> ns1:sameAs <http://dbpedia.org/resource/Haruka_Tomatsu> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HenryZaga> ns1:sameAs <http://dbpedia.org/resource/Henry_Zaga> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HidenobuKiuchi> ns1:sameAs <http://dbpedia.org/resource/Hidenobu_Kiuchi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HimLaw> ns1:sameAs <http://dbpedia.org/resource/Him_Law> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HimeshPatel> ns1:sameAs <http://dbpedia.org/resource/Himesh_Patel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HiroShimono> ns1:sameAs <http://dbpedia.org/resource/Hiro_Shimono> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HiroyukiSanada> ns1:sameAs <http://dbpedia.org/resource/Hiroyuki_Sanada> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#HugoArana> ns1:sameAs <http://dbpedia.org/resource/Hugo_Arana> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IanMckellen> ns1:sameAs <http://dbpedia.org/resource/Ian_Mckellen> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IdirBenAddi> ns1:sameAs <http://dbpedia.org/resource/Idir_Ben_Addi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IngridOlerinskaya> ns1:sameAs <http://dbpedia.org/resource/Ingrid_Olerinskaya> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IrinaAntonenko> ns1:sameAs <http://dbpedia.org/resource/Irina_Antonenko> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IsaacKragten> ns1:sameAs <http://dbpedia.org/resource/Isaac_Kragten> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IsabelaMerced> ns1:sameAs <http://dbpedia.org/resource/Isabela_Merced> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IvanYankovskiy> ns1:sameAs <http://dbpedia.org/resource/Ivan_Yankovskiy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#IvoUukkivi> ns1:sameAs <http://dbpedia.org/resource/Ivo_Uukkivi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JackWhitehall> ns1:sameAs <http://dbpedia.org/resource/Jack_Whitehall> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JaiCourtney> ns1:sameAs <http://dbpedia.org/resource/Jai_Courtney> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JakeGyllenhaal> ns1:sameAs <http://dbpedia.org/resource/Jake_Gyllenhaal> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JakeWeber> ns1:sameAs <http://dbpedia.org/resource/Jake_Weber> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JamesCorden> ns1:sameAs <http://dbpedia.org/resource/James_Corden> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JamesJordan> ns1:sameAs <http://dbpedia.org/resource/James_Jordan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JamieDemetriou> ns1:sameAs <http://dbpedia.org/resource/Jamie_Demetriou> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JaneLynch> ns1:sameAs <http://dbpedia.org/resource/Jane_Lynch> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JaneSeymour> ns1:sameAs <http://dbpedia.org/resource/Jane_Seymour> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JaredLeto> ns1:sameAs <http://dbpedia.org/resource/Jared_Leto> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JasonStatham> ns1:sameAs <http://dbpedia.org/resource/Jason_Statham> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JavierDrolas> ns1:sameAs <http://dbpedia.org/resource/Javier_Drolas> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JayEllis> ns1:sameAs <http://dbpedia.org/resource/Jay_Ellis> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeanDujardin> ns1:sameAs <http://dbpedia.org/resource/Jean_Dujardin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeffBergman> ns1:sameAs <http://dbpedia.org/resource/Jeff_Bergman> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeffMoore> ns1:sameAs <http://dbpedia.org/resource/Jeff_Moore> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeffersonHall> ns1:sameAs <http://dbpedia.org/resource/Jefferson_Hall> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeffreyDeanMorgan> ns1:sameAs <http://dbpedia.org/resource/Jeffrey_Dean_Morgan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeffreyDonovan> ns1:sameAs <http://dbpedia.org/resource/Jeffrey_Donovan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeffreyWright> ns1:sameAs <http://dbpedia.org/resource/Jeffrey_Wright> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JenniferConnelly> ns1:sameAs <http://dbpedia.org/resource/Jennifer_Connelly> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JeremyThomas> ns1:sameAs <http://dbpedia.org/resource/Jeremy_Thomas> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JessePlemons> ns1:sameAs <http://dbpedia.org/resource/Jesse_Plemons> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JessicaHenwick> ns1:sameAs <http://dbpedia.org/resource/Jessica_Henwick> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JimmySmits> ns1:sameAs <http://dbpedia.org/resource/Jimmy_Smits> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JodieComer> ns1:sameAs <http://dbpedia.org/resource/Jodie_Comer> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JoeKeery> ns1:sameAs <http://dbpedia.org/resource/Joe_Keery> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JoeTaslim> ns1:sameAs <http://dbpedia.org/resource/Joe_Taslim> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JoelFry> ns1:sameAs <http://dbpedia.org/resource/Joel_Fry> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JoelMorris> ns1:sameAs <http://dbpedia.org/resource/Joel_Morris> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JohnCena> ns1:sameAs <http://dbpedia.org/resource/John_Cena> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JohnDavidWashington> ns1:sameAs <http://dbpedia.org/resource/John_David_Washington> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JohnRhys_Davies> ns1:sameAs <http://dbpedia.org/resource/John_Rhys_Davies> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JonBernthal> ns1:sameAs <http://dbpedia.org/resource/Jon_Bernthal> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JordanaBrewster> ns1:sameAs <http://dbpedia.org/resource/Jordana_Brewster> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JorisJarsky> ns1:sameAs <http://dbpedia.org/resource/Joris_Jarsky> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JoshHartnett> ns1:sameAs <http://dbpedia.org/resource/Josh_Hartnett> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JoshLawson> ns1:sameAs <http://dbpedia.org/resource/Josh_Lawson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JuanPabloRaba> ns1:sameAs <http://dbpedia.org/resource/Juan_Pablo_Raba> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JuhanUlfsak> ns1:sameAs <http://dbpedia.org/resource/Juhan_Ulfsak> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JulianDennison> ns1:sameAs <http://dbpedia.org/resource/Julian_Dennison> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JulianFerro> ns1:sameAs <http://dbpedia.org/resource/Julian_Ferro> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JulianneMoore> ns1:sameAs <http://dbpedia.org/resource/Julianne_Moore> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JulietteBinoche> ns1:sameAs <http://dbpedia.org/resource/Juliette_Binoche> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#JuneForay> ns1:sameAs <http://dbpedia.org/resource/June_Foray> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KaoriMizuhashi> ns1:sameAs <http://dbpedia.org/resource/Kaori_Mizuhashi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KatherynWinnick> ns1:sameAs <http://dbpedia.org/resource/Katheryn_Winnick> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KatieAselton> ns1:sameAs <http://dbpedia.org/resource/Katie_Aselton> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KatsuyukiKonishi> ns1:sameAs <http://dbpedia.org/resource/Katsuyuki_Konishi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KellyMarieTran> ns1:sameAs <http://dbpedia.org/resource/Kelly_Marie_Tran> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KenichiSuzumura> ns1:sameAs <http://dbpedia.org/resource/Kenichi_Suzumura> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KennethBranagh> ns1:sameAs <http://dbpedia.org/resource/Kenneth_Branagh> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KeriRussell> ns1:sameAs <http://dbpedia.org/resource/Keri_Russell> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KhrisDavis> ns1:sameAs <http://dbpedia.org/resource/Khris_Davis> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KokiUchiyama> ns1:sameAs <http://dbpedia.org/resource/Koki_Uchiyama> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KonstantinKhabenskiy> ns1:sameAs <http://dbpedia.org/resource/Konstantin_Khabenskiy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KristenHarris> ns1:sameAs <http://dbpedia.org/resource/Kristen_Harris> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KristenWiig> ns1:sameAs <http://dbpedia.org/resource/Kristen_Wiig> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KristofferPolaha> ns1:sameAs <http://dbpedia.org/resource/Kristoffer_Polaha> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#KyleChandler> ns1:sameAs <http://dbpedia.org/resource/Kyle_Chandler> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LashanaLynch> ns1:sameAs <http://dbpedia.org/resource/Lashana_Lynch> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LauraMarano> ns1:sameAs <http://dbpedia.org/resource/Laura_Marano> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LaurentNicolas> ns1:sameAs <http://dbpedia.org/resource/Laurent_Nicolas> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LazAlonso> ns1:sameAs <http://dbpedia.org/resource/Laz_Alonso> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LeaSeydoux> ns1:sameAs <http://dbpedia.org/resource/Lea_Seydoux> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LebronJames> ns1:sameAs <http://dbpedia.org/resource/Lebron_James> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LeslieGrace> ns1:sameAs <http://dbpedia.org/resource/Leslie_Grace> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LeslieMann> ns1:sameAs <http://dbpedia.org/resource/Leslie_Mann> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LewisTan> ns1:sameAs <http://dbpedia.org/resource/Lewis_Tan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LiamNeeson> ns1:sameAs <http://dbpedia.org/resource/Liam_Neeson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LilRelHowery> ns1:sameAs <http://dbpedia.org/resource/Lil_Rel_Howery> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LillyAspell> ns1:sameAs <http://dbpedia.org/resource/Lilly_Aspell> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Lin_ManuelMiranda> ns1:sameAs <http://dbpedia.org/resource/Lin_Manuel_Miranda> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LivTyler> ns1:sameAs <http://dbpedia.org/resource/Liv_Tyler> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LouisGarrel> ns1:sameAs <http://dbpedia.org/resource/Louis_Garrel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LucasBlack> ns1:sameAs <http://dbpedia.org/resource/Lucas_Black> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LuceRains> ns1:sameAs <http://dbpedia.org/resource/Luce_Rains> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Ludacris> ns1:sameAs <http://dbpedia.org/resource/Ludacris> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LudiLin> ns1:sameAs <http://dbpedia.org/resource/Ludi_Lin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LuisLuque> ns1:sameAs <http://dbpedia.org/resource/Luis_Luque> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LuisMachin> ns1:sameAs <http://dbpedia.org/resource/Luis_Machin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#LyndaCarter> ns1:sameAs <http://dbpedia.org/resource/Lynda_Carter> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MaisieWilliams> ns1:sameAs <http://dbpedia.org/resource/Maisie_Williams> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MannyJacinto> ns1:sameAs <http://dbpedia.org/resource/Manny_Jacinto> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MarcelSabat> ns1:sameAs <http://dbpedia.org/resource/Marcel_Sabat> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MarceloSubiotto> ns1:sameAs <http://dbpedia.org/resource/Marcelo_Subiotto> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MargotRobbie> ns1:sameAs <http://dbpedia.org/resource/Margot_Robbie> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MarieBunel> ns1:sameAs <http://dbpedia.org/resource/Marie_Bunel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MarisolCorrea> ns1:sameAs <http://dbpedia.org/resource/Marisol_Correa> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MarkStrong> ns1:sameAs <http://dbpedia.org/resource/Mark_Strong> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MarsaiMartin> ns1:sameAs <http://dbpedia.org/resource/Marsai_Martin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MartinDonovan> ns1:sameAs <http://dbpedia.org/resource/Martin_Donovan> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MathieuAmalric> ns1:sameAs <http://dbpedia.org/resource/Mathieu_Amalric> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MaxHuang> ns1:sameAs <http://dbpedia.org/resource/Max_Huang> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MckennaGrace> ns1:sameAs <http://dbpedia.org/resource/Mckenna_Grace> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MehcadBrooks> ns1:sameAs <http://dbpedia.org/resource/Mehcad_Brooks> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MelBlanc> ns1:sameAs <http://dbpedia.org/resource/Mel_Blanc> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MelissaBarrera> ns1:sameAs <http://dbpedia.org/resource/Melissa_Barrera> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MelvilPoupaud> ns1:sameAs <http://dbpedia.org/resource/Melvil_Poupaud> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MichaelCaine> ns1:sameAs <http://dbpedia.org/resource/Michael_Caine> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MichaelHyatt> ns1:sameAs <http://dbpedia.org/resource/Michael_Hyatt> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MichaelPena> ns1:sameAs <http://dbpedia.org/resource/Michael_Pena> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MichelleRodriguez> ns1:sameAs <http://dbpedia.org/resource/Michelle_Rodriguez> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MiguelAngelSola> ns1:sameAs <http://dbpedia.org/resource/Miguel_Angel_Sola> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MikeFaist> ns1:sameAs <http://dbpedia.org/resource/Mike_Faist> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MilesTeller> ns1:sameAs <http://dbpedia.org/resource/Miles_Teller> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MillieBobbyBrown> ns1:sameAs <http://dbpedia.org/resource/Millie_Bobby_Brown> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MinoriChihara> ns1:sameAs <http://dbpedia.org/resource/Minori_Chihara> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#MyriemAkeddiou> ns1:sameAs <http://dbpedia.org/resource/Myriem_Akeddiou> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NahuelViale> ns1:sameAs <http://dbpedia.org/resource/Nahuel_Viale> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NanouGarcia> ns1:sameAs <http://dbpedia.org/resource/Nanou_Garcia> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NaomieHarris> ns1:sameAs <http://dbpedia.org/resource/Naomie_Harris> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NatalieMorales> ns1:sameAs <http://dbpedia.org/resource/Natalie_Morales> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NatashaRothwell> ns1:sameAs <http://dbpedia.org/resource/Natasha_Rothwell> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NathalieEmmanuel> ns1:sameAs <http://dbpedia.org/resource/Nathalie_Emmanuel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NatsukiHanae> ns1:sameAs <http://dbpedia.org/resource/Natsuki_Hanae> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NgChinHan> ns1:sameAs <http://dbpedia.org/resource/Ng_Chin_Han> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NiamhAlgar> ns1:sameAs <http://dbpedia.org/resource/Niamh_Algar> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NicholasHoult> ns1:sameAs <http://dbpedia.org/resource/Nicholas_Hoult> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NickyJam> ns1:sameAs <http://dbpedia.org/resource/Nicky_Jam> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#NicolasCage> ns1:sameAs <http://dbpedia.org/resource/Nicolas_Cage> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#OakesFegley> ns1:sameAs <http://dbpedia.org/resource/Oakes_Fegley> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#OakleyBull> ns1:sameAs <http://dbpedia.org/resource/Oakley_Bull> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#OlgaMerediz> ns1:sameAs <http://dbpedia.org/resource/Olga_Merediz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#OrlandoBloom> ns1:sameAs <http://dbpedia.org/resource/Orlando_Bloom> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#OthmaneMoumen> ns1:sameAs <http://dbpedia.org/resource/Othmane_Moumen> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#OwenBurke> ns1:sameAs <http://dbpedia.org/resource/Owen_Burke> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PanayotisPascot> ns1:sameAs <http://dbpedia.org/resource/Panayotis_Pascot> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PatrickWilson> ns1:sameAs <http://dbpedia.org/resource/Patrick_Wilson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PaulEssiembre> ns1:sameAs <http://dbpedia.org/resource/Paul_Essiembre> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PaulGiamatti> ns1:sameAs <http://dbpedia.org/resource/Paul_Giamatti> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PaulHamy> ns1:sameAs <http://dbpedia.org/resource/Paul_Hamy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PaulWalterHauser> ns1:sameAs <http://dbpedia.org/resource/Paul_Walter_Hauser> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PedroPascal> ns1:sameAs <http://dbpedia.org/resource/Pedro_Pascal> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PeterDinklage> ns1:sameAs <http://dbpedia.org/resource/Peter_Dinklage> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#PostMalone> ns1:sameAs <http://dbpedia.org/resource/Post_Malone> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RachelWeisz> ns1:sameAs <http://dbpedia.org/resource/Rachel_Weisz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RachelZegler> ns1:sameAs <http://dbpedia.org/resource/Rachel_Zegler> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RalphFiennes> ns1:sameAs <http://dbpedia.org/resource/Ralph_Fiennes> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RamiMalek> ns1:sameAs <http://dbpedia.org/resource/Rami_Malek> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RandyThom> ns1:sameAs <http://dbpedia.org/resource/Randy_Thom> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RaulCastillo> ns1:sameAs <http://dbpedia.org/resource/Raul_Castillo> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RaviPatel> ns1:sameAs <http://dbpedia.org/resource/Ravi_Patel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RayWinstone> ns1:sameAs <http://dbpedia.org/resource/Ray_Winstone> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RebeccaHall> ns1:sameAs <http://dbpedia.org/resource/Rebecca_Hall> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RebeccaSpence> ns1:sameAs <http://dbpedia.org/resource/Rebecca_Spence> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RhysDarby> ns1:sameAs <http://dbpedia.org/resource/Rhys_Darby> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RichCeraulo> ns1:sameAs <http://dbpedia.org/resource/Rich_Ceraulo> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RichCerauloKo> ns1:sameAs <http://dbpedia.org/resource/Rich_Ceraulo_Ko> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RinaSato> ns1:sameAs <http://dbpedia.org/resource/Rina_Sato> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RitaMoreno> ns1:sameAs <http://dbpedia.org/resource/Rita_Moreno> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RobRiggle> ns1:sameAs <http://dbpedia.org/resource/Rob_Riggle> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RobertDeNiro> ns1:sameAs <http://dbpedia.org/resource/Robert_De_Niro> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RobertDowneyJr> ns1:sameAs <http://dbpedia.org/resource/Robert_Downey_Jr> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RobertPattinson> ns1:sameAs <http://dbpedia.org/resource/Robert_Pattinson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RobinWright> ns1:sameAs <http://dbpedia.org/resource/Robin_Wright> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RoryCochrane> ns1:sameAs <http://dbpedia.org/resource/Rory_Cochrane> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RoseByrne> ns1:sameAs <http://dbpedia.org/resource/Rose_Byrne> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RupertDegas> ns1:sameAs <http://dbpedia.org/resource/Rupert_Degas> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#RyanReynolds> ns1:sameAs <http://dbpedia.org/resource/Ryan_Reynolds> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SamNeill> ns1:sameAs <http://dbpedia.org/resource/Sam_Neill> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SamaraWeaving> ns1:sameAs <http://dbpedia.org/resource/Samara_Weaving> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SaoriHayami> ns1:sameAs <http://dbpedia.org/resource/Saori_Hayami> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SatoshiHino> ns1:sameAs <http://dbpedia.org/resource/Satoshi_Hino> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ScarlettJohansson> ns1:sameAs <http://dbpedia.org/resource/Scarlett_Johansson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ScottEastwood> ns1:sameAs <http://dbpedia.org/resource/Scott_Eastwood> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ScottHaze> ns1:sameAs <http://dbpedia.org/resource/Scott_Haze> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SeanAstin> ns1:sameAs <http://dbpedia.org/resource/Sean_Astin> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ShannonKook> ns1:sameAs <http://dbpedia.org/resource/Shannon_Kook> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ShunOguri> ns1:sameAs <http://dbpedia.org/resource/Shun_Oguri> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Sia> ns1:sameAs <http://dbpedia.org/resource/Sia> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SilvinaBosco> ns1:sameAs <http://dbpedia.org/resource/Silvina_Bosco> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SimonYam> ns1:sameAs <http://dbpedia.org/resource/Simon_Yam> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#StephanieBeatriz> ns1:sameAs <http://dbpedia.org/resource/Stephanie_Beatriz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#StephanieSy> ns1:sameAs <http://dbpedia.org/resource/Stephanie_Sy> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SterlingJerins> ns1:sameAs <http://dbpedia.org/resource/Sterling_Jerins> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#SungKang> ns1:sameAs <http://dbpedia.org/resource/Sung_Kang> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#T_Pain> ns1:sameAs <http://dbpedia.org/resource/T_Pain> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TadanobuAsano> ns1:sameAs <http://dbpedia.org/resource/Tadanobu_Asano> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TaikaWaititi> ns1:sameAs <http://dbpedia.org/resource/Taika_Waititi> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TakahiroSakurai> ns1:sameAs <http://dbpedia.org/resource/Takahiro_Sakurai> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TakehitoKoyasu> ns1:sameAs <http://dbpedia.org/resource/Takehito_Koyasu> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TeresaRuiz> ns1:sameAs <http://dbpedia.org/resource/Teresa_Ruiz> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TerryKinney> ns1:sameAs <http://dbpedia.org/resource/Terry_Kinney> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TeyonahParris> ns1:sameAs <http://dbpedia.org/resource/Teyonah_Parris> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ThomasKee> ns1:sameAs <http://dbpedia.org/resource/Thomas_Kee> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TomCruise> ns1:sameAs <http://dbpedia.org/resource/Tom_Cruise> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TomokazuSeki> ns1:sameAs <http://dbpedia.org/resource/Tomokazu_Seki> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TonyTodd> ns1:sameAs <http://dbpedia.org/resource/Tony_Todd> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TylerPerry> ns1:sameAs <http://dbpedia.org/resource/Tyler_Perry> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#TyreseGibson> ns1:sameAs <http://dbpedia.org/resource/Tyrese_Gibson> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#UmaThurman> ns1:sameAs <http://dbpedia.org/resource/Uma_Thurman> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#UtkarshAmbudkar> ns1:sameAs <http://dbpedia.org/resource/Utkarsh_Ambudkar> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ValKilmer> ns1:sameAs <http://dbpedia.org/resource/Val_Kilmer> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VeraFarmiga> ns1:sameAs <http://dbpedia.org/resource/Vera_Farmiga> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VictoriaBluck> ns1:sameAs <http://dbpedia.org/resource/Victoria_Bluck> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#ViggoMortensen> ns1:sameAs <http://dbpedia.org/resource/Viggo_Mortensen> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VinDiesel> ns1:sameAs <http://dbpedia.org/resource/Vin_Diesel> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VincentGrass> ns1:sameAs <http://dbpedia.org/resource/Vincent_Grass> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VincentPerez> ns1:sameAs <http://dbpedia.org/resource/Vincent_Perez> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VioletaPalukas> ns1:sameAs <http://dbpedia.org/resource/Violeta_Palukas> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VladimirGusev> ns1:sameAs <http://dbpedia.org/resource/Vladimir_Gusev> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#VladimirKuznetsov> ns1:sameAs <http://dbpedia.org/resource/Vladimir_Kuznetsov> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WaltonGoggins> ns1:sameAs <http://dbpedia.org/resource/Walton_Goggins> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WesChatham> ns1:sameAs <http://dbpedia.org/resource/Wes_Chatham> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WilliamHanna> ns1:sameAs <http://dbpedia.org/resource/William_Hanna> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WilliamHurt> ns1:sameAs <http://dbpedia.org/resource/William_Hurt> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#WilliamSadler> ns1:sameAs <http://dbpedia.org/resource/William_Sadler> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#YoshitsuguMatsuoka> ns1:sameAs <http://dbpedia.org/resource/Yoshitsugu_Matsuoka> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#YuiIshikawa> ns1:sameAs <http://dbpedia.org/resource/Yui_Ishikawa> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#YuriKolokolnikov> ns1:sameAs <http://dbpedia.org/resource/Yuri_Kolokolnikov> .
+
+<https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#Zendaya> ns1:sameAs <http://dbpedia.org/resource/Zendaya> .
+
