@@ -3,7 +3,7 @@ import logging
 import re
 from urllib.parse import urljoin
 
-from rdflib import Graph, RDF
+from rdflib import Graph, RDF, OWL
 
 from constant import (
     DBPEDIA_DATA_URI,
@@ -25,7 +25,7 @@ def get_actors_uris(graph):
 
 def get_dbpedia_actor(twss_actor_uri):
     dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
-    dbpedia_actor_data_uri = urljoin(DBPEDIA_DATA_URI, dbpedia_actor_name)
+    dbpedia_actor_data_uri = urljoin(DBPEDIA_DATA_URI, f"{dbpedia_actor_name}.ttl")
     logging.debug(f"Request to {dbpedia_actor_data_uri}")
     actor_graph = OwlMovieRepository.read(dbpedia_actor_data_uri)
     return actor_graph
@@ -53,7 +53,7 @@ def add_same_as_triplet(twss_actor_uri, graph):
 
     same_as = (
         twss_actor_uri,
-        NAMESPACES["owl"].sameAs,
+        OWL.sameAs,
         NAMESPACES["dbr"][dbpedia_actor_name],
     )
 
