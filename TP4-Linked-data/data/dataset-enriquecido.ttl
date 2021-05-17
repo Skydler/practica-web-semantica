@@ -2061,7 +2061,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :AaronTaylor_Johnson a ns1:Actor ;
     ns1:Name "Aaron Taylor-Johnson" ;
     ns1:thumbnail :AaronTaylor_Johnson_img ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aaron_Taylor_Johnson> ;
+    ns6:birthDate "1990-06-13"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aaron_Taylor-Johnson> ;
     :url "https://www.rottentomatoes.com/celebrity/aaron_johnson"^^xsd:anyUri .
 
 :AaronTaylor_Johnson_img a ns1:Image ;
@@ -2076,7 +2078,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :AdeleHaenel a ns1:Actor ;
     ns1:Name "Adèle Haenel" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Adele_Haenel> .
+    ns6:birthDate "1989-02-11"^^xsd:date ;
+    ns6:occupation "Actress"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Adèle_Haenel> .
 
 :AidanGillen a ns1:Actor ;
     ns1:Name "Aidan Gillen" ;
@@ -2086,7 +2090,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :AilinSalas a ns1:Actor ;
     ns1:Name "Ailín Salas" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ailin_Salas> .
+    ns6:birthDate "1993-07-14"^^xsd:date ;
+    ns6:occupation "Actress"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ailín_Salas> .
 
 :AkariKito a ns1:Actor ;
     ns1:Name "Akari Kito" .
@@ -2116,7 +2122,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :AlexanderSkarsgard a ns1:Actor ;
     ns1:Name "Alexander Skarsgård" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexander_Skarsgard> .
+    ns6:birthDate "1976-08-25"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexander_Skarsgård> .
 
 :AlexandrGrishin a ns1:MovieDirector ;
     ns1:Name "Alexandr Grishin" .
@@ -2201,7 +2209,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :AndreMarcon a ns1:Actor ;
     ns1:Name "André Marcon" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andre_Marcon> .
+    ns6:birthDate "1948-07-06"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/André_Marcon> .
 
 :AndreaAndrade a ns1:Actor ;
     ns1:Name "Andrea Andrade" .
@@ -2447,7 +2457,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :AyaEndo a ns1:Actor ;
     ns1:Name "Aya Endo" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aya_Endo> .
+    ns6:birthDate "1980-02-17"^^xsd:date ;
+    ns6:occupation "Narration"@en,
+        "Voice_acting_in_Japan"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aya_Endō> .
 
 :BahiaBlanca_trailer a :trailer ;
     :url "https://www.youtube.com/embed/sFujNCJXBAo?rel=0&controls=0&showinfo=0"^^xsd:anyUri .
@@ -2602,7 +2615,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :CassieKramer a ns1:Actor ;
     ns1:Name "Cassie Kramer" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Cassie_Kramer> .
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Candyman_(2021_film)> .
 
 :CateShortland a ns1:MovieDirector ;
     ns1:Name "Cate Shortland" .
@@ -2648,7 +2661,8 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :CharlesParnell a ns1:Actor ;
     ns1:Name "Charles Parnell" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Charles_Parnell> .
+    ns6:birthDate "1846-06-27"^^xsd:date ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Charles_Stewart_Parnell> .
 
 :CharlieHeaton a ns1:Actor ;
     ns1:Name "Charlie Heaton" ;
@@ -2675,7 +2689,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :ChloeGraceMoretz a ns1:Actor ;
     ns1:Name "Chloë Grace Moretz" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chloe_Grace_Moretz> .
+    ns6:birthDate "1997-02-10"^^xsd:date ;
+    ns6:occupation "Actress"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chloë_Grace_Moretz> .
 
 :ChrisBauer a ns1:Actor ;
     ns1:Name "Chris Bauer" ;
@@ -2748,7 +2764,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 :ClemencePoesy a ns1:Actor ;
     ns1:Name "Clémence Poésy" ;
     ns1:thumbnail :ClemencePoesy_img ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Clemence_Poesy> ;
+    ns6:birthDate "1982-10-30"^^xsd:date ;
+    ns6:occupation "Actress, model"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Clémence_Poésy> ;
     :url "https://www.rottentomatoes.com/celebrity/clemence-poesy"^^xsd:anyUri .
 
 :ClemencePoesy_img a ns1:Image ;
@@ -2852,11 +2870,15 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :DaphneRubin_Vega a ns1:Actor ;
     ns1:Name "Daphne Rubin-Vega" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Daphne_Rubin_Vega> .
+    ns6:birthDate "1969-11-18"^^xsd:date ;
+    ns6:occupation "Dancer, actress, singer-songwriter"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Daphne_Rubin-Vega> .
 
 :DarioGrandinetti a ns1:Actor ;
     ns1:Name "Darío Grandinetti" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dario_Grandinetti> .
+    ns6:birthDate "1959-03-05"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Darío_Grandinetti> .
 
 :DaveCallaham a ns1:Person ;
     ns1:Name "Dave Callaham" ;
@@ -2864,7 +2886,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :DavidAlvarez a ns1:Actor ;
     ns1:Name "David Alvarez" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Alvarez> .
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Álvarez> .
 
 :DavidBax a ns1:Person ;
     ns1:Name "David Bax" ;
@@ -2886,11 +2908,15 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :DeborahFrancois a ns1:Actor ;
     ns1:Name "Déborah François" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Deborah_Francois> .
+    ns6:birthDate "1987-05-24"^^xsd:date ;
+    ns6:occupation "Actress"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Déborah_François> .
 
 :DemianBichir a ns1:Actor ;
     ns1:Name "Demián Bichir" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Demian_Bichir> .
+    ns6:birthDate "1963-08-01"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Demián_Bichir> .
 
 :DemonSlayerMugenTrain_show_1 a :film_show ;
     ns1:startDateTime "2021-05-15T14:30:00"^^xsd:dateTime ;
@@ -3058,7 +3084,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :EdgarRamirez a ns1:Actor ;
     ns1:Name "Edgar Ramírez" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Edgar_Ramirez> .
+    ns6:birthDate "1977-03-25"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Édgar_Ramírez> .
 
 :EfilmcriticCom a ns1:Company ;
     ns1:Name "eFilmCritic.com" ;
@@ -4232,7 +4260,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :GregoryGadebois a ns1:Actor ;
     ns1:Name "Grégory Gadebois" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gregory_Gadebois> .
+    ns6:birthDate "1976-07-24"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Grégory_Gadebois> .
 
 :GuadalupeDocampo a ns1:Actor ;
     ns1:Name "Guadalupe Docampo" .
@@ -4362,7 +4392,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :IsabelaMerced a ns1:Actor ;
     ns1:Name "Isabela Merced" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Isabela_Merced> .
+    ns6:birthDate "2001-07-10"^^xsd:date ;
+    ns6:occupation "Actress"@en,
+        "singer"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Isabela_Moner> .
 
 :Israel a ns1:Country ;
     ns1:Name "Israel" .
@@ -4372,7 +4405,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :IvanYankovskiy a ns1:Actor ;
     ns1:Name "Ivan Yankovskiy" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ivan_Yankovskiy> .
+    ns6:birthDate "1990-10-30"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ivan_Yankovsky> .
 
 :Ives a ns1:FictionalCharacter ;
     ns1:Name "Ives" .
@@ -4594,7 +4629,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :JoelMorris a ns1:Actor ;
     ns1:Name "Joel Morris" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Joel_Morris> ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jason_Hazeley_and_Joel_Morris> ;
     :url "https://www.metacritic.com/person/joel-morris"^^xsd:anyUri .
 
 :JohnCena a ns1:Actor ;
@@ -4820,11 +4855,16 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :KokiUchiyama a ns1:Actor ;
     ns1:Name "Koki Uchiyama" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Koki_Uchiyama> .
+    ns6:birthDate "1990-08-16"^^xsd:date ;
+    ns6:occupation "Actor"@en,
+        "voice actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Kōki_Uchiyama> .
 
 :KonstantinKhabenskiy a ns1:Actor ;
     ns1:Name "Konstantin Khabenskiy" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Konstantin_Khabenskiy> .
+    ns6:birthDate "1972-01-11"^^xsd:date ;
+    ns6:occupation "Actor • Director • Philanthropist"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Konstantin_Khabensky> .
 
 :KristenHarris a ns1:Actor ;
     ns1:Name "Kristen Harris" ;
@@ -4907,11 +4947,14 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :LeaSeydoux a ns1:Actor ;
     ns1:Name "Léa Seydoux" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lea_Seydoux> .
+    ns6:birthDate "1985-07-01"^^xsd:date ;
+    ns6:occupation "Actress"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Léa_Seydoux> .
 
 :LebronJames a ns1:Actor ;
     ns1:Name "LeBron James" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lebron_James> .
+    ns6:birthDate "1984-12-30"^^xsd:date ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/LeBron_James> .
 
 :LeslieGrace a ns1:Actor ;
     ns1:Name "Leslie Grace" ;
@@ -4945,7 +4988,14 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :Lin_ManuelMiranda a ns1:Actor ;
     ns1:Name "Lin-Manuel Miranda" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lin_Manuel_Miranda> .
+    ns6:birthDate "1980-01-16"^^xsd:date ;
+    ns6:occupation "Composer"@en,
+        "actor"@en,
+        "lyricist"@en,
+        "playwright"@en,
+        "producer"@en,
+        "singer"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lin-Manuel_Miranda> .
 
 :LolitaMarie a ns1:Actor ;
     ns1:Name "Lolita Marie" ;
@@ -5066,7 +5116,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :LuisMachin a ns1:Actor ;
     ns1:Name "Luis Machín" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Luis_Machin> .
+    ns6:birthDate "1968-04-10"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Luis_Machín> .
 
 :LyndaCarter a ns1:Actor ;
     ns1:Name "Lynda Carter" ;
@@ -5253,7 +5305,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :MichaelPena a ns1:Actor ;
     ns1:Name "Michael Peña" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Pena> .
+    ns6:birthDate "1976-01-13"^^xsd:date ;
+    ns6:occupation "Actor"@en,
+        "musician"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Peña> .
 
 :MichelleRodriguez a ns1:Actor ;
     ns1:Name "Michelle Rodriguez" ;
@@ -5274,7 +5329,9 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :MiguelAngelSola a ns1:Actor ;
     ns1:Name "Miguel Ángel Solá" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Miguel_Angel_Sola> .
+    ns6:birthDate "1950-05-14"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Miguel_Ángel_Solá> .
 
 :MikeFaist a ns1:Actor ;
     ns1:Name "Mike Faist" ;
@@ -5755,7 +5812,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :OakleyBull a ns1:Actor ;
     ns1:Name "Oakley Bull" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Oakley_Bull> ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Beautiful_Boy_(2018_film)> ;
     :url "https://www.metacritic.com/person/oakley-bull"^^xsd:anyUri .
 
 :OlgaMerediz a ns1:Actor ;
@@ -6034,7 +6091,7 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :RichCerauloKo a ns1:Actor ;
     ns1:Name "Rich Ceraulo Ko" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rich_Ceraulo_Ko> ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tenet_(film)> ;
     :url "https://www.rottentomatoes.com/celebrity/rich_ceraulo_ko"^^xsd:anyUri .
 
 :RickKelvinBranch a ns1:Actor ;
@@ -6043,7 +6100,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :RinaSato a ns1:Actor ;
     ns1:Name "Rina Sato" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rina_Sato> .
+    ns6:birthDate "1981-05-02"^^xsd:date ;
+    ns6:occupation "Voice_acting_in_Japan"@en,
+        "singer"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rina_Satō> .
 
 :RitaMoreno a ns1:Actor ;
     ns1:Name "Rita Moreno" ;
@@ -6067,7 +6127,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :RobertDowneyJr a ns1:Actor ;
     ns1:Name "Robert Downey Jr." ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Downey_Jr> .
+    ns6:birthDate "1965-04-04"^^xsd:date ;
+    ns6:occupation "Actor"@en,
+        "producer"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Downey_Jr.> .
 
 :RobertPattinson a ns1:Actor ;
     ns1:Name "Robert Pattinson" ;
@@ -6335,7 +6398,12 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :T_Pain a ns1:Actor ;
     ns1:Name "T-Pain" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/T_Pain> .
+    ns6:birthDate "1985-09-30"^^xsd:date ;
+    ns6:occupation "Rapper"@en,
+        "record producer"@en,
+        "singer"@en,
+        "songwriter"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/T-Pain> .
 
 :TadanobuAsano a ns1:Actor ;
     ns1:Name "Tadanobu Asano" ;
@@ -7532,7 +7600,10 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :EizaGonzalez a ns1:Actor ;
     ns1:Name "Eiza González" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eiza_Gonzalez> .
+    ns6:birthDate "1990-01-30"^^xsd:date ;
+    ns6:occupation "Actress"@en,
+        "singer"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eiza_González> .
 
 :ElizabethDebicki a ns1:Actor ;
     ns1:Name "Elizabeth Debicki" ;
@@ -7672,14 +7743,19 @@ ns4:reviewCount rdfs:domain ns4:AggregateRating ;
 
 :IanMckellen a ns1:Actor ;
     ns1:Name "Ian McKellen" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Mckellen> .
+    ns6:birthDate "1939-05-25"^^xsd:date ;
+    ns6:occupation "Actor"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_McKellen> .
 
 :Inglaterra a ns1:Country ;
     ns1:Name "Inglaterra" .
 
 :JohnRhys_Davies a ns1:Actor ;
     ns1:Name "John Rhys-Davies" ;
-    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Rhys_Davies> .
+    ns6:birthDate "1944-05-05"^^xsd:date ;
+    ns6:occupation "Actor"@en,
+        "Voice-over"@en ;
+    ns7:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Rhys-Davies> .
 
 :LivTyler a ns1:Actor ;
     ns1:Name "Liv Tyler" ;

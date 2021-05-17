@@ -3,13 +3,13 @@ from rdflib import Graph
 
 class OwlMovieRepository:
     @classmethod
-    def read(cls, graph_location, namespaces=None, file_format="turtle"):
+    def read(cls, source, namespaces=None, file_format="turtle"):
         graph = Graph()
 
         if namespaces is not None:
             cls.__bind_namespaces(graph, namespaces)
 
-        graph.parse(str(graph_location), format=file_format)
+        graph.parse(source, format=file_format)
 
         return graph
 
@@ -19,9 +19,9 @@ class OwlMovieRepository:
             cls.__bind_namespaces(graph, namespaces)
 
         with open(path_file, "w") as file:
-            serialized_graph = graph.serialize(format=file_format).decode("utf-8")
+            serialized_graph = graph.serialize(format=file_format)
 
-            file.write(serialized_graph)
+            file.write(serialized_graph.decode("utf-8"))
 
     @classmethod
     def __bind_namespaces(cls, graph, namespaces):

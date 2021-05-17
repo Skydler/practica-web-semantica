@@ -1,694 +1,694 @@
 @prefix dbr: <http://dbpedia.org/resource/> .
-@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix twss: <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
 
-twss:AaronTaylor_Johnson ns1:sameAs dbr:Aaron_Taylor_Johnson .
+twss:AaronTaylor_Johnson owl:sameAs dbr:Aaron_Taylor-Johnson .
 
-twss:AdeleHaenel ns1:sameAs dbr:Adele_Haenel .
+twss:AdeleHaenel owl:sameAs dbr:Adèle_Haenel .
 
-twss:AidanGillen ns1:sameAs dbr:Aidan_Gillen .
+twss:AidanGillen owl:sameAs dbr:Aidan_Gillen .
 
-twss:AilinSalas ns1:sameAs dbr:Ailin_Salas .
+twss:AilinSalas owl:sameAs dbr:Ailín_Salas .
 
-twss:AlbertDelpy ns1:sameAs dbr:Albert_Delpy .
+twss:AlbertDelpy owl:sameAs dbr:Albert_Delpy .
 
-twss:AlexFerns ns1:sameAs dbr:Alex_Ferns .
+twss:AlexFerns owl:sameAs dbr:Alex_Ferns .
 
-twss:AlexanderSkarsgard ns1:sameAs dbr:Alexander_Skarsgard .
+twss:AlexanderSkarsgard owl:sameAs dbr:Alexander_Skarsgård .
 
-twss:AliceBraga ns1:sameAs dbr:Alice_Braga .
+twss:AliceBraga owl:sameAs dbr:Alice_Braga .
 
-twss:AmrWaked ns1:sameAs dbr:Amr_Waked .
+twss:AmrWaked owl:sameAs dbr:Amr_Waked .
 
-twss:AmyMadigan ns1:sameAs dbr:Amy_Madigan .
+twss:AmyMadigan owl:sameAs dbr:Amy_Madigan .
 
-twss:AnaCelentano ns1:sameAs dbr:Ana_Celentano .
+twss:AnaCelentano owl:sameAs dbr:Ana_Celentano .
 
-twss:AnaIsabelle ns1:sameAs dbr:Ana_Isabelle .
+twss:AnaIsabelle owl:sameAs dbr:Ana_Isabelle .
 
-twss:AnaKatz ns1:sameAs dbr:Ana_Katz .
+twss:AnaKatz owl:sameAs dbr:Ana_Katz .
 
-twss:AndreBraugher ns1:sameAs dbr:Andre_Braugher .
+twss:AndreBraugher owl:sameAs dbr:Andre_Braugher .
 
-twss:AndreMarcon ns1:sameAs dbr:Andre_Marcon .
+twss:AndreMarcon owl:sameAs dbr:André_Marcon .
 
-twss:AndrewHoward ns1:sameAs dbr:Andrew_Howard .
+twss:AndrewHoward owl:sameAs dbr:Andrew_Howard .
 
-twss:AngelinaJolie ns1:sameAs dbr:Angelina_Jolie .
+twss:AngelinaJolie owl:sameAs dbr:Angelina_Jolie .
 
-twss:AnselElgort ns1:sameAs dbr:Ansel_Elgort .
+twss:AnselElgort owl:sameAs dbr:Ansel_Elgort .
 
-twss:AnthonyRamos ns1:sameAs dbr:Anthony_Ramos .
+twss:AnthonyRamos owl:sameAs dbr:Anthony_Ramos .
 
-twss:AnyaTaylor_Joy ns1:sameAs dbr:Anya_Taylor_Joy .
+twss:AnyaTaylor_Joy owl:sameAs dbr:Anya_Taylor_Joy .
 
-twss:ArayaMengesha ns1:sameAs dbr:Araya_Mengesha .
+twss:ArayaMengesha owl:sameAs dbr:Araya_Mengesha .
 
-twss:ArianaDebose ns1:sameAs dbr:Ariana_Debose .
+twss:ArianaDebose owl:sameAs dbr:Ariana_Debose .
 
-twss:AviisZhong ns1:sameAs dbr:Aviis_Zhong .
+twss:AviisZhong owl:sameAs dbr:Aviis_Zhong .
 
-twss:AyaEndo ns1:sameAs dbr:Aya_Endo .
+twss:AyaEndo owl:sameAs dbr:Aya_Endō .
 
-twss:BashirSalahuddin ns1:sameAs dbr:Bashir_Salahuddin .
+twss:BashirSalahuddin owl:sameAs dbr:Bashir_Salahuddin .
 
-twss:BenWhishaw ns1:sameAs dbr:Ben_Whishaw .
+twss:BenWhishaw owl:sameAs dbr:Ben_Whishaw .
 
-twss:BernCollaco ns1:sameAs dbr:Bern_Collaco .
+twss:BernCollaco owl:sameAs dbr:Bern_Collaco .
 
-twss:BernardHill ns1:sameAs dbr:Bernard_Hill .
+twss:BernardHill owl:sameAs dbr:Bernard_Hill .
 
-twss:BillyBoyd ns1:sameAs dbr:Billy_Boyd .
+twss:BillyBoyd owl:sameAs dbr:Billy_Boyd .
 
-twss:BluHunt ns1:sameAs dbr:Blu_Hunt .
+twss:BluHunt owl:sameAs dbr:Blu_Hunt .
 
-twss:BobBergen ns1:sameAs dbr:Bob_Bergen .
+twss:BobBergen owl:sameAs dbr:Bob_Bergen .
 
-twss:BobOdenkirk ns1:sameAs dbr:Bob_Odenkirk .
+twss:BobOdenkirk owl:sameAs dbr:Bob_Odenkirk .
 
-twss:BobbyCannavale ns1:sameAs dbr:Bobby_Cannavale .
+twss:BobbyCannavale owl:sameAs dbr:Bobby_Cannavale .
 
-twss:BrianTyreeHenry ns1:sameAs dbr:Brian_Tyree_Henry .
+twss:BrianTyreeHenry owl:sameAs dbr:Brian_Tyree_Henry .
 
-twss:CamilleKostek ns1:sameAs dbr:Camille_Kostek .
+twss:CamilleKostek owl:sameAs dbr:Camille_Kostek .
 
-twss:CaryElwes ns1:sameAs dbr:Cary_Elwes .
+twss:CaryElwes owl:sameAs dbr:Cary_Elwes .
 
-twss:CassieKramer ns1:sameAs dbr:Cassie_Kramer .
+twss:CassieKramer owl:sameAs <http://dbpedia.org/resource/Candyman_(2021_film)> .
 
-twss:CateBlanchett ns1:sameAs dbr:Cate_Blanchett .
+twss:CateBlanchett owl:sameAs dbr:Cate_Blanchett .
 
-twss:CatherineDeneuve ns1:sameAs dbr:Catherine_Deneuve .
+twss:CatherineDeneuve owl:sameAs dbr:Catherine_Deneuve .
 
-twss:CatherineKeener ns1:sameAs dbr:Catherine_Keener .
+twss:CatherineKeener owl:sameAs dbr:Catherine_Keener .
 
-twss:ChanningTatum ns1:sameAs dbr:Channing_Tatum .
+twss:ChanningTatum owl:sameAs dbr:Channing_Tatum .
 
-twss:CharleneAmoia ns1:sameAs dbr:Charlene_Amoia .
+twss:CharleneAmoia owl:sameAs dbr:Charlene_Amoia .
 
-twss:CharlesParnell ns1:sameAs dbr:Charles_Parnell .
+twss:CharlesParnell owl:sameAs dbr:Charles_Stewart_Parnell .
 
-twss:CharlieHeaton ns1:sameAs dbr:Charlie_Heaton .
+twss:CharlieHeaton owl:sameAs dbr:Charlie_Heaton .
 
-twss:CharlizeTheron ns1:sameAs dbr:Charlize_Theron .
+twss:CharlizeTheron owl:sameAs dbr:Charlize_Theron .
 
-twss:CheechMarin ns1:sameAs dbr:Cheech_Marin .
+twss:CheechMarin owl:sameAs dbr:Cheech_Marin .
 
-twss:ChloeGraceMoretz ns1:sameAs dbr:Chloe_Grace_Moretz .
+twss:ChloeGraceMoretz owl:sameAs dbr:Chloë_Grace_Moretz .
 
-twss:ChrisBauer ns1:sameAs dbr:Chris_Bauer .
+twss:ChrisBauer owl:sameAs dbr:Chris_Bauer .
 
-twss:ChrisPine ns1:sameAs dbr:Chris_Pine .
+twss:ChrisPine owl:sameAs dbr:Chris_Pine .
 
-twss:ChristianeMillet ns1:sameAs dbr:Christiane_Millet .
+twss:ChristianeMillet owl:sameAs dbr:Christiane_Millet .
 
-twss:ChristineAdams ns1:sameAs dbr:Christine_Adams .
+twss:ChristineAdams owl:sameAs dbr:Christine_Adams .
 
-twss:ChristophWaltz ns1:sameAs dbr:Christoph_Waltz .
+twss:ChristophWaltz owl:sameAs dbr:Christoph_Waltz .
 
-twss:ChristopherLee ns1:sameAs dbr:Christopher_Lee .
+twss:ChristopherLee owl:sameAs dbr:Christopher_Lee .
 
-twss:ChristopherLloyd ns1:sameAs dbr:Christopher_Lloyd .
+twss:ChristopherLloyd owl:sameAs dbr:Christopher_Lloyd .
 
-twss:ChristopherWalken ns1:sameAs dbr:Christopher_Walken .
+twss:ChristopherWalken owl:sameAs dbr:Christopher_Walken .
 
-twss:ClaireBodson ns1:sameAs dbr:Claire_Bodson .
+twss:ClaireBodson owl:sameAs dbr:Claire_Bodson .
 
-twss:ClarkDuke ns1:sameAs dbr:Clark_Duke .
+twss:ClarkDuke owl:sameAs dbr:Clark_Duke .
 
-twss:ClemencePoesy ns1:sameAs dbr:Clemence_Poesy .
+twss:ClemencePoesy owl:sameAs dbr:Clémence_Poésy .
 
-twss:ClorisLeachman ns1:sameAs dbr:Cloris_Leachman .
+twss:ClorisLeachman owl:sameAs dbr:Cloris_Leachman .
 
-twss:CodyDavis ns1:sameAs dbr:Cody_Davis .
+twss:CodyDavis owl:sameAs dbr:Cody_Davis .
 
-twss:ColmanDomingo ns1:sameAs dbr:Colman_Domingo .
+twss:ColmanDomingo owl:sameAs dbr:Colman_Domingo .
 
-twss:ConnieNielsen ns1:sameAs dbr:Connie_Nielsen .
+twss:ConnieNielsen owl:sameAs dbr:Connie_Nielsen .
 
-twss:CoreyHawkins ns1:sameAs dbr:Corey_Hawkins .
+twss:CoreyHawkins owl:sameAs dbr:Corey_Hawkins .
 
-twss:CoreyStoll ns1:sameAs dbr:Corey_Stoll .
+twss:CoreyStoll owl:sameAs dbr:Corey_Stoll .
 
-twss:DaisukeNamikawa ns1:sameAs dbr:Daisuke_Namikawa .
+twss:DaisukeNamikawa owl:sameAs dbr:Daisuke_Namikawa .
 
-twss:DaisyRidley ns1:sameAs dbr:Daisy_Ridley .
+twss:DaisyRidley owl:sameAs dbr:Daisy_Ridley .
 
-twss:DaniRovira ns1:sameAs dbr:Dani_Rovira .
+twss:DaniRovira owl:sameAs dbr:Dani_Rovira .
 
-twss:DanielCraig ns1:sameAs dbr:Daniel_Craig .
+twss:DanielCraig owl:sameAs dbr:Daniel_Craig .
 
-twss:DanielMartin ns1:sameAs dbr:Daniel_Martin .
+twss:DanielMartin owl:sameAs dbr:Daniel_Martin .
 
-twss:DaphneRubin_Vega ns1:sameAs dbr:Daphne_Rubin_Vega .
+twss:DaphneRubin_Vega owl:sameAs dbr:Daphne_Rubin-Vega .
 
-twss:DarioGrandinetti ns1:sameAs dbr:Dario_Grandinetti .
+twss:DarioGrandinetti owl:sameAs dbr:Darío_Grandinetti .
 
-twss:DavidAlvarez ns1:sameAs dbr:David_Alvarez .
+twss:DavidAlvarez owl:sameAs dbr:David_Álvarez .
 
-twss:DavidHarbour ns1:sameAs dbr:David_Harbour .
+twss:DavidHarbour owl:sameAs dbr:David_Harbour .
 
-twss:DeborahFrancois ns1:sameAs dbr:Deborah_Francois .
+twss:DeborahFrancois owl:sameAs dbr:Déborah_François .
 
-twss:DemianBichir ns1:sameAs dbr:Demian_Bichir .
+twss:DemianBichir owl:sameAs dbr:Demián_Bichir .
 
-twss:DenzelWashington ns1:sameAs dbr:Denzel_Washington .
+twss:DenzelWashington owl:sameAs dbr:Denzel_Washington .
 
-twss:DenzilSmith ns1:sameAs dbr:Denzil_Smith .
+twss:DenzilSmith owl:sameAs dbr:Denzil_Smith .
 
-twss:DidierSandre ns1:sameAs dbr:Didier_Sandre .
+twss:DidierSandre owl:sameAs dbr:Didier_Sandre .
 
-twss:DimpleKapadia ns1:sameAs dbr:Dimple_Kapadia .
+twss:DimpleKapadia owl:sameAs dbr:Dimple_Kapadia .
 
-twss:DiogoMorgado ns1:sameAs dbr:Diogo_Morgado .
+twss:DiogoMorgado owl:sameAs dbr:Diogo_Morgado .
 
-twss:DomhnallGleeson ns1:sameAs dbr:Domhnall_Gleeson .
+twss:DomhnallGleeson owl:sameAs dbr:Domhnall_Gleeson .
 
-twss:DominicMonaghan ns1:sameAs dbr:Dominic_Monaghan .
+twss:DominicMonaghan owl:sameAs dbr:Dominic_Monaghan .
 
-twss:DonCheadle ns1:sameAs dbr:Don_Cheadle .
+twss:DonCheadle owl:sameAs dbr:Don_Cheadle .
 
-twss:DwayneJohnson ns1:sameAs dbr:Dwayne_Johnson .
+twss:DwayneJohnson owl:sameAs dbr:Dwayne_Johnson .
 
-twss:DylanKenin ns1:sameAs dbr:Dylan_Kenin .
+twss:DylanKenin owl:sameAs dbr:Dylan_Kenin .
 
-twss:EdHarris ns1:sameAs dbr:Ed_Harris .
+twss:EdHarris owl:sameAs dbr:Ed_Harris .
 
-twss:EdgarRamirez ns1:sameAs dbr:Edgar_Ramirez .
+twss:EdgarRamirez owl:sameAs dbr:Édgar_Ramírez .
 
-twss:EizaGonzalez ns1:sameAs dbr:Eiza_Gonzalez .
+twss:EizaGonzalez owl:sameAs dbr:Eiza_González .
 
-twss:ElijahWood ns1:sameAs dbr:Elijah_Wood .
+twss:ElijahWood owl:sameAs dbr:Elijah_Wood .
 
-twss:ElisaCarricajo ns1:sameAs dbr:Elisa_Carricajo .
+twss:ElisaCarricajo owl:sameAs dbr:Elisa_Carricajo .
 
-twss:ElizabethDebicki ns1:sameAs dbr:Elizabeth_Debicki .
+twss:ElizabethDebicki owl:sameAs dbr:Elizabeth_Debicki .
 
-twss:EllaWalker ns1:sameAs dbr:Ella_Walker .
+twss:EllaWalker owl:sameAs dbr:Ella_Walker .
 
-twss:EmilyBeecham ns1:sameAs dbr:Emily_Beecham .
+twss:EmilyBeecham owl:sameAs dbr:Emily_Beecham .
 
-twss:EmilyBlunt ns1:sameAs dbr:Emily_Blunt .
+twss:EmilyBlunt owl:sameAs dbr:Emily_Blunt .
 
-twss:EmmaStone ns1:sameAs dbr:Emma_Stone .
+twss:EmmaStone owl:sameAs dbr:Emma_Stone .
 
-twss:EmmaThompson ns1:sameAs dbr:Emma_Thompson .
+twss:EmmaThompson owl:sameAs dbr:Emma_Thompson .
 
-twss:EmmanuelleSeigner ns1:sameAs dbr:Emmanuelle_Seigner .
+twss:EmmanuelleSeigner owl:sameAs dbr:Emmanuelle_Seigner .
 
-twss:EricBauza ns1:sameAs dbr:Eric_Bauza .
+twss:EricBauza owl:sameAs dbr:Eric_Bauza .
 
-twss:EstebanBigliardi ns1:sameAs dbr:Esteban_Bigliardi .
+twss:EstebanBigliardi owl:sameAs dbr:Esteban_Bigliardi .
 
-twss:EthanHawke ns1:sameAs dbr:Ethan_Hawke .
+twss:EthanHawke owl:sameAs dbr:Ethan_Hawke .
 
-twss:EvelinHagoel ns1:sameAs dbr:Evelin_Hagoel .
+twss:EvelinHagoel owl:sameAs dbr:Evelin_Hagoel .
 
-twss:FayssalBazzi ns1:sameAs dbr:Fayssal_Bazzi .
+twss:FayssalBazzi owl:sameAs dbr:Fayssal_Bazzi .
 
-twss:FelixWilliamson ns1:sameAs dbr:Felix_Williamson .
+twss:FelixWilliamson owl:sameAs dbr:Felix_Williamson .
 
-twss:FionaDourif ns1:sameAs dbr:Fiona_Dourif .
+twss:FionaDourif owl:sameAs dbr:Fiona_Dourif .
 
-twss:FlorencePugh ns1:sameAs dbr:Florence_Pugh .
+twss:FlorencePugh owl:sameAs dbr:Florence_Pugh .
 
-twss:FrankWelker ns1:sameAs dbr:Frank_Welker .
+twss:FrankWelker owl:sameAs dbr:Frank_Welker .
 
-twss:GabriellaWilde ns1:sameAs dbr:Gabriella_Wilde .
+twss:GabriellaWilde owl:sameAs dbr:Gabriella_Wilde .
 
-twss:GageMunroe ns1:sameAs dbr:Gage_Munroe .
+twss:GageMunroe owl:sameAs dbr:Gage_Munroe .
 
-twss:GalGadot ns1:sameAs dbr:Gal_Gadot .
+twss:GalGadot owl:sameAs dbr:Gal_Gadot .
 
-twss:GigiLeung ns1:sameAs dbr:Gigi_Leung .
+twss:GigiLeung owl:sameAs dbr:Gigi_Leung .
 
-twss:GlenPowell ns1:sameAs dbr:Glen_Powell .
+twss:GlenPowell owl:sameAs dbr:Glen_Powell .
 
-twss:GlennMorshower ns1:sameAs dbr:Glenn_Morshower .
+twss:GlennMorshower owl:sameAs dbr:Glenn_Morshower .
 
-twss:GrahamGreene ns1:sameAs dbr:Graham_Greene .
+twss:GrahamGreene owl:sameAs dbr:Graham_Greene .
 
-twss:GregoryGadebois ns1:sameAs dbr:Gregory_Gadebois .
+twss:GregoryGadebois owl:sameAs dbr:Grégory_Gadebois .
 
-twss:GuillermoPfening ns1:sameAs dbr:Guillermo_Pfening .
+twss:GuillermoPfening owl:sameAs dbr:Guillermo_Pfening .
 
-twss:HappyAnderson ns1:sameAs dbr:Happy_Anderson .
+twss:HappyAnderson owl:sameAs dbr:Happy_Anderson .
 
-twss:HarukaTomatsu ns1:sameAs dbr:Haruka_Tomatsu .
+twss:HarukaTomatsu owl:sameAs dbr:Haruka_Tomatsu .
 
-twss:HenryZaga ns1:sameAs dbr:Henry_Zaga .
+twss:HenryZaga owl:sameAs dbr:Henry_Zaga .
 
-twss:HidenobuKiuchi ns1:sameAs dbr:Hidenobu_Kiuchi .
+twss:HidenobuKiuchi owl:sameAs dbr:Hidenobu_Kiuchi .
 
-twss:HimLaw ns1:sameAs dbr:Him_Law .
+twss:HimLaw owl:sameAs dbr:Him_Law .
 
-twss:HimeshPatel ns1:sameAs dbr:Himesh_Patel .
+twss:HimeshPatel owl:sameAs dbr:Himesh_Patel .
 
-twss:HiroShimono ns1:sameAs dbr:Hiro_Shimono .
+twss:HiroShimono owl:sameAs dbr:Hiro_Shimono .
 
-twss:HiroyukiSanada ns1:sameAs dbr:Hiroyuki_Sanada .
+twss:HiroyukiSanada owl:sameAs dbr:Hiroyuki_Sanada .
 
-twss:HugoArana ns1:sameAs dbr:Hugo_Arana .
+twss:HugoArana owl:sameAs dbr:Hugo_Arana .
 
-twss:IanMckellen ns1:sameAs dbr:Ian_Mckellen .
+twss:IanMckellen owl:sameAs dbr:Ian_McKellen .
 
-twss:IdirBenAddi ns1:sameAs dbr:Idir_Ben_Addi .
+twss:IdirBenAddi owl:sameAs dbr:Idir_Ben_Addi .
 
-twss:IngridOlerinskaya ns1:sameAs dbr:Ingrid_Olerinskaya .
+twss:IngridOlerinskaya owl:sameAs dbr:Ingrid_Olerinskaya .
 
-twss:IrinaAntonenko ns1:sameAs dbr:Irina_Antonenko .
+twss:IrinaAntonenko owl:sameAs dbr:Irina_Antonenko .
 
-twss:IsaacKragten ns1:sameAs dbr:Isaac_Kragten .
+twss:IsaacKragten owl:sameAs dbr:Isaac_Kragten .
 
-twss:IsabelaMerced ns1:sameAs dbr:Isabela_Merced .
+twss:IsabelaMerced owl:sameAs dbr:Isabela_Moner .
 
-twss:IvanYankovskiy ns1:sameAs dbr:Ivan_Yankovskiy .
+twss:IvanYankovskiy owl:sameAs dbr:Ivan_Yankovsky .
 
-twss:IvoUukkivi ns1:sameAs dbr:Ivo_Uukkivi .
+twss:IvoUukkivi owl:sameAs dbr:Ivo_Uukkivi .
 
-twss:JackWhitehall ns1:sameAs dbr:Jack_Whitehall .
+twss:JackWhitehall owl:sameAs dbr:Jack_Whitehall .
 
-twss:JaiCourtney ns1:sameAs dbr:Jai_Courtney .
+twss:JaiCourtney owl:sameAs dbr:Jai_Courtney .
 
-twss:JakeGyllenhaal ns1:sameAs dbr:Jake_Gyllenhaal .
+twss:JakeGyllenhaal owl:sameAs dbr:Jake_Gyllenhaal .
 
-twss:JakeWeber ns1:sameAs dbr:Jake_Weber .
+twss:JakeWeber owl:sameAs dbr:Jake_Weber .
 
-twss:JamesCorden ns1:sameAs dbr:James_Corden .
+twss:JamesCorden owl:sameAs dbr:James_Corden .
 
-twss:JamesJordan ns1:sameAs dbr:James_Jordan .
+twss:JamesJordan owl:sameAs dbr:James_Jordan .
 
-twss:JamieDemetriou ns1:sameAs dbr:Jamie_Demetriou .
+twss:JamieDemetriou owl:sameAs dbr:Jamie_Demetriou .
 
-twss:JaneLynch ns1:sameAs dbr:Jane_Lynch .
+twss:JaneLynch owl:sameAs dbr:Jane_Lynch .
 
-twss:JaneSeymour ns1:sameAs dbr:Jane_Seymour .
+twss:JaneSeymour owl:sameAs dbr:Jane_Seymour .
 
-twss:JaredLeto ns1:sameAs dbr:Jared_Leto .
+twss:JaredLeto owl:sameAs dbr:Jared_Leto .
 
-twss:JasonStatham ns1:sameAs dbr:Jason_Statham .
+twss:JasonStatham owl:sameAs dbr:Jason_Statham .
 
-twss:JavierDrolas ns1:sameAs dbr:Javier_Drolas .
+twss:JavierDrolas owl:sameAs dbr:Javier_Drolas .
 
-twss:JayEllis ns1:sameAs dbr:Jay_Ellis .
+twss:JayEllis owl:sameAs dbr:Jay_Ellis .
 
-twss:JeanDujardin ns1:sameAs dbr:Jean_Dujardin .
+twss:JeanDujardin owl:sameAs dbr:Jean_Dujardin .
 
-twss:JeffBergman ns1:sameAs dbr:Jeff_Bergman .
+twss:JeffBergman owl:sameAs dbr:Jeff_Bergman .
 
-twss:JeffMoore ns1:sameAs dbr:Jeff_Moore .
+twss:JeffMoore owl:sameAs dbr:Jeff_Moore .
 
-twss:JeffersonHall ns1:sameAs dbr:Jefferson_Hall .
+twss:JeffersonHall owl:sameAs dbr:Jefferson_Hall .
 
-twss:JeffreyDeanMorgan ns1:sameAs dbr:Jeffrey_Dean_Morgan .
+twss:JeffreyDeanMorgan owl:sameAs dbr:Jeffrey_Dean_Morgan .
 
-twss:JeffreyDonovan ns1:sameAs dbr:Jeffrey_Donovan .
+twss:JeffreyDonovan owl:sameAs dbr:Jeffrey_Donovan .
 
-twss:JeffreyWright ns1:sameAs dbr:Jeffrey_Wright .
+twss:JeffreyWright owl:sameAs dbr:Jeffrey_Wright .
 
-twss:JenniferConnelly ns1:sameAs dbr:Jennifer_Connelly .
+twss:JenniferConnelly owl:sameAs dbr:Jennifer_Connelly .
 
-twss:JeremyThomas ns1:sameAs dbr:Jeremy_Thomas .
+twss:JeremyThomas owl:sameAs dbr:Jeremy_Thomas .
 
-twss:JessePlemons ns1:sameAs dbr:Jesse_Plemons .
+twss:JessePlemons owl:sameAs dbr:Jesse_Plemons .
 
-twss:JessicaHenwick ns1:sameAs dbr:Jessica_Henwick .
+twss:JessicaHenwick owl:sameAs dbr:Jessica_Henwick .
 
-twss:JimmySmits ns1:sameAs dbr:Jimmy_Smits .
+twss:JimmySmits owl:sameAs dbr:Jimmy_Smits .
 
-twss:JodieComer ns1:sameAs dbr:Jodie_Comer .
+twss:JodieComer owl:sameAs dbr:Jodie_Comer .
 
-twss:JoeKeery ns1:sameAs dbr:Joe_Keery .
+twss:JoeKeery owl:sameAs dbr:Joe_Keery .
 
-twss:JoeTaslim ns1:sameAs dbr:Joe_Taslim .
+twss:JoeTaslim owl:sameAs dbr:Joe_Taslim .
 
-twss:JoelFry ns1:sameAs dbr:Joel_Fry .
+twss:JoelFry owl:sameAs dbr:Joel_Fry .
 
-twss:JoelMorris ns1:sameAs dbr:Joel_Morris .
+twss:JoelMorris owl:sameAs dbr:Jason_Hazeley_and_Joel_Morris .
 
-twss:JohnCena ns1:sameAs dbr:John_Cena .
+twss:JohnCena owl:sameAs dbr:John_Cena .
 
-twss:JohnDavidWashington ns1:sameAs dbr:John_David_Washington .
+twss:JohnDavidWashington owl:sameAs dbr:John_David_Washington .
 
-twss:JohnRhys_Davies ns1:sameAs dbr:John_Rhys_Davies .
+twss:JohnRhys_Davies owl:sameAs dbr:John_Rhys-Davies .
 
-twss:JonBernthal ns1:sameAs dbr:Jon_Bernthal .
+twss:JonBernthal owl:sameAs dbr:Jon_Bernthal .
 
-twss:JordanaBrewster ns1:sameAs dbr:Jordana_Brewster .
+twss:JordanaBrewster owl:sameAs dbr:Jordana_Brewster .
 
-twss:JorisJarsky ns1:sameAs dbr:Joris_Jarsky .
+twss:JorisJarsky owl:sameAs dbr:Joris_Jarsky .
 
-twss:JoshHartnett ns1:sameAs dbr:Josh_Hartnett .
+twss:JoshHartnett owl:sameAs dbr:Josh_Hartnett .
 
-twss:JoshLawson ns1:sameAs dbr:Josh_Lawson .
+twss:JoshLawson owl:sameAs dbr:Josh_Lawson .
 
-twss:JuhanUlfsak ns1:sameAs dbr:Juhan_Ulfsak .
+twss:JuhanUlfsak owl:sameAs dbr:Juhan_Ulfsak .
 
-twss:JulianDennison ns1:sameAs dbr:Julian_Dennison .
+twss:JulianDennison owl:sameAs dbr:Julian_Dennison .
 
-twss:JulianFerro ns1:sameAs dbr:Julian_Ferro .
+twss:JulianFerro owl:sameAs dbr:Julian_Ferro .
 
-twss:JulianneMoore ns1:sameAs dbr:Julianne_Moore .
+twss:JulianneMoore owl:sameAs dbr:Julianne_Moore .
 
-twss:JulietteBinoche ns1:sameAs dbr:Juliette_Binoche .
+twss:JulietteBinoche owl:sameAs dbr:Juliette_Binoche .
 
-twss:JuneForay ns1:sameAs dbr:June_Foray .
+twss:JuneForay owl:sameAs dbr:June_Foray .
 
-twss:KaoriMizuhashi ns1:sameAs dbr:Kaori_Mizuhashi .
+twss:KaoriMizuhashi owl:sameAs dbr:Kaori_Mizuhashi .
 
-twss:KatieAselton ns1:sameAs dbr:Katie_Aselton .
+twss:KatieAselton owl:sameAs dbr:Katie_Aselton .
 
-twss:KatsuyukiKonishi ns1:sameAs dbr:Katsuyuki_Konishi .
+twss:KatsuyukiKonishi owl:sameAs dbr:Katsuyuki_Konishi .
 
-twss:KellyMarieTran ns1:sameAs dbr:Kelly_Marie_Tran .
+twss:KellyMarieTran owl:sameAs dbr:Kelly_Marie_Tran .
 
-twss:KenichiSuzumura ns1:sameAs dbr:Kenichi_Suzumura .
+twss:KenichiSuzumura owl:sameAs dbr:Kenichi_Suzumura .
 
-twss:KennethBranagh ns1:sameAs dbr:Kenneth_Branagh .
+twss:KennethBranagh owl:sameAs dbr:Kenneth_Branagh .
 
-twss:KeriRussell ns1:sameAs dbr:Keri_Russell .
+twss:KeriRussell owl:sameAs dbr:Keri_Russell .
 
-twss:KhrisDavis ns1:sameAs dbr:Khris_Davis .
+twss:KhrisDavis owl:sameAs dbr:Khris_Davis .
 
-twss:KokiUchiyama ns1:sameAs dbr:Koki_Uchiyama .
+twss:KokiUchiyama owl:sameAs dbr:Kōki_Uchiyama .
 
-twss:KonstantinKhabenskiy ns1:sameAs dbr:Konstantin_Khabenskiy .
+twss:KonstantinKhabenskiy owl:sameAs dbr:Konstantin_Khabensky .
 
-twss:KristenHarris ns1:sameAs dbr:Kristen_Harris .
+twss:KristenHarris owl:sameAs dbr:Kristen_Harris .
 
-twss:KristenWiig ns1:sameAs dbr:Kristen_Wiig .
+twss:KristenWiig owl:sameAs dbr:Kristen_Wiig .
 
-twss:KristofferPolaha ns1:sameAs dbr:Kristoffer_Polaha .
+twss:KristofferPolaha owl:sameAs dbr:Kristoffer_Polaha .
 
-twss:KyleChandler ns1:sameAs dbr:Kyle_Chandler .
+twss:KyleChandler owl:sameAs dbr:Kyle_Chandler .
 
-twss:LashanaLynch ns1:sameAs dbr:Lashana_Lynch .
+twss:LashanaLynch owl:sameAs dbr:Lashana_Lynch .
 
-twss:LauraMarano ns1:sameAs dbr:Laura_Marano .
+twss:LauraMarano owl:sameAs dbr:Laura_Marano .
 
-twss:LaurentNicolas ns1:sameAs dbr:Laurent_Nicolas .
+twss:LaurentNicolas owl:sameAs dbr:Laurent_Nicolas .
 
-twss:LazAlonso ns1:sameAs dbr:Laz_Alonso .
+twss:LazAlonso owl:sameAs dbr:Laz_Alonso .
 
-twss:LeaSeydoux ns1:sameAs dbr:Lea_Seydoux .
+twss:LeaSeydoux owl:sameAs dbr:Léa_Seydoux .
 
-twss:LebronJames ns1:sameAs dbr:Lebron_James .
+twss:LebronJames owl:sameAs dbr:LeBron_James .
 
-twss:LeslieGrace ns1:sameAs dbr:Leslie_Grace .
+twss:LeslieGrace owl:sameAs dbr:Leslie_Grace .
 
-twss:LeslieMann ns1:sameAs dbr:Leslie_Mann .
+twss:LeslieMann owl:sameAs dbr:Leslie_Mann .
 
-twss:LewisTan ns1:sameAs dbr:Lewis_Tan .
+twss:LewisTan owl:sameAs dbr:Lewis_Tan .
 
-twss:LilRelHowery ns1:sameAs dbr:Lil_Rel_Howery .
+twss:LilRelHowery owl:sameAs dbr:Lil_Rel_Howery .
 
-twss:LillyAspell ns1:sameAs dbr:Lilly_Aspell .
+twss:LillyAspell owl:sameAs dbr:Lilly_Aspell .
 
-twss:Lin_ManuelMiranda ns1:sameAs dbr:Lin_Manuel_Miranda .
+twss:Lin_ManuelMiranda owl:sameAs dbr:Lin-Manuel_Miranda .
 
-twss:LivTyler ns1:sameAs dbr:Liv_Tyler .
+twss:LivTyler owl:sameAs dbr:Liv_Tyler .
 
-twss:LouisGarrel ns1:sameAs dbr:Louis_Garrel .
+twss:LouisGarrel owl:sameAs dbr:Louis_Garrel .
 
-twss:LucasBlack ns1:sameAs dbr:Lucas_Black .
+twss:LucasBlack owl:sameAs dbr:Lucas_Black .
 
-twss:Ludacris ns1:sameAs dbr:Ludacris .
+twss:Ludacris owl:sameAs dbr:Ludacris .
 
-twss:LudiLin ns1:sameAs dbr:Ludi_Lin .
+twss:LudiLin owl:sameAs dbr:Ludi_Lin .
 
-twss:LuisLuque ns1:sameAs dbr:Luis_Luque .
+twss:LuisLuque owl:sameAs dbr:Luis_Luque .
 
-twss:LuisMachin ns1:sameAs dbr:Luis_Machin .
+twss:LuisMachin owl:sameAs dbr:Luis_Machín .
 
-twss:LyndaCarter ns1:sameAs dbr:Lynda_Carter .
+twss:LyndaCarter owl:sameAs dbr:Lynda_Carter .
 
-twss:MaisieWilliams ns1:sameAs dbr:Maisie_Williams .
+twss:MaisieWilliams owl:sameAs dbr:Maisie_Williams .
 
-twss:MannyJacinto ns1:sameAs dbr:Manny_Jacinto .
+twss:MannyJacinto owl:sameAs dbr:Manny_Jacinto .
 
-twss:MarcelSabat ns1:sameAs dbr:Marcel_Sabat .
+twss:MarcelSabat owl:sameAs dbr:Marcel_Sabat .
 
-twss:MarceloSubiotto ns1:sameAs dbr:Marcelo_Subiotto .
+twss:MarceloSubiotto owl:sameAs dbr:Marcelo_Subiotto .
 
-twss:MargotRobbie ns1:sameAs dbr:Margot_Robbie .
+twss:MargotRobbie owl:sameAs dbr:Margot_Robbie .
 
-twss:MarieBunel ns1:sameAs dbr:Marie_Bunel .
+twss:MarieBunel owl:sameAs dbr:Marie_Bunel .
 
-twss:MarisolCorrea ns1:sameAs dbr:Marisol_Correa .
+twss:MarisolCorrea owl:sameAs dbr:Marisol_Correa .
 
-twss:MarkStrong ns1:sameAs dbr:Mark_Strong .
+twss:MarkStrong owl:sameAs dbr:Mark_Strong .
 
-twss:MarsaiMartin ns1:sameAs dbr:Marsai_Martin .
+twss:MarsaiMartin owl:sameAs dbr:Marsai_Martin .
 
-twss:MartinDonovan ns1:sameAs dbr:Martin_Donovan .
+twss:MartinDonovan owl:sameAs dbr:Martin_Donovan .
 
-twss:MathieuAmalric ns1:sameAs dbr:Mathieu_Amalric .
+twss:MathieuAmalric owl:sameAs dbr:Mathieu_Amalric .
 
-twss:MaxHuang ns1:sameAs dbr:Max_Huang .
+twss:MaxHuang owl:sameAs dbr:Max_Huang .
 
-twss:MckennaGrace ns1:sameAs dbr:Mckenna_Grace .
+twss:MckennaGrace owl:sameAs dbr:Mckenna_Grace .
 
-twss:MehcadBrooks ns1:sameAs dbr:Mehcad_Brooks .
+twss:MehcadBrooks owl:sameAs dbr:Mehcad_Brooks .
 
-twss:MelBlanc ns1:sameAs dbr:Mel_Blanc .
+twss:MelBlanc owl:sameAs dbr:Mel_Blanc .
 
-twss:MelissaBarrera ns1:sameAs dbr:Melissa_Barrera .
+twss:MelissaBarrera owl:sameAs dbr:Melissa_Barrera .
 
-twss:MelvilPoupaud ns1:sameAs dbr:Melvil_Poupaud .
+twss:MelvilPoupaud owl:sameAs dbr:Melvil_Poupaud .
 
-twss:MichaelCaine ns1:sameAs dbr:Michael_Caine .
+twss:MichaelCaine owl:sameAs dbr:Michael_Caine .
 
-twss:MichaelHyatt ns1:sameAs dbr:Michael_Hyatt .
+twss:MichaelHyatt owl:sameAs dbr:Michael_Hyatt .
 
-twss:MichaelPena ns1:sameAs dbr:Michael_Pena .
+twss:MichaelPena owl:sameAs dbr:Michael_Peña .
 
-twss:MichelleRodriguez ns1:sameAs dbr:Michelle_Rodriguez .
+twss:MichelleRodriguez owl:sameAs dbr:Michelle_Rodriguez .
 
-twss:MichelleWilliams ns1:sameAs dbr:Michelle_Williams .
+twss:MichelleWilliams owl:sameAs dbr:Michelle_Williams .
 
-twss:MiguelAngelSola ns1:sameAs dbr:Miguel_Angel_Sola .
+twss:MiguelAngelSola owl:sameAs dbr:Miguel_Ángel_Solá .
 
-twss:MikeFaist ns1:sameAs dbr:Mike_Faist .
+twss:MikeFaist owl:sameAs dbr:Mike_Faist .
 
-twss:MilesTeller ns1:sameAs dbr:Miles_Teller .
+twss:MilesTeller owl:sameAs dbr:Miles_Teller .
 
-twss:MillieBobbyBrown ns1:sameAs dbr:Millie_Bobby_Brown .
+twss:MillieBobbyBrown owl:sameAs dbr:Millie_Bobby_Brown .
 
-twss:MinoriChihara ns1:sameAs dbr:Minori_Chihara .
+twss:MinoriChihara owl:sameAs dbr:Minori_Chihara .
 
-twss:MyriemAkeddiou ns1:sameAs dbr:Myriem_Akeddiou .
+twss:MyriemAkeddiou owl:sameAs dbr:Myriem_Akeddiou .
 
-twss:NahuelViale ns1:sameAs dbr:Nahuel_Viale .
+twss:NahuelViale owl:sameAs dbr:Nahuel_Viale .
 
-twss:NanouGarcia ns1:sameAs dbr:Nanou_Garcia .
+twss:NanouGarcia owl:sameAs dbr:Nanou_Garcia .
 
-twss:NaomieHarris ns1:sameAs dbr:Naomie_Harris .
+twss:NaomieHarris owl:sameAs dbr:Naomie_Harris .
 
-twss:NatalieMorales ns1:sameAs dbr:Natalie_Morales .
+twss:NatalieMorales owl:sameAs dbr:Natalie_Morales .
 
-twss:NatashaRothwell ns1:sameAs dbr:Natasha_Rothwell .
+twss:NatashaRothwell owl:sameAs dbr:Natasha_Rothwell .
 
-twss:NathalieEmmanuel ns1:sameAs dbr:Nathalie_Emmanuel .
+twss:NathalieEmmanuel owl:sameAs dbr:Nathalie_Emmanuel .
 
-twss:NatsukiHanae ns1:sameAs dbr:Natsuki_Hanae .
+twss:NatsukiHanae owl:sameAs dbr:Natsuki_Hanae .
 
-twss:NgChinHan ns1:sameAs dbr:Ng_Chin_Han .
+twss:NgChinHan owl:sameAs dbr:Ng_Chin_Han .
 
-twss:NiamhAlgar ns1:sameAs dbr:Niamh_Algar .
+twss:NiamhAlgar owl:sameAs dbr:Niamh_Algar .
 
-twss:NicholasHoult ns1:sameAs dbr:Nicholas_Hoult .
+twss:NicholasHoult owl:sameAs dbr:Nicholas_Hoult .
 
-twss:NickyJam ns1:sameAs dbr:Nicky_Jam .
+twss:NickyJam owl:sameAs dbr:Nicky_Jam .
 
-twss:NicolasCage ns1:sameAs dbr:Nicolas_Cage .
+twss:NicolasCage owl:sameAs dbr:Nicolas_Cage .
 
-twss:OakesFegley ns1:sameAs dbr:Oakes_Fegley .
+twss:OakesFegley owl:sameAs dbr:Oakes_Fegley .
 
-twss:OakleyBull ns1:sameAs dbr:Oakley_Bull .
+twss:OakleyBull owl:sameAs <http://dbpedia.org/resource/Beautiful_Boy_(2018_film)> .
 
-twss:OlgaMerediz ns1:sameAs dbr:Olga_Merediz .
+twss:OlgaMerediz owl:sameAs dbr:Olga_Merediz .
 
-twss:OrlandoBloom ns1:sameAs dbr:Orlando_Bloom .
+twss:OrlandoBloom owl:sameAs dbr:Orlando_Bloom .
 
-twss:OthmaneMoumen ns1:sameAs dbr:Othmane_Moumen .
+twss:OthmaneMoumen owl:sameAs dbr:Othmane_Moumen .
 
-twss:OwenBurke ns1:sameAs dbr:Owen_Burke .
+twss:OwenBurke owl:sameAs dbr:Owen_Burke .
 
-twss:PanayotisPascot ns1:sameAs dbr:Panayotis_Pascot .
+twss:PanayotisPascot owl:sameAs dbr:Panayotis_Pascot .
 
-twss:PatrickWilson ns1:sameAs dbr:Patrick_Wilson .
+twss:PatrickWilson owl:sameAs dbr:Patrick_Wilson .
 
-twss:PaulEssiembre ns1:sameAs dbr:Paul_Essiembre .
+twss:PaulEssiembre owl:sameAs dbr:Paul_Essiembre .
 
-twss:PaulGiamatti ns1:sameAs dbr:Paul_Giamatti .
+twss:PaulGiamatti owl:sameAs dbr:Paul_Giamatti .
 
-twss:PaulHamy ns1:sameAs dbr:Paul_Hamy .
+twss:PaulHamy owl:sameAs dbr:Paul_Hamy .
 
-twss:PaulWalterHauser ns1:sameAs dbr:Paul_Walter_Hauser .
+twss:PaulWalterHauser owl:sameAs dbr:Paul_Walter_Hauser .
 
-twss:PedroPascal ns1:sameAs dbr:Pedro_Pascal .
+twss:PedroPascal owl:sameAs dbr:Pedro_Pascal .
 
-twss:PeterDinklage ns1:sameAs dbr:Peter_Dinklage .
+twss:PeterDinklage owl:sameAs dbr:Peter_Dinklage .
 
-twss:PostMalone ns1:sameAs dbr:Post_Malone .
+twss:PostMalone owl:sameAs dbr:Post_Malone .
 
-twss:RachelWeisz ns1:sameAs dbr:Rachel_Weisz .
+twss:RachelWeisz owl:sameAs dbr:Rachel_Weisz .
 
-twss:RachelZegler ns1:sameAs dbr:Rachel_Zegler .
+twss:RachelZegler owl:sameAs dbr:Rachel_Zegler .
 
-twss:RalphFiennes ns1:sameAs dbr:Ralph_Fiennes .
+twss:RalphFiennes owl:sameAs dbr:Ralph_Fiennes .
 
-twss:RamiMalek ns1:sameAs dbr:Rami_Malek .
+twss:RamiMalek owl:sameAs dbr:Rami_Malek .
 
-twss:RandyThom ns1:sameAs dbr:Randy_Thom .
+twss:RandyThom owl:sameAs dbr:Randy_Thom .
 
-twss:RaulCastillo ns1:sameAs dbr:Raul_Castillo .
+twss:RaulCastillo owl:sameAs dbr:Raul_Castillo .
 
-twss:RaviPatel ns1:sameAs dbr:Ravi_Patel .
+twss:RaviPatel owl:sameAs dbr:Ravi_Patel .
 
-twss:RayWinstone ns1:sameAs dbr:Ray_Winstone .
+twss:RayWinstone owl:sameAs dbr:Ray_Winstone .
 
-twss:RebeccaHall ns1:sameAs dbr:Rebecca_Hall .
+twss:RebeccaHall owl:sameAs dbr:Rebecca_Hall .
 
-twss:RebeccaSpence ns1:sameAs dbr:Rebecca_Spence .
+twss:RebeccaSpence owl:sameAs dbr:Rebecca_Spence .
 
-twss:ReidScott ns1:sameAs dbr:Reid_Scott .
+twss:ReidScott owl:sameAs dbr:Reid_Scott .
 
-twss:RhysDarby ns1:sameAs dbr:Rhys_Darby .
+twss:RhysDarby owl:sameAs dbr:Rhys_Darby .
 
-twss:RichCeraulo ns1:sameAs dbr:Rich_Ceraulo .
+twss:RichCeraulo owl:sameAs dbr:Rich_Ceraulo .
 
-twss:RichCerauloKo ns1:sameAs dbr:Rich_Ceraulo_Ko .
+twss:RichCerauloKo owl:sameAs <http://dbpedia.org/resource/Tenet_(film)> .
 
-twss:RinaSato ns1:sameAs dbr:Rina_Sato .
+twss:RinaSato owl:sameAs dbr:Rina_Satō .
 
-twss:RitaMoreno ns1:sameAs dbr:Rita_Moreno .
+twss:RitaMoreno owl:sameAs dbr:Rita_Moreno .
 
-twss:RobRiggle ns1:sameAs dbr:Rob_Riggle .
+twss:RobRiggle owl:sameAs dbr:Rob_Riggle .
 
-twss:RobertDeNiro ns1:sameAs dbr:Robert_De_Niro .
+twss:RobertDeNiro owl:sameAs dbr:Robert_De_Niro .
 
-twss:RobertDowneyJr ns1:sameAs dbr:Robert_Downey_Jr .
+twss:RobertDowneyJr owl:sameAs <http://dbpedia.org/resource/Robert_Downey_Jr.> .
 
-twss:RobertPattinson ns1:sameAs dbr:Robert_Pattinson .
+twss:RobertPattinson owl:sameAs dbr:Robert_Pattinson .
 
-twss:RobinWright ns1:sameAs dbr:Robin_Wright .
+twss:RobinWright owl:sameAs dbr:Robin_Wright .
 
-twss:RoryCochrane ns1:sameAs dbr:Rory_Cochrane .
+twss:RoryCochrane owl:sameAs dbr:Rory_Cochrane .
 
-twss:RoseByrne ns1:sameAs dbr:Rose_Byrne .
+twss:RoseByrne owl:sameAs dbr:Rose_Byrne .
 
-twss:RupertDegas ns1:sameAs dbr:Rupert_Degas .
+twss:RupertDegas owl:sameAs dbr:Rupert_Degas .
 
-twss:RyanReynolds ns1:sameAs dbr:Ryan_Reynolds .
+twss:RyanReynolds owl:sameAs dbr:Ryan_Reynolds .
 
-twss:SamNeill ns1:sameAs dbr:Sam_Neill .
+twss:SamNeill owl:sameAs dbr:Sam_Neill .
 
-twss:SamaraWeaving ns1:sameAs dbr:Samara_Weaving .
+twss:SamaraWeaving owl:sameAs dbr:Samara_Weaving .
 
-twss:SaoriHayami ns1:sameAs dbr:Saori_Hayami .
+twss:SaoriHayami owl:sameAs dbr:Saori_Hayami .
 
-twss:SatoshiHino ns1:sameAs dbr:Satoshi_Hino .
+twss:SatoshiHino owl:sameAs dbr:Satoshi_Hino .
 
-twss:ScarlettJohansson ns1:sameAs dbr:Scarlett_Johansson .
+twss:ScarlettJohansson owl:sameAs dbr:Scarlett_Johansson .
 
-twss:ScottEastwood ns1:sameAs dbr:Scott_Eastwood .
+twss:ScottEastwood owl:sameAs dbr:Scott_Eastwood .
 
-twss:ScottHaze ns1:sameAs dbr:Scott_Haze .
+twss:ScottHaze owl:sameAs dbr:Scott_Haze .
 
-twss:SeanAstin ns1:sameAs dbr:Sean_Astin .
+twss:SeanAstin owl:sameAs dbr:Sean_Astin .
 
-twss:ShannonKook ns1:sameAs dbr:Shannon_Kook .
+twss:ShannonKook owl:sameAs dbr:Shannon_Kook .
 
-twss:ShunOguri ns1:sameAs dbr:Shun_Oguri .
+twss:ShunOguri owl:sameAs dbr:Shun_Oguri .
 
-twss:Sia ns1:sameAs dbr:Sia .
+twss:Sia owl:sameAs dbr:Sia .
 
-twss:SilvinaBosco ns1:sameAs dbr:Silvina_Bosco .
+twss:SilvinaBosco owl:sameAs dbr:Silvina_Bosco .
 
-twss:SimonYam ns1:sameAs dbr:Simon_Yam .
+twss:SimonYam owl:sameAs dbr:Simon_Yam .
 
-twss:StephanieBeatriz ns1:sameAs dbr:Stephanie_Beatriz .
+twss:StephanieBeatriz owl:sameAs dbr:Stephanie_Beatriz .
 
-twss:StephanieSy ns1:sameAs dbr:Stephanie_Sy .
+twss:StephanieSy owl:sameAs dbr:Stephanie_Sy .
 
-twss:StephenGraham ns1:sameAs dbr:Stephen_Graham .
+twss:StephenGraham owl:sameAs dbr:Stephen_Graham .
 
-twss:SterlingJerins ns1:sameAs dbr:Sterling_Jerins .
+twss:SterlingJerins owl:sameAs dbr:Sterling_Jerins .
 
-twss:SungKang ns1:sameAs dbr:Sung_Kang .
+twss:SungKang owl:sameAs dbr:Sung_Kang .
 
-twss:T_Pain ns1:sameAs dbr:T_Pain .
+twss:T_Pain owl:sameAs dbr:T-Pain .
 
-twss:TadanobuAsano ns1:sameAs dbr:Tadanobu_Asano .
+twss:TadanobuAsano owl:sameAs dbr:Tadanobu_Asano .
 
-twss:TaikaWaititi ns1:sameAs dbr:Taika_Waititi .
+twss:TaikaWaititi owl:sameAs dbr:Taika_Waititi .
 
-twss:TakahiroSakurai ns1:sameAs dbr:Takahiro_Sakurai .
+twss:TakahiroSakurai owl:sameAs dbr:Takahiro_Sakurai .
 
-twss:TakehitoKoyasu ns1:sameAs dbr:Takehito_Koyasu .
+twss:TakehitoKoyasu owl:sameAs dbr:Takehito_Koyasu .
 
-twss:TerryKinney ns1:sameAs dbr:Terry_Kinney .
+twss:TerryKinney owl:sameAs dbr:Terry_Kinney .
 
-twss:TeyonahParris ns1:sameAs dbr:Teyonah_Parris .
+twss:TeyonahParris owl:sameAs dbr:Teyonah_Parris .
 
-twss:ThomasKee ns1:sameAs dbr:Thomas_Kee .
+twss:ThomasKee owl:sameAs dbr:Thomas_Kee .
 
-twss:TomCruise ns1:sameAs dbr:Tom_Cruise .
+twss:TomCruise owl:sameAs dbr:Tom_Cruise .
 
-twss:TomHardy ns1:sameAs dbr:Tom_Hardy .
+twss:TomHardy owl:sameAs dbr:Tom_Hardy .
 
-twss:TomHolland ns1:sameAs dbr:Tom_Holland .
+twss:TomHolland owl:sameAs dbr:Tom_Holland .
 
-twss:TomokazuSeki ns1:sameAs dbr:Tomokazu_Seki .
+twss:TomokazuSeki owl:sameAs dbr:Tomokazu_Seki .
 
-twss:TonyTodd ns1:sameAs dbr:Tony_Todd .
+twss:TonyTodd owl:sameAs dbr:Tony_Todd .
 
-twss:TylerPerry ns1:sameAs dbr:Tyler_Perry .
+twss:TylerPerry owl:sameAs dbr:Tyler_Perry .
 
-twss:TyreseGibson ns1:sameAs dbr:Tyrese_Gibson .
+twss:TyreseGibson owl:sameAs dbr:Tyrese_Gibson .
 
-twss:UmaThurman ns1:sameAs dbr:Uma_Thurman .
+twss:UmaThurman owl:sameAs dbr:Uma_Thurman .
 
-twss:UtkarshAmbudkar ns1:sameAs dbr:Utkarsh_Ambudkar .
+twss:UtkarshAmbudkar owl:sameAs dbr:Utkarsh_Ambudkar .
 
-twss:ValKilmer ns1:sameAs dbr:Val_Kilmer .
+twss:ValKilmer owl:sameAs dbr:Val_Kilmer .
 
-twss:VeraFarmiga ns1:sameAs dbr:Vera_Farmiga .
+twss:VeraFarmiga owl:sameAs dbr:Vera_Farmiga .
 
-twss:VictoriaBluck ns1:sameAs dbr:Victoria_Bluck .
+twss:VictoriaBluck owl:sameAs dbr:Victoria_Bluck .
 
-twss:ViggoMortensen ns1:sameAs dbr:Viggo_Mortensen .
+twss:ViggoMortensen owl:sameAs dbr:Viggo_Mortensen .
 
-twss:VinDiesel ns1:sameAs dbr:Vin_Diesel .
+twss:VinDiesel owl:sameAs dbr:Vin_Diesel .
 
-twss:VincentGrass ns1:sameAs dbr:Vincent_Grass .
+twss:VincentGrass owl:sameAs dbr:Vincent_Grass .
 
-twss:VincentPerez ns1:sameAs dbr:Vincent_Perez .
+twss:VincentPerez owl:sameAs dbr:Vincent_Perez .
 
-twss:VioletaPalukas ns1:sameAs dbr:Violeta_Palukas .
+twss:VioletaPalukas owl:sameAs dbr:Violeta_Palukas .
 
-twss:VladimirGusev ns1:sameAs dbr:Vladimir_Gusev .
+twss:VladimirGusev owl:sameAs dbr:Vladimir_Gusev .
 
-twss:VladimirKuznetsov ns1:sameAs dbr:Vladimir_Kuznetsov .
+twss:VladimirKuznetsov owl:sameAs dbr:Vladimir_Kuznetsov .
 
-twss:WaltonGoggins ns1:sameAs dbr:Walton_Goggins .
+twss:WaltonGoggins owl:sameAs dbr:Walton_Goggins .
 
-twss:WesChatham ns1:sameAs dbr:Wes_Chatham .
+twss:WesChatham owl:sameAs dbr:Wes_Chatham .
 
-twss:WilliamHanna ns1:sameAs dbr:William_Hanna .
+twss:WilliamHanna owl:sameAs dbr:William_Hanna .
 
-twss:WilliamHurt ns1:sameAs dbr:William_Hurt .
+twss:WilliamHurt owl:sameAs dbr:William_Hurt .
 
-twss:WilliamSadler ns1:sameAs dbr:William_Sadler .
+twss:WilliamSadler owl:sameAs dbr:William_Sadler .
 
-twss:WoodyHarrelson ns1:sameAs dbr:Woody_Harrelson .
+twss:WoodyHarrelson owl:sameAs dbr:Woody_Harrelson .
 
-twss:YoshitsuguMatsuoka ns1:sameAs dbr:Yoshitsugu_Matsuoka .
+twss:YoshitsuguMatsuoka owl:sameAs dbr:Yoshitsugu_Matsuoka .
 
-twss:YuiIshikawa ns1:sameAs dbr:Yui_Ishikawa .
+twss:YuiIshikawa owl:sameAs dbr:Yui_Ishikawa .
 
-twss:YuriKolokolnikov ns1:sameAs dbr:Yuri_Kolokolnikov .
+twss:YuriKolokolnikov owl:sameAs dbr:Yuri_Kolokolnikov .
 
-twss:Zendaya ns1:sameAs dbr:Zendaya .
+twss:Zendaya owl:sameAs dbr:Zendaya .
 

@@ -1,5 +1,5 @@
 from pathlib import Path
-from rdflib import Namespace
+from rdflib import Namespace, OWL
 from urllib.parse import urljoin
 
 
@@ -17,6 +17,7 @@ NAMESPACES = {
     "dbr": Namespace(urljoin(BASE_DBPEDIA_URI, "resource/")),
     "dbp": Namespace(urljoin(BASE_DBPEDIA_URI, "property/")),
     "foaf": Namespace("http://xmlns.com/foaf/0.1/"),
+    "owl": OWL,		# Necessary to avoid automatic renaming provided by rdflib
 }
 
 

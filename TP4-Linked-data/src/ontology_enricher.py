@@ -1,16 +1,17 @@
-from concurrent.futures import ThreadPoolExecutor
 import logging
 
-from rdflib import OWL
-from rdflib.term import Literal
-
+from concurrent.futures import ThreadPoolExecutor
 from constant import MAX_REQUESTS, NAMESPACES
 from db.repository import OwlMovieRepository
+from rdflib import OWL
+from rdflib.term import Literal
+from requests.utils import requote_uri
 
 
 def get_remote_actor(actor_uri):
     logging.debug(f"Request to {actor_uri}")
-    actor_graph = OwlMovieRepository.read(actor_uri)
+    encoded_uri = requote_uri(actor_uri)
+    actor_graph = OwlMovieRepository.read(encoded_uri)
     return actor_graph
 
 

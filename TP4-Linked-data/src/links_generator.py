@@ -25,7 +25,8 @@ def get_actors_uris(graph):
 
 def get_dbpedia_actor(twss_actor_uri):
     dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
-    dbpedia_actor_data_uri = urljoin(DBPEDIA_DATA_URI, f"{dbpedia_actor_name}.ttl")
+    dbpedia_actor_data_uri = urljoin(
+        DBPEDIA_DATA_URI, f"{dbpedia_actor_name}.ttl")
     logging.debug(f"Request to {dbpedia_actor_data_uri}")
     actor_graph = OwlMovieRepository.read(dbpedia_actor_data_uri)
     return actor_graph
@@ -48,16 +49,19 @@ def get_dbpedia_actors(twss_actors_uris):
     return actors_graphs
 
 
-def add_same_as_triplet(twss_actor_uri, graph):
-    dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
+def get_dbpedia_actor_uri(actor_graph, dbpedia_actor_name):
+    dbr = NAMESPACES["dbr"]
 
-    same_as = (
-        twss_actor_uri,
-        OWL.sameAs,
-        NAMESPACES["dbr"][dbpedia_actor_name],
-    )
+    if redirects := get_dbpedia_redirects(actor_graph):
+        return redirects.pop()
 
-    graph.add(same_as)
+    return dbr[dbpedia_actor_name]
+
+
+def get_dbpedia_redirects(graph):
+    dbo = NAMESPACES["dbo"]
+
+    return list(graph.objects(predicate=dbo.wikiPageRedirects))
 
 
 def write_links():
@@ -74,6 +78,11 @@ def write_links():
             logging.error(f"Not found owl:sameAs for {dbpedia_actor_name}")
         else:
             logging.debug(f"Found owl:sameAs for dbpedia_{dbpedia_actor_name}")
-            add_same_as_triplet(twss_actor_uri, links_graph)
+
+            links_graph.add((
+                twss_actor_uri,
+                OWL.sameAs,
+                get_dbpedia_actor_uri(dbpedia_actor, dbpedia_actor_name),
+            ))
 
     OwlMovieRepository.write(LINKS_FILE, links_graph, namespaces=NAMESPACES)
