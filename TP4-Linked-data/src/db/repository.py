@@ -1,7 +1,7 @@
 from rdflib import Graph
 
 
-class OwlMovieRepository():
+class OwlMovieRepository:
     @classmethod
     def read(cls, graph_location, namespaces=None, file_format="turtle"):
         graph = Graph()
@@ -19,8 +19,7 @@ class OwlMovieRepository():
             cls.__bind_namespaces(graph, namespaces)
 
         with open(path_file, "w") as file:
-            serialized_graph = graph.serialize(
-                format=file_format).decode("utf-8")
+            serialized_graph = graph.serialize(format=file_format).decode("utf-8")
 
             file.write(serialized_graph)
 
