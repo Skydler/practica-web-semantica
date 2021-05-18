@@ -9,7 +9,7 @@ class OwlMovieRepository:
         if namespaces is not None:
             cls.__bind_namespaces(graph, namespaces)
 
-        graph.parse(source, format=file_format)
+        graph.parse(str(source), format=file_format)
 
         return graph
 
