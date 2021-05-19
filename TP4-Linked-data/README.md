@@ -40,10 +40,16 @@
    ```
 
 4. Generar un archivo *links.ttl*, mediante el comando:
-  `python3 main.py --links`
 
-2. Ejecutar el enriquecedor, mediante el comando:
-  `python3 main.py -e ../data/dataset-original.ttl ../data/links.ttl > ../data/dataset-enriquecido.ttl`
+   ```bash
+   python3 main.py --links
+   ```
+
+5. Ejecutar el enriquecedor, mediante el comando:
+
+   ```bash
+   python3 main.py -e ../data/dataset-original.ttl ../data/links.ttl > ../data/dataset-enriquecido.ttl
+   ```
 
 ### Opciones de ejecución
 
