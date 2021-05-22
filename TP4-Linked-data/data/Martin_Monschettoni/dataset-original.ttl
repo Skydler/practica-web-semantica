@@ -1,0 +1,1951 @@
+@prefix : <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl> .
+
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#location
+:location rdf:type owl:ObjectProperty ;
+          rdfs:domain <https://schema.org/Event> ;
+          rdfs:range <https://schema.org/Place> .
+
+
+###  https://schema.org/actor
+<https://schema.org/actor> rdf:type owl:ObjectProperty ;
+                           rdfs:domain <https://schema.org/Movie> ;
+                           rdfs:range <https://schema.org/Person> .
+
+
+###  https://schema.org/aggregateRating
+<https://schema.org/aggregateRating> rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf owl:topObjectProperty ;
+                                     rdfs:domain <https://schema.org/Movie> ;
+                                     rdfs:range <https://schema.org/AggregateRating> .
+
+
+###  https://schema.org/author
+<https://schema.org/author> rdf:type owl:ObjectProperty ;
+                            rdfs:domain <https://schema.org/Movie> ,
+                                        <https://schema.org/Review> ;
+                            rdfs:range <https://schema.org/Person> .
+
+
+###  https://schema.org/containsPlace
+<https://schema.org/containsPlace> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://schema.org/MovieTheater> ;
+                                   rdfs:range <https://schema.org/Room> .
+
+
+###  https://schema.org/creator
+<https://schema.org/creator> rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             rdfs:domain <https://schema.org/Movie> ;
+                             rdfs:range <https://schema.org/Organization> ,
+                                        <https://schema.org/Person> .
+
+
+###  https://schema.org/director
+<https://schema.org/director> rdf:type owl:ObjectProperty ;
+                              rdfs:domain <https://schema.org/Movie> ;
+                              rdfs:range <https://schema.org/Person> .
+
+
+###  https://schema.org/image
+<https://schema.org/image> rdf:type owl:ObjectProperty ;
+                           rdfs:domain <https://schema.org/Movie> ,
+                                       <https://schema.org/Person> ,
+                                       <https://schema.org/VideoObject> ;
+                           rdfs:range <https://schema.org/ImageObject> .
+
+
+###  https://schema.org/itemReviewed
+<https://schema.org/itemReviewed> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <https://schema.org/Review> ;
+                                  rdfs:range owl:Thing .
+
+
+###  https://schema.org/productionCompany
+<https://schema.org/productionCompany> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                       rdfs:domain <https://schema.org/Movie> ,
+                                                   <https://schema.org/Organization> ,
+                                                   <https://schema.org/VideoObject> ;
+                                       rdfs:range <https://schema.org/Organization> .
+
+
+###  https://schema.org/publisher
+<https://schema.org/publisher> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <https://schema.org/Movie> ,
+                                           <https://schema.org/Review> ;
+                               rdfs:range <https://schema.org/Organization> ,
+                                          <https://schema.org/Person> .
+
+
+###  https://schema.org/releasedEvent
+<https://schema.org/releasedEvent> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://schema.org/Movie> ;
+                                   rdfs:range <https://schema.org/PublicationEvent> .
+
+
+###  https://schema.org/review
+<https://schema.org/review> rdf:type owl:ObjectProperty ;
+                            rdfs:domain <https://schema.org/CreativeWork> ;
+                            rdfs:range <https://schema.org/Review> .
+
+
+###  https://schema.org/reviewRating
+<https://schema.org/reviewRating> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <https://schema.org/Review> ;
+                                  rdfs:range <https://schema.org/Rating> .
+
+
+###  https://schema.org/scheduledTime
+<https://schema.org/scheduledTime> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://schema.org/Event> ,
+                                               <https://schema.org/ScreeningEvent> .
+
+
+###  https://schema.org/thumbnail
+<https://schema.org/thumbnail> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <https://schema.org/ImageObject> ,
+                                           <https://schema.org/VideoObject> ;
+                               rdfs:range <https://schema.org/ImageObject> .
+
+
+###  https://schema.org/trailer
+<https://schema.org/trailer> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <https://schema.org/Movie> ;
+                             rdfs:range <https://schema.org/VideoObject> .
+
+
+###  https://schema.org/workPresented
+<https://schema.org/workPresented> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://schema.org/ScreeningEvent> ;
+                                   rdfs:range <https://schema.org/Movie> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#bestRating
+:bestRating rdf:type owl:DatatypeProperty ;
+            rdfs:domain <https://schema.org/AggregateRating> ,
+                        <https://schema.org/Rating> ;
+            rdfs:range xsd:double ,
+                       xsd:integer .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#character
+:character rdf:type owl:DatatypeProperty ;
+           rdfs:domain <https://schema.org/Movie> ;
+           rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#contentRating
+:contentRating rdf:type owl:DatatypeProperty ;
+               rdfs:domain <https://schema.org/Movie> ;
+               rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#countryOfOrigin
+:countryOfOrigin rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <https://schema.org/Movie> ;
+                 rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#dateCreated
+:dateCreated rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/AggregateRating> ,
+                         <https://schema.org/Movie> ;
+             rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#dateModified
+:dateModified rdf:type owl:DatatypeProperty ;
+              rdfs:domain <https://schema.org/Movie> ;
+              rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#datePublished
+:datePublished rdf:type owl:DatatypeProperty ;
+               rdfs:domain <https://schema.org/Movie> ;
+               rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/AggregateRating> ,
+                         <https://schema.org/Movie> ,
+                         <https://schema.org/VideoObject> ;
+             rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#duration
+:duration rdf:type owl:DatatypeProperty ;
+          rdfs:domain <https://schema.org/Movie> ,
+                      <https://schema.org/VideoObject> ;
+          rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#embedUrl
+:embedUrl rdf:type owl:DatatypeProperty ;
+          rdfs:domain <https://schema.org/VideoObject> ;
+          rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#genre
+:genre rdf:type owl:DatatypeProperty ;
+       rdfs:domain <https://schema.org/Movie> ;
+       rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#image
+:image rdf:type owl:DatatypeProperty ;
+       rdfs:domain <https://schema.org/Movie> ,
+                   <https://schema.org/Person> ;
+       rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#mainEntityOfPage
+:mainEntityOfPage rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <https://schema.org/Movie> ,
+                              <https://schema.org/Organization> ,
+                              <https://schema.org/Person> ,
+                              <https://schema.org/Review> ;
+                  rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain owl:Thing ;
+      rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ratingCount
+:ratingCount rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/AggregateRating> ;
+             rdfs:range xsd:integer .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ratingValue
+:ratingValue rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/AggregateRating> ,
+                         <https://schema.org/Rating> ;
+             rdfs:range xsd:double ,
+                        xsd:integer .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#reviewBody
+:reviewBody rdf:type owl:DatatypeProperty ;
+            rdfs:domain <https://schema.org/Review> ;
+            rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#reviewCount
+:reviewCount rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain <https://schema.org/AggregateRating> ;
+             rdfs:range xsd:integer .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#sameAs
+:sameAs rdf:type owl:DatatypeProperty ;
+        rdfs:domain <https://schema.org/Person> ;
+        rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#startDate
+:startDate rdf:type owl:DatatypeProperty ;
+           rdfs:domain <https://schema.org/PublicationEvent> ;
+           rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain <https://schema.org/Movie> ;
+       rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#uploadDate
+:uploadDate rdf:type owl:DatatypeProperty ;
+            rdfs:domain <https://schema.org/VideoObject> ;
+            rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#url
+:url rdf:type owl:DatatypeProperty ;
+     rdfs:domain <https://schema.org/ImageObject> ,
+                 <https://schema.org/Movie> ,
+                 <https://schema.org/MovieTheater> ,
+                 <https://schema.org/Organization> ,
+                 <https://schema.org/Person> ,
+                 <https://schema.org/Review> ,
+                 <https://schema.org/VideoObject> ;
+     rdfs:range xsd:string .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#worstRating
+:worstRating rdf:type owl:DatatypeProperty ;
+             rdfs:domain <https://schema.org/AggregateRating> ,
+                         <https://schema.org/Rating> ;
+             rdfs:range xsd:double ,
+                        xsd:integer .
+
+
+###  https://schema.org/about
+<https://schema.org/about> rdf:type owl:DatatypeProperty ;
+                           rdfs:domain <https://schema.org/CreativeWork> ;
+                           rdfs:range xsd:string .
+
+
+###  https://schema.org/contentUrl
+<https://schema.org/contentUrl> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/CreativeWork> ;
+                                rdfs:range xsd:string .
+
+
+###  https://schema.org/inLanguage
+<https://schema.org/inLanguage> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/CreativeWork> ;
+                                rdfs:range xsd:string .
+
+
+###  https://schema.org/keywords
+<https://schema.org/keywords> rdf:type owl:DatatypeProperty ;
+                              rdfs:domain <https://schema.org/CreativeWork> ;
+                              rdfs:range xsd:string .
+
+
+###  https://schema.org/scheduledTime
+<https://schema.org/scheduledTime> rdf:type owl:DatatypeProperty ;
+                                   rdfs:range xsd:string .
+
+
+###  https://schema.org/thumbnailUrl
+<https://schema.org/thumbnailUrl> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <https://schema.org/CreativeWork> ;
+                                  rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://schema.org/AggregateRating
+<https://schema.org/AggregateRating> rdf:type owl:Class .
+
+
+###  https://schema.org/Country
+<https://schema.org/Country> rdf:type owl:Class ;
+                             rdfs:subClassOf <https://schema.org/Place> .
+
+
+###  https://schema.org/CreativeWork
+<https://schema.org/CreativeWork> rdf:type owl:Class .
+
+
+###  https://schema.org/Event
+<https://schema.org/Event> rdf:type owl:Class .
+
+
+###  https://schema.org/ImageObject
+<https://schema.org/ImageObject> rdf:type owl:Class ;
+                                 rdfs:subClassOf <https://schema.org/CreativeWork> .
+
+
+###  https://schema.org/Movie
+<https://schema.org/Movie> rdf:type owl:Class .
+
+
+###  https://schema.org/MovieTheater
+<https://schema.org/MovieTheater> rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://schema.org/Place> .
+
+
+###  https://schema.org/Organization
+<https://schema.org/Organization> rdf:type owl:Class .
+
+
+###  https://schema.org/Person
+<https://schema.org/Person> rdf:type owl:Class .
+
+
+###  https://schema.org/Place
+<https://schema.org/Place> rdf:type owl:Class .
+
+
+###  https://schema.org/PublicationEvent
+<https://schema.org/PublicationEvent> rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://schema.org/Event> .
+
+
+###  https://schema.org/Rating
+<https://schema.org/Rating> rdf:type owl:Class .
+
+
+###  https://schema.org/Review
+<https://schema.org/Review> rdf:type owl:Class .
+
+
+###  https://schema.org/Room
+<https://schema.org/Room> rdf:type owl:Class ;
+                          rdfs:subClassOf <https://schema.org/Place> .
+
+
+###  https://schema.org/ScreeningEvent
+<https://schema.org/ScreeningEvent> rdf:type owl:Class ;
+                                    rdfs:subClassOf <https://schema.org/Event> .
+
+
+###  https://schema.org/VideoObject
+<https://schema.org/VideoObject> rdf:type owl:Class ;
+                                 rdfs:subClassOf <https://schema.org/CreativeWork> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#AGRating1
+:AGRating1 rdf:type owl:NamedIndividual ,
+                    <https://schema.org/AggregateRating> ;
+           :bestRating 10.0 ;
+           :ratingCount 192010 ;
+           :ratingValue 5.4 ;
+           :worstRating 1.0 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#AGRating2
+:AGRating2 rdf:type owl:NamedIndividual ,
+                    <https://schema.org/AggregateRating> ;
+           :bestRating 100 ;
+           :description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+           :name "Tomatometer" ;
+           :ratingCount 426 ;
+           :ratingValue 59 ;
+           :reviewCount 426 ;
+           :worstRating 0 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#AGRating3
+:AGRating3 rdf:type owl:NamedIndividual ,
+                    <https://schema.org/AggregateRating> ;
+           :bestRating 10 ;
+           :ratingCount 20 ;
+           :ratingValue "7,6" ;
+           :worstRating 0 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#AGRating4
+:AGRating4 rdf:type owl:NamedIndividual ,
+                    <https://schema.org/AggregateRating> ;
+           :bestRating 100 ;
+           :ratingCount 57 ;
+           :ratingValue 60 ;
+           :worstRating 0 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Alex_Delescu
+:Alex_Delescu rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Alex Delescu" ;
+              :url "https://www.metacritic.com/person/alex-delescu" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Amr_Waked
+:Amr_Waked rdf:type owl:NamedIndividual ,
+                    <https://schema.org/Person> ;
+           :name "Amr Waked" ;
+           :url "https://www.metacritic.com/person/amr-waked" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Amreen_N._Yaqoob
+:Amreen_N._Yaqoob rdf:type owl:NamedIndividual ,
+                           <https://schema.org/Person> ;
+                  :name "Amreen N. Yaqoob" ;
+                  :url "https://www.metacritic.com/person/amreen-n-yaqoob" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Amy_Nicholson
+:Amy_Nicholson rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Amy Nicholson" ;
+               :url "https://www.rottentomatoes.com/critic/amy-nicholson" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Andrew_Galdi
+:Andrew_Galdi rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Andrew Galdi" ;
+              :url "https://www.rottentomatoes.com/critic/andrew-galdi" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Ars_Technica
+:Ars_Technica rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Organization> ;
+              :name "Ars Technica"@en ;
+              :url "https://www.rottentomatoes.com/source-2985" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Australian_Financial_Review
+:Australian_Financial_Review rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/Organization> ;
+                             :name "Australian Financial Review"@en ;
+                             :url "https://www.rottentomatoes.com/source-3199" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Avaryl_Halley
+:Avaryl_Halley rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Avaryl Halley" ;
+               :url "https://www.rottentomatoes.com/critic/avaryl-halley" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Battleship_Pretension
+:Battleship_Pretension rdf:type owl:NamedIndividual ,
+                                <https://schema.org/Organization> ;
+                       :name "Battleship Pretension"@en ;
+                       :url "https://www.rottentomatoes.com/source-3090" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Bern_Collaco
+:Bern_Collaco rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Bern Collaco" ;
+              :url "https://www.metacritic.com/person/bern-collaco" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Brian_Gill
+:Brian_Gill rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "Brian Gill" ;
+            :url "https://www.rottentomatoes.com/critic/brian-gill" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Brittney_Aleah
+:Brittney_Aleah rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Brittney Aleah" ;
+                :url "https://www.metacritic.com/person/brittney-aleah" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Chicago_Reader
+:Chicago_Reader rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Organization> ;
+                :name "Chicago Reader"@en ;
+                :url "https://www.rottentomatoes.com/source-66" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Chris_Pine
+:Chris_Pine rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :image "https://resizing.flixster.com/lUzaa-oO0RKNt3ekbqvlU5RPqR8=/660x990/v1.bjs3NTYxMDQ7ajsxODc3MzsxMjAwOzY2MDs5OTA" ;
+            :mainEntityOfPage "https://www.ecartelera.com/personas/chris-pine/" ;
+            :name "Chris Pine" ;
+            :sameAs "https://www.rottentomatoes.com/celebrity/christopher_pine" ;
+            :url "https://www.metacritic.com/person/chris-pine" ,
+                 "www.imdb.com/name/nm1517976/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Chris_Silcox
+:Chris_Silcox rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Chris Silcox" ;
+              :url "https://www.metacritic.com/person/chris-silcox" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinema_Rocha
+:Cinema_Rocha rdf:type owl:NamedIndividual ,
+                       <https://schema.org/MovieTheater> ;
+              <https://schema.org/containsPlace> :Cinema_Rocha_Room_1 ;
+              :name "Cinema Rocha"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinema_Rocha_Room_1
+:Cinema_Rocha_Room_1 rdf:type owl:NamedIndividual ,
+                              <https://schema.org/Room> ;
+                     :name "SALA HD"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Avellaneda
+:Cinepolis_Avellaneda rdf:type owl:NamedIndividual ,
+                               <https://schema.org/MovieTheater> ;
+                      <https://schema.org/containsPlace> :Cinepolis_Avellaneda_Room_1 ;
+                      :name "Cinepolis Avellaneda"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Avellaneda_Room_1
+:Cinepolis_Avellaneda_Room_1 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/Room> ;
+                             :name "Classic_2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Maipu
+:Cinepolis_Maipu rdf:type owl:NamedIndividual ,
+                          <https://schema.org/MovieTheater> ;
+                 <https://schema.org/containsPlace> :Cinepolis_Maipu_Room_1 ;
+                 :name "Cinepolis Maipu"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Maipu_Room_1
+:Cinepolis_Maipu_Room_1 rdf:type owl:NamedIndividual ,
+                                 <https://schema.org/Room> ;
+                        :name "GC 2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Mendoza
+:Cinepolis_Mendoza rdf:type owl:NamedIndividual ,
+                            <https://schema.org/MovieTheater> ;
+                   <https://schema.org/containsPlace> :Cinepolis_Mendoza_Room_1 ;
+                   :name "Cinepolis Mendoza"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Mendoza_Room_1
+:Cinepolis_Mendoza_Room_1 rdf:type owl:NamedIndividual ,
+                                   <https://schema.org/Room> ;
+                          :name "Classic 2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Merlo
+:Cinepolis_Merlo rdf:type owl:NamedIndividual ,
+                          <https://schema.org/MovieTheater> ;
+                 <https://schema.org/containsPlace> :Cinepolis_Merlo_Room_1 ;
+                 :name "Cinepolis Merlo"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Merlo_Room_1
+:Cinepolis_Merlo_Room_1 rdf:type owl:NamedIndividual ,
+                                 <https://schema.org/Room> ;
+                        :name "Classic 2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Neuquen
+:Cinepolis_Neuquen rdf:type owl:NamedIndividual ,
+                            <https://schema.org/MovieTheater> ;
+                   <https://schema.org/containsPlace> :Cinepolis_Neuquen_Room_1 ;
+                   :name "Cinepolis Neuquen"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Neuquen_Room_1
+:Cinepolis_Neuquen_Room_1 rdf:type owl:NamedIndividual ,
+                                   <https://schema.org/Room> ;
+                          :name "Classic 2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Pilar
+:Cinepolis_Pilar rdf:type owl:NamedIndividual ,
+                          <https://schema.org/MovieTheater> ;
+                 <https://schema.org/containsPlace> :Cinepolis_Pilar_Room_1 ;
+                 :name "Cinepolis Pilar"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Pilar_Room_1
+:Cinepolis_Pilar_Room_1 rdf:type owl:NamedIndividual ,
+                                 <https://schema.org/Room> ;
+                        :name "Classic 2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Recoleta
+:Cinepolis_Recoleta rdf:type owl:NamedIndividual ,
+                             <https://schema.org/MovieTheater> ;
+                    <https://schema.org/containsPlace> :Cinepolis_Recoleta_Room_1 ;
+                    :name "Cinepolis Recoleta"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Cinepolis_Recoleta_Room_1
+:Cinepolis_Recoleta_Room_1 rdf:type owl:NamedIndividual ,
+                                    <https://schema.org/Room> ;
+                           :name "Classic 2D"@es .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Concrete_Playground
+:Concrete_Playground rdf:type owl:NamedIndividual ,
+                              <https://schema.org/Organization> ;
+                     :name "Concrete Playground"@en ;
+                     :url "https://www.rottentomatoes.com/source-2298" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Connie_Nielsen
+:Connie_Nielsen rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :image "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw" ;
+                :mainEntityOfPage "https://www.ecartelera.com/personas/connie-nielsen/" ;
+                :name "Connie Nielsen" ;
+                :sameAs "https://www.rottentomatoes.com/celebrity/connie_nielsen" ;
+                :url "https://www.metacritic.com/person/connie-nielsen" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Country_ES
+:Country_ES rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Country> ;
+            :name "ES" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#CreativeWork1
+:CreativeWork1 rdf:type owl:NamedIndividual ,
+                        <https://schema.org/CreativeWork> ;
+               :url "www.imdb.com/title/tt7126948/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Dan_Tabor
+:Dan_Tabor rdf:type owl:NamedIndividual ,
+                    <https://schema.org/Person> ;
+           :name "Dan Tabor" ;
+           :url "https://www.rottentomatoes.com/critic/dan-tabor" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Dave_Callaham
+:Dave_Callaham rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Dave Callaham" ;
+               :url "www.imdb.com/name/nm1709264/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#David_Bax
+:David_Bax rdf:type owl:NamedIndividual ,
+                    <https://schema.org/Person> ;
+           :name "David Bax" ;
+           :url "https://www.rottentomatoes.com/critic/david-bax" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#David_Sims
+:David_Sims rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "David Sims" ;
+            :url "https://www.rottentomatoes.com/critic/david-sims" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Eddie_Harrison
+:Eddie_Harrison rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Eddie Harrison" ;
+                :url "https://www.rottentomatoes.com/critic/eddie-harrison" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Ella_Walker
+:Ella_Walker rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Ella Walker" ;
+             :url "https://www.metacritic.com/person/ella-walker" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Epoch_Times
+:Epoch_Times rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Organization> ;
+             :name "Epoch Times"@en ;
+             :url "https://www.rottentomatoes.com/source-2771" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Eric_Marchen
+:Eric_Marchen rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Eric Marchen" ;
+              :url "https://www.rottentomatoes.com/critic/eric-marchen" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Fat_Guys_at_the_Movies
+:Fat_Guys_at_the_Movies rdf:type owl:NamedIndividual ,
+                                 <https://schema.org/Organization> ;
+                        :name "Fat Guys at the Movies"@en ;
+                        :url "https://www.rottentomatoes.com/source-2722" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Gabriella_Wilde
+:Gabriella_Wilde rdf:type owl:NamedIndividual ,
+                          <https://schema.org/Person> ;
+                 :name "Gabriella Wilde" ;
+                 :url "https://www.metacritic.com/person/gabriella-wilde" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Gal_Gadot
+:Gal_Gadot rdf:type owl:NamedIndividual ,
+                    <https://schema.org/Person> ;
+           :image "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA" ;
+           :mainEntityOfPage "https://www.ecartelera.com/personas/gal-gadot/" ;
+           :name "Gal Gadot" ;
+           :sameAs "https://www.rottentomatoes.com/celebrity/gal-gadot" ;
+           :url "https://www.metacritic.com/person/gal-gadot" ,
+                "www.imdb.com/name/nm2933757/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Geoff_Johns
+:Geoff_Johns rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Geoff Johns" ;
+             :url "www.imdb.com/name/nm0424315/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Ian_Simmons
+:Ian_Simmons rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Ian Simmons" ;
+             :url "https://www.rottentomatoes.com/critic/ian-simmons" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Jake_Wilson
+:Jake_Wilson rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Jake Wilson" ;
+             :url "https://www.rottentomatoes.com/critic/jake-wilson" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Jamaal_Burcher
+:Jamaal_Burcher rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Jamaal Burcher" ;
+                :url "https://www.metacritic.com/person/jamaal-burcher" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Jamal_Alkhaldi
+:Jamal_Alkhaldi rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Jamal Alkhaldi" ;
+                :url "https://www.metacritic.com/person/jamal-alkhaldi" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Jeff_Moore
+:Jeff_Moore rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "Jeff Moore" ;
+            :url "https://www.metacritic.com/person/jeff-moore" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Jennifer_Ouellette
+:Jennifer_Ouellette rdf:type owl:NamedIndividual ,
+                             <https://schema.org/Person> ;
+                    :name "Jennifer Ouellette" ;
+                    :url "https://www.rottentomatoes.com/critic/jennifer-ouellette" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Joel_Morris
+:Joel_Morris rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Joel Morris" ;
+             :url "https://www.metacritic.com/person/joel-morris" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#John_Gettier
+:John_Gettier rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "John Gettier" ;
+              :url "https://www.metacritic.com/person/john-gettier" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#John_McDonald
+:John_McDonald rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "John McDonald" ;
+               :url "https://www.rottentomatoes.com/critic/john-mcdonald" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Jonathan_Ajayi
+:Jonathan_Ajayi rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Jonathan Ajayi" ;
+                :url "https://www.metacritic.com/person/jonathan-ajayi" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Julian_Ferro
+:Julian_Ferro rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Julian Ferro" ;
+              :url "https://www.metacritic.com/person/julian-ferro" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Justin_Sisk
+:Justin_Sisk rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Justin Sisk" ;
+             :url "Justin Sisk" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Kaila_Ingram
+:Kaila_Ingram rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Kaila Ingram" ;
+              :url "https://www.metacritic.com/person/kaila-ingram" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Kevin_Carr
+:Kevin_Carr rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "Kevin Carr" ;
+            :url "https://www.rottentomatoes.com/critic/kevin-carr" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Kicking_the_Seat
+:Kicking_the_Seat rdf:type owl:NamedIndividual ,
+                           <https://schema.org/Organization> ;
+                  :name "Kicking the Seat"@en ;
+                  :url "https://www.rottentomatoes.com/source-3892" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Kristen_Wiig
+:Kristen_Wiig rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :image "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz" ;
+              :mainEntityOfPage "https://www.ecartelera.com/personas/kristen-wiig/" ;
+              :name "Kristen Wiig" ;
+              :sameAs "https://www.rottentomatoes.com/celebrity/kristen_wiig" ;
+              :url "https://www.metacritic.com/person/kristen-wiig" ,
+                   "www.imdb.com/name/nm1325419/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Kristoffer_Polaha
+:Kristoffer_Polaha rdf:type owl:NamedIndividual ,
+                            <https://schema.org/Person> ;
+                   :name "Kristoffer Polaha" ;
+                   :url "https://www.metacritic.com/person/kristoffer-polaha" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Lilly_Aspell
+:Lilly_Aspell rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Lilly Aspell" ;
+              :url "https://www.metacritic.com/person/lilly-aspell" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Lolita_Marie
+:Lolita_Marie rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Lolita Marie" ;
+              :url "https://www.metacritic.com/person/lolita-marie" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Lynda_Carter
+:Lynda_Carter rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Lynda Carter" ;
+              :url "https://www.metacritic.com/person/lynda-carter" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Lyon_Beckwith
+:Lyon_Beckwith rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Lyon Beckwith" ;
+               :url "https://www.metacritic.com/person/lyon-beckwith" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mad_About_Movies_Podcast
+:Mad_About_Movies_Podcast rdf:type owl:NamedIndividual ,
+                                   <https://schema.org/Organization> ;
+                          :name "Mad About Movies Podcast"@en ;
+                          :url "https://www.rottentomatoes.com/source-3256" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Manoj_Anand
+:Manoj_Anand rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Manoj Anand" ;
+             :url "https://www.metacritic.com/person/manoj-anand" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Marisol_Correa
+:Marisol_Correa rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Marisol Correa" ;
+                :url "https://www.metacritic.com/person/marisol-correa" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mark_Jackson
+:Mark_Jackson rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "Mark Jackson" ;
+              :url "https://www.rottentomatoes.com/critic/mark-jackson" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mark_Meszoros
+:Mark_Meszoros rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Mark Meszoros" ;
+               :url "https://www.rottentomatoes.com/critic/mark-meszoros" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Marla_Aaron_Wapner
+:Marla_Aaron_Wapner rdf:type owl:NamedIndividual ,
+                             <https://schema.org/Person> ;
+                    :name "Marla Aaron Wapner" ;
+                    :url "https://www.metacritic.com/person/marla-aaron-wapner" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Matt_Neal
+:Matt_Neal rdf:type owl:NamedIndividual ,
+                    <https://schema.org/Person> ;
+           :name "Matt Neal" ;
+           :url "https://www.rottentomatoes.com/critic/matt-neal" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Monica_Haynes
+:Monica_Haynes rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Monica Haynes" ;
+               :url "https://www.metacritic.com/person/monica-haynes" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Movie_Bitches
+:Movie_Bitches rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Organization> ;
+               :name "Movie Bitches"@en ;
+               :url "https://www.rottentomatoes.com/source-3639" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Image
+:Mujer_Maravilla_Image rdf:type owl:NamedIndividual ,
+                                <https://schema.org/ImageObject> ;
+                       :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Publicacion
+:Mujer_Maravilla_Publicacion rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/PublicationEvent> ;
+                             :location :Country_ES ;
+                             :startDate "2020-12-18" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_1
+:Mujer_Maravilla_Screening_1 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinema_Rocha_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Castellano"@es ;
+                             <https://schema.org/scheduledTime> "22:10" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_2
+:Mujer_Maravilla_Screening_2 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Recoleta_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Subtitulado"@es ;
+                             <https://schema.org/scheduledTime> "22:50" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_3
+:Mujer_Maravilla_Screening_3 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Pilar_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Español"@es ;
+                             <https://schema.org/scheduledTime> "22:10" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_4
+:Mujer_Maravilla_Screening_4 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Merlo_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Español"@es ;
+                             <https://schema.org/scheduledTime> "22:40" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_5
+:Mujer_Maravilla_Screening_5 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Avellaneda_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Español"@es ;
+                             <https://schema.org/scheduledTime> "22:20" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_6
+:Mujer_Maravilla_Screening_6 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Mendoza_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Español"@es ;
+                             <https://schema.org/scheduledTime> "22:30" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_7
+:Mujer_Maravilla_Screening_7 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Maipu_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Español"@es ;
+                             <https://schema.org/scheduledTime> "22:40" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Screening_8
+:Mujer_Maravilla_Screening_8 rdf:type owl:NamedIndividual ,
+                                      <https://schema.org/ScreeningEvent> ;
+                             :location :Cinepolis_Neuquen_Room_1 ;
+                             <https://schema.org/workPresented> :Mujer_maravilla ;
+                             <https://schema.org/inLanguage> "Español"@es ;
+                             <https://schema.org/scheduledTime> "22:15" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Thumbnail
+:Mujer_Maravilla_Thumbnail rdf:type owl:NamedIndividual ,
+                                    <https://schema.org/ImageObject> ;
+                           <https://schema.org/contentUrl> "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Trailer1
+:Mujer_Maravilla_Trailer1 rdf:type owl:NamedIndividual ,
+                                   <https://schema.org/VideoObject> ;
+                          <https://schema.org/thumbnail> :Mujer_Maravilla_Thumbnail ;
+                          :description "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah."@en ;
+                          :embedUrl "www.imdb.com/video/imdb/vi3240214809" ;
+                          :name "Stream on HBO Max for a Limited Time"@en ;
+                          :uploadDate "2020-12-07T01:51:07Z" ;
+                          <https://schema.org/thumbnailUrl> "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_Maravilla_Trailer2
+:Mujer_Maravilla_Trailer2 rdf:type owl:NamedIndividual ,
+                                   <https://schema.org/VideoObject> ;
+                          :description "Video Clip of Wonder Woman 1984"@en ;
+                          :name "Wonder Woman 1984 (Trailer 2)" ;
+                          :uploadDate "2020-11-21 17:41:36" ;
+                          <https://schema.org/thumbnailUrl> "https://content.internetvideoarchive.com/content/hdphotos/13126/013126/013126_820x461_637413475681110755.jpg" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Mujer_maravilla
+:Mujer_maravilla rdf:type owl:NamedIndividual ,
+                          <https://schema.org/Movie> ;
+                 <https://schema.org/actor> :Alex_Delescu ,
+                                            :Amr_Waked ,
+                                            :Amreen_N._Yaqoob ,
+                                            :Bern_Collaco ,
+                                            :Brittney_Aleah ,
+                                            :Chris_Pine ,
+                                            :Chris_Silcox ,
+                                            :Connie_Nielsen ,
+                                            :Ella_Walker ,
+                                            :Gabriella_Wilde ,
+                                            :Gal_Gadot ,
+                                            :Jamaal_Burcher ,
+                                            :Jamal_Alkhaldi ,
+                                            :Jeff_Moore ,
+                                            :Joel_Morris ,
+                                            :John_Gettier ,
+                                            :Jonathan_Ajayi ,
+                                            :Julian_Ferro ,
+                                            :Justin_Sisk ,
+                                            :Kaila_Ingram ,
+                                            :Kristen_Wiig ,
+                                            :Kristoffer_Polaha ,
+                                            :Lilly_Aspell ,
+                                            :Lolita_Marie ,
+                                            :Lynda_Carter ,
+                                            :Lyon_Beckwith ,
+                                            :Manoj_Anand ,
+                                            :Marisol_Correa ,
+                                            :Marla_Aaron_Wapner ,
+                                            :Monica_Haynes ,
+                                            :Natasha_Rothwell ,
+                                            :Oakley_Bull ,
+                                            :Paul_Ron_Cruz ,
+                                            :Pedro_Pascal ,
+                                            :Penelope_Kapudija ,
+                                            :Ravi_Patel ,
+                                            :Rick_Kelvin_Branch ,
+                                            :Robin_Wright ,
+                                            :Sia_Alipour ,
+                                            :Sonia_Goswami ,
+                                            :Spencer_Trinwith ,
+                                            :Tessa_Bonham_Jones ,
+                                            :Thomas_Clay_Strickland ;
+                 <https://schema.org/aggregateRating> :AGRating1 ,
+                                                      :AGRating2 ,
+                                                      :AGRating3 ,
+                                                      :AGRating4 ;
+                 <https://schema.org/author> :Patty_Jenkins ;
+                 <https://schema.org/creator> :Dave_Callaham ,
+                                              :Geoff_Johns ,
+                                              :Patty_Jenkins ,
+                                              :William_Moulton_Marston ;
+                 <https://schema.org/director> :Patty_Jenkins ;
+                 <https://schema.org/image> :Mujer_Maravilla_Image ;
+                 <https://schema.org/productionCompany> :Warner_Bros._Pictures ;
+                 <https://schema.org/publisher> :Warner_Bros._Pictures ;
+                 <https://schema.org/releasedEvent> :Mujer_Maravilla_Publicacion ;
+                 <https://schema.org/review> :Review1 ;
+                 :character "Antiope" ,
+                            "Barbara Minerva / Cheetah" ,
+                            "Diana Prince / Wonder Woman" ,
+                            "Hippolyta" ,
+                            "Steve Trevor" ;
+                 :contentRating "APTA MAYORES DE 13 AÑOS"@es ,
+                                "PG-13" ;
+                 :countryOfOrigin "EE.UU." ,
+                                  "ESTADOS UNIDOS"@es ;
+                 :dateCreated "2017-09-13T08:24:15-07:00" ;
+                 :dateModified "2021-04-17T21:01:56-07:00" ;
+                 :duration "151 MINUTOS"@es ,
+                           "PT151M" ,
+                           "PT2H31M" ;
+                 :genre "ACCION, CIENCIA FICCION"@es ,
+                        "Acción"@es ,
+                        "Action"@en ,
+                        "Action & Adventure"@en ,
+                        "Adventure"@en ,
+                        "Aventura"@es ,
+                        "Fantasy"@en ,
+                        "Fantasía"@es ,
+                        "Science Fiction & Fantasy"@en ;
+                 :image "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg" ,
+                        "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI" ,
+                        "https://static.metacritic.com/images/products/movies/4/9d1a4650bb42f43a0a781bfa70a7772d.jpg" ;
+                 :mainEntityOfPage "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
+                 :name "Wonder Woman 1984"@en ;
+                 :title "MUJER MARAVILLA 1984"@es ;
+                 :url "https://www.metacritic.com/movie/wonder-woman-1984" ,
+                      "https://www.rottentomatoes.com/m/wonder_woman_1984" ,
+                      "www.imdb.com/title/tt7126948/" ;
+                 <https://schema.org/about> "AMBIENTADA EN LOS AÑOS 80S  EL MAYOR DESEO DE DIANA PRINCE PARECE SER TENER DEVUELTA A STEVE TREVOR  ESTO INEXPLICABLEMENTE PARECE HABERSE CONVERTIDO EN REALIDAD, PERO LA ENFRENTARA A DOS NUEVOS VILLANOS: MAX LORD Y CHEETAH"@es ;
+                 <https://schema.org/keywords> "sequel,superhero,dc extended universe,dc comics,action heroine"@en .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Natasha_Rothwell
+:Natasha_Rothwell rdf:type owl:NamedIndividual ,
+                           <https://schema.org/Person> ;
+                  :name "Natasha Rothwell" ;
+                  :url "https://www.metacritic.com/person/natasha-rothwell" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Newsday
+:Newsday rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Organization> ;
+         :name "David Bax"@en ;
+         :url "https://www.rottentomatoes.com/source-338" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Nina_Garin
+:Nina_Garin rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "Nina Garin" ;
+            :url "https://www.rottentomatoes.com/critic/nina-garin" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Oakley_Bull
+:Oakley_Bull rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Oakley Bull" ;
+             :url "https://www.metacritic.com/person/oakley-bull" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Patty_Jenkins
+:Patty_Jenkins rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :mainEntityOfPage "https://www.ecartelera.com/personas/patty-jenkins/" ;
+               :name "Patty Jenkins" ;
+               :sameAs "https://www.rottentomatoes.com/celebrity/patty_jenkins" ;
+               :url "https://www.metacritic.com/person/patty-jenkins" ,
+                    "www.imdb.com/name/nm0420941/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Paul_Ron_Cruz
+:Paul_Ron_Cruz rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Paul Ron Cruz" ;
+               :url "https://www.metacritic.com/person/paul-ron-cruz" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Pedro_Pascal
+:Pedro_Pascal rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :image "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" ;
+              :mainEntityOfPage "https://www.ecartelera.com/personas/pedro-pascal/" ;
+              :name "Pedro Pascal" ;
+              :sameAs "https://www.rottentomatoes.com/celebrity/pedro_pascal" ;
+              :url "https://www.metacritic.com/person/pedro-pascal" ,
+                   "www.imdb.com/name/nm0050959/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Penelope_Kapudija
+:Penelope_Kapudija rdf:type owl:NamedIndividual ,
+                            <https://schema.org/Person> ;
+                   :name "Penelope Kapudija" ;
+                   :url "https://www.metacritic.com/person/penelope-kapudija" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Phawker
+:Phawker rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Organization> ;
+         :name "Phawker"@en ;
+         :url "https://www.rottentomatoes.com/source-3631" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rafer_Guzman
+:Rafer_Guzman rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :url "https://www.rottentomatoes.com/critic/rafer-guzman" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating1
+:Rating1 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating10
+:Rating10 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating11
+:Rating11 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating12
+:Rating12 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating13
+:Rating13 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating14
+:Rating14 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating15
+:Rating15 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating16
+:Rating16 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating17
+:Rating17 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating18
+:Rating18 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating19
+:Rating19 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating2
+:Rating2 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         <https://schema.org/publisher> :Newsday ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating20
+:Rating20 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating21
+:Rating21 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue 1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating22
+:Rating22 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating23
+:Rating23 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating24
+:Rating24 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 1 ;
+          :ratingValue -1 ;
+          :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating25
+:Rating25 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Rating> ;
+          :bestRating 10 ;
+          :ratingValue 3 ;
+          :worstRating 1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating3
+:Rating3 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating4
+:Rating4 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating5
+:Rating5 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating6
+:Rating6 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating7
+:Rating7 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating8
+:Rating8 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rating9
+:Rating9 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Rating> ;
+         :bestRating 1 ;
+         :ratingValue 1 ;
+         :worstRating -1 .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Ravi_Patel
+:Ravi_Patel rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "Ravi Patel" ;
+            :url "https://www.metacritic.com/person/ravi-patel" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review1
+:Review1 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Sheri_Flanders ;
+         <https://schema.org/publisher> :Chicago_Reader ;
+         <https://schema.org/reviewRating> :Rating1 ;
+         :dateCreated "2021-02-01T04:29:30-08:00" ;
+         :reviewBody "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads."@en ;
+         :url "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review10
+:Review10 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Andrew_Galdi ;
+          <https://schema.org/publisher> :Movie_Bitches ;
+          <https://schema.org/reviewRating> :Rating10 ;
+          :dateCreated "2021-03-11T06:02:25-08:00" ;
+          :reviewBody "There were just such gross failures of filmmaking..."@en ;
+          :url "https://youtu.be/75nDMuZMfLs" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review11
+:Review11 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Avaryl_Halley ;
+          <https://schema.org/publisher> :Movie_Bitches ;
+          <https://schema.org/reviewRating> :Rating11 ;
+          :dateCreated "2021-03-11T05:51:39-08:00" ;
+          :reviewBody "At least \\\"Justice League\\\" had at the decency to be short"@en ;
+          :url "https://youtu.be/75nDMuZMfLs" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review12
+:Review12 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Nina_Garin ;
+          <https://schema.org/publisher> :San_Diego_Union-Tribune ;
+          <https://schema.org/reviewRating> :Rating12 ;
+          :dateCreated "2021-03-01T08:14:02-08:00" ;
+          :reviewBody "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble."@en ;
+          :url "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review13
+:Review13 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Tony_Medley ;
+          <https://schema.org/reviewRating> :Rating13 ;
+          :dateCreated "2021-02-22T06:02:11-08:00" ;
+          :reviewBody "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \\\"Yonda Lies Da Castle of My Fodda,\\\" seem Shakespearean."@en ;
+          :url "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review14
+:Review14 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Sarah_Ward ;
+          <https://schema.org/publisher> :Concrete_Playground ;
+          <https://schema.org/reviewRating> :Rating14 ;
+          :dateCreated "2021-02-21T08:36:54-08:00" ;
+          :reviewBody "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down."@en ;
+          :url "https://concreteplayground.com/sydney/event/wonder-woman-1984" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review15
+:Review15 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Eric_Marchen ;
+          <https://schema.org/publisher> :Untitled_Movie_Podcast ;
+          <https://schema.org/reviewRating> :Rating15 ;
+          :dateCreated "2021-02-17T02:36:51-08:00" ;
+          :reviewBody "Feels like this would be better suited for an episode of TV than a 2.5 hour film."@en ;
+          :url "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review16
+:Review16 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Mark_Meszoros ;
+          <https://schema.org/publisher> <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_News-Herald_(Willoughby,_OH)> ;
+          <https://schema.org/reviewRating> :Rating16 ;
+          :dateCreated "2021-02-13T23:57:56-08:00" ;
+          :reviewBody "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale."@en ;
+          :url "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review17
+:Review17 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Jennifer_Ouellette ;
+          <https://schema.org/publisher> :Ars_Technica ;
+          <https://schema.org/reviewRating> :Rating17 ;
+          :dateCreated "2021-02-11T02:38:41-08:00" ;
+          :reviewBody "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing."@en ;
+          :url "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review18
+:Review18 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Brian_Gill ;
+          <https://schema.org/publisher> :Mad_About_Movies_Podcast ;
+          <https://schema.org/reviewRating> :Rating18 ;
+          :dateCreated "2021-02-10T06:48:34-08:00" ;
+          :reviewBody "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins."@en ;
+          :url "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review19
+:Review19 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Eddie_Harrison ;
+          <https://schema.org/publisher> :film-authority.com ;
+          <https://schema.org/reviewRating> :Rating19 ;
+          :dateCreated "2021-02-07T19:57:42-08:00" ;
+          :reviewBody "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..."@en ;
+          :url "https://film-authority.com/2021/01/11/wonder-woman-1984/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review2
+:Review2 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Rafer_Guzman ;
+         <https://schema.org/reviewRating> :Rating2 ;
+         :dateCreated "2021-01-04T04:59:29-08:00" ;
+         :reviewBody "A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain."@en ;
+         :url "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review20
+:Review20 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Ian_Simmons ;
+          <https://schema.org/publisher> :Kicking_the_Seat ;
+          <https://schema.org/reviewRating> :Rating20 ;
+          :dateCreated "2021-02-05T19:46:31-08:00" ;
+          :reviewBody "I'm not usually a fan of the \\\"multiple villain\\\" thing, but I thought it was handled pretty well here."@en ;
+          :url "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review21
+:Review21 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Dan_Tabor ;
+          <https://schema.org/publisher> :Phawker ;
+          <https://schema.org/reviewRating> :Rating21 ;
+          :dateCreated "2021-02-05T01:55:00-08:00" ;
+          :reviewBody "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil."@en ;
+          :url "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review22
+:Review22 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Mark_Jackson ;
+          <https://schema.org/publisher> :Epoch_Times ;
+          <https://schema.org/reviewRating> :Rating22 ;
+          :dateCreated "2021-02-02T10:00:09-08:00" ;
+          :reviewBody "\\\"Wonder Woman\\\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown."@en ;
+          :url "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review23
+:Review23 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :John_McDonald ;
+          <https://schema.org/publisher> :Australian_Financial_Review ;
+          <https://schema.org/reviewRating> :Rating23 ;
+          :dateCreated "2021-01-31T18:14:33-08:00" ;
+          :reviewBody "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?"@en ;
+          :url "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review24
+:Review24 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/author> :Matt_Neal ;
+          <https://schema.org/publisher> <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ABC_Radio_(Australia)> ;
+          <https://schema.org/reviewRating> :Rating24 ;
+          :dateCreated "2021-01-31T17:01:54-08:00" ;
+          :reviewBody "After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful."@en ;
+          :url "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review25
+:Review25 rdf:type owl:NamedIndividual ,
+                   <https://schema.org/Review> ;
+          <https://schema.org/itemReviewed> :CreativeWork1 ;
+          <https://schema.org/reviewRating> :Rating25 ;
+          :dateCreated "2021-03-18" ;
+          :name "Who should watch and who should not watch this" ;
+          :reviewBody "Should:\\n\\nMen who hate their wives and want to sit on the couch for 3 hours pretending they are doing something (watching this) and therefore cannot talk right now\\n\\nFans of Mexican and Brazilian daytime soap operas\\n\\nFans of Italian daytime soap\\n\\nFans of Gal Gadot's legs (i.e. were never here for the movie or the 'story')\\n\\nAdult movie scouts\\n\\nPeople with guns to their heads\\n\\n Should Not:\\n\\nEverybody else"@en ;
+          <https://schema.org/inLanguage> "English" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review3
+:Review3 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Amy_Nicholson ;
+         <https://schema.org/publisher> <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)> ;
+         <https://schema.org/reviewRating> :Rating3 ;
+         :dateCreated "2021-01-04T03:37:14-08:00" ;
+         :reviewBody "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this."@en ;
+         :url "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review4
+:Review4 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Stephen_Romei ;
+         <https://schema.org/publisher> :The_Australian ;
+         <https://schema.org/reviewRating> :Rating4 ;
+         :dateCreated "2020-12-29T12:09:48-08:00" ;
+         :reviewBody "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it."@en ;
+         :url "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review5
+:Review5 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Jake_Wilson ;
+         <https://schema.org/publisher> <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Age_(Australia)> ;
+         <https://schema.org/reviewRating> :Rating5 ;
+         :dateCreated "2020-12-28T07:49:06-08:00" ;
+         :reviewBody "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel."@en ;
+         :url "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review6
+:Review6 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :David_Sims ;
+         <https://schema.org/publisher> :The_Atlantic ;
+         <https://schema.org/reviewRating> :Rating6 ;
+         :dateCreated "2020-12-28T07:45:33-08:00" ;
+         :reviewBody "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema."@en ;
+         :url "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review7
+:Review7 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Kevin_Carr ;
+         <https://schema.org/publisher> :Fat_Guys_at_the_Movies ;
+         <https://schema.org/reviewRating> :Rating7 ;
+         :dateCreated "2021-04-03T14:11:59-07:00" ;
+         :reviewBody "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works."@en ;
+         :url "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review8
+:Review8 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :David_Bax ;
+         <https://schema.org/publisher> :Battleship_Pretension ;
+         <https://schema.org/reviewRating> :Rating8 ;
+         :dateCreated "2021-03-23T10:02:10-07:00" ;
+         :reviewBody "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks."@en ;
+         :url "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Review9
+:Review9 rdf:type owl:NamedIndividual ,
+                  <https://schema.org/Review> ;
+         <https://schema.org/author> :Valerie_Kalfrin ;
+         <https://schema.org/publisher> :Their_Own_League ;
+         <https://schema.org/reviewRating> :Rating9 ;
+         :dateCreated "2021-03-20T08:54:50-07:00" ;
+         :reviewBody "With its message of kindness and empathy, \\\"Wonder Woman 1984\\\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey."@en ;
+         :url "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Rick_Kelvin_Branch
+:Rick_Kelvin_Branch rdf:type owl:NamedIndividual ,
+                             <https://schema.org/Person> ;
+                    :name "Rick Kelvin Branch" ;
+                    :url "https://www.metacritic.com/person/rick-kelvin-branch" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Robin_Wright
+:Robin_Wright rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :image "https://resizing.flixster.com/eIqrys_mhs7F3ohyamRpXh1yxJ8=/1000x1500/v1.bjs3NDQ4MjY7ajsxODc3MzsxMjAwOzEwMDA7MTUwMA" ;
+              :mainEntityOfPage "https://www.ecartelera.com/personas/robin-wright/" ;
+              :name "Robin Wright" ;
+              :sameAs "https://www.rottentomatoes.com/celebrity/robin_wright" ;
+              :url "https://www.metacritic.com/person/robin-wright" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#San_Diego_Union-Tribune
+:San_Diego_Union-Tribune rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Organization> ;
+                         :name "San Diego Union-Tribune"@en ;
+                         :url "https://www.rottentomatoes.com/source-503" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Sarah_Ward
+:Sarah_Ward rdf:type owl:NamedIndividual ,
+                     <https://schema.org/Person> ;
+            :name "Sarah Ward" ;
+            :url "https://www.rottentomatoes.com/critic/sarah-ward" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Sheri_Flanders
+:Sheri_Flanders rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Person> ;
+                :name "Sheri Flanders" ;
+                :url "https://www.rottentomatoes.com/critic/sheri-flanders" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Sia_Alipour
+:Sia_Alipour rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             :name "Sia Alipour" ;
+             :url "https://www.metacritic.com/person/sia-alipour" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Sonia_Goswami
+:Sonia_Goswami rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Sonia Goswami" ;
+               :url "https://www.metacritic.com/person/sonia-goswami" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Spencer_Trinwith
+:Spencer_Trinwith rdf:type owl:NamedIndividual ,
+                           <https://schema.org/Person> ;
+                  :name "Spencer Trinwith" ;
+                  :url "https://www.metacritic.com/person/spencer-trinwith" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Stephen_Romei
+:Stephen_Romei rdf:type owl:NamedIndividual ,
+                        <https://schema.org/Person> ;
+               :name "Stephen Romei" ;
+               :url "https://www.rottentomatoes.com/critic/stephen-romei" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Tessa_Bonham_Jones
+:Tessa_Bonham_Jones rdf:type owl:NamedIndividual ,
+                             <https://schema.org/Person> ;
+                    :name "Tessa Bonham Jones" ;
+                    :url "https://www.metacritic.com/person/tessa-bonham-jones" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Atlantic
+:The_Atlantic rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Organization> ;
+              :name "The Atlantic"@en ;
+              :url "https://www.rottentomatoes.com/source-24" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Australian
+:The_Australian rdf:type owl:NamedIndividual ,
+                         <https://schema.org/Organization> ;
+                :name "The Australian"@en ;
+                :url "https://www.rottentomatoes.com/source-1964" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Larchmont_Chronicle
+:The_Larchmont_Chronicle rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Organization> ;
+                         :name "The Larchmont Chronicle"@en ;
+                         :url "https://www.rottentomatoes.com/source-2992" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Their_Own_League
+:Their_Own_League rdf:type owl:NamedIndividual ,
+                           <https://schema.org/Organization> ;
+                  :name "Their Own League"@en ;
+                  :url "https://www.rottentomatoes.com/source-3607" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Thomas_Clay_Strickland
+:Thomas_Clay_Strickland rdf:type owl:NamedIndividual ,
+                                 <https://schema.org/Person> ;
+                        :name "Thomas Clay Strickland" ;
+                        :url "https://www.metacritic.com/person/thomas-clay-strickland" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Tony_Medley
+:Tony_Medley rdf:type owl:NamedIndividual ,
+                      <https://schema.org/Person> ;
+             <https://schema.org/publisher> :The_Larchmont_Chronicle ;
+             :name "Tony Medley" ;
+             :url "https://www.rottentomatoes.com/critic/tony-medley" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Untitled_Movie_Podcast
+:Untitled_Movie_Podcast rdf:type owl:NamedIndividual ,
+                                 <https://schema.org/Organization> ;
+                        :name "Untitled Movie Podcast"@en ;
+                        :url "https://www.rottentomatoes.com/source-3831" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Valerie_Kalfrin
+:Valerie_Kalfrin rdf:type owl:NamedIndividual ,
+                          <https://schema.org/Person> ;
+                 :name "Valerie Kalfrin" ;
+                 :url "https://www.rottentomatoes.com/critic/valerie-kalfrin" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#Warner_Bros._Pictures
+:Warner_Bros._Pictures rdf:type owl:NamedIndividual ,
+                                <https://schema.org/Organization> ;
+                       :mainEntityOfPage "https://www.ecartelera.com/empresas/warner-bros/" ;
+                       :name "Warner Bros. Pictures"@en ;
+                       :url "https://www.metacritic.com/company/warner-bros-pictures" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#William_Moulton_Marston
+:William_Moulton_Marston rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Person> ;
+                         :name "William Moulton Marston" ;
+                         :url "www.imdb.com/name/nm0551376/" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#film-authority.com
+:film-authority.com rdf:type owl:NamedIndividual ,
+                             <https://schema.org/Organization> ;
+                    :name "film-authority.com"@en ;
+                    :url "https://www.rottentomatoes.com/source-3904" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#hoarei-56760
+:hoarei-56760 rdf:type owl:NamedIndividual ,
+                       <https://schema.org/Person> ;
+              :name "hoarei-56760" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ABC_Radio_(Australia)
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ABC_Radio_(Australia)> rdf:type owl:NamedIndividual ,
+                                                                                                                   <https://schema.org/Organization> ;
+                                                                                                          :name "ABC Radio (Australia)"@en ;
+                                                                                                          :url "https://www.rottentomatoes.com/source-2397" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)> rdf:type owl:NamedIndividual ,
+                                                                                                                               <https://schema.org/Organization> ;
+                                                                                                                      :name "FilmWeek (KPCC - NPR Los Angeles)"@en ;
+                                                                                                                      :url "https://www.rottentomatoes.com/source-3509" .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Age_(Australia)
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Age_(Australia)> rdf:type owl:NamedIndividual ,
+                                                                                                                 <https://schema.org/Organization> ;
+                                                                                                        :name "The Age (Australia)"@en .
+
+
+###  https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_News-Herald_(Willoughby,_OH)
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_News-Herald_(Willoughby,_OH)> rdf:type owl:NamedIndividual ,
+                                                                                                                              <https://schema.org/Organization> ;
+                                                                                                                     :name "The News-Herald (Willoughby, OH)"@en ;
+                                                                                                                     :url "https://www.rottentomatoes.com/source-3916" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

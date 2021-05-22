@@ -1,0 +1,1465 @@
+@prefix : <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#> .
+@prefix ns1: <https://schema.org/> .
+@prefix ns2: <http://dbpedia.org/property/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl> a owl:Ontology .
+
+:Cinema_Rocha a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinema Rocha"@es ;
+    ns1:containsPlace :Cinema_Rocha_Room_1 .
+
+:Cinepolis_Avellaneda a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Avellaneda"@es ;
+    ns1:containsPlace :Cinepolis_Avellaneda_Room_1 .
+
+:Cinepolis_Maipu a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Maipu"@es ;
+    ns1:containsPlace :Cinepolis_Maipu_Room_1 .
+
+:Cinepolis_Mendoza a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Mendoza"@es ;
+    ns1:containsPlace :Cinepolis_Mendoza_Room_1 .
+
+:Cinepolis_Merlo a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Merlo"@es ;
+    ns1:containsPlace :Cinepolis_Merlo_Room_1 .
+
+:Cinepolis_Neuquen a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Neuquen"@es ;
+    ns1:containsPlace :Cinepolis_Neuquen_Room_1 .
+
+:Cinepolis_Pilar a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Pilar"@es ;
+    ns1:containsPlace :Cinepolis_Pilar_Room_1 .
+
+:Cinepolis_Recoleta a owl:NamedIndividual,
+        ns1:MovieTheater ;
+    :name "Cinepolis Recoleta"@es ;
+    ns1:containsPlace :Cinepolis_Recoleta_Room_1 .
+
+:Mujer_Maravilla_Screening_1 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinema_Rocha_Room_1 ;
+    ns1:inLanguage "Castellano"@es ;
+    ns1:scheduledTime "22:10" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_2 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Recoleta_Room_1 ;
+    ns1:inLanguage "Subtitulado"@es ;
+    ns1:scheduledTime "22:50" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_3 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Pilar_Room_1 ;
+    ns1:inLanguage "Español"@es ;
+    ns1:scheduledTime "22:10" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_4 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Merlo_Room_1 ;
+    ns1:inLanguage "Español"@es ;
+    ns1:scheduledTime "22:40" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_5 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Avellaneda_Room_1 ;
+    ns1:inLanguage "Español"@es ;
+    ns1:scheduledTime "22:20" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_6 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Mendoza_Room_1 ;
+    ns1:inLanguage "Español"@es ;
+    ns1:scheduledTime "22:30" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_7 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Maipu_Room_1 ;
+    ns1:inLanguage "Español"@es ;
+    ns1:scheduledTime "22:40" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Screening_8 a owl:NamedIndividual,
+        ns1:ScreeningEvent ;
+    :location :Cinepolis_Neuquen_Room_1 ;
+    ns1:inLanguage "Español"@es ;
+    ns1:scheduledTime "22:15" ;
+    ns1:workPresented :Mujer_maravilla .
+
+:Mujer_Maravilla_Trailer1 a owl:NamedIndividual,
+        ns1:VideoObject ;
+    :description "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah."@en ;
+    :embedUrl "www.imdb.com/video/imdb/vi3240214809" ;
+    :name "Stream on HBO Max for a Limited Time"@en ;
+    :uploadDate "2020-12-07T01:51:07Z" ;
+    ns1:thumbnail :Mujer_Maravilla_Thumbnail ;
+    ns1:thumbnailUrl "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
+
+:Mujer_Maravilla_Trailer2 a owl:NamedIndividual,
+        ns1:VideoObject ;
+    :description "Video Clip of Wonder Woman 1984"@en ;
+    :name "Wonder Woman 1984 (Trailer 2)" ;
+    :uploadDate "2020-11-21 17:41:36" ;
+    ns1:thumbnailUrl "https://content.internetvideoarchive.com/content/hdphotos/13126/013126/013126_820x461_637413475681110755.jpg" .
+
+:Review10 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-03-11T06:02:25-08:00" ;
+    :reviewBody "There were just such gross failures of filmmaking..."@en ;
+    :url "https://youtu.be/75nDMuZMfLs" ;
+    ns1:author :Andrew_Galdi ;
+    ns1:publisher :Movie_Bitches ;
+    ns1:reviewRating :Rating10 .
+
+:Review11 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-03-11T05:51:39-08:00" ;
+    :reviewBody "At least \\\"Justice League\\\" had at the decency to be short"@en ;
+    :url "https://youtu.be/75nDMuZMfLs" ;
+    ns1:author :Avaryl_Halley ;
+    ns1:publisher :Movie_Bitches ;
+    ns1:reviewRating :Rating11 .
+
+:Review12 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-03-01T08:14:02-08:00" ;
+    :reviewBody "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble."@en ;
+    :url "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984" ;
+    ns1:author :Nina_Garin ;
+    ns1:publisher :San_Diego_Union-Tribune ;
+    ns1:reviewRating :Rating12 .
+
+:Review13 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-22T06:02:11-08:00" ;
+    :reviewBody "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \\\"Yonda Lies Da Castle of My Fodda,\\\" seem Shakespearean."@en ;
+    :url "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm" ;
+    ns1:author :Tony_Medley ;
+    ns1:reviewRating :Rating13 .
+
+:Review14 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-21T08:36:54-08:00" ;
+    :reviewBody "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down."@en ;
+    :url "https://concreteplayground.com/sydney/event/wonder-woman-1984" ;
+    ns1:author :Sarah_Ward ;
+    ns1:publisher :Concrete_Playground ;
+    ns1:reviewRating :Rating14 .
+
+:Review15 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-17T02:36:51-08:00" ;
+    :reviewBody "Feels like this would be better suited for an episode of TV than a 2.5 hour film."@en ;
+    :url "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984" ;
+    ns1:author :Eric_Marchen ;
+    ns1:publisher :Untitled_Movie_Podcast ;
+    ns1:reviewRating :Rating15 .
+
+:Review16 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-13T23:57:56-08:00" ;
+    :reviewBody "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale."@en ;
+    :url "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html" ;
+    ns1:author :Mark_Meszoros ;
+    ns1:publisher <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_News-Herald_(Willoughby,_OH)> ;
+    ns1:reviewRating :Rating16 .
+
+:Review17 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-11T02:38:41-08:00" ;
+    :reviewBody "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing."@en ;
+    :url "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/" ;
+    ns1:author :Jennifer_Ouellette ;
+    ns1:publisher :Ars_Technica ;
+    ns1:reviewRating :Rating17 .
+
+:Review18 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-10T06:48:34-08:00" ;
+    :reviewBody "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins."@en ;
+    :url "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984" ;
+    ns1:author :Brian_Gill ;
+    ns1:publisher :Mad_About_Movies_Podcast ;
+    ns1:reviewRating :Rating18 .
+
+:Review19 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-07T19:57:42-08:00" ;
+    :reviewBody "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..."@en ;
+    :url "https://film-authority.com/2021/01/11/wonder-woman-1984/" ;
+    ns1:author :Eddie_Harrison ;
+    ns1:publisher :film-authority.com ;
+    ns1:reviewRating :Rating19 .
+
+:Review2 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-01-04T04:59:29-08:00" ;
+    :reviewBody "A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain."@en ;
+    :url "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436" ;
+    ns1:author :Rafer_Guzman ;
+    ns1:reviewRating :Rating2 .
+
+:Review20 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-05T19:46:31-08:00" ;
+    :reviewBody "I'm not usually a fan of the \\\"multiple villain\\\" thing, but I thought it was handled pretty well here."@en ;
+    :url "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984" ;
+    ns1:author :Ian_Simmons ;
+    ns1:publisher :Kicking_the_Seat ;
+    ns1:reviewRating :Rating20 .
+
+:Review21 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-05T01:55:00-08:00" ;
+    :reviewBody "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil."@en ;
+    :url "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/" ;
+    ns1:author :Dan_Tabor ;
+    ns1:publisher :Phawker ;
+    ns1:reviewRating :Rating21 .
+
+:Review22 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-02T10:00:09-08:00" ;
+    :reviewBody "\\\"Wonder Woman\\\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown."@en ;
+    :url "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html" ;
+    ns1:author :Mark_Jackson ;
+    ns1:publisher :Epoch_Times ;
+    ns1:reviewRating :Rating22 .
+
+:Review23 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-01-31T18:14:33-08:00" ;
+    :reviewBody "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?"@en ;
+    :url "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/" ;
+    ns1:author :John_McDonald ;
+    ns1:publisher :Australian_Financial_Review ;
+    ns1:reviewRating :Rating23 .
+
+:Review24 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-01-31T17:01:54-08:00" ;
+    :reviewBody "After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful."@en ;
+    :url "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html" ;
+    ns1:author :Matt_Neal ;
+    ns1:publisher <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ABC_Radio_(Australia)> ;
+    ns1:reviewRating :Rating24 .
+
+:Review25 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-03-18" ;
+    :name "Who should watch and who should not watch this" ;
+    :reviewBody "Should:\\n\\nMen who hate their wives and want to sit on the couch for 3 hours pretending they are doing something (watching this) and therefore cannot talk right now\\n\\nFans of Mexican and Brazilian daytime soap operas\\n\\nFans of Italian daytime soap\\n\\nFans of Gal Gadot's legs (i.e. were never here for the movie or the 'story')\\n\\nAdult movie scouts\\n\\nPeople with guns to their heads\\n\\n Should Not:\\n\\nEverybody else"@en ;
+    ns1:inLanguage "English" ;
+    ns1:itemReviewed :CreativeWork1 ;
+    ns1:reviewRating :Rating25 .
+
+:Review3 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-01-04T03:37:14-08:00" ;
+    :reviewBody "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this."@en ;
+    :url "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/" ;
+    ns1:author :Amy_Nicholson ;
+    ns1:publisher <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)> ;
+    ns1:reviewRating :Rating3 .
+
+:Review4 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2020-12-29T12:09:48-08:00" ;
+    :reviewBody "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it."@en ;
+    :url "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8" ;
+    ns1:author :Stephen_Romei ;
+    ns1:publisher :The_Australian ;
+    ns1:reviewRating :Rating4 .
+
+:Review5 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2020-12-28T07:49:06-08:00" ;
+    :reviewBody "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel."@en ;
+    :url "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html" ;
+    ns1:author :Jake_Wilson ;
+    ns1:publisher <https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Age_(Australia)> ;
+    ns1:reviewRating :Rating5 .
+
+:Review6 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2020-12-28T07:45:33-08:00" ;
+    :reviewBody "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema."@en ;
+    :url "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/" ;
+    ns1:author :David_Sims ;
+    ns1:publisher :The_Atlantic ;
+    ns1:reviewRating :Rating6 .
+
+:Review7 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-04-03T14:11:59-07:00" ;
+    :reviewBody "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works."@en ;
+    :url "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/" ;
+    ns1:author :Kevin_Carr ;
+    ns1:publisher :Fat_Guys_at_the_Movies ;
+    ns1:reviewRating :Rating7 .
+
+:Review8 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-03-23T10:02:10-07:00" ;
+    :reviewBody "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks."@en ;
+    :url "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/" ;
+    ns1:author :David_Bax ;
+    ns1:publisher :Battleship_Pretension ;
+    ns1:reviewRating :Rating8 .
+
+:Review9 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-03-20T08:54:50-07:00" ;
+    :reviewBody "With its message of kindness and empathy, \\\"Wonder Woman 1984\\\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey."@en ;
+    :url "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/" ;
+    ns1:author :Valerie_Kalfrin ;
+    ns1:publisher :Their_Own_League ;
+    ns1:reviewRating :Rating9 .
+
+:bestRating a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Rating ;
+    rdfs:range xsd:double,
+        xsd:integer .
+
+:character a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:contentRating a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:countryOfOrigin a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:dateCreated a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Movie ;
+    rdfs:range xsd:string .
+
+:dateModified a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:datePublished a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:description a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Movie,
+        ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:duration a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:embedUrl a owl:DatatypeProperty ;
+    rdfs:domain ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:genre a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:hoarei-56760 a owl:NamedIndividual,
+        ns1:Person ;
+    :name "hoarei-56760" .
+
+:image a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Person ;
+    rdfs:range xsd:string .
+
+:location a owl:ObjectProperty ;
+    rdfs:domain ns1:Event ;
+    rdfs:range ns1:Place .
+
+:mainEntityOfPage a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Organization,
+        ns1:Person,
+        ns1:Review ;
+    rdfs:range xsd:string .
+
+:name a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+:ratingCount a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating ;
+    rdfs:range xsd:integer .
+
+:ratingValue a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Rating ;
+    rdfs:range xsd:double,
+        xsd:integer .
+
+:reviewBody a owl:DatatypeProperty ;
+    rdfs:domain ns1:Review ;
+    rdfs:range xsd:string .
+
+:reviewCount a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:sameAs a owl:DatatypeProperty ;
+    rdfs:domain ns1:Person ;
+    rdfs:range xsd:string .
+
+:startDate a owl:DatatypeProperty ;
+    rdfs:domain ns1:PublicationEvent ;
+    rdfs:range xsd:string .
+
+:title a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:uploadDate a owl:DatatypeProperty ;
+    rdfs:domain ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:url a owl:DatatypeProperty ;
+    rdfs:domain ns1:ImageObject,
+        ns1:Movie,
+        ns1:MovieTheater,
+        ns1:Organization,
+        ns1:Person,
+        ns1:Review,
+        ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:worstRating a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Rating ;
+    rdfs:range xsd:double,
+        xsd:integer .
+
+ns1:about a owl:DatatypeProperty ;
+    rdfs:domain ns1:CreativeWork ;
+    rdfs:range xsd:string .
+
+ns1:actor a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Person .
+
+ns1:aggregateRating a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:AggregateRating ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ns1:author a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Review ;
+    rdfs:range ns1:Person .
+
+ns1:containsPlace a owl:ObjectProperty ;
+    rdfs:domain ns1:MovieTheater ;
+    rdfs:range ns1:Room .
+
+ns1:contentUrl a owl:DatatypeProperty ;
+    rdfs:domain ns1:CreativeWork ;
+    rdfs:range xsd:string .
+
+ns1:creator a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Organization,
+        ns1:Person ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ns1:director a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Person .
+
+ns1:image a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Person,
+        ns1:VideoObject ;
+    rdfs:range ns1:ImageObject .
+
+ns1:inLanguage a owl:DatatypeProperty ;
+    rdfs:domain ns1:CreativeWork ;
+    rdfs:range xsd:string .
+
+ns1:itemReviewed a owl:ObjectProperty ;
+    rdfs:domain ns1:Review ;
+    rdfs:range owl:Thing .
+
+ns1:keywords a owl:DatatypeProperty ;
+    rdfs:domain ns1:CreativeWork ;
+    rdfs:range xsd:string .
+
+ns1:productionCompany a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Organization,
+        ns1:VideoObject ;
+    rdfs:range ns1:Organization ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ns1:publisher a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Review ;
+    rdfs:range ns1:Organization,
+        ns1:Person .
+
+ns1:releasedEvent a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:PublicationEvent .
+
+ns1:review a owl:ObjectProperty ;
+    rdfs:domain ns1:CreativeWork ;
+    rdfs:range ns1:Review .
+
+ns1:reviewRating a owl:ObjectProperty ;
+    rdfs:domain ns1:Review ;
+    rdfs:range ns1:Rating .
+
+ns1:scheduledTime a owl:DatatypeProperty,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:Event,
+        ns1:ScreeningEvent ;
+    rdfs:range xsd:string .
+
+ns1:thumbnail a owl:ObjectProperty ;
+    rdfs:domain ns1:ImageObject,
+        ns1:VideoObject ;
+    rdfs:range ns1:ImageObject .
+
+ns1:thumbnailUrl a owl:DatatypeProperty ;
+    rdfs:domain ns1:CreativeWork ;
+    rdfs:range xsd:string .
+
+ns1:trailer a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:VideoObject .
+
+ns1:workPresented a owl:ObjectProperty ;
+    rdfs:domain ns1:ScreeningEvent ;
+    rdfs:range ns1:Movie .
+
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#ABC_Radio_(Australia)> a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "ABC Radio (Australia)"@en ;
+    :url "https://www.rottentomatoes.com/source-2397" .
+
+:AGRating1 a owl:NamedIndividual,
+        ns1:AggregateRating ;
+    :bestRating 10.0 ;
+    :ratingCount 192010 ;
+    :ratingValue 5.4 ;
+    :worstRating 1.0 .
+
+:AGRating2 a owl:NamedIndividual,
+        ns1:AggregateRating ;
+    :bestRating 100 ;
+    :description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    :name "Tomatometer" ;
+    :ratingCount 426 ;
+    :ratingValue 59 ;
+    :reviewCount 426 ;
+    :worstRating 0 .
+
+:AGRating3 a owl:NamedIndividual,
+        ns1:AggregateRating ;
+    :bestRating 10 ;
+    :ratingCount 20 ;
+    :ratingValue "7,6" ;
+    :worstRating 0 .
+
+:AGRating4 a owl:NamedIndividual,
+        ns1:AggregateRating ;
+    :bestRating 100 ;
+    :ratingCount 57 ;
+    :ratingValue 60 ;
+    :worstRating 0 .
+
+:Alex_Delescu a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Alex Delescu" ;
+    :url "https://www.metacritic.com/person/alex-delescu" .
+
+:Amr_Waked a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Amr Waked" ;
+    :url "https://www.metacritic.com/person/amr-waked" .
+
+:Amreen_N._Yaqoob a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Amreen N. Yaqoob" ;
+    :url "https://www.metacritic.com/person/amreen-n-yaqoob" .
+
+:Amy_Nicholson a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Amy Nicholson" ;
+    :url "https://www.rottentomatoes.com/critic/amy-nicholson" .
+
+:Andrew_Galdi a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Andrew Galdi" ;
+    :url "https://www.rottentomatoes.com/critic/andrew-galdi" .
+
+:Ars_Technica a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Ars Technica"@en ;
+    :url "https://www.rottentomatoes.com/source-2985" .
+
+:Australian_Financial_Review a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Australian Financial Review"@en ;
+    :url "https://www.rottentomatoes.com/source-3199" .
+
+:Avaryl_Halley a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Avaryl Halley" ;
+    :url "https://www.rottentomatoes.com/critic/avaryl-halley" .
+
+:Battleship_Pretension a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Battleship Pretension"@en ;
+    :url "https://www.rottentomatoes.com/source-3090" .
+
+:Bern_Collaco a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Bern Collaco" ;
+    :url "https://www.metacritic.com/person/bern-collaco" .
+
+:Brian_Gill a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Brian Gill" ;
+    :url "https://www.rottentomatoes.com/critic/brian-gill" .
+
+:Brittney_Aleah a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Brittney Aleah" ;
+    :url "https://www.metacritic.com/person/brittney-aleah" .
+
+:Chicago_Reader a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Chicago Reader"@en ;
+    :url "https://www.rottentomatoes.com/source-66" .
+
+:Chris_Pine a owl:NamedIndividual,
+        ns1:Person ;
+    ns2:birthDate "1980-08-26"^^xsd:date ;
+    ns2:occupation "Actor"@en ;
+    ns3:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Pine> ;
+    :image "https://resizing.flixster.com/lUzaa-oO0RKNt3ekbqvlU5RPqR8=/660x990/v1.bjs3NTYxMDQ7ajsxODc3MzsxMjAwOzY2MDs5OTA" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/chris-pine/" ;
+    :name "Chris Pine" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/christopher_pine" ;
+    :url "https://www.metacritic.com/person/chris-pine",
+        "www.imdb.com/name/nm1517976/" .
+
+:Chris_Silcox a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Chris Silcox" ;
+    :url "https://www.metacritic.com/person/chris-silcox" .
+
+:Concrete_Playground a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Concrete Playground"@en ;
+    :url "https://www.rottentomatoes.com/source-2298" .
+
+:Connie_Nielsen a owl:NamedIndividual,
+        ns1:Person ;
+    ns2:birthDate "1965-07-03"^^xsd:date ;
+    ns2:occupation "Actress"@en ;
+    ns3:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Connie_Nielsen> ;
+    :image "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/connie-nielsen/" ;
+    :name "Connie Nielsen" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/connie_nielsen" ;
+    :url "https://www.metacritic.com/person/connie-nielsen" .
+
+:Country_ES a owl:NamedIndividual,
+        ns1:Country ;
+    :name "ES" .
+
+:CreativeWork1 a owl:NamedIndividual,
+        ns1:CreativeWork ;
+    :url "www.imdb.com/title/tt7126948/" .
+
+:Dan_Tabor a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Dan Tabor" ;
+    :url "https://www.rottentomatoes.com/critic/dan-tabor" .
+
+:Dave_Callaham a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Dave Callaham" ;
+    :url "www.imdb.com/name/nm1709264/" .
+
+:David_Bax a owl:NamedIndividual,
+        ns1:Person ;
+    :name "David Bax" ;
+    :url "https://www.rottentomatoes.com/critic/david-bax" .
+
+:David_Sims a owl:NamedIndividual,
+        ns1:Person ;
+    :name "David Sims" ;
+    :url "https://www.rottentomatoes.com/critic/david-sims" .
+
+:Eddie_Harrison a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Eddie Harrison" ;
+    :url "https://www.rottentomatoes.com/critic/eddie-harrison" .
+
+:Ella_Walker a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Ella Walker" ;
+    :url "https://www.metacritic.com/person/ella-walker" .
+
+:Epoch_Times a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Epoch Times"@en ;
+    :url "https://www.rottentomatoes.com/source-2771" .
+
+:Eric_Marchen a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Eric Marchen" ;
+    :url "https://www.rottentomatoes.com/critic/eric-marchen" .
+
+:Fat_Guys_at_the_Movies a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Fat Guys at the Movies"@en ;
+    :url "https://www.rottentomatoes.com/source-2722" .
+
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)> a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "FilmWeek (KPCC - NPR Los Angeles)"@en ;
+    :url "https://www.rottentomatoes.com/source-3509" .
+
+:Gabriella_Wilde a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Gabriella Wilde" ;
+    :url "https://www.metacritic.com/person/gabriella-wilde" .
+
+:Gal_Gadot a owl:NamedIndividual,
+        ns1:Person ;
+    ns2:birthDate "1985-04-30"^^xsd:date ;
+    ns2:occupation "Actress"@en,
+        "model"@en ;
+    ns3:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gal_Gadot> ;
+    :image "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/gal-gadot/" ;
+    :name "Gal Gadot" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/gal-gadot" ;
+    :url "https://www.metacritic.com/person/gal-gadot",
+        "www.imdb.com/name/nm2933757/" .
+
+:Geoff_Johns a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Geoff Johns" ;
+    :url "www.imdb.com/name/nm0424315/" .
+
+:Ian_Simmons a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Ian Simmons" ;
+    :url "https://www.rottentomatoes.com/critic/ian-simmons" .
+
+:Jake_Wilson a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Jake Wilson" ;
+    :url "https://www.rottentomatoes.com/critic/jake-wilson" .
+
+:Jamaal_Burcher a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Jamaal Burcher" ;
+    :url "https://www.metacritic.com/person/jamaal-burcher" .
+
+:Jamal_Alkhaldi a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Jamal Alkhaldi" ;
+    :url "https://www.metacritic.com/person/jamal-alkhaldi" .
+
+:Jeff_Moore a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Jeff Moore" ;
+    :url "https://www.metacritic.com/person/jeff-moore" .
+
+:Jennifer_Ouellette a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Jennifer Ouellette" ;
+    :url "https://www.rottentomatoes.com/critic/jennifer-ouellette" .
+
+:Joel_Morris a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Joel Morris" ;
+    :url "https://www.metacritic.com/person/joel-morris" .
+
+:John_Gettier a owl:NamedIndividual,
+        ns1:Person ;
+    :name "John Gettier" ;
+    :url "https://www.metacritic.com/person/john-gettier" .
+
+:John_McDonald a owl:NamedIndividual,
+        ns1:Person ;
+    :name "John McDonald" ;
+    :url "https://www.rottentomatoes.com/critic/john-mcdonald" .
+
+:Jonathan_Ajayi a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Jonathan Ajayi" ;
+    :url "https://www.metacritic.com/person/jonathan-ajayi" .
+
+:Julian_Ferro a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Julian Ferro" ;
+    :url "https://www.metacritic.com/person/julian-ferro" .
+
+:Justin_Sisk a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Justin Sisk" ;
+    :url "Justin Sisk" .
+
+:Kaila_Ingram a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Kaila Ingram" ;
+    :url "https://www.metacritic.com/person/kaila-ingram" .
+
+:Kevin_Carr a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Kevin Carr" ;
+    :url "https://www.rottentomatoes.com/critic/kevin-carr" .
+
+:Kicking_the_Seat a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Kicking the Seat"@en ;
+    :url "https://www.rottentomatoes.com/source-3892" .
+
+:Kristen_Wiig a owl:NamedIndividual,
+        ns1:Person ;
+    ns2:birthDate "1973-08-22"^^xsd:date ;
+    ns2:occupation "Actress"@en,
+        "comedian"@en,
+        "producer"@en,
+        "voice actress"@en,
+        "writer"@en ;
+    ns3:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Kristen_Wiig> ;
+    :image "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/kristen-wiig/" ;
+    :name "Kristen Wiig" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/kristen_wiig" ;
+    :url "https://www.metacritic.com/person/kristen-wiig",
+        "www.imdb.com/name/nm1325419/" .
+
+:Kristoffer_Polaha a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Kristoffer Polaha" ;
+    :url "https://www.metacritic.com/person/kristoffer-polaha" .
+
+:Lilly_Aspell a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Lilly Aspell" ;
+    :url "https://www.metacritic.com/person/lilly-aspell" .
+
+:Lolita_Marie a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Lolita Marie" ;
+    :url "https://www.metacritic.com/person/lolita-marie" .
+
+:Lynda_Carter a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Lynda Carter" ;
+    :url "https://www.metacritic.com/person/lynda-carter" .
+
+:Lyon_Beckwith a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Lyon Beckwith" ;
+    :url "https://www.metacritic.com/person/lyon-beckwith" .
+
+:Mad_About_Movies_Podcast a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Mad About Movies Podcast"@en ;
+    :url "https://www.rottentomatoes.com/source-3256" .
+
+:Manoj_Anand a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Manoj Anand" ;
+    :url "https://www.metacritic.com/person/manoj-anand" .
+
+:Marisol_Correa a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Marisol Correa" ;
+    :url "https://www.metacritic.com/person/marisol-correa" .
+
+:Mark_Jackson a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Mark Jackson" ;
+    :url "https://www.rottentomatoes.com/critic/mark-jackson" .
+
+:Mark_Meszoros a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Mark Meszoros" ;
+    :url "https://www.rottentomatoes.com/critic/mark-meszoros" .
+
+:Marla_Aaron_Wapner a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Marla Aaron Wapner" ;
+    :url "https://www.metacritic.com/person/marla-aaron-wapner" .
+
+:Matt_Neal a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Matt Neal" ;
+    :url "https://www.rottentomatoes.com/critic/matt-neal" .
+
+:Monica_Haynes a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Monica Haynes" ;
+    :url "https://www.metacritic.com/person/monica-haynes" .
+
+:Mujer_Maravilla_Image a owl:NamedIndividual,
+        ns1:ImageObject ;
+    :url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
+
+:Mujer_Maravilla_Publicacion a owl:NamedIndividual,
+        ns1:PublicationEvent ;
+    :location :Country_ES ;
+    :startDate "2020-12-18" .
+
+:Mujer_Maravilla_Thumbnail a owl:NamedIndividual,
+        ns1:ImageObject ;
+    ns1:contentUrl "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
+
+:Natasha_Rothwell a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Natasha Rothwell" ;
+    :url "https://www.metacritic.com/person/natasha-rothwell" .
+
+:Newsday a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "David Bax"@en ;
+    :url "https://www.rottentomatoes.com/source-338" .
+
+:Nina_Garin a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Nina Garin" ;
+    :url "https://www.rottentomatoes.com/critic/nina-garin" .
+
+:Oakley_Bull a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Oakley Bull" ;
+    :url "https://www.metacritic.com/person/oakley-bull" .
+
+:Paul_Ron_Cruz a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Paul Ron Cruz" ;
+    :url "https://www.metacritic.com/person/paul-ron-cruz" .
+
+:Pedro_Pascal a owl:NamedIndividual,
+        ns1:Person ;
+    ns2:birthDate "1975-04-02"^^xsd:date ;
+    ns2:occupation "Actor"@en ;
+    ns3:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pedro_Pascal> ;
+    :image "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/pedro-pascal/" ;
+    :name "Pedro Pascal" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/pedro_pascal" ;
+    :url "https://www.metacritic.com/person/pedro-pascal",
+        "www.imdb.com/name/nm0050959/" .
+
+:Penelope_Kapudija a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Penelope Kapudija" ;
+    :url "https://www.metacritic.com/person/penelope-kapudija" .
+
+:Phawker a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Phawker"@en ;
+    :url "https://www.rottentomatoes.com/source-3631" .
+
+:Rafer_Guzman a owl:NamedIndividual,
+        ns1:Person ;
+    :url "https://www.rottentomatoes.com/critic/rafer-guzman" .
+
+:Rating1 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating10 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating11 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating12 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating13 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating14 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating15 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating16 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating17 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating18 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating19 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating2 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 ;
+    ns1:publisher :Newsday .
+
+:Rating20 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating21 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating22 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating23 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating24 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue -1 ;
+    :worstRating -1 .
+
+:Rating25 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 10 ;
+    :ratingValue 3 ;
+    :worstRating 1 .
+
+:Rating3 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating4 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating5 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating6 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating7 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating8 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Rating9 a owl:NamedIndividual,
+        ns1:Rating ;
+    :bestRating 1 ;
+    :ratingValue 1 ;
+    :worstRating -1 .
+
+:Ravi_Patel a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Ravi Patel" ;
+    :url "https://www.metacritic.com/person/ravi-patel" .
+
+:Review1 a owl:NamedIndividual,
+        ns1:Review ;
+    :dateCreated "2021-02-01T04:29:30-08:00" ;
+    :reviewBody "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads."@en ;
+    :url "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160" ;
+    ns1:author :Sheri_Flanders ;
+    ns1:publisher :Chicago_Reader ;
+    ns1:reviewRating :Rating1 .
+
+:Rick_Kelvin_Branch a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Rick Kelvin Branch" ;
+    :url "https://www.metacritic.com/person/rick-kelvin-branch" .
+
+:Robin_Wright a owl:NamedIndividual,
+        ns1:Person ;
+    ns2:birthDate "1966-04-08"^^xsd:date ;
+    ns2:occupation "Actress, director"@en ;
+    ns3:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robin_Wright> ;
+    :image "https://resizing.flixster.com/eIqrys_mhs7F3ohyamRpXh1yxJ8=/1000x1500/v1.bjs3NDQ4MjY7ajsxODc3MzsxMjAwOzEwMDA7MTUwMA" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/robin-wright/" ;
+    :name "Robin Wright" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/robin_wright" ;
+    :url "https://www.metacritic.com/person/robin-wright" .
+
+:San_Diego_Union-Tribune a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "San Diego Union-Tribune"@en ;
+    :url "https://www.rottentomatoes.com/source-503" .
+
+:Sarah_Ward a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Sarah Ward" ;
+    :url "https://www.rottentomatoes.com/critic/sarah-ward" .
+
+:Sheri_Flanders a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Sheri Flanders" ;
+    :url "https://www.rottentomatoes.com/critic/sheri-flanders" .
+
+:Sia_Alipour a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Sia Alipour" ;
+    :url "https://www.metacritic.com/person/sia-alipour" .
+
+:Sonia_Goswami a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Sonia Goswami" ;
+    :url "https://www.metacritic.com/person/sonia-goswami" .
+
+:Spencer_Trinwith a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Spencer Trinwith" ;
+    :url "https://www.metacritic.com/person/spencer-trinwith" .
+
+:Stephen_Romei a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Stephen Romei" ;
+    :url "https://www.rottentomatoes.com/critic/stephen-romei" .
+
+:Tessa_Bonham_Jones a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Tessa Bonham Jones" ;
+    :url "https://www.metacritic.com/person/tessa-bonham-jones" .
+
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_Age_(Australia)> a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "The Age (Australia)"@en .
+
+:The_Atlantic a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "The Atlantic"@en ;
+    :url "https://www.rottentomatoes.com/source-24" .
+
+:The_Australian a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "The Australian"@en ;
+    :url "https://www.rottentomatoes.com/source-1964" .
+
+:The_Larchmont_Chronicle a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "The Larchmont Chronicle"@en ;
+    :url "https://www.rottentomatoes.com/source-2992" .
+
+<https://gitlab.com/Lorylan/web-semantica/-/raw/master/Entrega%203/Movie_model.ttl#The_News-Herald_(Willoughby,_OH)> a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "The News-Herald (Willoughby, OH)"@en ;
+    :url "https://www.rottentomatoes.com/source-3916" .
+
+:Their_Own_League a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Their Own League"@en ;
+    :url "https://www.rottentomatoes.com/source-3607" .
+
+:Thomas_Clay_Strickland a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Thomas Clay Strickland" ;
+    :url "https://www.metacritic.com/person/thomas-clay-strickland" .
+
+:Tony_Medley a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Tony Medley" ;
+    :url "https://www.rottentomatoes.com/critic/tony-medley" ;
+    ns1:publisher :The_Larchmont_Chronicle .
+
+:Untitled_Movie_Podcast a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Untitled Movie Podcast"@en ;
+    :url "https://www.rottentomatoes.com/source-3831" .
+
+:Valerie_Kalfrin a owl:NamedIndividual,
+        ns1:Person ;
+    :name "Valerie Kalfrin" ;
+    :url "https://www.rottentomatoes.com/critic/valerie-kalfrin" .
+
+:William_Moulton_Marston a owl:NamedIndividual,
+        ns1:Person ;
+    :name "William Moulton Marston" ;
+    :url "www.imdb.com/name/nm0551376/" .
+
+:film-authority.com a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "film-authority.com"@en ;
+    :url "https://www.rottentomatoes.com/source-3904" .
+
+ns1:Country a owl:Class ;
+    rdfs:subClassOf ns1:Place .
+
+:Cinema_Rocha_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "SALA HD"@es .
+
+:Cinepolis_Avellaneda_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "Classic_2D"@es .
+
+:Cinepolis_Maipu_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "GC 2D"@es .
+
+:Cinepolis_Mendoza_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "Classic 2D"@es .
+
+:Cinepolis_Merlo_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "Classic 2D"@es .
+
+:Cinepolis_Neuquen_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "Classic 2D"@es .
+
+:Cinepolis_Pilar_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "Classic 2D"@es .
+
+:Cinepolis_Recoleta_Room_1 a owl:NamedIndividual,
+        ns1:Room ;
+    :name "Classic 2D"@es .
+
+:Movie_Bitches a owl:NamedIndividual,
+        ns1:Organization ;
+    :name "Movie Bitches"@en ;
+    :url "https://www.rottentomatoes.com/source-3639" .
+
+:Warner_Bros._Pictures a owl:NamedIndividual,
+        ns1:Organization ;
+    :mainEntityOfPage "https://www.ecartelera.com/empresas/warner-bros/" ;
+    :name "Warner Bros. Pictures"@en ;
+    :url "https://www.metacritic.com/company/warner-bros-pictures" .
+
+:Patty_Jenkins a owl:NamedIndividual,
+        ns1:Person ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/patty-jenkins/" ;
+    :name "Patty Jenkins" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/patty_jenkins" ;
+    :url "https://www.metacritic.com/person/patty-jenkins",
+        "www.imdb.com/name/nm0420941/" .
+
+ns1:PublicationEvent a owl:Class ;
+    rdfs:subClassOf ns1:Event .
+
+ns1:Event a owl:Class .
+
+ns1:Place a owl:Class .
+
+ns1:ImageObject a owl:Class ;
+    rdfs:subClassOf ns1:CreativeWork .
+
+:Mujer_maravilla a owl:NamedIndividual,
+        ns1:Movie ;
+    :character "Antiope",
+        "Barbara Minerva / Cheetah",
+        "Diana Prince / Wonder Woman",
+        "Hippolyta",
+        "Steve Trevor" ;
+    :contentRating "PG-13",
+        "APTA MAYORES DE 13 AÑOS"@es ;
+    :countryOfOrigin "EE.UU.",
+        "ESTADOS UNIDOS"@es ;
+    :dateCreated "2017-09-13T08:24:15-07:00" ;
+    :dateModified "2021-04-17T21:01:56-07:00" ;
+    :duration "PT151M",
+        "PT2H31M",
+        "151 MINUTOS"@es ;
+    :genre "Action"@en,
+        "Action & Adventure"@en,
+        "Adventure"@en,
+        "Fantasy"@en,
+        "Science Fiction & Fantasy"@en,
+        "ACCION, CIENCIA FICCION"@es,
+        "Acción"@es,
+        "Aventura"@es,
+        "Fantasía"@es ;
+    :image "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI",
+        "https://static.metacritic.com/images/products/movies/4/9d1a4650bb42f43a0a781bfa70a7772d.jpg" ;
+    :mainEntityOfPage "https://www.ecartelera.com/peliculas/wonder-woman-1984/" ;
+    :name "Wonder Woman 1984"@en ;
+    :title "MUJER MARAVILLA 1984"@es ;
+    :url "https://www.metacritic.com/movie/wonder-woman-1984",
+        "https://www.rottentomatoes.com/m/wonder_woman_1984",
+        "www.imdb.com/title/tt7126948/" ;
+    ns1:about "AMBIENTADA EN LOS AÑOS 80S  EL MAYOR DESEO DE DIANA PRINCE PARECE SER TENER DEVUELTA A STEVE TREVOR  ESTO INEXPLICABLEMENTE PARECE HABERSE CONVERTIDO EN REALIDAD, PERO LA ENFRENTARA A DOS NUEVOS VILLANOS: MAX LORD Y CHEETAH"@es ;
+    ns1:actor :Alex_Delescu,
+        :Amr_Waked,
+        :Amreen_N._Yaqoob,
+        :Bern_Collaco,
+        :Brittney_Aleah,
+        :Chris_Pine,
+        :Chris_Silcox,
+        :Connie_Nielsen,
+        :Ella_Walker,
+        :Gabriella_Wilde,
+        :Gal_Gadot,
+        :Jamaal_Burcher,
+        :Jamal_Alkhaldi,
+        :Jeff_Moore,
+        :Joel_Morris,
+        :John_Gettier,
+        :Jonathan_Ajayi,
+        :Julian_Ferro,
+        :Justin_Sisk,
+        :Kaila_Ingram,
+        :Kristen_Wiig,
+        :Kristoffer_Polaha,
+        :Lilly_Aspell,
+        :Lolita_Marie,
+        :Lynda_Carter,
+        :Lyon_Beckwith,
+        :Manoj_Anand,
+        :Marisol_Correa,
+        :Marla_Aaron_Wapner,
+        :Monica_Haynes,
+        :Natasha_Rothwell,
+        :Oakley_Bull,
+        :Paul_Ron_Cruz,
+        :Pedro_Pascal,
+        :Penelope_Kapudija,
+        :Ravi_Patel,
+        :Rick_Kelvin_Branch,
+        :Robin_Wright,
+        :Sia_Alipour,
+        :Sonia_Goswami,
+        :Spencer_Trinwith,
+        :Tessa_Bonham_Jones,
+        :Thomas_Clay_Strickland ;
+    ns1:aggregateRating :AGRating1,
+        :AGRating2,
+        :AGRating3,
+        :AGRating4 ;
+    ns1:author :Patty_Jenkins ;
+    ns1:creator :Dave_Callaham,
+        :Geoff_Johns,
+        :Patty_Jenkins,
+        :William_Moulton_Marston ;
+    ns1:director :Patty_Jenkins ;
+    ns1:image :Mujer_Maravilla_Image ;
+    ns1:keywords "sequel,superhero,dc extended universe,dc comics,action heroine"@en ;
+    ns1:productionCompany :Warner_Bros._Pictures ;
+    ns1:publisher :Warner_Bros._Pictures ;
+    ns1:releasedEvent :Mujer_Maravilla_Publicacion ;
+    ns1:review :Review1 .
+
+ns1:CreativeWork a owl:Class .
+
+ns1:Room a owl:Class ;
+    rdfs:subClassOf ns1:Place .
+
+ns1:MovieTheater a owl:Class ;
+    rdfs:subClassOf ns1:Place .
+
+ns1:ScreeningEvent a owl:Class ;
+    rdfs:subClassOf ns1:Event .
+
+ns1:VideoObject a owl:Class ;
+    rdfs:subClassOf ns1:CreativeWork .
+
+ns1:AggregateRating a owl:Class .
+
+ns1:Movie a owl:Class .
+
+ns1:Rating a owl:Class .
+
+ns1:Organization a owl:Class .
+
+ns1:Review a owl:Class .
+
+ns1:Person a owl:Class .
+
+
