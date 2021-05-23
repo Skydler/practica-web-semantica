@@ -13,6 +13,10 @@
    2. Ejecutar el enriquecedor, mediante el comando:
       `python3 main.py -e ../data/dataset-original.ttl ../data/links.ttl`
 
+   Por otro lado, en caso de que se cambien los dos archivos (*dataset-original.ttl* y *links.ttl*) consideramos que no habría problema. Ya que por la forma en la que desarrollamos el algoritmo no necesitamos conocer el vocabulario subyacente utilizado. Además no modificamos los nombres desginados (normalizados) para los actores por lo que tampoco tendríamos problema durante la inserción de los datos.
+
+   Logramos intercambiar varios datasets con algunos compañeros, no hubo ningún problema. Los datasets, junto con su correspondientes archivos enriquecidos se encuentran en la carpeta `data/{Nombre de compañero/}`
+
 3. **¿Cómo efectuó la búsqueda de correspondencias entre su dataset y dbpedia?**
 
    Por cada tripleta `<twss_actor> rdf:type dbo:Actor` de nuestro dataset, se matchea la tripleta`<twss_actor> owl:sameAs <dbr_actor>` de *links.ttl*.  Luego con rdflib se carga el grafo de `dbr_actor`, se extraen las tripletas correspondientes, se cambia el sujeto por `<twss_actor>`  y se agrega la información al dataset enriquecido.
