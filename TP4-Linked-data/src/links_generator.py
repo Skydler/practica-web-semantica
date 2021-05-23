@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 from rdflib import Graph, RDF, OWL
 
 from constant import (
-    DBPEDIA_DATA_URI,
+    DBPEDIA_RESOURCE_URI,
     LINKS_FILE,
     MAX_REQUESTS,
     NAMESPACES,
@@ -25,8 +25,7 @@ def get_actors_uris(graph):
 
 def get_dbpedia_actor(twss_actor_uri):
     dbpedia_actor_name = to_dbpedia_actor_name(twss_actor_uri)
-    dbpedia_actor_data_uri = urljoin(
-        DBPEDIA_DATA_URI, f"{dbpedia_actor_name}.ttl")
+    dbpedia_actor_data_uri = urljoin(DBPEDIA_RESOURCE_URI, dbpedia_actor_name)
     logging.debug(f"Request to {dbpedia_actor_data_uri}")
     actor_graph = OwlMovieRepository.read(dbpedia_actor_data_uri)
     return actor_graph
@@ -79,10 +78,12 @@ def write_links():
         else:
             logging.debug(f"Found owl:sameAs for dbpedia_{dbpedia_actor_name}")
 
-            links_graph.add((
-                twss_actor_uri,
-                OWL.sameAs,
-                get_dbpedia_actor_uri(dbpedia_actor, dbpedia_actor_name),
-            ))
+            links_graph.add(
+                (
+                    twss_actor_uri,
+                    OWL.sameAs,
+                    get_dbpedia_actor_uri(dbpedia_actor, dbpedia_actor_name),
+                )
+            )
 
     OwlMovieRepository.write(LINKS_FILE, links_graph, namespaces=NAMESPACES)

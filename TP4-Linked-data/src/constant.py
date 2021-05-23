@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 BASE_TWSS_URI = "https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/"
 
 BASE_DBPEDIA_URI = "http://dbpedia.org/"
-DBPEDIA_DATA_URI = urljoin(BASE_DBPEDIA_URI, "data/")
+DBPEDIA_RESOURCE_URI = urljoin(BASE_DBPEDIA_URI, "resource/")
 
 
 # Namespaces defined with the PREFIX as key and its URI as value
@@ -17,7 +17,7 @@ NAMESPACES = {
     "dbr": Namespace(urljoin(BASE_DBPEDIA_URI, "resource/")),
     "dbp": Namespace(urljoin(BASE_DBPEDIA_URI, "property/")),
     "foaf": Namespace("http://xmlns.com/foaf/0.1/"),
-    "owl": OWL,		# Necessary to avoid automatic renaming provided by rdflib
+    "owl": OWL,  # Necessary to avoid automatic renaming provided by rdflib
 }
 
 
@@ -29,4 +29,4 @@ LINKS_FILE = DATA_DIR / "links.ttl"
 
 
 # Requests config
-MAX_REQUESTS = 40
+MAX_REQUESTS = 100
