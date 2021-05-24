@@ -29,4 +29,4 @@ LINKS_FILE = DATA_DIR / "links.ttl"
 
 
 # Requests config
-MAX_REQUESTS = 100
+MAX_REQUESTS = 20
