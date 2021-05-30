@@ -11,4 +11,4 @@ Some wonderful exercises about Semantic Web 😼
     - [Scraped movies](https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie_individuals.ttl): From TP-1 and TP-2
 - [TP-4](https://github.com/Skydler/practica-web-semantica/tree/main/TP4-Linked-data): Linked data
     - [Integration with DBpedia](https://github.com/Skydler/practica-web-semantica/blob/main/TP4-Linked-data/data/dataset-enriquecido.ttl)
-- TP-5: SPARQL
+- [TP-5](https://github.com/Skydler/practica-web-semantica/tree/main/TP5-SPARQL): SPARQL
