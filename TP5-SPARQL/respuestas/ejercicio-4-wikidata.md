@@ -29,3 +29,4 @@ El cuadro anterior fue extraido del siguiente [paper](https://recyt.fecyt.es/ind
 
 7. Adapte las queries que construyo en los puntos c y d del ejercicio anterior en el endpoint de Wikidata. (https://query.wikidata.org). ¿Obtuvo resultados diferentes? Si la respuesta es si, ¿a que se deben?
 
+Si, los resultados fueron distintos. Esto se debe a que Wikidata posee una mayor cantidad de clases y clasificaciones. Además la cantidad de información almacenada en Wikidata es distinta a la cantidad en DBpedia.
