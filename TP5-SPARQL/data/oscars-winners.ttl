@@ -1,1 +1,210 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix twss: <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+twss:AaronTaylor_Johnson twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:AngelinaJolie twss:wasDirectedByOscarWinner wd:Q179497,
+        wd:Q187364 .
+
+twss:BashirSalahuddin twss:wasDirectedByOscarWinner dbr:Kevin_Willmott .
+
+twss:BobOdenkirk twss:wasDirectedByOscarWinner wd:Q313566 .
+
+twss:BobbyCannavale twss:wasDirectedByOscarWinner dbr:Rob_Epstein,
+        wd:Q1381702 .
+
+twss:CatherineDeneuve twss:wasDirectedByOscarWinner dbr:Claude_Berri .
+
+twss:CharlizeTheron twss:wasDirectedByOscarWinner wd:Q59215 .
+
+twss:ChrisBauer twss:wasDirectedByOscarWinner wd:Q59215 .
+
+twss:ChristophWaltz twss:wasDirectedByOscarWinner wd:Q313566 .
+
+twss:ChristopherLee twss:wasDirectedByOscarWinner dbr:Freddie_Francis,
+        wd:Q294927,
+        wd:Q51575,
+        wd:Q55245,
+        wd:Q55260 .
+
+twss:ChristopherLloyd twss:wasDirectedByOscarWinner dbr:Kieth_Merrill,
+        wd:Q39792 .
+
+twss:ChristopherWalken twss:wasDirectedByOscarWinner dbr:Gore_Verbinski,
+        dbr:Jonathan_Demme,
+        wd:Q372394,
+        wd:Q59215 .
+
+twss:ClemencePoesy twss:wasDirectedByOscarWinner wd:Q372394 .
+
+twss:ClorisLeachman twss:wasDirectedByOscarWinner dbr:Jonathan_Demme,
+        wd:Q51570,
+        wd:Q95125 .
+
+twss:DemianBichir twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:DenzelWashington twss:wasDirectedByOscarWinner dbr:Jonathan_Demme,
+        wd:Q187364,
+        wd:Q42101 .
+
+twss:DonCheadle twss:wasDirectedByOscarWinner wd:Q187364 .
+
+twss:EdHarris twss:wasDirectedByOscarWinner dbr:Dustin_Lance_Black,
+        dbr:Jonathan_Demme,
+        wd:Q179497,
+        wd:Q187364,
+        wd:Q51492 .
+
+twss:EizaGonzalez twss:wasDirectedByOscarWinner wd:Q187364 .
+
+twss:EllaWalker twss:wasDirectedByOscarWinner wd:Q332530,
+        wd:Q51491,
+        wd:Q51492 .
+
+twss:EmmaStone twss:wasDirectedByOscarWinner wd:Q318287 .
+
+twss:EmmaThompson twss:wasDirectedByOscarWinner dbr:Bill_Condon .
+
+twss:EmmanuelleSeigner twss:wasDirectedByOscarWinner dbr:Gabriele_Salvatores .
+
+twss:EthanHawke twss:wasDirectedByOscarWinner wd:Q59215 .
+
+twss:HiroyukiSanada twss:wasDirectedByOscarWinner dbr:Bill_Condon .
+
+twss:IanMckellen twss:wasDirectedByOscarWinner dbr:Bill_Condon,
+        wd:Q95125 .
+
+twss:JaredLeto twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:JeffreyWright twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:JenniferConnelly twss:wasDirectedByOscarWinner dbr:Dustin_Lance_Black .
+
+twss:JonBernthal twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:JuneForay twss:wasDirectedByOscarWinner dbr:Walter_Lantz .
+
+twss:KennethBranagh twss:wasDirectedByOscarWinner wd:Q41163 .
+
+twss:KristenWiig twss:wasDirectedByOscarWinner wd:Q313566 .
+
+twss:KyleChandler twss:wasDirectedByOscarWinner dbr:Kenneth_Lonergan .
+
+twss:LeslieMann twss:wasDirectedByOscarWinner wd:Q187364 .
+
+twss:LivTyler twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:LucasBlack twss:wasDirectedByOscarWinner dbr:Brian_Helgeland .
+
+twss:MelBlanc twss:wasDirectedByOscarWinner dbr:Walter_Lantz,
+        wd:Q104027,
+        wd:Q51491 .
+
+twss:MichaelCaine twss:wasDirectedByOscarWinner dbr:Gore_Verbinski,
+        <http://dbpedia.org/resource/Guy_Green_(filmmaker)>,
+        wd:Q179497,
+        wd:Q262735,
+        wd:Q51575 .
+
+twss:MichaelPena twss:wasDirectedByOscarWinner wd:Q179497,
+        wd:Q59215 .
+
+twss:MichelleWilliams twss:wasDirectedByOscarWinner dbr:Kenneth_Lonergan .
+
+twss:NatalieMorales twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:NicolasCage twss:wasDirectedByOscarWinner dbr:Gore_Verbinski,
+        wd:Q179497,
+        wd:Q2071 .
+
+twss:OakesFegley twss:wasDirectedByOscarWinner wd:Q187364 .
+
+twss:OlgaMerediz twss:wasDirectedByOscarWinner wd:Q59215 .
+
+twss:OrlandoBloom twss:wasDirectedByOscarWinner dbr:Gore_Verbinski,
+        wd:Q318287 .
+
+twss:PaulGiamatti twss:wasDirectedByOscarWinner wd:Q313566,
+        wd:Q318287 .
+
+twss:PeterDinklage twss:wasDirectedByOscarWinner wd:Q372394 .
+
+twss:RalphFiennes twss:wasDirectedByOscarWinner dbr:Nick_Park,
+        wd:Q347879,
+        wd:Q372394,
+        wd:Q59215 .
+
+twss:RayWinstone twss:wasDirectedByOscarWinner dbr:Gore_Verbinski,
+        wd:Q187364,
+        wd:Q611586,
+        wd:Q83492 .
+
+twss:RitaMoreno twss:wasDirectedByOscarWinner wd:Q51491 .
+
+twss:RobertDowneyJr twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:RobertPattinson twss:wasDirectedByOscarWinner dbr:Bill_Condon .
+
+twss:RobinWright twss:wasDirectedByOscarWinner wd:Q187364,
+        wd:Q270730,
+        wd:Q59215 .
+
+twss:SamNeill twss:wasDirectedByOscarWinner wd:Q59215 .
+
+twss:SamaraWeaving twss:wasDirectedByOscarWinner wd:Q372394 .
+
+twss:ScarlettJohansson twss:wasDirectedByOscarWinner wd:Q318287,
+        wd:Q56095,
+        wd:Q59215 .
+
+twss:ScottEastwood twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:Sia twss:wasDirectedByOscarWinner dbr:Claude_Berri,
+        wd:Q106685,
+        wd:Q160528,
+        wd:Q179497,
+        wd:Q24829,
+        wd:Q262735,
+        wd:Q313566,
+        wd:Q53004 .
+
+twss:SimonYam twss:wasDirectedByOscarWinner wd:Q36970 .
+
+twss:StephaneJobert twss:wasDirectedByOscarWinner wd:Q106685 .
+
+twss:StephenGraham twss:wasDirectedByOscarWinner wd:Q611586 .
+
+twss:SungKang twss:wasDirectedByOscarWinner wd:Q42101 .
+
+twss:TeyonahParris twss:wasDirectedByOscarWinner wd:Q95125 .
+
+twss:TomCruise twss:wasDirectedByOscarWinner wd:Q179497,
+        wd:Q318287,
+        wd:Q59215 .
+
+twss:TomHardy twss:wasDirectedByOscarWinner dbr:Brian_Helgeland .
+
+twss:TonyTodd twss:wasDirectedByOscarWinner dbr:Bill_Condon,
+        wd:Q179497 .
+
+twss:ValKilmer twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:WaltonGoggins twss:wasDirectedByOscarWinner wd:Q611586 .
+
+twss:WesChatham twss:wasDirectedByOscarWinner wd:Q179497 .
+
+twss:WilliamHurt twss:wasDirectedByOscarWinner wd:Q95125 .
+
+twss:WilliamSadler twss:wasDirectedByOscarWinner wd:Q104049 .
+
+twss:WoodyHarrelson twss:wasDirectedByOscarWinner wd:Q179497,
+        wd:Q372394,
+        wd:Q95125 .
+
+twss:michael_caine twss:wasDirectedByOscarWinner dbr:Gore_Verbinski,
+        <http://dbpedia.org/resource/Guy_Green_(filmmaker)>,
+        wd:Q179497,
+        wd:Q262735,
+        wd:Q51575 .
 
