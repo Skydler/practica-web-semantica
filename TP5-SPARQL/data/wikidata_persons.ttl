@@ -1,0 +1,1270 @@
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q2514142 rdfs:label "جون مكدونالد"@ar,
+        "جون مكدونالد"@arz,
+        "John McDonald"@ast,
+        "جان مکدونالد (سیاستچی)"@azb,
+        "John McDonald"@bar,
+        "John McDonald"@ca,
+        "John McDonald (Maryland politician)"@cs,
+        "John McDonald"@da,
+        "John McDonald"@de,
+        "John McDonald"@en,
+        "John McDonald"@es,
+        "جان مکدانلد"@fa,
+        "John McDonald (Maryland politician)"@fi,
+        "John McDonald"@fr,
+        "John McDonald"@hu,
+        "John McDonald"@it,
+        "John McDonald"@lb,
+        "John McDonald"@nb,
+        "John McDonald"@nds,
+        "John McDonald"@nl,
+        "John McDonald"@nn,
+        "John McDonald"@pap,
+        "John McDonald"@pl,
+        "John McDonald (Maryland politician)"@pt,
+        "Джон МакДональд"@ru,
+        "John McDonald"@sl,
+        "John McDonald"@sv ;
+    schema:dateModified "2021-06-01T05:26:02+00:00"^^xsd:dateTime ;
+    schema:description "سياسي من الولايات المتحدة الأمريكية"@ar,
+        "políticu estauxunidense (1837–1917)"@ast,
+        "polític estatunidenc (1837-1917)"@ca,
+        "amerikansk politiker"@da,
+        "US-amerikanischer Politiker"@de,
+        "American soldier and politician from Maryland"@en,
+        "político estadounidense (1837-1917)"@es,
+        "politikari estatubatuarra (1837-1917)"@eu,
+        "سیاستمدار آمریکایی"@fa,
+        "yhdysvaltalainen poliitikko"@fi,
+        "politicien américain"@fr,
+        "político estadounidense (1837-1917)"@gl,
+        "politico statunitense"@it,
+        "amerikanesche Politiker"@lb,
+        "Amerikos politikas"@lt,
+        "amerikansk politiker"@nb,
+        "US-amerikaanschen Politiker"@nds,
+        "Amerikaans politicus (1837-1917)"@nl,
+        "amerikansk politikar"@nn,
+        "politiko merikano"@pap,
+        "político americano"@pt,
+        "amerikansk politiker"@sv ;
+    schema:version 1432810891 ;
+    wikibase:identifiers 4 ;
+    wikibase:sitelinks 6 ;
+    wikibase:statements 21 ;
+    wikibase:timestamp "2021-06-01T05:26:05+00:00"^^xsd:dateTime ;
+    p:P102 wds:Q2514142-699E9D0F-B519-409D-9FD6-F138C03C36DF ;
+    p:P106 wds:q2514142-645620B1-E808-4852-9BED-69E09AE8D7E7 ;
+    p:P1157 wds:Q2514142-2352888d-47fc-86ab-63b3-189d318e8085 ;
+    p:P1412 wds:Q2514142-611EAD0B-30EA-48E2-90E6-76751131FA16 ;
+    p:P1559 wds:Q2514142-8DA3FDBC-5722-4BDB-87D4-632148ED2E99 ;
+    p:P18 wds:Q2514142-c8ed3ede-4d14-da65-76af-542936119229 ;
+    p:P19 wds:q2514142-6F4376E1-78F1-40F4-A602-88387B4E881A ;
+    p:P20 wds:q2514142-8E6313D8-4FB0-49AA-8AA6-EB7561E27F13 ;
+    p:P21 wds:q2514142-F5C45B3C-D3AF-4B69-96D7-0C7E1F691D04 ;
+    p:P27 wds:q2514142-77CEFCE8-9686-4381-9CEA-6428EDE0CDF1 ;
+    p:P31 wds:Q2514142-4979E387-DA0B-4C4A-BDEF-131BD56E6D0D ;
+    p:P39 wds:Q2514142-BFF18A09-303E-479F-929E-AFDFDFAD1B4B,
+        wds:q2514142-F4165DD6-5518-4371-8F11-C17D64CF1AF1 ;
+    p:P535 wds:Q2514142-ee9059de-4e1a-8570-de59-13ed85cc4bda ;
+    p:P569 wds:Q2514142-4EE46BB2-F091-4F22-8132-D8A4111B46F2 ;
+    p:P570 wds:Q2514142-F269BFFB-F291-4830-A963-325B4AF1BA94 ;
+    p:P646 wds:Q2514142-C6175B75-0913-4FD8-98AD-70497FCE6F64 ;
+    p:P734 wds:Q2514142-3F8EBC70-A413-4BC2-B9B3-69960A337E39 ;
+    p:P735 wds:Q2514142-7C9B9513-B00C-4BFE-A3E2-FC2B5F2A6E9F ;
+    p:P8462 wds:Q2514142-EE7B83CA-FAF0-4DCE-9568-773B34B8A849 ;
+    p:P937 wds:Q2514142-09D71C2E-ED9A-4559-8810-61BEA3EDA5E0 ;
+    wdtn:P646 <http://g.co/kg/m/0dz85q> ;
+    wdt:P102 wd:Q29468 ;
+    wdt:P106 wd:Q82955 ;
+    wdt:P1157 "M000411"^^xsd:string ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1559 "John McDonald"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Capt.%20John%20McDonald%2C%20Maryland.jpg> ;
+    wdt:P19 wd:Q932302 ;
+    wdt:P20 wd:Q327022 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q13218630,
+        wd:Q20064986 ;
+    wdt:P535 "37094379"^^xsd:string ;
+    wdt:P569 "1837-05-24T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P570 "1917-01-30T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P646 "/m/0dz85q"^^xsd:string ;
+    wdt:P734 wd:Q20827080 ;
+    wdt:P735 wd:Q4925477 ;
+    wdt:P8462 "mcdonald.html#413.02.98"^^xsd:string ;
+    wdt:P937 wd:Q61 .
+
+wd:Q25191 rdfs:label "Christopher Nolan"@ace,
+        "Christopher Nolan"@an,
+        "كريستوفر نولاند"@ar,
+        "كريستوفر نولاند"@ary,
+        "كريستوفر نولاند"@arz,
+        "Christopher Nolan"@ast,
+        "Kristofer Nolan"@az,
+        "Крыстафер Нолан"@be,
+        "Крыстафэр Нолан"@be-tarask,
+        "Кристофър Нолан"@bg,
+        "ক্রিস্টোফার নোলান"@bn,
+        "Christopher Nolan"@bs,
+        "Christopher Nolan"@ca,
+        "کریستۆفەر نۆلاند"@ckb,
+        "Christopher Nolan"@cs,
+        "Christopher Nolan"@cy,
+        "Christopher Nolan"@da,
+        "Christopher Nolan"@de,
+        "Christopher Nolan"@diq,
+        "Κρίστοφερ Νόλαν"@el,
+        "Christopher Nolan"@en,
+        "Christopher Nolan"@en-ca,
+        "Christopher Nolan"@en-gb,
+        "Christopher Nolan"@es,
+        "Christopher Nolan"@et,
+        "Christopher Nolan"@eu,
+        "Christopher Nolan"@ext,
+        "کریستوفر نولاند"@fa,
+        "Christopher Nolan"@fi,
+        "Christopher Nolan"@fr,
+        "Christopher Nolan"@ga,
+        "Christopher Nolan"@gl,
+        "כריסטופר נולאן"@he,
+        "क्रिस्टोफ़र नोलन"@hi,
+        "Christopher Nolan"@hr,
+        "Christopher Nolan"@hu,
+        "Քրիստոֆեր Նոլան"@hy,
+        "Christopher Nolan"@ia,
+        "Christopher Nolan"@id,
+        "Christopher Nolan"@it,
+        "クリストファー・ノーラン"@ja,
+        "კრისტოფერ ნოლანი"@ka,
+        "Кристофер Нолан"@kk,
+        "ಕ್ರಿಸ್ಟೋಫರ್ ನೋಲನ್"@kn,
+        "크리스토퍼 놀런"@ko,
+        "Christophorus Nolan"@la,
+        "Christopher Nolan"@lt,
+        "Kristofers Nolans"@lv,
+        "Christopher Nolan"@mg,
+        "Кристофер Нолан"@mk,
+        "ക്രിസ്റ്റഫർ നോളന്റെ"@ml,
+        "Кристофер Нолан"@mn,
+        "क्रिस्टोफर नोलन"@mr,
+        "Christopher Nolan"@ms,
+        "Christopher Nolan"@nan,
+        "Christopher Nolan"@nb,
+        "क्रिस्टोफर नोलन"@ne,
+        "Christopher Nolan"@nl,
+        "Christopher Nolan"@oc,
+        "ਕ੍ਰਿਸਟੋਫ਼ਰ ਨੋਲਨ"@pa,
+        "Christopher Nolan"@pag,
+        "Christopher Nolan"@pap,
+        "Christopher Nolan"@pl,
+        "کرسٹوفر نولند"@pnb,
+        "Christopher Nolan"@pt,
+        "Christopher Nolan"@pt-br,
+        "Christopher Nolan"@ro,
+        "Кристофер Нолан"@ru,
+        "Christopher Nolan"@sc,
+        "Christopher Nolan"@sco,
+        "Christopher Nolan"@sh,
+        "Christopher Nolan"@sk,
+        "Christopher Nolan"@sl,
+        "Christopher Nolan"@sq,
+        "Кристофер Нолан"@sr,
+        "Christopher Nolan"@su,
+        "Christopher Nolan"@sv,
+        "Christopher Nolan"@sw,
+        "கிறிஸ்டோபர் நோலன்"@ta,
+        "క్రిస్టొఫర్ నొలన్"@te,
+        "คริสโตเฟอร์ โนแลน"@th,
+        "Christopher Nolan"@tl,
+        "Christopher Nolan"@tr,
+        "Кристофер Нолан"@tt,
+        "Кристофер Нолан"@tt-cyrl,
+        "Крістофер Нолан"@uk,
+        "کرسٹوفر نولن"@ur,
+        "Christopher Nolan"@uz,
+        "Christopher Nolan"@vi,
+        "Christopher Nolan"@vo,
+        "克里斯托弗·诺兰"@wuu,
+        "კრისტოფერ ნოლანი"@xmf,
+        "基斯杜化路蘭"@yue,
+        "克里斯托弗·诺兰"@zh,
+        "克里斯多夫·諾蘭"@zh-hant,
+        "基斯杜化路蘭"@zh-hk,
+        "克里斯多夫·諾蘭"@zh-tw ;
+    schema:dateModified "2021-06-05T12:46:51+00:00"^^xsd:dateTime ;
+    schema:description "مُخرج ومنتج وكاتبٌ سينمائي بريطاني أمريكي"@ar,
+        "брытанскі рэжысэр, прадусар і сцэнарыст"@be-tarask,
+        "британско-американски режисьор, сценарист и продуцент"@bg,
+        "চলচ্চিত্র পরিচালক, চিত্রনাট্যকার ও প্রযোজক"@bn,
+        "cyfarwyddwr ffilm, sgriptiwr a chynhyrchydd Prydeinig–Americanaidd"@cy,
+        "britisch–US-amerikanischer Regisseur, Drehbuchautor und Filmproduzent"@de,
+        "Άγγλος σκηνοθέτης, σεναριογράφος και παραγωγός ταινιών"@el,
+        "English film director, screenwriter, and producer"@en,
+        "British–American film director, screenwriter and producer"@en-gb,
+        "director de cine, guionista y productor de nacionalidad inglesa"@es,
+        "کارگردان و تهیهکنندهٔ بریتانیایی-آمریکایی"@fa,
+        "brittiläis-yhdysvaltalainen elokuvaohjaaja, käsikirjoittaja ja tuottaja"@fi,
+        "réalisateur, scénariste et producteur anglo-américain"@fr,
+        "Director de cinema, guionista e produtor de nacionalidade inglés-estadounidense"@gl,
+        "במאי אמריקאי"@he,
+        "फिल्म निर्माता एवं निर्देशक"@hi,
+        "angol filmrendező, producer, forgatókönyvíró"@hu,
+        "Sutradara Berkebangsaan Inggris"@id,
+        "regista, sceneggiatore e produttore cinematografico britannico"@it,
+        "イギリスの映画監督、脚本家、映画プロデューサー"@ja,
+        "영국과 미국의 영화 감독"@ko,
+        "ബ്രിട്ടീഷ്-അമേരിക്കൻ ചലച്ചിത്ര നിർമ്മാതാവ്, സംവിധായകൻ"@ml,
+        "लेखक, पटकथालेखक, चित्रपटदिग्दर्शक, चित्रपट निर्माता"@mr,
+        "britisk-amerikansk regissør og manusforfatter"@nb,
+        "regisseur"@nl,
+        "brytyjski reżyser, scenarzysta, producent filmowy"@pl,
+        "Diretor de cinema, roteirista e produtor britânico"@pt,
+        "regizor britanico-american"@ro,
+        "англо-американский кинорежиссёр, сценарист и продюсер"@ru,
+        "brittisk-amerikansk filmregissör, manusförfattare och filmproducent"@sv,
+        "Film yönetmeni"@tr,
+        "Đạo diễn, nhà sản xuất và biên kịch điện ảnh người Anh–Mỹ"@vi,
+        "英國電影導演"@zh,
+        "英國電影導演"@zh-hant ;
+    schema:version 1435516348 ;
+    wikibase:identifiers 66 ;
+    wikibase:sitelinks 92 ;
+    wikibase:statements 123 ;
+    wikibase:timestamp "2021-06-05T13:56:17+00:00"^^xsd:dateTime ;
+    skos:altLabel "Christopher Jonathan James Nolan"@cy,
+        "Christopher Jonathan James Nolan"@de,
+        "Κρίστοφερ Τζόναθαν Τζέιμς Νόλαν"@el,
+        "Νόλαν"@el,
+        "Christopher Jonathan James Nolan"@en,
+        "Nolan"@en,
+        "Christopher Jonathan James Nolan"@en-gb,
+        "Christopher Jonathan James Nolan"@es,
+        "Christopher Jonathan James Nolan"@fr,
+        "Christopher Jonathan James Nolan"@hu,
+        "크리스토퍼 놀란"@ko,
+        "Christopher Nolan (regisseur)"@nl,
+        "Christopher Jonathan James Nolan"@pl,
+        "Нолан, Кристофер"@ru,
+        "Christopher Jonathan James Nolan"@tr,
+        "Nolan"@tr,
+        "诺兰"@zh,
+        "基斯杜化·路蘭"@zh-hk ;
+    p:P1006 wds:Q25191-166C5785-F533-4B4C-81AA-F22B07D372B7 ;
+    p:P1038 wds:Q25191-03a81361-4df8-c88c-8bf1-4f5590336505,
+        wds:Q25191-bf363465-498c-146c-62ca-384c280e855e ;
+    p:P106 wds:Q25191-519D7D20-E610-4BB1-BDA5-7C298751C2D8,
+        wds:Q25191-8191F225-9150-41D1-9DF6-C7E5338F4AF5,
+        wds:Q25191-82d8da05-41a1-ee2c-1aac-99c42a6c2e61,
+        wds:Q25191-8868B2F1-1C55-40FF-B645-8D378268AD2F,
+        wds:Q25191-B1738693-F97C-4E0D-942E-104DADB91BE0,
+        wds:Q25191-E6EDA54D-4A41-44AE-A92E-3D56354DE094,
+        wds:Q25191-de2b08dd-42e1-16c8-305a-291e2462d871,
+        wds:q25191-3BA3A004-ED51-4653-857F-ABD89B9742A2,
+        wds:q25191-52F99CED-A237-4BD4-ABD1-4DDC3C178F2A,
+        wds:q25191-71B03143-1E0B-4B90-A499-04A8C4218CD1,
+        wds:q25191-BFC1C8D6-56C2-4627-A7CA-3507E95ADC3E ;
+    p:P1207 wds:Q25191-13c4d62d-4a7d-ba3c-ca4a-5ffce903fb90 ;
+    p:P1233 wds:Q25191-5C12E99C-0913-45FE-ACD6-8E42521D4E7C ;
+    p:P1258 wds:Q25191-FA7045A3-54EA-40F6-853D-0A9F5118E467 ;
+    p:P1263 wds:Q25191-D4354A1E-C9E7-4A4C-B60A-5455F21490AB ;
+    p:P1266 wds:Q25191-ed868836-4b55-4529-8cd4-35cc5b679307 ;
+    p:P1283 wds:Q25191-954DC23F-7302-48A9-A178-2B5F8C041EDF ;
+    p:P1284 wds:Q25191-379497A2-BE5D-4530-BBDD-9A5FC5FDCF9B ;
+    p:P1296 wds:Q25191-51DE3C35-8CE2-4CEB-8DBB-D00CA0828C80 ;
+    p:P1343 wds:Q25191-14673059-9ECC-43F5-BEDB-BBE8E7BB51AF ;
+    p:P1411 wds:Q25191-0338726C-849A-463E-ABCA-ECE24EF27EF8,
+        wds:Q25191-0C966B55-E1E1-4154-9088-1DCCAAD08AAD,
+        wds:Q25191-52D005BE-2514-4326-9B70-C4272C2E579D,
+        wds:Q25191-69085F72-429D-49CD-9992-4E283D4E2720,
+        wds:Q25191-B68F228E-A8B7-4EEE-A694-DE38318F3075,
+        wds:Q25191-DAF483CF-94D9-419C-A8F2-AD5BFDBD2BA9 ;
+    p:P1412 wds:Q25191-92F4FD2F-F545-433A-AE76-F192A55E4E94 ;
+    p:P1417 wds:Q25191-049934E7-0012-492F-B388-1350B4071281 ;
+    p:P1477 wds:Q25191-EBD45B3B-D581-4438-9DBF-9672AD599C06 ;
+    p:P1559 wds:Q25191-5689cf8f-4667-e105-0f02-6dad299ba02a ;
+    p:P166 wds:Q25191-0A9722F2-CD44-4768-A631-1D6941ECDBF8,
+        wds:Q25191-40d22dc4-4111-5c20-869f-e7fb63a941fc,
+        wds:Q25191-945a6d83-4bd5-ebe6-8c35-ba6449ec3a3c,
+        wds:Q25191-9d05037a-4530-02ba-b59f-eb018504c40a,
+        wds:Q25191-BC5BEB97-C4CE-45BE-8D5B-D1E4A0CFA69D,
+        wds:Q25191-ea813315-42be-5722-0df1-a34e63b99541 ;
+    p:P1695 wds:Q25191-bfd9101e-40df-4d60-69c0-f122a71105ea ;
+    p:P1741 wds:Q25191-BAC34B3C-A05D-46FF-953A-629A581A15A7 ;
+    p:P18 wds:q25191-E3A192AF-E370-460A-A78E-0498FD4F8A27 ;
+    p:P19 wds:q25191-A85EBD83-56A5-4B69-A050-AC57B15995C5 ;
+    p:P1953 wds:Q25191-00C943EB-73FA-4863-9E7D-FB1C65F061FD ;
+    p:P1969 wds:Q25191-051AC49C-C78A-435D-8255-40AA0DBEE1D6 ;
+    p:P1971 wds:Q25191-2E793205-40BF-465F-880F-A490FD3CA59A ;
+    p:P2019 wds:Q25191-4511da07-47af-8abf-ec6c-e3c654930f9a ;
+    p:P2031 wds:Q25191-7D527BAC-0183-4403-A9CB-3D8238F93A03 ;
+    p:P21 wds:Q25191-FDA003B3-2FAA-4C1E-A6BA-8111F58CA41B ;
+    p:P213 wds:q25191-C52EDACD-2442-4CF9-953D-69175EA0B670 ;
+    p:P214 wds:q25191-EFE3793C-4E0B-4D0A-B83D-134A642471EB ;
+    p:P2163 wds:Q25191-EB76C88D-B9B9-4E3A-8934-00C055388FE6 ;
+    p:P2168 wds:Q25191-4af2147c-4aae-8fd5-13f2-17e2fe6cb9bb ;
+    p:P2174 wds:Q25191-3F29BCD4-D593-4370-B1A8-EADB8AE62C16 ;
+    p:P227 wds:q25191-D2C26CF1-97C8-4CBE-8150-8C9BC547C335 ;
+    p:P2387 wds:Q25191-A995E681-4846-40B4-97F5-7B19FAA31889 ;
+    p:P2435 wds:Q25191-49548023-3AFA-484C-A193-B33C81E114C5 ;
+    p:P244 wds:q25191-9FB912D1-CFFA-4E16-B333-8DB2D28FE00C ;
+    p:P2519 wds:Q25191-e5ecf663-48ae-1a9b-2f97-4ae9ab17f3d8 ;
+    p:P26 wds:q25191-FFA458A8-1F56-4CB1-9548-D076DB3A0ED8 ;
+    p:P2604 wds:Q25191-444a117b-4f7f-7677-4012-22529b24b734 ;
+    p:P2605 wds:Q25191-9DF35BF2-DC49-4A90-8470-01611D0E29A4 ;
+    p:P2626 wds:Q25191-5B2EEAC5-7914-462B-A28F-46DF42FC15F3 ;
+    p:P2638 wds:Q25191-7D704E97-8285-41B3-B257-E6A58B299DB3 ;
+    p:P268 wds:q25191-791EB24F-268A-4F30-9F9A-0C1F8DF51CB3 ;
+    p:P2688 wds:Q25191-4ee5956a-461a-7bb9-135a-60a6594317f6 ;
+    p:P269 wds:q25191-6A307876-C954-429B-A4EA-F91AE91F6ACB ;
+    p:P27 wds:q25191-34FCDACA-4011-46AF-9394-98A2F5A67183,
+        wds:q25191-97139FCA-9156-4C0D-B450-1ACB2DB1F580 ;
+    p:P2963 wds:Q25191-d1d3982b-4da2-6f67-4672-de11daf3ef09 ;
+    p:P3056 wds:Q25191-0042B417-E1B9-49BE-9777-5FB267FB4D6D ;
+    p:P31 wds:q25191-16763789-5629-4790-ABB9-9B92BEDF2390 ;
+    p:P3142 wds:Q25191-9D401EEA-27D8-4F06-9352-5EE2D6CA91C8 ;
+    p:P3305 wds:Q25191-A6285F3A-BD5A-4792-8B8E-DA8F527F7A69 ;
+    p:P3373 wds:Q25191-427505C6-1B00-442F-9021-8AD4AA0D1038 ;
+    p:P3417 wds:Q25191-8D49CA8F-916E-46BA-84CD-FB52A4DDF715 ;
+    p:P3430 wds:Q25191-7192EF3A-6E2B-40BE-A545-F4C2DA08BA2A ;
+    p:P345 wds:q25191-433884B4-2531-46A0-945B-BA41D158955B ;
+    p:P349 wds:q25191-F54B3295-C79E-4128-88C8-D3E0EF1CE815 ;
+    p:P3630 wds:Q25191-8F36D512-4DEF-4459-BB0B-B26F64C6C419 ;
+    p:P373 wds:q25191-96C4737C-AB79-413C-AF66-12A65D2F79A8 ;
+    p:P3984 wds:Q25191-69D9C524-DB52-46BB-9661-74DCE2F5F2B7 ;
+    p:P3987 wds:Q25191-B3239D30-5331-4879-9C8A-11842D9B0433 ;
+    p:P40 wds:Q25191-19a30c70-4b8f-89e3-e82d-0eb6d06ec69b,
+        wds:Q25191-4126f2f6-4973-09ae-684b-2274fc0473b3,
+        wds:Q25191-f408aaf4-700c-43ed-8200-ea05faa260d4 ;
+    p:P4073 wds:Q25191-fc84be9e-4e38-ddbd-dfa7-d3e89eda134a ;
+    p:P434 wds:q25191-5F469F19-D544-44DF-A501-9FEEE09E7E8E ;
+    p:P4342 wds:Q25191-D7A0C56F-6DD4-41DD-9813-A7BA54D3CD6D ;
+    p:P463 wds:Q25191-0834b543-480f-78ab-a99e-beaf3917c0bc,
+        wds:Q25191-655de700-43c8-1173-508b-c7fd98db9f89 ;
+    p:P4781 wds:Q25191-d5333d0e-44d2-aee2-c4c7-b28a6b90308f ;
+    p:P4789 wds:Q25191-e5c43b4e-449e-83d1-298a-b9b84eaea6cb ;
+    p:P4985 wds:Q25191-680A85FB-89FB-45B9-B34E-24EDE5765C6E ;
+    p:P5019 wds:Q25191-5E6E5136-2C71-45FB-9BC2-B891220F6415 ;
+    p:P5034 wds:Q25191-b4362575-43f0-479d-ab24-e4d794922158 ;
+    p:P5284 wds:Q25191-8173C079-E10E-4A98-B5B9-1A05C6D981F3 ;
+    p:P5534 wds:Q25191-EA411E1C-9A62-4668-BE31-5A8C541A5017 ;
+    p:P5587 wds:Q25191-F8CF09A4-A28F-4704-9208-98FAD0F76BFD ;
+    p:P5617 wds:Q25191-0E9B8F8E-C1D5-4DB3-9F1F-0E9CC26E7663 ;
+    p:P569 wds:q25191-42A2A635-AA3E-4129-8874-FDADE65C6FF1 ;
+    p:P5905 wds:Q25191-face7a30-4c52-50fd-b490-252d6d432f82 ;
+    p:P6150 wds:Q25191-6550ED38-9501-4E9F-91FA-B0952E146339 ;
+    p:P6298 wds:Q25191-D6B43774-E56C-4E89-BE66-B65604EADF32 ;
+    p:P6379 wds:Q25191-A1C196F2-6885-4DCD-AB01-F4C36AF08B65 ;
+    p:P646 wds:Q25191-AB97B9E8-5C21-4AE6-9482-DF9F3B2DE75B ;
+    p:P69 wds:Q25191-9B1C3181-46B4-4E09-A3D2-6C6CA8A6CA45,
+        wds:q25191-31B9DD2A-7B8A-44BA-97F0-35CFFB6C5996 ;
+    p:P691 wds:Q25191-D4EC15F5-2CC8-45CA-ABED-04C6FAC76504 ;
+    p:P7084 wds:Q25191-80A1C633-7B2F-4A61-ACF5-9B5F0361C2DB ;
+    p:P7214 wds:Q25191-4CE8C689-CB52-4B24-8528-E113EA784114 ;
+    p:P7286 wds:Q25191-b46b955a-4497-d111-183a-d9a2d4ac20a5 ;
+    p:P7293 wds:Q25191-2ddb5534-4c19-33d5-dc66-0afb37c8214d ;
+    p:P734 wds:Q25191-1ab1e849-44b4-bec6-634e-a2912e1cc8e7 ;
+    p:P735 wds:Q25191-303a8af9-4d3e-06cb-9e5c-fafc58bea5a3,
+        wds:Q25191-C9B855BC-924A-4306-A1C9-C5DBDC8141D0 ;
+    p:P737 wds:Q25191-a563faf0-42f1-e025-69dc-bd4913dc0ab8 ;
+    p:P7763 wds:Q25191-a015795a-25f4-405e-8b05-ca753415fd3b ;
+    p:P7803 wds:Q25191-71B90295-A9D7-442C-B76F-0A9695430EDA ;
+    p:P7859 wds:Q25191-96FEDC02-64C7-4B3E-8545-9C57FF5B32A3 ;
+    p:P906 wds:Q25191-86C4013E-BB26-446B-B5ED-A493B98B02CF ;
+    p:P910 wds:Q25191-E0AC2491-C22A-425B-9120-FCDD232535AE ;
+    p:P950 wds:Q25191-5285268D-AFBC-48B0-8A41-1BBB12E06AF5 ;
+    wdtn:P1006 <http://data.bibliotheken.nl/id/thes/p073905143> ;
+    wdtn:P1741 <http://data.beeldengeluid.nl/gtaa/137173> ;
+    wdtn:P214 <http://viaf.org/viaf/102310843> ;
+    wdtn:P2163 <http://id.worldcat.org/fast/1568745> ;
+    wdtn:P227 <https://d-nb.info/gnd/12394192X> ;
+    wdtn:P244 <https://id.loc.gov/authorities/names/no2002001999> ;
+    wdtn:P268 <http://data.bnf.fr/ark:/12148/cb141249311#about> ;
+    wdtn:P269 <http://www.idref.fr/074015834/id> ;
+    wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00859363> ;
+    wdtn:P434 <http://musicbrainz.org/artist/166b9184-9a0d-4249-8be6-fc3cd70730c8> ;
+    wdtn:P5034 <http://lod.nl.go.kr/resource/KAC199620312> ;
+    wdtn:P5587 <https://libris.kb.se/pm149cp70lgr31m> ;
+    wdtn:P646 <http://g.co/kg/m/0184dt> ;
+    wdtn:P906 <http://libris.kb.se/resource/auth/328027> ;
+    wdtn:P950 <http://datos.bne.es/resource/XX1539092> ;
+    wdt:P1006 "073905143"^^xsd:string ;
+    wdt:P1038 wd:Q12858652,
+        wd:Q732010 ;
+    wdt:P106 wd:Q1053574,
+        wd:Q10800557,
+        wd:Q1208175,
+        wd:Q222344,
+        wd:Q237893,
+        wd:Q2526255,
+        wd:Q28389,
+        wd:Q3282637,
+        wd:Q33999,
+        wd:Q36180,
+        wd:Q7042855 ;
+    wdt:P1207 "n2009141767"^^xsd:string ;
+    wdt:P1233 "146278"^^xsd:string ;
+    wdt:P1258 "celebrity/christopher_nolan"^^xsd:string ;
+    wdt:P1263 "178/000160695"^^xsd:string ;
+    wdt:P1266 "30367"^^xsd:string ;
+    wdt:P1283 wd:Q20429987 ;
+    wdt:P1284 "00000024339"^^xsd:string ;
+    wdt:P1296 "0522505"^^xsd:string ;
+    wdt:P1343 wd:Q67311526 ;
+    wdt:P1411 wd:Q102427,
+        wd:Q103360,
+        wd:Q41417,
+        wd:Q628637 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1417 "biography/Christopher-Nolan-British-director"^^xsd:string ;
+    wdt:P1477 "Christopher Edward Nolan"@en ;
+    wdt:P1559 "Christopher Nolan"@en ;
+    wdt:P166 wd:Q105447,
+        wd:Q12201477,
+        wd:Q14420,
+        wd:Q16058279,
+        wd:Q189887,
+        wd:Q833154 ;
+    wdt:P1695 "A29432662"^^xsd:string ;
+    wdt:P1741 "137173"^^xsd:string ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Christopher%20Nolan%20Cannes%202018.jpg> ;
+    wdt:P19 wd:Q84 ;
+    wdt:P1953 "1230091"^^xsd:string ;
+    wdt:P1969 "2128"^^xsd:string ;
+    wdt:P1971 4.0 ;
+    wdt:P2019 "p240025"^^xsd:string ;
+    wdt:P2031 "1989-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P213 "0000 0001 1079 747X"^^xsd:string ;
+    wdt:P214 "102310843"^^xsd:string ;
+    wdt:P2163 "1568745"^^xsd:string ;
+    wdt:P2168 "289139"^^xsd:string ;
+    wdt:P2174 "37821"^^xsd:string ;
+    wdt:P227 "12394192X"^^xsd:string ;
+    wdt:P2387 "1009506"^^xsd:string ;
+    wdt:P2435 "134164"^^xsd:string ;
+    wdt:P244 "no2002001999"^^xsd:string ;
+    wdt:P2519 "7792"^^xsd:string ;
+    wdt:P26 wd:Q242951 ;
+    wdt:P2604 "41477"^^xsd:string ;
+    wdt:P2605 "3022"^^xsd:string ;
+    wdt:P2626 "146798"^^xsd:string ;
+    wdt:P2638 "people/christopher-nolan"^^xsd:string ;
+    wdt:P268 "141249311"^^xsd:string ;
+    wdt:P2688 "christophernolan"^^xsd:string ;
+    wdt:P269 "074015834"^^xsd:string ;
+    wdt:P27 wd:Q145,
+        wd:Q30 ;
+    wdt:P2963 "3044804"^^xsd:string ;
+    wdt:P3056 "520494"^^xsd:string ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3142 "n0001115"^^xsd:string ;
+    wdt:P3305 "162603"^^xsd:string ;
+    wdt:P3373 wd:Q372788 ;
+    wdt:P3417 "Christopher-Nolan-director"^^xsd:string ;
+    wdt:P3430 "w64505mx"^^xsd:string ;
+    wdt:P345 "nm0634240"^^xsd:string ;
+    wdt:P349 "00859363"^^xsd:string ;
+    wdt:P3630 "68188"^^xsd:string ;
+    wdt:P373 "Christopher Nolan"^^xsd:string ;
+    wdt:P3984 "Nolan"^^xsd:string ;
+    wdt:P3987 "449790"^^xsd:string ;
+    wdt:P40 wd:Q77980653,
+        wd:Q77981400,
+        wd:Q77981509 ;
+    wdt:P4073 "chrisnolan"^^xsd:string ;
+    wdt:P434 "166b9184-9a0d-4249-8be6-fc3cd70730c8"^^xsd:string ;
+    wdt:P4342 "Christopher_Nolan"^^xsd:string ;
+    wdt:P463 wd:Q1227533,
+        wd:Q8038459 ;
+    wdt:P4781 "17035"^^xsd:string ;
+    wdt:P4789 "U255675"^^xsd:string ;
+    wdt:P4985 "525"^^xsd:string ;
+    wdt:P5019 "nolan-christopher"^^xsd:string ;
+    wdt:P5034 "KAC199620312"^^xsd:string ;
+    wdt:P5284 "1054524"^^xsd:string ;
+    wdt:P5534 "525"^^xsd:string ;
+    wdt:P5587 "pm149cp70lgr31m"^^xsd:string ;
+    wdt:P5617 "christopher-nolan-23209"^^xsd:string ;
+    wdt:P569 "1970-07-30T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P5905 "4040-71087"^^xsd:string ;
+    wdt:P6150 "7838"^^xsd:string ;
+    wdt:P6298 "15985"^^xsd:string ;
+    wdt:P6379 wd:Q188740 ;
+    wdt:P646 "/m/0184dt"^^xsd:string ;
+    wdt:P69 wd:Q193196,
+        wd:Q5639263 ;
+    wdt:P691 "js20050822022"^^xsd:string ;
+    wdt:P7084 wd:Q6840348 ;
+    wdt:P7214 "469704"^^xsd:string ;
+    wdt:P7286 "a1b668dc-8ec5-4733-87f5-f6060285bfad"^^xsd:string ;
+    wdt:P7293 "9810637995205606"^^xsd:string ;
+    wdt:P734 wd:Q20900701 ;
+    wdt:P735 wd:Q1084472,
+        wd:Q278835 ;
+    wdt:P737 wd:Q38222 ;
+    wdt:P7763 wd:Q73555012 ;
+    wdt:P7803 "56799"^^xsd:string ;
+    wdt:P7859 "lccn-no2002001999"^^xsd:string ;
+    wdt:P906 "328027"^^xsd:string ;
+    wdt:P910 wd:Q7307597 ;
+    wdt:P950 "XX1539092"^^xsd:string .
+
+wd:Q456910 rdfs:label "باتي جنكينز"@ar,
+        "باتى جنكينز"@arz,
+        "Patty Jenkins"@ast,
+        "Пати Дженкинс"@bg,
+        "Patty Jenkins"@ca,
+        "Patty Jenkins"@cs,
+        "Patty Jenkins"@da,
+        "Patty Jenkins"@de,
+        "Πάτι Τζένκινς"@el,
+        "Patty Jenkins"@en,
+        "Patty Jenkins"@es,
+        "پتی جنکینس"@fa,
+        "Patty Jenkins"@fi,
+        "Patty Jenkins"@fr,
+        "Patty Jenkins"@ga,
+        "פאטי ג'נקינס"@he,
+        "पैटी जेंकिन्स"@hi,
+        "Patty Jenkins"@hu,
+        "Փեթի Ջենկինս"@hy,
+        "Patty Jenkins"@it,
+        "パティ・ジェンキンス"@ja,
+        "패티 젱킨스"@ko,
+        "Patty Jenkins"@mg,
+        "Patty Jenkins"@nb,
+        "Patty Jenkins"@nl,
+        "Patty Jenkins"@nn,
+        "Patty Jenkins"@pam,
+        "Patty Jenkins"@pl,
+        "Patty Jenkins"@pt,
+        "Patty Jenkins"@pt-br,
+        "Дженкинс, Пэтти"@ru,
+        "Patty Jenkins"@sl,
+        "Patty Jenkins"@sq,
+        "Patty Jenkins"@sv,
+        "แพตตี้ เจนกินส์"@th,
+        "Patty Jenkins"@tr,
+        "Петті Дженкінс"@uk,
+        "Patty Jenkins"@vi,
+        "派蒂·珍金斯"@zh,
+        "帕提·珍金斯"@zh-hk ;
+    schema:dateModified "2021-05-30T18:26:45+00:00"^^xsd:dateTime ;
+    schema:description "مخرج أفلام أمريكي"@ar,
+        "মার্কিন চলচ্চিত্র পরিচালিকা"@bn,
+        "directora de cinema estatunidenca"@ca,
+        "americká filmová režisérka"@cs,
+        "US-amerikanische Filmregisseurin"@de,
+        "Αμερικανίδα σκηνοθέτις"@el,
+        "American film director"@en,
+        "directora de cine y guionista estadounidense"@es,
+        "Ameerika Ühendriikide filmirežissöör"@et,
+        "فیلمنامهنویس و کارگردان آمریکایی"@fa,
+        "yhdysvaltalainen elokuva- ja televisio-ohjaaja"@fi,
+        "réalisatrice et scénariste américaine"@fr,
+        "stiúrthóir scannán Meiriceánach"@ga,
+        "directora de cinema estadounidense"@gl,
+        "במאית קולנוע אמריקאית"@he,
+        "फ़िल्म निर्देशक"@hi,
+        "amerikai filmrendező, forgatókönyvíró, producer"@hu,
+        "regista statunitense"@it,
+        "미국의 영화 감독"@ko,
+        "Amerikaans filmregisseuse"@nl,
+        "American film director"@pam,
+        "reżyserka amerykańska"@pl,
+        "regizoare de film americană"@ro,
+        "regjisore amerikane"@sq,
+        "amerikansk filmregissör och manusförfattare"@sv,
+        "американська кінорежисерка, сценаристка та кінопродюсерка"@uk ;
+    schema:version 1431790265 ;
+    wikibase:identifiers 41 ;
+    wikibase:sitelinks 30 ;
+    wikibase:statements 66 ;
+    wikibase:timestamp "2021-05-30T18:34:37+00:00"^^xsd:dateTime ;
+    skos:altLabel "Patricia Jenkins"@cs,
+        "Patricia Jenkinsová"@cs,
+        "Patricia Lea Jenkins"@cs,
+        "Patty Jenkinsová"@cs,
+        "Patricia Lea Jenkins"@de,
+        "Patricia Lea \"Patty\" Jenkins"@en,
+        "Patricia Lea Jenkins"@fi,
+        "패티 젠킨스"@ko,
+        "페티 젠킨스"@ko,
+        "Пэтти Дженкинс"@ru,
+        "แพทริเซีย ลี \"แพตตี้\" เจนกินส์"@th ;
+    p:P1006 wds:Q456910-07F52860-453C-47B2-A7B2-C9F003809727 ;
+    p:P106 wds:Q456910-34340780-0D63-42B1-A0AA-7888CC58B7D9,
+        wds:Q456910-8F7DCFD5-1C66-4DB8-A9D0-2AEBFBEE21FB,
+        wds:Q456910-BAE0FA3D-3844-445D-9E18-01575045642A,
+        wds:Q456910-FB822AA6-8621-4676-8523-B745C8FE93AF ;
+    p:P1207 wds:Q456910-CC349EBA-DB89-4DE3-AD66-8C17B2F76893 ;
+    p:P1266 wds:Q456910-3c791874-4d76-3982-7f03-ba5f1eb48334 ;
+    p:P1280 wds:Q456910-4FC3DAB7-59F7-478B-ACA9-72EBA99C0EDB ;
+    p:P1284 wds:Q456910-CC029412-2A7F-4BA0-9204-BD234227C1B5 ;
+    p:P1412 wds:Q456910-5994459E-6DA5-417F-81F8-91352B9691E7 ;
+    p:P1559 wds:Q456910-205ca2ca-41c3-0cf2-d9a9-5ed47341104f ;
+    p:P166 wds:Q456910-409D7692-D294-41D0-8282-25F7926AEC3B ;
+    p:P18 wds:Q456910-2E2D4A10-C0A5-41D6-95FD-B97A2E9BD722,
+        wds:Q456910-79614e29-4474-57bf-bceb-4deb21b175f9 ;
+    p:P19 wds:Q456910-1EB7C705-2DEB-4DDA-82B4-82142F9202EB ;
+    p:P1969 wds:Q456910-0c6af466-4082-1bf4-bb18-4a3db0fcba27 ;
+    p:P2002 wds:Q456910-096F5093-14DC-4B46-A5EC-027A5AE99320 ;
+    p:P2019 wds:Q456910-fbad8939-4ec2-4ed3-cd44-9b5c52c0724b ;
+    p:P2031 wds:Q456910-0b7363a6-4f3f-08af-45bb-88a054412b27,
+        wds:Q456910-6C896A17-479B-4785-9238-1190E59EB633 ;
+    p:P21 wds:q456910-A36C45F9-B4CB-4274-8C3F-694159106986 ;
+    p:P213 wds:Q456910-44CEFEDC-3E1A-4CF9-88FB-78B89A9A2A5E ;
+    p:P214 wds:q456910-48DB7387-B581-4CC2-9B9B-61D026C9ABCF ;
+    p:P2168 wds:Q456910-CEFADBE2-A201-449F-ACE4-A25505F2DC09 ;
+    p:P227 wds:q456910-F4E13D99-9FA5-437A-97EC-5A260F0A59B9 ;
+    p:P2387 wds:Q456910-7e613d92-4db9-a0da-a155-bfd0a254d9c0 ;
+    p:P2435 wds:Q456910-7ea90e59-418d-ea58-67c3-666bebfe13c7 ;
+    p:P244 wds:q456910-36513024-388D-488E-9F3A-24D4AC50EDA9 ;
+    p:P2519 wds:Q456910-8dd4f01d-4271-2a2f-974d-c073e857b7bd ;
+    p:P26 wds:Q456910-64c810a2-4052-5091-cbea-00fed90077b9 ;
+    p:P2600 wds:Q456910-be975fb8-439c-1827-0b70-778616ddbdb2 ;
+    p:P2604 wds:Q456910-2b5a6806-47a6-5b58-356d-89a02ca26753 ;
+    p:P2605 wds:Q456910-7BF39E4F-3420-46EB-8F72-31CA83EB2A6B ;
+    p:P2626 wds:Q456910-b69f9b9b-478d-009f-c65b-7f52821da910 ;
+    p:P2638 wds:Q456910-46213CF0-7CDF-4BBD-9F8C-0D82F223329F ;
+    p:P2639 wds:Q456910-DD96BD9B-17B8-4C6C-9057-99E5860B1E9A ;
+    p:P268 wds:Q456910-3A011010-2122-46AD-9F9E-2219DBF9EF0B ;
+    p:P2688 wds:Q456910-38C5F1E3-0700-46D3-A1B2-815AB745E365 ;
+    p:P269 wds:Q456910-F0506081-BBFB-40B4-9849-93436D657EAB ;
+    p:P27 wds:q456910-7E47F65C-C785-4D52-A4FF-105F204C2F69 ;
+    p:P31 wds:Q456910-CAD82243-620C-47C0-AA94-9F02D4F9DC31 ;
+    p:P3305 wds:Q456910-FF0B2EE7-4E71-4C4B-ACC2-BFEF2EBDDC3D ;
+    p:P345 wds:q456910-ECA3D36E-BA42-47DD-B847-F5C2E7AD76EB ;
+    p:P373 wds:Q456910-d484ba9c-40df-9c64-dc01-657bbaaa41db ;
+    p:P4985 wds:Q456910-C694A381-4DA8-417A-B108-B2FC310D33D5 ;
+    p:P5033 wds:Q456910-95B78235-2507-4E7E-9B4C-5BD3B2797839 ;
+    p:P5034 wds:Q456910-35a3fe87-4982-4924-9360-fe340a11bc30 ;
+    p:P5534 wds:Q456910-BC773B2F-A30F-485F-BFE4-446F511E850B ;
+    p:P569 wds:Q456910-846BDB74-EF64-4835-B84F-FF6F89983A26 ;
+    p:P5905 wds:Q456910-6a085189-4c7b-80a1-6516-7a26b754b232 ;
+    p:P6262 wds:Q456910-39549162-C482-4DDA-B62C-734BA1374CAE ;
+    p:P646 wds:Q456910-3856D897-8AEE-4233-A502-67F4305C36D2 ;
+    p:P69 wds:Q456910-069D7728-F2B7-4F16-A6F2-FB4DDB29AA61,
+        wds:Q456910-BED86A0A-DF3D-48B6-A0F6-6EE25C1714E1 ;
+    p:P691 wds:Q456910-99539685-A350-42B0-9121-48E52596A800 ;
+    p:P7084 wds:Q456910-6F8B8052-59EB-4078-B9E9-7854FED5F009 ;
+    p:P7214 wds:Q456910-0E76B1F1-A6FC-4F63-80B0-086E11E17D2E ;
+    p:P7293 wds:Q456910-801F6CA8-30F3-4EE7-98AE-D58C20458371 ;
+    p:P734 wds:Q456910-7B4E6DC4-5510-42D6-8CF1-84AFFA707C80 ;
+    p:P735 wds:Q456910-0CCD8847-AC2F-4B35-A90D-71A375008673 ;
+    p:P7859 wds:Q456910-D644A72A-584C-4D23-9F2E-E76E61E0B3D9 ;
+    p:P7902 wds:Q456910-92E50A65-9141-4B56-AFA6-1A02B1FC8F9B ;
+    p:P8672 wds:Q456910-3487CA9F-714F-4E55-ABA8-EC3E81076243 ;
+    p:P8687 wds:Q456910-2a7d32cc-39fb-4153-9f98-ec53a5f73bb2,
+        wds:Q456910-d76b719b-6b5b-4769-a348-d71f5aff27a4 ;
+    p:P950 wds:Q456910-82DE99FC-56C3-4CF3-AE3A-D672B6F93301 ;
+    wdtn:P1006 <http://data.bibliotheken.nl/id/thes/p266786804> ;
+    wdtn:P214 <http://viaf.org/viaf/120324862> ;
+    wdtn:P227 <https://d-nb.info/gnd/141076747> ;
+    wdtn:P244 <https://id.loc.gov/authorities/names/no2004065349> ;
+    wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14627158f#about> ;
+    wdtn:P269 <http://www.idref.fr/11138477X/id> ;
+    wdtn:P5034 <http://lod.nl.go.kr/resource/KAC201514186> ;
+    wdtn:P646 <http://g.co/kg/m/06xcrj> ;
+    wdtn:P950 <http://datos.bne.es/resource/XX5194017> ;
+    wdt:P1006 "266786804"^^xsd:string ;
+    wdt:P106 wd:Q2059704,
+        wd:Q2526255,
+        wd:Q28389,
+        wd:Q36180 ;
+    wdt:P1207 "n2011066747"^^xsd:string ;
+    wdt:P1266 "83249"^^xsd:string ;
+    wdt:P1280 "69701731"^^xsd:string ;
+    wdt:P1284 "00000031101"^^xsd:string ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1559 "Patty Jenkins"@en ;
+    wdt:P166 wd:Q1111310 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Patty%20Jenkins%20at%20the%202018%20Comic-Con%20International.jpg> ;
+    wdt:P19 wd:Q495353 ;
+    wdt:P1969 "9890"^^xsd:string ;
+    wdt:P2002 "PattyJenks"^^xsd:string ;
+    wdt:P2019 "p365134"^^xsd:string ;
+    wdt:P2031 "1995-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P213 "0000 0003 6999 4456"^^xsd:string ;
+    wdt:P214 "120324862"^^xsd:string ;
+    wdt:P2168 "322357"^^xsd:string ;
+    wdt:P227 "141076747"^^xsd:string ;
+    wdt:P2387 "1224188"^^xsd:string ;
+    wdt:P2435 "196206"^^xsd:string ;
+    wdt:P244 "no2004065349"^^xsd:string ;
+    wdt:P2519 "23879"^^xsd:string ;
+    wdt:P26 wd:Q30238591 ;
+    wdt:P2600 "6000000060141497976"^^xsd:string ;
+    wdt:P2604 "224580"^^xsd:string ;
+    wdt:P2605 "12736"^^xsd:string ;
+    wdt:P2626 "155726"^^xsd:string ;
+    wdt:P2638 "people/patty-jenkins"^^xsd:string ;
+    wdt:P2639 "efd70336689b40ecbb5944c4a4f3e199"^^xsd:string ;
+    wdt:P268 "14627158f"^^xsd:string ;
+    wdt:P2688 "pattyjenkins"^^xsd:string ;
+    wdt:P269 "11138477X"^^xsd:string ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3305 "193449"^^xsd:string ;
+    wdt:P345 "nm0420941"^^xsd:string ;
+    wdt:P373 "Patty Jenkins"^^xsd:string ;
+    wdt:P4985 "6884"^^xsd:string ;
+    wdt:P5033 "138472"^^xsd:string ;
+    wdt:P5034 "KAC201514186"^^xsd:string ;
+    wdt:P5534 "6884"^^xsd:string ;
+    wdt:P569 "1971-07-24T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P5905 "4040-111342"^^xsd:string ;
+    wdt:P6262 "es.mujeres:Patty_Jenkins"^^xsd:string ;
+    wdt:P646 "/m/06xcrj"^^xsd:string ;
+    wdt:P69 wd:Q130981,
+        wd:Q4651503 ;
+    wdt:P691 "xx0174329"^^xsd:string ;
+    wdt:P7084 wd:Q8456085 ;
+    wdt:P7214 "734357"^^xsd:string ;
+    wdt:P7293 "9810617065605606"^^xsd:string ;
+    wdt:P734 wd:Q170455 ;
+    wdt:P735 wd:Q3897971 ;
+    wdt:P7859 "lccn-no2004065349"^^xsd:string ;
+    wdt:P7902 "141076747"^^xsd:string ;
+    wdt:P8672 "972174052868603904"^^xsd:string ;
+    wdt:P8687 260385.0 ;
+    wdt:P950 "XX5194017"^^xsd:string .
+
+wd:Q55739813 rdfs:label "David Walsh"@aa,
+        "David Walsh"@ace,
+        "David Walsh"@af,
+        "David Walsh"@ak,
+        "David Walsh"@aln,
+        "David Walsh"@an,
+        "David Walsh"@ang,
+        "David Walsh"@arn,
+        "David Walsh"@ast,
+        "David Walsh"@ay,
+        "David Walsh"@az,
+        "David Walsh"@bar,
+        "David Walsh"@bcl,
+        "David Walsh"@bi,
+        "David Walsh"@bjn,
+        "David Walsh"@bm,
+        "David Walsh"@br,
+        "David Walsh"@brh,
+        "David Walsh"@bs,
+        "David Walsh"@ca,
+        "David Walsh"@cbk-zam,
+        "David Walsh"@cdo,
+        "David Walsh"@ceb,
+        "David Walsh"@ch,
+        "David Walsh"@cho,
+        "David Walsh"@chr,
+        "David Walsh"@chy,
+        "David Walsh"@co,
+        "David Walsh"@cr,
+        "David Walsh"@crh-latn,
+        "David Walsh"@cs,
+        "David Walsh"@csb,
+        "David Walsh"@cu,
+        "David Walsh"@cy,
+        "David Walsh"@da,
+        "David Walsh"@de,
+        "David Walsh"@de-at,
+        "David Walsh"@de-ch,
+        "David Walsh"@diq,
+        "David Walsh"@dsb,
+        "David Walsh"@dtp,
+        "David Walsh"@ee,
+        "David Walsh"@eml,
+        "David Walsh"@en,
+        "David Walsh"@en-ca,
+        "David Walsh"@en-gb,
+        "David Walsh"@eo,
+        "David Walsh"@es,
+        "David Walsh"@et,
+        "David Walsh"@eu,
+        "David Walsh"@ext,
+        "David Walsh"@ff,
+        "David Walsh"@fi,
+        "David Walsh"@fit,
+        "David Walsh"@fj,
+        "David Walsh"@fo,
+        "David Walsh"@fr,
+        "David Walsh"@frp,
+        "David Walsh"@frr,
+        "David Walsh"@fur,
+        "David Walsh"@fy,
+        "David Walsh"@ga,
+        "David Walsh"@gag,
+        "David Walsh"@gd,
+        "David Walsh"@gl,
+        "David Walsh"@gn,
+        "David Walsh"@got,
+        "David Walsh"@gsw,
+        "David Walsh"@gv,
+        "David Walsh"@ha,
+        "David Walsh"@hak,
+        "David Walsh"@haw,
+        "David Walsh"@hif,
+        "David Walsh"@hif-latn,
+        "David Walsh"@ho,
+        "David Walsh"@hr,
+        "David Walsh"@hsb,
+        "David Walsh"@ht,
+        "David Walsh"@hu,
+        "David Walsh"@hz,
+        "David Walsh"@ia,
+        "David Walsh"@id,
+        "David Walsh"@ie,
+        "David Walsh"@ig,
+        "David Walsh"@ik,
+        "David Walsh"@ike-latn,
+        "David Walsh"@ilo,
+        "David Walsh"@io,
+        "David Walsh"@is,
+        "David Walsh"@it,
+        "David Walsh"@iu,
+        "David Walsh"@jam,
+        "David Walsh"@jbo,
+        "David Walsh"@jv,
+        "David Walsh"@kaa,
+        "David Walsh"@kab,
+        "David Walsh"@kg,
+        "David Walsh"@ki,
+        "David Walsh"@kj,
+        "David Walsh"@kk-latn,
+        "David Walsh"@kk-tr,
+        "David Walsh"@kl,
+        "David Walsh"@kr,
+        "David Walsh"@krj,
+        "David Walsh"@ksh,
+        "David Walsh"@ku,
+        "David Walsh"@ku-latn,
+        "David Walsh"@kw,
+        "David Walsh"@la,
+        "David Walsh"@lad,
+        "David Walsh"@lb,
+        "David Walsh"@lfn,
+        "David Walsh"@lg,
+        "David Walsh"@li,
+        "David Walsh"@lij,
+        "David Walsh"@lmo,
+        "David Walsh"@ln,
+        "David Walsh"@lo,
+        "David Walsh"@loz,
+        "David Walsh"@lt,
+        "David Walsh"@ltg,
+        "David Walsh"@lus,
+        "David Walsh"@luz,
+        "David Walsh"@lv,
+        "David Walsh"@lzz,
+        "David Walsh"@map-bms,
+        "David Walsh"@mg,
+        "David Walsh"@mh,
+        "David Walsh"@mi,
+        "David Walsh"@min,
+        "David Walsh"@mo,
+        "David Walsh"@ms,
+        "David Walsh"@mt,
+        "David Walsh"@mus,
+        "David Walsh"@mwl,
+        "David Walsh"@my,
+        "David Walsh"@na,
+        "David Walsh"@nah,
+        "David Walsh"@nap,
+        "David Walsh"@nb,
+        "David Walsh"@nds,
+        "David Walsh"@nds-nl,
+        "David Walsh"@ng,
+        "David Walsh"@nl,
+        "David Walsh"@nn,
+        "David Walsh"@nov,
+        "David Walsh"@nrm,
+        "David Walsh"@nso,
+        "David Walsh"@nv,
+        "David Walsh"@ny,
+        "David Walsh"@oc,
+        "David Walsh"@om,
+        "David Walsh"@pag,
+        "David Walsh"@pam,
+        "David Walsh"@pap,
+        "David Walsh"@pcd,
+        "David Walsh"@pdc,
+        "David Walsh"@pdt,
+        "David Walsh"@pfl,
+        "David Walsh"@pih,
+        "David Walsh"@pl,
+        "David Walsh"@pms,
+        "David Walsh"@prg,
+        "David Walsh"@pt,
+        "David Walsh"@pt-br,
+        "David Walsh"@qu,
+        "David Walsh"@qug,
+        "David Walsh"@rif,
+        "David Walsh"@rm,
+        "David Walsh"@rmy,
+        "David Walsh"@rn,
+        "David Walsh"@ro,
+        "David Walsh"@roa-tara,
+        "David Walsh"@rup,
+        "David Walsh"@ruq-latn,
+        "David Walsh"@rw,
+        "David Walsh"@sat,
+        "David Walsh"@sc,
+        "David Walsh"@scn,
+        "David Walsh"@sco,
+        "David Walsh"@sdc,
+        "David Walsh"@se,
+        "David Walsh"@sei,
+        "David Walsh"@sg,
+        "David Walsh"@sgs,
+        "David Walsh"@sh,
+        "David Walsh"@shi-latn,
+        "David Walsh"@sk,
+        "David Walsh"@sl,
+        "David Walsh"@sli,
+        "David Walsh"@sm,
+        "David Walsh"@sma,
+        "David Walsh"@sn,
+        "David Walsh"@so,
+        "David Walsh"@sq,
+        "David Walsh"@sr-el,
+        "David Walsh"@srn,
+        "David Walsh"@ss,
+        "David Walsh"@st,
+        "David Walsh"@stq,
+        "David Walsh"@su,
+        "David Walsh"@sv,
+        "David Walsh"@sw,
+        "David Walsh"@szl,
+        "David Walsh"@tet,
+        "David Walsh"@tg-latn,
+        "David Walsh"@tk,
+        "David Walsh"@tl,
+        "David Walsh"@tn,
+        "David Walsh"@to,
+        "David Walsh"@tpi,
+        "David Walsh"@tr,
+        "David Walsh"@tru,
+        "David Walsh"@ts,
+        "David Walsh"@tt,
+        "David Walsh"@tt-latn,
+        "David Walsh"@tum,
+        "David Walsh"@tw,
+        "David Walsh"@ty,
+        "David Walsh"@ug-latn,
+        "David Walsh"@uz,
+        "David Walsh"@ve,
+        "David Walsh"@vec,
+        "David Walsh"@vep,
+        "David Walsh"@vi,
+        "David Walsh"@vls,
+        "David Walsh"@vmf,
+        "David Walsh"@vo,
+        "David Walsh"@vot,
+        "David Walsh"@wa,
+        "David Walsh"@war,
+        "David Walsh"@wo,
+        "David Walsh"@xh,
+        "David Walsh"@yo,
+        "David Walsh"@za,
+        "David Walsh"@zea,
+        "David Walsh"@zu ;
+    schema:dateModified "2021-04-05T13:15:48+00:00"^^xsd:dateTime ;
+    schema:description "xugador de bádminton irlandés"@ast,
+        "ব্যাডমিন্টন খেলোয়াড়"@bn,
+        "jugador de bàdminton irlandès"@ca,
+        "irischer Badmintonspieler"@de,
+        "badminton player"@en,
+        "badmintonista irlandés"@es,
+        "badminton jokalari irlandarra"@eu,
+        "joueur de badminton irlandais"@fr,
+        "imreoir badmantain"@ga,
+        "badmintonista irlandés"@gl,
+        "giocatore di badminton irlandese"@it,
+        "badmintonner uit Ierland"@nl,
+        "jogador de badminton irlandês"@pt ;
+    schema:version 1396338971 ;
+    wikibase:identifiers 2 ;
+    wikibase:sitelinks 0 ;
+    wikibase:statements 12 ;
+    wikibase:timestamp "2021-04-12T10:53:34+00:00"^^xsd:dateTime ;
+    p:P106 wds:Q55739813-D7FA74EC-530B-460F-ACD0-B3B7EC957634 ;
+    p:P1532 wds:Q55739813-D8CC01C4-B9CA-42C7-8EDB-CEE211D49D88 ;
+    p:P1559 wds:Q55739813-E584787C-83D3-48A1-8C74-C433BDA18BBB ;
+    p:P21 wds:Q55739813-585a875f-46ea-a301-2325-08e4690e7041 ;
+    p:P27 wds:Q55739813-87445f69-4923-f315-c24d-124f1a0cae57 ;
+    p:P2729 wds:Q55739813-bf0be962-42b2-c922-a7b4-9f7828ef2f71 ;
+    p:P31 wds:Q55739813-FD4C7DFF-E13C-414F-8A42-D7BDFF601401 ;
+    p:P3620 wds:Q55739813-5e5be95b-4530-e0cd-88a8-5914d9abc339 ;
+    p:P569 wds:Q55739813-812d0aec-4564-1f31-ff98-8530597eac14 ;
+    p:P641 wds:Q55739813-6A3FD1D9-3F12-45E5-BE35-122FD5A8E17D ;
+    p:P734 wds:Q55739813-F57C9A86-560E-47EC-805F-FF195A4075D4 ;
+    p:P735 wds:Q55739813-86172bbd-44aa-66e7-1ebf-e1c68e3eb5d0 ;
+    wdt:P106 wd:Q13141064 ;
+    wdt:P1532 wd:Q27 ;
+    wdt:P1559 "David Walsh"@en ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q27 ;
+    wdt:P2729 "E3C12BA3-0226-4991-9162-958AB92D5CE9"^^xsd:string ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3620 "93747"^^xsd:string ;
+    wdt:P569 "1994-05-23T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q7291 ;
+    wdt:P734 wd:Q7963813 ;
+    wdt:P735 wd:Q18057751 .
+
+wd:Q6247633 rdfs:label "جون مكدونالد (سياسي أمريكي، مواليد 1930)"@ar,
+        "John McDonald"@ast,
+        "John McDonald"@ca,
+        "John McDonald (Ohio politician)"@cs,
+        "John McDonald (Ohio politician)"@da,
+        "John McDonald"@de,
+        "John McDonald"@en,
+        "John McDonald"@es,
+        "John McDonald (Ohio politician)"@fi,
+        "John McDonald"@fr,
+        "John McDonald"@hu,
+        "John McDonald"@it,
+        "John McDonald (Ohio politician)"@nb,
+        "John McDonald (Ohio politician)"@nl,
+        "John McDonald (Ohio politician)"@pap,
+        "John McDonald (Ohio politician)"@pl,
+        "John McDonald (Ohio politician)"@pt,
+        "John McDonald"@sl,
+        "John McDonald (Ohio politician)"@sv ;
+    schema:dateModified "2021-04-20T03:28:34+00:00"^^xsd:dateTime ;
+    schema:description "سياسي من الولايات المتحدة الأمريكية"@ar,
+        "políticu estauxunidense"@ast,
+        "polític estatunidenc (1930-)"@ca,
+        "amerikansk politiker"@da,
+        "amerikanischer Politiker (20. Jahrhundert)"@de,
+        "Democratic politician who formerly served in the Ohio General Assembly"@en,
+        "político estadounidense (1930-)"@es,
+        "politikari estatubatuarra (1930-)"@eu,
+        "سیاستمدار آمریکایی"@fa,
+        "politicien américain (20ème siècle)"@fr,
+        "político estadounidense (1930-)"@gl,
+        "politico statunitense (1930-)"@it,
+        "amerikansk politiker"@nb,
+        "Amerikaans politicus"@nl,
+        "amerikansk politikar"@nn,
+        "politiko merikano"@pap,
+        "político norte-americano (1930-)"@pt,
+        "amerikansk politiker"@sv ;
+    schema:version 1404931329 ;
+    wikibase:identifiers 1 ;
+    wikibase:sitelinks 2 ;
+    wikibase:statements 13 ;
+    wikibase:timestamp "2021-04-20T03:28:36+00:00"^^xsd:dateTime ;
+    p:P102 wds:Q6247633-0E6DB2F1-E4BE-4292-9B26-958A23994FF6 ;
+    p:P106 wds:q6247633-F70437F7-BC7A-4FA4-8AFE-8A92747A5755 ;
+    p:P1412 wds:Q6247633-B2705ACE-BC15-4AF1-84AC-0647F4FF6EE1 ;
+    p:P1559 wds:Q6247633-FF198386-35E7-4220-9719-0C774A827B4C ;
+    p:P21 wds:q6247633-5A468432-9ED0-4973-A9F0-57A409879DD9 ;
+    p:P27 wds:Q6247633-1200DE51-5743-49B0-998D-6469A2A42609 ;
+    p:P31 wds:Q6247633-C2E39D24-0EEF-49E2-99DD-51FED118BA4A ;
+    p:P39 wds:Q6247633-6263BBC6-72F1-4353-B7DA-FD64CD946822 ;
+    p:P569 wds:Q6247633-25EEE797-6C81-46C5-8AEB-3FA1B0C406F8 ;
+    p:P646 wds:Q6247633-A2A187C2-CB92-4BFF-B5E3-0ABD9052F7D4 ;
+    p:P734 wds:Q6247633-22760BC1-7B16-4BC1-A7A3-B3BD9D9D2C09 ;
+    p:P735 wds:Q6247633-C8233169-A1B0-41C3-837E-B57DE5CDAF11 ;
+    p:P937 wds:Q6247633-F6B049AF-2433-4001-B527-D34F71E252EB ;
+    wdtn:P646 <http://g.co/kg/m/0c429w4> ;
+    wdt:P102 wd:Q29552 ;
+    wdt:P106 wd:Q82955 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1559 "John McDonald"@en ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q17502533 ;
+    wdt:P569 "1930-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P646 "/m/0c429w4"^^xsd:string ;
+    wdt:P734 wd:Q20827080 ;
+    wdt:P735 wd:Q4925477 ;
+    wdt:P937 wd:Q16567 .
+
+wd:Q6247652 rdfs:label "جون مكدونالد هينديرسون"@arz,
+        "John McDonald Henderson"@ast,
+        "John McDonald Henderson"@ca,
+        "John McDonald Henderson"@da,
+        "John McDonald Henderson"@de,
+        "John McDonald Henderson"@en,
+        "John McDonald Henderson"@es,
+        "John McDonald Henderson"@fr,
+        "John McDonald Henderson"@hu,
+        "John McDonald Henderson"@nb,
+        "John McDonald Henderson"@nl,
+        "John McDonald Henderson"@nn,
+        "John McDonald Henderson"@sl,
+        "John McDonald Henderson"@sv ;
+    schema:dateModified "2020-12-01T09:57:00+00:00"^^xsd:dateTime ;
+    schema:description "سياسي بريطاني"@ar,
+        "ব্রিটিশ রাজনীতিবিদ"@bn,
+        "polític britànic"@ca,
+        "britischer Politiker"@de,
+        "British politician"@en,
+        "British politician"@en-ca,
+        "British politician"@en-gb,
+        "político británico"@es,
+        "Suurbritannia poliitik"@et,
+        "brittiläinen poliitikko"@fi,
+        "personnalité politique britannique"@fr,
+        "político británico"@gl,
+        "פוליטיקאי בריטי"@he,
+        "Brits barrister (-1922)"@nl,
+        "politician britanic"@ro,
+        "politikan britanik"@sq,
+        "британський політик"@uk ;
+    schema:version 1316206449 ;
+    wikibase:identifiers 4 ;
+    wikibase:sitelinks 2 ;
+    wikibase:statements 24 ;
+    skos:altLabel "John Henderson"@en ;
+    p:P102 wds:Q6247652-87D6A454-8570-466C-8E73-46A3A8F604B5 ;
+    p:P106 wds:Q6247652-5D6E9625-81AB-4031-9035-79307190F182,
+        wds:Q6247652-982CAEAF-1539-4C7B-B430-F4669C924C00 ;
+    p:P1412 wds:Q6247652-1E7FD2D7-7BB4-4DE5-B01B-49BCAAA9F4F5 ;
+    p:P1559 wds:Q6247652-8C4986CF-09FA-4485-B3B5-1DE169D33DE6 ;
+    p:P2015 wds:Q6247652-7C7B44AA-BFC8-463F-95B4-5A2DAA916E60 ;
+    p:P21 wds:Q6247652-1BA46CD4-1052-4CF9-8616-251761E9CFD1 ;
+    p:P27 wds:Q6247652-7439EB31-2420-4EB4-85DF-20734D02FDB3 ;
+    p:P31 wds:Q6247652-B7FBD80D-B530-4BBD-942F-CC5B7B65AE62 ;
+    p:P3602 wds:Q6247652-230DA6AE-CE00-4E23-B106-F4466FD2D787,
+        wds:Q6247652-B23D8626-B048-4361-A335-925131AC42E8,
+        wds:Q6247652-E4562FB0-3070-46E4-8FC4-562A6E9421FF ;
+    p:P39 wds:Q6247652-0AE533F3-DA80-430E-8A17-79E8D4E12384,
+        wds:Q6247652-651406A9-152B-48DA-AD72-0698B33D7602,
+        wds:Q6247652-D97B6FFD-3600-4BE4-96A4-6A3EC501E655 ;
+    p:P4471 wds:Q6247652-0E9B9C4A-0523-4A72-BE42-BA134CB49594 ;
+    p:P463 wds:Q6247652-DD5E7698-3E43-4E8D-8676-F728C8C0244B ;
+    p:P4789 wds:Q6247652-1f1ca764-4e64-5dc0-db10-8e89845797d9 ;
+    p:P569 wds:Q6247652-44537CD5-17F7-47C8-A797-2ABAA87555DC ;
+    p:P570 wds:Q6247652-CA8AAF3D-149E-40CF-892E-B97B0B1BA4C5 ;
+    p:P646 wds:Q6247652-B6C71D33-E4A1-4BD7-87AA-47C82596A925 ;
+    p:P69 wds:Q6247652-7EBCBCAF-63E1-453B-A8E4-D41D17A83921 ;
+    p:P735 wds:Q6247652-3AEB79A9-69C6-493E-B57B-3A81125D01F6 ;
+    p:P937 wds:Q6247652-E9D22BCE-6704-452A-8C6E-113D8122B432 ;
+    wdtn:P646 <http://g.co/kg/m/05f907c> ;
+    wdt:P102 wd:Q622441 ;
+    wdt:P106 wd:Q808967,
+        wd:Q82955 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1559 "John McDonald Henderson"@en ;
+    wdt:P2015 "mr-john-henderson-1"^^xsd:string ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q174193 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3602 wd:Q3075752,
+        wd:Q3076583,
+        wd:Q3076606 ;
+    wdt:P39 wd:Q41582577,
+        wd:Q41582579,
+        wd:Q41582581 ;
+    wdt:P4471 "7383"^^xsd:string ;
+    wdt:P463 wd:Q157412 ;
+    wdt:P4789 "U197757"^^xsd:string ;
+    wdt:P569 "1846-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P570 "1922-11-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P646 "/m/05f907c"^^xsd:string ;
+    wdt:P69 wd:Q270532 ;
+    wdt:P735 wd:Q4925477 ;
+    wdt:P937 wd:Q84 .
+
+wd:Q7422880 rdfs:label "ساراه وارد"@arz,
+        "Sarah Ward"@ast,
+        "Sarah Ward"@ca,
+        "Sarah Ward (politician)"@cs,
+        "Sarah Ward"@da,
+        "Sarah Ward"@de,
+        "Sarah Ward"@en,
+        "Sarah Ward"@es,
+        "Sarah Ward"@fi,
+        "Sarah Ward"@fr,
+        "Sarah Ward"@hu,
+        "Sarah Ward"@it,
+        "Sarah Ward"@nb,
+        "Sarah Ward"@nl,
+        "Sarah Ward (politician)"@pl,
+        "Sarah Ward (politician)"@pt,
+        "Sarah Ward"@sl,
+        "Sarah Ward"@sv ;
+    schema:dateModified "2020-12-03T05:17:06+00:00"^^xsd:dateTime ;
+    schema:description "سياسية بريطانية"@ar,
+        "política británica (1895–1969)"@ast,
+        "ব্রিটিশ রাজনীতিবিদ"@bn,
+        "política britànica"@ca,
+        "britische Politikerin, Mitglied des House of Commons"@de,
+        "British politician (1895-1969)"@en,
+        "British politician"@en-ca,
+        "British politician"@en-gb,
+        "política británica"@es,
+        "Suurbritannia poliitik"@et,
+        "brittiläinen poliitikko"@fi,
+        "personnalité politique britannique"@fr,
+        "política británica"@gl,
+        "פוליטיקאית בריטית"@he,
+        "politica uit Verenigd Koninkrijk (1895-1969)"@nl,
+        "politiciană britanică"@ro,
+        "politikane britanike"@sq,
+        "британський політик"@uk ;
+    schema:version 1317088495 ;
+    wikibase:identifiers 4 ;
+    wikibase:sitelinks 2 ;
+    wikibase:statements 20 ;
+    p:P102 wds:q7422880-7171123A-29DB-44A9-A193-FA69E0849E6C ;
+    p:P106 wds:Q7422880-859F973C-424E-436D-A4A9-C4BAAE8A66E7 ;
+    p:P1412 wds:Q7422880-7097A20C-6DDB-4E33-8EFF-7C081C34E67E ;
+    p:P1415 wds:Q7422880-0687B460-B333-4C96-BA23-0544CF33C90C ;
+    p:P1559 wds:Q7422880-C1F03C2F-DACA-454C-A31B-0ABA7B36E499 ;
+    p:P166 wds:Q7422880-A1663B34-A794-4684-9F02-C8214FD9A08A ;
+    p:P2015 wds:Q7422880-20872618-BD1A-4473-8EE6-91AA4E6EC525 ;
+    p:P21 wds:Q7422880-6F111C39-09FB-48A8-BE93-EDA4C34E7ED2 ;
+    p:P27 wds:Q7422880-5B6A0259-39FE-494A-B6ED-FCD8CAB85776,
+        wds:Q7422880-64F4D735-F428-4EBD-BD99-E3D162CD7E82 ;
+    p:P31 wds:Q7422880-E76E6159-E4E6-4F00-AB70-6182D31DEEC2 ;
+    p:P3602 wds:Q7422880-3C3788B6-0119-4B55-AF05-F28DAEC62D83 ;
+    p:P39 wds:Q7422880-107722C2-BC04-4A47-ABF3-CE02632FA125 ;
+    p:P4471 wds:Q7422880-82380C76-9053-4ED2-AA5F-D4B742FB86CA ;
+    p:P569 wds:Q7422880-C0AEFE15-6838-47F7-9A1D-C21A4D6D24EA ;
+    p:P570 wds:Q7422880-FB035767-4B00-4890-A960-74C52CE51341 ;
+    p:P646 wds:Q7422880-8BD1F0EC-9790-4CB3-BEB3-5649F2A9AD02 ;
+    p:P734 wds:Q7422880-ADDB9ED1-98B5-4317-9A75-E5272971B885 ;
+    p:P735 wds:Q7422880-D3647B5C-AADA-4FDA-A14B-1AA27623BEEC ;
+    p:P937 wds:Q7422880-E0AE86A1-820B-4D1F-AD73-76A9B41FAF04 ;
+    wdtn:P646 <http://g.co/kg/m/02rbpkn> ;
+    wdt:P102 wd:Q9626 ;
+    wdt:P106 wd:Q82955 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1415 "70456"^^xsd:string ;
+    wdt:P1559 "Sarah Ward"@en ;
+    wdt:P166 wd:Q12201477 ;
+    wdt:P2015 "mrs-sarah-ward"^^xsd:string ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P27 wd:Q145,
+        wd:Q174193 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3602 wd:Q918375 ;
+    wdt:P39 wd:Q41582591 ;
+    wdt:P4471 "8240"^^xsd:string ;
+    wdt:P569 "1895-12-25T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P570 "1969-04-09T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P646 "/m/02rbpkn"^^xsd:string ;
+    wdt:P734 wd:Q2549042 ;
+    wdt:P735 wd:Q18201513 ;
+    wdt:P937 wd:Q84 .
+

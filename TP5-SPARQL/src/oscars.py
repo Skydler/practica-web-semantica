@@ -1,20 +1,24 @@
 import logging
 
 from SPARQLWrapper import SPARQLWrapper
+from rdflib import Graph
+
 from constants import (
-    TWSS_RESOURCES_URI, DBPEDIA_SPARQL_URL,
-    WIKIDATA_SPARQL_URL, MAX_ACTORS_PER_REQUEST,
-    NAMESPACES, OSCAR_WINNERS_CACHE_FILE,
+    DBPEDIA_SPARQL_URL,
+    MAX_ACTORS_PER_REQUEST,
+    NAMESPACES,
+    OSCAR_WINNERS_CACHE_FILE,
     OSCAR_WINNERS_FILE,
+    TWSS_RESOURCES_URI,
+    WIKIDATA_SPARQL_URL,
 )
 from db.repository import OwlMovieRepository
 from querys import (
-    DBPEDIA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER,
-    WIKIDATA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER,
-    TWSS_ACTORS_NAMES,
     COMBINE_REMOTE_AND_LOCAL_ACTORS,
+    DBPEDIA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER,
+    TWSS_ACTORS_NAMES,
+    WIKIDATA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER,
 )
-from rdflib import Graph
 
 
 def get_twss_resources_graph():
@@ -29,16 +33,16 @@ def get_oscar_winners_graph(twss_resources):
     if OSCAR_WINNERS_CACHE_FILE.exists():
         logging.info("Reading Oscar winners from cache")
 
-        oscar_winners_graph = OwlMovieRepository.read(
-            source=OSCAR_WINNERS_CACHE_FILE
-        )
+        oscar_winners_graph = OwlMovieRepository.read(source=OSCAR_WINNERS_CACHE_FILE)
     else:
         logging.info("Reading Oscar winners from web")
 
         oscar_winners_graph = build_oscar_winners_graph(twss_resources)
 
-        logging.info(f"Writing the cache file of Oscar winners "
-                     f"in {OSCAR_WINNERS_CACHE_FILE}.")
+        logging.info(
+            f"Writing the cache file of Oscar winners "
+            f"in {OSCAR_WINNERS_CACHE_FILE}."
+        )
 
         OwlMovieRepository.write(
             path_file=OSCAR_WINNERS_CACHE_FILE,
@@ -62,7 +66,8 @@ def build_oscar_winners_graph(twss_resources):
             source=DBPEDIA_SPARQL_URL,
             query=DBPEDIA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER.format(
                 actors_regex=actors_regex
-            ))
+            ),
+        )
 
         logging.info(f"DBpedia results: {len(dbpedia_results)}")
 
@@ -72,7 +77,8 @@ def build_oscar_winners_graph(twss_resources):
             source=WIKIDATA_SPARQL_URL,
             query=WIKIDATA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER.format(
                 actors_regex=actors_regex
-            ))
+            ),
+        )
 
         logging.info(f"Wikidata results: {len(wikidata_results)}")
 
@@ -85,7 +91,9 @@ def chunks(items, chunk_size):
     total_chunks = range(0, len(items), chunk_size)
 
     for chunk_number in total_chunks:
-        yield items[chunk_number:chunk_number + chunk_size]
+        start = chunk_number
+        end = chunk_number + chunk_size
+        yield items[start:end]
 
 
 def get_actors_names(twss_graph):
@@ -123,11 +131,9 @@ def main():
     logging.info(f"Done! Writing graph in {OSCAR_WINNERS_FILE}")
 
     OwlMovieRepository.write(
-        path_file=OSCAR_WINNERS_FILE,
-        graph=result.graph,
-        namespaces=NAMESPACES
+        path_file=OSCAR_WINNERS_FILE, graph=result.graph, namespaces=NAMESPACES
     )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
