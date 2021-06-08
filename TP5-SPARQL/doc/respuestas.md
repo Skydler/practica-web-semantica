@@ -13,35 +13,39 @@ Dbpedia es un proyecto que se encarga de extraer la información disponible en W
 
 2. **¿De donde sale la información disponible en dbpedia?**
 
-La información es extraida de Wikipedia. El proyecto DBpedia se enfoca en construir una base de conocimiento de gran escala, orientada a multiples lenguajes. Esto lo logra obteniendo la información de artículos los cuales llegan a tener ediciones en hasta 111 lenguajes.
+La información es extraída de Wikipedia. El proyecto DBpedia se enfoca en construir una base de conocimiento de gran escala, orientada a múltiples lenguajes. Esto lo logra obteniendo la información de artículos los cuales llegan a tener ediciones en hasta 111 lenguajes.
 
 3. **¿Que partes de los artículos de Wikipedia se transforman en tripletas?**
 
-La mayor parte de los artículos de Wikipedia es compuesta por texto simple, sin embargo existe información que está representada con otros mecanísmos. Algunos de estos son fichas de información, categorías, imagenes, coordenadas geográficas, links a páginas externas, links de desambiguación, redirecciones y links a ediciones de Wikipedia en diferentes lenguajes.
-Para realizar la extracción de toda esta información DBpedia posee un framework con varias etapas de extracción. Primero se obtienen las páginas de Wikipedia, luego se realiza un parseo de la información generando un Abstract Syntax Tree (AST) con los diferentes componentes de la página, a continuación se pasa el AST por varios mecanísmos de extracción especificos para los diferentes componentes de los artículos. Por último la información extraida se almacena en forma de tripletas en diferentes formatos para su posterior explotación semántica.
+La mayor parte de los artículos de Wikipedia es compuesta por texto simple, sin embargo existe información que está representada con otros mecanismos. Algunos de estos son fichas de información, categorías, imágenes, coordenadas geográficas, links a páginas externas, links de desambiguación, redirecciones y links a ediciones de Wikipedia en diferentes lenguajes.
+Para realizar la extracción de toda esta información DBpedia posee un framework con varias etapas de extracción. Primero se obtienen las páginas de Wikipedia, luego se realiza un parseo de la información generando un Abstract Syntax Tree (AST) con los diferentes componentes de la página, a continuación se pasa el AST por varios mecanismos de extracción específicos para los diferentes componentes de los artículos. Por último la información extraída se almacena en forma de tripletas en diferentes formatos para su posterior explotación semántica.
 
-4. **¿Cual es el esquema de URIs que utiliza dbpedia?**
+4. **¿Cual es el esquema de URIs que utiliza Dbpedia?**
 
 Por cada artículo en Wikipedia se introducen varias URIs para representar los conceptos que aparecen en la página. Hasta 2011, DBpedia publicó las URIs bajo el dominio http://dbpedia.org. Los principales subdominios eran:
 
 - http://dbpedia.org/resource/ : Con el prefijo **dbr** para representar los datos de los artículos.
-- http://dbpedia.org/property/ : Con el prefijo **dbp** para representar las propiedades extraidas sin modificaciones de la *infobox* o ficha de información principal de la página.
+- http://dbpedia.org/property/ : Con el prefijo **dbp** para representar las propiedades extraídas sin modificaciones de la *infobox* o ficha de información principal de la página.
 - http://dbpedia.org/ontology/ : Con el prefijo **dbo** para representar la ontología de DBpedia
 
 De esta forma, en caso de haber información adicional de un recurso en ediciones cuyo idioma fuera diferente al Inglés, solo se agregaría al recurso en cuestión en caso de existir una versión en Inglés linkeada a la correspondiente información adicional.
 
 A partir de la versión 3.7 de DBpedia, se decidió que esta forma de procesar los datos omitía mucha información importante y se optó por generar dos tipos de datasets diferentes.
 
-- *Localized data sets*: Contienen todas las cosas que están descriptas en un lenguaje determinado. Estos recursos pasarían en alojarse en URIs del tipo http://\<lang\>.dbpedia.org/resource/ y sus propiedades en http://\<lang\>.dbpedia.org/property/
+- *Localized data sets*: Contienen todas las cosas que están descritas en un lenguaje determinado. Estos recursos pasarían en alojarse en URIs del tipo http://\<lang\>.dbpedia.org/resource/ y sus propiedades en http://\<lang\>.dbpedia.org/property/
 - *Canonicalized data sets*: Contienen toda la información representada por las versiones en inglés de los artículos de Wikipedia. Estos recursos se identifican de la misma manera que en las versiones previas (http://dbpedia.org/resource/)
 
 
 5. **¿Dado el articulo en Wikipedia de "National University of La Plata", como infiero la URL del recurso correspondiente en dbpedia? ¿Cuál sería para Argentina? ¿Y para Uruguay? (exprese su respuesta aprovechando el prefijo dbr:  para referirse a http://dbpedia.org/resource/)**
 
 Es posible inferir su correspondiente recurso en DBpedia dado el título del artículo. Esto es así dado que existe un mapeo uno a uno entre las páginas de Wikipedia y los recursos de DBpedia basados en el título.
-De esta forma si el artículo correspondiente con la Universidad Nacional de La Plata en Wikipedia está representado por https://en.wikipedia.org/wiki/National_University_of_La_Plata en DBpedia estará representado por dbr:National_University_of_La_Plata
+De esta forma, si el artículo correspondiente con la Universidad Nacional de La Plata en Wikipedia está representado por https://en.wikipedia.org/wiki/National_University_of_La_Plata en DBpedia estará representado por dbr:National_University_of_La_Plata.
 
-6. **¿cuál es la diferencia entre las propiedades definidas en dbo: y las propiedades definidas en dbp:?**
+Para https://es.wikipedia.org/wiki/Argentina sería dbr:Argentina.
+
+Para https://es.wikipedia.org/wiki/Uruguay sería dbr:Uruguay.
+
+6. **¿Cuál es la diferencia entre las propiedades definidas en dbo: y las propiedades definidas en dbp:?**
 
 Una de las partes fundamentales de los artículos en Wikipedia son las fichas informativas que aparecen al principio del artículo en la esquina superior derecha (para los idiomas que se leen de izquierda a derecha). En estas fichas se resumen los datos más importantes del artículo o del concepto en cuestión.
 
@@ -52,7 +56,7 @@ En el primer caso se habla de atributos que poseen el prefijo dbp: y en el segun
 
 7.  **¿Cuantas clases y cuantas propiedades tiene la ontología de dbpedia de acuerdo a lo reportado en el artículo?**
 
-La ontología de DBpedia consiste de 320 clases las cuales incorporan una jerarquía descripta por 1.650 propiedades diferentes.
+La ontología de DBpedia consiste de 320 clases las cuales incorporan una jerarquía descrita por 1.650 propiedades diferentes.
 
 8. **¿En que URL puedo ver el listado completo de Clases en la ontología de dbpedia?**
 
@@ -119,7 +123,7 @@ Incluso si pedimos las cabeceras, nos indica que la extensión alternativa del r
 
 <img src="img/curl-4.png" alt="image-20210601121101834" style="zoom:67%;" />
 
-Ya vimos que dbpedia puede devolver un archivo turtle o un archivo HTML haciendo content-negotation en una misma URI. En cambio w3 necesita una URI en particular para cada recurso, y en particular, en los resultados sparql aparece solo la URI que lleva al archivo turtle. Por lo tanto, ahora la pregunta es ¿Por qué se necesita que se devuelvan archivos turtle en los resultados de SPARQL? Esto basicamente es para implementar el mecanismo "Follow your nose", el cuál consiste en acceder a cada URI y extraer información hasta cierta profundidad para responder querys que la requieran, de igual forma que hicimos para extraer las fechas de nacimiento y ocupaciones de los actores en el anterior TP.
+Ya vimos que dbpedia puede devolver un archivo turtle o un archivo HTML haciendo content-negotation en una misma URI. En cambio w3 necesita una URI en particular para cada recurso, y en particular, en los resultados sparql aparece solo la URI que lleva al archivo turtle. Por lo tanto, ahora la pregunta es ¿Por qué se necesita que se devuelvan archivos turtle en los resultados de SPARQL? Esto básicamente es para implementar el mecanismo "Follow your nose", el cuál consiste en acceder a cada URI y extraer información hasta cierta profundidad para responder querys que la requieran, de igual forma que hicimos para extraer las fechas de nacimiento y ocupaciones de los actores en el anterior TP.
 
 ## Ejercicio 3
 
@@ -217,7 +221,7 @@ Wikidata es un proyecto similar al de DBpedia, los creadores la definen como una
 
 La información de Wikidata es creada automáticamente cuando se publica un artículo en Wikipedia, como mínimo de cada artículo se obtiene al menos una etiqueta en un idioma, una mínima descripción para desambiguar y un sitelink al correspondiente artículo o artículos en cada edición de Wikipedia. Los datos de Wikidata también son producto de la carga, modificación y borrado manual de información de editores de todo el mundo.
 
-La información recopilada en Wikidata es utilizada como una base de conocimiento estructurado cuyo objetivo es mantener una fuente común de datos para su reutilización en otros proyectos Wikimedia. De esta forma si varios artículos de Wikipedia dependen del mismo dato, vastaría solo con modificar la información de Wikidata para que se reflejen los cambios en todos los artículos. Y no por otra parte, modificar todos los artículos individualmente.
+La información recopilada en Wikidata es utilizada como una base de conocimiento estructurado cuyo objetivo es mantener una fuente común de datos para su reutilización en otros proyectos Wikimedia. De esta forma si varios artículos de Wikipedia dependen del mismo dato, bastaría solo con modificar la información de Wikidata para que se reflejen los cambios en todos los artículos. Y no por otra parte, modificar todos los artículos individualmente.
 
 3. **¿Que partes de los artículos de Wikipedia se transforman en tripletas?**
 
