@@ -36,3 +36,4 @@ DATA_DIR = Path.cwd().parent / "data"
 
 OSCAR_WINNERS_CACHE_FILE = DATA_DIR / "cache-oscars-winners.ttl"
 OSCAR_WINNERS_FILE = DATA_DIR / "oscars-winners.ttl"
+ENRICHED_GRAPH_FILE = DATA_DIR / "enriched-graph.ttl"
