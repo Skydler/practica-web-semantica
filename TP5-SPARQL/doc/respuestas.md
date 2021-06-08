@@ -25,18 +25,17 @@ Para realizar la extracción de toda esta información DBpedia posee un framewor
 Por cada artículo en Wikipedia se introducen varias URIs para representar los conceptos que aparecen en la página. Hasta 2011, DBpedia publicó las URIs bajo el dominio http://dbpedia.org. Los principales subdominios eran:
 
 - http://dbpedia.org/resource/ : Con el prefijo **dbr** para representar los datos de los artículos.
-- http://dbpedia.org/property/ : Con el prefijo **dbp** para representar las propiedades extraídas sin modificaciones de la *infobox* o ficha de información principal de la página.
+- http://dbpedia.org/property/ : Con el prefijo **dbp** para representar las propiedades extraídas sin modificaciones de la _infobox_ o ficha de información principal de la página.
 - http://dbpedia.org/ontology/ : Con el prefijo **dbo** para representar la ontología de DBpedia
 
 De esta forma, en caso de haber información adicional de un recurso en ediciones cuyo idioma fuera diferente al Inglés, solo se agregaría al recurso en cuestión en caso de existir una versión en Inglés linkeada a la correspondiente información adicional.
 
 A partir de la versión 3.7 de DBpedia, se decidió que esta forma de procesar los datos omitía mucha información importante y se optó por generar dos tipos de datasets diferentes.
 
-- *Localized data sets*: Contienen todas las cosas que están descritas en un lenguaje determinado. Estos recursos pasarían en alojarse en URIs del tipo http://\<lang\>.dbpedia.org/resource/ y sus propiedades en http://\<lang\>.dbpedia.org/property/
-- *Canonicalized data sets*: Contienen toda la información representada por las versiones en inglés de los artículos de Wikipedia. Estos recursos se identifican de la misma manera que en las versiones previas (http://dbpedia.org/resource/)
+- _Localized data sets_: Contienen todas las cosas que están descritas en un lenguaje determinado. Estos recursos pasarían en alojarse en URIs del tipo http://\<lang\>.dbpedia.org/resource/ y sus propiedades en http://\<lang\>.dbpedia.org/property/
+- _Canonicalized data sets_: Contienen toda la información representada por las versiones en inglés de los artículos de Wikipedia. Estos recursos se identifican de la misma manera que en las versiones previas (http://dbpedia.org/resource/)
 
-
-5. **¿Dado el articulo en Wikipedia de "National University of La Plata", como infiero la URL del recurso correspondiente en dbpedia? ¿Cuál sería para Argentina? ¿Y para Uruguay? (exprese su respuesta aprovechando el prefijo dbr:  para referirse a http://dbpedia.org/resource/)**
+5. **¿Dado el articulo en Wikipedia de "National University of La Plata", como infiero la URL del recurso correspondiente en dbpedia? ¿Cuál sería para Argentina? ¿Y para Uruguay? (exprese su respuesta aprovechando el prefijo dbr: para referirse a http://dbpedia.org/resource/)**
 
 Es posible inferir su correspondiente recurso en DBpedia dado el título del artículo. Esto es así dado que existe un mapeo uno a uno entre las páginas de Wikipedia y los recursos de DBpedia basados en el título.
 De esta forma, si el artículo correspondiente con la Universidad Nacional de La Plata en Wikipedia está representado por https://en.wikipedia.org/wiki/National_University_of_La_Plata en DBpedia estará representado por dbr:National_University_of_La_Plata.
@@ -49,8 +48,8 @@ Para https://es.wikipedia.org/wiki/Uruguay sería dbr:Uruguay.
 
 Una de las partes fundamentales de los artículos en Wikipedia son las fichas informativas que aparecen al principio del artículo en la esquina superior derecha (para los idiomas que se leen de izquierda a derecha). En estas fichas se resumen los datos más importantes del artículo o del concepto en cuestión.
 
-Como esta tabla informativa no está normalizada y no respeta tipos de datos en sus atributos puede resultar complejo de parsear (ej: un atributo número puede estar representado como numero: mil o numero: 1000). Debido a esta problemática se decidió realizar dos parseos diferentes de los datos. 
-Uno que recolecta la información de forma literal tolerando todas las inconsistencias que esta información pueda tener. Y otro que realiza una interpretación más profunda de los datos encontrados,  este parseo mantiene diferentes versiones de las tablas y trata de mergear la información de la manera más coherente posible, incluso llegando a crear recursos adicionales con los datos que se encuentran.
+Como esta tabla informativa no está normalizada y no respeta tipos de datos en sus atributos puede resultar complejo de parsear (ej: un atributo número puede estar representado como numero: mil o numero: 1000). Debido a esta problemática se decidió realizar dos parseos diferentes de los datos.
+Uno que recolecta la información de forma literal tolerando todas las inconsistencias que esta información pueda tener. Y otro que realiza una interpretación más profunda de los datos encontrados, este parseo mantiene diferentes versiones de las tablas y trata de mergear la información de la manera más coherente posible, incluso llegando a crear recursos adicionales con los datos que se encuentran.
 
 En el primer caso se habla de atributos que poseen el prefijo dbp: y en el segundo caso de los atributos prefijados con dbo:
 
@@ -75,6 +74,7 @@ select ?property ?object where {
 ### Exploración
 
 - El motor de sparql ofrece muchos formatos para mostrar los resultados de la consulta, algunos de los más importantes son los siguientes:
+
   - HTML: Se convierte la salida en tablas HTML, cuyo encabezado está compuesto por los campos elegidos en el select de la consulta. Es buena opción para humanos.
   - Turtle: Se convierte la salida en formato turtle con un formato específico, resulta de utilidad para los parsers de las librerías y computadoras.
   - Javascript: Se obtiene la tabla de HTML pero escrita en consola.
@@ -85,7 +85,7 @@ select ?property ?object where {
 
 ### Respuestas
 
-**1 . En la pantalla que muestra resultados de queries en HTML:** 
+**1 . En la pantalla que muestra resultados de queries en HTML:**
 
 **¿Qué pasa cuando hace click en una URI que pertenece al dominio dbpedia.org?**
 
@@ -107,7 +107,7 @@ Nos devolvió un código **303**, lo cual significa que tenemos que redirigirnos
 
 ![image-20210601112609173](img/curl-2.png)
 
-Como podemos ver, en el campo **link** se tienen diferentes URLs para ir a buscar un recurso mediante un content-type (html, turtle, rdf, etc.). En el caso del browser, va a negociar un content-type de tipo HTML y es por eso que nos devuelve la descripción para humanos. 
+Como podemos ver, en el campo **link** se tienen diferentes URLs para ir a buscar un recurso mediante un content-type (html, turtle, rdf, etc.). En el caso del browser, va a negociar un content-type de tipo HTML y es por eso que nos devuelve la descripción para humanos.
 
 <img src="img/html.png" alt="image-20210601120032490" style="zoom: 67%;" />
 
@@ -129,11 +129,11 @@ Ya vimos que dbpedia puede devolver un archivo turtle o un archivo HTML haciendo
 
 A continuación se describen las siguientes consultas mediante SPARQL:
 
-**a)** **Obtener a los escritores que hayan nacido en una ciudad de Argentina.** 
+**a)** **Obtener a los escritores que hayan nacido en una ciudad de Argentina.**
 
 ```SPARQL
 SELECT DISTINCT ?writer WHERE {
-    ?writer rdf:type dbo:Writer. 
+    ?writer rdf:type dbo:Writer.
     ?writer dbo:birthPlace / dbo:country dbr:Argentina.
 }
 ```
@@ -144,35 +144,35 @@ El resultado se puede ver haciendo click en este [link](https://dbpedia.org/ispa
 
 ```SPARQL
 SELECT DISTINCT ?writer WHERE {
-    ?writer rdf:type dbo:Writer. 
+    ?writer rdf:type dbo:Writer.
     ?writer dbo:birthPlace / dbo:country dbr:Uruguay.
 }
 ```
 
-El resultado se puede ver haciendo click en este [link](https://dbpedia.org/isparql/execute.html?query=SELECT%20DISTINCT%20%3Fwriter%20WHERE%20%7B%0A%20%20%20%20%3Fwriter%20rdf%3Atype%20dbo%3AWriter.%20%0A%20%20%20%20%3Fwriter%20dbo%3AbirthPlace%20%2F%20dbo%3Acountry%20dbr%3AUruguay.%0A%7D&endpoint=%2Fsparql&maxrows=50&timeout=&default-graph-uri=http%3A%2F%2Fdbpedia.org&view=1&amode=0&raw_iris=true). 
+El resultado se puede ver haciendo click en este [link](https://dbpedia.org/isparql/execute.html?query=SELECT%20DISTINCT%20%3Fwriter%20WHERE%20%7B%0A%20%20%20%20%3Fwriter%20rdf%3Atype%20dbo%3AWriter.%20%0A%20%20%20%20%3Fwriter%20dbo%3AbirthPlace%20%2F%20dbo%3Acountry%20dbr%3AUruguay.%0A%7D&endpoint=%2Fsparql&maxrows=50&timeout=&default-graph-uri=http%3A%2F%2Fdbpedia.org&view=1&amode=0&raw_iris=true).
 
 **c)** **Utilizando el keyword filter (vea sección 6.3.2.6 del libro), obtener a los escritores que hayan nacido en una ciudad de Argentina o de Uruguay.**
 
 ```SPARQL
 SELECT DISTINCT ?writer WHERE {
-    ?writer rdf:type dbo:Writer. 
+    ?writer rdf:type dbo:Writer.
     ?writer dbo:birthPlace / dbo:country ?country
     FILTER(?country = dbr:Argentina || ?country = dbr:Uruguay).
 }
 ```
 
-El resultado se puede ver haciendo click en este [link](https://dbpedia.org/isparql/execute.html?query=SELECT%20DISTINCT%20%3Fwriter%20%3Fcountry%20WHERE%20%7B%0A%20%20%20%20%3Fwriter%20rdf%3Atype%20dbo%3AWriter.%20%0A%20%20%20%20%3Fwriter%20dbo%3AbirthPlace%20%2F%20dbo%3Acountry%20%3Fcountry%0A%20%20%20%20FILTER(%3Fcountry%20%3D%20dbr%3AArgentina%20%7C%7C%20%3Fcountry%20%3D%20dbr%3AUruguay).%0A%7D&endpoint=%2Fsparql&maxrows=50&timeout=&default-graph-uri=http%3A%2F%2Fdbpedia.org&view=1&amode=0&raw_iris=true).
+El resultado se puede ver haciendo click en este [link](<https://dbpedia.org/isparql/execute.html?query=SELECT%20DISTINCT%20%3Fwriter%20%3Fcountry%20WHERE%20%7B%0A%20%20%20%20%3Fwriter%20rdf%3Atype%20dbo%3AWriter.%20%0A%20%20%20%20%3Fwriter%20dbo%3AbirthPlace%20%2F%20dbo%3Acountry%20%3Fcountry%0A%20%20%20%20FILTER(%3Fcountry%20%3D%20dbr%3AArgentina%20%7C%7C%20%3Fcountry%20%3D%20dbr%3AUruguay).%0A%7D&endpoint=%2Fsparql&maxrows=50&timeout=&default-graph-uri=http%3A%2F%2Fdbpedia.org&view=1&amode=0&raw_iris=true>).
 
-* Nota: Se proyectan los países para que sea más fácil la verificación de la unión.
+- Nota: Se proyectan los países para que sea más fácil la verificación de la unión.
 
 **d)** **Utilizando el keyword union (vea sección 6.3.2.6 del libro), obtener a los escritores que hayan nacido en una ciudad de Argentina o de Uruguay**
 
 ```SPARQL
 SELECT DISTINCT ?writer WHERE {
-    { ?writer rdf:type dbo:Writer. 
+    { ?writer rdf:type dbo:Writer.
       ?writer dbo:birthPlace / dbo:country dbr:Argentina. }
     UNION
-    { ?writer rdf:type dbo:Writer. 
+    { ?writer rdf:type dbo:Writer.
       ?writer dbo:birthPlace / dbo:country dbr:Uruguay.}
 }
 ```
@@ -207,9 +207,9 @@ SELECT DISTINCT ?company ?country ?employees WHERE {
 ORDER BY DESC(?employees)
 ```
 
-La compañía más grande registrada en dbpedia es Ritek con 59003000 empleados y es de Taiwán.  El país no está registrado oficialmente en **dbo**. Sin embargo, si está registrado en **dbp**.
+La compañía más grande registrada en dbpedia es Ritek con 59003000 empleados y es de Taiwán. El país no está registrado oficialmente en **dbo**. Sin embargo, si está registrado en **dbp**.
 
-El resultado se puede ver haciendo click en este [link](https://dbpedia.org/isparql/execute.html?query=SELECT%20DISTINCT%20%3Fcompany%20%3Fcountry%20%3Femployees%20WHERE%20%7B%0A%20%20%20%20%3Fcompany%20rdf%3Atype%20dbo%3ACompany%20%3B%20dbo%3AnumberOfEmployees%20%3Femployees.%0A%0A%20%20%20%20OPTIONAL%20%7B%20%23%20DBO%20location%20-%3E%20Most%20priority%0A%20%20%20%20%20%20%20%20%3Fcompany%20dbo%3Alocation%20%2F%20dbo%3Acountry%20%3Fcountry.%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%20%23%20DBP%20Location%20with%20Country%20as%20RDF%20type%0A%20%20%20%20%20%20%20%20%3Fcompany%20dbp%3AlocationCity%20%2F%20dbo%3Acountry%20%3Fcountry.%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%20%23%20DBP%20Location%20with%20Country%20as%20string%0A%20%20%20%20%20%20%20%20VALUES%20(%3FdbpProperty)%20%7B%20(dbp%3AlocationCountry)%20(dbp%3AhqLocationCountry)%20%7D%0A%20%20%20%20%20%20%20%20%3Fcompany%20%3FdbpProperty%20%3Fcountry.%0A%20%20%20%20%7D%0A%7D%0AORDER%20BY%20DESC(%3Femployees)&endpoint=%2Fsparql&maxrows=50&timeout=&default-graph-uri=http%3A%2F%2Fdbpedia.org&view=1&amode=0&raw_iris=true).
+El resultado se puede ver haciendo click en este [link](<https://dbpedia.org/isparql/execute.html?query=SELECT%20DISTINCT%20%3Fcompany%20%3Fcountry%20%3Femployees%20WHERE%20%7B%0A%20%20%20%20%3Fcompany%20rdf%3Atype%20dbo%3ACompany%20%3B%20dbo%3AnumberOfEmployees%20%3Femployees.%0A%0A%20%20%20%20OPTIONAL%20%7B%20%23%20DBO%20location%20-%3E%20Most%20priority%0A%20%20%20%20%20%20%20%20%3Fcompany%20dbo%3Alocation%20%2F%20dbo%3Acountry%20%3Fcountry.%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%20%23%20DBP%20Location%20with%20Country%20as%20RDF%20type%0A%20%20%20%20%20%20%20%20%3Fcompany%20dbp%3AlocationCity%20%2F%20dbo%3Acountry%20%3Fcountry.%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%20%23%20DBP%20Location%20with%20Country%20as%20string%0A%20%20%20%20%20%20%20%20VALUES%20(%3FdbpProperty)%20%7B%20(dbp%3AlocationCountry)%20(dbp%3AhqLocationCountry)%20%7D%0A%20%20%20%20%20%20%20%20%3Fcompany%20%3FdbpProperty%20%3Fcountry.%0A%20%20%20%20%7D%0A%7D%0AORDER%20BY%20DESC(%3Femployees)&endpoint=%2Fsparql&maxrows=50&timeout=&default-graph-uri=http%3A%2F%2Fdbpedia.org&view=1&amode=0&raw_iris=true>).
 
 ## Ejercicio 4
 
@@ -247,6 +247,90 @@ El cuadro anterior fue extraido del siguiente [paper](https://recyt.fecyt.es/ind
 Si, los resultados fueron distintos. Esto se debe a que Wikidata posee una mayor cantidad de clases y clasificaciones. Además la cantidad de información almacenada en Wikidata es distinta a la cantidad en DBpedia.
 
 ## Ejercicio 5
+
+### Consultas sobre la recolección de datos de personas
+
+En esta parte se decidió recolectar los nombres de las entidades de tipo Person en nuestro grafo para intentar matchear estos nombres con las personas de DBpedia y Wikidata.
+
+Para esto se utilizaron las siguientes consultas:
+
+DBpedia
+
+```SPARQL
+CONSTRUCT {{
+    ?person ?property ?object
+}}
+WHERE {{
+    SELECT ?person ?property ?object
+    WHERE {{
+        ?person rdf:type dbo:Person.
+        ?person foaf:name ?name.
+        ?person ?property ?object.
+        FILTER regex(?name, "{persons_regex}", "i")
+    }}
+}}
+```
+
+Wikidata
+
+```SPARQL
+CONSTRUCT {{
+    ?person ?property ?object
+}}
+WHERE {{
+    SELECT DISTINCT ?person ?property ?object
+    WHERE {{
+        ?person wdt:P31 wd:Q5.
+        ?person wdt:P1559 ?name.
+        ?person ?property ?object.
+        FILTER regex(?name, "{persons_regex}", "i")
+    }}
+}}
+```
+
+- La variable {persons_regex} representa la siguiente regex: `(person_name_1|person_name_2|..)`, esta misma es seteada por Python en ejecución a medida que se leen los actores de nuestra base de conocimiento. La razón de utilizar un grupo de regex es para generar la menor cantidad de consultas posibles, ya que los motores de SPARQL ponen restricciones en su uso. La discusión más detallada se puede ver en el siguiente hilo del foro: https://asignaturas.info.unlp.edu.ar/mod/forum/discuss.php?d=204#p533 .
+
+Luego, teniendo estos subgrafos se los combina y se corre una tercera consulta encargada de asimilar las personas con el mismo nombre bajo una misma URI de recurso
+
+```SPARQL
+CONSTRUCT {
+    ?twss_person ?twssprop ?twssobject.
+    # ?twss_person ?dbprop ?dbobject.
+    ?twss_person ?wikiprop ?wikiobject.
+}
+WHERE {
+    # Extract local info.
+    ?twss_person a ns1:Person ; ns1:Name ?twss_person_name.
+    ?twss_person ?twssprop ?twssobject.
+
+    # Extract dbpedia info.
+    # ?dbpedia_person a dbo:Person ; foaf:name ?dbpedia_person_name.
+    # ?dbpedia_person ?dbprop ?dbobject.
+
+    # Extract wikidata info.
+    ?wikidata_person wdt:P31 wd:Q5 ; wdt:P1559 ?wikidata_person_name.
+    ?wikidata_person ?wikiprop ?wikiobject.
+
+    # Match local and remote persons by name.
+    FILTER (
+        # regex(?dbpedia_person_name, ?twss_person_name, "i") ||
+        regex(?wikidata_person_name, ?twss_person_name, "i")
+    )
+}
+```
+
+- En este código se han comentado las partes que se encargan de asimilar la información de DBpedia ya que al ser un dataset demasiado grande la consulta demora demasiado tiempo (Lo dejamos procesando más de 5 horas). Sin embargo se puede ejecutar sin problemas con la información obtenida de Wikidata.
+
+### Respuestas
+
+**¿Es suficiente utilizar el nombre?**
+No, no es suficiente. Revisando los datos es muy sencillo ver que hay muchas personas deportistas o de otros ámbitos que no son las personas que se buscaban originalmente.
+
+**¿Necesita utilizar mas características para asegurar que el concepto de Wikidata (DBpedia) sea la persona que usted desea buscar?**
+Si, sería muy provechoso filtrar por atributos más específicos de las personas, que permitan diferenciarla de otras personas con el mismo nombre. En principio se podría optar por el tipo o la ocupación del sujeto.
+
+**¿Para otros tipos de recursos que tengan algo como nombre o título, piensa que alcanzaría esa estrategia?**
+No, considero que seguimos en el mismo caso. Es así como existen compañias totalmente diferentes con el mismo nombre, es muy difícil patentar un nombre o logo para todos los posibles rubros.
 
 ### Consultas sobre los directores ganadores del Oscar
 
@@ -334,7 +418,7 @@ Como podemos notar, la consulta genera el grafo que queremos como resultado. Par
 
 Como diferencia al TP anterior, podemos notar que no tuvimos que usar dereferenciamiento en ningún caso, por lo tanto, esto es una ventaja de utilizar SPARQL, ya que al trabajar con pattern matching no se necesita ingresar uno por uno a cada archivo ttl y extraer la información.
 
-Otra ventaja es que los motores de SPARQL generalmente están sobre base de datos (como en dbpedia/wikidata) y no sobre archivos de texto, esto permite que las consultas se ejecuten mucho más rápido. También SPARQL se asemeja mucho a SQL, por lo que el salto de aprendizaje de uno a otro es muy leve en términos de esfuerzo. 
+Otra ventaja es que los motores de SPARQL generalmente están sobre base de datos (como en dbpedia/wikidata) y no sobre archivos de texto, esto permite que las consultas se ejecuten mucho más rápido. También SPARQL se asemeja mucho a SQL, por lo que el salto de aprendizaje de uno a otro es muy leve en términos de esfuerzo.
 
 También, a diferencia del TP anterior, SPARQL utiliza un paradigma declarativo, lo que refleja mucho mejor la información que queremos obtener frente a un paradigma imperativo que llevaría muchas más líneas de código.
 
@@ -357,6 +441,3 @@ def get_sparql_query(source, query):
 
     return results
 ```
-
-
-

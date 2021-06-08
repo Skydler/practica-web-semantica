@@ -3,17 +3,17 @@ import logging
 from SPARQLWrapper import RDFXML, SPARQLWrapper
 
 from constants import (
+    DBPEDIA_PERSONS_FILE,
+    EXTENDED_PERSONS_FILE,
     NAMESPACES,
     TWSS_RESOURCES_URI,
     WIKIDATA_PERSONS_FILE,
-    DBPEDIA_PERSONS_FILE,
-    EXTENDED_PERSONS_FILE,
 )
 from db.repository import OwlMovieRepository
 from enrichments.querys import (
     COMBINE_REMOTE_AND_LOCAL_PERSONS,
-    TWSS_PERSONS_NAMES,
     DBPEDIA_PERSONS,
+    TWSS_PERSONS_NAMES,
     WIKIDATA_PERSONS,
 )
 
@@ -57,32 +57,39 @@ def query_wikidata_persons(names):
 
 
 def merge_graphs(source, remote):
+    logging.info("Merging graphs")
     merged = source + remote
     result = merged.query(COMBINE_REMOTE_AND_LOCAL_PERSONS)
-    OwlMovieRepository.write(
-        path_file=EXTENDED_PERSONS_FILE,
-        graph=result.graph,
-        namespaces=NAMESPACES,
-    )
+    return result.graph
 
 
 def main():
-    # Init logger
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
-    )
-
     logging.info(f"Request to {TWSS_RESOURCES_URI}")
     twss_graph = OwlMovieRepository.read(TWSS_RESOURCES_URI)
-    # names = get_persons_names(twss_graph)
 
-    # dbpedia_graph = query_dbpedia_persons(names)
-    # wiki_graph = query_wikidata_persons(names)
-    dbpedia_graph = OwlMovieRepository.read(DBPEDIA_PERSONS_FILE)
-    wiki_graph = OwlMovieRepository.read(WIKIDATA_PERSONS_FILE)
+    # Change this flag to use local data
+    local = False
+
+    if local:
+        dbpedia_graph = OwlMovieRepository.read(DBPEDIA_PERSONS_FILE)
+        wiki_graph = OwlMovieRepository.read(WIKIDATA_PERSONS_FILE)
+    else:
+        names = get_persons_names(twss_graph)
+        logging.info("Querying remote persons")
+        # Warining making too many requests on dbpedia server may block you
+        dbpedia_graph = query_dbpedia_persons(names)
+        wiki_graph = query_wikidata_persons(names)
+
     remote_persons_graph = dbpedia_graph + wiki_graph
-    merge_graphs(twss_graph, remote_persons_graph)
+    merged_graph = merge_graphs(twss_graph, remote_persons_graph)
+
+    logging.info(f"Done! Writing graph in {EXTENDED_PERSONS_FILE}")
+
+    OwlMovieRepository.write(
+        path_file=EXTENDED_PERSONS_FILE,
+        graph=merged_graph,
+        namespaces=NAMESPACES,
+    )
 
 
 if __name__ == "__main__":

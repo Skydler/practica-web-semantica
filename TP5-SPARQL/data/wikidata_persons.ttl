@@ -244,7 +244,7 @@ wd:Q25191 rdfs:label "Christopher Nolan"@ace,
     wikibase:identifiers 66 ;
     wikibase:sitelinks 92 ;
     wikibase:statements 123 ;
-    wikibase:timestamp "2021-06-05T13:56:17+00:00"^^xsd:dateTime ;
+    wikibase:timestamp "2021-06-05T12:46:52+00:00"^^xsd:dateTime ;
     skos:altLabel "Christopher Jonathan James Nolan"@cy,
         "Christopher Jonathan James Nolan"@de,
         "Κρίστοφερ Τζόναθαν Τζέιμς Νόλαν"@el,

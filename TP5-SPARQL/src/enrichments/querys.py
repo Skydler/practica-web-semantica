@@ -103,7 +103,7 @@ WIKIDATA_PERSONS = """
 COMBINE_REMOTE_AND_LOCAL_PERSONS = """
     CONSTRUCT {
         ?twss_person ?twssprop ?twssobject.
-        ?twss_person ?dbprop ?dbobject.
+        # ?twss_person ?dbprop ?dbobject.
         ?twss_person ?wikiprop ?wikiobject.
     }
     WHERE {
@@ -112,8 +112,8 @@ COMBINE_REMOTE_AND_LOCAL_PERSONS = """
         ?twss_person ?twssprop ?twssobject.
 
         # Extract dbpedia info.
-        ?dbpedia_person a dbo:Person ; foaf:name ?dbpedia_person_name.
-        ?dbpedia_person ?dbprop ?dbobject.
+        # ?dbpedia_person a dbo:Person ; foaf:name ?dbpedia_person_name.
+        # ?dbpedia_person ?dbprop ?dbobject.
 
         # Extract wikidata info.
         ?wikidata_person wdt:P31 wd:Q5 ; wdt:P1559 ?wikidata_person_name.
@@ -121,7 +121,7 @@ COMBINE_REMOTE_AND_LOCAL_PERSONS = """
 
         # Match local and remote persons by name.
         FILTER (
-            regex(?dbpedia_person_name, ?twss_person_name, "i") ||
+            # regex(?dbpedia_person_name, ?twss_person_name, "i") ||
             regex(?wikidata_person_name, ?twss_person_name, "i")
         )
     }

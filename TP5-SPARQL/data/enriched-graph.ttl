@@ -2,10 +2,16 @@
 @prefix dbp: <http://dbpedia.org/property/> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://purl.org/spar/fabio/> .
-@prefix ns3: <https://schema.org/> .
-@prefix ns4: <http://purl.org/vocab/frbr/core#> .
+@prefix ns1: <http://schema.org/> .
+@prefix ns10: <https://schema.org/> .
+@prefix ns2: <http://www.wikidata.org/prop/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://www.wikidata.org/prop/direct/> .
+@prefix ns5: <http://purl.org/spar/fabio/> .
+@prefix ns6: <http://purl.org/vocab/frbr/core#> .
+@prefix ns7: <http://wikiba.se/ontology#> .
+@prefix ns8: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix ns9: <http://www.w3.org/2004/02/skos/core#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -19,8 +25,8 @@ dbo:nameInTraditionalChinese rdfs:subPropertyOf dbo:nation .
 
 <https://raw.githubusercontent.com/Skydler/practica-web-semantica/main/TP3-OWL/data/movie.ttl> a owl:Ontology ;
     owl:imports dbo:,
-        ns2:2019-02-19,
-        ns3: .
+        ns5:2019-02-19,
+        ns10: .
 
 twss:007_SinTiempoParaMorir a dbo:Film ;
     dbo:director twss:CaryJojiFukunaga ;
@@ -42,7 +48,7 @@ twss:007_SinTiempoParaMorir a dbo:Film ;
         twss:RalphFiennes,
         twss:RamiMalek ;
     dbo:title "007: SIN TIEMPO PARA MORIR" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/007-sin-tiempo-para-morir"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/007-sin-tiempo-para-morir"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:007_SinTiempoParaMorir_trailer ;
     twss:synopsis "En SIN TIEMPO PARA MORIR, Bond se ha retirado del servicio como agente en activo y disfruta de una tranquila vida en Jamaica. Pero sus días de paz acaban cuando su viejo amigo Felix Leiter de la CIA aparece pidiéndole ayuda. La misión en cuestión, que consiste en rescatar a un científico secuestrado, resulta mucho más compleja de lo esperado y pone a Bond sobre la pista de un misterioso villano armado con peligrosa tecnología de vanguardia."@es .
@@ -62,7 +68,7 @@ twss:100Lobo a dbo:Film ;
         twss:RupertDegas,
         twss:SamaraWeaving ;
     dbo:title "100% LOBO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/100-lobo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/100-lobo"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasShow twss:100Lobo_show_1,
         twss:100Lobo_show_10,
@@ -102,7 +108,7 @@ twss:AmorSinBarreras a dbo:Film ;
         twss:RachelZegler,
         twss:RitaMoreno ;
     dbo:title "AMOR SIN BARRERAS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/amor-sin-barreras"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/amor-sin-barreras"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:AmorSinBarreras_trailer ;
     twss:synopsis "Dirigida por el ganador de un Oscar® Steven Spielberg, a partir de un guion del galardonado con un premio Pulitzer y un Tony® Tony Kushner, AMOR SIN BARRERAS cuenta la clásica historia de rivalidades y amor juvenil en la ciudad de Nueva York de 1957."@es .
@@ -126,7 +132,7 @@ twss:AquellosQueDeseanMiMuerte a dbo:Film ;
         twss:NicholasHoult,
         twss:TylerPerry ;
     dbo:title "AQUELLOS QUE DESEAN MI MUERTE" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/aquellos-que-desean-mi-muerte"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/aquellos-que-desean-mi-muerte"^^xsd:anyUri ;
     twss:content_rating "P13R"^^xsd:string ;
     twss:hasShow twss:AquellosQueDeseanMiMuerte_show_1,
         twss:AquellosQueDeseanMiMuerte_show_10,
@@ -159,7 +165,7 @@ twss:Atakan_ReliquiaDiabolica a dbo:Film ;
         twss:PolinaStrogaya,
         twss:VladimirKuznetsov ;
     dbo:title "ATAKAN: RELIQUIA DIABÓLICA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/atakan-reliquia-diabolica"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/atakan-reliquia-diabolica"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:Atakan_ReliquiaDiabolica_show_1,
         twss:Atakan_ReliquiaDiabolica_show_10,
@@ -189,7 +195,7 @@ twss:BahiaBlanca a dbo:Film ;
         twss:MarceloSubiotto,
         twss:VioletaPalukas ;
     dbo:title "BAHÍA BLANCA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/bahia-blanca"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/bahia-blanca"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:BahiaBlanca_trailer ;
     twss:synopsis "Mario, docente universitario, utiliza una investigación sobre el escritor Ezequiel Martínez Estrada para huir de su pasado. Establecido en Bahía Blanca, la nueva ciudad parece ser el lugar ideal para el olvido, hasta que un encuentro fortuito con un viejo amigo desencadena el peor de los peligros."@es .
@@ -207,7 +213,7 @@ twss:Bigli a dbo:Film ;
         twss:LuisLuque,
         twss:RoccoPosca ;
     dbo:title "BIGLI" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/bigli"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/bigli"^^xsd:anyUri ;
     twss:content_rating "P13R"^^xsd:string ;
     twss:hasShow twss:Bigli_show_1,
         twss:Bigli_show_2,
@@ -235,7 +241,7 @@ twss:BlackWidow a dbo:Film ;
         twss:WilliamHurt,
         twss:YolandaLynes ;
     dbo:title "BLACK WIDOW" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/black-widow"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/black-widow"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:BlackWidow_trailer ;
     twss:synopsis "Al nacer, Natasha Romanoff se entrega a la KGB, que la prepara para convertirse en su principal agente. Cuando los Estados Unidos se separan, el gobierno trata de matarla mientras la acción actúa."@es .
@@ -256,7 +262,7 @@ twss:Candyman a dbo:Film ;
         twss:TonyTodd,
         twss:YahyaAbdul_MateenIi ;
     dbo:title "CANDYMAN" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/candyman"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/candyman"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:synopsis "Desde tiempos inmemoriales, los proyectos residenciales del barrio de Cabrini Green en Chicago se han visto amenazados por la historia de un supuesto asesino en serie con un gancho por mano al que se invoca fácilmente repitiendo su nombre cinco veces frente a un espejo. Hoy, una década después de que la última torre de Cabrini fuese derruída, el artista visual Anthony McCoy (Yahya Abdul-Mateen) y su novia Brianna Cartwright (Teyonah Parris), se mudan a un apartamento de lujo de un barrio ahora irreconocible, repleto de millennials y de personas que, por lo general, desconocen su oscuro pasado."@es .
 
@@ -270,7 +276,7 @@ twss:ContraElFuego a dbo:Film ;
         twss:KonstantinKhabenskiy,
         twss:StasyaMiloslavskaya ;
     dbo:title "CONTRA EL FUEGO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/contra-el-fuego"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/contra-el-fuego"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:ContraElFuego_trailer .
 
@@ -289,7 +295,7 @@ twss:Cruella a dbo:Film ;
         twss:MarkStrong,
         twss:PaulWalterHauser ;
     dbo:title "CRUELLA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/cruella"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/cruella"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:Cruella_trailer ;
     twss:synopsis "La ganadora del Oscar® Emma Stone (La La Land) protagoniza CRUELLA de Disney, un nuevo largometraje de acción real que retrata los primeros días rebeldes de una de las villanas más notorias del cine y de la moda, la legendaria Cruella de Vil. Ambientada en los años 70 en Londres y en medio de la revolución del punk rock, CRUELLA sigue a una joven estafadora llamada Estella, una chica inteligente y creativa decidida a hacerse un lugar en la moda con sus diseños de ropa. Cuando se hace amiga de un par de jóvenes ladrones que aprecian su apetito por las travesuras, juntos logran construir una vida en las calles de Londres. Un día, el talento de Estella llama la atención de la Baronesa von Hellman, la aterradoramente elegante y sofisticada leyenda de la moda interpretada por la dos veces ganadora del Oscar® Emma Thompson (La mansión Howard, Sensatez y Sentimiento). Pero su relación pone en marcha un curso de eventos y revelaciones que harán que Estella abrace su lado perverso y se convierta en la disonante, vanguardista y ávida de venganza Cruella."@es .
@@ -314,7 +320,7 @@ twss:DemonSlayerMugenTrain a dbo:Film ;
         twss:TomokazuSeki,
         twss:YoshitsuguMatsuoka ;
     dbo:title "DEMON SLAYER MUGEN TRAIN" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/demon-slayer-mugen-train"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/demon-slayer-mugen-train"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:DemonSlayerMugenTrain_show_1,
         twss:DemonSlayerMugenTrain_show_10,
@@ -349,7 +355,7 @@ twss:ElConjuro3_ElDiabloMeObligoAHacerlo a dbo:Film ;
         twss:SterlingJerins,
         twss:VeraFarmiga ;
     dbo:title "EL CONJURO 3: EL DIABLO ME OBLIGÓ A HACERLO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-conjuro-3-el-diablo-me-obligo-a-hacerlo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-conjuro-3-el-diablo-me-obligo-a-hacerlo"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:ElConjuro3_ElDiabloMeObligoAHacerlo_trailer ;
     twss:synopsis "“El Conjuro 3: El diablo me obligó a hacerlo” revela una escalofriante historia de terror, asesinato y un mal desconocido que impresionó incluso a los verdaderos expertos en investigación paranormal Ed y Lorraine Warren. Es uno de los casos más sensacionales de sus archivos; empieza con la lucha por el alma de un niño, los lleva más allá de lo que jamás habían visto y marca la primera vez en la historia de EE. UU. en que un sospechoso de asesinato alega posesión demoníaca como defensa."@es .
@@ -369,7 +375,7 @@ twss:ElJovenAhmed a dbo:Film ;
         twss:OthmaneMoumen,
         twss:VictoriaBluck ;
     dbo:title "EL JOVEN AHMED" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-joven-ahmed"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-joven-ahmed"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:synopsis "En la Bélgica actual, el destino del joven Ahmed, de apenas 13 años, se ha quedado atrapado entre los ideales de pureza del que le habla su imán y las pasiones de la vida."@es .
 
@@ -391,7 +397,7 @@ twss:ElOficialYElEspia a dbo:Film ;
         twss:VincentGrass,
         twss:VincentPerez ;
     dbo:title "EL OFICIAL Y EL ESPÍA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-oficial-y-el-espia"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-oficial-y-el-espia"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:synopsis "En 1894, el capitán francés Alfred Dreyfus, un joven oficial judío, es acusado de traición por espiar para Alemania y condenado a cadena perpetua en la Isla del Diablo, en la Guayana Francesa. Entre los testigos que hicieron posible esta humillación se encuentra el coronel Georges Picquart, encargado de liderar la unidad de contrainteligencia que descubrió al espía. Pero cuando Picquart se entera de que se siguen pasando secretos militares a los alemanes, se adentrará en un peligroso laberinto de mentiras y corrupción, poniendo en peligro su honor y su vida."@es .
 
@@ -414,7 +420,7 @@ twss:ElSenorDeLosAnillos_ElRetornoDelRey a dbo:Film ;
         twss:SeanAstin,
         twss:ViggoMortensen ;
     dbo:title "EL SEÑOR DE LOS ANILLOS: EL RETORNO DEL REY" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-el-retorno-del-rey"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:ElSenorDeLosAnillos_ElRetornoDelRey_show_1,
         twss:ElSenorDeLosAnillos_ElRetornoDelRey_show_10,
@@ -478,7 +484,7 @@ twss:ElSenorDeLosAnillos_LaComunidadDelAnillo a dbo:Film ;
         twss:SeanAstin,
         twss:ViggoMortensen ;
     dbo:title "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-la-comunidad-del-anillo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-la-comunidad-del-anillo"^^xsd:anyUri ;
     twss:content_rating "ATPR"^^xsd:string ;
     twss:hasShow twss:ElSenorDeLosAnillos_LaComunidadDelAnillo_show_1,
         twss:ElSenorDeLosAnillos_LaComunidadDelAnillo_show_10,
@@ -534,7 +540,7 @@ twss:ElSenorDeLosAnillos_LasDosTorres a dbo:Film ;
         twss:SeanAstin,
         twss:ViggoMortensen ;
     dbo:title "EL SEÑOR DE LOS ANILLOS: LAS DOS TORRES" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-las-dos-torres"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-senor-de-los-anillos-las-dos-torres"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:ElSenorDeLosAnillos_LasDosTorres_show_1,
         twss:ElSenorDeLosAnillos_LasDosTorres_show_10,
@@ -592,7 +598,7 @@ twss:ElTerritorioDelAmor a dbo:Film ;
         twss:PaulHamy,
         twss:VincentPerez ;
     dbo:title "EL TERRITORIO DEL AMOR" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/el-territorio-del-amor"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/el-territorio-del-amor"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:synopsis "María tiene 30 años, es impaciente, rebelde y experta en holandés. Olivier tiene la misma edad, es lento, tímido y habla catorce idiomas. Se encuentran en Taiwan. Y de repente, la impactante novedad. Es su historia. La de la increíble fuerza de un amor. Y la de sus confines, en donde todo empieza a fallar. Excepto María."@es .
 
@@ -614,7 +620,7 @@ twss:EnElBarrio a dbo:Film ;
         twss:OlgaMerediz,
         twss:StephanieBeatriz ;
     dbo:title "EN EL BARRIO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/en-el-barrio"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/en-el-barrio"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:EnElBarrio_trailer ;
     twss:synopsis "Adaptación del musical de Broadway de Lin-Manuel Miranda en el que el propietario de una bodega duda sobre si cerrar su negocio y retirarse a la República Dominicana tras heredar la fortuna de su abuela."@es .
@@ -636,7 +642,7 @@ twss:EnGuerraConMiAbuelo a dbo:Film ;
         twss:TJMcgibbon,
         twss:UmaThurman ;
     dbo:title "EN GUERRA CON MI ABUELO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/en-guerra-con-mi-abuelo"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/en-guerra-con-mi-abuelo"^^xsd:anyUri ;
     twss:content_rating "ATPR"^^xsd:string ;
     twss:hasShow twss:EnGuerraConMiAbuelo_show_1,
         twss:EnGuerraConMiAbuelo_show_10,
@@ -657,7 +663,7 @@ twss:EnGuerraConMiAbuelo a dbo:Film ;
 
 twss:Espiral_ElJuegoDelMiedoContinua a dbo:Film ;
     dbo:title "ESPIRAL: EL JUEGO DEL MIEDO CONTINÚA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/espiral-el-juego-del-miedo-continua"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/espiral-el-juego-del-miedo-continua"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:Espiral_ElJuegoDelMiedoContinua_trailer ;
     twss:synopsis "Un cruel y sádico genio desata una retorcida forma de justicia en ESPIRAL, el nuevo y aterrador capítulo en el Universo de El Juego del Miedo. A la sombra de un respetado veterano de la policía (Samuel L. Jackson), el atrevido detective Ezequiel “Zeke” Banks (Chris Rock) y su compañero novato (Max Minghella) se encargan de la rebuscada investigación sobre unos asesinatos que despiertan un recuerdo inquietante del terrible pasado vivido en la ciudad: ¿Habrá regresado? ¿Será posible? Con cada movida, Zeke se acerca más al centro de un misterio y a los macabros juegos de un asesino. ESPIRAL está protagonizada por Chris Rock, Max Minghella, Marisol Nichols y Samuel L. Jackson, y está producida por el equipo original de SAW de Mark Burg y Oren Koules. La película está dirigida por Darren Lynn Bousman y escrita por Josh Stolberg y Pete Goldfinger."@es .
@@ -677,7 +683,7 @@ twss:EspiritusOscuros a dbo:Film ;
         twss:SawyerJones,
         twss:ScottHaze ;
     dbo:title "ESPÍRITUS OSCUROS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/espiritus-oscuros"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/espiritus-oscuros"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:synopsis "En Antlers, una pequeña ciudad de Oregón, una profesora (Keri Russel) y su hermano (Jesse Plemons), el sheriff de la localidad, se empiezan a interesar por un estudiante misterioso y distante. A medida que se van conociendo, descubre que el joven esconde un peligroso secreto que podría tener consecuencias fatales."@es .
 
@@ -689,7 +695,7 @@ twss:EternosCompaneros a dbo:Film ;
         twss:HimLaw,
         twss:SimonYam ;
     dbo:title "ETERNOS COMPAÑEROS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/eternos-companeros"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/eternos-companeros"^^xsd:anyUri ;
     twss:content_rating "ATPR"^^xsd:string ;
     twss:hasShow twss:EternosCompaneros_show_1,
         twss:EternosCompaneros_show_10,
@@ -725,7 +731,7 @@ twss:FreeGuy_TomandoElControl a dbo:Film ;
         twss:TaikaWaititi,
         twss:UtkarshAmbudkar ;
     dbo:title "FREE GUY: TOMANDO EL CONTROL" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/free-guy-tomando-el-control"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/free-guy-tomando-el-control"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:synopsis "Un trabajador de un banco descubre que en realidad es un jugador dentro de un videojuego."@es .
 
@@ -748,7 +754,7 @@ twss:GodzillaVsKong a dbo:Film ;
         twss:RebeccaHall,
         twss:ShunOguri ;
     dbo:title "GODZILLA VS. KONG" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/godzilla-vs-kong"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/godzilla-vs-kong"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:GodzillaVsKong_show_1,
         twss:GodzillaVsKong_show_10,
@@ -809,7 +815,7 @@ twss:GoldenVoices a dbo:Film ;
         twss:MariaBelkin,
         twss:VladimirFridman ;
     dbo:title "GOLDEN VOICES" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/golden-voices"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/golden-voices"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string .
 
 twss:JungleCruise a dbo:Film ;
@@ -825,7 +831,7 @@ twss:JungleCruise a dbo:Film ;
         twss:JessePlemons,
         twss:PaulGiamatti ;
     dbo:title "JUNGLE CRUISE" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/jungle-cruise"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/jungle-cruise"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:JungleCruise_trailer ;
     twss:synopsis "La adaptación de acción en vivo de Disney de su icónico paseo en un parque temático."@es .
@@ -848,7 +854,7 @@ twss:JusticiaImplacable a dbo:Film ;
         twss:RaulCastillo,
         twss:ScottEastwood ;
     dbo:title "JUSTICIA IMPLACABLE" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/justicia-implacable"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/justicia-implacable"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:JusticiaImplacable_trailer ;
     twss:synopsis "La historia sigue a H, un hombre frío y misterioso que trabaja en una empresa de camiones blindados responsable de mover cientos de millones de dólares por Los Ángeles cada semana."@es .
@@ -869,7 +875,7 @@ twss:LaCasaDeLosConejos a dbo:Film ;
         twss:SilvinaBosco,
         twss:VeronicaSchneck ;
     dbo:title "LA CASA DE LOS CONEJOS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/la-casa-de-los-conejos"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/la-casa-de-los-conejos"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:LaCasaDeLosConejos_trailer ;
     twss:synopsis "Desde que su padre está en la cárcel, Laura, ocho años, sabe que para sobrevivir debe callarse. Junto a su madre se esconden en la imprenta clandestina del Evita Montonera. Laura sabe que ni siquiera su abuela debe conocer su nuevo falso nombre, ni tampoco la dirección de dónde se alojan . No puede ir a la escuela y pasa sus días junto a Diana Teruggi, embarazada de Clara Anahí, nieta desaparecida cuya abuela Chicha Mariani fuera la fundadora de Abuelas de Plaza de Mayo"@es .
@@ -882,7 +888,7 @@ twss:LaFuneraria a dbo:Film ;
         twss:HugoArana,
         twss:LuisMachin ;
     dbo:title "LA FUNERARIA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/la-funeraria"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/la-funeraria"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:LaFuneraria_trailer ;
     twss:synopsis "Bernardo es el director de una funeraria, que está ubicada en la misma casa donde vive. En la parte delantera recibe a sus clientes, mientras que en el fondo vive su familia entre ataúdes, coronas funerarias y algun que otro fantasma. Intentar descubrir el origen de estas curiosas entidades, tendrá un resultado aterrador."@es .
@@ -896,7 +902,7 @@ twss:LaVerdad a dbo:Film ;
         twss:EthanHawke,
         twss:JulietteBinoche ;
     dbo:title "LA VERDAD" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/la-verdad"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/la-verdad"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:LaVerdad_trailer ;
     twss:synopsis "Fabienne (Catherine Deneuve) es una estrella de cine que reina entre hombres que la aman y admiran. Cuando publica sus memorias, su hija Lumir (Juliette Binoche) regresa de Nueva York a París con su marido (Ethan Hawke) y su pequeña hija. Pero el reencuentro entre madre e hija se transformará rápidamente en confrontación: se contarán verdades, se saldarán cuentas pendientes y se confesarán amores y resentimientos. Tras ganar la Palma de Oro y ser nominado al Oscar por Somos una familia, Kore-eda Hirokazu filmó por primera vez con un elenco estelar esta película que viene siendo aclamada por la crítica internacional desde su estreno mundial como apertura del Festival de Venecia: “Un cálido y emocionante retrato familiar con la sensibilidad e inteligencia que solo un maestro puede alcanzar” (Indiewire), “Una película de gran ingenio, confianza y entusiasmo” (Variety), “Catherine Deneuve en lo más alto de su carrera” (The Times)."@es .
@@ -920,7 +926,7 @@ twss:LosCroods2_UnaNuevaEra a dbo:Film ;
         twss:RandyThom,
         twss:RyanReynolds ;
     dbo:title "LOS CROODS 2: UNA NUEVA ERA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/los-croods-2-una-nueva-era"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/los-croods-2-una-nueva-era"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:LosCroods2_UnaNuevaEra_trailer ;
     twss:synopsis "Después de salir de su cueva, los Croods se encuentran con su mayor amenaza desde que se fueron: otra familia llamada Betterman, quienes afirman y demuestran ser mejores y evolucionados. Grug empieza a sospechar de los padres de Betterman, Phil y Hope, ya que planean en secreto separar a su hija Eep con su amado novio Guy para asegurarse de que su hija Dawn tenga un compañero amoroso e inteligente que la proteja."@es .
@@ -943,7 +949,7 @@ twss:LosNuevosMutantes a dbo:Film ;
         twss:MickeyGilmore,
         twss:ThomasKee ;
     dbo:title "LOS NUEVOS MUTANTES" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/los-nuevos-mutantes"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/los-nuevos-mutantes"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:LosNuevosMutantes_show_1,
         twss:LosNuevosMutantes_show_10,
@@ -967,7 +973,7 @@ twss:LosRayos a dbo:Film ;
         twss:Song ;
     dbo:origin twss:Argentina ;
     dbo:title "LOS RAYOS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/los-rayos"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/los-rayos"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:LosRayos_trailer ;
     twss:synopsis "“El cuerpo pide”, un programa sobre la actualidad del rock en Hurlingham, llega a su final. Sólo le queda una semana en el aire: la radio deja de transmitir. Su conductor, POPA, de 40 años, se encuentra frente al dilema de abandonar el trabajo que lo apasiona y entregarse al sistema o pelear por sus ideales hasta el final. En medio de este conflicto decide utilizar esa última semana de programa para bucear en el germen del cual surgió el rock en Hurlingham. Mientras tanto, iremos conociendo la vida de distintos músicos y personajes como Tito Fargo, Diego Arnedo, Jorge Gauto, Mario Ferraese, que estuvieron en aquellos años cuando el rock en Hurlingham todavía estaba por explotar."@es .
@@ -991,7 +997,7 @@ twss:MortalKombat a dbo:Film ;
         twss:NgChinHan,
         twss:TadanobuAsano ;
     dbo:title "MORTAL KOMBAT" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/mortal-kombat"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/mortal-kombat"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasShow twss:MortalKombat_show_1,
         twss:MortalKombat_show_10,
@@ -1079,7 +1085,7 @@ twss:Nadie a dbo:Film ;
         twss:PaulEssiembre,
         twss:StephanieSy ;
     dbo:title "NADIE" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/nadie"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/nadie"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:Nadie_trailer ;
     twss:synopsis "Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse los golpes de la vida. Un don nadie. Una noche, cuando dos ladrones entran en su casa, Hutch decide no actuar y no trata de defenderse ni al él mismo ni a su familia, convencido de que solo así evitará una escalada de violencia. Tras el ataque, su hija adolescente Blake no oculta su decepción, y su esposa Becca se aleja todavía más."@es .
@@ -1100,7 +1106,7 @@ twss:PanicoEnLasAlturas a dbo:Film ;
         twss:VictoriyaPyatakina,
         twss:VladimirGusev ;
     dbo:title "PÁNICO EN LAS ALTURAS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/panico-en-las-alturas"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/panico-en-las-alturas"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:PanicoEnLasAlturas_trailer ;
     twss:synopsis "Cinco jóvenes, deciden celebrar la víspera de Año Nuevo en la cima de una montaña, pero en su intento quedan atrapados en un teleférico. Lo que comenzó como una fiesta de aventura, pronto se convertirá en su peor pesadilla. El frío, la altura y el miedo a una muerte lenta hacen que revelen su verdadera esencia."@es .
@@ -1122,7 +1128,7 @@ twss:PequenosSecretos a dbo:Film ;
         twss:RamiMalek,
         twss:TerryKinney ;
     dbo:title "PEQUEÑOS SECRETOS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/pequenos-secretos"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/pequenos-secretos"^^xsd:anyUri ;
     twss:content_rating "P13R"^^xsd:string ;
     twss:hasShow twss:PequenosSecretos_show_1,
         twss:PequenosSecretos_show_10,
@@ -1157,7 +1163,7 @@ twss:PeterRabbit_ConejoEnFuga a dbo:Film ;
         twss:SamNeill,
         twss:Sia ;
     dbo:title "PETER RABBIT: CONEJO EN FUGA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/peter-rabbit-conejo-en-fuga"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/peter-rabbit-conejo-en-fuga"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:PeterRabbit_ConejoEnFuga_trailer ;
     twss:synopsis "Peter Rabbit no es un conejo cualquiera. Es un rebelde travieso y aventurero que viste camisa azul y no lleva pantalones. Peter vive junto a su familia y amigos, un grupo variopinto de animales que incluye incluso a un zorro. Todos ellos harán de las suyas en la granja de los McGregor, lugar en cuyo jardín disponen de deliciosos vegetales. Pero la disputa de Peter con el Sr. McGregor se intensificará más que nunca ya que ambos compiten por el afecto de Bea, una amante de los animales de buen corazón. La fiesta animal ha empezado, y esto es solo el principio."@es .
@@ -1178,7 +1184,7 @@ twss:RapidosYFuriosos9 a dbo:Film ;
         twss:TyreseGibson,
         twss:VinDiesel ;
     dbo:title "RÁPIDOS Y FURIOSOS 9" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/rapidos-y-furiosos-9"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/rapidos-y-furiosos-9"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:RapidosYFuriosos9_trailer ;
     twss:synopsis "No importa lo rápido que seas, nadie supera su pasado. RyF9 es el noveno capítulo de la Saga Rápidos & Furiosos, que comenzó hace casi 20 años y que ha recaudado más de cinco mil millones de dólares en todo el mundo. Dom Toretto, Vin Diesel, lleva una vida tranquila fuera de la red con Letty y su hijo, el pequeño Brian, pero saben que el peligro siempre acecha esa tranquilidad. Esta vez, esa amenaza obligará a Dom a enfrentar los pecados de su pasado si quiere salvar a los que más ama. El Equipo se vuelve a reunir para impedir un complot a escala mundial, liderado por uno de los asesinos más peligrosos y mejor conductor a los que jamás se han enfrentado; un hombre que además es el hermano desaparecido de Dom, Jakob (John Cena, El Escuadrón Suicida del próximo año)."@es .
@@ -1199,7 +1205,7 @@ twss:RuegaPorNosotros a dbo:Film ;
         twss:MarinaMazepa,
         twss:WilliamSadler ;
     dbo:title "RUEGA POR NOSOTROS" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/ruega-por-nosotros"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/ruega-por-nosotros"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:RuegaPorNosotros_trailer ;
     twss:synopsis "Muy pronto llega Ruega por Nosotros, que sigue a Alice, una joven con problemas de audición que, tras una supuesta visita de la Virgen María, es inexplicablemente capaz de oír, hablar y curar a los enfermos. A medida que se corre la voz y la gente de cerca y de lejos acude a presenciar sus milagros, un periodista caído en desgracia (Jeffrey Dean Morgan) con la esperanza de revivir su carrera visita el pequeño pueblo de Nueva Inglaterra para investigar. Cuando empiezan a suceder sucesos aterradores por todas partes, empieza a cuestionarse si estos fenómenos son obra de la Virgen María o de algo más siniestro. Ruega por Nosotros está producida por Sam Raimi, Rob Tapert y Evan Spiliotopoulos, escrita para la pantalla y dirigida por Evan Spiliotopoulos, y está basada en el best-seller de James Herbert Shrine."@es .
@@ -1224,7 +1230,7 @@ twss:SpaceJam_UnaNuevaEra a dbo:Film ;
         twss:SonequaMartin_Green,
         twss:Zendaya ;
     dbo:title "SPACE JAM: UNA NUEVA ERA" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/space-jam-una-nueva-era"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/space-jam-una-nueva-era"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:SpaceJam_UnaNuevaEra_trailer ;
     twss:synopsis "¡Bienvenido al partido del siglo! El campeón de la NBA e ícono mundial LeBron James se embarca en una aventura épica junto al Tune Bugs Bunny en el evento animado / de acción en vivo \"Space Jam: Una Nueva Era\", del director Malcolm D. Lee y un equipo de cine innovador que incluye a Ryan Coogler y Maverick Carter. Este viaje de transformación es el resultado de una mezcla maníaca entre dos mundos que, al final, revela hasta dónde están dispuestos a llegar algunos padres para conectar con sus hijos. Cuando LeBron y su pequeño hijo Dom quedan atrapados en un espacio digital por una IA (inteligencia artificial) deshonesta, LeBron debe regresarlos a casa sanos y salvos guiado por Bugs, Lola Bunny y a toda la banda de indisciplinados Looney Tunes hacia la victoria sobre los campeones digitalizados de la IA en la cancha: una lista mejorada de estrellas profesionales del basquetbol como nunca antes lo habías visto. Son Tunes versus Goons en el desafío más importante de su vida, que redefinirá el vínculo de LeBron con su hijo y arrojará luz sobre el poder de ser uno mismo. Todos listos para la acción destruyen las convenciones, potencian sus talentos únicos y sorprenden incluso al \"Rey\" James jugando basquetbol a su manera."@es .
@@ -1245,258 +1251,258 @@ twss:Spirit_ElIndomable a dbo:Film ;
         twss:MckennaGrace,
         twss:WaltonGoggins ;
     dbo:title "SPIRIT: EL INDOMABLE" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/spirit-el-indomable"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/spirit-el-indomable"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:Spirit_ElIndomable_trailer ;
     twss:synopsis "La vida de Lucky Prescott cambia para siempre cuando se muda de su casa en la gran ciudad a un pequeño pueblo fronterizo en el que entabla amistad con un caballo salvaje llamado Spirit."@es .
 
 twss:Tenet_review_1 a twss:movie_review ;
-    ns1:created "2021-03-12T09:03:06-08:00"^^xsd:dateTime ;
-    ns1:creator twss:TimRobey ;
-    ns1:publisher twss:Monocle ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_1_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-03-12T09:03:06-08:00"^^xsd:dateTime ;
+    ns3:creator twss:TimRobey ;
+    ns3:publisher twss:Monocle ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_1_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_1_rating ;
     twss:has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."@en .
 
 twss:Tenet_review_10 a twss:movie_review ;
-    ns1:created "2021-04-04T06:45:41-07:00"^^xsd:dateTime ;
-    ns1:creator twss:JeffreyOverstreet ;
-    ns1:publisher twss:LookingCloser ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_10_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-04-04T06:45:41-07:00"^^xsd:dateTime ;
+    ns3:creator twss:JeffreyOverstreet ;
+    ns3:publisher twss:LookingCloser ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_10_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_10_rating ;
     twss:has_body "Exhausted and disoriented by Nolan's curlicue-rollercoasters, we end up fooled into thinking we've been stirred when, in fact, we've mostly been shaken. "@en .
 
 twss:Tenet_review_11 a twss:movie_review ;
-    ns1:created "2021-04-01T23:27:01-07:00"^^xsd:dateTime ;
-    ns1:creator twss:NiallBrowne ;
-    ns1:publisher twss:MoviesInFocus ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_11_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-04-01T23:27:01-07:00"^^xsd:dateTime ;
+    ns3:creator twss:NiallBrowne ;
+    ns3:publisher twss:MoviesInFocus ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_11_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_11_rating ;
     twss:has_body "Christopher Nolan's Tenet is a film which can be enjoyed, but it's highly likely that you won't really understand it. It takes a lot of big ideas - and a lot of big moviemaking techniques to deliver a film which is mesmerising but very flawed."@en .
 
 twss:Tenet_review_12 a twss:movie_review ;
-    ns1:created "2021-03-24T02:56:12-07:00"^^xsd:dateTime ;
-    ns1:creator twss:DavidWalsh ;
-    ns1:publisher twss:WorldSocialistWebSite ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_12_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-03-24T02:56:12-07:00"^^xsd:dateTime ;
+    ns3:creator twss:DavidWalsh ;
+    ns3:publisher twss:WorldSocialistWebSite ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_12_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_12_rating ;
     twss:has_body "It is not so much a matter of criticizing Nolan's filmmaking, which is not very difficult to do. The important issue is to understand and criticize the conditions that produced his filmmaking ..."@en .
 
 twss:Tenet_review_13 a twss:movie_review ;
-    ns1:created "2021-03-19T07:06:29-07:00"^^xsd:dateTime ;
-    ns1:creator twss:VincentSchilling ;
-    ns1:publisher twss:IndianCountryToday ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_13_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-03-19T07:06:29-07:00"^^xsd:dateTime ;
+    ns3:creator twss:VincentSchilling ;
+    ns3:publisher twss:IndianCountryToday ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_13_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_13_rating ;
     twss:has_body "Led beautifully by protagonist John David Washington, 'Tenet', an exceptional action-packed film, dives into a concept of twisting time in a way never explored before. I'm adding this to my permanent library."@en .
 
 twss:Tenet_review_14 a twss:movie_review ;
-    ns1:created "2021-03-04T01:48:55-08:00"^^xsd:dateTime ;
-    ns1:creator twss:PabloOScholz ;
-    ns1:publisher twss:Clarin ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_14_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-03-04T01:48:55-08:00"^^xsd:dateTime ;
+    ns3:creator twss:PabloOScholz ;
+    ns3:publisher twss:Clarin ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_14_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_14_rating ;
     twss:has_body "[Has] perfectly orchestrated battle scenes. [Full review in Spanish]"@en .
 
 twss:Tenet_review_15 a twss:movie_review ;
-    ns1:created "2021-02-25T04:47:05-08:00"^^xsd:dateTime ;
-    ns1:creator twss:RobGonsalves ;
-    ns1:publisher twss:EfilmcriticCom ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_15_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-25T04:47:05-08:00"^^xsd:dateTime ;
+    ns3:creator twss:RobGonsalves ;
+    ns3:publisher twss:EfilmcriticCom ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_15_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_15_rating ;
     twss:has_body "It means what you want it to mean, and I don't want it to mean anything. It's just a ride."@en .
 
 twss:Tenet_review_16 a twss:movie_review ;
-    ns1:created "2021-02-21T02:08:15-08:00"^^xsd:dateTime ;
-    ns1:creator twss:MarkMeszoros ;
-    ns1:publisher twss:TheNews_HeraldWilloughbyOh ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_16_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-21T02:08:15-08:00"^^xsd:dateTime ;
+    ns3:creator twss:MarkMeszoros ;
+    ns3:publisher twss:TheNews_HeraldWilloughbyOh ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_16_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_16_rating ;
     twss:has_body "By the end of its two-and-a-half-hours, with all its bi-directional action, revelations and world-ending ramifications, it's a bit numbing, And you're pretty sure you can't wait to watch it again."@en .
 
 twss:Tenet_review_17 a twss:movie_review ;
-    ns1:created "2021-02-16T23:56:01-08:00"^^xsd:dateTime ;
-    ns1:creator twss:EddieHarrison ;
-    ns1:publisher twss:Film_AuthorityCom ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_17_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-16T23:56:01-08:00"^^xsd:dateTime ;
+    ns3:creator twss:EddieHarrison ;
+    ns3:publisher twss:Film_AuthorityCom ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_17_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_17_rating ;
     twss:has_body "...a high-faluting, high energy, uber-glam espionage thriller..."@en .
 
 twss:Tenet_review_18 a twss:movie_review ;
-    ns1:created "2021-02-14T05:38:59-08:00"^^xsd:dateTime ;
-    ns1:creator twss:TonyBlack ;
-    ns1:publisher twss:CulturalConversation ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_18_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-14T05:38:59-08:00"^^xsd:dateTime ;
+    ns3:creator twss:TonyBlack ;
+    ns3:publisher twss:CulturalConversation ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_18_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_18_rating ;
     twss:has_body "Just go with it. Allow the inversion to pull you along because it does, for the most part, make sense by the end."@en .
 
 twss:Tenet_review_19 a twss:movie_review ;
-    ns1:created "2021-02-12T21:17:39-08:00"^^xsd:dateTime ;
-    ns1:creator twss:AlixTurner ;
-    ns1:publisher twss:ReadySteadyCut ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_19_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-12T21:17:39-08:00"^^xsd:dateTime ;
+    ns3:creator twss:AlixTurner ;
+    ns3:publisher twss:ReadySteadyCut ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_19_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_19_rating ;
     twss:has_body "Huge scale, gripping and ambitious sci-fi spy thriller from Christopher Nolan, which simply has to be seen to be believed, and possibly seen more than once to be fully appreciated."@en .
 
 twss:Tenet_review_2 a twss:movie_review ;
-    ns1:created "2021-02-02T08:22:08-08:00"^^xsd:dateTime ;
-    ns1:creator twss:NickSchager ;
-    ns1:publisher twss:TheDailyBeast ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_2_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-02T08:22:08-08:00"^^xsd:dateTime ;
+    ns3:creator twss:NickSchager ;
+    ns3:publisher twss:TheDailyBeast ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_2_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_2_rating ;
     twss:has_body "Something like the epitome of [Nolan's] temporally twisty canon, distilling his many cinematic signatures and preoccupations down to their entrancing abstract essence."@en .
 
 twss:Tenet_review_20 a twss:movie_review ;
-    ns1:created "2021-02-10T05:47:24-08:00"^^xsd:dateTime ;
-    ns1:creator twss:BrianGill ;
-    ns1:publisher twss:MadAboutMoviesPodcast ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_20_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-10T05:47:24-08:00"^^xsd:dateTime ;
+    ns3:creator twss:BrianGill ;
+    ns3:publisher twss:MadAboutMoviesPodcast ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_20_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_20_rating ;
     twss:has_body "It's the most Nolan movie ever and I'm not sure it makes since but I was enthralled nonetheless. "@en .
 
 twss:Tenet_review_21 a twss:movie_review ;
-    ns1:created "2021-02-09T12:31:32-08:00"^^xsd:dateTime ;
-    ns1:creator twss:KathiaWoods ;
-    ns1:publisher twss:CupOfSoul ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_21_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-09T12:31:32-08:00"^^xsd:dateTime ;
+    ns3:creator twss:KathiaWoods ;
+    ns3:publisher twss:CupOfSoul ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_21_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_21_rating ;
     twss:has_body "The future is now or in the past "@en .
 
 twss:Tenet_review_22 a twss:movie_review ;
-    ns1:created "2021-02-05T04:53:07-08:00"^^xsd:dateTime ;
-    ns1:creator twss:AlexBentley ;
-    ns1:publisher twss:Culturemap ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_22_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-05T04:53:07-08:00"^^xsd:dateTime ;
+    ns3:creator twss:AlexBentley ;
+    ns3:publisher twss:Culturemap ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_22_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_22_rating ;
     twss:has_body "Nolan's obsession with making his films as complex as humanly possible is frustrating for those of us who would like at least a scintilla of clarity in our storytelling."@en .
 
 twss:Tenet_review_23 a twss:movie_review ;
-    ns1:created "2021-02-05T00:54:47-08:00"^^xsd:dateTime ;
-    ns1:creator twss:MaryannJohanson ;
-    ns1:publisher twss:FlickFilosopher ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_23_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-02-05T00:54:47-08:00"^^xsd:dateTime ;
+    ns3:creator twss:MaryannJohanson ;
+    ns3:publisher twss:FlickFilosopher ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_23_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_23_rating ;
     twss:has_body "Washington and Pattinson have palpable charisma, but this cold puzzle offers no incentive to solve it. Throw in damsel-in-distress crap, and both my geek sensibilities and my feminism are offended."@en .
 
 twss:Tenet_review_24 a twss:movie_review ;
-    ns1:created "2021-01-30T08:23:38-08:00"^^xsd:dateTime ;
-    ns1:creator twss:PjNabarro ;
-    ns1:publisher twss:PatrickNabarro ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_24_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-01-30T08:23:38-08:00"^^xsd:dateTime ;
+    ns3:creator twss:PjNabarro ;
+    ns3:publisher twss:PatrickNabarro ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_24_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_24_rating ;
     twss:has_body "Nolan's reverence for tech and the cleverness of pulling off a metaphysical narrative puzzle finally swamps his awareness of whether the thing in question is even any good."@en .
 
 twss:Tenet_review_25 a twss:movie_review ;
     dbo:Name "Be patient" ;
-    ns1:created "2020-09-12T00:00:00"^^xsd:dateTime ;
-    ns1:creator twss:Brandoncjenkins ;
-    ns1:language twss:English ;
-    ns1:source "https://www.imdb.com/title/tt6723592/"^^xsd:anyUri ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2020-09-12T00:00:00"^^xsd:dateTime ;
+    ns3:creator twss:Brandoncjenkins ;
+    ns3:language twss:English ;
+    ns3:source "https://www.imdb.com/title/tt6723592/"^^xsd:anyUri ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_25_rating ;
     twss:has_body "If you are expecting the adrenaline you got with Inception, look no further. If you are looking to be able to follow this film on the first viewing like you did with Inception, maybe not so much. I would put this film one level higher in complexity than Inception, as Inception was complex but pretty intuitive. This film CAN be intuitive, but unless you want to wait for the Blu Ray, you're going to have to shell out to see it multiple times to actually get a better understanding of the plot's finer points. A more logistical thing to comment on: it seems the audio mix is lacking. I originally thought it was my theater (voices seem to carry too much bass, making them hard to understand; however, Studio Movie Grill plays this film very, very loud, which I love because it makes the gunfire far more realistic), but others have complained about this as well. I am hoping that the blu ray will be remastered so that this is not an issue. With all this being said, be patient. This film is great and I have a strong feeling you will not be disappointed. It is classic Nolan doing what he does best. It is intricate, spares no expense, and it is by no means lazy. Once the BR comes out, it may actually turn into one his his best so far."@en .
 
 twss:Tenet_review_3 a twss:movie_review ;
-    ns1:created "2020-12-21T19:12:32-08:00"^^xsd:dateTime ;
-    ns1:creator twss:TimCogshell ;
-    ns1:publisher twss:FilmweekKpcc_NprLosAngeles ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_3_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2020-12-21T19:12:32-08:00"^^xsd:dateTime ;
+    ns3:creator twss:TimCogshell ;
+    ns3:publisher twss:FilmweekKpcc_NprLosAngeles ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_3_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_3_rating ;
     twss:has_body "[Christopher Nolan] is very clever, but mostly irritating is what I find. [His movies] are not cerebral - they're fake cerebral... He doesn't even do the time travel right. "@en .
 
 twss:Tenet_review_4 a twss:movie_review ;
-    ns1:created "2020-12-21T19:11:26-08:00"^^xsd:dateTime ;
-    ns1:creator twss:ChristyLemire ;
-    ns1:publisher twss:FilmweekKpcc_NprLosAngeles ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_4_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2020-12-21T19:11:26-08:00"^^xsd:dateTime ;
+    ns3:creator twss:ChristyLemire ;
+    ns3:publisher twss:FilmweekKpcc_NprLosAngeles ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_4_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_4_rating ;
     twss:has_body "I am a big fan of [Christopher Nolan's] films -- I usually enjoy the time puzzle of it -- but this seems even more intentionally inaccessible and challenging than everything else... Confusing, distancing, and chilly."@en .
 
 twss:Tenet_review_5 a twss:movie_review ;
-    ns1:created "2020-12-17T00:38:07-08:00"^^xsd:dateTime ;
-    ns1:creator twss:GAllenJohnson ;
-    ns1:publisher twss:SanFranciscoChronicle ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_5_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2020-12-17T00:38:07-08:00"^^xsd:dateTime ;
+    ns3:creator twss:GAllenJohnson ;
+    ns3:publisher twss:SanFranciscoChronicle ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_5_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_5_rating ;
     twss:has_body "\"Tenet\" is indeed impressive, although I gave up trying to follow the plot."@en .
 
 twss:Tenet_review_6 a twss:movie_review ;
-    ns1:created "2020-12-17T00:35:39-08:00"^^xsd:dateTime ;
-    ns1:creator twss:MickLasalle ;
-    ns1:publisher twss:SanFranciscoChronicle ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_6_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2020-12-17T00:35:39-08:00"^^xsd:dateTime ;
+    ns3:creator twss:MickLasalle ;
+    ns3:publisher twss:SanFranciscoChronicle ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_6_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_6_rating ;
     twss:has_body "\"Tenet\" is difficult to understand, but even worse, it inspires little desire to understand it."@en .
 
 twss:Tenet_review_7 a twss:movie_review ;
-    ns1:created "2021-05-10T08:21:54-07:00"^^xsd:dateTime ;
-    ns1:creator twss:AndrewKendall ;
-    ns1:publisher twss:StabroekNews ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_7_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-05-10T08:21:54-07:00"^^xsd:dateTime ;
+    ns3:creator twss:AndrewKendall ;
+    ns3:publisher twss:StabroekNews ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_7_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_7_rating ;
     twss:has_body "Even as Tenet engages in loads of hand-wringing about the implications the characters' actions have for the future, it's hard to really form any worry for that future that exists only in prolepsis."@en .
 
 twss:Tenet_review_8 a twss:movie_review ;
-    ns1:created "2021-05-05T07:06:53-07:00"^^xsd:dateTime ;
-    ns1:creator twss:NickLevine ;
-    ns1:publisher twss:Nme ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_8_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-05-05T07:06:53-07:00"^^xsd:dateTime ;
+    ns3:creator twss:NickLevine ;
+    ns3:publisher twss:Nme ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_8_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_8_rating ;
     twss:has_body "Though it's sometimes hamstrung by clumsy dialogue - a necessary evil, perhaps, given how much Nolan needs to explain - Tenet is rarely less than thrilling to watch."@en .
 
 twss:Tenet_review_9 a twss:movie_review ;
-    ns1:created "2021-04-16T18:44:49-07:00"^^xsd:dateTime ;
-    ns1:creator twss:RhysBowenJones ;
-    ns1:publisher twss:JumpcutOnline ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
-    ns2:hasManifestation twss:Tenet_review_9_site ;
-    ns4:realization twss:Tenet ;
+    ns3:created "2021-04-16T18:44:49-07:00"^^xsd:dateTime ;
+    ns3:creator twss:RhysBowenJones ;
+    ns3:publisher twss:JumpcutOnline ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns5:hasManifestation twss:Tenet_review_9_site ;
+    ns6:realization twss:Tenet ;
     twss:hasRating twss:Tenet_review_9_rating ;
     twss:has_body "Tenet is one of the most enthralling cinematic experiences I have had for years."@en .
 
@@ -1520,7 +1526,7 @@ twss:TomYJerry a dbo:Film ;
         twss:T_Pain,
         twss:WilliamHanna ;
     dbo:title "TOM Y JERRY" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/tom-y-jerry"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/tom-y-jerry"^^xsd:anyUri ;
     twss:content_rating "ATP"^^xsd:string ;
     twss:hasShow twss:TomYJerry_show_1,
         twss:TomYJerry_show_10,
@@ -1551,7 +1557,7 @@ twss:TopGun_Maverick a dbo:Film ;
         twss:TomCruise,
         twss:ValKilmer ;
     dbo:title "TOP GUN: MAVERICK" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/top-gun-maverick"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/top-gun-maverick"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:TopGun_Maverick_trailer ;
     twss:synopsis "Secuela de Top Gun. De acuerdo con la revista Variety, el propio Tom Cruise confirmó el 24 de mayo a una televisión australiana que el film se rodaría \"el año 2018\"."@es .
@@ -1574,7 +1580,7 @@ twss:UnaExtranaObsesion a dbo:Film ;
         twss:PierreGomme,
         twss:StephaneJobert ;
     dbo:title "UNA EXTRAÑA OBSESIÓN" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/una-extrana-obsesion"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/una-extrana-obsesion"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string .
 
 twss:Venom_CarnageLiberado a dbo:Film ;
@@ -1593,7 +1599,7 @@ twss:Venom_CarnageLiberado a dbo:Film ;
         twss:TomHolland,
         twss:WoodyHarrelson ;
     dbo:title "VENOM: CARNAGE LIBERADO" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/venom-carnage-liberado"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/venom-carnage-liberado"^^xsd:anyUri ;
     twss:content_rating "N/A"^^xsd:string ;
     twss:hasTrailer twss:Venom_CarnageLiberado_trailer ;
     twss:synopsis "El actor Tom Hardy, nominado a los Premios de la Academia, vuelve a la pantalla grande como el protector letal Venom, uno de los personajes más grandes y complejos de Marvel. Dirigida por Andy Serkis, la película también está protagonizada por Michelle Williams, Naomie Harris y presenta a Woody Harrelson, en el papel del villano Cletus Kasady/Carnage."@es .
@@ -1617,7 +1623,7 @@ twss:VioletEvergarden a dbo:Film ;
         twss:TakehitoKoyasu,
         twss:YuiIshikawa ;
     dbo:title "VIOLET EVERGARDEN" ;
-    ns1:source "https://www.cinepolis.com.ar/peliculas/violet-evergarden"^^xsd:anyUri ;
+    ns3:source "https://www.cinepolis.com.ar/peliculas/violet-evergarden"^^xsd:anyUri ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasShow twss:VioletEvergarden_show_1,
         twss:VioletEvergarden_show_10,
@@ -1639,257 +1645,257 @@ twss:VioletEvergarden a dbo:Film ;
     twss:synopsis "La película se sitúa varios años después del final de la guerra, ya que el mundo se está volviendo cada vez más pacífico. Un día, Violet Evergarden encuentra cierta carta."@es .
 
 twss:WonderWoman1984_review_1 a twss:movie_review ;
-    ns1:created "2021-02-01T04:29:30-08:00"^^xsd:dateTime ;
-    ns1:creator twss:SheriFlanders ;
-    ns1:publisher twss:ChicagoReader ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_1_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-01T04:29:30-08:00"^^xsd:dateTime ;
+    ns3:creator twss:SheriFlanders ;
+    ns3:publisher twss:ChicagoReader ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_1_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_1_rating ;
     twss:has_body "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads."@en .
 
 twss:WonderWoman1984_review_10 a twss:movie_review ;
-    ns1:created "2021-03-11T06:02:25-08:00"^^xsd:dateTime ;
-    ns1:creator twss:AndrewGaldi ;
-    ns1:publisher twss:MovieBitches ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_10_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-03-11T06:02:25-08:00"^^xsd:dateTime ;
+    ns3:creator twss:AndrewGaldi ;
+    ns3:publisher twss:MovieBitches ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_10_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_10_rating ;
     twss:has_body "There were just such gross failures of filmmaking..."@en .
 
 twss:WonderWoman1984_review_11 a twss:movie_review ;
-    ns1:created "2021-03-11T05:51:39-08:00"^^xsd:dateTime ;
-    ns1:creator twss:AvarylHalley ;
-    ns1:publisher twss:MovieBitches ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_11_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-03-11T05:51:39-08:00"^^xsd:dateTime ;
+    ns3:creator twss:AvarylHalley ;
+    ns3:publisher twss:MovieBitches ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_11_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_11_rating ;
     twss:has_body "At least \"Justice League\" had at the decency to be short"@en .
 
 twss:WonderWoman1984_review_12 a twss:movie_review ;
-    ns1:created "2021-03-01T08:14:02-08:00"^^xsd:dateTime ;
-    ns1:creator twss:NinaGarin ;
-    ns1:publisher twss:SanDiegoUnion_Tribune ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_12_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-03-01T08:14:02-08:00"^^xsd:dateTime ;
+    ns3:creator twss:NinaGarin ;
+    ns3:publisher twss:SanDiegoUnion_Tribune ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_12_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_12_rating ;
     twss:has_body "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. "@en .
 
 twss:WonderWoman1984_review_13 a twss:movie_review ;
-    ns1:created "2021-02-22T06:02:11-08:00"^^xsd:dateTime ;
-    ns1:creator twss:TonyMedley ;
-    ns1:publisher twss:TheLarchmontChronicle ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_13_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-22T06:02:11-08:00"^^xsd:dateTime ;
+    ns3:creator twss:TonyMedley ;
+    ns3:publisher twss:TheLarchmontChronicle ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_13_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_13_rating ;
     twss:has_body "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean."@en .
 
 twss:WonderWoman1984_review_14 a twss:movie_review ;
-    ns1:created "2021-02-21T08:36:54-08:00"^^xsd:dateTime ;
-    ns1:creator twss:SarahWard ;
-    ns1:publisher twss:ConcretePlayground ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_14_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-21T08:36:54-08:00"^^xsd:dateTime ;
+    ns3:creator twss:SarahWard ;
+    ns3:publisher twss:ConcretePlayground ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_14_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_14_rating ;
     twss:has_body "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down."@en .
 
 twss:WonderWoman1984_review_15 a twss:movie_review ;
-    ns1:created "2021-02-17T02:36:51-08:00"^^xsd:dateTime ;
-    ns1:creator twss:EricMarchen ;
-    ns1:publisher twss:UntitledMoviePodcast ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_15_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-17T02:36:51-08:00"^^xsd:dateTime ;
+    ns3:creator twss:EricMarchen ;
+    ns3:publisher twss:UntitledMoviePodcast ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_15_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_15_rating ;
     twss:has_body "Feels like this would be better suited for an episode of TV than a 2.5 hour film."@en .
 
 twss:WonderWoman1984_review_16 a twss:movie_review ;
-    ns1:created "2021-02-13T23:57:56-08:00"^^xsd:dateTime ;
-    ns1:creator twss:MarkMeszoros ;
-    ns1:publisher twss:TheNews_HeraldWilloughbyOh ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_16_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-13T23:57:56-08:00"^^xsd:dateTime ;
+    ns3:creator twss:MarkMeszoros ;
+    ns3:publisher twss:TheNews_HeraldWilloughbyOh ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_16_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_16_rating ;
     twss:has_body "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale."@en .
 
 twss:WonderWoman1984_review_17 a twss:movie_review ;
-    ns1:created "2021-02-11T02:38:41-08:00"^^xsd:dateTime ;
-    ns1:creator twss:JenniferOuellette ;
-    ns1:publisher twss:ArsTechnica ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_17_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-11T02:38:41-08:00"^^xsd:dateTime ;
+    ns3:creator twss:JenniferOuellette ;
+    ns3:publisher twss:ArsTechnica ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_17_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_17_rating ;
     twss:has_body "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing."@en .
 
 twss:WonderWoman1984_review_18 a twss:movie_review ;
-    ns1:created "2021-02-10T06:48:34-08:00"^^xsd:dateTime ;
-    ns1:creator twss:BrianGill ;
-    ns1:publisher twss:MadAboutMoviesPodcast ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_18_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-10T06:48:34-08:00"^^xsd:dateTime ;
+    ns3:creator twss:BrianGill ;
+    ns3:publisher twss:MadAboutMoviesPodcast ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_18_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_18_rating ;
     twss:has_body "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. "@en .
 
 twss:WonderWoman1984_review_19 a twss:movie_review ;
-    ns1:created "2021-02-07T19:57:42-08:00"^^xsd:dateTime ;
-    ns1:creator twss:EddieHarrison ;
-    ns1:publisher twss:Film_AuthorityCom ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_19_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-07T19:57:42-08:00"^^xsd:dateTime ;
+    ns3:creator twss:EddieHarrison ;
+    ns3:publisher twss:Film_AuthorityCom ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_19_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_19_rating ;
     twss:has_body "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..."@en .
 
 twss:WonderWoman1984_review_2 a twss:movie_review ;
-    ns1:created "2021-01-04T04:59:29-08:00"^^xsd:dateTime ;
-    ns1:creator twss:RaferGuzman ;
-    ns1:publisher twss:Newsday ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_2_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-01-04T04:59:29-08:00"^^xsd:dateTime ;
+    ns3:creator twss:RaferGuzman ;
+    ns3:publisher twss:Newsday ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_2_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_2_rating ;
     twss:has_body " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain."@en .
 
 twss:WonderWoman1984_review_20 a twss:movie_review ;
-    ns1:created "2021-02-05T19:46:31-08:00"^^xsd:dateTime ;
-    ns1:creator twss:IanSimmons ;
-    ns1:publisher twss:KickingTheSeat ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_20_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-05T19:46:31-08:00"^^xsd:dateTime ;
+    ns3:creator twss:IanSimmons ;
+    ns3:publisher twss:KickingTheSeat ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_20_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_20_rating ;
     twss:has_body "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here."@en .
 
 twss:WonderWoman1984_review_21 a twss:movie_review ;
-    ns1:created "2021-02-05T01:55:00-08:00"^^xsd:dateTime ;
-    ns1:creator twss:DanTabor ;
-    ns1:publisher twss:Phawker ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_21_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-05T01:55:00-08:00"^^xsd:dateTime ;
+    ns3:creator twss:DanTabor ;
+    ns3:publisher twss:Phawker ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_21_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_21_rating ;
     twss:has_body "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. "@en .
 
 twss:WonderWoman1984_review_22 a twss:movie_review ;
-    ns1:created "2021-02-02T10:00:09-08:00"^^xsd:dateTime ;
-    ns1:creator twss:MarkJackson ;
-    ns1:publisher twss:EpochTimes ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_22_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-02T10:00:09-08:00"^^xsd:dateTime ;
+    ns3:creator twss:MarkJackson ;
+    ns3:publisher twss:EpochTimes ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_22_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_22_rating ;
     twss:has_body "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown."@en .
 
 twss:WonderWoman1984_review_23 a twss:movie_review ;
-    ns1:created "2021-01-31T18:14:33-08:00"^^xsd:dateTime ;
-    ns1:creator twss:JohnMcdonald ;
-    ns1:publisher twss:AustralianFinancialReview ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_23_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-01-31T18:14:33-08:00"^^xsd:dateTime ;
+    ns3:creator twss:JohnMcdonald ;
+    ns3:publisher twss:AustralianFinancialReview ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_23_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_23_rating ;
     twss:has_body "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?"@en .
 
 twss:WonderWoman1984_review_24 a twss:movie_review ;
-    ns1:created "2021-01-31T17:01:54-08:00"^^xsd:dateTime ;
-    ns1:creator twss:MattNeal ;
-    ns1:publisher twss:AbcRadioAustralia ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_24_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-01-31T17:01:54-08:00"^^xsd:dateTime ;
+    ns3:creator twss:MattNeal ;
+    ns3:publisher twss:AbcRadioAustralia ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_24_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_24_rating ;
     twss:has_body " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful."@en .
 
 twss:WonderWoman1984_review_25 a twss:movie_review ;
     dbo:Name "Wow they let this director work on Star Wars?" ;
-    ns1:created "2021-02-12T00:00:00"^^xsd:dateTime ;
-    ns1:creator twss:Brian_In_80210 ;
-    ns1:language twss:English ;
-    ns1:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-02-12T00:00:00"^^xsd:dateTime ;
+    ns3:creator twss:Brian_In_80210 ;
+    ns3:language twss:English ;
+    ns3:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_25_rating ;
     twss:has_body "Didn't they learn from Rian johnson's fiasco?? WW 1984 is one of the worst movie I have ever seen. Don't waste your time and watch it. It's is very bad. Not worth to turn on the television. Gal Gadot should just take it off."@en .
 
 twss:WonderWoman1984_review_3 a twss:movie_review ;
-    ns1:created "2021-01-04T03:37:14-08:00"^^xsd:dateTime ;
-    ns1:creator twss:AmyNicholson ;
-    ns1:publisher twss:FilmweekKpcc_NprLosAngeles ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_3_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-01-04T03:37:14-08:00"^^xsd:dateTime ;
+    ns3:creator twss:AmyNicholson ;
+    ns3:publisher twss:FilmweekKpcc_NprLosAngeles ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_3_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_3_rating ;
     twss:has_body "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this."@en .
 
 twss:WonderWoman1984_review_4 a twss:movie_review ;
-    ns1:created "2020-12-29T12:09:48-08:00"^^xsd:dateTime ;
-    ns1:creator twss:StephenRomei ;
-    ns1:publisher twss:TheAustralian ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_4_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2020-12-29T12:09:48-08:00"^^xsd:dateTime ;
+    ns3:creator twss:StephenRomei ;
+    ns3:publisher twss:TheAustralian ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_4_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_4_rating ;
     twss:has_body "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. "@en .
 
 twss:WonderWoman1984_review_5 a twss:movie_review ;
-    ns1:created "2020-12-28T07:49:06-08:00"^^xsd:dateTime ;
-    ns1:creator twss:JakeWilson ;
-    ns1:publisher twss:TheAgeAustralia ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_5_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2020-12-28T07:49:06-08:00"^^xsd:dateTime ;
+    ns3:creator twss:JakeWilson ;
+    ns3:publisher twss:TheAgeAustralia ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_5_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_5_rating ;
     twss:has_body "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel."@en .
 
 twss:WonderWoman1984_review_6 a twss:movie_review ;
-    ns1:created "2020-12-28T07:45:33-08:00"^^xsd:dateTime ;
-    ns1:creator twss:DavidSims ;
-    ns1:publisher twss:TheAtlantic ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_6_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2020-12-28T07:45:33-08:00"^^xsd:dateTime ;
+    ns3:creator twss:DavidSims ;
+    ns3:publisher twss:TheAtlantic ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_6_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_6_rating ;
     twss:has_body "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema."@en .
 
 twss:WonderWoman1984_review_7 a twss:movie_review ;
-    ns1:created "2021-04-03T14:11:59-07:00"^^xsd:dateTime ;
-    ns1:creator twss:KevinCarr ;
-    ns1:publisher twss:FatGuysAtTheMovies ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_7_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-04-03T14:11:59-07:00"^^xsd:dateTime ;
+    ns3:creator twss:KevinCarr ;
+    ns3:publisher twss:FatGuysAtTheMovies ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_7_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_7_rating ;
     twss:has_body "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works."@en .
 
 twss:WonderWoman1984_review_8 a twss:movie_review ;
-    ns1:created "2021-03-23T10:02:10-07:00"^^xsd:dateTime ;
-    ns1:creator twss:DavidBax ;
-    ns1:publisher twss:BattleshipPretension ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_8_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-03-23T10:02:10-07:00"^^xsd:dateTime ;
+    ns3:creator twss:DavidBax ;
+    ns3:publisher twss:BattleshipPretension ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_8_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_8_rating ;
     twss:has_body "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks."@en .
 
 twss:WonderWoman1984_review_9 a twss:movie_review ;
-    ns1:created "2021-03-20T08:54:50-07:00"^^xsd:dateTime ;
-    ns1:creator twss:ValerieKalfrin ;
-    ns1:publisher twss:TheirOwnLeague ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
-    ns2:hasManifestation twss:WonderWoman1984_review_9_site ;
-    ns4:realization twss:WonderWoman1984 ;
+    ns3:created "2021-03-20T08:54:50-07:00"^^xsd:dateTime ;
+    ns3:creator twss:ValerieKalfrin ;
+    ns3:publisher twss:TheirOwnLeague ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns5:hasManifestation twss:WonderWoman1984_review_9_site ;
+    ns6:realization twss:WonderWoman1984 ;
     twss:hasRating twss:WonderWoman1984_review_9_rating ;
     twss:has_body "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey."@en .
 
 twss:bestRating a owl:DatatypeProperty ;
-    rdfs:domain ns3:Rating ;
+    rdfs:domain ns10:Rating ;
     rdfs:range xsd:double .
 
 twss:cinema a owl:ObjectProperty ;
@@ -1906,7 +1912,7 @@ twss:hasCharacter a owl:ObjectProperty ;
 
 twss:hasRating a owl:ObjectProperty ;
     rdfs:domain twss:movie_review ;
-    rdfs:range ns3:Rating .
+    rdfs:range ns10:Rating .
 
 twss:hasShow a owl:ObjectProperty ;
     rdfs:domain dbo:Film ;
@@ -1923,7 +1929,7 @@ twss:keyword a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 twss:ratingValue a owl:DatatypeProperty ;
-    rdfs:domain ns3:Rating ;
+    rdfs:domain ns10:Rating ;
     rdfs:range xsd:double .
 
 twss:room a owl:ObjectProperty ;
@@ -1936,13 +1942,13 @@ twss:synopsis a owl:DatatypeProperty ;
 twss:tenet_review_1 a owl:NamedIndividual,
         twss:movie_review ;
     dbo:Name "review example name" ;
-    ns1:created "2021-04-06T19:40:00"^^xsd:dateTime ;
-    ns1:creator twss:tenet_review_1_author ;
-    ns1:language twss:inglés ;
-    ns1:publisher twss:monocle ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
-    ns2:hasManifestation twss:tenet_review_1_site ;
-    ns4:realization twss:tenet ;
+    ns3:created "2021-04-06T19:40:00"^^xsd:dateTime ;
+    ns3:creator twss:tenet_review_1_author ;
+    ns3:language twss:inglés ;
+    ns3:publisher twss:monocle ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyURI ;
+    ns5:hasManifestation twss:tenet_review_1_site ;
+    ns6:realization twss:tenet ;
     twss:hasRating twss:tenet_review_1_rating_1 ;
     twss:has_body "As a delivery system for the thrills, I think the film gets a long way, and you can kind of sit back and enjoy it. As a delivery system for the ideas, I think it trips itself up an awful lot."^^xsd:string .
 
@@ -1950,13 +1956,13 @@ twss:url a owl:DatatypeProperty ;
     rdfs:range xsd:anyURI .
 
 twss:worstRating a owl:DatatypeProperty ;
-    rdfs:domain ns3:Rating ;
+    rdfs:domain ns10:Rating ;
     rdfs:range xsd:double .
 
-ns3:ratingCount rdfs:domain ns3:AggregateRating ;
+ns10:ratingCount rdfs:domain ns10:AggregateRating ;
     rdfs:range xsd:integer .
 
-ns3:reviewCount rdfs:domain ns3:AggregateRating ;
+ns10:reviewCount rdfs:domain ns10:AggregateRating ;
     rdfs:range xsd:integer .
 
 twss:007_SinTiempoParaMorir_trailer a twss:trailer ;
@@ -2926,7 +2932,287 @@ twss:DavidSims a dbo:Person ;
     twss:url "https://www.rottentomatoes.com/critic/david-sims"^^xsd:anyUri .
 
 twss:DavidWalsh a dbo:Person ;
+    rdfs:label "David Walsh"@aa,
+        "David Walsh"@ace,
+        "David Walsh"@af,
+        "David Walsh"@ak,
+        "David Walsh"@aln,
+        "David Walsh"@an,
+        "David Walsh"@ang,
+        "David Walsh"@arn,
+        "David Walsh"@ast,
+        "David Walsh"@ay,
+        "David Walsh"@az,
+        "David Walsh"@bar,
+        "David Walsh"@bcl,
+        "David Walsh"@bi,
+        "David Walsh"@bjn,
+        "David Walsh"@bm,
+        "David Walsh"@br,
+        "David Walsh"@brh,
+        "David Walsh"@bs,
+        "David Walsh"@ca,
+        "David Walsh"@cbk-zam,
+        "David Walsh"@cdo,
+        "David Walsh"@ceb,
+        "David Walsh"@ch,
+        "David Walsh"@cho,
+        "David Walsh"@chr,
+        "David Walsh"@chy,
+        "David Walsh"@co,
+        "David Walsh"@cr,
+        "David Walsh"@crh-latn,
+        "David Walsh"@cs,
+        "David Walsh"@csb,
+        "David Walsh"@cu,
+        "David Walsh"@cy,
+        "David Walsh"@da,
+        "David Walsh"@de,
+        "David Walsh"@de-at,
+        "David Walsh"@de-ch,
+        "David Walsh"@diq,
+        "David Walsh"@dsb,
+        "David Walsh"@dtp,
+        "David Walsh"@ee,
+        "David Walsh"@eml,
+        "David Walsh"@en,
+        "David Walsh"@en-ca,
+        "David Walsh"@en-gb,
+        "David Walsh"@eo,
+        "David Walsh"@es,
+        "David Walsh"@et,
+        "David Walsh"@eu,
+        "David Walsh"@ext,
+        "David Walsh"@ff,
+        "David Walsh"@fi,
+        "David Walsh"@fit,
+        "David Walsh"@fj,
+        "David Walsh"@fo,
+        "David Walsh"@fr,
+        "David Walsh"@frp,
+        "David Walsh"@frr,
+        "David Walsh"@fur,
+        "David Walsh"@fy,
+        "David Walsh"@ga,
+        "David Walsh"@gag,
+        "David Walsh"@gd,
+        "David Walsh"@gl,
+        "David Walsh"@gn,
+        "David Walsh"@got,
+        "David Walsh"@gsw,
+        "David Walsh"@gv,
+        "David Walsh"@ha,
+        "David Walsh"@hak,
+        "David Walsh"@haw,
+        "David Walsh"@hif,
+        "David Walsh"@hif-latn,
+        "David Walsh"@ho,
+        "David Walsh"@hr,
+        "David Walsh"@hsb,
+        "David Walsh"@ht,
+        "David Walsh"@hu,
+        "David Walsh"@hz,
+        "David Walsh"@ia,
+        "David Walsh"@id,
+        "David Walsh"@ie,
+        "David Walsh"@ig,
+        "David Walsh"@ik,
+        "David Walsh"@ike-latn,
+        "David Walsh"@ilo,
+        "David Walsh"@io,
+        "David Walsh"@is,
+        "David Walsh"@it,
+        "David Walsh"@iu,
+        "David Walsh"@jam,
+        "David Walsh"@jbo,
+        "David Walsh"@jv,
+        "David Walsh"@kaa,
+        "David Walsh"@kab,
+        "David Walsh"@kg,
+        "David Walsh"@ki,
+        "David Walsh"@kj,
+        "David Walsh"@kk-latn,
+        "David Walsh"@kk-tr,
+        "David Walsh"@kl,
+        "David Walsh"@kr,
+        "David Walsh"@krj,
+        "David Walsh"@ksh,
+        "David Walsh"@ku,
+        "David Walsh"@ku-latn,
+        "David Walsh"@kw,
+        "David Walsh"@la,
+        "David Walsh"@lad,
+        "David Walsh"@lb,
+        "David Walsh"@lfn,
+        "David Walsh"@lg,
+        "David Walsh"@li,
+        "David Walsh"@lij,
+        "David Walsh"@lmo,
+        "David Walsh"@ln,
+        "David Walsh"@lo,
+        "David Walsh"@loz,
+        "David Walsh"@lt,
+        "David Walsh"@ltg,
+        "David Walsh"@lus,
+        "David Walsh"@luz,
+        "David Walsh"@lv,
+        "David Walsh"@lzz,
+        "David Walsh"@map-bms,
+        "David Walsh"@mg,
+        "David Walsh"@mh,
+        "David Walsh"@mi,
+        "David Walsh"@min,
+        "David Walsh"@mo,
+        "David Walsh"@ms,
+        "David Walsh"@mt,
+        "David Walsh"@mus,
+        "David Walsh"@mwl,
+        "David Walsh"@my,
+        "David Walsh"@na,
+        "David Walsh"@nah,
+        "David Walsh"@nap,
+        "David Walsh"@nb,
+        "David Walsh"@nds,
+        "David Walsh"@nds-nl,
+        "David Walsh"@ng,
+        "David Walsh"@nl,
+        "David Walsh"@nn,
+        "David Walsh"@nov,
+        "David Walsh"@nrm,
+        "David Walsh"@nso,
+        "David Walsh"@nv,
+        "David Walsh"@ny,
+        "David Walsh"@oc,
+        "David Walsh"@om,
+        "David Walsh"@pag,
+        "David Walsh"@pam,
+        "David Walsh"@pap,
+        "David Walsh"@pcd,
+        "David Walsh"@pdc,
+        "David Walsh"@pdt,
+        "David Walsh"@pfl,
+        "David Walsh"@pih,
+        "David Walsh"@pl,
+        "David Walsh"@pms,
+        "David Walsh"@prg,
+        "David Walsh"@pt,
+        "David Walsh"@pt-br,
+        "David Walsh"@qu,
+        "David Walsh"@qug,
+        "David Walsh"@rif,
+        "David Walsh"@rm,
+        "David Walsh"@rmy,
+        "David Walsh"@rn,
+        "David Walsh"@ro,
+        "David Walsh"@roa-tara,
+        "David Walsh"@rup,
+        "David Walsh"@ruq-latn,
+        "David Walsh"@rw,
+        "David Walsh"@sat,
+        "David Walsh"@sc,
+        "David Walsh"@scn,
+        "David Walsh"@sco,
+        "David Walsh"@sdc,
+        "David Walsh"@se,
+        "David Walsh"@sei,
+        "David Walsh"@sg,
+        "David Walsh"@sgs,
+        "David Walsh"@sh,
+        "David Walsh"@shi-latn,
+        "David Walsh"@sk,
+        "David Walsh"@sl,
+        "David Walsh"@sli,
+        "David Walsh"@sm,
+        "David Walsh"@sma,
+        "David Walsh"@sn,
+        "David Walsh"@so,
+        "David Walsh"@sq,
+        "David Walsh"@sr-el,
+        "David Walsh"@srn,
+        "David Walsh"@ss,
+        "David Walsh"@st,
+        "David Walsh"@stq,
+        "David Walsh"@su,
+        "David Walsh"@sv,
+        "David Walsh"@sw,
+        "David Walsh"@szl,
+        "David Walsh"@tet,
+        "David Walsh"@tg-latn,
+        "David Walsh"@tk,
+        "David Walsh"@tl,
+        "David Walsh"@tn,
+        "David Walsh"@to,
+        "David Walsh"@tpi,
+        "David Walsh"@tr,
+        "David Walsh"@tru,
+        "David Walsh"@ts,
+        "David Walsh"@tt,
+        "David Walsh"@tt-latn,
+        "David Walsh"@tum,
+        "David Walsh"@tw,
+        "David Walsh"@ty,
+        "David Walsh"@ug-latn,
+        "David Walsh"@uz,
+        "David Walsh"@ve,
+        "David Walsh"@vec,
+        "David Walsh"@vep,
+        "David Walsh"@vi,
+        "David Walsh"@vls,
+        "David Walsh"@vmf,
+        "David Walsh"@vo,
+        "David Walsh"@vot,
+        "David Walsh"@wa,
+        "David Walsh"@war,
+        "David Walsh"@wo,
+        "David Walsh"@xh,
+        "David Walsh"@yo,
+        "David Walsh"@za,
+        "David Walsh"@zea,
+        "David Walsh"@zu ;
     dbo:Name "David Walsh" ;
+    ns1:dateModified "2021-04-05T13:15:48+00:00"^^xsd:dateTime ;
+    ns1:description "xugador de bádminton irlandés"@ast,
+        "ব্যাডমিন্টন খেলোয়াড়"@bn,
+        "jugador de bàdminton irlandès"@ca,
+        "irischer Badmintonspieler"@de,
+        "badminton player"@en,
+        "badmintonista irlandés"@es,
+        "badminton jokalari irlandarra"@eu,
+        "joueur de badminton irlandais"@fr,
+        "imreoir badmantain"@ga,
+        "badmintonista irlandés"@gl,
+        "giocatore di badminton irlandese"@it,
+        "badmintonner uit Ierland"@nl,
+        "jogador de badminton irlandês"@pt ;
+    ns1:version 1396338971 ;
+    ns7:identifiers 2 ;
+    ns7:sitelinks 0 ;
+    ns7:statements 12 ;
+    ns7:timestamp "2021-04-12T10:53:34+00:00"^^xsd:dateTime ;
+    ns2:P106 <http://www.wikidata.org/entity/statement/Q55739813-D7FA74EC-530B-460F-ACD0-B3B7EC957634> ;
+    ns2:P1532 <http://www.wikidata.org/entity/statement/Q55739813-D8CC01C4-B9CA-42C7-8EDB-CEE211D49D88> ;
+    ns2:P1559 <http://www.wikidata.org/entity/statement/Q55739813-E584787C-83D3-48A1-8C74-C433BDA18BBB> ;
+    ns2:P21 <http://www.wikidata.org/entity/statement/Q55739813-585a875f-46ea-a301-2325-08e4690e7041> ;
+    ns2:P27 <http://www.wikidata.org/entity/statement/Q55739813-87445f69-4923-f315-c24d-124f1a0cae57> ;
+    ns2:P2729 <http://www.wikidata.org/entity/statement/Q55739813-bf0be962-42b2-c922-a7b4-9f7828ef2f71> ;
+    ns2:P31 <http://www.wikidata.org/entity/statement/Q55739813-FD4C7DFF-E13C-414F-8A42-D7BDFF601401> ;
+    ns2:P3620 <http://www.wikidata.org/entity/statement/Q55739813-5e5be95b-4530-e0cd-88a8-5914d9abc339> ;
+    ns2:P569 <http://www.wikidata.org/entity/statement/Q55739813-812d0aec-4564-1f31-ff98-8530597eac14> ;
+    ns2:P641 <http://www.wikidata.org/entity/statement/Q55739813-6A3FD1D9-3F12-45E5-BE35-122FD5A8E17D> ;
+    ns2:P734 <http://www.wikidata.org/entity/statement/Q55739813-F57C9A86-560E-47EC-805F-FF195A4075D4> ;
+    ns2:P735 <http://www.wikidata.org/entity/statement/Q55739813-86172bbd-44aa-66e7-1ebf-e1c68e3eb5d0> ;
+    ns4:P106 wd:Q13141064 ;
+    ns4:P1532 wd:Q27 ;
+    ns4:P1559 "David Walsh"@en ;
+    ns4:P21 wd:Q6581097 ;
+    ns4:P27 wd:Q27 ;
+    ns4:P2729 "E3C12BA3-0226-4991-9162-958AB92D5CE9"^^xsd:string ;
+    ns4:P31 wd:Q5 ;
+    ns4:P3620 "93747"^^xsd:string ;
+    ns4:P569 "1994-05-23T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P641 wd:Q7291 ;
+    ns4:P734 wd:Q7963813 ;
+    ns4:P735 wd:Q18057751 ;
     twss:url "https://www.rottentomatoes.com/critic/david-walsh"^^xsd:anyUri .
 
 twss:DeborahFrancois a dbo:Actor ;
@@ -4702,7 +4988,230 @@ twss:JohnLeeHancock a dbo:MovieDirector ;
     dbo:Name "John Lee Hancock" .
 
 twss:JohnMcdonald a dbo:Person ;
+    rdfs:label "جون مكدونالد"@ar,
+        "جون مكدونالد (سياسي أمريكي، مواليد 1930)"@ar,
+        "جون مكدونالد"@arz,
+        "جون مكدونالد هينديرسون"@arz,
+        "John McDonald"@ast,
+        "John McDonald Henderson"@ast,
+        "جان مکدونالد (سیاستچی)"@azb,
+        "John McDonald"@bar,
+        "John McDonald"@ca,
+        "John McDonald Henderson"@ca,
+        "John McDonald (Maryland politician)"@cs,
+        "John McDonald (Ohio politician)"@cs,
+        "John McDonald"@da,
+        "John McDonald (Ohio politician)"@da,
+        "John McDonald Henderson"@da,
+        "John McDonald"@de,
+        "John McDonald Henderson"@de,
+        "John McDonald"@en,
+        "John McDonald Henderson"@en,
+        "John McDonald"@es,
+        "John McDonald Henderson"@es,
+        "جان مکدانلد"@fa,
+        "John McDonald (Maryland politician)"@fi,
+        "John McDonald (Ohio politician)"@fi,
+        "John McDonald"@fr,
+        "John McDonald Henderson"@fr,
+        "John McDonald"@hu,
+        "John McDonald Henderson"@hu,
+        "John McDonald"@it,
+        "John McDonald"@lb,
+        "John McDonald"@nb,
+        "John McDonald (Ohio politician)"@nb,
+        "John McDonald Henderson"@nb,
+        "John McDonald"@nds,
+        "John McDonald"@nl,
+        "John McDonald (Ohio politician)"@nl,
+        "John McDonald Henderson"@nl,
+        "John McDonald"@nn,
+        "John McDonald Henderson"@nn,
+        "John McDonald"@pap,
+        "John McDonald (Ohio politician)"@pap,
+        "John McDonald"@pl,
+        "John McDonald (Ohio politician)"@pl,
+        "John McDonald (Maryland politician)"@pt,
+        "John McDonald (Ohio politician)"@pt,
+        "Джон МакДональд"@ru,
+        "John McDonald"@sl,
+        "John McDonald Henderson"@sl,
+        "John McDonald"@sv,
+        "John McDonald (Ohio politician)"@sv,
+        "John McDonald Henderson"@sv ;
     dbo:Name "John McDonald" ;
+    ns1:dateModified "2020-12-01T09:57:00+00:00"^^xsd:dateTime,
+        "2021-04-20T03:28:34+00:00"^^xsd:dateTime,
+        "2021-06-01T05:26:02+00:00"^^xsd:dateTime ;
+    ns1:description "سياسي بريطاني"@ar,
+        "سياسي من الولايات المتحدة الأمريكية"@ar,
+        "políticu estauxunidense"@ast,
+        "políticu estauxunidense (1837–1917)"@ast,
+        "ব্রিটিশ রাজনীতিবিদ"@bn,
+        "polític britànic"@ca,
+        "polític estatunidenc (1837-1917)"@ca,
+        "polític estatunidenc (1930-)"@ca,
+        "amerikansk politiker"@da,
+        "US-amerikanischer Politiker"@de,
+        "amerikanischer Politiker (20. Jahrhundert)"@de,
+        "britischer Politiker"@de,
+        "American soldier and politician from Maryland"@en,
+        "British politician"@en,
+        "Democratic politician who formerly served in the Ohio General Assembly"@en,
+        "British politician"@en-ca,
+        "British politician"@en-gb,
+        "político británico"@es,
+        "político estadounidense (1837-1917)"@es,
+        "político estadounidense (1930-)"@es,
+        "Suurbritannia poliitik"@et,
+        "politikari estatubatuarra (1837-1917)"@eu,
+        "politikari estatubatuarra (1930-)"@eu,
+        "سیاستمدار آمریکایی"@fa,
+        "brittiläinen poliitikko"@fi,
+        "yhdysvaltalainen poliitikko"@fi,
+        "personnalité politique britannique"@fr,
+        "politicien américain"@fr,
+        "politicien américain (20ème siècle)"@fr,
+        "político británico"@gl,
+        "político estadounidense (1837-1917)"@gl,
+        "político estadounidense (1930-)"@gl,
+        "פוליטיקאי בריטי"@he,
+        "politico statunitense"@it,
+        "politico statunitense (1930-)"@it,
+        "amerikanesche Politiker"@lb,
+        "Amerikos politikas"@lt,
+        "amerikansk politiker"@nb,
+        "US-amerikaanschen Politiker"@nds,
+        "Amerikaans politicus"@nl,
+        "Amerikaans politicus (1837-1917)"@nl,
+        "Brits barrister (-1922)"@nl,
+        "amerikansk politikar"@nn,
+        "politiko merikano"@pap,
+        "político americano"@pt,
+        "político norte-americano (1930-)"@pt,
+        "politician britanic"@ro,
+        "politikan britanik"@sq,
+        "amerikansk politiker"@sv,
+        "британський політик"@uk ;
+    ns1:version 1316206449,
+        1404931329,
+        1432810891 ;
+    ns7:identifiers 1,
+        4 ;
+    ns7:sitelinks 2,
+        6 ;
+    ns7:statements 13,
+        21,
+        24 ;
+    ns7:timestamp "2021-04-20T03:28:36+00:00"^^xsd:dateTime,
+        "2021-06-01T05:26:05+00:00"^^xsd:dateTime ;
+    ns9:altLabel "John Henderson"@en ;
+    ns2:P102 <http://www.wikidata.org/entity/statement/Q2514142-699E9D0F-B519-409D-9FD6-F138C03C36DF>,
+        <http://www.wikidata.org/entity/statement/Q6247633-0E6DB2F1-E4BE-4292-9B26-958A23994FF6>,
+        <http://www.wikidata.org/entity/statement/Q6247652-87D6A454-8570-466C-8E73-46A3A8F604B5> ;
+    ns2:P106 <http://www.wikidata.org/entity/statement/Q6247652-5D6E9625-81AB-4031-9035-79307190F182>,
+        <http://www.wikidata.org/entity/statement/Q6247652-982CAEAF-1539-4C7B-B430-F4669C924C00>,
+        <http://www.wikidata.org/entity/statement/q2514142-645620B1-E808-4852-9BED-69E09AE8D7E7>,
+        <http://www.wikidata.org/entity/statement/q6247633-F70437F7-BC7A-4FA4-8AFE-8A92747A5755> ;
+    ns2:P1157 <http://www.wikidata.org/entity/statement/Q2514142-2352888d-47fc-86ab-63b3-189d318e8085> ;
+    ns2:P1412 <http://www.wikidata.org/entity/statement/Q2514142-611EAD0B-30EA-48E2-90E6-76751131FA16>,
+        <http://www.wikidata.org/entity/statement/Q6247633-B2705ACE-BC15-4AF1-84AC-0647F4FF6EE1>,
+        <http://www.wikidata.org/entity/statement/Q6247652-1E7FD2D7-7BB4-4DE5-B01B-49BCAAA9F4F5> ;
+    ns2:P1559 <http://www.wikidata.org/entity/statement/Q2514142-8DA3FDBC-5722-4BDB-87D4-632148ED2E99>,
+        <http://www.wikidata.org/entity/statement/Q6247633-FF198386-35E7-4220-9719-0C774A827B4C>,
+        <http://www.wikidata.org/entity/statement/Q6247652-8C4986CF-09FA-4485-B3B5-1DE169D33DE6> ;
+    ns2:P18 <http://www.wikidata.org/entity/statement/Q2514142-c8ed3ede-4d14-da65-76af-542936119229> ;
+    ns2:P19 <http://www.wikidata.org/entity/statement/q2514142-6F4376E1-78F1-40F4-A602-88387B4E881A> ;
+    ns2:P20 <http://www.wikidata.org/entity/statement/q2514142-8E6313D8-4FB0-49AA-8AA6-EB7561E27F13> ;
+    ns2:P2015 <http://www.wikidata.org/entity/statement/Q6247652-7C7B44AA-BFC8-463F-95B4-5A2DAA916E60> ;
+    ns2:P21 <http://www.wikidata.org/entity/statement/Q6247652-1BA46CD4-1052-4CF9-8616-251761E9CFD1>,
+        <http://www.wikidata.org/entity/statement/q2514142-F5C45B3C-D3AF-4B69-96D7-0C7E1F691D04>,
+        <http://www.wikidata.org/entity/statement/q6247633-5A468432-9ED0-4973-A9F0-57A409879DD9> ;
+    ns2:P27 <http://www.wikidata.org/entity/statement/Q6247633-1200DE51-5743-49B0-998D-6469A2A42609>,
+        <http://www.wikidata.org/entity/statement/Q6247652-7439EB31-2420-4EB4-85DF-20734D02FDB3>,
+        <http://www.wikidata.org/entity/statement/q2514142-77CEFCE8-9686-4381-9CEA-6428EDE0CDF1> ;
+    ns2:P31 <http://www.wikidata.org/entity/statement/Q2514142-4979E387-DA0B-4C4A-BDEF-131BD56E6D0D>,
+        <http://www.wikidata.org/entity/statement/Q6247633-C2E39D24-0EEF-49E2-99DD-51FED118BA4A>,
+        <http://www.wikidata.org/entity/statement/Q6247652-B7FBD80D-B530-4BBD-942F-CC5B7B65AE62> ;
+    ns2:P3602 <http://www.wikidata.org/entity/statement/Q6247652-230DA6AE-CE00-4E23-B106-F4466FD2D787>,
+        <http://www.wikidata.org/entity/statement/Q6247652-B23D8626-B048-4361-A335-925131AC42E8>,
+        <http://www.wikidata.org/entity/statement/Q6247652-E4562FB0-3070-46E4-8FC4-562A6E9421FF> ;
+    ns2:P39 <http://www.wikidata.org/entity/statement/Q2514142-BFF18A09-303E-479F-929E-AFDFDFAD1B4B>,
+        <http://www.wikidata.org/entity/statement/Q6247633-6263BBC6-72F1-4353-B7DA-FD64CD946822>,
+        <http://www.wikidata.org/entity/statement/Q6247652-0AE533F3-DA80-430E-8A17-79E8D4E12384>,
+        <http://www.wikidata.org/entity/statement/Q6247652-651406A9-152B-48DA-AD72-0698B33D7602>,
+        <http://www.wikidata.org/entity/statement/Q6247652-D97B6FFD-3600-4BE4-96A4-6A3EC501E655>,
+        <http://www.wikidata.org/entity/statement/q2514142-F4165DD6-5518-4371-8F11-C17D64CF1AF1> ;
+    ns2:P4471 <http://www.wikidata.org/entity/statement/Q6247652-0E9B9C4A-0523-4A72-BE42-BA134CB49594> ;
+    ns2:P463 <http://www.wikidata.org/entity/statement/Q6247652-DD5E7698-3E43-4E8D-8676-F728C8C0244B> ;
+    ns2:P4789 <http://www.wikidata.org/entity/statement/Q6247652-1f1ca764-4e64-5dc0-db10-8e89845797d9> ;
+    ns2:P535 <http://www.wikidata.org/entity/statement/Q2514142-ee9059de-4e1a-8570-de59-13ed85cc4bda> ;
+    ns2:P569 <http://www.wikidata.org/entity/statement/Q2514142-4EE46BB2-F091-4F22-8132-D8A4111B46F2>,
+        <http://www.wikidata.org/entity/statement/Q6247633-25EEE797-6C81-46C5-8AEB-3FA1B0C406F8>,
+        <http://www.wikidata.org/entity/statement/Q6247652-44537CD5-17F7-47C8-A797-2ABAA87555DC> ;
+    ns2:P570 <http://www.wikidata.org/entity/statement/Q2514142-F269BFFB-F291-4830-A963-325B4AF1BA94>,
+        <http://www.wikidata.org/entity/statement/Q6247652-CA8AAF3D-149E-40CF-892E-B97B0B1BA4C5> ;
+    ns2:P646 <http://www.wikidata.org/entity/statement/Q2514142-C6175B75-0913-4FD8-98AD-70497FCE6F64>,
+        <http://www.wikidata.org/entity/statement/Q6247633-A2A187C2-CB92-4BFF-B5E3-0ABD9052F7D4>,
+        <http://www.wikidata.org/entity/statement/Q6247652-B6C71D33-E4A1-4BD7-87AA-47C82596A925> ;
+    ns2:P69 <http://www.wikidata.org/entity/statement/Q6247652-7EBCBCAF-63E1-453B-A8E4-D41D17A83921> ;
+    ns2:P734 <http://www.wikidata.org/entity/statement/Q2514142-3F8EBC70-A413-4BC2-B9B3-69960A337E39>,
+        <http://www.wikidata.org/entity/statement/Q6247633-22760BC1-7B16-4BC1-A7A3-B3BD9D9D2C09> ;
+    ns2:P735 <http://www.wikidata.org/entity/statement/Q2514142-7C9B9513-B00C-4BFE-A3E2-FC2B5F2A6E9F>,
+        <http://www.wikidata.org/entity/statement/Q6247633-C8233169-A1B0-41C3-837E-B57DE5CDAF11>,
+        <http://www.wikidata.org/entity/statement/Q6247652-3AEB79A9-69C6-493E-B57B-3A81125D01F6> ;
+    ns2:P8462 <http://www.wikidata.org/entity/statement/Q2514142-EE7B83CA-FAF0-4DCE-9568-773B34B8A849> ;
+    ns2:P937 <http://www.wikidata.org/entity/statement/Q2514142-09D71C2E-ED9A-4559-8810-61BEA3EDA5E0>,
+        <http://www.wikidata.org/entity/statement/Q6247633-F6B049AF-2433-4001-B527-D34F71E252EB>,
+        <http://www.wikidata.org/entity/statement/Q6247652-E9D22BCE-6704-452A-8C6E-113D8122B432> ;
+    ns8:P646 <http://g.co/kg/m/05f907c>,
+        <http://g.co/kg/m/0c429w4>,
+        <http://g.co/kg/m/0dz85q> ;
+    ns4:P102 wd:Q29468,
+        wd:Q29552,
+        wd:Q622441 ;
+    ns4:P106 wd:Q808967,
+        wd:Q82955 ;
+    ns4:P1157 "M000411"^^xsd:string ;
+    ns4:P1412 wd:Q1860 ;
+    ns4:P1559 "John McDonald"@en,
+        "John McDonald Henderson"@en ;
+    ns4:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Capt.%20John%20McDonald%2C%20Maryland.jpg> ;
+    ns4:P19 wd:Q932302 ;
+    ns4:P20 wd:Q327022 ;
+    ns4:P2015 "mr-john-henderson-1"^^xsd:string ;
+    ns4:P21 wd:Q6581097 ;
+    ns4:P27 wd:Q174193,
+        wd:Q30 ;
+    ns4:P31 wd:Q5 ;
+    ns4:P3602 wd:Q3075752,
+        wd:Q3076583,
+        wd:Q3076606 ;
+    ns4:P39 wd:Q13218630,
+        wd:Q17502533,
+        wd:Q20064986,
+        wd:Q41582577,
+        wd:Q41582579,
+        wd:Q41582581 ;
+    ns4:P4471 "7383"^^xsd:string ;
+    ns4:P463 wd:Q157412 ;
+    ns4:P4789 "U197757"^^xsd:string ;
+    ns4:P535 "37094379"^^xsd:string ;
+    ns4:P569 "1837-05-24T00:00:00+00:00"^^xsd:dateTime,
+        "1846-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "1930-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P570 "1917-01-30T00:00:00+00:00"^^xsd:dateTime,
+        "1922-11-20T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P646 "/m/05f907c"^^xsd:string,
+        "/m/0c429w4"^^xsd:string,
+        "/m/0dz85q"^^xsd:string ;
+    ns4:P69 wd:Q270532 ;
+    ns4:P734 wd:Q20827080 ;
+    ns4:P735 wd:Q4925477 ;
+    ns4:P8462 "mcdonald.html#413.02.98"^^xsd:string ;
+    ns4:P937 wd:Q16567,
+        wd:Q61,
+        wd:Q84 ;
     twss:url "https://www.rottentomatoes.com/critic/john-mcdonald"^^xsd:anyUri .
 
 twss:JonBernthal a dbo:Actor ;
@@ -6312,7 +6821,89 @@ twss:SarahCatherineHook a dbo:Actor ;
     dbo:Name "Sarah Catherine Hook" .
 
 twss:SarahWard a dbo:Person ;
+    rdfs:label "ساراه وارد"@arz,
+        "Sarah Ward"@ast,
+        "Sarah Ward"@ca,
+        "Sarah Ward (politician)"@cs,
+        "Sarah Ward"@da,
+        "Sarah Ward"@de,
+        "Sarah Ward"@en,
+        "Sarah Ward"@es,
+        "Sarah Ward"@fi,
+        "Sarah Ward"@fr,
+        "Sarah Ward"@hu,
+        "Sarah Ward"@it,
+        "Sarah Ward"@nb,
+        "Sarah Ward"@nl,
+        "Sarah Ward (politician)"@pl,
+        "Sarah Ward (politician)"@pt,
+        "Sarah Ward"@sl,
+        "Sarah Ward"@sv ;
     dbo:Name "Sarah Ward" ;
+    ns1:dateModified "2020-12-03T05:17:06+00:00"^^xsd:dateTime ;
+    ns1:description "سياسية بريطانية"@ar,
+        "política británica (1895–1969)"@ast,
+        "ব্রিটিশ রাজনীতিবিদ"@bn,
+        "política britànica"@ca,
+        "britische Politikerin, Mitglied des House of Commons"@de,
+        "British politician (1895-1969)"@en,
+        "British politician"@en-ca,
+        "British politician"@en-gb,
+        "política británica"@es,
+        "Suurbritannia poliitik"@et,
+        "brittiläinen poliitikko"@fi,
+        "personnalité politique britannique"@fr,
+        "política británica"@gl,
+        "פוליטיקאית בריטית"@he,
+        "politica uit Verenigd Koninkrijk (1895-1969)"@nl,
+        "politiciană britanică"@ro,
+        "politikane britanike"@sq,
+        "британський політик"@uk ;
+    ns1:version 1317088495 ;
+    ns7:identifiers 4 ;
+    ns7:sitelinks 2 ;
+    ns7:statements 20 ;
+    ns2:P102 <http://www.wikidata.org/entity/statement/q7422880-7171123A-29DB-44A9-A193-FA69E0849E6C> ;
+    ns2:P106 <http://www.wikidata.org/entity/statement/Q7422880-859F973C-424E-436D-A4A9-C4BAAE8A66E7> ;
+    ns2:P1412 <http://www.wikidata.org/entity/statement/Q7422880-7097A20C-6DDB-4E33-8EFF-7C081C34E67E> ;
+    ns2:P1415 <http://www.wikidata.org/entity/statement/Q7422880-0687B460-B333-4C96-BA23-0544CF33C90C> ;
+    ns2:P1559 <http://www.wikidata.org/entity/statement/Q7422880-C1F03C2F-DACA-454C-A31B-0ABA7B36E499> ;
+    ns2:P166 <http://www.wikidata.org/entity/statement/Q7422880-A1663B34-A794-4684-9F02-C8214FD9A08A> ;
+    ns2:P2015 <http://www.wikidata.org/entity/statement/Q7422880-20872618-BD1A-4473-8EE6-91AA4E6EC525> ;
+    ns2:P21 <http://www.wikidata.org/entity/statement/Q7422880-6F111C39-09FB-48A8-BE93-EDA4C34E7ED2> ;
+    ns2:P27 <http://www.wikidata.org/entity/statement/Q7422880-5B6A0259-39FE-494A-B6ED-FCD8CAB85776>,
+        <http://www.wikidata.org/entity/statement/Q7422880-64F4D735-F428-4EBD-BD99-E3D162CD7E82> ;
+    ns2:P31 <http://www.wikidata.org/entity/statement/Q7422880-E76E6159-E4E6-4F00-AB70-6182D31DEEC2> ;
+    ns2:P3602 <http://www.wikidata.org/entity/statement/Q7422880-3C3788B6-0119-4B55-AF05-F28DAEC62D83> ;
+    ns2:P39 <http://www.wikidata.org/entity/statement/Q7422880-107722C2-BC04-4A47-ABF3-CE02632FA125> ;
+    ns2:P4471 <http://www.wikidata.org/entity/statement/Q7422880-82380C76-9053-4ED2-AA5F-D4B742FB86CA> ;
+    ns2:P569 <http://www.wikidata.org/entity/statement/Q7422880-C0AEFE15-6838-47F7-9A1D-C21A4D6D24EA> ;
+    ns2:P570 <http://www.wikidata.org/entity/statement/Q7422880-FB035767-4B00-4890-A960-74C52CE51341> ;
+    ns2:P646 <http://www.wikidata.org/entity/statement/Q7422880-8BD1F0EC-9790-4CB3-BEB3-5649F2A9AD02> ;
+    ns2:P734 <http://www.wikidata.org/entity/statement/Q7422880-ADDB9ED1-98B5-4317-9A75-E5272971B885> ;
+    ns2:P735 <http://www.wikidata.org/entity/statement/Q7422880-D3647B5C-AADA-4FDA-A14B-1AA27623BEEC> ;
+    ns2:P937 <http://www.wikidata.org/entity/statement/Q7422880-E0AE86A1-820B-4D1F-AD73-76A9B41FAF04> ;
+    ns8:P646 <http://g.co/kg/m/02rbpkn> ;
+    ns4:P102 wd:Q9626 ;
+    ns4:P106 wd:Q82955 ;
+    ns4:P1412 wd:Q1860 ;
+    ns4:P1415 "70456"^^xsd:string ;
+    ns4:P1559 "Sarah Ward"@en ;
+    ns4:P166 wd:Q12201477 ;
+    ns4:P2015 "mrs-sarah-ward"^^xsd:string ;
+    ns4:P21 wd:Q6581072 ;
+    ns4:P27 wd:Q145,
+        wd:Q174193 ;
+    ns4:P31 wd:Q5 ;
+    ns4:P3602 wd:Q918375 ;
+    ns4:P39 wd:Q41582591 ;
+    ns4:P4471 "8240"^^xsd:string ;
+    ns4:P569 "1895-12-25T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P570 "1969-04-09T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P646 "/m/02rbpkn"^^xsd:string ;
+    ns4:P734 wd:Q2549042 ;
+    ns4:P735 wd:Q18201513 ;
+    ns4:P937 wd:Q84 ;
     twss:url "https://www.rottentomatoes.com/critic/sarah-ward"^^xsd:anyUri .
 
 twss:Sator a dbo:FictionalCharacter ;
@@ -6566,233 +7157,233 @@ twss:Tenet_cover_image_3 a dbo:Image ;
 twss:Tenet_cover_image_4 a dbo:Image ;
     twss:url "https://img.ecartelera.com/carteles/15100/15194/002_p.jpg"^^xsd:anyUri .
 
-twss:Tenet_rating_1 a ns3:AggregateRating ;
+twss:Tenet_rating_1 a ns10:AggregateRating ;
     dbo:Name "Tomatometer" ;
     dbo:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
     twss:bestRating 1e+02 ;
     twss:ratingValue 7e+01 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 351 ;
-    ns3:reviewCount 351 .
+    ns10:ratingCount 351 ;
+    ns10:reviewCount 351 .
 
-twss:Tenet_rating_2 a ns3:AggregateRating ;
-    ns1:source "https://www.metacritic.com/movie/tenet"^^xsd:anyUri ;
+twss:Tenet_rating_2 a ns10:AggregateRating ;
+    ns3:source "https://www.metacritic.com/movie/tenet"^^xsd:anyUri ;
     twss:bestRating 1e+02 ;
     twss:ratingValue 6.9e+01 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 50 .
+    ns10:ratingCount 50 .
 
-twss:Tenet_rating_3 a ns3:AggregateRating ;
-    ns1:source "https://www.imdb.com/title/tt6723592/"^^xsd:anyUri ;
+twss:Tenet_rating_3 a ns10:AggregateRating ;
+    ns3:source "https://www.imdb.com/title/tt6723592/"^^xsd:anyUri ;
     twss:bestRating 1e+01 ;
     twss:ratingValue 7.4e+00 ;
     twss:worstRating 1e+00 ;
-    ns3:ratingCount 348181 .
+    ns10:ratingCount 348181 .
 
-twss:Tenet_rating_4 a ns3:AggregateRating ;
-    ns1:source "https://www.ecartelera.com/peliculas/tenet/"^^xsd:anyUri ;
+twss:Tenet_rating_4 a ns10:AggregateRating ;
+    ns3:source "https://www.ecartelera.com/peliculas/tenet/"^^xsd:anyUri ;
     twss:bestRating 1e+01 ;
     twss:ratingValue 8.3e+00 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 28 .
+    ns10:ratingCount 28 .
 
-twss:Tenet_review_10_rating a ns3:Rating ;
+twss:Tenet_review_10_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_10_site a ns2:WebPage ;
-    ns2:hasURL "https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit"^^xsd:anyUri .
+twss:Tenet_review_10_site a ns5:WebPage ;
+    ns5:hasURL "https://lookingcloser.org/wp-admin/post.php?post=112266&action=edit"^^xsd:anyUri .
 
-twss:Tenet_review_11_rating a ns3:Rating ;
+twss:Tenet_review_11_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_11_site a ns2:WebPage ;
-    ns2:hasURL "https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/"^^xsd:anyUri .
+twss:Tenet_review_11_site a ns5:WebPage ;
+    ns5:hasURL "https://www.moviesinfocus.com/review-christopher-nolans-tenet-is-a-flawed-cinematic-wonder/"^^xsd:anyUri .
 
-twss:Tenet_review_12_rating a ns3:Rating ;
+twss:Tenet_review_12_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_12_site a ns2:WebPage ;
-    ns2:hasURL "https://www.wsws.org/en/articles/2021/03/22/tene-m22.html"^^xsd:anyUri .
+twss:Tenet_review_12_site a ns5:WebPage ;
+    ns5:hasURL "https://www.wsws.org/en/articles/2021/03/22/tene-m22.html"^^xsd:anyUri .
 
-twss:Tenet_review_13_rating a ns3:Rating ;
+twss:Tenet_review_13_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_13_site a ns2:WebPage ;
-    ns2:hasURL "https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews"^^xsd:anyUri .
+twss:Tenet_review_13_site a ns5:WebPage ;
+    ns5:hasURL "https://indiancountrytoday.com/lifestyle/nativenerd-wandavision-excellence-other-film-reviews"^^xsd:anyUri .
 
-twss:Tenet_review_14_rating a ns3:Rating ;
+twss:Tenet_review_14_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_14_site a ns2:WebPage ;
-    ns2:hasURL "https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html"^^xsd:anyUri .
+twss:Tenet_review_14_site a ns5:WebPage ;
+    ns5:hasURL "https://www.clarin.com/espectaculos/cine/tenet-diferente-visto_0_3JWlIyqCo.html"^^xsd:anyUri .
 
-twss:Tenet_review_15_rating a ns3:Rating ;
+twss:Tenet_review_15_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_15_site a ns2:WebPage ;
-    ns2:hasURL "https://www.efilmcritic.com/review.php?movie=33026&reviewer=416"^^xsd:anyUri .
+twss:Tenet_review_15_site a ns5:WebPage ;
+    ns5:hasURL "https://www.efilmcritic.com/review.php?movie=33026&reviewer=416"^^xsd:anyUri .
 
-twss:Tenet_review_16_rating a ns3:Rating ;
+twss:Tenet_review_16_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_16_site a ns2:WebPage ;
-    ns2:hasURL "https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html"^^xsd:anyUri .
+twss:Tenet_review_16_site a ns5:WebPage ;
+    ns5:hasURL "https://www.news-herald.com/it-has-its-flaws-but-time-shifting-tenet-another-unique-vision-from-the-inventive-christopher/article_09f56df2-eb8c-11ea-af65-5ff05b659f0b.html"^^xsd:anyUri .
 
-twss:Tenet_review_17_rating a ns3:Rating ;
+twss:Tenet_review_17_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_17_site a ns2:WebPage ;
-    ns2:hasURL "https://film-authority.com/2020/08/25/tenet/"^^xsd:anyUri .
+twss:Tenet_review_17_site a ns5:WebPage ;
+    ns5:hasURL "https://film-authority.com/2020/08/25/tenet/"^^xsd:anyUri .
 
-twss:Tenet_review_18_rating a ns3:Rating ;
+twss:Tenet_review_18_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_18_site a ns2:WebPage ;
-    ns2:hasURL "https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/"^^xsd:anyUri .
+twss:Tenet_review_18_site a ns5:WebPage ;
+    ns5:hasURL "https://culturalconversation.co.uk/2020/09/06/movie-review-tenet/"^^xsd:anyUri .
 
-twss:Tenet_review_19_rating a ns3:Rating ;
+twss:Tenet_review_19_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_19_site a ns2:WebPage ;
-    ns2:hasURL "https://readysteadycut.com/2020/08/27/tenet-review/"^^xsd:anyUri .
+twss:Tenet_review_19_site a ns5:WebPage ;
+    ns5:hasURL "https://readysteadycut.com/2020/08/27/tenet-review/"^^xsd:anyUri .
 
-twss:Tenet_review_1_rating a ns3:Rating ;
+twss:Tenet_review_1_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_1_site a ns2:WebPage ;
-    ns2:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyUri .
+twss:Tenet_review_1_site a ns5:WebPage ;
+    ns5:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyUri .
 
-twss:Tenet_review_20_rating a ns3:Rating ;
+twss:Tenet_review_20_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_20_site a ns2:WebPage ;
-    ns2:hasURL "http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet"^^xsd:anyUri .
+twss:Tenet_review_20_site a ns5:WebPage ;
+    ns5:hasURL "http://madaboutmoviespodcast.com/episodes/2020/9/8/tenet"^^xsd:anyUri .
 
-twss:Tenet_review_21_rating a ns3:Rating ;
+twss:Tenet_review_21_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_21_site a ns2:WebPage ;
-    ns2:hasURL "https://www.cupofsoulshow.com/tenet"^^xsd:anyUri .
+twss:Tenet_review_21_site a ns5:WebPage ;
+    ns5:hasURL "https://www.cupofsoulshow.com/tenet"^^xsd:anyUri .
 
-twss:Tenet_review_22_rating a ns3:Rating ;
+twss:Tenet_review_22_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_22_site a ns2:WebPage ;
-    ns2:hasURL "https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/#slide=0"^^xsd:anyUri .
+twss:Tenet_review_22_site a ns5:WebPage ;
+    ns5:hasURL "https://dallas.culturemap.com/news/entertainment/08-31-20-tenet-movie-review/#slide=0"^^xsd:anyUri .
 
-twss:Tenet_review_23_rating a ns3:Rating ;
+twss:Tenet_review_23_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_23_site a ns2:WebPage ;
-    ns2:hasURL "https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html"^^xsd:anyUri .
+twss:Tenet_review_23_site a ns5:WebPage ;
+    ns5:hasURL "https://www.flickfilosopher.com/2021/02/tenet-movie-review-i-have-no-time-for-it.html"^^xsd:anyUri .
 
-twss:Tenet_review_24_rating a ns3:Rating ;
+twss:Tenet_review_24_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_24_site a ns2:WebPage ;
-    ns2:hasURL "https://pnabarro.wordpress.com/2021/01/31/tenet/"^^xsd:anyUri .
+twss:Tenet_review_24_site a ns5:WebPage ;
+    ns5:hasURL "https://pnabarro.wordpress.com/2021/01/31/tenet/"^^xsd:anyUri .
 
-twss:Tenet_review_25_rating a ns3:Rating ;
+twss:Tenet_review_25_rating a ns10:Rating ;
     twss:bestRating 1e+01 ;
     twss:ratingValue 7e+00 ;
     twss:worstRating 1e+00 .
 
-twss:Tenet_review_2_rating a ns3:Rating ;
+twss:Tenet_review_2_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_2_site a ns2:WebPage ;
-    ns2:hasURL "https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author"^^xsd:anyUri .
+twss:Tenet_review_2_site a ns5:WebPage ;
+    ns5:hasURL "https://www.thedailybeast.com/is-christopher-nolans-tenet-worth-renting-on-vod?ref=author"^^xsd:anyUri .
 
-twss:Tenet_review_3_rating a ns3:Rating ;
+twss:Tenet_review_3_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_3_site a ns2:WebPage ;
-    ns2:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/"^^xsd:anyUri .
+twss:Tenet_review_3_site a ns5:WebPage ;
+    ns5:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/"^^xsd:anyUri .
 
-twss:Tenet_review_4_rating a ns3:Rating ;
+twss:Tenet_review_4_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_4_site a ns2:WebPage ;
-    ns2:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/"^^xsd:anyUri .
+twss:Tenet_review_4_site a ns5:WebPage ;
+    ns5:hasURL "https://www.scpr.org/programs/filmweek/2020/12/18/66354/filmweek-tenet-ma-rainey-s-black-bottom-bee-gees-h/"^^xsd:anyUri .
 
-twss:Tenet_review_5_rating a ns3:Rating ;
+twss:Tenet_review_5_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_5_site a ns2:WebPage ;
-    ns2:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater"^^xsd:anyUri .
+twss:Tenet_review_5_site a ns5:WebPage ;
+    ns5:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater"^^xsd:anyUri .
 
-twss:Tenet_review_6_rating a ns3:Rating ;
+twss:Tenet_review_6_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_6_site a ns2:WebPage ;
-    ns2:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater"^^xsd:anyUri .
+twss:Tenet_review_6_site a ns5:WebPage ;
+    ns5:hasURL "https://datebook.sfchronicle.com/movies-tv/review-youve-waited-all-this-time-to-see-tenet-now-dont-even-bother-unless-maybe-in-a-theater"^^xsd:anyUri .
 
-twss:Tenet_review_7_rating a ns3:Rating ;
+twss:Tenet_review_7_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_7_site a ns2:WebPage ;
-    ns2:hasURL "https://www.stabroeknews.com/2020/12/20/sunday/reel-encounters/tenet-wants-your-attention-not-your-understanding/"^^xsd:anyUri .
+twss:Tenet_review_7_site a ns5:WebPage ;
+    ns5:hasURL "https://www.stabroeknews.com/2020/12/20/sunday/reel-encounters/tenet-wants-your-attention-not-your-understanding/"^^xsd:anyUri .
 
-twss:Tenet_review_8_rating a ns3:Rating ;
+twss:Tenet_review_8_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_8_site a ns2:WebPage ;
-    ns2:hasURL "https://www.nme.com/reviews/tenet-review-christopher-nolan-2734576"^^xsd:anyUri .
+twss:Tenet_review_8_site a ns5:WebPage ;
+    ns5:hasURL "https://www.nme.com/reviews/tenet-review-christopher-nolan-2734576"^^xsd:anyUri .
 
-twss:Tenet_review_9_rating a ns3:Rating ;
+twss:Tenet_review_9_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:Tenet_review_9_site a ns2:WebPage ;
-    ns2:hasURL "https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/"^^xsd:anyUri .
+twss:Tenet_review_9_site a ns5:WebPage ;
+    ns5:hasURL "https://jumpcutonline.co.uk/2020/08/27/review-tenet-2020/"^^xsd:anyUri .
 
 twss:Tenet_trailer a twss:trailer ;
     dbo:Name "Tenet (Trailer 2)" ;
@@ -7227,233 +7818,233 @@ twss:WonderWoman1984_cover_image_3 a dbo:Image ;
 twss:WonderWoman1984_cover_image_4 a dbo:Image ;
     twss:url "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg"^^xsd:anyUri .
 
-twss:WonderWoman1984_rating_1 a ns3:AggregateRating ;
+twss:WonderWoman1984_rating_1 a ns10:AggregateRating ;
     dbo:Name "Tomatometer" ;
     dbo:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns1:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
+    ns3:source "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
     twss:bestRating 1e+02 ;
     twss:ratingValue 5.9e+01 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 426 ;
-    ns3:reviewCount 426 .
+    ns10:ratingCount 426 ;
+    ns10:reviewCount 426 .
 
-twss:WonderWoman1984_rating_2 a ns3:AggregateRating ;
-    ns1:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
+twss:WonderWoman1984_rating_2 a ns10:AggregateRating ;
+    ns3:source "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri ;
     twss:bestRating 1e+01 ;
     twss:ratingValue 5.4e+00 ;
     twss:worstRating 1e+00 ;
-    ns3:ratingCount 199795 .
+    ns10:ratingCount 199795 .
 
-twss:WonderWoman1984_rating_3 a ns3:AggregateRating ;
-    ns1:source "https://www.metacritic.com/movie/wonder-woman-1984"^^xsd:anyUri ;
+twss:WonderWoman1984_rating_3 a ns10:AggregateRating ;
+    ns3:source "https://www.metacritic.com/movie/wonder-woman-1984"^^xsd:anyUri ;
     twss:bestRating 1e+02 ;
     twss:ratingValue 6e+01 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 57 .
+    ns10:ratingCount 57 .
 
-twss:WonderWoman1984_rating_4 a ns3:AggregateRating ;
-    ns1:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri ;
+twss:WonderWoman1984_rating_4 a ns10:AggregateRating ;
+    ns3:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri ;
     twss:bestRating 1e+01 ;
     twss:ratingValue 7.6e+00 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 20 .
+    ns10:ratingCount 20 .
 
-twss:WonderWoman1984_review_10_rating a ns3:Rating ;
+twss:WonderWoman1984_review_10_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_10_site a ns2:WebPage ;
-    ns2:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
+twss:WonderWoman1984_review_10_site a ns5:WebPage ;
+    ns5:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_11_rating a ns3:Rating ;
+twss:WonderWoman1984_review_11_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_11_site a ns2:WebPage ;
-    ns2:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
+twss:WonderWoman1984_review_11_site a ns5:WebPage ;
+    ns5:hasURL "https://youtu.be/75nDMuZMfLs"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_12_rating a ns3:Rating ;
+twss:WonderWoman1984_review_12_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_12_site a ns2:WebPage ;
-    ns2:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984"^^xsd:anyUri .
+twss:WonderWoman1984_review_12_site a ns5:WebPage ;
+    ns5:hasURL "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_13_rating a ns3:Rating ;
+twss:WonderWoman1984_review_13_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_13_site a ns2:WebPage ;
-    ns2:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm"^^xsd:anyUri .
+twss:WonderWoman1984_review_13_site a ns5:WebPage ;
+    ns5:hasURL "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_14_rating a ns3:Rating ;
+twss:WonderWoman1984_review_14_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_14_site a ns2:WebPage ;
-    ns2:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984"^^xsd:anyUri .
+twss:WonderWoman1984_review_14_site a ns5:WebPage ;
+    ns5:hasURL "https://concreteplayground.com/sydney/event/wonder-woman-1984"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_15_rating a ns3:Rating ;
+twss:WonderWoman1984_review_15_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_15_site a ns2:WebPage ;
-    ns2:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984"^^xsd:anyUri .
+twss:WonderWoman1984_review_15_site a ns5:WebPage ;
+    ns5:hasURL "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_16_rating a ns3:Rating ;
+twss:WonderWoman1984_review_16_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_16_site a ns2:WebPage ;
-    ns2:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html"^^xsd:anyUri .
+twss:WonderWoman1984_review_16_site a ns5:WebPage ;
+    ns5:hasURL "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_17_rating a ns3:Rating ;
+twss:WonderWoman1984_review_17_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_17_site a ns2:WebPage ;
-    ns2:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/"^^xsd:anyUri .
+twss:WonderWoman1984_review_17_site a ns5:WebPage ;
+    ns5:hasURL "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_18_rating a ns3:Rating ;
+twss:WonderWoman1984_review_18_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_18_site a ns2:WebPage ;
-    ns2:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984"^^xsd:anyUri .
+twss:WonderWoman1984_review_18_site a ns5:WebPage ;
+    ns5:hasURL "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_19_rating a ns3:Rating ;
+twss:WonderWoman1984_review_19_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_19_site a ns2:WebPage ;
-    ns2:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/"^^xsd:anyUri .
+twss:WonderWoman1984_review_19_site a ns5:WebPage ;
+    ns5:hasURL "https://film-authority.com/2021/01/11/wonder-woman-1984/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_1_rating a ns3:Rating ;
+twss:WonderWoman1984_review_1_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_1_site a ns2:WebPage ;
-    ns2:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160"^^xsd:anyUri .
+twss:WonderWoman1984_review_1_site a ns5:WebPage ;
+    ns5:hasURL "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_20_rating a ns3:Rating ;
+twss:WonderWoman1984_review_20_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_20_site a ns2:WebPage ;
-    ns2:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984"^^xsd:anyUri .
+twss:WonderWoman1984_review_20_site a ns5:WebPage ;
+    ns5:hasURL "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_21_rating a ns3:Rating ;
+twss:WonderWoman1984_review_21_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_21_site a ns2:WebPage ;
-    ns2:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/"^^xsd:anyUri .
+twss:WonderWoman1984_review_21_site a ns5:WebPage ;
+    ns5:hasURL "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_22_rating a ns3:Rating ;
+twss:WonderWoman1984_review_22_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_22_site a ns2:WebPage ;
-    ns2:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html"^^xsd:anyUri .
+twss:WonderWoman1984_review_22_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_23_rating a ns3:Rating ;
+twss:WonderWoman1984_review_23_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_23_site a ns2:WebPage ;
-    ns2:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/"^^xsd:anyUri .
+twss:WonderWoman1984_review_23_site a ns5:WebPage ;
+    ns5:hasURL "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_24_rating a ns3:Rating ;
+twss:WonderWoman1984_review_24_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_24_site a ns2:WebPage ;
-    ns2:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html"^^xsd:anyUri .
+twss:WonderWoman1984_review_24_site a ns5:WebPage ;
+    ns5:hasURL "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_25_rating a ns3:Rating ;
+twss:WonderWoman1984_review_25_rating a ns10:Rating ;
     twss:bestRating 1e+01 ;
     twss:ratingValue 3e+00 ;
     twss:worstRating 1e+00 .
 
-twss:WonderWoman1984_review_2_rating a ns3:Rating ;
+twss:WonderWoman1984_review_2_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_2_site a ns2:WebPage ;
-    ns2:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436"^^xsd:anyUri .
+twss:WonderWoman1984_review_2_site a ns5:WebPage ;
+    ns5:hasURL "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_3_rating a ns3:Rating ;
+twss:WonderWoman1984_review_3_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_3_site a ns2:WebPage ;
-    ns2:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/"^^xsd:anyUri .
+twss:WonderWoman1984_review_3_site a ns5:WebPage ;
+    ns5:hasURL "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_4_rating a ns3:Rating ;
+twss:WonderWoman1984_review_4_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_4_site a ns2:WebPage ;
-    ns2:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8"^^xsd:anyUri .
+twss:WonderWoman1984_review_4_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_5_rating a ns3:Rating ;
+twss:WonderWoman1984_review_5_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_5_site a ns2:WebPage ;
-    ns2:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html"^^xsd:anyUri .
+twss:WonderWoman1984_review_5_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_6_rating a ns3:Rating ;
+twss:WonderWoman1984_review_6_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_6_site a ns2:WebPage ;
-    ns2:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/"^^xsd:anyUri .
+twss:WonderWoman1984_review_6_site a ns5:WebPage ;
+    ns5:hasURL "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_7_rating a ns3:Rating ;
+twss:WonderWoman1984_review_7_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_7_site a ns2:WebPage ;
-    ns2:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/"^^xsd:anyUri .
+twss:WonderWoman1984_review_7_site a ns5:WebPage ;
+    ns5:hasURL "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_8_rating a ns3:Rating ;
+twss:WonderWoman1984_review_8_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_8_site a ns2:WebPage ;
-    ns2:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/"^^xsd:anyUri .
+twss:WonderWoman1984_review_8_site a ns5:WebPage ;
+    ns5:hasURL "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/"^^xsd:anyUri .
 
-twss:WonderWoman1984_review_9_rating a ns3:Rating ;
+twss:WonderWoman1984_review_9_rating a ns10:Rating ;
     twss:bestRating 1e+00 ;
     twss:ratingValue 1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:WonderWoman1984_review_9_site a ns2:WebPage ;
-    ns2:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/"^^xsd:anyUri .
+twss:WonderWoman1984_review_9_site a ns5:WebPage ;
+    ns5:hasURL "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/"^^xsd:anyUri .
 
 twss:WonderWoman1984_trailer a twss:trailer ;
     dbo:Name "Stream on HBO Max for a Limited Time" ;
@@ -7591,7 +8182,7 @@ twss:tenet a dbo:Film,
     dbo:thumbnail twss:tenet_cover_image_1,
         twss:tenet_cover_image_2 ;
     dbo:title "Tenet"^^rdf:langString ;
-    ns1:source "https://example.com/"^^xsd:anyURI ;
+    ns3:source "https://example.com/"^^xsd:anyURI ;
     twss:content_rating "P-13"^^xsd:string ;
     twss:hasCharacter twss:neil ;
     twss:hasShow twss:tenet_show_1 ;
@@ -7599,18 +8190,18 @@ twss:tenet a dbo:Film,
     twss:keyword "symphony hall"^^xsd:string,
         "time paradox"^^xsd:string ;
     twss:synopsis "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión."^^xsd:string ;
-    ns3:aggregateRating twss:tenet_aggregated_rating_1 .
+    ns10:aggregateRating twss:tenet_aggregated_rating_1 .
 
 twss:tenet_aggregated_rating_1 a owl:NamedIndividual,
-        ns3:AggregateRating ;
+        ns10:AggregateRating ;
     dbo:Name "Tomatometer" ;
     dbo:description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show."@en ;
-    ns1:source "https://www.rottentomatoes.com/m/tenet" ;
+    ns3:source "https://www.rottentomatoes.com/m/tenet" ;
     twss:bestRating 1e+02 ;
     twss:ratingValue 7e+01 ;
     twss:worstRating 0e+00 ;
-    ns3:ratingCount 349 ;
-    ns3:reviewCount 349 .
+    ns10:ratingCount 349 ;
+    ns10:reviewCount 349 .
 
 twss:tenet_cover_image_1 a dbo:Image,
         owl:NamedIndividual ;
@@ -7631,16 +8222,16 @@ twss:tenet_review_1_author_img a dbo:Image,
     twss:url "https://example.com/img.jpg"^^xsd:anyURI .
 
 twss:tenet_review_1_rating_1 a owl:NamedIndividual,
-        ns3:Rating ;
+        ns10:Rating ;
     dbo:Name "example name" ;
     dbo:description "example description" ;
     twss:bestRating 1e+00 ;
     twss:ratingValue -1e+00 ;
     twss:worstRating -1e+00 .
 
-twss:tenet_review_1_site a ns2:WebPage,
+twss:tenet_review_1_site a ns5:WebPage,
         owl:NamedIndividual ;
-    ns2:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
+    ns5:hasURL "https://monocle.com/radio/shows/the-monocle-culture-show/"^^xsd:anyURI .
 
 twss:tenet_show_1 a owl:NamedIndividual,
         twss:film_show ;
@@ -7702,8 +8293,422 @@ twss:ChristopherLee a dbo:Actor ;
 
 twss:ChristopherNolan a dbo:MovieDirector,
         dbo:Person ;
+    rdfs:label "Christopher Nolan"@ace,
+        "Christopher Nolan"@an,
+        "كريستوفر نولاند"@ar,
+        "كريستوفر نولاند"@ary,
+        "كريستوفر نولاند"@arz,
+        "Christopher Nolan"@ast,
+        "Kristofer Nolan"@az,
+        "Крыстафер Нолан"@be,
+        "Крыстафэр Нолан"@be-tarask,
+        "Кристофър Нолан"@bg,
+        "ক্রিস্টোফার নোলান"@bn,
+        "Christopher Nolan"@bs,
+        "Christopher Nolan"@ca,
+        "کریستۆفەر نۆلاند"@ckb,
+        "Christopher Nolan"@cs,
+        "Christopher Nolan"@cy,
+        "Christopher Nolan"@da,
+        "Christopher Nolan"@de,
+        "Christopher Nolan"@diq,
+        "Κρίστοφερ Νόλαν"@el,
+        "Christopher Nolan"@en,
+        "Christopher Nolan"@en-ca,
+        "Christopher Nolan"@en-gb,
+        "Christopher Nolan"@es,
+        "Christopher Nolan"@et,
+        "Christopher Nolan"@eu,
+        "Christopher Nolan"@ext,
+        "کریستوفر نولاند"@fa,
+        "Christopher Nolan"@fi,
+        "Christopher Nolan"@fr,
+        "Christopher Nolan"@ga,
+        "Christopher Nolan"@gl,
+        "כריסטופר נולאן"@he,
+        "क्रिस्टोफ़र नोलन"@hi,
+        "Christopher Nolan"@hr,
+        "Christopher Nolan"@hu,
+        "Քրիստոֆեր Նոլան"@hy,
+        "Christopher Nolan"@ia,
+        "Christopher Nolan"@id,
+        "Christopher Nolan"@it,
+        "クリストファー・ノーラン"@ja,
+        "კრისტოფერ ნოლანი"@ka,
+        "Кристофер Нолан"@kk,
+        "ಕ್ರಿಸ್ಟೋಫರ್ ನೋಲನ್"@kn,
+        "크리스토퍼 놀런"@ko,
+        "Christophorus Nolan"@la,
+        "Christopher Nolan"@lt,
+        "Kristofers Nolans"@lv,
+        "Christopher Nolan"@mg,
+        "Кристофер Нолан"@mk,
+        "ക്രിസ്റ്റഫർ നോളന്റെ"@ml,
+        "Кристофер Нолан"@mn,
+        "क्रिस्टोफर नोलन"@mr,
+        "Christopher Nolan"@ms,
+        "Christopher Nolan"@nan,
+        "Christopher Nolan"@nb,
+        "क्रिस्टोफर नोलन"@ne,
+        "Christopher Nolan"@nl,
+        "Christopher Nolan"@oc,
+        "ਕ੍ਰਿਸਟੋਫ਼ਰ ਨੋਲਨ"@pa,
+        "Christopher Nolan"@pag,
+        "Christopher Nolan"@pap,
+        "Christopher Nolan"@pl,
+        "کرسٹوفر نولند"@pnb,
+        "Christopher Nolan"@pt,
+        "Christopher Nolan"@pt-br,
+        "Christopher Nolan"@ro,
+        "Кристофер Нолан"@ru,
+        "Christopher Nolan"@sc,
+        "Christopher Nolan"@sco,
+        "Christopher Nolan"@sh,
+        "Christopher Nolan"@sk,
+        "Christopher Nolan"@sl,
+        "Christopher Nolan"@sq,
+        "Кристофер Нолан"@sr,
+        "Christopher Nolan"@su,
+        "Christopher Nolan"@sv,
+        "Christopher Nolan"@sw,
+        "கிறிஸ்டோபர் நோலன்"@ta,
+        "క్రిస్టొఫర్ నొలన్"@te,
+        "คริสโตเฟอร์ โนแลน"@th,
+        "Christopher Nolan"@tl,
+        "Christopher Nolan"@tr,
+        "Кристофер Нолан"@tt,
+        "Кристофер Нолан"@tt-cyrl,
+        "Крістофер Нолан"@uk,
+        "کرسٹوفر نولن"@ur,
+        "Christopher Nolan"@uz,
+        "Christopher Nolan"@vi,
+        "Christopher Nolan"@vo,
+        "克里斯托弗·诺兰"@wuu,
+        "კრისტოფერ ნოლანი"@xmf,
+        "基斯杜化路蘭"@yue,
+        "克里斯托弗·诺兰"@zh,
+        "克里斯多夫·諾蘭"@zh-hant,
+        "基斯杜化路蘭"@zh-hk,
+        "克里斯多夫·諾蘭"@zh-tw ;
     dbo:Name "Christopher Nolan" ;
     dbo:thumbnail twss:ChristopherNolan_img ;
+    ns1:dateModified "2021-06-05T12:46:51+00:00"^^xsd:dateTime ;
+    ns1:description "مُخرج ومنتج وكاتبٌ سينمائي بريطاني أمريكي"@ar,
+        "брытанскі рэжысэр, прадусар і сцэнарыст"@be-tarask,
+        "британско-американски режисьор, сценарист и продуцент"@bg,
+        "চলচ্চিত্র পরিচালক, চিত্রনাট্যকার ও প্রযোজক"@bn,
+        "cyfarwyddwr ffilm, sgriptiwr a chynhyrchydd Prydeinig–Americanaidd"@cy,
+        "britisch–US-amerikanischer Regisseur, Drehbuchautor und Filmproduzent"@de,
+        "Άγγλος σκηνοθέτης, σεναριογράφος και παραγωγός ταινιών"@el,
+        "English film director, screenwriter, and producer"@en,
+        "British–American film director, screenwriter and producer"@en-gb,
+        "director de cine, guionista y productor de nacionalidad inglesa"@es,
+        "کارگردان و تهیهکنندهٔ بریتانیایی-آمریکایی"@fa,
+        "brittiläis-yhdysvaltalainen elokuvaohjaaja, käsikirjoittaja ja tuottaja"@fi,
+        "réalisateur, scénariste et producteur anglo-américain"@fr,
+        "Director de cinema, guionista e produtor de nacionalidade inglés-estadounidense"@gl,
+        "במאי אמריקאי"@he,
+        "फिल्म निर्माता एवं निर्देशक"@hi,
+        "angol filmrendező, producer, forgatókönyvíró"@hu,
+        "Sutradara Berkebangsaan Inggris"@id,
+        "regista, sceneggiatore e produttore cinematografico britannico"@it,
+        "イギリスの映画監督、脚本家、映画プロデューサー"@ja,
+        "영국과 미국의 영화 감독"@ko,
+        "ബ്രിട്ടീഷ്-അമേരിക്കൻ ചലച്ചിത്ര നിർമ്മാതാവ്, സംവിധായകൻ"@ml,
+        "लेखक, पटकथालेखक, चित्रपटदिग्दर्शक, चित्रपट निर्माता"@mr,
+        "britisk-amerikansk regissør og manusforfatter"@nb,
+        "regisseur"@nl,
+        "brytyjski reżyser, scenarzysta, producent filmowy"@pl,
+        "Diretor de cinema, roteirista e produtor britânico"@pt,
+        "regizor britanico-american"@ro,
+        "англо-американский кинорежиссёр, сценарист и продюсер"@ru,
+        "brittisk-amerikansk filmregissör, manusförfattare och filmproducent"@sv,
+        "Film yönetmeni"@tr,
+        "Đạo diễn, nhà sản xuất và biên kịch điện ảnh người Anh–Mỹ"@vi,
+        "英國電影導演"@zh,
+        "英國電影導演"@zh-hant ;
+    ns1:version 1435516348 ;
+    ns7:identifiers 66 ;
+    ns7:sitelinks 92 ;
+    ns7:statements 123 ;
+    ns7:timestamp "2021-06-05T12:46:52+00:00"^^xsd:dateTime ;
+    ns9:altLabel "Christopher Jonathan James Nolan"@cy,
+        "Christopher Jonathan James Nolan"@de,
+        "Κρίστοφερ Τζόναθαν Τζέιμς Νόλαν"@el,
+        "Νόλαν"@el,
+        "Christopher Jonathan James Nolan"@en,
+        "Nolan"@en,
+        "Christopher Jonathan James Nolan"@en-gb,
+        "Christopher Jonathan James Nolan"@es,
+        "Christopher Jonathan James Nolan"@fr,
+        "Christopher Jonathan James Nolan"@hu,
+        "크리스토퍼 놀란"@ko,
+        "Christopher Nolan (regisseur)"@nl,
+        "Christopher Jonathan James Nolan"@pl,
+        "Нолан, Кристофер"@ru,
+        "Christopher Jonathan James Nolan"@tr,
+        "Nolan"@tr,
+        "诺兰"@zh,
+        "基斯杜化·路蘭"@zh-hk ;
+    ns2:P1006 <http://www.wikidata.org/entity/statement/Q25191-166C5785-F533-4B4C-81AA-F22B07D372B7> ;
+    ns2:P1038 <http://www.wikidata.org/entity/statement/Q25191-03a81361-4df8-c88c-8bf1-4f5590336505>,
+        <http://www.wikidata.org/entity/statement/Q25191-bf363465-498c-146c-62ca-384c280e855e> ;
+    ns2:P106 <http://www.wikidata.org/entity/statement/Q25191-519D7D20-E610-4BB1-BDA5-7C298751C2D8>,
+        <http://www.wikidata.org/entity/statement/Q25191-8191F225-9150-41D1-9DF6-C7E5338F4AF5>,
+        <http://www.wikidata.org/entity/statement/Q25191-82d8da05-41a1-ee2c-1aac-99c42a6c2e61>,
+        <http://www.wikidata.org/entity/statement/Q25191-8868B2F1-1C55-40FF-B645-8D378268AD2F>,
+        <http://www.wikidata.org/entity/statement/Q25191-B1738693-F97C-4E0D-942E-104DADB91BE0>,
+        <http://www.wikidata.org/entity/statement/Q25191-E6EDA54D-4A41-44AE-A92E-3D56354DE094>,
+        <http://www.wikidata.org/entity/statement/Q25191-de2b08dd-42e1-16c8-305a-291e2462d871>,
+        <http://www.wikidata.org/entity/statement/q25191-3BA3A004-ED51-4653-857F-ABD89B9742A2>,
+        <http://www.wikidata.org/entity/statement/q25191-52F99CED-A237-4BD4-ABD1-4DDC3C178F2A>,
+        <http://www.wikidata.org/entity/statement/q25191-71B03143-1E0B-4B90-A499-04A8C4218CD1>,
+        <http://www.wikidata.org/entity/statement/q25191-BFC1C8D6-56C2-4627-A7CA-3507E95ADC3E> ;
+    ns2:P1207 <http://www.wikidata.org/entity/statement/Q25191-13c4d62d-4a7d-ba3c-ca4a-5ffce903fb90> ;
+    ns2:P1233 <http://www.wikidata.org/entity/statement/Q25191-5C12E99C-0913-45FE-ACD6-8E42521D4E7C> ;
+    ns2:P1258 <http://www.wikidata.org/entity/statement/Q25191-FA7045A3-54EA-40F6-853D-0A9F5118E467> ;
+    ns2:P1263 <http://www.wikidata.org/entity/statement/Q25191-D4354A1E-C9E7-4A4C-B60A-5455F21490AB> ;
+    ns2:P1266 <http://www.wikidata.org/entity/statement/Q25191-ed868836-4b55-4529-8cd4-35cc5b679307> ;
+    ns2:P1283 <http://www.wikidata.org/entity/statement/Q25191-954DC23F-7302-48A9-A178-2B5F8C041EDF> ;
+    ns2:P1284 <http://www.wikidata.org/entity/statement/Q25191-379497A2-BE5D-4530-BBDD-9A5FC5FDCF9B> ;
+    ns2:P1296 <http://www.wikidata.org/entity/statement/Q25191-51DE3C35-8CE2-4CEB-8DBB-D00CA0828C80> ;
+    ns2:P1343 <http://www.wikidata.org/entity/statement/Q25191-14673059-9ECC-43F5-BEDB-BBE8E7BB51AF> ;
+    ns2:P1411 <http://www.wikidata.org/entity/statement/Q25191-0338726C-849A-463E-ABCA-ECE24EF27EF8>,
+        <http://www.wikidata.org/entity/statement/Q25191-0C966B55-E1E1-4154-9088-1DCCAAD08AAD>,
+        <http://www.wikidata.org/entity/statement/Q25191-52D005BE-2514-4326-9B70-C4272C2E579D>,
+        <http://www.wikidata.org/entity/statement/Q25191-69085F72-429D-49CD-9992-4E283D4E2720>,
+        <http://www.wikidata.org/entity/statement/Q25191-B68F228E-A8B7-4EEE-A694-DE38318F3075>,
+        <http://www.wikidata.org/entity/statement/Q25191-DAF483CF-94D9-419C-A8F2-AD5BFDBD2BA9> ;
+    ns2:P1412 <http://www.wikidata.org/entity/statement/Q25191-92F4FD2F-F545-433A-AE76-F192A55E4E94> ;
+    ns2:P1417 <http://www.wikidata.org/entity/statement/Q25191-049934E7-0012-492F-B388-1350B4071281> ;
+    ns2:P1477 <http://www.wikidata.org/entity/statement/Q25191-EBD45B3B-D581-4438-9DBF-9672AD599C06> ;
+    ns2:P1559 <http://www.wikidata.org/entity/statement/Q25191-5689cf8f-4667-e105-0f02-6dad299ba02a> ;
+    ns2:P166 <http://www.wikidata.org/entity/statement/Q25191-0A9722F2-CD44-4768-A631-1D6941ECDBF8>,
+        <http://www.wikidata.org/entity/statement/Q25191-40d22dc4-4111-5c20-869f-e7fb63a941fc>,
+        <http://www.wikidata.org/entity/statement/Q25191-945a6d83-4bd5-ebe6-8c35-ba6449ec3a3c>,
+        <http://www.wikidata.org/entity/statement/Q25191-9d05037a-4530-02ba-b59f-eb018504c40a>,
+        <http://www.wikidata.org/entity/statement/Q25191-BC5BEB97-C4CE-45BE-8D5B-D1E4A0CFA69D>,
+        <http://www.wikidata.org/entity/statement/Q25191-ea813315-42be-5722-0df1-a34e63b99541> ;
+    ns2:P1695 <http://www.wikidata.org/entity/statement/Q25191-bfd9101e-40df-4d60-69c0-f122a71105ea> ;
+    ns2:P1741 <http://www.wikidata.org/entity/statement/Q25191-BAC34B3C-A05D-46FF-953A-629A581A15A7> ;
+    ns2:P18 <http://www.wikidata.org/entity/statement/q25191-E3A192AF-E370-460A-A78E-0498FD4F8A27> ;
+    ns2:P19 <http://www.wikidata.org/entity/statement/q25191-A85EBD83-56A5-4B69-A050-AC57B15995C5> ;
+    ns2:P1953 <http://www.wikidata.org/entity/statement/Q25191-00C943EB-73FA-4863-9E7D-FB1C65F061FD> ;
+    ns2:P1969 <http://www.wikidata.org/entity/statement/Q25191-051AC49C-C78A-435D-8255-40AA0DBEE1D6> ;
+    ns2:P1971 <http://www.wikidata.org/entity/statement/Q25191-2E793205-40BF-465F-880F-A490FD3CA59A> ;
+    ns2:P2019 <http://www.wikidata.org/entity/statement/Q25191-4511da07-47af-8abf-ec6c-e3c654930f9a> ;
+    ns2:P2031 <http://www.wikidata.org/entity/statement/Q25191-7D527BAC-0183-4403-A9CB-3D8238F93A03> ;
+    ns2:P21 <http://www.wikidata.org/entity/statement/Q25191-FDA003B3-2FAA-4C1E-A6BA-8111F58CA41B> ;
+    ns2:P213 <http://www.wikidata.org/entity/statement/q25191-C52EDACD-2442-4CF9-953D-69175EA0B670> ;
+    ns2:P214 <http://www.wikidata.org/entity/statement/q25191-EFE3793C-4E0B-4D0A-B83D-134A642471EB> ;
+    ns2:P2163 <http://www.wikidata.org/entity/statement/Q25191-EB76C88D-B9B9-4E3A-8934-00C055388FE6> ;
+    ns2:P2168 <http://www.wikidata.org/entity/statement/Q25191-4af2147c-4aae-8fd5-13f2-17e2fe6cb9bb> ;
+    ns2:P2174 <http://www.wikidata.org/entity/statement/Q25191-3F29BCD4-D593-4370-B1A8-EADB8AE62C16> ;
+    ns2:P227 <http://www.wikidata.org/entity/statement/q25191-D2C26CF1-97C8-4CBE-8150-8C9BC547C335> ;
+    ns2:P2387 <http://www.wikidata.org/entity/statement/Q25191-A995E681-4846-40B4-97F5-7B19FAA31889> ;
+    ns2:P2435 <http://www.wikidata.org/entity/statement/Q25191-49548023-3AFA-484C-A193-B33C81E114C5> ;
+    ns2:P244 <http://www.wikidata.org/entity/statement/q25191-9FB912D1-CFFA-4E16-B333-8DB2D28FE00C> ;
+    ns2:P2519 <http://www.wikidata.org/entity/statement/Q25191-e5ecf663-48ae-1a9b-2f97-4ae9ab17f3d8> ;
+    ns2:P26 <http://www.wikidata.org/entity/statement/q25191-FFA458A8-1F56-4CB1-9548-D076DB3A0ED8> ;
+    ns2:P2604 <http://www.wikidata.org/entity/statement/Q25191-444a117b-4f7f-7677-4012-22529b24b734> ;
+    ns2:P2605 <http://www.wikidata.org/entity/statement/Q25191-9DF35BF2-DC49-4A90-8470-01611D0E29A4> ;
+    ns2:P2626 <http://www.wikidata.org/entity/statement/Q25191-5B2EEAC5-7914-462B-A28F-46DF42FC15F3> ;
+    ns2:P2638 <http://www.wikidata.org/entity/statement/Q25191-7D704E97-8285-41B3-B257-E6A58B299DB3> ;
+    ns2:P268 <http://www.wikidata.org/entity/statement/q25191-791EB24F-268A-4F30-9F9A-0C1F8DF51CB3> ;
+    ns2:P2688 <http://www.wikidata.org/entity/statement/Q25191-4ee5956a-461a-7bb9-135a-60a6594317f6> ;
+    ns2:P269 <http://www.wikidata.org/entity/statement/q25191-6A307876-C954-429B-A4EA-F91AE91F6ACB> ;
+    ns2:P27 <http://www.wikidata.org/entity/statement/q25191-34FCDACA-4011-46AF-9394-98A2F5A67183>,
+        <http://www.wikidata.org/entity/statement/q25191-97139FCA-9156-4C0D-B450-1ACB2DB1F580> ;
+    ns2:P2963 <http://www.wikidata.org/entity/statement/Q25191-d1d3982b-4da2-6f67-4672-de11daf3ef09> ;
+    ns2:P3056 <http://www.wikidata.org/entity/statement/Q25191-0042B417-E1B9-49BE-9777-5FB267FB4D6D> ;
+    ns2:P31 <http://www.wikidata.org/entity/statement/q25191-16763789-5629-4790-ABB9-9B92BEDF2390> ;
+    ns2:P3142 <http://www.wikidata.org/entity/statement/Q25191-9D401EEA-27D8-4F06-9352-5EE2D6CA91C8> ;
+    ns2:P3305 <http://www.wikidata.org/entity/statement/Q25191-A6285F3A-BD5A-4792-8B8E-DA8F527F7A69> ;
+    ns2:P3373 <http://www.wikidata.org/entity/statement/Q25191-427505C6-1B00-442F-9021-8AD4AA0D1038> ;
+    ns2:P3417 <http://www.wikidata.org/entity/statement/Q25191-8D49CA8F-916E-46BA-84CD-FB52A4DDF715> ;
+    ns2:P3430 <http://www.wikidata.org/entity/statement/Q25191-7192EF3A-6E2B-40BE-A545-F4C2DA08BA2A> ;
+    ns2:P345 <http://www.wikidata.org/entity/statement/q25191-433884B4-2531-46A0-945B-BA41D158955B> ;
+    ns2:P349 <http://www.wikidata.org/entity/statement/q25191-F54B3295-C79E-4128-88C8-D3E0EF1CE815> ;
+    ns2:P3630 <http://www.wikidata.org/entity/statement/Q25191-8F36D512-4DEF-4459-BB0B-B26F64C6C419> ;
+    ns2:P373 <http://www.wikidata.org/entity/statement/q25191-96C4737C-AB79-413C-AF66-12A65D2F79A8> ;
+    ns2:P3984 <http://www.wikidata.org/entity/statement/Q25191-69D9C524-DB52-46BB-9661-74DCE2F5F2B7> ;
+    ns2:P3987 <http://www.wikidata.org/entity/statement/Q25191-B3239D30-5331-4879-9C8A-11842D9B0433> ;
+    ns2:P40 <http://www.wikidata.org/entity/statement/Q25191-19a30c70-4b8f-89e3-e82d-0eb6d06ec69b>,
+        <http://www.wikidata.org/entity/statement/Q25191-4126f2f6-4973-09ae-684b-2274fc0473b3>,
+        <http://www.wikidata.org/entity/statement/Q25191-f408aaf4-700c-43ed-8200-ea05faa260d4> ;
+    ns2:P4073 <http://www.wikidata.org/entity/statement/Q25191-fc84be9e-4e38-ddbd-dfa7-d3e89eda134a> ;
+    ns2:P434 <http://www.wikidata.org/entity/statement/q25191-5F469F19-D544-44DF-A501-9FEEE09E7E8E> ;
+    ns2:P4342 <http://www.wikidata.org/entity/statement/Q25191-D7A0C56F-6DD4-41DD-9813-A7BA54D3CD6D> ;
+    ns2:P463 <http://www.wikidata.org/entity/statement/Q25191-0834b543-480f-78ab-a99e-beaf3917c0bc>,
+        <http://www.wikidata.org/entity/statement/Q25191-655de700-43c8-1173-508b-c7fd98db9f89> ;
+    ns2:P4781 <http://www.wikidata.org/entity/statement/Q25191-d5333d0e-44d2-aee2-c4c7-b28a6b90308f> ;
+    ns2:P4789 <http://www.wikidata.org/entity/statement/Q25191-e5c43b4e-449e-83d1-298a-b9b84eaea6cb> ;
+    ns2:P4985 <http://www.wikidata.org/entity/statement/Q25191-680A85FB-89FB-45B9-B34E-24EDE5765C6E> ;
+    ns2:P5019 <http://www.wikidata.org/entity/statement/Q25191-5E6E5136-2C71-45FB-9BC2-B891220F6415> ;
+    ns2:P5034 <http://www.wikidata.org/entity/statement/Q25191-b4362575-43f0-479d-ab24-e4d794922158> ;
+    ns2:P5284 <http://www.wikidata.org/entity/statement/Q25191-8173C079-E10E-4A98-B5B9-1A05C6D981F3> ;
+    ns2:P5534 <http://www.wikidata.org/entity/statement/Q25191-EA411E1C-9A62-4668-BE31-5A8C541A5017> ;
+    ns2:P5587 <http://www.wikidata.org/entity/statement/Q25191-F8CF09A4-A28F-4704-9208-98FAD0F76BFD> ;
+    ns2:P5617 <http://www.wikidata.org/entity/statement/Q25191-0E9B8F8E-C1D5-4DB3-9F1F-0E9CC26E7663> ;
+    ns2:P569 <http://www.wikidata.org/entity/statement/q25191-42A2A635-AA3E-4129-8874-FDADE65C6FF1> ;
+    ns2:P5905 <http://www.wikidata.org/entity/statement/Q25191-face7a30-4c52-50fd-b490-252d6d432f82> ;
+    ns2:P6150 <http://www.wikidata.org/entity/statement/Q25191-6550ED38-9501-4E9F-91FA-B0952E146339> ;
+    ns2:P6298 <http://www.wikidata.org/entity/statement/Q25191-D6B43774-E56C-4E89-BE66-B65604EADF32> ;
+    ns2:P6379 <http://www.wikidata.org/entity/statement/Q25191-A1C196F2-6885-4DCD-AB01-F4C36AF08B65> ;
+    ns2:P646 <http://www.wikidata.org/entity/statement/Q25191-AB97B9E8-5C21-4AE6-9482-DF9F3B2DE75B> ;
+    ns2:P69 <http://www.wikidata.org/entity/statement/Q25191-9B1C3181-46B4-4E09-A3D2-6C6CA8A6CA45>,
+        <http://www.wikidata.org/entity/statement/q25191-31B9DD2A-7B8A-44BA-97F0-35CFFB6C5996> ;
+    ns2:P691 <http://www.wikidata.org/entity/statement/Q25191-D4EC15F5-2CC8-45CA-ABED-04C6FAC76504> ;
+    ns2:P7084 <http://www.wikidata.org/entity/statement/Q25191-80A1C633-7B2F-4A61-ACF5-9B5F0361C2DB> ;
+    ns2:P7214 <http://www.wikidata.org/entity/statement/Q25191-4CE8C689-CB52-4B24-8528-E113EA784114> ;
+    ns2:P7286 <http://www.wikidata.org/entity/statement/Q25191-b46b955a-4497-d111-183a-d9a2d4ac20a5> ;
+    ns2:P7293 <http://www.wikidata.org/entity/statement/Q25191-2ddb5534-4c19-33d5-dc66-0afb37c8214d> ;
+    ns2:P734 <http://www.wikidata.org/entity/statement/Q25191-1ab1e849-44b4-bec6-634e-a2912e1cc8e7> ;
+    ns2:P735 <http://www.wikidata.org/entity/statement/Q25191-303a8af9-4d3e-06cb-9e5c-fafc58bea5a3>,
+        <http://www.wikidata.org/entity/statement/Q25191-C9B855BC-924A-4306-A1C9-C5DBDC8141D0> ;
+    ns2:P737 <http://www.wikidata.org/entity/statement/Q25191-a563faf0-42f1-e025-69dc-bd4913dc0ab8> ;
+    ns2:P7763 <http://www.wikidata.org/entity/statement/Q25191-a015795a-25f4-405e-8b05-ca753415fd3b> ;
+    ns2:P7803 <http://www.wikidata.org/entity/statement/Q25191-71B90295-A9D7-442C-B76F-0A9695430EDA> ;
+    ns2:P7859 <http://www.wikidata.org/entity/statement/Q25191-96FEDC02-64C7-4B3E-8545-9C57FF5B32A3> ;
+    ns2:P906 <http://www.wikidata.org/entity/statement/Q25191-86C4013E-BB26-446B-B5ED-A493B98B02CF> ;
+    ns2:P910 <http://www.wikidata.org/entity/statement/Q25191-E0AC2491-C22A-425B-9120-FCDD232535AE> ;
+    ns2:P950 <http://www.wikidata.org/entity/statement/Q25191-5285268D-AFBC-48B0-8A41-1BBB12E06AF5> ;
+    ns8:P1006 <http://data.bibliotheken.nl/id/thes/p073905143> ;
+    ns8:P1741 <http://data.beeldengeluid.nl/gtaa/137173> ;
+    ns8:P214 <http://viaf.org/viaf/102310843> ;
+    ns8:P2163 <http://id.worldcat.org/fast/1568745> ;
+    ns8:P227 <https://d-nb.info/gnd/12394192X> ;
+    ns8:P244 <https://id.loc.gov/authorities/names/no2002001999> ;
+    ns8:P268 <http://data.bnf.fr/ark:/12148/cb141249311#about> ;
+    ns8:P269 <http://www.idref.fr/074015834/id> ;
+    ns8:P349 <http://id.ndl.go.jp/auth/ndlna/00859363> ;
+    ns8:P434 <http://musicbrainz.org/artist/166b9184-9a0d-4249-8be6-fc3cd70730c8> ;
+    ns8:P5034 <http://lod.nl.go.kr/resource/KAC199620312> ;
+    ns8:P5587 <https://libris.kb.se/pm149cp70lgr31m> ;
+    ns8:P646 <http://g.co/kg/m/0184dt> ;
+    ns8:P906 <http://libris.kb.se/resource/auth/328027> ;
+    ns8:P950 <http://datos.bne.es/resource/XX1539092> ;
+    ns4:P1006 "073905143"^^xsd:string ;
+    ns4:P1038 wd:Q12858652,
+        wd:Q732010 ;
+    ns4:P106 wd:Q1053574,
+        wd:Q10800557,
+        wd:Q1208175,
+        wd:Q222344,
+        wd:Q237893,
+        wd:Q2526255,
+        wd:Q28389,
+        wd:Q3282637,
+        wd:Q33999,
+        wd:Q36180,
+        wd:Q7042855 ;
+    ns4:P1207 "n2009141767"^^xsd:string ;
+    ns4:P1233 "146278"^^xsd:string ;
+    ns4:P1258 "celebrity/christopher_nolan"^^xsd:string ;
+    ns4:P1263 "178/000160695"^^xsd:string ;
+    ns4:P1266 "30367"^^xsd:string ;
+    ns4:P1283 wd:Q20429987 ;
+    ns4:P1284 "00000024339"^^xsd:string ;
+    ns4:P1296 "0522505"^^xsd:string ;
+    ns4:P1343 wd:Q67311526 ;
+    ns4:P1411 wd:Q102427,
+        wd:Q103360,
+        wd:Q41417,
+        wd:Q628637 ;
+    ns4:P1412 wd:Q1860 ;
+    ns4:P1417 "biography/Christopher-Nolan-British-director"^^xsd:string ;
+    ns4:P1477 "Christopher Edward Nolan"@en ;
+    ns4:P1559 "Christopher Nolan"@en ;
+    ns4:P166 wd:Q105447,
+        wd:Q12201477,
+        wd:Q14420,
+        wd:Q16058279,
+        wd:Q189887,
+        wd:Q833154 ;
+    ns4:P1695 "A29432662"^^xsd:string ;
+    ns4:P1741 "137173"^^xsd:string ;
+    ns4:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Christopher%20Nolan%20Cannes%202018.jpg> ;
+    ns4:P19 wd:Q84 ;
+    ns4:P1953 "1230091"^^xsd:string ;
+    ns4:P1969 "2128"^^xsd:string ;
+    ns4:P1971 4.0 ;
+    ns4:P2019 "p240025"^^xsd:string ;
+    ns4:P2031 "1989-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P21 wd:Q6581097 ;
+    ns4:P213 "0000 0001 1079 747X"^^xsd:string ;
+    ns4:P214 "102310843"^^xsd:string ;
+    ns4:P2163 "1568745"^^xsd:string ;
+    ns4:P2168 "289139"^^xsd:string ;
+    ns4:P2174 "37821"^^xsd:string ;
+    ns4:P227 "12394192X"^^xsd:string ;
+    ns4:P2387 "1009506"^^xsd:string ;
+    ns4:P2435 "134164"^^xsd:string ;
+    ns4:P244 "no2002001999"^^xsd:string ;
+    ns4:P2519 "7792"^^xsd:string ;
+    ns4:P26 wd:Q242951 ;
+    ns4:P2604 "41477"^^xsd:string ;
+    ns4:P2605 "3022"^^xsd:string ;
+    ns4:P2626 "146798"^^xsd:string ;
+    ns4:P2638 "people/christopher-nolan"^^xsd:string ;
+    ns4:P268 "141249311"^^xsd:string ;
+    ns4:P2688 "christophernolan"^^xsd:string ;
+    ns4:P269 "074015834"^^xsd:string ;
+    ns4:P27 wd:Q145,
+        wd:Q30 ;
+    ns4:P2963 "3044804"^^xsd:string ;
+    ns4:P3056 "520494"^^xsd:string ;
+    ns4:P31 wd:Q5 ;
+    ns4:P3142 "n0001115"^^xsd:string ;
+    ns4:P3305 "162603"^^xsd:string ;
+    ns4:P3373 wd:Q372788 ;
+    ns4:P3417 "Christopher-Nolan-director"^^xsd:string ;
+    ns4:P3430 "w64505mx"^^xsd:string ;
+    ns4:P345 "nm0634240"^^xsd:string ;
+    ns4:P349 "00859363"^^xsd:string ;
+    ns4:P3630 "68188"^^xsd:string ;
+    ns4:P373 "Christopher Nolan"^^xsd:string ;
+    ns4:P3984 "Nolan"^^xsd:string ;
+    ns4:P3987 "449790"^^xsd:string ;
+    ns4:P40 wd:Q77980653,
+        wd:Q77981400,
+        wd:Q77981509 ;
+    ns4:P4073 "chrisnolan"^^xsd:string ;
+    ns4:P434 "166b9184-9a0d-4249-8be6-fc3cd70730c8"^^xsd:string ;
+    ns4:P4342 "Christopher_Nolan"^^xsd:string ;
+    ns4:P463 wd:Q1227533,
+        wd:Q8038459 ;
+    ns4:P4781 "17035"^^xsd:string ;
+    ns4:P4789 "U255675"^^xsd:string ;
+    ns4:P4985 "525"^^xsd:string ;
+    ns4:P5019 "nolan-christopher"^^xsd:string ;
+    ns4:P5034 "KAC199620312"^^xsd:string ;
+    ns4:P5284 "1054524"^^xsd:string ;
+    ns4:P5534 "525"^^xsd:string ;
+    ns4:P5587 "pm149cp70lgr31m"^^xsd:string ;
+    ns4:P5617 "christopher-nolan-23209"^^xsd:string ;
+    ns4:P569 "1970-07-30T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P5905 "4040-71087"^^xsd:string ;
+    ns4:P6150 "7838"^^xsd:string ;
+    ns4:P6298 "15985"^^xsd:string ;
+    ns4:P6379 wd:Q188740 ;
+    ns4:P646 "/m/0184dt"^^xsd:string ;
+    ns4:P69 wd:Q193196,
+        wd:Q5639263 ;
+    ns4:P691 "js20050822022"^^xsd:string ;
+    ns4:P7084 wd:Q6840348 ;
+    ns4:P7214 "469704"^^xsd:string ;
+    ns4:P7286 "a1b668dc-8ec5-4733-87f5-f6060285bfad"^^xsd:string ;
+    ns4:P7293 "9810637995205606"^^xsd:string ;
+    ns4:P734 wd:Q20900701 ;
+    ns4:P735 wd:Q1084472,
+        wd:Q278835 ;
+    ns4:P737 wd:Q38222 ;
+    ns4:P7763 wd:Q73555012 ;
+    ns4:P7803 "56799"^^xsd:string ;
+    ns4:P7859 "lccn-no2002001999"^^xsd:string ;
+    ns4:P906 "328027"^^xsd:string ;
+    ns4:P910 wd:Q7307597 ;
+    ns4:P950 "XX1539092"^^xsd:string ;
     twss:url "https://www.rottentomatoes.com/celebrity/christopher_nolan"^^xsd:anyUri .
 
 twss:CinepolisMaipu a dbo:Cinema ;
@@ -7800,7 +8805,229 @@ twss:NicolasTacconi a dbo:MovieDirector ;
 
 twss:PattyJenkins a dbo:MovieDirector,
         dbo:Person ;
+    rdfs:label "باتي جنكينز"@ar,
+        "باتى جنكينز"@arz,
+        "Patty Jenkins"@ast,
+        "Пати Дженкинс"@bg,
+        "Patty Jenkins"@ca,
+        "Patty Jenkins"@cs,
+        "Patty Jenkins"@da,
+        "Patty Jenkins"@de,
+        "Πάτι Τζένκινς"@el,
+        "Patty Jenkins"@en,
+        "Patty Jenkins"@es,
+        "پتی جنکینس"@fa,
+        "Patty Jenkins"@fi,
+        "Patty Jenkins"@fr,
+        "Patty Jenkins"@ga,
+        "פאטי ג'נקינס"@he,
+        "पैटी जेंकिन्स"@hi,
+        "Patty Jenkins"@hu,
+        "Փեթի Ջենկինս"@hy,
+        "Patty Jenkins"@it,
+        "パティ・ジェンキンス"@ja,
+        "패티 젱킨스"@ko,
+        "Patty Jenkins"@mg,
+        "Patty Jenkins"@nb,
+        "Patty Jenkins"@nl,
+        "Patty Jenkins"@nn,
+        "Patty Jenkins"@pam,
+        "Patty Jenkins"@pl,
+        "Patty Jenkins"@pt,
+        "Patty Jenkins"@pt-br,
+        "Дженкинс, Пэтти"@ru,
+        "Patty Jenkins"@sl,
+        "Patty Jenkins"@sq,
+        "Patty Jenkins"@sv,
+        "แพตตี้ เจนกินส์"@th,
+        "Patty Jenkins"@tr,
+        "Петті Дженкінс"@uk,
+        "Patty Jenkins"@vi,
+        "派蒂·珍金斯"@zh,
+        "帕提·珍金斯"@zh-hk ;
     dbo:Name "Patty Jenkins" ;
+    ns1:dateModified "2021-05-30T18:26:45+00:00"^^xsd:dateTime ;
+    ns1:description "مخرج أفلام أمريكي"@ar,
+        "মার্কিন চলচ্চিত্র পরিচালিকা"@bn,
+        "directora de cinema estatunidenca"@ca,
+        "americká filmová režisérka"@cs,
+        "US-amerikanische Filmregisseurin"@de,
+        "Αμερικανίδα σκηνοθέτις"@el,
+        "American film director"@en,
+        "directora de cine y guionista estadounidense"@es,
+        "Ameerika Ühendriikide filmirežissöör"@et,
+        "فیلمنامهنویس و کارگردان آمریکایی"@fa,
+        "yhdysvaltalainen elokuva- ja televisio-ohjaaja"@fi,
+        "réalisatrice et scénariste américaine"@fr,
+        "stiúrthóir scannán Meiriceánach"@ga,
+        "directora de cinema estadounidense"@gl,
+        "במאית קולנוע אמריקאית"@he,
+        "फ़िल्म निर्देशक"@hi,
+        "amerikai filmrendező, forgatókönyvíró, producer"@hu,
+        "regista statunitense"@it,
+        "미국의 영화 감독"@ko,
+        "Amerikaans filmregisseuse"@nl,
+        "American film director"@pam,
+        "reżyserka amerykańska"@pl,
+        "regizoare de film americană"@ro,
+        "regjisore amerikane"@sq,
+        "amerikansk filmregissör och manusförfattare"@sv,
+        "американська кінорежисерка, сценаристка та кінопродюсерка"@uk ;
+    ns1:version 1431790265 ;
+    ns7:identifiers 41 ;
+    ns7:sitelinks 30 ;
+    ns7:statements 66 ;
+    ns7:timestamp "2021-05-30T18:34:37+00:00"^^xsd:dateTime ;
+    ns9:altLabel "Patricia Jenkins"@cs,
+        "Patricia Jenkinsová"@cs,
+        "Patricia Lea Jenkins"@cs,
+        "Patty Jenkinsová"@cs,
+        "Patricia Lea Jenkins"@de,
+        "Patricia Lea \"Patty\" Jenkins"@en,
+        "Patricia Lea Jenkins"@fi,
+        "패티 젠킨스"@ko,
+        "페티 젠킨스"@ko,
+        "Пэтти Дженкинс"@ru,
+        "แพทริเซีย ลี \"แพตตี้\" เจนกินส์"@th ;
+    ns2:P1006 <http://www.wikidata.org/entity/statement/Q456910-07F52860-453C-47B2-A7B2-C9F003809727> ;
+    ns2:P106 <http://www.wikidata.org/entity/statement/Q456910-34340780-0D63-42B1-A0AA-7888CC58B7D9>,
+        <http://www.wikidata.org/entity/statement/Q456910-8F7DCFD5-1C66-4DB8-A9D0-2AEBFBEE21FB>,
+        <http://www.wikidata.org/entity/statement/Q456910-BAE0FA3D-3844-445D-9E18-01575045642A>,
+        <http://www.wikidata.org/entity/statement/Q456910-FB822AA6-8621-4676-8523-B745C8FE93AF> ;
+    ns2:P1207 <http://www.wikidata.org/entity/statement/Q456910-CC349EBA-DB89-4DE3-AD66-8C17B2F76893> ;
+    ns2:P1266 <http://www.wikidata.org/entity/statement/Q456910-3c791874-4d76-3982-7f03-ba5f1eb48334> ;
+    ns2:P1280 <http://www.wikidata.org/entity/statement/Q456910-4FC3DAB7-59F7-478B-ACA9-72EBA99C0EDB> ;
+    ns2:P1284 <http://www.wikidata.org/entity/statement/Q456910-CC029412-2A7F-4BA0-9204-BD234227C1B5> ;
+    ns2:P1412 <http://www.wikidata.org/entity/statement/Q456910-5994459E-6DA5-417F-81F8-91352B9691E7> ;
+    ns2:P1559 <http://www.wikidata.org/entity/statement/Q456910-205ca2ca-41c3-0cf2-d9a9-5ed47341104f> ;
+    ns2:P166 <http://www.wikidata.org/entity/statement/Q456910-409D7692-D294-41D0-8282-25F7926AEC3B> ;
+    ns2:P18 <http://www.wikidata.org/entity/statement/Q456910-2E2D4A10-C0A5-41D6-95FD-B97A2E9BD722>,
+        <http://www.wikidata.org/entity/statement/Q456910-79614e29-4474-57bf-bceb-4deb21b175f9> ;
+    ns2:P19 <http://www.wikidata.org/entity/statement/Q456910-1EB7C705-2DEB-4DDA-82B4-82142F9202EB> ;
+    ns2:P1969 <http://www.wikidata.org/entity/statement/Q456910-0c6af466-4082-1bf4-bb18-4a3db0fcba27> ;
+    ns2:P2002 <http://www.wikidata.org/entity/statement/Q456910-096F5093-14DC-4B46-A5EC-027A5AE99320> ;
+    ns2:P2019 <http://www.wikidata.org/entity/statement/Q456910-fbad8939-4ec2-4ed3-cd44-9b5c52c0724b> ;
+    ns2:P2031 <http://www.wikidata.org/entity/statement/Q456910-0b7363a6-4f3f-08af-45bb-88a054412b27>,
+        <http://www.wikidata.org/entity/statement/Q456910-6C896A17-479B-4785-9238-1190E59EB633> ;
+    ns2:P21 <http://www.wikidata.org/entity/statement/q456910-A36C45F9-B4CB-4274-8C3F-694159106986> ;
+    ns2:P213 <http://www.wikidata.org/entity/statement/Q456910-44CEFEDC-3E1A-4CF9-88FB-78B89A9A2A5E> ;
+    ns2:P214 <http://www.wikidata.org/entity/statement/q456910-48DB7387-B581-4CC2-9B9B-61D026C9ABCF> ;
+    ns2:P2168 <http://www.wikidata.org/entity/statement/Q456910-CEFADBE2-A201-449F-ACE4-A25505F2DC09> ;
+    ns2:P227 <http://www.wikidata.org/entity/statement/q456910-F4E13D99-9FA5-437A-97EC-5A260F0A59B9> ;
+    ns2:P2387 <http://www.wikidata.org/entity/statement/Q456910-7e613d92-4db9-a0da-a155-bfd0a254d9c0> ;
+    ns2:P2435 <http://www.wikidata.org/entity/statement/Q456910-7ea90e59-418d-ea58-67c3-666bebfe13c7> ;
+    ns2:P244 <http://www.wikidata.org/entity/statement/q456910-36513024-388D-488E-9F3A-24D4AC50EDA9> ;
+    ns2:P2519 <http://www.wikidata.org/entity/statement/Q456910-8dd4f01d-4271-2a2f-974d-c073e857b7bd> ;
+    ns2:P26 <http://www.wikidata.org/entity/statement/Q456910-64c810a2-4052-5091-cbea-00fed90077b9> ;
+    ns2:P2600 <http://www.wikidata.org/entity/statement/Q456910-be975fb8-439c-1827-0b70-778616ddbdb2> ;
+    ns2:P2604 <http://www.wikidata.org/entity/statement/Q456910-2b5a6806-47a6-5b58-356d-89a02ca26753> ;
+    ns2:P2605 <http://www.wikidata.org/entity/statement/Q456910-7BF39E4F-3420-46EB-8F72-31CA83EB2A6B> ;
+    ns2:P2626 <http://www.wikidata.org/entity/statement/Q456910-b69f9b9b-478d-009f-c65b-7f52821da910> ;
+    ns2:P2638 <http://www.wikidata.org/entity/statement/Q456910-46213CF0-7CDF-4BBD-9F8C-0D82F223329F> ;
+    ns2:P2639 <http://www.wikidata.org/entity/statement/Q456910-DD96BD9B-17B8-4C6C-9057-99E5860B1E9A> ;
+    ns2:P268 <http://www.wikidata.org/entity/statement/Q456910-3A011010-2122-46AD-9F9E-2219DBF9EF0B> ;
+    ns2:P2688 <http://www.wikidata.org/entity/statement/Q456910-38C5F1E3-0700-46D3-A1B2-815AB745E365> ;
+    ns2:P269 <http://www.wikidata.org/entity/statement/Q456910-F0506081-BBFB-40B4-9849-93436D657EAB> ;
+    ns2:P27 <http://www.wikidata.org/entity/statement/q456910-7E47F65C-C785-4D52-A4FF-105F204C2F69> ;
+    ns2:P31 <http://www.wikidata.org/entity/statement/Q456910-CAD82243-620C-47C0-AA94-9F02D4F9DC31> ;
+    ns2:P3305 <http://www.wikidata.org/entity/statement/Q456910-FF0B2EE7-4E71-4C4B-ACC2-BFEF2EBDDC3D> ;
+    ns2:P345 <http://www.wikidata.org/entity/statement/q456910-ECA3D36E-BA42-47DD-B847-F5C2E7AD76EB> ;
+    ns2:P373 <http://www.wikidata.org/entity/statement/Q456910-d484ba9c-40df-9c64-dc01-657bbaaa41db> ;
+    ns2:P4985 <http://www.wikidata.org/entity/statement/Q456910-C694A381-4DA8-417A-B108-B2FC310D33D5> ;
+    ns2:P5033 <http://www.wikidata.org/entity/statement/Q456910-95B78235-2507-4E7E-9B4C-5BD3B2797839> ;
+    ns2:P5034 <http://www.wikidata.org/entity/statement/Q456910-35a3fe87-4982-4924-9360-fe340a11bc30> ;
+    ns2:P5534 <http://www.wikidata.org/entity/statement/Q456910-BC773B2F-A30F-485F-BFE4-446F511E850B> ;
+    ns2:P569 <http://www.wikidata.org/entity/statement/Q456910-846BDB74-EF64-4835-B84F-FF6F89983A26> ;
+    ns2:P5905 <http://www.wikidata.org/entity/statement/Q456910-6a085189-4c7b-80a1-6516-7a26b754b232> ;
+    ns2:P6262 <http://www.wikidata.org/entity/statement/Q456910-39549162-C482-4DDA-B62C-734BA1374CAE> ;
+    ns2:P646 <http://www.wikidata.org/entity/statement/Q456910-3856D897-8AEE-4233-A502-67F4305C36D2> ;
+    ns2:P69 <http://www.wikidata.org/entity/statement/Q456910-069D7728-F2B7-4F16-A6F2-FB4DDB29AA61>,
+        <http://www.wikidata.org/entity/statement/Q456910-BED86A0A-DF3D-48B6-A0F6-6EE25C1714E1> ;
+    ns2:P691 <http://www.wikidata.org/entity/statement/Q456910-99539685-A350-42B0-9121-48E52596A800> ;
+    ns2:P7084 <http://www.wikidata.org/entity/statement/Q456910-6F8B8052-59EB-4078-B9E9-7854FED5F009> ;
+    ns2:P7214 <http://www.wikidata.org/entity/statement/Q456910-0E76B1F1-A6FC-4F63-80B0-086E11E17D2E> ;
+    ns2:P7293 <http://www.wikidata.org/entity/statement/Q456910-801F6CA8-30F3-4EE7-98AE-D58C20458371> ;
+    ns2:P734 <http://www.wikidata.org/entity/statement/Q456910-7B4E6DC4-5510-42D6-8CF1-84AFFA707C80> ;
+    ns2:P735 <http://www.wikidata.org/entity/statement/Q456910-0CCD8847-AC2F-4B35-A90D-71A375008673> ;
+    ns2:P7859 <http://www.wikidata.org/entity/statement/Q456910-D644A72A-584C-4D23-9F2E-E76E61E0B3D9> ;
+    ns2:P7902 <http://www.wikidata.org/entity/statement/Q456910-92E50A65-9141-4B56-AFA6-1A02B1FC8F9B> ;
+    ns2:P8672 <http://www.wikidata.org/entity/statement/Q456910-3487CA9F-714F-4E55-ABA8-EC3E81076243> ;
+    ns2:P8687 <http://www.wikidata.org/entity/statement/Q456910-2a7d32cc-39fb-4153-9f98-ec53a5f73bb2>,
+        <http://www.wikidata.org/entity/statement/Q456910-d76b719b-6b5b-4769-a348-d71f5aff27a4> ;
+    ns2:P950 <http://www.wikidata.org/entity/statement/Q456910-82DE99FC-56C3-4CF3-AE3A-D672B6F93301> ;
+    ns8:P1006 <http://data.bibliotheken.nl/id/thes/p266786804> ;
+    ns8:P214 <http://viaf.org/viaf/120324862> ;
+    ns8:P227 <https://d-nb.info/gnd/141076747> ;
+    ns8:P244 <https://id.loc.gov/authorities/names/no2004065349> ;
+    ns8:P268 <http://data.bnf.fr/ark:/12148/cb14627158f#about> ;
+    ns8:P269 <http://www.idref.fr/11138477X/id> ;
+    ns8:P5034 <http://lod.nl.go.kr/resource/KAC201514186> ;
+    ns8:P646 <http://g.co/kg/m/06xcrj> ;
+    ns8:P950 <http://datos.bne.es/resource/XX5194017> ;
+    ns4:P1006 "266786804"^^xsd:string ;
+    ns4:P106 wd:Q2059704,
+        wd:Q2526255,
+        wd:Q28389,
+        wd:Q36180 ;
+    ns4:P1207 "n2011066747"^^xsd:string ;
+    ns4:P1266 "83249"^^xsd:string ;
+    ns4:P1280 "69701731"^^xsd:string ;
+    ns4:P1284 "00000031101"^^xsd:string ;
+    ns4:P1412 wd:Q1860 ;
+    ns4:P1559 "Patty Jenkins"@en ;
+    ns4:P166 wd:Q1111310 ;
+    ns4:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Patty%20Jenkins%20at%20the%202018%20Comic-Con%20International.jpg> ;
+    ns4:P19 wd:Q495353 ;
+    ns4:P1969 "9890"^^xsd:string ;
+    ns4:P2002 "PattyJenks"^^xsd:string ;
+    ns4:P2019 "p365134"^^xsd:string ;
+    ns4:P2031 "1995-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P21 wd:Q6581072 ;
+    ns4:P213 "0000 0003 6999 4456"^^xsd:string ;
+    ns4:P214 "120324862"^^xsd:string ;
+    ns4:P2168 "322357"^^xsd:string ;
+    ns4:P227 "141076747"^^xsd:string ;
+    ns4:P2387 "1224188"^^xsd:string ;
+    ns4:P2435 "196206"^^xsd:string ;
+    ns4:P244 "no2004065349"^^xsd:string ;
+    ns4:P2519 "23879"^^xsd:string ;
+    ns4:P26 wd:Q30238591 ;
+    ns4:P2600 "6000000060141497976"^^xsd:string ;
+    ns4:P2604 "224580"^^xsd:string ;
+    ns4:P2605 "12736"^^xsd:string ;
+    ns4:P2626 "155726"^^xsd:string ;
+    ns4:P2638 "people/patty-jenkins"^^xsd:string ;
+    ns4:P2639 "efd70336689b40ecbb5944c4a4f3e199"^^xsd:string ;
+    ns4:P268 "14627158f"^^xsd:string ;
+    ns4:P2688 "pattyjenkins"^^xsd:string ;
+    ns4:P269 "11138477X"^^xsd:string ;
+    ns4:P27 wd:Q30 ;
+    ns4:P31 wd:Q5 ;
+    ns4:P3305 "193449"^^xsd:string ;
+    ns4:P345 "nm0420941"^^xsd:string ;
+    ns4:P373 "Patty Jenkins"^^xsd:string ;
+    ns4:P4985 "6884"^^xsd:string ;
+    ns4:P5033 "138472"^^xsd:string ;
+    ns4:P5034 "KAC201514186"^^xsd:string ;
+    ns4:P5534 "6884"^^xsd:string ;
+    ns4:P569 "1971-07-24T00:00:00+00:00"^^xsd:dateTime ;
+    ns4:P5905 "4040-111342"^^xsd:string ;
+    ns4:P6262 "es.mujeres:Patty_Jenkins"^^xsd:string ;
+    ns4:P646 "/m/06xcrj"^^xsd:string ;
+    ns4:P69 wd:Q130981,
+        wd:Q4651503 ;
+    ns4:P691 "xx0174329"^^xsd:string ;
+    ns4:P7084 wd:Q8456085 ;
+    ns4:P7214 "734357"^^xsd:string ;
+    ns4:P7293 "9810617065605606"^^xsd:string ;
+    ns4:P734 wd:Q170455 ;
+    ns4:P735 wd:Q3897971 ;
+    ns4:P7859 "lccn-no2004065349"^^xsd:string ;
+    ns4:P7902 "141076747"^^xsd:string ;
+    ns4:P8672 "972174052868603904"^^xsd:string ;
+    ns4:P8687 260385.0 ;
+    ns4:P950 "XX5194017"^^xsd:string ;
     twss:url "https://www.rottentomatoes.com/celebrity/patty_jenkins"^^xsd:anyUri .
 
 twss:RamiMalek a dbo:Actor ;
@@ -8035,7 +9262,7 @@ twss:Tenet a dbo:Film ;
         twss:Tenet_cover_image_3,
         twss:Tenet_cover_image_4 ;
     dbo:title "Tenet" ;
-    ns1:source "https://www.ecartelera.com/peliculas/tenet/"^^xsd:anyUri,
+    ns3:source "https://www.ecartelera.com/peliculas/tenet/"^^xsd:anyUri,
         "https://www.imdb.com/title/tt6723592/"^^xsd:anyUri,
         "https://www.metacritic.com/movie/tenet"^^xsd:anyUri,
         "https://www.rottentomatoes.com/m/tenet"^^xsd:anyUri ;
@@ -8062,7 +9289,7 @@ twss:Tenet a dbo:Film ;
         "time paradox"^^xsd:string,
         "written by director"^^xsd:string ;
     twss:synopsis "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist (John David Washington) journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. Not time travel. Inversion."@en ;
-    ns3:aggregateRating twss:Tenet_rating_1,
+    ns10:aggregateRating twss:Tenet_rating_1,
         twss:Tenet_rating_2,
         twss:Tenet_rating_3,
         twss:Tenet_rating_4 .
@@ -8134,7 +9361,7 @@ twss:WonderWoman1984 a dbo:Film ;
         twss:WonderWoman1984_cover_image_3,
         twss:WonderWoman1984_cover_image_4 ;
     dbo:title "Wonder Woman 1984" ;
-    ns1:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri,
+    ns3:source "https://www.ecartelera.com/peliculas/wonder-woman-1984/"^^xsd:anyUri,
         "https://www.imdb.com/title/tt7126948/"^^xsd:anyUri,
         "https://www.metacritic.com/movie/wonder-woman-1984"^^xsd:anyUri,
         "https://www.rottentomatoes.com/m/wonder_woman_1984"^^xsd:anyUri ;
@@ -8151,7 +9378,7 @@ twss:WonderWoman1984 a dbo:Film ;
         "sequel"^^xsd:string,
         "superhero"^^xsd:string ;
     twss:synopsis "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..."@en ;
-    ns3:aggregateRating twss:WonderWoman1984_rating_1,
+    ns10:aggregateRating twss:WonderWoman1984_rating_1,
         twss:WonderWoman1984_rating_2,
         twss:WonderWoman1984_rating_3,
         twss:WonderWoman1984_rating_4 .
@@ -8166,12 +9393,12 @@ twss:room_Ms_2D_CinepolisNeuquen a twss:cinema_room ;
 twss:trailer a owl:Class ;
     rdfs:subClassOf dbo:Media .
 
-dbo:Person rdfs:subClassOf ns4:ResponsibleEntity .
+dbo:Person rdfs:subClassOf ns6:ResponsibleEntity .
 
 twss:movie_review a owl:Class ;
-    rdfs:subClassOf ns2:Review .
+    rdfs:subClassOf ns5:Review .
 
-dbo:Film rdfs:subClassOf ns2:Movie .
+dbo:Film rdfs:subClassOf ns5:Movie .
 
 twss:room_Classic_2D_CinepolisMaipu a twss:cinema_room ;
     dbo:Name "Classic - 2D" ;

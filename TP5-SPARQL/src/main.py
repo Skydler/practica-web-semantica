@@ -2,18 +2,21 @@ import argparse
 import logging
 
 from constants import (
-    TWSS_RESOURCES_URI, OSCAR_WINNERS_FILE,
-    ENRICHED_GRAPH_FILE, NAMESPACES
+    TWSS_RESOURCES_URI,
+    OSCAR_WINNERS_FILE,
+    EXTENDED_PERSONS_FILE,
+    ENRICHED_GRAPH_FILE,
+    NAMESPACES,
 )
 from db.repository import OwlMovieRepository
-from enrichments import oscars
+from enrichments import oscars, person_enricher
 from rdflib import Graph
 
 
 GRAPH_LOCATIONS_TO_ENRICH = [
     TWSS_RESOURCES_URI,
     OSCAR_WINNERS_FILE,
-    # TODO: Persons file
+    EXTENDED_PERSONS_FILE,
 ]
 
 
@@ -21,10 +24,7 @@ def build_enrichment_graph():
     enriched_graph = Graph()
 
     for graph_location in GRAPH_LOCATIONS_TO_ENRICH:
-        enriched_graph += OwlMovieRepository.read(
-            graph_location,
-            namespaces=NAMESPACES
-        )
+        enriched_graph += OwlMovieRepository.read(graph_location, namespaces=NAMESPACES)
 
     return enriched_graph
 
@@ -46,18 +46,18 @@ def main():
 
     # Evaluate arguments
     if not args.offline:
-        # TODO: persons.main()
         logging.info("Running Oscar script")
         oscars.main()
+        logging.info("Running person enricher script")
+        person_enricher.main()
 
     # Merge enrichments
     logging.info("Enriching the graph")
     enriched_graph = build_enrichment_graph()
 
     OwlMovieRepository.write(
-        path_file=ENRICHED_GRAPH_FILE,
-        graph=enriched_graph,
-        namespaces=NAMESPACES)
+        path_file=ENRICHED_GRAPH_FILE, graph=enriched_graph, namespaces=NAMESPACES
+    )
 
     logging.info(f"Done! Enriched graph saved in {ENRICHED_GRAPH_FILE}")
 
