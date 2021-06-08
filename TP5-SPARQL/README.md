@@ -11,16 +11,18 @@
 - En el directorio **data** se encuentran los siguientes archivos:
   - **enriched-graph.ttl:** Grafo final. Es decir, con la información de los TPs anteriores, información de los Oscars y personas.
   - **oscar-winners.ttl:** Grafo resultante de la consulta sobre los Oscars (Ejercicio 5).
-  - **persons.ttl**: Grafo con todas las tripletas extraídas de Wikidata y DBpedia, de las personas de nuestros anteriores TPs (Ejercicio 5).
+  - **dbpedia_persons.ttl**: Grafo con todas las tripletas extraídas de DBpedia sobre las personas en nuestra ontología.
+  - **wikidata_persons.ttl**: Grafo con todas las tripletas extraídas de Wikidata sobre las personas en nuestra ontología.
+  - **extended_persons.ttl**: Grafo que combina todas las tripletas extraidas de DBpedia, Wikidata y las personas de nuestra ontología.
 - En el directorio **src** se encuentran los siguientes scripts:
   - **main.py**: Ejecuta las consultas del ejercicio 5 y luego las une en un archivo final. Genera el archivo **enriched-graph.ttl**.
   - **enrichments/oscars.py**: Ejecuta la consulta del Oscar y genera el siguiente archivo con sus resultados: **oscar-winners.ttl**.
-  - **enrichments/persons.py**: Ejecuta la consulta de las personas y genera el siguiente archivo con sus resultados: **persons.ttl**.
+  - **enrichments/person_enricher.py**: Ejecuta la consulta de las personas y genera el siguiente archivo con sus resultados: **extended_persons.ttl**.
 
 ## Requisitos
 
-- *Python3.8* o versiones posteriores.
-- Se recomienda un entorno virtual como *virtualenv* para instalar las dependencias
+- _Python3.8_ o versiones posteriores.
+- Se recomienda un entorno virtual como _virtualenv_ para instalar las dependencias
 
 ## Ejecución
 
@@ -43,7 +45,7 @@
    cd src
    ```
 
-5. Ejecutar el script principal mediante el comando (ejecutará las consultas del ejercicio 5):
+4. Ejecutar el script principal mediante el comando (ejecutará las consultas del ejercicio 5):
 
    ```bash
    python3 main.py
@@ -54,4 +56,3 @@
 `--verbose / -v`: Permite visualizar todos los logs.
 
 `--offline / -o`: No ejecuta las consultas remotas, es útil para trabajar de forma offline.
-
