@@ -13,7 +13,7 @@ from constants import (
     WIKIDATA_SPARQL_URL,
 )
 from db.repository import OwlMovieRepository
-from querys import (
+from enrichments.querys import (
     COMBINE_REMOTE_AND_LOCAL_ACTORS,
     DBPEDIA_ACTORS_WAS_DIRECTED_BY_OSCAR_WINNER,
     TWSS_ACTORS_NAMES,
@@ -113,11 +113,6 @@ def get_sparql_query(source, query):
 
 
 def main():
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format="%(asctime)s - %(levelname)s - %(message)s",
-    )
-
     logging.info("Reading graphs")
 
     twss_resources = get_twss_resources_graph()

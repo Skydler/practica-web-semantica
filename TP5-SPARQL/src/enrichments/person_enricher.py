@@ -2,9 +2,15 @@ import logging
 
 from SPARQLWrapper import RDFXML, SPARQLWrapper
 
-from constants import NAMESPACES, TWSS_RESOURCES_URI
+from constants import (
+    NAMESPACES,
+    TWSS_RESOURCES_URI,
+    WIKIDATA_PERSONS_FILE,
+    DBPEDIA_PERSONS_FILE,
+    EXTENDED_PERSONS_FILE,
+)
 from db.repository import OwlMovieRepository
-from querys import (
+from enrichments.querys import (
     COMBINE_REMOTE_AND_LOCAL_PERSONS,
     TWSS_PERSONS_NAMES,
     DBPEDIA_PERSONS,
@@ -28,7 +34,7 @@ def query_dbpedia_persons(names):
     results = sparql.queryAndConvert()
 
     OwlMovieRepository.write(
-        path_file="../data/dbpedia_persons.ttl", graph=results, namespaces=NAMESPACES
+        path_file=DBPEDIA_PERSONS_FILE, graph=results, namespaces=NAMESPACES
     )
     return results
 
@@ -43,7 +49,7 @@ def query_wikidata_persons(names):
     results = sparql.queryAndConvert()
 
     OwlMovieRepository.write(
-        path_file="../data/wikidata_persons.ttl",
+        path_file=WIKIDATA_PERSONS_FILE,
         graph=results,
         namespaces=NAMESPACES,
     )
@@ -54,7 +60,7 @@ def merge_graphs(source, remote):
     merged = source + remote
     result = merged.query(COMBINE_REMOTE_AND_LOCAL_PERSONS)
     OwlMovieRepository.write(
-        path_file="../data/extended_persons.ttl",
+        path_file=EXTENDED_PERSONS_FILE,
         graph=result.graph,
         namespaces=NAMESPACES,
     )
@@ -73,8 +79,8 @@ def main():
 
     # dbpedia_graph = query_dbpedia_persons(names)
     # wiki_graph = query_wikidata_persons(names)
-    dbpedia_graph = OwlMovieRepository.read("../data/dbpedia_persons.ttl")
-    wiki_graph = OwlMovieRepository.read("../data/wikidata_persons.ttl")
+    dbpedia_graph = OwlMovieRepository.read(DBPEDIA_PERSONS_FILE)
+    wiki_graph = OwlMovieRepository.read(WIKIDATA_PERSONS_FILE)
     remote_persons_graph = dbpedia_graph + wiki_graph
     merge_graphs(twss_graph, remote_persons_graph)
 
