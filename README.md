@@ -12,3 +12,4 @@ Some wonderful exercises about Semantic Web 😼
 - [TP-4](https://github.com/Skydler/practica-web-semantica/tree/main/TP4-Linked-data): Linked data
     - [Integration with DBpedia](https://github.com/Skydler/practica-web-semantica/blob/main/TP4-Linked-data/data/dataset-enriquecido.ttl)
 - [TP-5](https://github.com/Skydler/practica-web-semantica/tree/main/TP5-SPARQL): SPARQL
+    - [Graph enriched with DBpedia and Wikidata](https://github.com/Skydler/practica-web-semantica/blob/main/TP5-SPARQL/data/enriched-graph.ttl)
