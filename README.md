@@ -13,3 +13,10 @@ Some wonderful exercises about Semantic Web 😼
     - [Integration with DBpedia](https://github.com/Skydler/practica-web-semantica/blob/main/TP4-Linked-data/data/dataset-enriquecido.ttl)
 - [TP-5](https://github.com/Skydler/practica-web-semantica/tree/main/TP5-SPARQL): SPARQL
     - [Graph enriched with DBpedia and Wikidata](https://github.com/Skydler/practica-web-semantica/blob/main/TP5-SPARQL/data/enriched-graph.ttl)
+
+## Side projects
+- [NLP graph](https://github.com/Skydler/NLP-graph)
+- Casares News
+    -  [Backend](https://github.com/Pastorsin/casares-news-api)
+    -  [Frontend](https://github.com/Pastorsin/casares-news)
+
